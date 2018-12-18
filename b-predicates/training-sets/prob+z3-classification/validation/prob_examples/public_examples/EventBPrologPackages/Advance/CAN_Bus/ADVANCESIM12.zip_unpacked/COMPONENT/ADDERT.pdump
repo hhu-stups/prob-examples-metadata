@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/ADDERT.bcm
+8.533496733333333E7,4.6219704333333336E7,7.360293533333333E7,6.2730206666666664E7:(o_sum:NAT) & adder_state:Astate
+5.3220361666666664E7,6.2132528333333336E7,1.07763308E8,4.8799199333333336E7:not((o_sum:NAT)) => (o_sum:INT) & (adder_state:Astate)

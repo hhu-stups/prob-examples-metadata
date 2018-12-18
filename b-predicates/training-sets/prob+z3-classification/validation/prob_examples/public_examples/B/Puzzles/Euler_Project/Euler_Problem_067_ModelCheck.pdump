@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Euler_Project/Euler_Problem_067_ModelCheck.mch
+-1.0,-1.0,-1.0,-1.0:not((TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER))) => (1:dom(Sol) => Sol(1)(1)=7273) & (1:dom(Sol)) & (Sol(1)(1)=7273) & (n=100)

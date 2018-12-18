@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/Namur/Ticket.mch
+1.9287871733333334E8,5.7903732E7,8.263809266666667E7,4.032820563333333E8:(serve:NAT) & (next:NAT) & (record:NAT) & (limit:NAT1) & (serve<=next) & (next<=limit) & (serve<next)
+6.7601823E7,6.0939034333333336E7,1.7398062066666666E8,9.020811933333333E7:not(not((serve<next))) => not((serve:NAT) & (next:NAT) & (record:NAT) & (limit:NAT1) & (serve<=next) & (next<=limit))
+7.247166933333333E7,6.834698266666667E7,9.998494433333333E7,9.7256548E7:not((next<limit)) => not((serve:NAT) & (next:NAT) & (record:NAT) & (limit:NAT1) & (serve<=next) & (next<=limit))
+8.0418676E7,7.535206333333333E7,8.046558566666667E7,9.040788866666667E7:(not((serve:NAT) & (next:NAT) & (record:NAT) & (limit:NAT1) & (serve<=next) & (next<=limit)) => (next:NAT) & (serve<=next) & (serve:NAT) & (record:NAT) & (limit:NAT1) & (next<=limit))
+6.3966188E7,5.7995899333333336E7,9.620192166666667E7,8.485376066666667E7:(not(serve<=next) => serve<next&serve+1<=next)
+6.4454262666666664E7,6.0851406666666664E7,8.887629266666667E7,9.404987833333333E7:(not(limit:NAT1) => not(serve<next&limit:NAT1))
+7.536766133333333E7,6.5571979E7,7.741808533333333E7,1.3534542366666666E8:serve:NAT & not(nn:NAT1&nn>=next&serve:NAT)
+7.661062633333333E7,7.324250766666667E7,9.036279466666667E7,1.3029014833333333E8:record:NAT & not(nn:NAT1&nn>=next&record:NAT)
+8.466083566666667E7,6.9682232E7,8.9454788E7,8.686549233333333E7:(not(next<=limit) => not(next<limit&next+1<=limit))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/proof0.mch
+5.4080340666666664E7,5.4125039333333336E7,1.06445589E8,4.8785626666666664E7:(not((minint:INTEGER) & (maxint:INTEGER)) => not((maxint:INTEGER) & (minint:INTEGER)))

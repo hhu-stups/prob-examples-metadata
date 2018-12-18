@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/GraphicalAnimation/LatinSquares.mch
+7.5343357E7,5.5217101E7,6.8364839E7,5.5507314666666664E7:(Order:NATURAL1) & (LatinSquare:IDX*IDX+->IDX) & (i:IDX) & (j:IDX) & (val:IDX) & ((i,j)/:dom(LatinSquare))
+8.357743433333333E7,5.5994411E7,7.0517557E7,6.929463566666667E7:not((Order:NATURAL1) & (LatinSquare:IDX*IDX+->IDX)) => (i:IDX) & (j:IDX) & (val:IDX) & ((i,j)/:dom(LatinSquare))

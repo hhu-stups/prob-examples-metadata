@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter13/Allocate.mch
+8.272879266666667E7,4.8048335333333336E7,6.1277508333333336E7,5.7344816E7:not((allocated<:NAT1)) => (nn:NAT1)
+4.7406633666666664E7,4.9234100333333336E7,6.1494202666666664E7,5.7212768666666664E7:(not(allocated<:NAT1) => not(!mm.(mm:NAT1-allocated => allocated\/{mm}<:NAT1)))

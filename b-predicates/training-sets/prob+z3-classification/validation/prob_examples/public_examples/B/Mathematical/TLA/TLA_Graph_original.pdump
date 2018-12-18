@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/TLA/TLA_Graph_original.mch
+-1.0,-1.0,-1.0,-1.0:(edges:NODES<->NODES) & (edges~=edges) & (dom(edges)=NODES) & (id(NODES)/\edges={}) & (not(#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))) & #x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))
+-1.0,-1.0,-1.0,-1.0:(edges:NODES<->NODES) & (edges~=edges) & (dom(edges)=NODES) & (id(NODES)/\edges={}) & (not(#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))) & not(#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))

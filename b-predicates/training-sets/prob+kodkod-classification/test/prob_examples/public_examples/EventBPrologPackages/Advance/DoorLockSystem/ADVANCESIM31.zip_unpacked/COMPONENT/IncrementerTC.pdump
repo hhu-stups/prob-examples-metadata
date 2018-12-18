@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/IncrementerTC.bcm
+4.7985874333333336E7,4.7923645E7,6.403433E7,5.6023116E7:not(not((data_received=TRUE) & (inc_complete=FALSE))) => (v:NAT) & (i_sum:NAT)
+7.207452866666667E7,6.4469487666666664E7,6.4825329333333336E7,5.7273693666666664E7:(v:NAT) & (i_sum:NAT) & (data_received=FALSE) & (inc_complete=TRUE) & (data_received=TRUE) & (inc_complete=FALSE)
+4.7797023E7,6.2692865E7,6.4118675333333336E7,6.790865933333333E7:(v:NAT) & (i_sum:NAT) & (data_received=TRUE) & (inc_complete=FALSE) & not((pv:INT) & (data_received=FALSE) & (inc_complete=FALSE))

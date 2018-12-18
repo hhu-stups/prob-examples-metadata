@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/AbrialAccessControl/AccessControl_ProB.zip_unpacked/AccessControl/mac0.bcm
+7.652218466666667E7,4.8764627666666664E7,7.144679466666667E7,9.0142678E7:not((sit:P --> L) & (sit<:aut)) => (p |-> l:aut) & (sit(p)/=l)

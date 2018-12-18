@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter10/Safes.mch
+5.0009944E7,6.8829563E7,-1.0,9.0676452E7:(unlocks:KEY>->>DOOR) & (status~[{unlocked}]<:unlocks[keys]) & (not((dd:DOOR) & (unlocks~(dd):keys)) => (dd:DOOR) & (position(dd)=closed))

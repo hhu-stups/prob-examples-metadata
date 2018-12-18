@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tester/CaseStmt_v2.mch
+5.6898134E7,6.1048033E7,1.03659504E8,5.8953097E7:not((iv:ID) & (iv=cc) & not((xx:ID))) => (yy:ID)
+5.7565886666666664E7,1.480620732E9,6.995985066666667E7,6.2816275E7:(iv:ID) & (iv=cc) & (xx:ID) & (yy=xx)
+5.5658008666666664E7,7.679950066666667E7,6.6593873333333336E7,6.5192298666666664E7:(iv:ID) & (iv=cc) & xx:ID & not(yy=xx)

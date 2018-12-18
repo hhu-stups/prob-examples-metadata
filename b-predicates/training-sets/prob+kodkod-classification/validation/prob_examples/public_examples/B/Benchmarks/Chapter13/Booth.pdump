@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Chapter13/Booth.mch
+1.13751267E8,5.2547138333333336E7,-1.0,8.8900388E7:not(not((cc:CUSTOMER) & (reserved(cc)>0))) => not((reserved:CUSTOMER-->NAT) & (tickets:SEAT+->CUSTOMER))

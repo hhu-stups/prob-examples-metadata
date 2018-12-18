@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/CANBUS.bcm
+5.1011398333333336E7,5.5910043E7,4.1855648666666664E7,2.2559581966666666E8:not((T1_timer<5) & (T1_evaluated=FALSE)) => (T1_timer:NAT) & (T2_timer:NAT) & (T1_cycle_offset:NAT) & (T2_cycle_offset:NAT) & (BUSwrite:NAT +-> INT) & (T1_evaluated=TRUE=>T1_timer>0) & (T2_evaluated=TRUE=>T2_timer>0) & (finite(BUSwrite))

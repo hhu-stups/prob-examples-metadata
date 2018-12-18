@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBTrans/TrafficLight_tlm2.mch
+5.2697343666666664E7,7.328068733333333E7,-1.0,1.2269414066666667E8:(TL_Car=go <=> TL_Car_Color/={red}) & (TL_Ped=go <=> TL_Ped_Color/={red}) & (CallButtonState:BOOL) & (TL_Car_Color={red,yellow} or card(TL_Car_Color)=1) & (TL_Ped_Color={red} or TL_Ped_Color={green}) & (TL_Ped_Color={green}&{red}:{{green},{red}}) & (TL_Ped_Color={green}&(TL_Car_Color={red,yellow} or card(TL_Car_Color)=1)) & (TL_Ped_Color={green}&stop=go <=> {red}/={red}) & (TL_Ped_Color={green}&TL_Car=go <=> TL_Car_Color/={red}) & (TL_Ped_Color={green})
+7.511776532666667E9,5.0604456333333336E7,6.802277933333333E7,1.111666481E9:(not(TL_Ped_Color={red} or TL_Ped_Color={green}) => not(TL_Car_Color={yellow}&TL_Ped_Color:{{green},{red}}))
+5.0866780333333336E7,6.2685578333333336E7,7.9320259E7,6.1070312333333336E7:TL_Car=go <=> TL_Car_Color/={red} & not(TL_Car_Color={red}&CallButtonState=TRUE&TL_Car=go <=> TL_Car_Color/={red})

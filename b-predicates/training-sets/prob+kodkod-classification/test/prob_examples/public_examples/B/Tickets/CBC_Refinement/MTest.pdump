@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/CBC_Refinement/MTest.mch
+-1.0,-1.0,6.0915544666666664E7,-1.0:(takeplace=ROOM*ACTIVITY) & (room:TOKEN-->ROOM) & (holder:TOKEN-->USER) & location:USER+->ROOM & not((u,a):authorised&(u:dom(location) => (location(u),a)/:takeplace) => location:USER+->ROOM)

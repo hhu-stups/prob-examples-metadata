@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/TLA/TLA_GraphState.mch
+6.979733E7,6.837850433333333E7,-1.0,1.12170991E8:(edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))) & (x:NODES) & (y:NODES) & ((x,y)/:edges)
+-1.0,-1.0,-1.0,-1.0:not((edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))) & (x:NODES) & (y:NODES) & ((x,y)/:edges)
+-1.0,-1.0,-1.0,-1.0:not((edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))) & not((x:NODES) & (y:NODES) & ((x,y)/:edges))
+5.8170781666666664E7,5.2300878E7,-1.0,7.556643E7:not(not((x:NODES) & (y:NODES) & ((x,y)/:edges))) => not((edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))))
+7.016595266666667E7,6.789466733333333E7,-1.0,1.80827092E8:(edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))) & edges~=edges

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Corinna/fahrzeug_inhaber2.mch
+-1.0,-1.0,7.4105187E7,-1.0:(person_familie:PERSON-->FAMILIE) & (kfz_marke:KFZ-->MARKE) & (fahrzeug_besitzer:KFZ+->PERSON) & ((name:PERSON) => not((familie:FAMILIE) & (marke:MARKE)))
+6.4145052E7,2.0050040333333334E8,-1.0,1.8701346966666666E8:(person_familie:PERSON-->FAMILIE) & (kfz_marke:KFZ-->MARKE) & (fahrzeug_besitzer:KFZ+->PERSON) & ((kfz,name):fahrzeug_besitzer&fahrzeug_besitzer-{(kfz,name)}:KFZ+->PERSON) & ((kfz,name):fahrzeug_besitzer&person_familie:PERSON-->FAMILIE) & ((kfz,name):fahrzeug_besitzer&kfz_marke:KFZ-->MARKE)

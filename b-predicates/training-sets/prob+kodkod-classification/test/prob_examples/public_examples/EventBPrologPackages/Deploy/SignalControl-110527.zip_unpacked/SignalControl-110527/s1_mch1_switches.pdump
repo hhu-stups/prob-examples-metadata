@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Deploy/SignalControl-110527.zip_unpacked/SignalControl-110527/s1_mch1_switches.bcm
+6.4013331E7,6.1121064E7,6.6973554333333336E7,1.3799024266666666E8:(OCC<:BLOCK) & (IN_SWITCH:PLATFORM) & (OUT_SWITCH:PLATFORM) & (not((ent_pnt/:OCC)) => (OUT_SWITCH:OCC) & (ext_pnt/:OCC))

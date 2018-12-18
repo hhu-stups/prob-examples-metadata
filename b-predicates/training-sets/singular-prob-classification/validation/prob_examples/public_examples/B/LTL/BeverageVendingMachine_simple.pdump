@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/LTL/BeverageVendingMachine_simple.mch
+4.8702725E7,5.7244221333333336E7,6.6620203666666664E7,6.803791166666667E7:(paid:BOOL) & (drink:DRINKS) & (drink/=no_drink => paid=TRUE) & (paid=FALSE) & not((drink=no_drink) & (paid=TRUE))

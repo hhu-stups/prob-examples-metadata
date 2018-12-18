@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Marriages_Chapter11/Life.mch
+4.6961139333333336E7,7.6684984E7,6.6656265E7,5.7257188E7:not(not((nn:PERSON) & (nn/:male\/female) & (ss:SEX))) => (male<:PERSON) & (female<:PERSON) & (male/\female={})
+-1.0,-1.0,6.5439606333333336E7,-1.0:(male<:PERSON) & (female<:PERSON) & (male/\female={}) & (nn:PERSON) & (nn:male\/female) & (nn:PERSON) & (nn/:male\/female) & (ss:SEX)

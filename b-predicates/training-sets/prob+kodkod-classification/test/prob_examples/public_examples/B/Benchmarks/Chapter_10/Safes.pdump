@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Chapter_10/Safes.mch
+4.799635E7,6.998857866666667E7,9.007146366666667E7,4.3383613E7:not((unlocks:KEY>->>DOOR) & not((status~[{unlocked}]<:unlocks[keys]))) => (kk:KEY) & (dd:DOOR) & (unlocks(kk)=dd)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/RefinementChecking/RefinementCheckingExamples.zip_unpacked/RefinementChecking/CEnterLeave.bcm
+-1.0,-1.0,-1.0,-1.0:(s:POW(T)) & (n:NAT) & (l:1 .. n >-> T) & (s=ran(l)) & (n=card(s)) & (p/:ran(l)) & (n<maxitems) & (n |-> p:l)

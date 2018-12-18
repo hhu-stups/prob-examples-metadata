@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Hansen18_While/M1.mch
+4.8689920666666664E7,5.2163826333333336E7,6.1235953E7,5.5897960333333336E7:not((k=52) & (xx+aa+bb<=k) & (#step1.(step1=aa+bb))) => (xx:1..k)
+4.87166E7,5.1938378333333336E7,5.9961605666666664E7,6.805960933333333E7:(k=52) & not((xx:1..k)) & not((xx+aa+bb<=k) & (#step1.(step1=aa+bb)))
+4.8667152666666664E7,5.1891840666666664E7,6.0077216E7,6.4003599666666664E7:(k=52) & (xx:1..k) & (not((xx+2*aa<=k)) => (xx+aa+bb<=k) & (#step1.(step1=aa+bb)))

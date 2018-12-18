@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/CBC/NoDeadlock.mch
+8.043730033333333E7,5.3907576666666664E7,6.3152421E7,7.0154149E7:not((f:1..20-->BOOL) & (not(#c.(c=1)) => 1>2) & (not(#c.(c=c+1))) & (xx:1..20)) => (c=card(f))

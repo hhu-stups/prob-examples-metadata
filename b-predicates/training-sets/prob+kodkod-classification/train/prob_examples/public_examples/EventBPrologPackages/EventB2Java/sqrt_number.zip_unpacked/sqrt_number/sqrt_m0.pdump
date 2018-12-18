@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/EventB2Java/sqrt_number.zip_unpacked/sqrt_number/sqrt_m0.bcm
+5.4952053333333336E7,5.2619075333333336E7,5.7959977333333336E7,6.0665349666666664E7:(r:NAT) & (r*r<=n) & (n<(r+1)*(r+1))

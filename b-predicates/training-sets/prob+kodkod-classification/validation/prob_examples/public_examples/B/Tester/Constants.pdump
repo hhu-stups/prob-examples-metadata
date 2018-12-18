@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/Constants.mch
+5.1255912666666664E7,7.975525366666667E7,-1.0,6.6772224666666664E7:not((PLACEELEMENT:POW(ROUTEELEMENT)) & (pp:PLACEELEMENT)) => (pe:PLACEELEMENT)

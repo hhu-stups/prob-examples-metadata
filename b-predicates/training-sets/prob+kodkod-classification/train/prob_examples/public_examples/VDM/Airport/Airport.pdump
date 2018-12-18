@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/VDM/Airport/Airport.mch
+9.902998133333333E7,7.331921666666667E7,2.02540444E8,7.225066866666667E7:(a:Airport) & (Airport_inv(a))
+5.4156468E7,5.2022793E7,6.6842415E7,7.570296933333333E7:(a:Airport) & (Airport_inv(a)) & (ac:Aircraft) & (ac/:a'permission)
+1.1956066466666667E8,9.203314233333333E7,1.83083454E8,6.882756033333333E7:not((ac:Aircraft) & (ac/:a'permission)) => (a:Airport) & (Airport_inv(a))
+5.3722963E7,5.1438897E7,9.283200966666667E7,5.7892697333333336E7:not((a:Airport) & (Airport_inv(a))) & (ac:Aircraft) & (ac/:a'permission)
+1.1798674466666667E8,9.712864533333333E7,1.6283830533333334E8,6.4969179E7:(a:Airport) & (Airport_inv(a)) & (ac:Aircraft) & (down(ac,a'landed))
+9.257713566666667E7,5.1590079666666664E7,1.58840171E8,5.0882797666666664E7:(a:Airport) & (Airport_inv(a)) & (not((ac:Aircraft) & (ac/:a'permission)) => (ac:Aircraft) & (PreRecordLanding(ac,a'permission,a'landed)))
+6.4392941666666664E7,5.2748444333333336E7,1.2072645533333333E8,6.6225344333333336E7:(a:Airport) & (Airport_inv(a)) & (not((ac:Aircraft) & (ac/:a'permission)) => (ac:Aircraft) & (down(ac,a'landed)))
+5.3880059E7,5.0345508333333336E7,8.607188566666667E7,8.125542166666667E7:(a:Airport) & (Airport_inv(a)) & (ac:Aircraft) & (ac/:a'permission) & not((ac:Aircraft) & (down(ac,a'landed)))
+-1.0,-1.0,6.6616385666666664E7,-1.0:(a:Airport) & (Airport_inv(a)) & (ac:Aircraft) & (PreRecordLanding(ac,a'permission,a'landed)) & (ac:Aircraft) & (down(ac,a'landed))

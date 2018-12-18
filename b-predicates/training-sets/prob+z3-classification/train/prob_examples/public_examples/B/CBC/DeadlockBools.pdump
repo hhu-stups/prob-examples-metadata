@@ -1,0 +1,13 @@
+#source:examples/prob_examples/public_examples/B/CBC/DeadlockBools.mch
+9.927118966666667E7,4.68716727E8,9.5996728E7,6.7759804E7:not((a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (xx:BOOL)) => (a=FALSE) & (b=FALSE) & (d=FALSE) & (e:S)
+5.5433282666666664E7,5.5778857666666664E7,9.254028233333333E7,7.783548E7:not((a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & not((a=FALSE) & (b=FALSE) & (d=FALSE) & (e:S))) => (xx:BOOL)
+6.4755558E7,2.25328631E8,7.738286166666667E7,1.04598916E8:not((a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & not((a=FALSE) & (b=FALSE) & (d=FALSE) & (e:S))) => not((xx:BOOL))
+8.311587666666667E7,1.3762639333333334E8,7.4156427E7,1.0764711533333333E8:not((a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & not((xx:BOOL))) => not((a=FALSE) & (b=FALSE) & (d=TRUE) & (#x.(x=TRUE)) & (e:S))
+5.5319395E7,5.2060321E7,6.5915854333333336E7,5.7601808333333336E7:not((a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (a=TRUE) & (b=FALSE) & (c=FALSE) & (e:S)) => (xx:BOOL)
+5.1978537E7,2.2302831466666666E8,8.461751033333333E7,1.1590214533333333E8:not((a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & not((a=TRUE) & (b=FALSE) & (c=TRUE) & (e:S))) => not((xx:BOOL))
+5.2654298E7,1.6082119533333334E8,1.0278667433333333E8,9.281161633333333E7:(a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (xx:BOOL) & (not((a=FALSE) & (b=FALSE) & (d=FALSE) & (e:S)) => (a=TRUE) & (b=FALSE) & (c=TRUE) & (e:S))
+8.224670166666667E7,6.5124575666666664E7,8.030911866666667E7,6.0280221333333336E7:(a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (xx:BOOL) & (a=FALSE) & (b=FALSE) & (d=TRUE) & (#x.(x=TRUE)) & (e:S) & (a=TRUE) & (b=FALSE) & (c=FALSE) & (e:S)
+5.6828572E7,2.53496388E8,6.5194975666666664E7,7.5048021E7:(a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (xx:BOOL) & ((a=FALSE) & (b=FALSE) & (d=TRUE) & (#x.(x=TRUE)) & (e:S) => not((a=TRUE) & (b=FALSE) & (c=TRUE) & (e:S)))
+4.9547548666666664E7,6.2616505666666664E7,6.6766195E7,6.3945282333333336E7:(a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & xx:BOOL & not(a=FALSE&b=FALSE&d=FALSE&e:S)
+4.9606471E7,5.5897354666666664E7,6.404306E7,5.5978417333333336E7:(a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (not((xx:BOOL)) => not((a=TRUE&b=FALSE&c=FALSE&e:S)))
+8.756083233333333E7,5.6821239E7,6.5456764333333336E7,6.6856406666666664E7:(a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & xx:BOOL & a=FALSE&b=TRUE&d=FALSE&e:S

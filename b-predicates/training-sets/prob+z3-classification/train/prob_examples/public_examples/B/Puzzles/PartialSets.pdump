@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/PartialSets.mch
+8.405396133333333E7,7.869268866666667E7,2.9111749E8,1.2615247133333333E8:(pset(x)) & (pset(y)) & (not(g:POW(POW(Els))) => g:POW(POW(Els)))
+-1.0,-1.0,1.6327455733333334E8,-1.0:(pset(x)) & (pset(y)) & pset(r) & not(r'def/\r'maybe={})

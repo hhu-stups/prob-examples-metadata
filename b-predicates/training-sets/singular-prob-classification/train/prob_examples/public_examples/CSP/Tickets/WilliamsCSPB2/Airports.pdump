@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSP/Tickets/WilliamsCSPB2/Airports.mch
+4.7056519E7,4.8743814666666664E7,7.526166566666667E7,5.7936813333333336E7:(not((flights:AIRPORT<->AIRPORT)) => not(((a1,a2):flights)))

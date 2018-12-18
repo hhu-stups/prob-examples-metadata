@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/RecursiveFunctions/Tests/NestedDef.mch
+-1.0,-1.0,-1.0,-1.0:not((ff=%x.(x:INTEGER|x+1)) & (ss={ff,bb|bb:BOOL&ff:BOOL-->BOOL&ff={(TRUE,bb)}\/ff})) => (yy:0..10)
+-1.0,-1.0,-1.0,-1.0:not((ff=%x.(x:INTEGER|x+1)) & (ss={ff,bb|bb:BOOL&ff:BOOL-->BOOL&ff={(TRUE,bb)}\/ff})) => ff(0)=1
+-1.0,-1.0,-1.0,-1.0:not((ff=%x.(x:INTEGER|x+1)) & (ss={ff,bb|bb:BOOL&ff:BOOL-->BOOL&ff={(TRUE,bb)}\/ff})) => card(ss)=4

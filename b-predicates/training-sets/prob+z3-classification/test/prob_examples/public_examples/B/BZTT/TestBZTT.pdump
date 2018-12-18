@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/BZTT/TestBZTT.mch
+-1.0,1.2044757933333333E8,-1.0,-1.0:not((fun:ID-->ID) & (x:ID) & (s:POW(ID))) => not((z:ID) & (z=fun(z)))
+5.3891350333333336E7,1.64852295E8,-1.0,9.961408733333333E7:not((z:ID) & (z=fun(z))) => not((fun:ID-->ID) & (x:ID) & (s:POW(ID)))
+6.0620488333333336E7,6.3164130666666664E7,-1.0,1.06695365E8:(fun:ID-->ID) & (x:ID) & (s:POW(ID)) & (ff:ID-->ID) & (!y.(y:ID => ff(y)/=y)) & not((ff:ID-->ID) & (ff(a)/=a) & (ff(b)/=b) & (ff(c)/=c) & (ff(d)/=d) & (ff(e)/=e) & (ff(f)/=f) & (ff(g)/=g))
+7.279931833333333E7,1.3446698333333334E8,-1.0,7.048440566666667E7:(not((fun:ID-->ID) & (x:ID) & (s:POW(ID))) => (s:POW(ID)) & (fun:ID-->ID) & (x:ID))
+-1.0,9.297583633333333E7,-1.0,-1.0:(not((fun:ID-->ID) & (x:ID) & (s:POW(ID))) => (ff:ID-->ID&!y.(y:ID => ff(y)/=y)) & (ff:ID-->ID&!y.(y:ID => ff(y)/=y)&ff:ID-->ID) & (ff:ID-->ID&!y.(y:ID => ff(y)/=y)))
+-1.0,1.80077625E8,-1.0,-1.0:(not(fun:ID-->ID) => z=fun(z)&fun:ID-->ID)

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/BlocksWorld.mch
+8.456953E7,5.1049136E7,9.3467798E7,7.3035056E7:(on:Objects+->Objects) & not((obj/:ran(on)) & ((obj,table)/:on))
+4.7282828333333336E7,7.374843766666667E7,-1.0,6.6715816333333336E7:not(not((obj/:ran(on)) & (onobj/:ran(on)) & (obj/=onobj))) => not((on:Objects+->Objects))

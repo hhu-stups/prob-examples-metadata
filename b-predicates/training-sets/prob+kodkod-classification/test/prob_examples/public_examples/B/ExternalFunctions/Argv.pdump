@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/Argv.mch
+4.7546991E7,4.7961942E7,6.0040154E7,5.611654E7:not(not((x>0))) => not((x:NATURAL))

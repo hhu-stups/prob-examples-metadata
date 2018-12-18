@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Puzzles/Puzzles.zip_unpacked/Puzzles/MagicSquareEvent.bcm
+3.534231786666667E8,3.92461942E8,4.889639246666667E8,3.73526526E8:not(not((sq:1 .. 3 ** 1 .. 3 >-> 1 .. magic_sum) & (!i oftype INT.i:1 .. 3=>18=sq(1 |-> i)+sq(2 |-> i)+sq(3 |-> i)) & (!j oftype INT.j:1 .. 3=>18=sq(j |-> 1)+sq(j |-> 2)+sq(j |-> 3)) & (18=sq(1 |-> 1)+sq(2 |-> 2)+sq(3 |-> 3)) & (18=sq(1 |-> 3)+sq(2 |-> 2)+sq(3 |-> 1)))) => (magic_sum:NAT1) & (square:1 .. 3 ** 1 .. 3 +-> 1 .. magic_sum)

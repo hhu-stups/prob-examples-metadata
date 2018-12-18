@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/U2B/DSP0_mjb.mch
+4.8623897333333336E7,7.024049633333333E7,-1.0,7.172443733333333E7:(threshold:DSP-->INT) & (threshold(thisDSP)>=0) & (not(current:DSP+->CELL) => current:DSP+->CELL)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tickets/SonLazySetEvaluation/ProB-Animation_v2.zip_unpacked/ProB-Animation/m0_v2.bcm
+3.2707883666666668E7,1.0051951E8,3.06720545E8,2.64244892E8:(m1:MSG) & (m2:MSG) & (p=ADD_MSG(m1 |-> m2))

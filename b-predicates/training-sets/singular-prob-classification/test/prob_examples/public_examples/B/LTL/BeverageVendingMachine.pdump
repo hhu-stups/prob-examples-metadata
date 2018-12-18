@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/LTL/BeverageVendingMachine.mch
+4.8341948666666664E7,5.9138828666666664E7,6.3290171E7,6.1760530666666664E7:(nmax:NATURAL) & (nmax=1) & (nsoda:NATURAL) & (nbeer:NATURAL) & (paid:BOOL) & not((nsoda>0&paid=TRUE&nbeer:NATURAL) & (nsoda>0&paid=TRUE&nsoda-1:NATURAL) & (nsoda>0&paid=TRUE))

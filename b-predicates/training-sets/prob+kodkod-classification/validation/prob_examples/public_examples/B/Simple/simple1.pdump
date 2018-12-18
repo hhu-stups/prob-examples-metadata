@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Simple/simple1.mch
+-1.0,-1.0,5.9831025666666664E7,-1.0:not((users:POW(Name)) & (users/=Name)) & (uu:Name) & (uu/:users)

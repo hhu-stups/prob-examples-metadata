@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Demo/Simpson/Simpson_Four_Slot_CSP.mch
+4.9724619666666664E7,6.2359233333333336E7,-1.0,1.8857742533333334E8:(neg:INDEX>->>INDEX) & (neg(p0)=p1) & (neg(p1)=p0) & (neg(s0)=s1) & (neg(s1)=s0) & (neg[pairIndex]=pairIndex) & (neg[slotIndex]=slotIndex) & (pairIndex={p0,p1}) & (slotIndex={s0,s1}) & data:pairIndex*slotIndex-->DATA & data:pairIndex*slotIndex-->NATURAL

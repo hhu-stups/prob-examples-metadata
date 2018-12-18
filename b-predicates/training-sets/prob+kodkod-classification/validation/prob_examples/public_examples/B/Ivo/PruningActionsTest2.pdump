@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/PruningActionsTest2.mch
+4.7583961E7,4.7753442E7,6.3872717333333336E7,7.6003822E7:(not(zz:INTEGER) => not(yy>0&xx<2))

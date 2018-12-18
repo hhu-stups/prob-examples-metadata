@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Convergence/countdown.zip_unpacked/Countdown/countdown_m.bcm
+8.434636366666667E7,1.4681564366666666E8,2.20172854E8,9.650675533333333E7:not((n=0)) => not((n:NAT))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/McCarthyMutilatedChessboard_MC.mch
+1.1684551566666667E8,3.0928811086666665E9,1.3451929433333334E8,8.334160333333333E7:(row:0..n) & (remaining<:Board)

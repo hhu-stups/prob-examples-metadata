@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROB-83/Time.mch
+-1.0,-1.0,6.6702337333333336E7,-1.0:not((Time=%b,n.(b=FALSE|n)\/%b,n.(b=TRUE|n+1)) & (b=FALSE) & (b=TRUE) & (CLK:BOOL)) => (cnt:NATURAL)
+4.7735818666666664E7,5.1015193333333336E7,6.3231597666666664E7,4.8953781333333336E7:(Time=%b,n.(b=FALSE|n)\/%b,n.(b=TRUE|n+1)) & (b=FALSE) & (b=TRUE) & not((cnt:NATURAL)) & (CLK:BOOL)
+1.2472652166666667E8,1.1241236266666667E8,9.553861566666667E7,5.8870452E7:not((Time=%b,n.(b=FALSE|n)\/%b,n.(b=TRUE|n+1)) & (b=FALSE) & (b=TRUE) & not((cnt:NATURAL))) => not((CLK:BOOL))
+-1.0,-1.0,6.6788591E7,-1.0:not((Time=%b,n.(b=FALSE|n)\/%b,n.(b=TRUE|n+1)) & (b=FALSE) & (b=TRUE) & not((CLK:BOOL))) => not((cnt:NATURAL))
+-1.0,-1.0,6.4087735666666664E7,-1.0:not((Time=%b,n.(b=FALSE|n)\/%b,n.(b=TRUE|n+1)) & (b=FALSE) & (b=TRUE) & (CLK:BOOL)) => not((cnt:NATURAL))
+4.7376229666666664E7,5.1514442E7,6.4296118333333336E7,5.1709182666666664E7:(Time=%b,n.(b=FALSE|n)\/%b,n.(b=TRUE|n+1)) & (b=FALSE) & (b=TRUE) & cnt:NATURAL & not(Time((CLK,cnt)):NATURAL)
+1.772677564E9,5.3888486666666664E7,6.3949123666666664E7,5.2146948E7:(Time=%b,n.(b=FALSE|n)\/%b,n.(b=TRUE|n+1)) & (b=FALSE) & (b=TRUE) & (not((cnt:NATURAL)) => (Time((CLK,cnt)):NATURAL))

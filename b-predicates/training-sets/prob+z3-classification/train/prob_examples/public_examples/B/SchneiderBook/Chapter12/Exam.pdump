@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter12/Exam.mch
+6.764715E7,4.8590793E7,5.8130809E7,5.6966718E7:not((marks:CANDIDATE+->0..100)) => (marks/={})
+8.782594966666667E7,5.1828238666666664E7,6.4074302666666664E7,6.6497143333333336E7:not((marks:CANDIDATE+->0..100)) & (marks/={})
+-1.0,-1.0,6.4009653E7,-1.0:not((marks:CANDIDATE+->0..100)) & not((marks/={}))
+5.0474016E7,5.3472232666666664E7,4.4320207666666664E7,9.052675833333333E7:(not(marks:CANDIDATE+->0..100) => not(cc/:dom(marks)&nn:0..100&marks<+{(cc,nn)}:CANDIDATE+->0..100))
+5.0847806666666664E7,5.1950531E7,4.5478990666666664E7,8.751818233333333E7:(not((marks:CANDIDATE+->0..100)) => not((cc/:dom(marks)&nn:0..100&marks<+{(cc,nn)}:CANDIDATE+->0..100)))

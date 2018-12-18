@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/U2B/PLATFORM_CLASS.mch
+-1.0,-1.0,-1.0,-1.0:(invariant) & (thisPLATFORM:PLATFORM) & (tt:TRAIN) & (tt/:UNION(pp).(pp:PLATFORM|trains(pp))) & not((thisPLATFORM:PLATFORM))

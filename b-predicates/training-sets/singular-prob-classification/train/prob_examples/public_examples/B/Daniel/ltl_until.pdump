@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Daniel/ltl_until.mch
+5.2111724666666664E7,5.5864110333333336E7,4.2380878666666664E7,9.2563447E7:not((full_length=3) & (a:STATES+->BOOL) & (b:STATES+->BOOL) & (full_length/:dom(a)) & (full_length/:dom(b))) => not(FULL_UNTIL(c,d))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FunctionalProgramming/SimpleClosure.mch
+5.0147508333333336E7,5.2169902333333336E7,6.3856164666666664E7,6.4053839E7:(not(fun:NAT<->NAT) => %y.(y:NAT|x+y):NAT<->NAT)

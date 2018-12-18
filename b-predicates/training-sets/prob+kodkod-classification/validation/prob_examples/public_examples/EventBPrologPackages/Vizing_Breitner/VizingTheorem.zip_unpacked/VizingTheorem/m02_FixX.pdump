@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Vizing_Breitner/VizingTheorem.zip_unpacked/VizingTheorem/m02_FixX.bcm
+-1.0,-1.0,-1.0,-1.0:(coloring:graph +-> C) & (coloring:valid) & (coloring2:valid) & (X:V) & (dom(coloring2)=graph or(#y oftype V.X |-> y:graph&X |-> y/:dom(coloring2))) & (dom(coloring2)=graph) & (X |-> y:graph) & (X |-> w:graph) & (X |-> y/:dom(coloring2)) & (X |-> w:dom(coloring2)) & (!z oftype V.not y |-> z |-> coloring2(X |-> w):coloring2)

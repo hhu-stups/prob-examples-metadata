@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Abrial_Teaching/ch4_brp_bms.zip_unpacked/ch4_brp/brp_1_standalone.bcm
+5.2105997333333336E7,5.2063324333333336E7,7.529402533333333E7,6.6846536333333336E7:(r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & (s_st/=working) & (r_st/=working)
+4.9880737666666664E7,5.4477411666666664E7,-1.0,6.3485051666666664E7:not(not((r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success))) => not((r_st=working) & (r+1=n))
+5.1989851666666664E7,5.3304194666666664E7,7.613300533333333E7,6.3788815E7:not(not((s_st=working))) => not((r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success))
+4.9905089333333336E7,5.2028310666666664E7,7.320314033333333E7,7.670940533333333E7:(r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & (not((s_st=working) & (r_st=success)) => (s_st=working))

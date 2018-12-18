@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/LTL/Fairness/TestingFairness.mch
+4.7601072E7,4.8152213E7,5.9863478E7,5.4625871333333336E7:not(not((addr=3))) => (addr:NATURAL)

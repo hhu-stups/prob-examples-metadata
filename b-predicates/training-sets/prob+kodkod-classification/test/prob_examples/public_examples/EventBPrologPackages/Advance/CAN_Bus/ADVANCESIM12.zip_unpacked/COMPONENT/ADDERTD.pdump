@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/ADDERTD.bcm
+4.7986176666666664E7,4.8019933333333336E7,6.803339533333333E7,5.9913880666666664E7:(o_sum:NAT) & (adder_state=A_EN)

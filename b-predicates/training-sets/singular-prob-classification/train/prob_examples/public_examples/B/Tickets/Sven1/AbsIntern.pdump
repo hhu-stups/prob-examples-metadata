@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Sven1/AbsIntern.mch
+5.5073274333333336E7,7.221097533333333E7,1.0327581933333333E8,4.8896045333333336E7:not((planes<:PLANES)) => not((plane=P1) & (plane:PLANES) & (POW(planes)<:POW(planes\/{plane})))

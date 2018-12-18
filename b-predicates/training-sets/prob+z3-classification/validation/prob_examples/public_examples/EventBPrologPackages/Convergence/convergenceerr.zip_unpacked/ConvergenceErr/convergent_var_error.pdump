@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Convergence/convergenceerr.zip_unpacked/ConvergenceErr/convergent_var_error.bcm
+8.088512266666667E7,1.0492055833333333E8,6.1076132333333336E7,1.8679793933333334E8:(n:INT) & (n>=0)

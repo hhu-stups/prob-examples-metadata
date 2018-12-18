@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/Z/CZT/birthdaybook.mch
+5.3789079333333336E7,6.3874998666666664E7,1.0464920166666667E8,1.19479346E8:birthday:NAME+->DATE & not(date__in:14..15&name__in:1..2&known=dom(birthday)&name__in/:known&!birthday__prime,known__prime.(birthday__prime=birthday\/{(name__in,date__in)}&known__prime=dom(birthday__prime) => (known__prime:POW(1..2)&birthday__prime:1..2+->14..15 => birthday__prime:1..2+->14..15)))

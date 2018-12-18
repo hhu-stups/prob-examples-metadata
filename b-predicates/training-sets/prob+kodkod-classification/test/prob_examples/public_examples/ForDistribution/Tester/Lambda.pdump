@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/Lambda.mch
+5.3921894666666664E7,7.4483564E7,1.0003653366666667E8,6.6462641333333336E7:(not((col1:POW(COLOURS)) & (col2:POW(COLOURS)) & (pf:COLOURS+->COLOURS)) => (col2:POW(COLOURS)) & (col1:POW(COLOURS)) & ({x1,x2|x1:COLOURS&x2:COLOURS}:COLOURS+->COLOURS))

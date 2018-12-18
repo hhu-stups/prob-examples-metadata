@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/NQueensBig.mch
+1.1025177633333333E8,7.277736433333333E7,1.2519774066666667E8,1.1396165233333333E8:not((n=14) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q2)-queens(q1)/=q2-q1&queens(q1)-queens(q2)/=q2-q1))) => (yy:1..n)

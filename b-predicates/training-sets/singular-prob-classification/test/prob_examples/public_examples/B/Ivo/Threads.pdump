@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Ivo/Threads.mch
+1.24930342E8,5.0694668333333336E7,1.0243551233333333E8,1.00076809E8:not((n=3) & not((pc1<n))) => not((pc1:NATURAL) & (pc2:NATURAL) & (v1:INTEGER) & (v2:INTEGER))
+4.1230569333333336E7,4.8878911E7,5.9425154333333336E7,5.7735531E7:(n=3) & v1:INTEGER & pc2<n

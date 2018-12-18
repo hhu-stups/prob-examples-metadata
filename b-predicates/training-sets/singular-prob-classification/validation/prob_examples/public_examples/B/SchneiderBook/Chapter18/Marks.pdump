@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter18/Marks.mch
+4.9742731333333336E7,5.2104787E7,6.387891E7,5.8692077333333336E7:(not(marks<:0..100) => mm:0..100&marks\/{mm}<:0..100)

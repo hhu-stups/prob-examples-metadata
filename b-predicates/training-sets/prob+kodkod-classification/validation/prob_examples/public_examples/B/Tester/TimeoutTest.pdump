@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/TimeoutTest.mch
+1.15272177E8,9.450249733333333E7,1.01018968E8,6.6666834333333336E7:(xx:ID) & ((yy:ID) & (!x.(x<:POW(ID) => {yy}:x)) => not((yy:ID)))

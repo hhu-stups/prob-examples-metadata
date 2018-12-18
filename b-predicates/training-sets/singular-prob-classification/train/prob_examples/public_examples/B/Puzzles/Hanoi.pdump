@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Hanoi.mch
+6.9044464E7,6.791401333333333E7,-1.0,1.7106833166666666E8:(orig:Stakes) & (dest:Stakes) & (orig/=dest) & (nrdiscs=5) & (on:Stakes-->iseq(1..nrdiscs)) & (#s.(s:Stakes&on(s)/=[])) & not((from:Stakes) & (on(from)/=[]) & (to:Stakes) & (to/=from) & (disc:NATURAL1) & (disc=first(on(from))) & (on(to)/=[] => first(on(to))>disc))
+5.7622830333333336E7,6.6514580333333336E7,-1.0,1.7204915933333334E8:not((orig:Stakes) & (dest:Stakes) & (orig/=dest) & (nrdiscs=5) & (on:Stakes-->iseq(1..nrdiscs)) & (#s.(s:Stakes&on(s)/=[]))) => not((from:Stakes) & (on(from)/=[]) & (to:Stakes) & (to/=from) & (disc:NATURAL1) & (disc=first(on(from))) & (on(to)/=[] => first(on(to))>disc))

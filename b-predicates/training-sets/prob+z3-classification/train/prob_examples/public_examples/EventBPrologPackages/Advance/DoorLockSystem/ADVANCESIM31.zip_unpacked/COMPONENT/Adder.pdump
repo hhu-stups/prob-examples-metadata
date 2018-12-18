@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/Adder.bcm
+8.471803566666667E7,4.7818231666666664E7,6.9888729E7,4.9133389666666664E7:(o_sum:NAT) & (o_sum:INT) & (data_ready:BOOL)

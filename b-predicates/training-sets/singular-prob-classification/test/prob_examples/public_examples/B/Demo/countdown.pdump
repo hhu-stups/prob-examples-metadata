@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Demo/countdown.mch
+4.6995757666666664E7,4.9173850666666664E7,-1.0,9.917618266666667E7:(not(nums:POW(NATURAL)) => not(card(nums)<2&{5,6,7,8,9,11}:POW(NATURAL)))

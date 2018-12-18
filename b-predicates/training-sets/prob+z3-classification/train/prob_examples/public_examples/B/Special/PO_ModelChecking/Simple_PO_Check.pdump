@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Special/PO_ModelChecking/Simple_PO_Check.mch
+6.948758433333333E7,4.9257590333333336E7,5.9672997666666664E7,5.5478796333333336E7:not((xx:NATURAL) & (yy:NATURAL)) => (yy<5)

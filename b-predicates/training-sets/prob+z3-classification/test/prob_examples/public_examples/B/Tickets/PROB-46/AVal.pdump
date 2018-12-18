@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROB-46/AVal.mch
+1.2043912866666667E8,5.1547453E7,6.0068905E7,6.1355078666666664E7:count:NATURAL & !count.(count:{count+1,count+2} => count:NATURAL)

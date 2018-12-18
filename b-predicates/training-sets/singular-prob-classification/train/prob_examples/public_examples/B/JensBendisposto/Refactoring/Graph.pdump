@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/Refactoring/Graph.mch
+5.7307403666666664E7,8.521509633333333E7,-1.0,1.1199443233333333E8:(Labels<:LabelsUniverse) & (card(Labels)<card(LabelsUniverse)) & (Labels/={}) & not((V<:Vertices) & (E<:Vertices*Vertices) & (InitialLabeling:Vertices*Vertices<->Labels) & (L:Vertices*Vertices<->LabelsUniverse) & (f:V>->>V) & (g:Labels>+>LabelsUniverse) & (E/={}) & (InitialLabeling/={}) & (V/={})) & (o1:ran(g)) & (o2:LabelsUniverse) & (o2/:ran(g))
+5.0637910666666664E7,6.4848795333333336E7,-1.0,1.5971057966666666E8:(Labels<:LabelsUniverse) & (card(Labels)<card(LabelsUniverse)) & (Labels/={}) & f:V>->>V & o1:ran(g)&o2/:ran(g)&f:V>->>V
+5.474076E7,6.1264378333333336E7,-1.0,6.727666513333334E8:(Labels<:LabelsUniverse) & (card(Labels)<card(LabelsUniverse)) & (Labels/={}) & g:Labels>+>LabelsUniverse & not(o1:ran(g)&o2/:ran(g)&g|>>{o1}\/{(g~(o1),o2)}:Labels>+>LabelsUniverse)

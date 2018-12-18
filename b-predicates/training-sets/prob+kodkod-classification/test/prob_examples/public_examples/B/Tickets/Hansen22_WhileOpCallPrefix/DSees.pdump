@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Hansen22_WhileOpCallPrefix/DSees.mch
+7.509677033333333E7,5.6730631E7,3.215130923333333E8,6.2457406333333336E7:(not(y:NATURAL) => y:NATURAL&y>C__x-10&!y.(y:NATURAL&y>C__x-10&y>0 => y-1:NATURAL&y-1>C__x-10)&!y.(y:NATURAL&y>C__x-10 => y:NATURAL)&!y.(y:NATURAL&y>C__x-10&y>0 => y-1<y)&!y.(y:NATURAL&y>C__x-10&not(y>0) => y:NATURAL))

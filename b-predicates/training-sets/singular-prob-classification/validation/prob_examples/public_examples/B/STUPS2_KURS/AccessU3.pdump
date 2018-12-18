@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/AccessU3.mch
+-1.0,-1.0,7.5473448E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((access:USER<->PRINTER)) & not((uu:USER) & (oo:OPTION))
+-1.0,-1.0,7.8288983E7,-1.0:not((options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((access:USER<->PRINTER))) => not((u1:USER) & (u2:USER))
+-1.0,-1.0,6.742733633333333E7,-1.0:not((options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((u1:USER) & (u2:USER))) => not((access:USER<->PRINTER))
+-1.0,-1.0,8.003115E7,-1.0:not((options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((access:USER<->PRINTER))) => not((u1:USER) & (u2:USER))
+-1.0,-1.0,7.089858766666667E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & (uu:USER) & (pp:PRINTER) & not((uu:USER))
+-1.0,-1.0,9.1054503E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & (uu:USER) & (oo:OPTION) & not((uu:USER) & (pp:PRINTER))
+-1.0,-1.0,8.450434466666667E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & (uu:USER) & (oo:OPTION) & not((u1:USER) & (u2:USER))
+-1.0,-1.0,7.0065544E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & ((u1:USER) & (u2:USER) => not((uu:USER) & (pp:PRINTER)))
+-1.0,-1.0,6.5583712333333336E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & ((uu:USER) & (pp:PRINTER) => not((uu:USER)))

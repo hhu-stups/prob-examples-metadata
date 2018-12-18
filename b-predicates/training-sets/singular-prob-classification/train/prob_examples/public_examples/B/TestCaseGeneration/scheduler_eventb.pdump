@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/scheduler_eventb.mch
+5.3222806333333336E7,6.2181627E7,7.2269735E7,6.3486006E7:not((active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={})) => (active/={})
+5.3200480333333336E7,6.5583386666666664E7,7.550438766666667E7,1.0374578133333333E8:(active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & not((active/={}))
+4.9988130333333336E7,6.5786880666666664E7,6.0551135666666664E7,9.381016033333333E7:not((active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={})) & not((active/={}))
+4.8760297333333336E7,5.9945798E7,7.1382122E7,6.3085769333333336E7:active={} => ready={} & !pp.(pp/:active&pp/:ready\/waiting => (active={} => ready={}))
+4.5172574E7,4.8424220666666664E7,6.5555380333333336E7,5.0905844666666664E7:(not(ready<:PID) => not(!pp.(pp/:active&pp/:ready\/waiting => ready<:PID)))
+4.5164286E7,4.6993429333333336E7,6.3652997E7,4.9656012E7:(not(waiting<:PID) => not(!pp.(pp/:active&pp/:ready\/waiting => waiting<:PID)))

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Farmer.mch
+1.1797598966666667E8,1.96577605E8,9.193163933333333E7,2.80174246E8:(eats:Obj+->Obj) & (eats={(fox,chicken),(chicken,grain)}) & near\/far=Obj & farmer:far&x<:far-{farmer}&card(x)<2&!x,y.(x:near&y:near => (x,y)/:eats)&near\/{farmer}\/x\/far-{farmer}-x=Obj
+5.4065487666666664E7,7.0701239E7,7.162326066666667E7,8.490486166666667E7:(eats:Obj+->Obj) & (eats={(fox,chicken),(chicken,grain)}) & (not(near<:Obj) => not(farmer:far&x<:far-{farmer}&card(x)<2&!x,y.(x:near&y:near => (x,y)/:eats)))
+6.3658747E7,1.9865105266666666E8,1.00128515E8,8.2830412E7:(eats:Obj+->Obj) & (eats={(fox,chicken),(chicken,grain)}) & (not(far<:Obj) => not(farmer:near&not(!x,y.(x:far&y:far => (x,y)/:eats)) or (farmer:far&not(!x,y.(x:near&y:near => (x,y)/:eats)))))

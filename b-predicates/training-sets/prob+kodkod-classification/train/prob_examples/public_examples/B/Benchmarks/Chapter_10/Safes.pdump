@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Chapter_10/Safes.mch
+5.3958305E7,1.07781653E8,-1.0,6.4228535333333336E7:(unlocks:KEY>->>DOOR) & (status~[{unlocked}]<:unlocks[keys]) & not((kk:KEY) & (dd:DOOR) & (unlocks(kk)=dd) & (status(dd)=locked))
+4.662570964333333E9,1.659573004E9,-1.0,6.3941767333333336E7:not((unlocks:KEY>->>DOOR) & not((kk:KEY) & (dd:DOOR) & (unlocks(kk)=dd) & (status(dd)=locked))) => (status~[{unlocked}]<:unlocks[keys])
+5.0016742333333336E7,7.416944133333333E7,-1.0,6.4604653666666664E7:not((unlocks:KEY>->>DOOR) & (kk:KEY) & (dd:DOOR) & (unlocks(kk)=dd) & (status(dd)=locked)) => not((status~[{unlocked}]<:unlocks[keys]))
+4.9750577333333336E7,6.968984433333333E7,-1.0,5.6300664666666664E7:(unlocks:KEY>->>DOOR) & (status~[{unlocked}]<:unlocks[keys]) & not((kk:KEY) & (dd:DOOR) & (unlocks(kk)=dd))
+4.8862777333333336E7,6.946325633333333E7,-1.0,1.02077017E8:not((unlocks:KEY>->>DOOR) & (kk:KEY) & (dd:DOOR) & (unlocks(kk)=dd)) => (status~[{unlocked}]<:unlocks[keys])
+4.8907756E7,7.142600566666667E7,-1.0,2.63757167E8:not((unlocks:KEY>->>DOOR) & (dd:DOOR) & (position(dd)=closed)) => (status~[{unlocked}]<:unlocks[keys])
+4.330397043333333E9,3.5102334356666665E9,6.2875546666666664E7,2.141589537E9:not((unlocks:KEY>->>DOOR) & not((status~[{unlocked}]<:unlocks[keys]))) => not((dd:DOOR) & (position(dd)=closed))
+5.0650667666666664E7,6.1421521E7,-1.0,1.4960261366666666E8:not((unlocks:KEY>->>DOOR) & (dd:DOOR) & (position(dd)=closed)) => not((status~[{unlocked}]<:unlocks[keys]))
+5.0164945333333336E7,7.5129829E7,-1.0,6.950676733333333E7:(unlocks:KEY>->>DOOR) & (status~[{unlocked}]<:unlocks[keys]) & (dd:DOOR) & (unlocks~(dd):keys) & not((dd:DOOR) & (position(dd)=closed))

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Ivo/OtherSortOfDependencies.mch
+1.56075946E8,1.0246777933333333E8,1.01300824E8,6.0466883666666664E7:(S={0,1,2,3}) & (not((x:S) & (y:S)) => not((x+y<3&y<2&x:S) & (x+y<3&y<2&y+1 mod 3:S)))
+1.6961977733333334E8,9.903340333333333E7,9.663661366666667E7,5.8615275333333336E7:(S={0,1,2,3}) & (not((x:S) & (y:S)) => (x+y<3&x<2&x+1 mod 3:S) & (x+y<3&x<2&y:S))

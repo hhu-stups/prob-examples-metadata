@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Daniel/accounting.mch
+-1.0,-1.0,-1.0,-1.0:(accounts<:ACCOUNT) & (balance:accounts-->INTEGER) & (limit:accounts+->INTEGER) & (SIGMA(acc).(acc:accounts|balance(acc))=0) & (!acc,lim.(acc:accounts&lim:INT&(acc,lim):limit => balance(acc)>=lim)) & (amount:NATURAL) & (src:ACCOUNT) & (dst:ACCOUNT) & (src:accounts) & (dst:accounts) & (src/=dst) & (src:dom(limit) => balance(src)-amount>=limit(src)) & not((account:ACCOUNT) & (account:accounts))

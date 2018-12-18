@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Daniel/TicTacToe.mch
+1.37540349E8,1.1520517633333333E8,1.1186394566666667E8,1.0003502033333333E8:not((middle:Pos) & (card(Pos)=3) & (card(RowCol)=2) & (turn:NC) & (board:Pos*Pos+->NC)) => (turn=nc) & ((x,y)/:dom(board))

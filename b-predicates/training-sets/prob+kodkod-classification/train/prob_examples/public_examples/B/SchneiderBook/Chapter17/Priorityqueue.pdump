@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter17/Priorityqueue.mch
+5.6006074333333336E7,6.6611449666666664E7,-1.0,2.6715692433333334E8:not(not((queue:seq(NAT)) & (!xx.(xx:1..size(queue)-1 => queue(xx)<=queue(xx+1))))) => not((queue/=[]))
+1.14593716E8,7.012251133333333E7,-1.0,1.64811647E8:not(not((nn:NAT))) => (queue:seq(NAT)) & (!xx.(xx:1..size(queue)-1 => queue(xx)<=queue(xx+1)))

@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Abrial_Modes/modes.zip_unpacked/mode_su_12/mode_m1.bcm
+1.339973E8,1.3236208333333333E8,9.0206164E7,1.6321617E8:not((inside=TRUE&outside=FALSE)) => not((mss_button:M \ {no_mode}) & (current_mode:M) & (inside=FALSE&outside=FALSE&normal=TRUE=>current_mode=mss_button))
+1.4593364133333334E8,8.1031417E7,-1.0,1.40818047E8:not((mss_button:M \ {no_mode}) & (current_mode:M) & (inside=FALSE&outside=FALSE&normal=TRUE=>current_mode=mss_button)) => (inside=FALSE) & (outside=FALSE)
+1.06572328E8,2.167541E8,-1.0,1.4062742666666666E8:(mss_button:M \ {no_mode}) & (current_mode:M) & (inside=FALSE&outside=FALSE&normal=TRUE=>current_mode=mss_button) & (inside=TRUE&outside=FALSE) & not((inside=FALSE) & (outside=FALSE))
+4.7087831333333336E7,2.3558517266666666E8,-1.0,1.7174386066666666E8:(mss_button:M \ {no_mode}) & (current_mode:M) & (inside=FALSE&outside=FALSE&normal=TRUE=>current_mode=mss_button) & (inside=FALSE) & (outside=TRUE) & (inside=FALSE) & (outside=TRUE)
+1.16588546E8,1.5098118733333334E8,9.994010633333333E7,2.6077703966666666E8:(mss_button:M \ {no_mode}) & (current_mode:M) & (inside=FALSE&outside=FALSE&normal=TRUE=>current_mode=mss_button) & (inside=FALSE) & (outside=TRUE) & (inside=FALSE) & (outside=FALSE)

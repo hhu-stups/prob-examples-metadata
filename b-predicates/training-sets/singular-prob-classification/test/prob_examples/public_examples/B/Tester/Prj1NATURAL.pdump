@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/Prj1NATURAL.mch
+-1.0,-1.0,-1.0,-1.0:not((Node=t_Operator*NATURAL1) & (Op=%nd.(nd:Node|prj1(t_Operator,NATURAL)(nd))) & not((yy:t_Operator))) => (xx:t_Operator) & (xx=Op(xx,3))
+-1.0,-1.0,-1.0,-1.0:not((Node=t_Operator*NATURAL1) & (Op=%nd.(nd:Node|prj1(t_Operator,NATURAL)(nd))) & not((yy:t_Operator))) => not((xx:t_Operator) & (xx=Op(xx,3)))

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/Runner.mch
+5.2938668333333336E7,4.8687266666666664E7,6.3576101333333336E7,5.488901E7:(iv:POW(NAT)) & (iv=1..0) & (xx:ID) & not((yy:ID))
+5.0631136E7,4.9686811666666664E7,-1.0,6.1288426666666664E7:(iv:POW(NAT)) & (iv=1..0) & xx:ID & xx:ID

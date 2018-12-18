@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/HandshakeSimple_TotFun.mch
+4.506117246666667E8,4.358298866666667E8,1.78716232E8,-1.0:(married={(hilary,jocelyn),(h1,w1)}) & (shake:PERS*PERS-->BOOL) & (!x,y.(shake((x,y))=TRUE => shake((y,x))=TRUE&y/=x&(y,x)/:married)) & (!x.(x/=hilary => !y.(y/=hilary&x/=y => card({yy|shake(x,yy)=TRUE})/=card({zz|shake(y,zz)=TRUE})))) & not(!x,y,b.(((x,y),b):shake => (b=TRUE => shake((y,x))=TRUE&y/=x&(y,x)/:married)))

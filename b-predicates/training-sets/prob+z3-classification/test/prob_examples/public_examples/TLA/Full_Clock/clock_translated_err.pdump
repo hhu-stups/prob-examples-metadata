@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLA/Full_Clock/clock_translated_err.mch
+6.4399041E7,8.056671633333333E7,1.2151279866666667E8,6.0618625666666664E7:(not((hours:INTEGER) & (minutes:INTEGER) & (seconds:INTEGER)) => not((seconds:INTEGER) & (minutes:INTEGER) & (hours:INTEGER)))

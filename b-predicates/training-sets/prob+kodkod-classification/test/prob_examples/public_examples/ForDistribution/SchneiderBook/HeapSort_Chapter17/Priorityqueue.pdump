@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/HeapSort_Chapter17/Priorityqueue.mch
+1.1561328133333333E8,4.9385703E7,-1.0,6.0828475333333336E7:(queue:seq(NAT)) & (!xx.(xx:1..size(queue)-1 => queue(xx)<=queue(xx+1))) & (queue/=[]) & (nn:NAT)

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/EventB/SimpleRodinTypeCheckTest.mch
+5.3061822E7,7.161578766666667E7,8.1443667E7,4.9453472333333336E7:(xx:Sensor)
+9.2061195E7,6.6233701666666664E7,6.801072033333333E7,5.7310477E7:(Sensor={on,off}) & (xx:Sensor) & (yy:Sensor)
+6.75136366E8,4.8305235E7,6.3960391666666664E7,5.8725438333333336E7:(Sensor={on,off}) & (not((xx:Sensor)) => (xx:Sensor))

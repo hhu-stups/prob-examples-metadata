@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Corinna/PartialOrderEtc/MutexProcesses.mch
+4.9671447E7,5.6302690333333336E7,1.1411178766666667E8,7.750713266666667E7:not((p:PID) & (pid_state(p)=init)) => (pid_state:PID-->STATE) & (card(pid_state~[{critical}])<2)
+5.0113565666666664E7,6.8488295E7,-1.0,1.19050637E8:(pid_state:PID-->STATE) & (card(pid_state~[{critical}])<2) & (p:PID) & (pid_state(p)=work)
+5.0348069333333336E7,7.081075033333333E7,8.4140937E7,1.72980703E8:not((pid_state:PID-->STATE) & (card(pid_state~[{critical}])<2)) & (p:PID) & (pid_state(p)=work)
+-1.0,-1.0,5.9830653E7,-1.0:(pid_state:PID-->STATE) & (card(pid_state~[{critical}])<2) & (p:PID) & (pid_state(p)=init) & (p:PID) & (pid_state(p)=work)
+-1.0,-1.0,7.149742966666667E7,-1.0:(pid_state:PID-->STATE) & (card(pid_state~[{critical}])<2) & (p:PID) & (pid_state(p)=work) & (p:PID) & (pid_state(p)=critical)

@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/ADDERR1.bcm
+4.7829499E7,4.9824772E7,-1.0,5.8449285666666664E7:not(not((adder_state=A_EN))) => not((o_sum:NAT) & (v1:NAT) & (v2:NAT))
+4.7851616E7,5.2069959E7,-1.0,5.7323397666666664E7:not(not((pv:INT) & (pv=o_sum) & (adder_state=A_SEND))) => (o_sum:NAT) & (v1:NAT) & (v2:NAT)
+4.7040991333333336E7,5.1663995333333336E7,6.6942335333333336E7,5.9806418E7:(o_sum:NAT) & (v1:NAT) & (v2:NAT) & (adder_state=A_ADD) & (adder_state=A_WAIT)
+5.0997221E7,5.0660795E7,7.009748533333333E7,6.5160939666666664E7:(o_sum:NAT) & (v1:NAT) & (v2:NAT) & ((adder_state=A_EN) => not((pv:INT) & (pv=o_sum) & (adder_state=A_SEND)))
+4.8256904333333336E7,4.9818626E7,6.995668433333333E7,6.4446952666666664E7:(o_sum:NAT) & (v1:NAT) & (v2:NAT) & ((pv:INT) & (pv=o_sum) & (adder_state=A_SEND) => not((adder_state=A_WAIT)))

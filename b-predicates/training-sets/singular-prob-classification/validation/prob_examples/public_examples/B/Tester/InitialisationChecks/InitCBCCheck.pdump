@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/InitialisationChecks/InitCBCCheck.mch
+4.9002297333333336E7,5.4355935E7,9.166070133333333E7,6.0466208666666664E7:not((n:1..40000) & not((xx:1..10000) & (yy:1..10000) & (zz:1..10000))) => (xx<yy) & (yy<zz) & (xx>9996) & (xx+yy+zz=n)

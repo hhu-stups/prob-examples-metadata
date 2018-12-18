@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Abrial_BRP/DLK_Checking/ch6_brp_DLF.zip_unpacked/ch6_brp_F02/b_2.bcm
+6.875725366666667E7,6.1910247E7,6.7694735E7,6.4578859333333336E7:not((r_st:STATUS) & (s_st:STATUS) & (s_st=success=>r_st=success)) & not((r_st/=working) & (s_st/=working))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/ProblemMachines/ToDo/Switch.mch
+5.1328407666666664E7,5.1223692666666664E7,6.6607562666666664E7,5.1295955E7:(curStatus:Status) & (curStatus=on => curStatus:Status&(not(curStatus=on) => (TRUE:BOOL => curStatus:Status)))

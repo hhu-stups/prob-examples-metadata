@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Daniel/stellwerk/switching.mch
+1.0281915E8,5.7231160333333336E7,-1.0,2.453506506E9:connected:SECTION-end_tracks-->SECTION & not(switch:switches&connected<+{(switch,switch_next_left(switch))}:SECTION-end_tracks-->SECTION)

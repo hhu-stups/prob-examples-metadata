@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/SearchForFile.mch
+5.5462336666666664E7,5.4268284E7,1.0551772466666667E8,4.9582888E7:not((cur:STRING) & (found:BOOL)) => not((target:files(cur)))

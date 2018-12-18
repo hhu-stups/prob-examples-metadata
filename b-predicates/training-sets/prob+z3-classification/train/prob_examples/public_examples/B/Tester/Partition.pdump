@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/Partition.mch
+4.360554736666667E8,4.456342063333333E8,2.57975868E8,7.800346913333334E8:not((ID=A\/B\/C) & (A/\B={}) & (A/\C={}) & (C/\B={}) & (aa:A) & (bb:B) & (card(C)>card(A))) => card({A,B,C|A:POW1(ID)&B:POW1(ID)&C:POW1(ID)&part(ID,A,B,C)})=36

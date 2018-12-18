@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/DollarSymbol/ValidMachines/AssignByPredicateWithDEF.mch
+4.7257057E7,5.3252419E7,7.7718985E7,6.8336693E7:xx:NATURAL & not(xx:NATURAL)

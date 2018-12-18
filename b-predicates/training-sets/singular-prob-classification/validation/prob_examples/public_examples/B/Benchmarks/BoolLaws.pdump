@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/BoolLaws.mch
+4.9501290333333336E7,6.4314277333333336E7,6.1924960666666664E7,6.1870647E7:(FF:BOOL) & (FF=FALSE) & (TT:BOOL) & (TT=TRUE) & (not(pt => qt&(qt => rt) => (pt => rt)) => not(TRUE=TRUE => QQ=TRUE&RR=TRUE => (TRUE=TRUE => RR=TRUE)))
+4.6533570666666664E7,8.334947266666667E7,6.1254437333333336E7,5.7366093666666664E7:(FF:BOOL) & (FF=FALSE) & (TT:BOOL) & (TT=TRUE) & pt <=> qt&qt <=> rt => pt <=> rt & not(PP=TRUE <=> QQ=TRUE&QQ=TRUE <=> TRUE=TRUE => PP=TRUE <=> TRUE=TRUE)

@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksEnablingAnalysis/other/RussianPostalPuzzle.mch
+1.38788133E8,5.2312192666666664E7,-1.0,7.110631866666667E7:(keysforsale:POW(KeyIDs)) & (hasbox:PERSONS) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL) & (keyid:KeyIDs) & (person:PERSONS) & (person=hasbox) & (keyid:has_keys(person)) & (keyid/:padlocks)
+-1.0,-1.0,5.2349324333333336E7,-1.0:not((keysforsale:POW(KeyIDs)) & (hasbox:PERSONS) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL)) => (keyid:KeyIDs) & (person:PERSONS) & (person=hasbox) & (keyid:has_keys(person)) & (keyid/:padlocks)
+2.881526343333333E8,1.4934029E8,-1.0,5.2372069666666664E7:not((keyid:KeyIDs) & (person:PERSONS) & (person=hasbox) & (keyid:has_keys(person)) & (keyid/:padlocks)) => (keysforsale:POW(KeyIDs)) & (hasbox:PERSONS) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL)
+1.0535194466666667E8,5.7812217E7,-1.0,1.04785229E8:not(not((keysforsale:POW(KeyIDs)) & (hasbox:PERSONS) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL))) => not((keyid:KeyIDs) & (person:PERSONS) & (person=hasbox) & (keyid:padlocks) & (keyid:has_keys(person)))
+5.7748288333333336E7,5.6778868333333336E7,-1.0,6.786356466666667E7:not((keyid:keysforsale) & (person:PERSONS) & (person=hasbox)) => not((keysforsale:POW(KeyIDs)) & (hasbox:PERSONS) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL))
+3.01459238E8,1.1157855133333333E8,-1.0,6.474429E7:has_keys:PERSONS-->POW(KeyIDs) & not(person=hasbox&keyid:has_keys(person)&keyid/:padlocks&has_keys:PERSONS-->POW(KeyIDs))
+6.4112272666666664E7,4.8948077E7,-1.0,6.0220763E7:padlocks<:KeyIDs & not(person=hasbox&keyid:has_keys(person)&keyid/:padlocks)
+9.528967766666667E7,5.3064592666666664E7,1.50926129E8,6.901561966666667E7:keysforsale:POW(KeyIDs) & person=hasbox&keyid:has_keys(person)&keyid/:padlocks

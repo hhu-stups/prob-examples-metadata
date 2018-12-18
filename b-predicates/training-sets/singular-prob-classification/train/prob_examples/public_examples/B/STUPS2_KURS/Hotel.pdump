@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/Hotel.mch
+5.6098404666666664E7,6.5957130333333336E7,8.8842536E7,6.2898268333333336E7:not((Type:ROOMS-->TYPE) & (booked:ROOMS*Date+->CLIENTS)) => not((T:TYPE) & (StartDate:Date) & (EndDate:Date) & (EndDate>StartDate))
+6.3163269333333336E7,6.2730556333333336E7,-1.0,8.489585166666667E7:not((Type:ROOMS-->TYPE) & (StartDate:Date) & (EndDate:Date) & (EndDate>StartDate) & (Client:CLIENTS) & (Room:ROOMS) & (!x.(x:StartDate..EndDate-1 => (Room,x)/:dom(booked)))) => (booked:ROOMS*Date+->CLIENTS)
+-1.0,-1.0,7.313248433333333E7,-1.0:(Type:ROOMS-->TYPE) & (booked:ROOMS*Date+->CLIENTS) & not((C:CLIENTS))
+-1.0,-1.0,7.921586933333333E7,-1.0:(Type:ROOMS-->TYPE) & not((booked:ROOMS*Date+->CLIENTS)) & not((C:CLIENTS))
+-1.0,-1.0,7.946199066666667E7,-1.0:(Type:ROOMS-->TYPE) & (booked:ROOMS*Date+->CLIENTS) & (T:TYPE) & (StartDate:Date) & (EndDate:Date) & (EndDate>StartDate) & not((C:CLIENTS))

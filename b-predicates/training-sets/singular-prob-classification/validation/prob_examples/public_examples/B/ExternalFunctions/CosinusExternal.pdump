@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/CosinusExternal.mch
+-1.0,-1.0,-1.0,-1.0:not((cos:NATURAL-->INTEGER) & (cos=%x.(x:NATURAL|COS(x))) & (sin:INTEGER-->INTEGER) & (sin=%x.(x:INTEGER|SIN(x)))) => not((s:POW1(0..3)))
+3.130740533333333E8,3.59807254E8,-1.0,-1.0:(cos:NATURAL-->INTEGER) & (cos=%x.(x:NATURAL|COS(x))) & (sin:INTEGER-->INTEGER) & (sin=%x.(x:INTEGER|SIN(x))) & not(!i.(i:0..10000 => sin(i)<=100))

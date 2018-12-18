@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/308/Coin_Slot.mch
+5.1675333E7,4.7889493E7,6.3968772333333336E7,6.1337804666666664E7:(not(current_coin:COINS) => !cc.(cc:COINS => cc:COINS))

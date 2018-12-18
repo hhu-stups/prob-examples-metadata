@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/RefinementChecking/RefinementCheckingExamples.zip_unpacked/RefinementChecking/AEnterLeave.bcm
+-1.0,-1.0,1.7114473833333334E8,-1.0:(s:POW(T)) & (p:T) & (card(s)<maxitems) & (p/:s) & (p:s)

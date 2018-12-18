@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/B4Free/PaperroundIF.mch
+-1.0,-1.0,7.566022633333333E7,-1.0:(lasth:HOUSE) & lasth/:mag & not(hh=lasth => lasth/:mag&(not(hh=lasth) => (TRUE:BOOL => lasth/:mag-{hh})))

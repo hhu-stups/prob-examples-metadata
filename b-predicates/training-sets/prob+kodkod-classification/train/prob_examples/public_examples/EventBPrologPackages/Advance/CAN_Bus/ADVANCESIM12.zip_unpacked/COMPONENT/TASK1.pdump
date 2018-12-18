@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/TASK1.bcm
+4.8529029666666664E7,4.7985175333333336E7,6.803951833333333E7,5.7293482E7:((T1_state=T1_WAIT) => not((pv:INT) & (ppriority:INT) & (pv=T1_write) & (ppriority=3) & (T1_state=T1_SEND)))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Hansen1/Bi_func.mch
+4.7616833E7,4.8027546E7,5.8550462E7,4.8095594666666664E7:not((xx:POW(INTEGER))) => not((y:xx))

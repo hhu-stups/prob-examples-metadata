@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Chapter13/Books.mch
+-1.0,-1.0,5.9896001666666664E7,-1.0:not((read<:BOOK)) & (read/=BOOK)

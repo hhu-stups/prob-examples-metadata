@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLC/GOAL/BlocksWorld.mch
+4.7689304666666664E7,7.653475566666667E7,-1.0,6.2693587E7:not(not((obj/:ran(on)) & (onobj/:ran(on)) & (obj/=onobj))) => not((on:Objects+->Objects))

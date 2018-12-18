@@ -1,0 +1,11 @@
+#source:examples/prob_examples/public_examples/B/Corinna/PartialOrderEtc/MutexProcesses.mch
+4.9671447E7,5.6302690333333336E7,1.1411178766666667E8,7.750713266666667E7:not((p:PID) & (pid_state(p)=init)) => (pid_state:PID-->STATE) & (card(pid_state~[{critical}])<2)
+4.7074119333333336E7,7.4762696E7,-1.0,1.1956536733333333E8:not((p:PID) & (pid_state(p)=init)) => not((pid_state:PID-->STATE) & (card(pid_state~[{critical}])<2))
+5.0113565666666664E7,6.8488295E7,-1.0,1.19050637E8:(pid_state:PID-->STATE) & (card(pid_state~[{critical}])<2) & (p:PID) & (pid_state(p)=work)
+5.0348069333333336E7,7.081075033333333E7,8.4140937E7,1.72980703E8:not((pid_state:PID-->STATE) & (card(pid_state~[{critical}])<2)) & (p:PID) & (pid_state(p)=work)
+3.8777091333333336E7,7.196557666666667E7,8.899772333333333E7,1.28692017E8:not(not((pid_state:PID-->STATE) & (card(pid_state~[{critical}])<2))) => (p:PID) & (pid_state(p)=work)
+4.9098794666666664E7,6.6806074333333336E7,-1.0,1.42894335E8:not((pid_state:PID-->STATE) & (card(pid_state~[{critical}])<2)) & not((p:PID) & (pid_state(p)=critical))
+4.8359618E7,7.068121833333333E7,-1.0,1.15204408E8:not(not((p:PID) & (pid_state(p)=critical))) => not((pid_state:PID-->STATE) & (card(pid_state~[{critical}])<2))
+-1.0,-1.0,5.9830653E7,-1.0:(pid_state:PID-->STATE) & (card(pid_state~[{critical}])<2) & (p:PID) & (pid_state(p)=init) & (p:PID) & (pid_state(p)=work)
+-1.0,-1.0,1.0623369066666667E8,-1.0:(pid_state:PID-->STATE) & (card(pid_state~[{critical}])<2) & (p:PID) & (pid_state(p)=init) & (p:PID) & (pid_state(p)=critical)
+-1.0,-1.0,8.6712284E7,-1.0:(pid_state:PID-->STATE) & (card(pid_state~[{critical}])<2) & (p:PID) & (pid_state(p)=work) & (p:PID) & (pid_state(p)=request) & (pid_state~[{critical}]={})

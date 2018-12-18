@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/SetComprehension.mch
+4.7875966333333336E7,6.5447684666666664E7,6.3882332E7,5.3120093E7:(not(col1/=col2) => not(col1/=col2))
+5.69321E7,6.4616946E7,4.038659269E9,5.4107579E7:(not(col1/={}) => col1/={})
+4.8976014E7,7.1136583E7,-1.0,8.796840233333333E7:(col1:POW(COLOURS)) & (col2:POW(COLOURS)) & (col1/=col2) & (col1/={}) & ({xx|xx:col1&xx/=x}/={xx|xx:col2&xx/=x}) & (col2:POW(COLOURS)) & (col1:POW(COLOURS)) & ({xx|xx:col1&xx/=x}/={})

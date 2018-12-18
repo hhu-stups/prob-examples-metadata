@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/RefinementDevelopment/SingleFlowSeqSpec.mch
+4.9178996E7,5.1908649333333336E7,-1.0,8.161207733333333E7:not((emptyp:PACKETS) & (RPACKETS=PACKETS-{emptyp}) & (dest:DEVICES) & (source:DEVICES) & (p:PACKETS) & (p/=emptyp) & (p/:ran(messages))) => (messages:iseq(RPACKETS))
+5.4976451E7,3.445321966666667E8,-1.0,7.503698633333333E7:(emptyp:PACKETS) & (RPACKETS=PACKETS-{emptyp}) & (dest:DEVICES) & (source:DEVICES) & (messages:iseq(RPACKETS)) & (p:PACKETS) & (p/=emptyp) & (i:NATURAL1)
+-1.0,-1.0,-1.0,-1.0:(emptyp:PACKETS) & (RPACKETS=PACKETS-{emptyp}) & (dest:DEVICES) & (source:DEVICES) & not((messages:iseq(RPACKETS))) & not((messages/={}))
+4.7329552E7,5.0721185E7,4.4157873333333336E7,9.6142696E7:not((emptyp:PACKETS) & (RPACKETS=PACKETS-{emptyp}) & (dest:DEVICES) & (source:DEVICES) & (messages/={})) => not((messages:iseq(RPACKETS)))
+-1.0,-1.0,7.7358487E7,-1.0:(emptyp:PACKETS) & (RPACKETS=PACKETS-{emptyp}) & (dest:DEVICES) & (source:DEVICES) & (messages:iseq(RPACKETS)) & (p:PACKETS) & (p/=emptyp) & (p/:ran(messages)) & (messages/={})
+4.9512348333333336E7,5.1953347666666664E7,-1.0,8.419767166666667E7:(emptyp:PACKETS) & (RPACKETS=PACKETS-{emptyp}) & (dest:DEVICES) & (source:DEVICES) & (messages:iseq(RPACKETS)) & (not((p:PACKETS) & (p/=emptyp) & (i:NATURAL1)) => (messages/={}))

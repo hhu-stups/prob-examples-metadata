@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/RecursiveFunctions/Factorial_Closure1.mch
+-1.0,-1.0,-1.0,-1.0:not((fac_expand=%x,acc.(x>=1|(x-1,x*acc))) & (fac=%x.(x:NATURAL1|closure1(fac_expand)[{(x,1)}](0))) & (xx:NATURAL1)) => not((xx=x))
+-1.0,-1.0,-1.0,-1.0:not((fac_expand=%x,acc.(x>=1|(x-1,x*acc))) & (fac=%x.(x:NATURAL1|closure1(fac_expand)[{(x,1)}](0))) & not((xx=x))) => not((xx:NATURAL1))
+-1.0,-1.0,-1.0,-1.0:not((fac_expand=%x,acc.(x>=1|(x-1,x*acc))) & (fac=%x.(x:NATURAL1|closure1(fac_expand)[{(x,1)}](0))) & (xx=x)) => not((xx:NATURAL1))

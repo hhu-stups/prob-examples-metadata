@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Special/Slicing/SumProd_Op.mch
+4.8955108333333336E7,5.2937644E7,-1.0,1.0703244233333333E8:not(not((cur=size(arr)))) => not((arr:seq(INTEGER)) & (sumv:INTEGER) & (prod:INTEGER) & (cur:0..size(arr)) & (sumv=SIGMA(z).(z:1..cur|arr(z))) & (prod=PI(z).(z:1..cur|arr(z))))
+4.8781156333333336E7,5.2077921E7,7.053548233333333E7,6.4479847666666664E7:cur:0..size(arr) & not(cur<size(arr)&cur+1:0..size(arr))
+4.8800968666666664E7,4.9383327666666664E7,-1.0,1.01678293E8:arr:seq(INTEGER) & cur<size(arr)&arr:seq(INTEGER)
+-1.0,-1.0,-1.0,-1.0:(not((arr:seq(INTEGER)) & (sumv:INTEGER) & (prod:INTEGER) & (cur:0..size(arr)) & (sumv=SIGMA(z).(z:1..cur|arr(z))) & (prod=PI(z).(z:1..cur|arr(z)))) => (cur<size(arr)&cur+1:0..size(arr)) & (cur<size(arr)&prod*arr(cur+1)=PI(z).(z:1..cur+1|arr(z))) & (cur<size(arr)) & (cur<size(arr)&sumv+arr(cur+1)=SIGMA(z).(z:1..cur+1|arr(z))) & (cur<size(arr)) & (cur<size(arr)&arr:seq(INTEGER)))
+4.9365611333333336E7,4.9283315666666664E7,-1.0,1.25320429E8:arr:seq(INTEGER) & not(cur=size(arr)&arr:seq(INTEGER))

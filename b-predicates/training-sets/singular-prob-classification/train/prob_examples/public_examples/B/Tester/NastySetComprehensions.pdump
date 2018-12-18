@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/B/Tester/NastySetComprehensions.mch
+5.3101142666666664E7,7.200366266666667E7,8.979288966666667E7,5.5065312666666664E7:(cc:COLOURS) & (ii:ID)
+4.8333218333333336E7,7.1966903E7,7.2310755E7,5.9695464E7:not((f:COLOURS-->ID) & (g:ID-->COLOURS) & (!x.(x:COLOURS => g(f(x))=x)) & (f(red)=ia) & (f(green)=ib) & not((cc:COLOURS) & (ii:ID))) => not((yy:ID))
+-1.0,1.1280121566666667E8,8.723916633333333E7,-1.0:not((f:COLOURS-->ID) & (g:ID-->COLOURS) & (!x.(x:COLOURS => g(f(x))=x)) & (f(red)=ia) & (f(green)=ib) & (cc:COLOURS) & (ii:ID)) => {c|c:COLOURS&g(f(c))=c}=COLOURS
+-1.0,5.07393782E8,1.2931853966666667E8,-1.0:not((f:COLOURS-->ID) & (g:ID-->COLOURS) & (!x.(x:COLOURS => g(f(x))=x)) & (f(red)=ia) & (f(green)=ib) & (cc:COLOURS) & (ii:ID)) => {c|c:MYCOLOURS2&#z.(z:ID&z=f(c)&g(z)=c)}=COLOURS
+-1.0,-1.0,-1.0,-1.0:not((f:COLOURS-->ID) & (g:ID-->COLOURS) & (!x.(x:COLOURS => g(f(x))=x)) & (f(red)=ia) & (f(green)=ib) & (cc:COLOURS) & (ii:ID)) => {c|c:MYCOLOURS3&#z.(z:MYID2&z=f(c)&g(z)=c)}=COLOURS
+-1.0,-1.0,-1.0,-1.0:not((f:COLOURS-->ID) & (g:ID-->COLOURS) & (!x.(x:COLOURS => g(f(x))=x)) & (f(red)=ia) & (f(green)=ib) & (cc:COLOURS) & (ii:ID)) => MYIDFA=ID
+-1.0,-1.0,-1.0,-1.0:not((f:COLOURS-->ID) & (g:ID-->COLOURS) & (!x.(x:COLOURS => g(f(x))=x)) & (f(red)=ia) & (f(green)=ib) & (cc:COLOURS) & (ii:ID)) => MYIDFA2=ID
+-1.0,-1.0,-1.0,-1.0:not((f:COLOURS-->ID) & (g:ID-->COLOURS) & (!x.(x:COLOURS => g(f(x))=x)) & (f(red)=ia) & (f(green)=ib) & (cc:COLOURS) & (ii:ID)) => (card({i|i:ID&f(g(i))/=i})=1) & ({i|i:ID&f(g(i))/=i}={i|i:ID&#z.(z:COLOURS&z=g(i)&f(z)/=i)}) & (card({i|i:ID&#z.(z:COLOURS&z=g(i)&f(z)/=i)})=1) & ({c|c:COLOURS&g(f(c))=c}=COLOURS) & ({c|c:COLOURS&#z.(z:ID&z=f(c)&g(z)=c)}=COLOURS) & ({c|c:MYCOLOURS2&#z.(z:ID&z=f(c)&g(z)=c)}=COLOURS) & ({c|c:MYCOLOURS3&#z.(z:MYID2&z=f(c)&g(z)=c)}=COLOURS) & (MYIDFA=ID) & (MYIDFA2=ID)
+5.2397911E7,3.95312933E8,-1.0,4.3252101666666664E7:(f:COLOURS-->ID) & (g:ID-->COLOURS) & (!x.(x:COLOURS => g(f(x))=x)) & (f(red)=ia) & (f(green)=ib) & cc:COLOURS & cc:COLOURS
+5.6166453666666664E7,6.5588298333333336E7,7.221218566666667E7,5.4308977666666664E7:(f:COLOURS-->ID) & (g:ID-->COLOURS) & (!x.(x:COLOURS => g(f(x))=x)) & (f(red)=ia) & (f(green)=ib) & cc:COLOURS & not(cc:COLOURS)
+5.0217233333333336E7,6.3105697E7,1.2531628533333333E8,5.5960957E7:(f:COLOURS-->ID) & (g:ID-->COLOURS) & (!x.(x:COLOURS => g(f(x))=x)) & (f(red)=ia) & (f(green)=ib) & (cc:COLOURS) & (ii:ID) & not((cc:COLOURS) & (ii:ID))

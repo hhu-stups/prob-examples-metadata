@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Demo/scheduler.mch
+4.9273165666666664E7,7.588693133333333E7,7.351579633333333E7,8.9725586E7:not((active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={})) & not((pp:PID) & (pp/:active) & (pp/:ready\/waiting))
+1.04715085E8,7.010828666666667E7,-1.0,1.07446834E8:not((active/={})) => (active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={})
+4.6393399666666664E7,6.768598133333333E7,-1.0,6.9703184E7:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & (not((active/={})) => (rr:waiting))
+4.5279291333333336E7,4.802282E7,6.0467373E7,4.9946318666666664E7:(not(active:POW(PID)) => active:POW(PID))
+-1.0,-1.0,6.7078269E7,-1.0:ready/\waiting={} & not(ready/\waiting={})

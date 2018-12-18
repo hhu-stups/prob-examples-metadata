@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/EventB2Java/sorting_array.zip_unpacked/sorting_array/sort_m1.bcm
+4.9782238666666664E7,5.3414032E7,6.956471166666667E7,7.235312533333333E7:not((k=n)) => not((g:NAT <-> NAT) & (g:1 .. n >-> NAT) & (ran(g)=ran(f)) & (k:1 .. n) & (!i_f oftype INT,j_f oftype INT.i_f:1 .. k - 1&j_f:i_f+1 .. n=>g(i_f)<g(j_f)) & (l:NAT))

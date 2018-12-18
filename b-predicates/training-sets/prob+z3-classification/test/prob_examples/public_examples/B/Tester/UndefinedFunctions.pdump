@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tester/UndefinedFunctions.mch
+1.0108999666666667E8,7.003949333333333E7,8.431493533333333E7,7.778982733333333E7:not((f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA)) & (aa:setA)
+4.7586824E7,6.0253402333333336E7,-1.0,5.0137055333333336E7:(f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA) & (aa:setA) & (aa/:dom(f)) & (bb:setB) & ((aa,bb)/:f) & (aa:setA) & (f(aa)=b1)
+1.55170244E8,4.826321603333333E8,-1.0,1.4201985233333334E8:(f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA) & (f(aa)=b1&aa:dom(f)&g:setB-->setA) & (f(aa)=b1&aa:dom(f)&f:setA+->setB) & (f(aa)=b1&aa:dom(f)&a1:dom(f))

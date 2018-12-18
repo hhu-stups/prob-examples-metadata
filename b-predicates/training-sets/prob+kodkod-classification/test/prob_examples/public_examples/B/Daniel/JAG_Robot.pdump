@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Daniel/JAG_Robot.mch
+1.0958707333333333E8,5.972027937333333E9,9.310571766666667E7,6.0388964333333336E7:not(not((Dt:BOOL) & (De:BOOL))) => not((Dt=TRUE) & (De=FALSE))

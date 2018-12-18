@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/TotalFunction2.mch
+5.1278914E7,5.6955775666666664E7,-1.0,7.470666066666667E7:not(not((disjoint(f2)))) => not((f1:CELL-->CHANNEL) & (f2:CELL-->POW(CHANNEL)))

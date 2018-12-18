@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Typecheckertests/included2.mch
+8.874773833333333E7,8.172452166666667E7,-1.0,6.759167266666667E7:(vI2a:seq(Param))
+4.683759E7,5.1602465E7,-1.0,9.828782466666667E7:not((vI2a:seq(Param))) => not((elem:Param) & (size(vI2a)<value))
+4.8508426666666664E7,5.2626291666666664E7,-1.0,6.4916751666666664E7:(vI2a:seq(Param)) & (size(vI2a)>0)
+5.0245402333333336E7,5.4639373666666664E7,7.4432766E7,7.6193116E7:not(not((size(vI2a)>0))) => (vI2a:seq(Param))
+-1.0,-1.0,-1.0,-1.0:not((vI2a:seq(Param))) & not((size(vI2a)>0))
+5.1010932666666664E7,5.0985162E7,-1.0,1.3147414433333333E8:vI2a:seq(Param) & elem:Param&size(vI2a)<value&vI2a<-elem:seq(Param)

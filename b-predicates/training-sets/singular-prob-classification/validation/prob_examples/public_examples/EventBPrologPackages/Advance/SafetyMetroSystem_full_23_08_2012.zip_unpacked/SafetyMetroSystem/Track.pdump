@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/SafetyMetroSystem_full_23_08_2012.zip_unpacked/SafetyMetroSystem/Track.bcm
+-1.0,-1.0,6.3849181E7,-1.0:(next<:net) & (next:CDV >+> CDV) & (finite(occp~)) & not((occpZ:POW(TRAIN ** CDV)) & (occp:POW(CDV ** TRAIN)) & (next:POW(CDV ** CDV)) & (occpA:POW(TRAIN ** CDV)))
+5.3337485666666664E7,1.5028673233333334E8,-1.0,1.42683205E8:(next<:net) & (next:CDV >+> CDV) & (finite(occp~)) & ((t1:TRAIN) & (c1:CDV) & (c2:CDV) & (c1=occpZ(t1)) & (c1:dom(next)) & (c2=next(occpZ(t1))) & (!tt oftype TRAIN.tt:dom(occpZ)&card((occp\/{c2 |-> t1})~[{tt}])>1=>(occpZ<+{t1 |-> c2})(tt)/=occpA(tt)) & (c2/:dom(occp)) => not((t:TRAIN) & (oc:CDV) & (oc/:dom(occp))))

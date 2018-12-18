@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/phonebook7.mch
+-1.0,-1.0,-1.0,-1.0:(db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec) & not(card(active)>=card(activec))
+-1.0,-1.0,6.8887601E7,-1.0:(db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec) & (nn:Name) & (cc:Code) & (nn/:active) & (nn:Name) & (nn:active)
+-1.0,-1.0,6.9854041E7,-1.0:(db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec) & (nn:Name) & (cc:Code) & (nn/:active) & (nn:Name) & (cc:Code) & (nn:active) & (cc:activec) & (db(nn)=cc)

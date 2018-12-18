@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/ErrorMachines/ComplicatedInvariant.mch
+-1.0,-1.0,7.926510766666667E7,-1.0:(not(!yy.(yy<:xx => yy=xx or yy<<:xx)) => not(!yy.(yy<:NATURAL => yy=NATURAL or yy<<:NATURAL)))
+-1.0,-1.0,6.3472457E7,-1.0:(xx<:NATURAL) & (!yy.(yy<:xx => yy=xx or yy<<:xx)) & not((!yy.(yy<:NATURAL => yy=NATURAL or yy<<:NATURAL)) & (NATURAL<:NATURAL))

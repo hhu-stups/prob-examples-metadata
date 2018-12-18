@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/StaticAssertionProjection.mch
+6.3775986666666664E7,6.4487832666666664E7,9.3012992E7,5.0445521E7:(xx:ID)
+6.6949668333333336E7,6.6274233333333336E7,8.8111973E7,7.1180746E7:(a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (xx:ID) & not((c>d))
+6.370859E7,7.9598972E7,6.986852166666667E7,2.49900075E8:(a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (not(xx:ID) => not(xx:ID))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/EventB2Java/MIO.zip_unpacked/MIO/ref1.bcm
+5.3742309E7,5.5309850333333336E7,6.6706876666666664E7,1.33762471E8:not((parked:0 .. min({n,m})) & (busSta:BUSES >+> STATS) & (finite(busSta)) & (card(busSta)=parked)) & (parked>0) & (b:dom(busSta))

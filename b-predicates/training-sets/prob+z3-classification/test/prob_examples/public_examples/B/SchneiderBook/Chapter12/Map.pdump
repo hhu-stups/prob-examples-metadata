@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter12/Map.mch
+4.8823247333333336E7,6.2570107666666664E7,-1.0,5.9719698333333336E7:not((fun:INDEX+->ITEM)) => (r_par:INDEX)
+-1.0,-1.0,6.2184817E7,-1.0:(fun:INDEX+->ITEM) & (q_par:dom(fun)) & not((ss1:INDEX) & (ss2:ITEM))
+-1.0,-1.0,-1.0,-1.0:(fun:INDEX+->ITEM) & not((ss1:INDEX&ss2:ITEM&fun<+{(ss1,ss2)}:INDEX+->ITEM))
+5.0912782333333336E7,6.4142956333333336E7,4.1570789E7,1.21380845E8:(not((fun:INDEX+->ITEM)) => not((ss1:INDEX&ss2:ITEM&fun<+{(ss1,ss2)}:INDEX+->ITEM)))

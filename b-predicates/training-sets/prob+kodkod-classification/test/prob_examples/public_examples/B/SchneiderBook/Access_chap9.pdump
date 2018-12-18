@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Access_chap9.mch
+-1.0,-1.0,7.8468824E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((access:USER<->PRINTER)) & (uu:USER) & (pp:PRINTER)
+-1.0,-1.0,7.914167466666667E7,-1.0:not((options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((uu:USER) & (pp:PRINTER))) => not((access:USER<->PRINTER))
+-1.0,-1.0,7.738034733333333E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & not((uu:USER))
+-1.0,-1.0,6.6230047E7,-1.0:not((options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((uu:USER))) => not((access:USER<->PRINTER))
+5.1868817E7,7.804581866666667E7,1.8919607E7,6.947599033333333E7:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & (not((uu:USER) & (pp:PRINTER)) => (u1:USER) & (u2:USER))
+-1.0,-1.0,6.6432144333333336E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & ((uu:USER) & (oo:OPTION) => not((u1:USER) & (u2:USER)))
+-1.0,-1.0,6.772472E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & (uu:USER) & (oo:OPTION) & not((uu:USER) & (pp:PRINTER))
+-1.0,-1.0,6.4284478333333336E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & (u1:USER) & (u2:USER) & not((pp:PRINTER))
+-1.0,-1.0,6.752967666666667E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & ((u1:USER) & (u2:USER) => not((pp:PRINTER)))
+7.696064833333333E7,5.8017736666666664E7,2.4051591333333332E7,6.6804724E7:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & (uu:USER) & (pp:PRINTER) & (uu:USER)
+-1.0,-1.0,6.8557461E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & access:USER<->PRINTER & not(access:USER<->PRINTER)

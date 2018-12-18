@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/RelComposition.mch
+5.5719585666666664E7,7.7827937E7,-1.0,6.958552466666667E7:(ff:ID+->ID) & not((yy:ID) & (xx:dom(ff)) & (ff(xx)=yy))

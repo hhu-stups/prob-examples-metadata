@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Valerio6/BIT_VECTOR_ARITHMETICS.mch
+-1.0,-1.0,-1.0,-1.0:(bv_nat:BIT_VECTOR-->NATURAL) & (bv_nat=%bv.(bv:BIT_VECTOR|SIGMA(idx).(idx:dom(bv)|2**idx*bv(idx)))) & (bv_even:BIT_VECTOR-->BIT) & (bv_even=%bv.(bv:BIT_VECTOR|1-size(bv|>{1}) mod 2)) & not(!ss.(ss:NATURAL1 => bv_nat(bv_zero(ss))=0))
+1.5793249033333334E8,9.801020533333333E7,-1.0,1.1467880533333333E8:not((bv_nat:BIT_VECTOR-->NATURAL) & (bv_nat=%bv.(bv:BIT_VECTOR|SIGMA(idx).(idx:dom(bv)|2**idx*bv(idx)))) & (bv_even:BIT_VECTOR-->BIT) & (bv_even=%bv.(bv:BIT_VECTOR|1-size(bv|>{1}) mod 2))) => !ss.(ss:NATURAL1 => bv_even(bv_zero(ss))=0)

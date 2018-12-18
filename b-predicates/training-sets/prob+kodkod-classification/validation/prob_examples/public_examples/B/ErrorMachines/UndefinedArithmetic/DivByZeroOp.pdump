@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/ErrorMachines/UndefinedArithmetic/DivByZeroOp.mch
+5.4135166333333336E7,4.8077808333333336E7,6.0007677666666664E7,6.5244074E7:(x=2) & (xx>xx/x) & not((zz:{1,0}))
+1.4284821666666666E8,9.631436633333333E7,4.817090453333333E8,6.4973183E7:not((x=2) & (xx>xx/x)) => (yy:{1,0})
+5.4048772666666664E7,5.078027E7,5.8660416E7,6.851350766666667E7:(x=2) & not((xx>xx/x)) & not((yy:{1,0}))

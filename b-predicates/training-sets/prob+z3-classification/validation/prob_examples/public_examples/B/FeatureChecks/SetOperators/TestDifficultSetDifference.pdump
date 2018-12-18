@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/SetOperators/TestDifficultSetDifference.mch
+9.921319833333333E7,5.50575065E8,1.06518154E8,7.802500533333333E7:not(not((xx<:ID))) => not((r2-xx=xx))

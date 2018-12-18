@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Handshake.mch
+-1.0,1.5958054903333333E9,-1.0,-1.0:not((married={(hilary,jocelyn),(h1,w1),(h2,w2),(h3,w3),(h4,w4)}) & (shake:PERS<->PERS) & (!xy.(xy:shake => (py,px):shake&py/=px&(py,px)/:married)) & (!x.(x/=hilary => !y.(y/=hilary&x/=y => card(shake[{x}])/=card(shake[{y}]))))) => !x.(x:PERS-{hilary} => !y.(y:PERS-{hilary}&x/=y => card(shake[{x}])/=card(shake[{y}])))

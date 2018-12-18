@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/RecursiveFunctions/RecFunWithCst.mch
+-1.0,-1.0,-1.0,-1.0:(n:1..10) & (add_n:INTEGER<->INTEGER) & (add_n=%xb.(xb=0|n)\/%x.(x>0|1+add_n(x-1))) & xx:NATURAL & add_n(xx):NATURAL

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/U2B/PLATFORM_CLASS.mch
+5.0240304E7,5.5890929666666664E7,-1.0,1.3712821566666666E8:not((thisPLATFORM:PLATFORM)) => (invariant)
+-1.0,-1.0,-1.0,-1.0:(invariant) & (thisPLATFORM:PLATFORM) & (tt:TRAIN) & (tt/:UNION(pp).(pp:PLATFORM|trains(pp))) & not((thisPLATFORM:PLATFORM))
+-1.0,-1.0,-1.0,-1.0:(invariant) & (thisPLATFORM:PLATFORM) & not((thisPLATFORM:PLATFORM))

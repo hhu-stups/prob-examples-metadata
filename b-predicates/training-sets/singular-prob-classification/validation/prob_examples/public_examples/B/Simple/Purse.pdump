@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Simple/Purse.mch
+5.1332854666666664E7,5.7238633666666664E7,-1.0,7.8757152E7:(Coins<:NAT1) & (Coins={1,2}) & (purse:Coins-->NAT) & (not((total(purse)=0)) => (cc:Coins) & (purse(cc)<MAXINT))
+-1.0,-1.0,-1.0,-1.0:(Coins<:NAT1) & (Coins={1,2}) & (not((purse:Coins-->NAT)) => (amount:NAT1&!p2.(p2:Coins-->NAT&!cc.(cc:Coins => p2(cc)<=purse(cc))&SIGMA(cc,nn).(cc:Coins&nn:NAT1&(cc,nn):{cc,nn|cc:Coins&nn:NAT&nn=purse(cc)-p2(cc)}|cc*nn)=amount => p2:Coins-->NAT)))

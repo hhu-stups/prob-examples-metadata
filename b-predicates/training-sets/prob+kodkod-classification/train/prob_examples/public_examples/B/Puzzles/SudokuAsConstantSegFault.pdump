@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/SudokuAsConstantSegFault.mch
+-1.0,-1.0,-1.0,-1.0:(Board:DOM-->(DOM>->DOM)) & (!y.(y:DOM => !x1,x2.(x1:DOM&x1<x2&y:DOM => Board(x1)(y)/=Board(x2)(y)))) & not((x:DOM) & (y:DOM))

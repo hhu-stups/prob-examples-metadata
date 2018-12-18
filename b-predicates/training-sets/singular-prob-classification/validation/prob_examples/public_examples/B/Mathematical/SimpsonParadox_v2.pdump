@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/SimpsonParadox_v2.mch
+-1.0,1.2230801066666667E8,-1.0,1.9186627466666666E8:(succs:Treatment*Parameter2-->RANGE) & (tally:Treatment*Parameter2-->RANGE1) & (!x.(x:dom(tally) => succs(x)<=tally(x))) & (!x.(x:Parameter2 => perc(A,x)+DELTA<perc(B,x))) & (global_succ(A)-DELTA>global_succ(B)) & (a:Treatment)

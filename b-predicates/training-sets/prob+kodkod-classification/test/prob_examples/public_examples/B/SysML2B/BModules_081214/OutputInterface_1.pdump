@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SysML2B/BModules_081214/OutputInterface_1.mch
+9.048608766666667E7,5.4812184333333336E7,7.631796866666667E7,7.433754866666667E7:not((AddSugar:BOOL) & (ChangeAmount:NAT) & (GiveChange:BOOL) & (GrindCoffee:BOOL) & (MixCoffeeAndWater:BOOL) & (NewCup:BOOL) & (SugarQuantity:INT) & (WaterHeating:BOOL)) & (temp_var:BOOL)
+4.8456348E7,5.3111712E7,7.201206733333333E7,6.2699407E7:(AddSugar:BOOL) & (ChangeAmount:NAT) & (GiveChange:BOOL) & (GrindCoffee:BOOL) & (MixCoffeeAndWater:BOOL) & (NewCup:BOOL) & (SugarQuantity:INT) & (WaterHeating:BOOL) & (temp_var:BOOL)

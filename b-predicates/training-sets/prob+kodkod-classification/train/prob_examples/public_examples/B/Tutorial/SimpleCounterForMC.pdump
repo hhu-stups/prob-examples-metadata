@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tutorial/SimpleCounterForMC.mch
+4.6960883E7,4.7958985E7,5.9946356333333336E7,6.4191333E7:not((y:1..MAX-count)) => not((count:1..MAX))
+4.9210471E7,6.910441133333333E7,6.0539239333333336E7,5.6473359E7:count:1..MAX & not(!count.(count:1..6 => count:1..6))

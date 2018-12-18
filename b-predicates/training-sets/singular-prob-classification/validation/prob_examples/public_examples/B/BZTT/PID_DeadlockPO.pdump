@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/BZTT/PID_DeadlockPO.mch
+4.7334534E7,4.8481002333333336E7,8.449880366666667E7,7.228284133333333E7:not((active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\waiting={}) & (ready/\active={}) & (active={} => ready={}) & (not(#pp.(pp:PID&pp/:ready\/waiting\/active))) & (not(waiting/={})) & (not(active/={})) & (not(waiting/={}))) => (r<:PID)

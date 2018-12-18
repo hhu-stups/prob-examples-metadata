@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Merging/merging.zip_unpacked/Merging/R1.bcm
+-1.0,-1.0,1.8395863466666666E8,-1.0:not((c mod 2=0)) => (c:NAT) & (d:NAT) & (c:{d*2,d*2 - 1})
+-1.0,-1.0,6.1392304E7,-1.0:not(not((c mod 2=0))) => (c:NAT) & (d:NAT) & (c:{d*2,d*2 - 1})
+-1.0,-1.0,2.3111174466666666E8,-1.0:not(not((c mod 2=0))) => not((c:NAT) & (d:NAT) & (c:{d*2,d*2 - 1}))
+-1.0,-1.0,7.070158833333333E7,-1.0:not((c mod 2=0)) => not((c:NAT) & (d:NAT) & (c:{d*2,d*2 - 1}))
+5.899346022666667E9,4.629255112E9,7.994438866666666E8,2.6735819546666665E9:not((c:NAT) & (d:NAT) & (c:{d*2,d*2 - 1})) => not((c mod 2=1))
+-1.0,-1.0,2.5360651193333335E9,-1.0:not(not((c mod 2=1))) => not((c:NAT) & (d:NAT) & (c:{d*2,d*2 - 1}))
+-1.0,-1.0,4.844198926E9,-1.0:not((c mod 2=1)) => not((c:NAT) & (d:NAT) & (c:{d*2,d*2 - 1}))
+-1.0,-1.0,1.8161343841666668E10,1.2484059633333333E8:(c:NAT) & (d:NAT) & (c:{d*2,d*2 - 1}) & (c mod 2=0) & (c mod 2=1)
+-1.0,-1.0,1.864000839E9,-1.0:(c:NAT) & (d:NAT) & (c:{d*2,d*2 - 1}) & (not((c mod 2=0)) => (c mod 2=1))

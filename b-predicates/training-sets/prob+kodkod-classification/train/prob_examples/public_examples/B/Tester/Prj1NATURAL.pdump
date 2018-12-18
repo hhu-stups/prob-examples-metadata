@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Tester/Prj1NATURAL.mch
+1.01708255E8,4.6646807E7,-1.0,1.03094558E8:(Node=t_Operator*NATURAL1) & (Op=%nd.(nd:Node|prj1(t_Operator,NATURAL)(nd))) & (xx:t_Operator) & (xx=Op(xx,3)) & (yy:t_Operator)
+1.6879104033333334E8,7.599029666666667E7,-1.0,1.0775055033333333E8:not((Node=t_Operator*NATURAL1) & (Op=%nd.(nd:Node|prj1(t_Operator,NATURAL)(nd))) & (xx:t_Operator) & (xx=Op(xx,3))) => not((yy:t_Operator))
+-1.0,-1.0,-1.0,-1.0:not((Node=t_Operator*NATURAL1) & (Op=%nd.(nd:Node|prj1(t_Operator,NATURAL)(nd))) & not((yy:t_Operator))) => not((xx:t_Operator) & (xx=Op(xx,3)))
+2.9226691E7,4.4762815666666664E7,-1.0,1.0140602833333333E8:(Node=t_Operator*NATURAL1) & (Op=%nd.(nd:Node|prj1(t_Operator,NATURAL)(nd))) & (not(xx=Op(xx,3)) => Op((yy,2))=Op((Op((yy,2)),3)))
+2.5275094666666668E7,3.9547324333333336E7,-1.0,1.1454005466666667E8:(Node=t_Operator*NATURAL1) & (Op=%nd.(nd:Node|prj1(t_Operator,NATURAL)(nd))) & (not(xx:t_Operator) => xx:t_Operator)
+1.0889524866666667E8,8.262801233333333E7,-1.0,1.01179254E8:(Node=t_Operator*NATURAL1) & (Op=%nd.(nd:Node|prj1(t_Operator,NATURAL)(nd))) & (not(xx:t_Operator) => not(xx:t_Operator))

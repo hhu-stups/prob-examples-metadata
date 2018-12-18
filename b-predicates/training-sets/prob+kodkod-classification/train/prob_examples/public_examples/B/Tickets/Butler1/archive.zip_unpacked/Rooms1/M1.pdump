@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Butler1/archive.zip_unpacked/Rooms1/M1.bcm
+-1.0,-1.0,6.788752033333333E7,-1.0:not((authorised:User <-> Activity) & (takeplace:Room <-> Activity) & (location:User +-> Room) & (!u oftype User,r oftype Room.u:dom(location)&location(u)=r=>takeplace[{r}]<:authorised[{u}])) & not((u:User) & (a:Activity))

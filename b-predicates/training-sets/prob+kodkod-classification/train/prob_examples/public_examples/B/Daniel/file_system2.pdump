@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Daniel/file_system2.mch
+1.70585589E8,3.8022877536666665E9,1.1663710866666667E8,5.9449412333333336E7:(users<:USERS) & (groups<:GROUPS) & (files<:FILES) & (ingroup:users<->groups) & (access:files-->groups)
+5.03023E7,7.950384866666667E7,-1.0,4.9431658666666664E7:not((user:users) & (file:files) & (access(file):ingroup[{user}])) => not((users<:USERS) & (groups<:GROUPS) & (files<:FILES) & (ingroup:users<->groups) & (access:files-->groups))
+5.0064118E7,1.04474808E8,6.6266294333333336E7,7.0507337E7:files<:FILES & user:users&file:files&(user,access(file)):ingroup

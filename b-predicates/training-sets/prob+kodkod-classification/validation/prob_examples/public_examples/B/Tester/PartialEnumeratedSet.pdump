@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/PartialEnumeratedSet.mch
+8.496154933333333E7,9.684357666666667E7,1.7758666533333334E8,1.74247484E8:not((iv:ID) & (card(ID)=2) & (xx:ID)) => not((xx=iv))
+6.843644933333333E7,6.7054523E7,-1.0,1.0553870033333333E8:(iv:ID) & (card(ID)=2) & (not((xx:ID)) => not((xx=iv)))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/NestedAnys.mch
+6.3947634E7,7.5919384E7,1.21918134E8,6.2181138333333336E7:(not((x:INTEGER) & (y:INTEGER) & (z:INTEGER)) => not((z>=10 => !xx,yy.(xx=x&yy=y => y:INTEGER)) & (z>=10 => !xx,yy.(xx=x&yy=y => x:INTEGER)) & (z>=10 => !xx,yy.(xx=x&yy=y => z:INTEGER))))

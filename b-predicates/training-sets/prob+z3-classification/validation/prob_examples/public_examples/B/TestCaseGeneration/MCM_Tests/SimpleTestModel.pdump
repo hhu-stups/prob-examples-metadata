@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/MCM_Tests/SimpleTestModel.mch
+4.9712304E7,5.2026448666666664E7,6.1306492666666664E7,5.6172250333333336E7:not((a=1) & (b:3..4) & (i:NATURAL) & (j:NATURAL)) => (i=b) & (j=b)

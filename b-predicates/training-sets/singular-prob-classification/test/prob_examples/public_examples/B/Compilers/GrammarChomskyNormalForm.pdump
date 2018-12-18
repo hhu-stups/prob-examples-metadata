@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Compilers/GrammarChomskyNormalForm.mch
+5.1210795333333336E7,6.1277182666666664E7,-1.0,2.0754410633333334E8:not((Terminals={a,b}) & (Terminals/\NonTerminals={}) & (Terminals\/NonTerminals=Alphabet) & (Productions={([S],[A,B]),([S],[B,C]),([A],[B,A]),([A],[a]),([B],[C,C]),([B],[b]),([C],[A,B]),([C],[a])}) & ((LHS,RHS):Productions) & (cur=pre^LHS^post)) => not((cur:seq(Alphabet)))

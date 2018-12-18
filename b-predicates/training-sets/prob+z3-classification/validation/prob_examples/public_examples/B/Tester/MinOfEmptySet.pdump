@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/MinOfEmptySet.mch
+8.267650533333333E7,1.2640578566666667E8,6.0608219333333336E7,1.44543171E8:not(not((xx:POW(NATURAL)) & (card(xx)>2 => max(xx)=max({})))) => not((yy:NAT))

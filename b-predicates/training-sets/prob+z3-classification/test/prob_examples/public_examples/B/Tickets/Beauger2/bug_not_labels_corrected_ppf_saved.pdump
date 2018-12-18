@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Beauger2/bug_not_labels_corrected_ppf_saved.mch
+7.231021966666667E7,6.3383665333333336E7,1.0503419E8,1.0298779366666667E8:not((aa:INTEGER) & (aa=0) & (aa=0) & (not(aa=1) => aa<2) & (aa<3)) => aa=1
+4.8477719333333336E7,5.2020768E7,6.003878E7,5.5949107666666664E7:not((aa:INTEGER) & (aa=0) & (aa=0) & (not(aa=1) => aa<2) & (aa<3)) => not(aa=1) => aa=2

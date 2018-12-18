@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/Sets.mch
+6.9448846E7,4.9700221E7,8.3207695E7,7.3227468E7:valY:POW(setY) & not(xx/:dom(funX)&!yy.(yy/:ran(funX) => valY:POW(setY)))
+7.1679413E7,6.6583024666666664E7,7.2517485E7,5.8421302666666664E7:(not(funX:setX+->setY) => funX:setX+->setY)

@@ -1,0 +1,11 @@
+#source:examples/prob_examples/public_examples/B/Special/PO_ModelChecking/Scheduler_Rodin_Provers.mch
+1.4971834066666666E8,6.6572315333333336E7,1.23789415E8,4.3967905E7:(card(PID)=6) & active:POW(PID) & !pp.(pp/:active&pp/:ready\/waiting => active:POW(PID))
+4.9159976E7,5.22031189E8,1.23314052E8,4.6436072666666664E7:(card(PID)=6) & waiting<:PID & !pp.(pp/:active&pp/:ready\/waiting => waiting<:PID)
+4.7428168333333336E7,4.789799E7,6.0031354E7,5.1966804E7:(card(PID)=6) & ready:POW(PID) & active/={}&ready={} => ready:POW(PID)
+9.485917666666667E7,6.6956536333333336E7,6.6805306333333336E7,7.536591566666667E7:(card(PID)=6) & active={} => ready={} & !pp.(pp:waiting => (active={} => ready={}))
+5.6586828E7,5.5876077E7,6.5148670666666664E7,1.43316968E8:(card(PID)=6) & (not(ready<:PID) => !pp.(pp:waiting => ready<:PID))
+4.6794055333333336E7,5.7437844333333336E7,9.5441909E7,7.1607453E7:(card(PID)=6) & (not(waiting<:PID) => !pp.(pp:waiting => waiting<:PID))
+-1.0,6.0945529666666664E7,1.0556952333333333E8,-1.0:(card(PID)=6) & active/\waiting={} & not(!pp.(pp:waiting => active/\waiting-{pp}={}))
+4.7634502333333336E7,9.9928676E7,1.0000221866666667E8,7.591181866666667E7:(card(PID)=6) & (not(ready:POW(PID)) => !rr.(rr:waiting&active/={} => ready:POW(PID)))
+4.8553776666666664E7,5.7173192E7,6.813126633333333E7,7.598999366666667E7:(card(PID)=6) & waiting:POW(PID) & not(!rr.(rr:waiting&active={} => waiting:POW(PID)))
+5.9483425E7,5.0511451666666664E7,8.242023366666667E7,2.823844426666667E8:(card(PID)=6) & (not((active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (card(active)<=1) & (active={} => ready={}) & (active/\ready={}) & (active/\waiting={})) => not((!rr.(rr:waiting&active={} => active:POW(PID))) & (!rr.(rr:waiting&active={} => ({rr}={} => ready={}))) & (!rr.(rr:waiting&active={} => ready<:PID)) & (!rr.(rr:waiting&active={} => waiting<:PID)) & (!rr.(rr:waiting&active={} => {rr}/\waiting-{rr}={})) & (!rr.(rr:waiting&active={} => card({rr})<=1)) & (!rr.(rr:waiting&active={} => {rr}/\ready={})) & (!rr.(rr:waiting&active={} => active<:PID)) & (!rr.(rr:waiting&active={} => waiting:POW(PID))) & (!rr.(rr:waiting&active={} => ready:POW(PID))) & (!rr.(rr:waiting&active={} => ready/\waiting-{rr}={}))))

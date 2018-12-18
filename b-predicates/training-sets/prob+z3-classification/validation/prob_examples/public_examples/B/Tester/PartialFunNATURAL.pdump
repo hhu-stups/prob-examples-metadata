@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tester/PartialFunNATURAL.mch
+1.5220727433333334E8,1.0531495166666667E8,1.49109977E8,7.021733233333333E7:not(not((f:INTEGER+->ID))) => not((yy:ID))
+5.3663435E7,6.2555580333333336E7,7.9212773E7,6.789273466666667E7:(f:INTEGER+->ID) & (not((yy:ID)) => (yy:ID))
+-1.0,-1.0,-1.0,-1.0:f:INTEGER+->ID & not(f<+{(888,yy)}:INTEGER+->ID)

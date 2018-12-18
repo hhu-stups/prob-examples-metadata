@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/RouteIsSeq.mch
+4.4350565E7,4.8041560666666664E7,6.3969005333333336E7,4.8053527E7:not((TheRouteElement:ROUTEELEMENT)) => not((Route:seq(ROUTEELEMENT)))

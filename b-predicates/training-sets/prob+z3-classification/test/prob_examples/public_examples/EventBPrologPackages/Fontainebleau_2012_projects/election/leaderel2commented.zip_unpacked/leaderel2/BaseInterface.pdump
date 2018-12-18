@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Fontainebleau_2012_projects/election/leaderel2commented.zip_unpacked/leaderel2/BaseInterface.bcm
+1.29687046E8,1.0100197366666667E8,1.1146156666666667E8,7.2302491E7:not((ol:NAT) & (il:NAT) & (r:NAT) & (ih:1 .. il --> INPUT) & (oh:1 .. ol --> OUTPUT) & (ol - r<=QUEUE_LENGTH) & (ol>=r)) => not((m:INPUT))
+1.1291643066666667E8,3.1860542233333335E9,5.2958154333333336E7,9.9759404E7:(ol:NAT) & (il:NAT) & (r:NAT) & (ih:1 .. il --> INPUT) & (oh:1 .. ol --> OUTPUT) & (ol - r<=QUEUE_LENGTH) & (ol>=r) & ((m:INPUT) & receive_void' : VOID & ih' = ih \/ {il + 1 |-> m} & il' = il + 1 & oh' = oh & ol' = ol & r' = r & deliver_m' = deliver_m & QUEUE_LENGTH' = QUEUE_LENGTH & #m'.(m' : INPUT))

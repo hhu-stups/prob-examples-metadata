@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Tester/PartialFunTest2.mch
+-1.0,-1.0,-1.0,-1.0:not((f:POW(ID)+->>ID) & (!yy.(yy:ID => {yy}:dom(f)&f({yy})=yy)) & (xx:ID)) => not((yy:ID) & ({yy}:dom(f)))
+-1.0,-1.0,1.67250528E8,-1.0:not((f:POW(ID)+->>ID) & (!yy.(yy:ID => {yy}:dom(f)&f({yy})=yy)) & not((xx:ID))) => (yy:ID) & ({yy}:dom(f))
+-1.0,-1.0,-1.0,-1.0:not((f:POW(ID)+->>ID) & (!yy.(yy:ID => {yy}:dom(f)&f({yy})=yy)) & not((xx:ID))) => not((yy:ID) & ({yy}:dom(f)))
+-1.0,-1.0,4.391347228E9,-1.0:not((f:POW(ID)+->>ID) & (!yy.(yy:ID => {yy}:dom(f)&f({yy})=yy)) & (xx:ID)) => (yy:ID) & (yy=xx)
+6.0767015333333336E7,5.9250784E7,-1.0,5.8653897666666664E7:(f:POW(ID)+->>ID) & (!yy.(yy:ID => {yy}:dom(f)&f({yy})=yy)) & (xx:ID) & (yy:ID) & ({yy}:dom(f)) & not((yy:ID) & (yy=xx))
+4.0293817856666665E9,1.8323381533333333E9,-1.0,4.7497893E7:(f:POW(ID)+->>ID) & (!yy.(yy:ID => {yy}:dom(f)&f({yy})=yy)) & (not((xx:ID)) => not((yy=xx)))

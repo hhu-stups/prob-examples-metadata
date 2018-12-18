@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/REPL_ID_Visibility/Main.mch
+1.7737695533333334E8,4.8865106333333336E7,6.0009050666666664E7,5.5987171E7:not((x2=2*x) & (y2:NATURAL)) => not((x2<20))

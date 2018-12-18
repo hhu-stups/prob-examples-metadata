@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ASM/MovingParticles.mch
+7.2289756E7,5.7205482E7,1.590679E8,4.7039245E7:(n=2) & (mn=0) & (mx=10) & (pos:1..n-->mn..mx) & (cont:mn..mx-->NATURAL) & not((i:1..n) & (m:{-1,1}))

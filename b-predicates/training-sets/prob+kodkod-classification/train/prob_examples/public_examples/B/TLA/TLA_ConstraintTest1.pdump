@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TLA/TLA_ConstraintTest1.mch
+4.8835004333333336E7,4.7972860333333336E7,6.0136115333333336E7,5.5962283666666664E7:(not(hr:1..12) => not(hr:1..12))

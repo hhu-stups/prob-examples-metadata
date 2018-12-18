@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/MCM_Tests/SimpleTestModel.mch
+7.693150066666667E7,4.148030276666667E8,6.2936844E7,7.183776666666667E7:(a=1) & (b:3..4) & (i:NATURAL) & (j:NATURAL) & (i+j=a+b-d) & (d>0)

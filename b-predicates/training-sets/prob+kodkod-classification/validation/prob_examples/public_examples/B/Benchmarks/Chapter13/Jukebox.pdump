@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Chapter13/Jukebox.mch
+4.8612792666666664E7,4.8029711333333336E7,9.743841533333333E7,6.785695333333333E7:(limit:NAT1) & (credit:NAT) & (credit<=limit) & (playset<:TRACK) & not((credit>0) & (tt:TRACK))
+4.8858681E7,4.7769225666666664E7,6.012387E7,5.5964914666666664E7:not((limit:NAT1) & not((credit>0))) => (credit:NAT) & (credit<=limit) & (playset<:TRACK)
+1.0201576666666667E8,6.5528747E7,5.9897351666666664E7,6.5280065666666664E7:(limit:NAT1) & (credit:NAT) & (credit<=limit) & (playset<:TRACK) & (playset/={}) & (credit>0)

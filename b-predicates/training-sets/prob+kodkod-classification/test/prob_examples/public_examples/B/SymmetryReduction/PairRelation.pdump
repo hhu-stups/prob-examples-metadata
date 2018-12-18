@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/PairRelation.mch
+8.951184833333333E7,7.730010033333333E7,9.897790333333333E7,5.5476491666666664E7:(r:ID*ID+->ID)
+1.1350719466666667E8,6.0474799333333336E7,4.7643046333333336E7,1.58579314E8:not((pair:INT*INT) & (pair=(1,2)) & (r:ID*ID+->ID)) => (yy:ID) & (zz:ID) & (card(dom(r))<2)
+-1.0,-1.0,2.51253203E8,-1.0:(pair:INT*INT) & (pair=(1,2)) & not((r:ID*ID+->ID)) & ((x,x):dom(r)) & (r(x,x)=y) & ((z,z):dom(r)) & (z/=x) & (y/=x) & (z/=y)
+-1.0,-1.0,5.1425370666666664E7,-1.0:(pair:INT*INT) & (pair=(1,2)) & (r:ID*ID+->ID) & (yy:ID) & (zz:ID) & (card(dom(r))<2) & ((x,x):dom(r)) & (r(x,x)=y) & ((z,z):dom(r)) & (z/=x) & (y/=x) & (z/=y)
+5.3820834E7,5.5390400333333336E7,-1.0,1.37943752E8:(pair:INT*INT) & (pair=(1,2)) & r:ID*ID+->ID & card(dom(r))<2&r<+{((yy,yy),zz)}:ID*ID+->ID
+-1.0,-1.0,-1.0,-1.0:(pair:INT*INT) & (pair=(1,2)) & (r:ID*ID+->ID) & ((x,x):dom(r)&r((x,x))=y&(z,z):dom(r)&z/=x&y/=x&z/=y&r:ID*ID+->ID)

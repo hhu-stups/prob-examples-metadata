@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/LTL/teg1.mch
+4.4945776E7,4.7994767E7,6.3929591333333336E7,4.8000889666666664E7:not((Sender1:SENDER) & (Cstatus1:CARD_STATE)) => (Cstatus1=out)

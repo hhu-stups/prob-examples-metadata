@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/B4Free/PaperroundIF.mch
+-1.0,-1.0,6.1253482666666664E7,-1.0:(lasth:HOUSE) & (pap<:HOUSE) & (mag<:pap) & (lasth/:mag) & not((hh:HOUSE))
+-1.0,-1.0,6.6359253E7,-1.0:(lasth:HOUSE) & not((pap<:HOUSE) & (mag<:pap) & (lasth/:mag)) & not((hh:HOUSE))

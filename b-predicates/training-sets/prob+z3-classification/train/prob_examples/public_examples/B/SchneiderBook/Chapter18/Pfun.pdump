@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter18/Pfun.mch
+4.7604540333333336E7,6.5682305E7,6.5919416E7,7.898469466666667E7:not((pfun:INDEX+->VALUE)) & (ii:dom(pfun))
+4.858041E7,6.809329566666667E7,-1.0,6.5921185333333336E7:not(not((pfun:INDEX+->VALUE))) => (ii:dom(pfun))
+5.6966741666666664E7,6.816765366666667E7,4.5290955E7,9.965468833333333E7:pfun:INDEX+->VALUE & ii:INDEX&ii/:dom(pfun)&vv:VALUE&pfun<+{(ii,vv)}:INDEX+->VALUE

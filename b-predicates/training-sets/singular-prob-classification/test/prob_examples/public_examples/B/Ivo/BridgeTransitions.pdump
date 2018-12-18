@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BridgeTransitions.mch
+4.884285E7,5.1915051333333336E7,6.3871088E7,6.6582466E7:not(not((xx:INTEGER) & (yy:INTEGER) & (yy<10) & (zz:INTEGER))) => not((xx=2) & (yy=2) & (zz=-1))
+4.8644523666666664E7,4.8008595666666664E7,1.0668244433333333E8,5.1944664E7:(xx:INTEGER) & (yy:INTEGER) & (yy<10) & (zz:INTEGER) & (xx=2) & (xx=0)

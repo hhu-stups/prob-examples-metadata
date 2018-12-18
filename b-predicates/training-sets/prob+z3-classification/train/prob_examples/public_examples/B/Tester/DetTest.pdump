@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tester/DetTest.mch
+1.25451125E8,7.984640133333334E8,6.7275012E7,1.4853208633333334E8:(ss<:Els) & (tt:Els) & (uu:Els) & (vv:ss) & (ww:Els) & (xx:Els) & (yy:ss) & (zz:Els) & (tt2:Els) & (uu2:Els) & (vv2:Els) & (tt=vv) & (vv=xx) & (xx=zz) & (zz=uu2) & (uu=ww) & (ww=yy) & (yy=tt2) & (tt2=vv2) & (tt:{cc,dd}) & (uu:{gg,bb,ee})
+5.6721784333333336E7,5.4598097333333336E7,6.8073531E7,6.5315568333333336E7:not((tt:Els) & (uu:Els) & (vv:ss) & (ww:Els) & (xx:Els) & (yy:ss) & (zz:Els) & (tt2:Els) & (uu2:Els) & (vv2:Els) & (tt=vv) & (vv=xx) & (xx=zz) & (zz=uu2) & (uu=ww) & (ww=yy) & (yy=tt2) & (tt2=vv2) & (tt:{cc,dd}) & (uu:{gg,bb,ee})) => (ss<:Els)
+6.329811E7,1.2098912833333333E8,7.961333633333333E7,2.5127403866666666E8:(ss<:Els) & (tt:ss&uu:ss&vv:ss&ww:ss&xx:ss&yy:ss&zz:ss&tt2:ss&uu2:ss&vv2:ss&tt=vv&vv=xx&xx=zz&zz=uu2&uu=ww&ww=yy&yy=tt2&tt2=vv2&tt:{cc,dd}&uu:{gg,bb,ee})

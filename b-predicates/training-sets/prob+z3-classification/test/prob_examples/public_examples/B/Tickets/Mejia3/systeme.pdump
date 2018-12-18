@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Mejia3/systeme.mch
+1.0090964333333333E8,1.8945475303333333E9,9.708641533333333E7,6.5802478666666664E7:(xx:0..10) & (yy:0..10) & (xx<yy)

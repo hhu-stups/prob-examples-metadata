@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/BZTT/DAB.mch
+1.30813865E8,8.699809766666667E7,1.2705049033333333E8,5.8298265666666664E7:(rap_transac:ETAT_TRANSACTION) & (ticket:TICKET) & (somme_del:NAT) & (somme_del:MONTANT)

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/TLA/TLA_Distribution/AlternatingBit/AlternatingBit.mch
+5.0860797666666664E7,7.735865E7,-1.0,7.6325907E7:(Data={d1,d2}) & (not(sBit:INTEGER) => sAck/=sBit => !msgQ_n.(msgQ_n=msgQ<-rec(bit:sBit,data:sent) => sBit:INTEGER))
+5.5998159333333336E7,5.500639E7,7.4018444E7,7.192125033333333E7:(Data={d1,d2}) & (not(sBit:INTEGER) => not(sAck/=sBit => !msgQ_n.(msgQ_n=msgQ<-rec(bit:sBit,data:sent) => sBit:INTEGER)))
+5.4640188666666664E7,5.1885043E7,7.4664453E7,6.4561818E7:(Data={d1,d2}) & (not(rBit:INTEGER) => not(sAck/=sBit => !msgQ_n.(msgQ_n=msgQ<-rec(bit:sBit,data:sent) => rBit:INTEGER)))

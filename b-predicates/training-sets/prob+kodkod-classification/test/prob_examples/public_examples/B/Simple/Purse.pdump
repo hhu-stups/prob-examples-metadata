@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Simple/Purse.mch
+5.1332854666666664E7,5.7238633666666664E7,-1.0,7.8757152E7:(Coins<:NAT1) & (Coins={1,2}) & (purse:Coins-->NAT) & (not((total(purse)=0)) => (cc:Coins) & (purse(cc)<MAXINT))
+5.7364650333333336E7,5.4636184666666664E7,-1.0,2.03210199E8:(Coins<:NAT1) & (Coins={1,2}) & (purse:Coins-->NAT) & (total(purse)=0) & not((cc:Coins) & (purse(cc)<MAXINT))
+5.5918004333333336E7,5.5866228666666664E7,-1.0,6.993484766666667E7:(Coins<:NAT1) & (Coins={1,2}) & (purse:Coins-->NAT) & (SIGMA(cc,nn).(cc:Coins&nn:NAT1&(cc,nn):purse|cc*nn)=0 => purse:Coins-->NAT)
+-1.0,-1.0,1.2379986766666667E8,-1.0:(Coins<:NAT1) & (Coins={1,2}) & (not(purse:Coins-->NAT) => cc:Coins&purse(cc)<MAXINT&purse<+{(cc,purse(cc)+1)}:Coins-->NAT)

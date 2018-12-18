@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/CSPB/TestVariableProbing.mch
+6.4602582E7,6.413557176E9,-1.0,8.9166762E7:(maxage=120) & (likes:PERSONS<->PERSONS) & (age:PERSONS+->0..maxage) & (nrpersons=card(dom(age))) & ((p,q)/:likes) & (p:dom(age)) & (q:dom(age))
+5.2168272666666664E7,5.3465434666666664E7,-1.0,1.8547661233333334E8:not((maxage=120) & (p/:dom(age)) & (a:{0,10,20,30})) => not((likes:PERSONS<->PERSONS) & (age:PERSONS+->0..maxage) & (nrpersons=card(dom(age))))
+1.39826999E8,9.2969504E7,-1.0,6.1928755E7:(maxage=120) & (not(age:PERSONS+->0..maxage) => (p,q)/:likes&p:dom(age)&q:dom(age)&age:PERSONS+->0..maxage)
+1.7395131033333334E8,1.0588630033333333E8,-1.0,1.5669979166666666E8:(maxage=120) & (not((likes:PERSONS<->PERSONS) & (age:PERSONS+->0..maxage) & (nrpersons=card(dom(age)))) => ((p,q)/:likes&p:dom(age)&q:dom(age)) & ((p,q)/:likes&p:dom(age)&q:dom(age)&age:PERSONS+->0..maxage) & ((p,q)/:likes&p:dom(age)&q:dom(age)&nrpersons=card(dom(age))))

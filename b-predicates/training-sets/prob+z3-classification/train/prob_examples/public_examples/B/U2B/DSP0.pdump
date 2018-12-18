@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/U2B/DSP0.mch
+5.0094289333333336E7,5.2070913666666664E7,-1.0,6.5326091E7:(not(cellChannels:CELL-->POW(CHANNEL)) => dsp_state=traffic => cellChannels:CELL-->POW(CHANNEL))
+5.4562501666666664E7,5.5097695666666664E7,-1.0,7.037887533333333E7:disjoint(cellChannels) & dsp_state=traffic => !a1,a2.(a1:dom(cellChannels)&a2:dom(cellChannels)&a1/=a2&1=1 => cellChannels(a1)/\cellChannels(a2)={})
+1.24843553E8,4.7947298666666664E7,6.800497E7,5.2011176E7:current:CELL & dsp_state=init&powerlevel(current)>threshold&cellChannels(current)/={} => current:CELL
+8.9097014E7,1.00363787E8,9.8868578E7,5.3715955666666664E7:dspChannels<:cellChannels(current) & not(dsp_state=idle => dspChannels<:cellChannels(current))

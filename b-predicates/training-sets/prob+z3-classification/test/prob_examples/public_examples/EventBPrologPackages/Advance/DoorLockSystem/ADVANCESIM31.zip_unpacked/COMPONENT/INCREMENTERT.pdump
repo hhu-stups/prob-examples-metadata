@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/INCREMENTERT.bcm
+4.7852477E7,4.8905078333333336E7,-1.0,5.6450544666666664E7:not(not((incrementer_state=I_WAIT))) => (v:NAT) & (i_sum:NAT)

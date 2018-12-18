@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/ABCD/TheSystem.mch
+4.8887199666666664E7,5.3813896E7,7.0385347E7,5.7487105333333336E7:not((uu:USER)) => (session:SESS+->USER) & (respons:USER-->RESP) & (r_hotel:ROOM-->HOTEL) & (c_rent:CAR-->CAR_RENT) & (u_card:USER-->CARD) & (u_state:USER-->U_STATE) & (u_hotel:USER-->HOTEL) & (u_rental:USER-->CAR_RENT) & (u_request:USER-->U_REQUEST) & (r_user:ROOM>+>USER) & (c_user:CAR>+>USER)
+4.8029431666666664E7,8.229100466666667E7,-1.0,7.2836823E7:(not(u_hotel:USER-->HOTEL) => u_state(uu)=s1&u_request(uu)=none => u_hotel:USER-->HOTEL)

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/DollarSymbol/ValidMachines/AssignByPredicateWithDEF.mch
+5.5708759666666664E7,5.4633972666666664E7,7.24726E7,7.743850233333333E7:not((xx<1000)) => (xx:NATURAL)
+4.7257057E7,5.3252419E7,7.7718985E7,6.8336693E7:xx:NATURAL & not(xx:NATURAL)

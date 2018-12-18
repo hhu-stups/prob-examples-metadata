@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Merging/merging.zip_unpacked/Merging/R2.bcm
+-1.0,-1.0,2.2155720596666665E9,-1.0:(c:NAT) & (d:NAT) & (c:{d*2,d*2 - 1}) & (c<10)

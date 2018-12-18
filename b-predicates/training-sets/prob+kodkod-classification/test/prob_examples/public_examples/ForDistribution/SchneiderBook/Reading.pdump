@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Reading.mch
+5.2530306333333336E7,7.701994333333333E7,1.1237693E8,6.4602163E7:(copyof:COPY-->>BOOK) & (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={}) & not((rr:READER) & (cc:COPY) & (copyof(cc)/:hasread[{rr}]) & (rr/:dom(reading)) & (cc/:ran(reading)))
+9.114115266666667E7,9.515967966666667E7,-1.0,1.06630878E8:(copyof:COPY-->>BOOK) & not((hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={})) & (rr:READER) & (cc:COPY) & (copyof(cc)/:hasread[{rr}]) & (rr/:dom(reading)) & (cc/:ran(reading))
+-1.0,-1.0,7.058553533333333E7,-1.0:(copyof:COPY-->>BOOK) & (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={}) & not((rr:READER) & (bb:BOOK))
+5.0914459E7,7.679815033333333E7,1.1158099533333333E8,5.184074E7:(copyof:COPY-->>BOOK) & not((hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={})) & not((rr:READER) & (cc:COPY) & (cc=reading(rr)))
+-1.0,-1.0,8.531420066666667E7,-1.0:(copyof:COPY-->>BOOK) & (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={}) & (rr:READER) & (cc:COPY) & (copyof(cc)/:hasread[{rr}]) & (rr/:dom(reading)) & (cc/:ran(reading)) & not((rr:READER))
+-1.0,-1.0,8.050057666666667E7,-1.0:(copyof:COPY-->>BOOK) & (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={}) & (rr:READER) & (bb:BOOK) & not((rr:READER))
+5.4725674333333336E7,7.3265159E7,-1.0,1.0787512366666667E8:(copyof:COPY-->>BOOK) & (reading;copyof)/\hasread={} & not(copyof(cc)/:hasread[{rr}]&rr/:dom(reading)&cc/:ran(reading)&(reading\/{(rr,cc)};copyof)/\hasread={})
+-1.0,-1.0,8.159876066666667E7,-1.0:(copyof:COPY-->>BOOK) & reading:READER>+>COPY & not((rr,bb):hasread => reading:READER>+>COPY&(not((rr,bb):hasread) => (TRUE:BOOL => reading:READER>+>COPY)))
+-1.0,-1.0,7.486915733333333E7,-1.0:(copyof:COPY-->>BOOK) & reading:READER>+>COPY & not(rr:dom(reading) => reading:READER>+>COPY&(not(rr:dom(reading)) => (TRUE:BOOL => reading:READER>+>COPY)))

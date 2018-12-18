@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/DefinitionMultiInclude/Main.mch
+5.4307208666666664E7,5.1680734E7,6.4900129333333336E7,6.3139686333333336E7:not((A={1,2,3}) & (B={1,4}) & (C={2,3})) => x=12

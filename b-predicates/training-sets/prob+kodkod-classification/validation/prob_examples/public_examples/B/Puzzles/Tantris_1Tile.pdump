@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Tantris_1Tile.mch
+7.865904833333333E7,7.406719366666667E7,-1.0,2.54917123E8:(not(tile:TILE) => not(off:0..5&%x.(x:0..5|tile(x+off mod 6)):0..5-->COLOURS))

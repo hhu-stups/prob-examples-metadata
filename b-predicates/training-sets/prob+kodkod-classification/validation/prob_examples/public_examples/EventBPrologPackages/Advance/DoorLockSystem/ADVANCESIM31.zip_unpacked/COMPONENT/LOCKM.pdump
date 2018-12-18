@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/LOCKM.bcm
+6.726423333333333E7,5.542872E7,6.743201533333333E7,6.3180008E7:(locked:BOOL) & (locked=TRUE)

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/choice_test.mch
+4.271968286666667E8,5.4059016E7,8.549840033333334E8,5.6726115333333336E7:(cc:Code) & (c:Code)
+5.6693196333333336E7,6.953852166666667E7,7.9868909E7,6.6579136333333336E7:(not((cc:Code)) => (c=c1 => cc:Code&(not(c=c1) => (TRUE:BOOL => cc:Code))))

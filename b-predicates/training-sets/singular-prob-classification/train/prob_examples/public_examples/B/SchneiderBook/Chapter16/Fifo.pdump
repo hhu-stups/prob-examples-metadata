@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter16/Fifo.mch
+1.1394631033333333E8,7.624659033333333E7,-1.0,7.223309166666667E7:(contents:seq(ELEM)) & (size(contents)<=cap)
+4.6425200666666664E7,4.8888433E7,-1.0,7.670770633333333E7:not(not((contents:seq(ELEM)) & (size(contents)<=cap))) => (ee:ELEM) & (size(contents)<cap)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSPB/Tickets/Treharne1/Test_corrected.mch
+7.870945033333333E7,5.0236276333333336E7,6.3851998E7,7.8804667E7:(not((in:NAT)) => (in:NAT))

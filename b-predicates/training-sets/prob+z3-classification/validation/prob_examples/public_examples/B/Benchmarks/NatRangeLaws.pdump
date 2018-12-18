@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/NatRangeLaws.mch
+4.9495888666666664E7,5.2121781666666664E7,4.0782677E7,1.10452989E8:card(xx..xx-1)=0 & yy:INT&card(xx..xx-1)=0
+4.9990202333333336E7,5.1985497666666664E7,4.2219102666666664E7,9.206117133333333E7:(not(xx<=zz => card(xx..zz)=zz-xx+1) => xx<=zz => card(xx..zz)=zz-xx+1)

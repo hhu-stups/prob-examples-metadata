@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/Z/Daniel/bugs/expressionfail.mch
+5.3949761E7,5.7293482333333336E7,8.148384866666667E7,6.5514150666666664E7:not(not((x:INTEGER))) => (state:POW(INTEGER*INTEGER))

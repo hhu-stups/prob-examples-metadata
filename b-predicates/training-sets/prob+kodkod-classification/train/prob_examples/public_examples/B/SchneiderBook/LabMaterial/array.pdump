@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/LabMaterial/array.mch
+6.2696427E7,3.223184786666667E8,7.628120866666667E7,1.1209828666666667E8:not((ii:1..sze) & (ee:NAT)) => not((arr:1..sze-->NAT))
+5.8924159666666664E7,6.5261767333333336E7,7.520984333333333E7,7.0502075E7:(not((arr:1..sze-->NAT)) => (ii:1..sze&arr:1..sze-->NAT))
+6.2798185666666664E7,6.2677662666666664E7,1.9226958533333334E8,1.4395056833333334E8:(not((arr:1..sze-->NAT)) => (ii:1..sze&ee:NAT&arr<+{(ii,ee)}:1..sze-->NAT))

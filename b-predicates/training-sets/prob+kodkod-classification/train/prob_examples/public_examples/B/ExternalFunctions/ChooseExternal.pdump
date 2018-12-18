@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/ChooseExternal.mch
+9.682220533333333E7,8.804352833333333E7,-1.0,6.6477703666666664E7:(xx<:ID) & (xx={} or CHOOSE(xx):xx)
+1.0521179633333333E8,1.0311930533333333E8,-1.0,6.6180110666666664E7:not((xx<:ID) & (xx={} or CHOOSE(xx):xx)) => not((yy=CHOOSE(xx)))

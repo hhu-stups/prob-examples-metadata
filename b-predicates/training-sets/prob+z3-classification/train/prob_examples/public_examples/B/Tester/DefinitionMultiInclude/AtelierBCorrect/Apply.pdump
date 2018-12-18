@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/DefinitionMultiInclude/AtelierBCorrect/Apply.mch
+-1.0,-1.0,1.01680155E8,-1.0:not((ff=%x2.(x2:INTEGER|x2+1)) & (rr=CallOrApply(1)) & not((yy:INTEGER))) => (x3:NAT)
+-1.0,-1.0,9.818012933333333E7,-1.0:not((ff=%x2.(x2:INTEGER|x2+1)) & (rr=CallOrApply(1)) & not((yy:INTEGER))) => not((x3:NAT))

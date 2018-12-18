@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/NotMemberCheck.mch
+5.1276516E7,5.7977461333333336E7,7.2817733E7,7.328431966666667E7:(xx<:INTEGER) & (not((x/:xx)) => (x:xx) & (x<0))
+5.8469190333333336E7,6.853010666666667E7,3.000028613333333E8,1.25910145E8:(xx<:INTEGER) & (LAWS) & not((x/:xx) & (x>=0))

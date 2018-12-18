@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/OpCallModifiesInfo/OpCallModifiesInfo.mch
+5.9319787333333336E7,5.0553844666666664E7,6.0112067E7,5.9919374666666664E7:(pc:NATURAL) & (pc=0 => status=TRUE) & (not((pc=2)) => (pc=1))

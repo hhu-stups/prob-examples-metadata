@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Kodkod1/MultiplicationConstraint.mch
+2.6625843933333334E8,9.855759833333333E7,9.871932733333333E7,5.8176089666666664E7:not((x+100:100..20000) & (y:200..300) & (x*y=90000)) => (x*y=90000)

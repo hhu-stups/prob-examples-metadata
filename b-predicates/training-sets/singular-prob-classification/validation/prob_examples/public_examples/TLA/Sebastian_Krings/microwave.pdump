@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/TLA/Sebastian_Krings/microwave.mch
+-1.0,-1.0,8.328468333333333E7,-1.0:time:INTEGER & !magnetron_running_n,door_open_n,button_locked_n,time_n,error_n.(magnetron_running=FALSE => error=FALSE&magnetron_running=FALSE&door_open=FALSE&time/=0&magnetron_running_n=TRUE&button_locked_n=TRUE&door_open_n=door_open&time_n=time&error_n=error&(not(magnetron_running=FALSE) => magnetron_running=TRUE&magnetron_running_n=FALSE&button_locked_n=FALSE&time_n=0&door_open_n=door_open&error_n=error) => time:INTEGER)
+4.9032934E7,5.0970447666666664E7,6.0132344333333336E7,5.1872797333333336E7:magnetron_running:BOOL & button_locked=FALSE&magnetron_running=FALSE&door_open=FALSE => !door_open_n.(door_open_n=TRUE => magnetron_running:BOOL)
+4.8787978333333336E7,4.7927975333333336E7,5.8837836E7,4.9230306E7:(not(time:INTEGER) => door_open=TRUE => !door_open_n.(door_open_n=FALSE => time:INTEGER))

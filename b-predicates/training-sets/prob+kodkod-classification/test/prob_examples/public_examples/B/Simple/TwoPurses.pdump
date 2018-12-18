@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Simple/TwoPurses.mch
+4.8498835E7,5.2095917333333336E7,-1.0,7.4559784E7:not((Coins<:NAT1) & (Coins={1,2}) & not((total(purse)=0))) => (purse:Coins-->NAT) & (other:Coins-->NAT)
+6.4350082333333336E7,5.2341781666666664E7,6.6714419333333336E7,6.3849833E7:not((Coins<:NAT1) & (Coins={1,2}) & not((purse:Coins-->NAT) & (other:Coins-->NAT))) => not((amount:NAT1))

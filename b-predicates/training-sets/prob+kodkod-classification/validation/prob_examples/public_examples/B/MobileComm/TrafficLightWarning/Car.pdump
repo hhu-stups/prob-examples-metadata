@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/TrafficLightWarning/Car.mch
+1.6403161333333334E8,1.3812708566666666E8,9.084835433333333E7,6.5400425333333336E7:(maxspeed:NAT1) & (maxdecelerate:NAT1) & (maxaccelerate:NAT1) & not((speed:NAT) & (speed<=maxspeed) & (curpos:NATURAL)) & not((deltat:NAT1))
+5.1012492666666664E7,5.0863777333333336E7,6.2091741333333336E7,5.7391865333333336E7:not((maxspeed:NAT1) & (maxdecelerate:NAT1) & (maxaccelerate:NAT1) & not((speed:NAT) & (speed<=maxspeed) & (curpos:NATURAL))) => not((deltat:NAT1))

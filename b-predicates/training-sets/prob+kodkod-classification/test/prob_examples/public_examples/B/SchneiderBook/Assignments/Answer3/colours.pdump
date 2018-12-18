@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Assignments/Answer3/colours.mch
+6.8683292E7,5.2034806E7,6.944102333333333E7,6.8013956E7:(cols:1..arrsize-->SPECTRUM) & (ii:1..arrsize) & (jj:1..arrsize)
+5.0177982333333336E7,5.1992575E7,6.4105335333333336E7,1.3373348633333333E8:(not(cols:1..arrsize-->SPECTRUM) => ii:1..arrsize&jj:1..arrsize&cols<+{(ii,cols(jj)),(jj,cols(ii))}:1..arrsize-->SPECTRUM)

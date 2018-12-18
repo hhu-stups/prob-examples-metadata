@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/TimingExample.mch
+5.8323687333333336E7,6.3594819E7,6.5566321333333336E7,7.060867633333333E7:not((mxc:1..50) & (mxe:1..50) & (pc=0) & (v:1..mxc)) => not((INV))
+5.8614367333333336E7,1.5150858233333334E8,7.0596477E7,1.6641217666666666E8:(mxc:1..50) & (mxe:1..50) & (INV) & (v=min({timer_c,timer_e})) & (pc=2)
+2.39083918E8,6.4155877E7,7.4627367E7,7.612637066666667E7:not((mxc:1..50) & (mxe:1..50) & not((v=min({timer_c,timer_e})) & (pc=2))) => not((INV))
+7.068571133333333E7,1.1847849733333333E8,6.2785451666666664E7,2.0752045366666666E8:(mxc:1..50) & (mxe:1..50) & INV & not(pc=0&v:1..mxc => timer_c+v:NATURAL&timer_e:NATURAL&timer_c+v-timer_e<100&1:0..2)
+6.5749073E7,8.2383451E7,6.0402373666666664E7,2.762882766666667E8:(mxc:1..50) & (mxe:1..50) & (INV) & not((pc=0&v:1..mxc => timer_c+v:NATURAL&timer_e:NATURAL&timer_c+v-timer_e<100&1:0..2))
+6.8231349E7,1.3510409866666666E8,6.2260687666666664E7,1.1351466766666667E8:(mxc:1..50) & (mxe:1..50) & (not(INV) => not(pc=1&v:1..mxe => timer_c:NATURAL&timer_e+v:NATURAL&timer_c-(timer_e+v)<100&2:0..2))
+6.6640690333333336E7,1.0170604333333333E8,7.612900133333333E7,1.1450946366666667E8:(mxc:1..50) & (mxe:1..50) & (not(INV) => v=min({timer_c,timer_e})&pc=2 => timer_c-v:NATURAL&timer_e-v:NATURAL&timer_c-v-(timer_e-v)<100&0:0..2)
+-1.0,-1.0,7.354973933333333E7,-1.0:(mxc:1..50) & (mxe:1..50) & (INV) & not((v=min({timer_c,timer_e})&pc=2 => timer_c-v:NATURAL&timer_e-v:NATURAL&timer_c-v-(timer_e-v)<100&0:0..2))

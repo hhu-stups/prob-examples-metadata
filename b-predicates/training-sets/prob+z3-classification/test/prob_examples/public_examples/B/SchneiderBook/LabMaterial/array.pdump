@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/LabMaterial/array.mch
+6.711998766666667E7,6.792795833333333E7,6.3501534333333336E7,1.1182560266666667E8:(arr:1..sze-->NAT) & (ii:1..sze&arr:1..sze-->NAT)

@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/TLC/NoError/TrafficLight_tlm2.mch
+6.6908322333333336E7,5.1503988333333336E7,-1.0,6.4422554666666664E7:not((TL_Car=go <=> TL_Car_Color/={red}) & (TL_Ped=go <=> TL_Ped_Color/={red}) & (CallButtonState:BOOL) & (TL_Car_Color={red,yellow} or card(TL_Car_Color)=1) & (TL_Ped_Color={red} or TL_Ped_Color={green})) => (TL_Ped_Color={red}) & (TL_Car_Color={red,yellow})
+8.0624405E7,5.2922326E7,-1.0,1.30079763E8:not((TL_Ped_Color={red}) & (TL_Car_Color={red}) & (CallButtonState=FALSE)) => not((TL_Car=go <=> TL_Car_Color/={red}) & (TL_Ped=go <=> TL_Ped_Color/={red}) & (CallButtonState:BOOL) & (TL_Car_Color={red,yellow} or card(TL_Car_Color)=1) & (TL_Ped_Color={red} or TL_Ped_Color={green}))
+4.7405143666666664E7,4.7913425E7,6.5374444333333336E7,5.2241070666666664E7:(not(CallButtonState:BOOL) => not(TL_Ped_Color={green}))
+4.9933142333333336E7,4.5182398333333336E7,6.282433E7,5.0576892333333336E7:(not(CallButtonState:BOOL) => TL_Ped/=go)
+4.7458758333333336E7,4.7998306E7,6.4733534333333336E7,4.9950928333333336E7:(not(CallButtonState:BOOL) => not(TL_Car_Color={red}&CallButtonState=TRUE))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/DesertOilTruck.mch
+-1.0,-1.0,6.634163E7,-1.0:(width=8) & (maxload=5) & (dist:0..width) & (load:0..maxload) & (deposit:1..width-->NATURAL) & (not((amount>0) & (amount<load) & (dist>0)) => (amount>0) & (dist>0) & (amount<=deposit(dist)) & (amount+load<=maxload))

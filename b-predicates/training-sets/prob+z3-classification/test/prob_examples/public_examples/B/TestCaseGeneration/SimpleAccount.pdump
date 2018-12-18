@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/SimpleAccount.mch
+1.0898862666666667E8,6.5087466333333336E7,9.506024933333333E7,4.9744454E7:(balance:minb..maxb)
+5.1237661E7,5.5192912666666664E7,6.2156181666666664E7,7.0999695E7:(minb<maxb) & (minb<=0) & (maxb>=0) & (maxb>1000) & (balance:minb..maxb) & ((balance=minb) => not((s>0) & (balance-s>=minb)))
+5.073485E7,5.2044746666666664E7,6.2588033333333336E7,7.3771532E7:(minb<maxb) & (minb<=0) & (maxb>=0) & (maxb>1000) & (not(balance:minb..maxb) => not(balance=maxb => balance:minb..maxb))

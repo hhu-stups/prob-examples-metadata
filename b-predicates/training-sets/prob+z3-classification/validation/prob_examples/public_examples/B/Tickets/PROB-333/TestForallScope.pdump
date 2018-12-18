@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROB-333/TestForallScope.mch
+5.8386870666666664E7,1.0475254366666667E8,-1.0,7.148693066666667E7:not((BB<:AA) & (rr=xx)) => vv=yy
+5.5870861666666664E7,6.4657524E7,6.4538025333333336E7,8.515265833333333E7:(BB<:AA) & (rr=xx) & zz:BB

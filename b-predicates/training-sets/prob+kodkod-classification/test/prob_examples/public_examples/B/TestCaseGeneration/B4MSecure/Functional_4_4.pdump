@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/B4MSecure/Functional_4_4.mch
+5.3867068333333336E7,7.434651166666667E7,-1.0,8.5228156E7:(Book<:BOOK) & (Member<:MEMBER) & (Lend:Member<->Book) & (!c2.(c2:dom(Lend) => card(Lend[{c2}])<=3)) & (Reserve:Book+->Member) & ((me,bo):Lend) & not((Instance:Member) & (Instance:dom(Lend)))

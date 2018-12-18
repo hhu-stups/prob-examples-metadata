@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/RefIsSkipBug/RefBug.zip_unpacked/RefBug/Abs.bcm
+7.827603833333333E7,4.8293851E7,6.2715027666666664E7,5.3298701E7:(not(x:NAT) => not(true => x + 1 : NAT))
+5.2013713666666664E7,4.7915986333333336E7,6.0106293333333336E7,5.9911436E7:(x:NAT) & x' = x + 1 & (x' : NAT)

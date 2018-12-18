@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter16/RobustFifo.mch
+-1.0,-1.0,1.12516217E8,-1.0:(queue:seq(ELEM)) & (size(queue)<=cap) & not((ee:ELEM))
+-1.0,-1.0,8.679418433333333E7,-1.0:not((queue:seq(ELEM)) & (size(queue)<=cap)) & not((ee:ELEM))
+6.0705136E7,5.2064791333333336E7,-1.0,9.885742666666667E7:not((ee:ELEM)) => not((queue:seq(ELEM)) & (size(queue)<=cap))
+-1.0,-1.0,-1.0,-1.0:queue:seq(ELEM) & not(ee:ELEM&(size(queue)<cap => queue<-ee:seq(ELEM)&(not(size(queue)<cap) => (TRUE:BOOL => queue:seq(ELEM)))))
+-1.0,-1.0,-1.0,-1.0:(queue:seq(ELEM)) & (size(queue)<=cap) & not((ee:ELEM&(size(queue)<cap => queue<-ee:seq(ELEM)&(not(size(queue)<cap) => (TRUE:BOOL => queue:seq(ELEM))))) & (ee:ELEM&(size(queue)<cap => size(queue<-ee)<=cap&(not(size(queue)<cap) => (TRUE:BOOL => size(queue)<=cap)))))
+4.6780995666666664E7,4.8996523666666664E7,-1.0,4.5189522333333336E7:(not(queue:seq(ELEM)) => queue:seq(ELEM))
+-1.0,-1.0,7.788241333333333E7,-1.0:queue:seq(ELEM) & not(queue:seq(ELEM))

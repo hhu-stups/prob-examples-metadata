@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/CardTrickSym.mch
+5.5646159E7,7.202023866666667E7,-1.0,5.396384553333334E8:(card(SUIT)=4) & (all:perm(SUIT)) & (x:seq(SUIT)) & (y:seq(SUIT)) & (dest:seq(SUIT)) & (reversed:BOOL) & (x=[]&y=[] => ok(dest)) & (x/=[]) & (reversed=TRUE)

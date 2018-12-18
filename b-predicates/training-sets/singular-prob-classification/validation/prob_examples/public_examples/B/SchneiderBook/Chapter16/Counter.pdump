@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter16/Counter.mch
+4.7345569333333336E7,4.9502477666666664E7,5.8442743333333336E7,5.513832E7:(not((counter:NAT)) => (counter:NAT))

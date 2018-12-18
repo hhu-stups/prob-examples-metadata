@@ -1,0 +1,13 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter12/Towns.mch
+-1.0,-1.0,6.9326763E7,-1.0:not((roads:TOWN<->TOWN)) & (tt1:TOWN) & (tt2:TOWN)
+-1.0,-1.0,6.3821500333333336E7,-1.0:not((roads:TOWN<->TOWN)) & not((tt1:TOWN) & (tt2:TOWN))
+-1.0,-1.0,6.6750318E7,-1.0:(roads:TOWN<->TOWN) & not((tt1:TOWN) & (tt2:TOWN))
+-1.0,-1.0,6.3144411666666664E7,-1.0:not((roads:TOWN<->TOWN)) & (tt1:TOWN) & (tt2:TOWN)
+-1.0,-1.0,6.4085919333333336E7,-1.0:not((roads:TOWN<->TOWN)) & not((tt1:TOWN) & (tt2:TOWN))
+-1.0,-1.0,6.3858143666666664E7,-1.0:not(not((roads:TOWN<->TOWN))) => not((tt1:TOWN) & (tt2:TOWN))
+-1.0,-1.0,6.2552670333333336E7,-1.0:(roads:TOWN<->TOWN) & (tt1:TOWN) & (tt2:TOWN) & not((tt1:TOWN) & (tt2:TOWN))
+-1.0,-1.0,6.917690666666667E7,-1.0:roads:TOWN<->TOWN & not(tt1:TOWN&tt2:TOWN&roads\/{(tt1,tt2)}:TOWN<->TOWN)
+4.8235859E7,1.88372511E8,-1.0,6.1781529666666664E7:(not((roads:TOWN<->TOWN)) => (tt1:TOWN&tt2:TOWN&roads\/{(tt1,tt2)}:TOWN<->TOWN))
+-1.0,-1.0,-1.0,-1.0:roads:TOWN<->TOWN & not(tt1:TOWN&tt2:TOWN&((tt1,tt2):closure1(roads\/roads~) or tt1=tt2 => roads:TOWN<->TOWN&(not((tt1,tt2):closure1(roads\/roads~) or tt1=tt2) => (TRUE:BOOL => roads:TOWN<->TOWN))))
+-1.0,-1.0,-1.0,-1.0:(roads:TOWN<->TOWN) & not((tt1:TOWN&tt2:TOWN&((tt1,tt2):closure1(roads\/roads~) or tt1=tt2 => roads:TOWN<->TOWN&(not((tt1,tt2):closure1(roads\/roads~) or tt1=tt2) => (TRUE:BOOL => roads:TOWN<->TOWN)))))
+5.2201610333333336E7,7.8407224E7,-1.0,5.4764995E7:(not((roads:TOWN<->TOWN)) => not((tt1:TOWN&tt2:TOWN&((tt1,tt2):closure1(roads\/roads~) or tt1=tt2 => roads:TOWN<->TOWN&(not((tt1,tt2):closure1(roads\/roads~) or tt1=tt2) => (TRUE:BOOL => roads:TOWN<->TOWN))))))

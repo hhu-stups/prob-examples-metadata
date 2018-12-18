@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/RefinementDevelopment/SingleFlowSeqSpec.mch
+8.261609266666667E7,7.5742965E7,-1.0,7.074973266666667E7:(messages:iseq(RPACKETS))
+-1.0,-1.0,-1.0,-1.0:(emptyp:PACKETS) & (RPACKETS=PACKETS-{emptyp}) & (dest:DEVICES) & (source:DEVICES) & not((messages:iseq(RPACKETS))) & not((messages/={}))

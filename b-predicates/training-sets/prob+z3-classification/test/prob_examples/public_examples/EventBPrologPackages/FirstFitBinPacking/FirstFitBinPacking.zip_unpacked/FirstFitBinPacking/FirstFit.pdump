@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/FirstFitBinPacking/FirstFitBinPacking.zip_unpacked/FirstFitBinPacking/FirstFit.bcm
+1.4282949966666666E8,8.895237266666667E7,6.3559223E7,1.2224492133333333E8:not((nrcols:NAT) & (cols:1 .. nrcols --> 1 .. colmax) & (!y oftype INT.y:1 .. nrcols - 1=>cols(y)>=colmax / 2)) & (packet:1 .. colmax&(packet<colmax / 2 or nrcols=0)) & (col=nrcols+1) & (!x oftype INT.x:1 .. nrcols=>cols(x)+packet>colmax)
+8.909049566666667E7,5.9874187666666664E7,7.2122975E7,1.57983032E8:not(not((nrcols:NAT) & (cols:1 .. nrcols --> 1 .. colmax) & (!y oftype INT.y:1 .. nrcols - 1=>cols(y)>=colmax / 2))) => (packet:1 .. colmax&(packet<colmax / 2 or nrcols=0)) & (col=nrcols+1) & (!x oftype INT.x:1 .. nrcols=>cols(x)+packet>colmax)

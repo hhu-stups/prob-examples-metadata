@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Safes_Chapter10/Doors.mch
+-1.0,-1.0,-1.0,-1.0:position:DOOR-->POSITION & not(position<+{(dd,open)}:DOOR-->POSITION)

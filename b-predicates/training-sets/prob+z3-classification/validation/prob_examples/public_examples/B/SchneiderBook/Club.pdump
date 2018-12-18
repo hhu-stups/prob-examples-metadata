@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Club.mch
+-1.0,-1.0,6.7088303E7,-1.0:(capacity:NAT1) & (capacity<=2) & (card(NAME)>capacity) & (total:NAT1) & (total>2) & (member<:NAME) & (waiting<:NAME) & (member/\waiting={}) & (card(member)<=4096) & (card(waiting)<=total) & (nn:NAME) & (nn/:member) & (nn/:waiting) & (card(waiting)<total) & (nn:member)
+-1.0,-1.0,-1.0,-1.0:(capacity:NAT1) & (capacity<=2) & (card(NAME)>capacity) & (total:NAT1) & (total>2) & card(waiting)<=total & not(nn:member => card(waiting)<=total&(not(nn:member) => (TRUE:BOOL => card(waiting)<=total)))
+-1.0,-1.0,7.451282766666667E7,-1.0:(capacity:NAT1) & (capacity<=2) & (card(NAME)>capacity) & (total:NAT1) & (total>2) & member/\waiting={} & not(nn:member => member/\waiting={}&(not(nn:member) => (TRUE:BOOL => member/\waiting={})))
+1.02472272E8,1.05378042E8,8.878864166666667E7,8.406741733333333E7:(capacity:NAT1) & (capacity<=2) & (card(NAME)>capacity) & (total:NAT1) & (total>2) & (not(member<:NAME) => not(nn:member => member<:NAME&(not(nn:member) => (TRUE:BOOL => member<:NAME))))

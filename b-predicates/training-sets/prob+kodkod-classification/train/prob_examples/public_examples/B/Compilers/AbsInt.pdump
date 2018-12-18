@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Compilers/AbsInt.mch
+5.4099873E7,5.8163425333333336E7,-1.0,9.022239033333333E7:(gamma:Abs-->POW(Concr)) & (alpha:POW(Concr)-->Abs) & (!S.(S<:Concr => S<:gamma(alpha(S)))) & (SemFun:Concr-->Concr) & (c:Concr) & (a:Abs) & (c:gamma(a)) & X<:Concr&Y<:Concr&X<:Y => gamma(alpha(X))<:gamma(alpha(Y))
+5.5075439333333336E7,7.354710833333333E7,-1.0,7.0925243E7:(gamma:Abs-->POW(Concr)) & (alpha:POW(Concr)-->Abs) & (!S.(S<:Concr => S<:gamma(alpha(S)))) & (SemFun:Concr-->Concr) & (c:Concr) & (a:Abs) & (c:gamma(a)) & gamma(alpha(X))<:gamma(alpha(Y))
+-1.0,-1.0,6.5798451E7,-1.0:(gamma:Abs-->POW(Concr)) & (alpha:POW(Concr)-->Abs) & (!S.(S<:Concr => S<:gamma(alpha(S)))) & (SemFun:Concr-->Concr) & a:Abs & not(a:Abs)
+-1.0,-1.0,6.809899966666667E7,-1.0:(gamma:Abs-->POW(Concr)) & (alpha:POW(Concr)-->Abs) & (!S.(S<:Concr => S<:gamma(alpha(S)))) & (SemFun:Concr-->Concr) & c:Concr & not(c:Concr)
+-1.0,-1.0,-1.0,-1.0:(gamma:Abs-->POW(Concr)) & (alpha:POW(Concr)-->Abs) & (!S.(S<:Concr => S<:gamma(alpha(S)))) & (SemFun:Concr-->Concr) & (c:Concr) & (a:Abs) & (c:gamma(a)) & not((SemFun(c):gamma(alpha(SemFun[gamma(a)]))) & (a:Abs) & (c:Concr))

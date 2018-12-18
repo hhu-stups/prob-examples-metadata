@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Bus.mch
+6.0488441666666664E7,7.7527922E7,8.5259492E7,8.701113466666667E7:(not(tickets:NAT) => not(mm:NAT&tickets+mm<=passengers&tickets+mm:NAT))

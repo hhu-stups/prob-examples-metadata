@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Demo/TrainTorchPuzzle.mch
+7.593337566666667E7,5.6155674333333336E7,-1.0,7.2752198E7:(speed:Persons-->NATURAL1) & (speed(aa)=1) & (speed(bb)=2) & (speed(cc)=5) & (speed(dd)=8) & (traindeparts=16) & not((torchLeft:BOOL) & (Pleft<:Persons) & (time:NATURAL)) & not((Pleft={}) & (time<traindeparts))

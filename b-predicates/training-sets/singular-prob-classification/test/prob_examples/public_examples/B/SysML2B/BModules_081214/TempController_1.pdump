@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SysML2B/BModules_081214/TempController_1.mch
+5.0907125666666664E7,5.1995206333333336E7,7.4960906E7,6.5161429E7:not(not((temp_var:INT))) => (WaterTempMeasure:INT) & (WaterHeating:BOOL) & (WaterTempRef:INT)

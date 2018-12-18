@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/CBC/MinSet_NoDeadlock.mch
+5.0174583666666664E7,6.978385066666667E7,6.984102766666667E7,7.5733397E7:(NN>=0) & (II<:0..NN) & (NN<4) & (not(ww:ss) => !xx.(ww:ss&xx:ss&xx<ww => xx:ss-{ww}))
+4.817831E7,7.200066E7,6.711337633333333E7,7.5002904E7:(NN>=0) & (II<:0..NN) & (NN<4) & (not(ww:ss) => !xx.(ww:ss&xx:ss&xx>ww => ww:ss-{xx}))
+4.9326407666666664E7,5.4057293333333336E7,7.203923533333333E7,6.891975066666667E7:(NN>=0) & (II<:0..NN) & (NN<4) & (not(ss<:0..NN) => not(!xx.(ww:ss&xx:ss&xx>ww => ss-{xx}<:0..NN)))
+5.0302463333333336E7,8.793245733333333E7,6.4884647333333336E7,7.067181266666667E7:(NN>=0) & (II<:0..NN) & (NN<4) & (not(zz:0..NN) => not(!xx.(ww:ss&xx:ss&xx>ww => zz:0..NN)))
+-1.0,4.9931605333333336E7,6.762957333333333E7,-1.0:(NN>=0) & (II<:0..NN) & (NN<4) & (ss<:0..NN) & (ww:0..NN) & (zz:0..NN) & (ww:ss) & not((!xx.(ww:ss&xx:ss&xx>ww => ww:0..NN)) & (!xx.(ww:ss&xx:ss&xx>ww => ww:ss-{xx})) & (!xx.(ww:ss&xx:ss&xx>ww => ss-{xx}<:0..NN)) & (!xx.(ww:ss&xx:ss&xx>ww => zz:0..NN)))
+4.9658922E7,1.0867231566666667E8,6.4427187333333336E7,6.859615333333333E7:(NN>=0) & (II<:0..NN) & (NN<4) & (not(ww:ss) => not(ss={ww} => ww:ss))

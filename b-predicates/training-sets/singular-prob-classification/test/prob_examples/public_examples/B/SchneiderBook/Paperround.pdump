@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Paperround.mch
+6.3430272666666664E7,6.5396747E7,7.877016566666667E7,7.8532077E7:(not(magazines<:papers) => hh:1..163&magazines-{hh}<:papers-{hh})

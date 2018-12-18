@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/CTASK1.bcm
+4.7694706E7,6.4051580333333336E7,7.376452466666667E7,6.2161792333333336E7:(T1_state=T1_WAIT) & not((T1_state=T1_EN))

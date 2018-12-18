@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/FormalLanguages.mch
+1.6840367766666666E8,6.392249323333334E8,-1.0,4.508671576666667E8:(cat=%a,b.(a<:Word&b<:Word|{c|#aw,bw.(aw:a&bw:b&c=aw^bw)})) & (catword=%x,y.(x:Word&y:Word|x^y)) & cat({[a],[b,b]},{[c]})={[a,c],[b,b,c]}

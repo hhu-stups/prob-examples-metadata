@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Special/Dependency/SleepSetAlgorithm/ParseSimple.mch
+7.459877866666667E7,7.347645233333333E7,-1.0,6.6736862E7:(Trans:Nodes<->Nodes) & (Initial:Nodes) & (Reachable:POW(Nodes)) & (Reachable={Initial}\/closure1(Trans)[{Initial}]) & not((Stack<:Nodes) & (Table<:Nodes) & (Reachable=Table\/Stack\/closure1(Trans)[Stack])) & (n:Stack)
+-1.0,-1.0,-1.0,-1.0:(Trans:Nodes<->Nodes) & (Initial:Nodes) & (Reachable:POW(Nodes)) & (Reachable={Initial}\/closure1(Trans)[{Initial}]) & (Stack<:Nodes) & (Table<:Nodes) & (Reachable=Table\/Stack\/closure1(Trans)[Stack]) & (n:Stack) & (Stack={})
+4.9422998E7,6.8367912E7,-1.0,6.6249206666666664E7:(Trans:Nodes<->Nodes) & (Initial:Nodes) & (Reachable:POW(Nodes)) & (Reachable={Initial}\/closure1(Trans)[{Initial}]) & (not((Stack<:Nodes) & (Table<:Nodes) & (Reachable=Table\/Stack\/closure1(Trans)[Stack])) => (Stack={}) & (Stack={}) & (Stack={}&Reachable=Table\/Stack\/closure1(Trans)[Stack]))

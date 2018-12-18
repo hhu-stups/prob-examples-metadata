@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/HD_ABZ16/HDMachine-BMS-160122.zip_unpacked/HDMachine-BMS/model/m0.bcm
+1.3603589766666667E9,2.33503043E9,1.3105258706666667E9,8.2161144E8:not(not((CS_TopLevel=PREPARATION))) => not((CS_TopLevel:CS_TopLevel_STATES))
+4.848440336666667E8,3.753231233333333E8,1.91654819E8,3.525369393333333E8:not((CS_TopLevel=PREPARATION)) => not((CS_TopLevel:CS_TopLevel_STATES))

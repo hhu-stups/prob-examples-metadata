@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ErrorMachines/OpCalls/CounterPre.mch
+4.7944481333333336E7,4.9799908666666664E7,5.9243311333333336E7,5.4590927E7:(not((x:NATURAL)) => not((x>0 => x:NATURAL&(not(x>0) => (TRUE:BOOL => x:NATURAL)))))

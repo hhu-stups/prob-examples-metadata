@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tickets/PROB-351/TestFreshIdentifiers.zip_unpacked/TestFreshIdentifiers/m1.bcm
+1.3954628333333334E8,4.5574510666666664E7,1.5940781733333334E8,1.4414526233333334E8:(r<:INT) & (b:BOOL) & (cc=card(r))
+8.410163966666667E7,4.779558E7,1.61131524E8,4.9575787333333336E7:not(not((cc=card(r)))) => (r<:INT) & (b:BOOL)
+5.1401765E7,5.0095965333333336E7,7.209310666666667E7,1.35189561E8:not((cc=card(r))) => not((r<:INT) & (b:BOOL))

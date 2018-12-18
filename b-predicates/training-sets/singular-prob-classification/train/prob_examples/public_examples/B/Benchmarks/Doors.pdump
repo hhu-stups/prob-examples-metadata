@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Doors.mch
+-1.0,-1.0,6.4407305666666664E7,-1.0:(position:DOOR-->POSITION) & not((dd:DOOR))
+-1.0,-1.0,6.4032025666666664E7,-1.0:not((position:DOOR-->POSITION)) & not((dd:DOOR))
+4.9006371666666664E7,4.7934284666666664E7,5.9958416E7,4.8034483333333336E7:not((dd:DOOR)) => not((position:DOOR-->POSITION))
+-1.0,-1.0,6.3790863333333336E7,-1.0:(position:DOOR-->POSITION) & (dd:DOOR) & not((dd:DOOR))
+-1.0,-1.0,6.4105871E7,-1.0:(position:DOOR-->POSITION) & ((dd:DOOR) => not((dd:DOOR)))
+-1.0,-1.0,-1.0,-1.0:(position:DOOR-->POSITION) & not((position<+{(dd,closed)}:DOOR-->POSITION))
+-1.0,-1.0,-1.0,-1.0:position:DOOR-->POSITION & not(position<+{(dd,open)}:DOOR-->POSITION)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/RefIsSkipBug/RefBug.zip_unpacked/RefBug/Ref.bcm
+8.350964166666667E7,4.8422614666666664E7,6.1402687333333336E7,5.3278376666666664E7:(not(x:NAT) => not(true => x : NAT))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLC/NoError/tracksections.mch
+4.9676266E7,6.808454266666667E7,6.838486E7,1.01060896E8:(not((sections<:SECTION) & (state:sections-->STATE)) => (ts:sections&state(ts)=closed&state<+{(ts,free)}:sections-->STATE) & (ts:sections&state(ts)=closed))

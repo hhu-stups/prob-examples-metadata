@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Abrial_Teaching/ch4_brp_bms.zip_unpacked/ch4_brp/brp_1_superposition.bcm
+5.2867011666666664E7,5.6504671E7,7.651776133333333E7,7.599073866666667E7:(i:0 .. n) & (g:1 .. i --> D) & (r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & (not((s_st/=working) & (r_st/=working)) => (s_st=working) & (r_st=success))
+5.0421845333333336E7,5.6330370333333336E7,5.3562281666666664E7,1.1172098033333333E8:(i:0 .. n) & (g:1 .. i --> D) & (r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & ((r_st=working) & (s_st=failure) => not((s_st=working)))
+-1.0,-1.0,6.828203066666667E7,-1.0:(i:0 .. n) & (g:1 .. i --> D) & (r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & (r_st=working) & (r+1=n) & (r_st=working) & (r+1<n)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/RecursiveFunctions/Parity.mch
+-1.0,-1.0,1.42156299E8,-1.0:not((parity:INTEGER<->INTEGER) & (parity={(0,0)}\/%x.(x:NATURAL1|1-parity(x-1)))) => not((x:0..10))

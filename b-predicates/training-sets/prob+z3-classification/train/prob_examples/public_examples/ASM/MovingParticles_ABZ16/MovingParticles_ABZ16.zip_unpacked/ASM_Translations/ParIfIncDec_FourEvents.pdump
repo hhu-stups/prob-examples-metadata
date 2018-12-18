@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/ASM/MovingParticles_ABZ16/MovingParticles_ABZ16.zip_unpacked/ASM_Translations/ParIfIncDec_FourEvents.bcm
+6.715043866666667E7,4.8634233666666664E7,6.0059779333333336E7,5.4664633E7:not((x:NAT)) => (x>10&x<5)
+-1.0,-1.0,6.0095235E7,-1.0:(x:NAT) & (not((x>10&x<5)) => (x>10&not x<5))
+-1.0,-1.0,5.9501374333333336E7,-1.0:(x:NAT) & (not((not x>10&not x<5)) => (x>10&not x<5))

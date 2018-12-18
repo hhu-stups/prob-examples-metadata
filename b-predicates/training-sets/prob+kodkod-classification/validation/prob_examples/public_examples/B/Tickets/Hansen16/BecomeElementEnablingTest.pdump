@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Hansen16/BecomeElementEnablingTest.mch
+4.8536805E7,4.7926253E7,6.398458E7,5.0644848E7:not((iv:ID) & not((yy:ID))) => (xx<:ID)

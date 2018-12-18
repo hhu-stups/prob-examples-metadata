@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/TLA/TLA_Distribution/AlternatingBit/ABCorrectness.mch
+6.2924947666666664E7,5.4841378E7,7.197025533333333E7,5.2712127E7:(Data={d1,d2}) & sAck:INTEGER & d:Data&sAck=sBit => !sent_n,sBit_n.(sent_n=d&sBit_n=1-sBit => sAck:INTEGER)
+5.1348801666666664E7,5.0589324666666664E7,7.523151766666667E7,6.6220269333333336E7:(Data={d1,d2}) & (not(sAck:INTEGER) => rBit/=sAck => !sAck_n.(sAck_n=rBit => sAck:INTEGER))

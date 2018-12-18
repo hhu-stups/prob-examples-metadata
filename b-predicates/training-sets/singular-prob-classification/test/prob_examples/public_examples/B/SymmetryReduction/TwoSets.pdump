@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/TwoSets.mch
+4.8111914E7,9.559553633333333E7,-1.0,6.4290554666666664E7:not((maxs=2) & not((x:s1) & (x/:s2) & (y:s2) & (y/:s1) & (x/=y))) => not((s1:POW(ID)) & (s2:POW(ID)))
+-1.0,-1.0,9.376408833333333E7,-1.0:(maxs=2) & not((s1:POW(ID)) & (s2:POW(ID))) & (card(s2)<maxs) & (y/:s2)
+-1.0,-1.0,7.079755066666667E7,-1.0:(maxs=2) & not((s1:POW(ID)) & (s2:POW(ID))) & not((card(s2)<maxs) & (y/:s2))

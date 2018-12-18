@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksEnablingAnalysis/other/phonebook5.mch
+4.9018756333333336E7,4.9105918333333336E7,1.28080766E8,8.4897947E7:not((nn:Name) & (cc:Code)) => (db:Name+->Code) & (active:POW(Name)) & (dom(db)=active)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/Refactoring/Graph.mch
+4.8088494666666664E7,6.1686708666666664E7,-1.0,6.1606460666666664E7:(Labels<:LabelsUniverse) & (card(Labels)<card(LabelsUniverse)) & (Labels/={}) & (not(E<:Vertices*Vertices) => not(o1:ran(g)&o2/:ran(g)))

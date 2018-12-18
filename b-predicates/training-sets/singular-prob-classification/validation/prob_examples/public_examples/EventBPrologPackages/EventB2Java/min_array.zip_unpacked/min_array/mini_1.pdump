@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/EventB2Java/min_array.zip_unpacked/min_array/mini_1.bcm
+4.9368941E7,5.2037576666666664E7,6.789327066666667E7,8.2167339E7:not(not((p=q))) => not((m:NAT) & (p:1 .. n) & (q:1 .. n) & (p<=q) & (min(ran(f)):f[p .. q]))
+-1.0,-1.0,-1.0,-1.0:(m:NAT) & (p:1 .. n) & (q:1 .. n) & (p<=q) & (min(ran(f)):f[p .. q]) & (p<q) & (f(p)>f(q))

@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Bus.mch
+2.34504378E8,7.3633409E7,1.16620743E8,9.942302466666667E7:not((tickets:NAT) & (passengers:NAT) & (tickets<=passengers)) => (mm:NAT) & (tickets+mm<=passengers)
+9.5232664E7,7.3605822E7,9.5415951E7,1.69414095E8:(tickets:NAT) & (passengers:NAT) & (tickets<=passengers) & not((mm:NAT) & (tickets+mm<=passengers))
+8.5969196E7,7.159630166666667E7,4.957879766666667E8,1.60467706E8:(tickets:NAT) & (passengers:NAT) & (tickets<=passengers) & (nn:NAT)
+8.427926966666667E7,7.471904533333333E7,7.786625633333333E7,1.2469222966666667E8:(tickets:NAT) & (passengers:NAT) & (tickets<=passengers) & ((mm:NAT) & (tickets+mm<=passengers) => not((nn:NAT)))
+5.9229994333333336E7,5.5234956666666664E7,8.208960566666667E7,7.430006733333333E7:(not(tickets<=passengers) => not(2*tickets<=2*passengers))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/TransitiveClosure/TClos.zip_unpacked/TClos/ComputeTClos.bcm
+4.790544E7,4.9016545E7,6.77849E7,5.4953962333333336E7:(clos<:Nodes) & (i:NAT) & (nn:Nodes)

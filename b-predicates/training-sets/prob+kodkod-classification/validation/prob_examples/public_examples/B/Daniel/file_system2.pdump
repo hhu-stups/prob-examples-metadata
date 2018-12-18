@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Daniel/file_system2.mch
+5.5985332E7,8.557694333333333E7,-1.0,8.8467558E7:not((users<:USERS) & (groups<:GROUPS) & (files<:FILES) & (ingroup:users<->groups) & (access:files-->groups)) & (user:users) & (file:files) & (access(file):ingroup[{user}])

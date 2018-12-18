@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/CSPB/Tokens_FM05.mch
+9.093535333333333E7,6.986203879E9,1.1004527345E10,5.429676916333333E9:not((mx:NAT) & (mx=3) & not((tokens:CUST+->0..mx))) => (cc:CUST)
+4.4332965333333336E7,3.16925614E8,-1.0,2.1057973686666667E9:(mx:NAT) & (mx=3) & (tokens:CUST+->0..mx) & (cc:CUST) & (cc:dom(tokens))

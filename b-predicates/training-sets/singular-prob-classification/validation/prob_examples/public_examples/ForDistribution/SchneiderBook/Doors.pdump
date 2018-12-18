@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Doors.mch
+5.6177604666666664E7,5.7129471333333336E7,8.0460255E7,6.5852042666666664E7:not((position:DOOR-->POSITION)) & (dd:DOOR)

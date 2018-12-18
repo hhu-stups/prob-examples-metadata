@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/AnimB_Tests/AnimbTestSieve.zip_unpacked/AnimbTest2/test1.bcm
+4.9958983333333336E7,5.3294906E7,-1.0,6.8664225E7:(d={1,2,3,4}) & (g:d <-> d) & (g={1 |-> 1,2 |-> 1}) & (h=g<+{2 |-> 2,4 |-> 4})

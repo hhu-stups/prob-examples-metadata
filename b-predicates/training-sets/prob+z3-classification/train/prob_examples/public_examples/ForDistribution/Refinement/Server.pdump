@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Refinement/Server.mch
+8.021443733333333E7,3.51993993E8,5.9444337666666664E7,5.6058082666666664E7:(logged_in:POW(Process)) & (pp:Process) & (pp:logged_in)
+9.705689533333333E7,3.865803276666667E8,9.535961233333333E7,5.5411631666666664E7:not(not((logged_in:POW(Process)))) => (pp:Process) & (pp:logged_in)
+4.6820479E7,6.4512556333333336E7,6.1668270333333336E7,4.8935622333333336E7:(logged_in:POW(Process)) & (pp:Process) & (pp:logged_in) & (pp:Process) & (pp/:logged_in)
+4.5099729333333336E7,4.4416542333333336E7,6.2753603666666664E7,4.8290777666666664E7:(not(logged_in:POW(Process)) => not(pp:logged_in))
+4.6881450333333336E7,6.1034274333333336E7,6.3953803333333336E7,5.8747414333333336E7:(logged_in:POW(Process)) & not((pp:logged_in))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/Refactoring/Graph.mch
+4.9351015333333336E7,4.6795569333333336E7,-1.0,9.271337266666667E7:(Labels<:LabelsUniverse) & (card(Labels)<card(LabelsUniverse)) & (Labels/={}) & InitialLabeling/={} & o1:ran(g)&o2/:ran(g)&InitialLabeling/={}

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/BridgePuzzle/BridgePuzzle.zip_unpacked/BridgePuzzle/Bridge.bcm
+7.308194233333333E7,1.4546360933333334E8,5.7521001666666664E7,3.46249152E8:(partition(Toy,left,right)) & (clock:NAT) & (torch_left:BOOL) & (right/=Toy or clock>60) & (not((right=Toy)) => (torch_left=TRUE) & (x<:left) & (card(x)<=2&card(x)>0) & (clock<60))

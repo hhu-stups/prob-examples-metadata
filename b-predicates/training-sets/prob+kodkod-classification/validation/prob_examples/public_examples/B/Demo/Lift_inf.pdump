@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Demo/Lift_inf.mch
+5.1615013333333336E7,6.5547930666666664E7,6.12783E7,5.9888365E7:(floor:0..99) & not((floor/=1))
+4.8077296666666664E7,4.9946249E7,5.9325933E7,5.5881058666666664E7:(not(floor:0..99) => not(floor/=1&floor-1:0..99))

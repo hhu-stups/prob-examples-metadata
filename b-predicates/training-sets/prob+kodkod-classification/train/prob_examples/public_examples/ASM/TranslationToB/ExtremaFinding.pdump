@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ASM/TranslationToB/ExtremaFinding.mch
+5.9066566E7,7.674432633333333E7,8.419338096666666E8,1.1916561933333333E8:(N=4) & (m:{11,13,17}) & (card(Agents)=N) & (pos:Agents>->>0..N-1) & (pid:Agents-->NATURAL) & (!p.(p:Agents => pid(p)=pos(p)*113 mod m)) & (mode:Agents-->Status) & (notified:Agents-->BOOL) & (isLargest:Agents-->BOOL) & (rightMsg:Agents+->NATURAL) & (leftMsg:Agents+->NATURAL) & not((self:Agents) & (isLargest(self)=TRUE) & (notified(self)=TRUE))

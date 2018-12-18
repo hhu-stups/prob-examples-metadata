@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/assertion_test.mch
+7.9545101E7,1.12355186E8,6.777232866666667E7,5.9889878666666664E7:not((f:S-->S)) => dom(f)=ran(f)

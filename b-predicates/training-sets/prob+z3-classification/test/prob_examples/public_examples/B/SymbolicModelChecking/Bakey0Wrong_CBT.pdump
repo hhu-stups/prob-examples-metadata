@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/Bakey0Wrong_CBT.mch
+1.35264501E8,9.164671066666667E7,1.15598382E8,8.1400808E7:not(not((aa:INTEGER))) => not((not(INV)) & (INV))

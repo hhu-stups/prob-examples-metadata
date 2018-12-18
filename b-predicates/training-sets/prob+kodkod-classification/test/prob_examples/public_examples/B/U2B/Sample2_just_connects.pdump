@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/U2B/Sample2_just_connects.mch
+4.9485529333333336E7,5.1190704333333336E7,-1.0,4.8963652E7:(INV) & not((union(ran(Connects))=ROUTEELEMENT))

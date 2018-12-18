@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/SimpleParallel.mch
+6.4076211666666664E7,6.92951806E8,6.4181695E7,8.4851386E7:(MAX=10) & (array:1..MAX+->BOOL) & (i:1..MAX) & (array(i)=FALSE)
+1.1735272566666667E8,5.6739035666666664E7,6.5780246E7,1.27671985E8:not((MAX=10) & (array:1..MAX+->BOOL)) => (i:1..MAX) & (array(i)=FALSE)
+4.8878608666666664E7,5.2276410333333336E7,7.130438833333333E7,6.4151268E7:not((MAX=10) & (array:1..MAX+->BOOL)) => not((i:1..MAX) & (array(i)=FALSE))

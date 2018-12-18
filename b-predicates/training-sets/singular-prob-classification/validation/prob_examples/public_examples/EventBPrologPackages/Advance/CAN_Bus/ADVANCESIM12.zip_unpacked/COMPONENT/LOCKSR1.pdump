@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/LOCKSR1.bcm
+6.3194628666666664E7,9.442010766666667E7,9.8113408E7,1.36157654E8:(dpos:DoorPosition) & (doorst:DoorState) & (doorst=LOCKED=>dpos=CLOSED) & (drumst:DrumState) & (drumst/=EMPTY=>doorst=LOCKED) & (doorst=LOCKED) & (drumst=EMPTY)
+5.7245222333333336E7,1.25520198E8,-1.0,8.2823987E7:not(not((dpos:DoorPosition) & (doorst:DoorState) & (doorst=LOCKED=>dpos=CLOSED) & (drumst:DrumState) & (drumst/=EMPTY=>doorst=LOCKED))) => not((drumst=FILLED))
+5.0139034E7,6.0138793E7,7.466356833333333E7,7.060395066666667E7:(dpos:DoorPosition) & (doorst:DoorState) & (doorst=LOCKED=>dpos=CLOSED) & (drumst:DrumState) & (drumst/=EMPTY=>doorst=LOCKED) & ((drumst=FILLED) => not((drumst=EMPTYING)))

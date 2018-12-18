@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/Iftest.mch
+5.4980315333333336E7,5.7320534333333336E7,8.021210933333333E7,6.4996719333333336E7:(not(xx:SS) => xx=aa => xx:SS&(not(xx=aa) => xx=bb => xx:SS&(not(xx=bb) => xx=cc => xx:SS&(not(xx=cc) => (TRUE:BOOL => xx:SS)))))

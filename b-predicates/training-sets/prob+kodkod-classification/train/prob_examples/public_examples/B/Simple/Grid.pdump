@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/Simple/Grid.mch
+4.7866748E7,4.9802888E7,6.2214639E7,6.2073466333333336E7:(limit:NAT) & (limit=3) & (not(xx/=limit or yy/=limit) => not(xx>0 => xx-1/=limit or yy/=limit))
+4.8533871666666664E7,5.0876348666666664E7,6.1004988E7,6.3456114E7:(limit:NAT) & (limit=3) & (not(yy:NAT) => yy>0 => yy-1:NAT)
+4.8152329E7,5.0130909E7,7.125007566666667E7,6.3347837E7:(limit:NAT) & (limit=3) & xx:NAT & yy>0 => xx:NAT
+8.5008133E7,5.5699006E7,6.4028952E7,6.2655220666666664E7:(limit:NAT) & (limit=3) & (xx:NAT) & (yy:NAT) & (xx/=limit or yy/=limit) & (yy>0 => xx/=limit or yy-1/=limit) & (yy>0 => yy-1:NAT) & (yy>0 => xx:NAT)
+4.9840742333333336E7,1.8139518066666666E8,6.3041862333333336E7,6.0820513333333336E7:(limit:NAT) & (limit=3) & xx/=limit or yy/=limit & yy<limit => xx/=limit or yy+1/=limit
+4.7425537E7,4.9793250333333336E7,6.1611768333333336E7,6.0368501E7:(limit:NAT) & (limit=3) & (not(xx:NAT) => not(yy<limit => xx:NAT))
+4.8313942E7,5.0479906333333336E7,6.3006499333333336E7,6.1396937E7:(limit:NAT) & (limit=3) & (not(xx:NAT) => not(xx<limit => xx+1:NAT))

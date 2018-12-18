@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/Special/ConstrainedBasedChecking/mesiSet.mch
+-1.0,-1.0,-1.0,-1.0:e:POW(C) & not(!p.(p:C&p:i => {}:POW(C)))
+4.8554871E7,6.5579638333333336E7,-1.0,6.3852207666666664E7:i:POW(C) & !p.(p:C&p:i => i-{p}:POW(C))
+-1.0,-1.0,-1.0,-1.0:(m:POW(C)) & (e:POW(C)) & (s:POW(C)) & (i:POW(C)) & (m\/e\/s\/i=C) & (!j,k.(j:{m,e,s,i}&k:{m,e,s,i}&j/=k => j/\k={})) & (card(s)>0 => card(m)=0) & not((!p.(p:C&p:i => (card(m\/e\/s\/{p})>0 => card({})=0))) & (!p.(p:C&p:i => {}\/{}\/(m\/e\/s\/{p})\/i-{p}=C)) & (!p.(p:C&p:i => m\/e\/s\/{p}:POW(C))) & (!p.(p:C&p:i => {}:POW(C))) & (!p.(p:C&p:i => !j,k.(j:{{},{},m\/e\/s\/{p},i-{p}}&k:{{},{},m\/e\/s\/{p},i-{p}}&j/=k => j/\k={}))) & (!p.(p:C&p:i => {}:POW(C))) & (!p.(p:C&p:i => i-{p}:POW(C))))
+5.2992842333333336E7,8.5708432E7,-1.0,1.9624802366666666E8:(not((m:POW(C)) & (e:POW(C)) & (s:POW(C)) & (i:POW(C)) & (m\/e\/s\/i=C) & (!j,k.(j:{m,e,s,i}&k:{m,e,s,i}&j/=k => j/\k={})) & (card(s)>0 => card(m)=0)) => not((!p.(p:C&p:i => (card(m\/e\/s\/{p})>0 => card({})=0))) & (!p.(p:C&p:i => {}\/{}\/(m\/e\/s\/{p})\/i-{p}=C)) & (!p.(p:C&p:i => m\/e\/s\/{p}:POW(C))) & (!p.(p:C&p:i => {}:POW(C))) & (!p.(p:C&p:i => !j,k.(j:{{},{},m\/e\/s\/{p},i-{p}}&k:{{},{},m\/e\/s\/{p},i-{p}}&j/=k => j/\k={}))) & (!p.(p:C&p:i => {}:POW(C))) & (!p.(p:C&p:i => i-{p}:POW(C)))))
+-1.0,-1.0,-1.0,-1.0:e:POW(C) & not(!p.(p:C&p:s => {p}:POW(C)))
+-1.0,-1.0,-1.0,-1.0:i:POW(C) & not(!p.(p:C&p:s => i\/m\/e\/s-{p}:POW(C)))
+-1.0,-1.0,-1.0,-1.0:!j,k.(j:{m,e,s,i}&k:{m,e,s,i}&j/=k => j/\k={}) & not(!p.(p:C&p:e => !j,k.(j:{m\/{p},e-{p},s,i}&k:{m\/{p},e-{p},s,i}&j/=k => j/\k={})))
+-1.0,-1.0,-1.0,-1.0:e:POW(C) & not(!p.(p:C&p:e => e-{p}:POW(C)))
+-1.0,-1.0,-1.0,-1.0:(m:POW(C)) & (e:POW(C)) & (s:POW(C)) & (i:POW(C)) & (m\/e\/s\/i=C) & (!j,k.(j:{m,e,s,i}&k:{m,e,s,i}&j/=k => j/\k={})) & (card(s)>0 => card(m)=0) & (!p.(p:C&p:e => (card(s)>0 => card(m\/{p})=0))) & (!p.(p:C&p:e => m\/{p}\/e-{p}\/s\/i=C)) & (!p.(p:C&p:e => s:POW(C))) & (!p.(p:C&p:e => m\/{p}:POW(C))) & (!p.(p:C&p:e => !j,k.(j:{m\/{p},e-{p},s,i}&k:{m\/{p},e-{p},s,i}&j/=k => j/\k={}))) & (!p.(p:C&p:e => e-{p}:POW(C))) & (!p.(p:C&p:e => i:POW(C)))

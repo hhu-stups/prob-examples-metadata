@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Simple/Phonebook/phonebook6.mch
+4.8112915333333336E7,6.4744965E7,6.5715200333333336E7,7.408181333333333E7:not(not((db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec))) => not((nn:Name) & (cc:Code))

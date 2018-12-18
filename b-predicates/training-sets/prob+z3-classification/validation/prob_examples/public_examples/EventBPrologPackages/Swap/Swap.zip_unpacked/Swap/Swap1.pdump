@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Swap/Swap.zip_unpacked/Swap/Swap1.bcm
+9.2322797E7,5.8723040333333336E7,6.4568126666666664E7,7.233734133333333E7:not(not((c=0))) => not((x:NAT&y:NAT) & (c:0 .. 4) & (a:NAT&b:NAT) & (c=1=>a=x&b=y) & (c=2=>a=x+y&b=y) & (c=3=>a=x+y&b=x) & (c=4=>a=y&b=x))

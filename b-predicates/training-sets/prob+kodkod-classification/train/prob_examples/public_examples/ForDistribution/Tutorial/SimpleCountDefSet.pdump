@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tutorial/SimpleCountDefSet.mch
+4.7140957666666664E7,6.5228499333333336E7,-1.0,5.3343422E7:(card(ID)=5) & not((s<:ID) & (card(s)<10)) & (x:ID) & (x/:s)
+4.8407739E7,6.4813316E7,-1.0,5.1944128666666664E7:(card(ID)=5) & not((s<:ID) & (card(s)<10)) & (x:s)
+4.8032667666666664E7,6.6713488333333336E7,1.1307629766666667E8,7.344472166666667E7:(card(ID)=5) & (not(card(s)<10) => not(x/:s&card(s\/{x})<10))

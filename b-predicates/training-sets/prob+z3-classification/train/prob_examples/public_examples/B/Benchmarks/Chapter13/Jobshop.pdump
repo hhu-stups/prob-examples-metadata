@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Chapter13/Jobshop.mch
+4.9776511333333336E7,4.8061931E7,4.9411730666666664E7,8.957866333333333E7:not(not((jj:JOB) & (jj/:jobs) & (card(jobs)<limit))) => (jobs<:JOB) & (card(jobs)<=limit)
+-1.0,-1.0,7.418671533333333E7,-1.0:(jobs<:JOB) & (card(jobs)<=limit) & (jj:JOB) & (jj/:jobs) & (card(jobs)<limit) & (jj:jobs)
+8.443161666666667E7,5.1192799666666664E7,7.255634033333333E7,5.4963321E7:(jobs<:JOB) & (card(jobs)<=limit) & (jobs/={}) & (jj:jobs)
+5.7390491666666664E7,5.2406664666666664E7,6.3006941666666664E7,1.0356896666666667E8:card(jobs)<=limit & jj:JOB&jj/:jobs&card(jobs)<limit&card(jobs\/{jj})<=limit
+4.8178217E7,5.1562888666666664E7,7.1748393E7,6.0360003333333336E7:jobs<:JOB & jj:JOB&jj/:jobs&card(jobs)<limit&jobs\/{jj}<:JOB
+7.4552777E7,5.2524160333333336E7,-1.0,1.59138766E8:card(jobs)<=limit & jobs/={}&!job.(job:jobs => card(jobs-{job})<=limit)
+4.7138373E7,5.1913864333333336E7,4.3809249E7,8.8301569E7:(not(card(jobs)<=limit) => not(jobs/={}&!job.(job:jobs => card(jobs-{job})<=limit)))
+4.8993264333333336E7,5.1998721E7,4.1775563666666664E7,1.2735255433333333E8:card(jobs)<=limit & jj:jobs&card(jobs-{jj})<=limit

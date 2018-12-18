@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Simple/Purse.mch
+-1.0,-1.0,-1.0,-1.0:not((Coins<:NAT1) & (Coins={1,2}) & not((purse:Coins-->NAT))) => not((total(purse)=0))

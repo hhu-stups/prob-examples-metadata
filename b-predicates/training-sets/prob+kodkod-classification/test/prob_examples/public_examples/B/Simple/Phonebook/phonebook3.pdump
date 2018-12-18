@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Simple/Phonebook/phonebook3.mch
+-1.0,-1.0,6.3802853E7,-1.0:(db:Name+->Code) & (nm:POW(Name)) & (codes:POW(Code)) & (ran(db)=codes) & not((nn:Name))
+-1.0,-1.0,6.1150955333333336E7,-1.0:not((db:Name+->Code) & (nm:POW(Name)) & (codes:POW(Code)) & (ran(db)=codes)) & not((nn:Name))
+4.8359152333333336E7,4.8142574333333336E7,6.1253087333333336E7,4.9519007E7:not((nn:Name)) => not((db:Name+->Code) & (nm:POW(Name)) & (codes:POW(Code)) & (ran(db)=codes))
+-1.0,-1.0,6.2315629333333336E7,-1.0:(db:Name+->Code) & (nm:POW(Name)) & (codes:POW(Code)) & (ran(db)=codes) & ((nn:Name) & (cc:Code) => not((nn:Name) & (mm:Name)))
+1.5389261433333334E8,4.16847934E8,6.8889533E7,7.258991066666667E7:db:Name+->Code & nn:Name => db\/{(nn,cc)}:Name+->Code&(cc:Code => db:Name+->Code)&(cc:Code => db\/{(nn,cc)}:Name+->Code)

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/uebung5/ArrayImp.mch
+-1.0,-1.0,8.725036433333333E7,-1.0:(length:NAT) & (length=5) & array:1..length-->ELEMENTS & !aa.(aa:1..length-->ELEMENTS&!i.(i:NAT&i:dom(array) => array(i)=aa(size(array)-i+1)) => aa:1..length-->ELEMENTS)
+-1.0,-1.0,8.623417366666667E7,-1.0:(length:NAT) & (length=5) & (array:1..length-->ELEMENTS) & (!aa.(aa:1..length-->ELEMENTS&!i.(i:NAT&i:dom(array) => array(i)=aa(size(array)-i+1)) => aa:1..length-->ELEMENTS))

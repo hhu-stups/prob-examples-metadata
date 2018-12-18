@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/PhilRing.mch
+1.66896573E8,7.553143456666666E8,9.579456066666667E7,8.4782313E7:(taken:Forks+->Phil) & (!xx.(xx:dom(taken) => lFork(taken(xx))=xx or rFork(taken(xx))=xx))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Beauger1/PredSolution1.mch
+5.1468416333333336E7,4.9179019E7,-1.0,7.6274783E7:(t_x=1..256) & not(f_x(256)=255)

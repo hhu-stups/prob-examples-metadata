@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/ListsWithInduction.mch
+4.8330564333333336E7,4.9345800333333336E7,6.5372349666666664E7,5.1891980333333336E7:not((nil:LA) & (cons:A*LA+->LA) & (lrank:LA-->NATURAL) & (lrank(nil)=0) & (!x.(x:LA&lrank(x)=0 => x=nil)) & (!a,la.(a:A&la:LA&(a,la):dom(cons) => lrank(cons(a,la))=lrank(la)+1)) & (xx:A) & (mylist/=nil)) => (mylist:LA)
+4.9413243333333336E7,5.727828E7,-1.0,5.1785821666666664E7:(nil:LA) & (cons:A*LA+->LA) & (lrank:LA-->NATURAL) & (lrank(nil)=0) & (!x.(x:LA&lrank(x)=0 => x=nil)) & (!a,la.(a:A&la:LA&(a,la):dom(cons) => lrank(cons(a,la))=lrank(la)+1)) & mylist:LA & mylist:LA

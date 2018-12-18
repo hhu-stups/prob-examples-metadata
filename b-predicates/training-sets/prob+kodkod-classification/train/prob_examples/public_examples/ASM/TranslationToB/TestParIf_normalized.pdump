@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ASM/TranslationToB/TestParIf_normalized.mch
+5.135255E7,5.0636164666666664E7,6.796911833333333E7,5.1899104666666664E7:(xx:ID) & (yy:POW(ID)) & not(({(TRUE,1),(FALSE,2)}(FALSE)=2) & ({(TRUE,xx),(FALSE,aa)}(FALSE)=aa))

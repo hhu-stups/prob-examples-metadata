@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Baskets.mch
+4.8802993333333336E7,5.0691338666666664E7,-1.0,7.4590561E7:(price:GOODS-->NAT1) & (baskets:CUSTOMER+->POW(GOODS)) & (cu:dom(baskets))

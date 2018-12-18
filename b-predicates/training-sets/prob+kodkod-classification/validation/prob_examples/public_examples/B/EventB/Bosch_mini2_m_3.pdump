@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/EventB/Bosch_mini2_m_3.mch
+4.9862556E7,5.2036016666666664E7,6.0111741333333336E7,6.790623766666667E7:(n>0) & (m>0) & (rth:1..m) & (m>3) & (not(switch:BOOL) => output=TRUE&switch=TRUE => switch:BOOL)
+1.3807635733333334E8,9.6974925E7,9.282549133333333E7,6.969692166666667E7:(n>0) & (m>0) & (rth:1..m) & (m>3) & (not(switch:BOOL) => not(re=TRUE&c=0 => switch:BOOL))
+5.1431516666666664E7,5.6104551E7,6.5768047E7,7.8076921E7:(n>0) & (m>0) & (rth:1..m) & (m>3) & (not(c:0..n) => not(!input.(switch=FALSE&re=FALSE&input:0..m&input>rth&old_input<rth => n:0..n)))
+-1.0,-1.0,6.2451633666666664E7,-1.0:(n>0) & (m>0) & (rth:1..m) & (m>3) & output:BOOL & not(!input.(switch=FALSE&re=FALSE&input:0..m&input>rth&old_input<rth => output:BOOL))
+-1.0,-1.0,6.5105323333333336E7,-1.0:(n>0) & (m>0) & (rth:1..m) & (m>3) & switch:BOOL & not(!input.(switch=FALSE&re=FALSE&input:0..m&input>rth&old_input<rth => switch:BOOL))
+5.0834303666666664E7,5.6654876666666664E7,6.6480008666666664E7,7.555669866666667E7:(n>0) & (m>0) & (rth:1..m) & (m>3) & (not(switch=TRUE => old_input>rth) => not(!input.(switch=FALSE&re=FALSE&input:0..m&input>rth&old_input<rth => (switch=TRUE => input>rth))))
+-1.0,-1.0,6.4201483333333336E7,-1.0:(n>0) & (m>0) & (rth:1..m) & (m>3) & c:0..n & not(!input.(switch=FALSE&re=FALSE&input:0..m&input<rth => c:0..n))

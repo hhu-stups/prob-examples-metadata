@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Corinna/PartialOrderEtc/MutexProcesses.mch
+5.0113565666666664E7,6.8488295E7,-1.0,1.19050637E8:(pid_state:PID-->STATE) & (card(pid_state~[{critical}])<2) & (p:PID) & (pid_state(p)=work)
+4.8359618E7,7.068121833333333E7,-1.0,1.15204408E8:not(not((p:PID) & (pid_state(p)=critical))) => not((pid_state:PID-->STATE) & (card(pid_state~[{critical}])<2))

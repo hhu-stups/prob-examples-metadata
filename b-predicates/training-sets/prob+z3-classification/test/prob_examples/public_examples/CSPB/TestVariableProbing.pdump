@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSPB/TestVariableProbing.mch
+5.6469471333333336E7,1.88120012E8,5.3950249333333336E7,1.2411857733333333E8:(maxage=120) & (likes:PERSONS<->PERSONS) & (age:PERSONS+->0..maxage) & (nrpersons=card(dom(age))) & not(((p,q)/:likes) & (p:dom(age)) & (q:dom(age)))

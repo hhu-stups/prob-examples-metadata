@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/RenameParameterTests/Counter.mch
+5.2889617333333336E7,5.0134308E7,6.1255206E7,5.8409405666666664E7:(cnt:NATURAL) & (cnt>0)
+4.7526411666666664E7,4.8068985E7,6.0045624E7,5.6158933666666664E7:not((cnt>0)) => not((cnt:NATURAL))

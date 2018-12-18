@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/WarnApp/WarningApp.mch
+-1.0,-1.0,7.1851665E7,-1.0:(loc:Persons-->Locations) & (nextId:NATURAL) & (reports:seq(Locations)) & (dangers<:Locations) & ((p:Persons) & (newloc:Locations) => not((l:Locations)))
+-1.0,-1.0,-1.0,-1.0:loc:Persons-->Locations & not(loc<+{(p,newloc)}:Persons-->Locations)

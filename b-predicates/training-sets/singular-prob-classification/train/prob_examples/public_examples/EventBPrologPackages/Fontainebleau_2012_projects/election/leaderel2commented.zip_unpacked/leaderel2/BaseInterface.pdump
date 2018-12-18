@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Fontainebleau_2012_projects/election/leaderel2commented.zip_unpacked/leaderel2/BaseInterface.bcm
+1.29687046E8,1.0100197366666667E8,1.1146156666666667E8,7.2302491E7:not((ol:NAT) & (il:NAT) & (r:NAT) & (ih:1 .. il --> INPUT) & (oh:1 .. ol --> OUTPUT) & (ol - r<=QUEUE_LENGTH) & (ol>=r)) => not((m:INPUT))

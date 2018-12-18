@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/Adder.bcm
+5.3331735666666664E7,5.1905040666666664E7,6.799221266666667E7,6.3986255333333336E7:(o_sum:NAT) & not((p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE))
+4.7835971E7,5.2136052666666664E7,-1.0,5.8772301666666664E7:not(not((p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE))) => not((o_sum:NAT))
+4.7967738333333336E7,4.8008875E7,6.0016407333333336E7,5.4588948666666664E7:(o_sum:NAT) & o_sum:INT
+7.989821866666667E7,4.6213418666666664E7,6.6447066666666664E7,5.9328308333333336E7:(o_sum:NAT) & data_ready:BOOL
+5.1957282333333336E7,5.7142625E7,9.946050633333333E7,4.8774382E7:not((o_sum:NAT)) => data_ready:BOOL
+-1.0,-1.0,5.7807746666666664E7,-1.0:(o_sum:NAT) & (p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE) & (pd:INT) & (pv:INT) & (pv=o_sum) & (pd=Delay) & (data_ready=TRUE)

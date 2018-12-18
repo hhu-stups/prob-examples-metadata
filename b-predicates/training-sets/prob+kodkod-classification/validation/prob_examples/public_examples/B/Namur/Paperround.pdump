@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Namur/Paperround.mch
+8.753575933333333E7,6.719902466666667E7,-1.0,1.5951826033333334E8:(houseset:POW(NAT1)) & (card(houseset)<=2) & (new:NAT1) & (new/:houseset)
+7.578466033333333E7,5.8699666333333336E7,1.5302360266666666E8,1.79810319E8:not(not((new:NAT1) & (new/:houseset))) => (houseset:POW(NAT1)) & (card(houseset)<=2)
+6.805167066666667E7,5.7558087666666664E7,1.8075254766666666E8,1.5915506166666666E8:not(not((houseset:POW(NAT1)) & (card(houseset)<=2))) => (new:NAT1) & (new/:houseset)
+5.7792917333333336E7,5.6123989666666664E7,-1.0,3.064439266666667E8:not((houseset:POW(NAT1)) & (card(houseset)<=2)) & not((new:NAT1) & (new/:houseset))
+6.908466966666667E7,6.3522533333333336E7,1.2529123566666667E8,2.935173763333333E8:not(not((houseset:POW(NAT1)) & (card(houseset)<=2))) => not((new:NAT1) & (new/:houseset))

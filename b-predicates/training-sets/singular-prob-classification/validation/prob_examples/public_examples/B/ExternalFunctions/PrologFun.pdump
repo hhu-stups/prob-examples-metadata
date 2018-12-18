@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/PrologFun.mch
+-1.0,-1.0,-1.0,-1.0:not((arcsin=%x.(x:INTEGER|PROLOG_FUN("asin",100,x))) & (x:INTEGER)) => arcsin(100)=157

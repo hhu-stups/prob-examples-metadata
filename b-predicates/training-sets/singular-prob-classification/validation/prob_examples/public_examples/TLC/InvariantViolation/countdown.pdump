@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/TLC/InvariantViolation/countdown.mch
+6.4349198E7,5.4338707E7,1.0244333466666667E8,6.994199466666667E7:(not(1234/:nums) => not(n1:nums&n2:nums&n1<n2&!c.(c=n1*n2 => (c:NATURAL => 1234/:nums-{n1,n2}\/{c}))))
+5.2963159666666664E7,5.7794081333333336E7,7.0143859E7,7.233498966666667E7:(not((nums:POW(NATURAL)) & (1234/:nums)) => not((n1:nums&n2:nums&n1<n2&!c.(c=n1*n2 => (c:NATURAL => nums-{n1,n2}\/{c}:POW(NATURAL)))) & (n1:nums&n2:nums&n1<n2&!c.(c=n1*n2 => (c:NATURAL => 1234/:nums-{n1,n2}\/{c})))))

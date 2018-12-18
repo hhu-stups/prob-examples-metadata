@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/XT3.bcm
+4.7956611E7,5.0424685E7,7.964613866666667E7,5.9422663666666664E7:not((pv:INT) & (ppriority:INT) & (pv=0) & (ppriority=4) & (T3_state=T3_WRITE)) => (T3_readpriority:NAT)
+4.8107397666666664E7,5.1753346E7,6.6209955333333336E7,6.1953781666666664E7:(T3_readpriority:NAT) & (not((T3_state=T3_READY)) => (pv:INT) & (ppriority:INT) & (pv=0) & (ppriority=4) & (T3_state=T3_WRITE))

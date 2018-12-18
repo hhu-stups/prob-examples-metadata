@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksFairness/ProB/Peterson/Peterson5.mch
+1.2247537433333333E8,1.2466576E8,7.5523361E7,6.6395826333333336E7:(N=5) & (PID=0..N-1) & not((counter:NATURAL) & (step:PID-->PID) & (pos:PID-->PID)) & not((j:PID))

@@ -1,0 +1,18 @@
+#source:examples/prob_examples/public_examples/B/EventB/Bosch_mini1v2_m_3.mch
+8.357608433333333E7,6.6767545333333336E7,7.953632466666667E7,7.153023233333333E7:(n>0) & (m>0) & (rth:1..m-1) & (fth:1..m-1) & (fth<rth) & fe=TRUE => output=TRUE & not(output=FALSE&on=TRUE => (fe=TRUE => TRUE=TRUE))
+5.3924059333333336E7,6.1456301666666664E7,7.341252433333333E7,9.2243178E7:(n>0) & (m>0) & (rth:1..m-1) & (fth:1..m-1) & (fth<rth) & (not(re=TRUE => output=FALSE) => output=TRUE&off=TRUE => (re=TRUE => FALSE=FALSE))
+5.7680076666666664E7,6.2079472666666664E7,7.4570144E7,7.058637333333333E7:(n>0) & (m>0) & (rth:1..m-1) & (fth:1..m-1) & (fth<rth) & re=TRUE => on=FALSE & fe=TRUE&c=0 => (re=TRUE => on=FALSE)
+7.529712166666667E7,6.5092356333333336E7,7.472121033333333E7,6.718880466666667E7:(n>0) & (m>0) & (rth:1..m-1) & (fth:1..m-1) & (fth<rth) & fe=TRUE => output=TRUE & not(fe=TRUE&c=0 => (FALSE=TRUE => output=TRUE))
+-1.0,-1.0,7.474609733333333E7,-1.0:(n>0) & (m>0) & (rth:1..m-1) & (fth:1..m-1) & (fth<rth) & output:BOOL & not(!input.(fe=TRUE&c>0&input:0..m&input<fth => output:BOOL))
+-1.0,-1.0,7.7588824E7,-1.0:(n>0) & (m>0) & (rth:1..m-1) & (fth:1..m-1) & (fth<rth) & off:BOOL & not(!input.(fe=TRUE&c>0&input:0..m&input<fth => off:BOOL))
+6.5430387E7,7.020234E7,6.4872705E7,1.38932355E8:(n>0) & (m>0) & (rth:1..m-1) & (fth:1..m-1) & (fth<rth) & (not(output=TRUE => on=FALSE) => not(!input.(output=FALSE&on=FALSE&re=FALSE&input:0..m&input>rth => (output=TRUE => on=FALSE))))
+9.05348392E8,4.742724383333333E8,1.4524894066666666E8,5.775280036666666E8:(n>0) & (m>0) & (rth:1..m-1) & (fth:1..m-1) & (fth<rth) & (not(output=FALSE => off=FALSE) => not(!input.(re=TRUE&c>0&input:0..m&input<rth => (output=FALSE => off=FALSE))))
+1.7555544833333334E8,1.1184641533333333E8,6.977481833333333E7,1.8033736466666666E8:(n>0) & (m>0) & (rth:1..m-1) & (fth:1..m-1) & (fth<rth) & (not(output=TRUE => on=FALSE) => not(!input.(re=TRUE&c>0&input:0..m&input<rth => (output=TRUE => on=FALSE))))
+1.8664840933333334E8,9.969985266666667E7,8.705734633333333E7,1.97663055E8:(n>0) & (m>0) & (rth:1..m-1) & (fth:1..m-1) & (fth<rth) & (not(fe=TRUE => output=TRUE) => !input.(re=TRUE&c>0&input:0..m&input<rth => (fe=TRUE => output=TRUE)))
+1.25156232E8,1.4382813633333334E8,1.1248436933333333E8,1.32383012E8:(n>0) & (m>0) & (rth:1..m-1) & (fth:1..m-1) & (fth<rth) & (not(re=TRUE => output=FALSE) => not(!input.(output=TRUE&off=FALSE&fe=FALSE&input:0..m&input<fth => (re=TRUE => output=FALSE))))
+2.3697585233333334E8,1.7102975633333334E8,1.2240762833333333E8,6.6933092333333336E7:(n>0) & (m>0) & (rth:1..m-1) & (fth:1..m-1) & (fth<rth) & output=FALSE => off=FALSE & !input.(output=TRUE&off=FALSE&fe=FALSE&input:0..m&input<fth => (output=FALSE => off=FALSE))
+1.09129823E8,1.8919223833333334E8,6.997770666666667E7,7.2276393E7:(n>0) & (m>0) & (rth:1..m-1) & (fth:1..m-1) & (fth<rth) & output=TRUE => on=FALSE & !input.(output=TRUE&off=FALSE&fe=FALSE&input:0..m&input<fth => (output=TRUE => on=FALSE))
+2.654311E8,6.0311394E7,9.0768968E7,9.931716866666667E7:(n>0) & (m>0) & (rth:1..m-1) & (fth:1..m-1) & (fth<rth) & (not(fe=TRUE => off=FALSE) => not(!input.(fe=TRUE&c>0&input:0..m&input>fth => (FALSE=TRUE => off=FALSE))))
+1.7457515566666666E8,9.9446468E7,1.0336584466666667E8,1.1440796166666667E8:(n>0) & (m>0) & (rth:1..m-1) & (fth:1..m-1) & (fth<rth) & (not(output:BOOL) => not(re=TRUE&c=0 => output:BOOL))
+6.2048789333333336E7,5.6086787666666664E7,6.5251896333333336E7,6.1702515666666664E7:(n>0) & (m>0) & (rth:1..m-1) & (fth:1..m-1) & (fth<rth) & off:BOOL & re=TRUE&c=0 => off:BOOL
+-1.0,-1.0,7.5690212E7,-1.0:(n>0) & (m>0) & (rth:1..m-1) & (fth:1..m-1) & (fth<rth) & on:BOOL & not(!input.(output=FALSE&on=FALSE&re=FALSE&input:0..m&input<rth => on:BOOL))

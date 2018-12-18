@@ -1,0 +1,14 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksEnablingAnalysis/other/scheduler.mch
+1.30986699E8,1.59596622E8,5.9867273666666664E7,8.266456166666667E7:not(not((active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}))) => (active/={})
+4.9997326333333336E7,7.705452163333334E8,-1.0,5.9923658333333336E7:not(not((active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}))) => (rr:waiting)
+1.12046255E8,7.661193033333333E7,1.0432101733333333E8,7.852013366666667E7:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & (rr:waiting) & (pp:waiting)
+-1.0,-1.0,6.2000737666666664E7,-1.0:active/\(ready\/waiting)={} & not(active/\(ready\/waiting)={})
+2.61486208E8,2.765788955E9,1.1829642133333333E8,7.6197492E7:(not(card(active)<=1) => card(active)<=1)
+-1.0,-1.0,1.0209640933333333E8,-1.0:card(active)<=1 & not(card(active)<=1)
+5.7210021666666664E7,1.3874573933333334E8,9.968080933333333E7,5.2110816666666664E7:(not(active<:PID) => not(active<:PID))
+1.04587206E8,4.7097097333333336E7,6.2012378333333336E7,9.260607333333333E7:(not(ready:POW(PID)) => ready:POW(PID))
+8.1548173E7,3.4893495183333335E9,6.6974648E7,5.9836985333333336E7:ready/\waiting={} & ready/\waiting={}
+1.4405763433333334E8,9.425907633333333E7,1.34953032E8,5.7137736333333336E7:(not(ready/\waiting={}) => not(ready/\waiting={}))
+9.907814866666667E7,4.938767772E9,6.5701720666666664E7,1.0404833333333333E8:active/\(ready\/waiting)={} & pp/:active&pp/:ready\/waiting => active/\(ready\/(waiting\/{pp}))={}
+-1.0,-1.0,-1.0,-1.0:card(active)<=1 & not(pp/:active&pp/:ready\/waiting => card(active)<=1)
+6.9683186E7,5.0669921E7,6.8139205E7,5.2342503333333336E7:waiting:POW(PID) & pp/:active&pp/:ready\/waiting => waiting:POW(PID)

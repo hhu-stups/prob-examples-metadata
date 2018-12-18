@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter12/List.mch
+8.210364366666667E7,7.528769333333333E7,-1.0,6.706039E7:(list:seq(ELEMENT))
+7.2951595E7,4.8163666666666664E7,-1.0,7.204647566666667E7:not((list:seq(ELEMENT))) => (ee:ELEMENT)
+6.7847152E7,4.8686079666666664E7,-1.0,7.3044368E7:not((ee:ELEMENT)) => (list:seq(ELEMENT))
+4.9393920666666664E7,4.7837298E7,7.347775666666667E7,9.279390033333333E7:not((list:seq(ELEMENT))) => (list/=[])
+5.0307445E7,4.8889620666666664E7,-1.0,6.5806599E7:(list:seq(ELEMENT)) & not((list/=[]))
+-1.0,-1.0,-1.0,-1.0:not((list:seq(ELEMENT))) & not((list/=[]))
+-1.0,-1.0,-1.0,-1.0:(list:seq(ELEMENT)) & not((ee:ELEMENT&list<-ee:seq(ELEMENT)))

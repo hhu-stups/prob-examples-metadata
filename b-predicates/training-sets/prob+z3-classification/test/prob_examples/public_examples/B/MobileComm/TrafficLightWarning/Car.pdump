@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/TrafficLightWarning/Car.mch
+4.9793669E7,5.1977908333333336E7,6.3980319333333336E7,6.803279033333333E7:(maxspeed:NAT1) & (maxdecelerate:NAT1) & (maxaccelerate:NAT1) & (not(curpos:NATURAL) => !delta.(delta:NAT1&delta<=maxdecelerate&delta<=speed => curpos+speed-delta:NATURAL))

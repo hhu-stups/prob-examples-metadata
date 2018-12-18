@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/HeapSort_Chapter17/Heaparray.mch
+4.6622758333333336E7,4.9733256333333336E7,-1.0,7.603164266666667E7:(heaparray:seq(NAT)) & ((heaparray/=[]) => not((ii:2..size(heaparray))))

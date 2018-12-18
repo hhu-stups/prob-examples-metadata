@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/LTL/Fairness/WeakFairnessTest.mch
+6.9297034E7,6.3230363333333336E7,6.3279858E7,5.9956972666666664E7:(addr:INTEGER) & (addr=3)
+4.7614527666666664E7,4.8006593333333336E7,5.9874863E7,5.6064671333333336E7:(addr:INTEGER) & not((addr=3))
+1.2995865833333333E8,8.6463416E7,8.199047766666667E7,6.1019817E7:(addr:INTEGER) & ((addr=-1) => not((addr=3)))
+4.8471527E7,4.8095571333333336E7,5.9770124E7,5.2103180333333336E7:(addr:INTEGER) & (addr=0 or addr=1 or addr=2) & (addr=0 or addr=1) & (addr=0) & (addr=1) & (addr=2) & (addr=2)
+4.7320403333333336E7,4.9346894333333336E7,5.937282E7,5.0590860666666664E7:(addr:INTEGER) & (addr=0 or addr=1 or addr=2) & (addr=0 or addr=1) & (addr=0) & (addr=1) & (addr=2) & (addr=3)
+5.0289845E7,4.8016627666666664E7,5.9954761E7,5.5913837333333336E7:(addr:INTEGER) & (not((addr=1)) => (addr=2))
+4.7021482333333336E7,6.5000957E7,5.9894208333333336E7,6.0931445E7:(addr:INTEGER) & (addr=2) & not((addr=1 or addr=2) & (addr=1) & (addr=2))

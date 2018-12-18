@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ASM/TranslationToB/TestParIf_normalized.mch
+9.6245316E7,7.494370166666667E7,5.8264997666666664E7,6.5586064E7:(xx:ID) & (yy:POW(ID)) & ({(TRUE,1),(FALSE,2)}(FALSE)=2) & ({(TRUE,xx),(FALSE,aa)}(FALSE)=aa)
+4.7942223E7,4.7899689666666664E7,6.4126381E7,5.2022816666666664E7:(not(yy:POW(ID)) => !xx__1,xx__upd_,xx__upd_1,xx__upd_2.(xx=aa => xx__1=bb&xx__upd_1=TRUE&(not(xx=aa) => xx__upd_1=FALSE)&(xx=bb => xx__1=cc&xx__upd_2=TRUE)&(not(xx=bb) => xx__upd_2=FALSE)&xx__upd_=TRUE <=> (xx__upd_1=TRUE or xx__upd_2=TRUE) => yy:POW(ID)))

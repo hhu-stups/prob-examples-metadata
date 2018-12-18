@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/FibonacciMorphism.mch
+-1.0,-1.0,7.747318746666666E8,-1.0:not((fib:Alph-->seq(Alph)) & (fib(a)=[a,b]) & (fib(b)=[a]) & (s:seq(Alph))) => (i:1..size(s))
+5.6595721333333336E7,5.2328628333333336E7,1.4573710766666666E8,1.8005946613333333E9:not((fib:Alph-->seq(Alph)) & (fib(a)=[a,b]) & (fib(b)=[a]) & (s:seq(Alph))) => not((i:1..size(s)))

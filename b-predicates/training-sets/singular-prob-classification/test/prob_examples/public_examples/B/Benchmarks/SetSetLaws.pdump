@@ -1,0 +1,21 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/SetSetLaws.mch
+-1.0,-1.0,-1.0,-1.0:not(not((SS:POW(POW(setX))) & (TT:POW(POW(setX))) & (VV:POW(POW(setX))) & (law1) & (law2) & (law3) & (law4) & (law5) & (law6) & (law7) & (law8) & (law9) & (law10) & (law11) & (law12) & (law13) & (law14) & (orderlaw1) & (orderlaw2) & (orderlaw3) & (orderlaw4) & (setcomprlaw1) & (setcomprlaw2) & (setcomprlaw3) & (setcomprlaw4) & (foralllaw1) & (foralllaw2) & (existslaw1) & (existslaw2) & (orderlaw5) & (orderlaw6) & (orderlaw7) & (otherlaw1) & (otherlaw2) & (otherlaw3) & (otherlaw4) & (otherlaw5) & (cardlaw1) & (cardlaw2) & (cardlaw3) & (cardlaw4) & (difflaw1) & (difflaw2) & (SS<<:VV or not(SS<<:VV)) & (not(SS<<:VV&not(SS<<:VV))) & (SS<:VV or not(SS<:VV)) & (not(SS<:VV&not(SS<:VV))) & (UNION(ss).(ss<:SS|ss)=SS) & (INTER(ss).(ss<:SS|ss)={}) & (SS:POW(TT) <=> SS<:TT) & (SS=TT <=> POW(SS)=POW(TT)) & (POW(SS-TT)={xx|xx<:SS&xx/\TT={}}) & (SS/={} => inter(SS)<:union(SS)) & (SS/\POW(setX)=SS) & (SS\/POW(setX)=POW(setX)) & (SS\/POW(setX)\SS=POW(setX)) & (SS/\POW(setX)\SS={}) & (POW(setX)\(POW(setX)\SS)=SS))) => not((el:POW(setX)) & (el/:SS))
+4.7843351E7,2.2086332866666666E8,-1.0,5.867509876666666E8:(SS:POW(POW(setX))) & (TT:POW(POW(setX))) & (VV:POW(POW(setX))) & (law1) & (law2) & (law3) & (law4) & (law5) & (law6) & (law7) & (law8) & (law9) & (law10) & (law11) & (law12) & (law13) & (law14) & (orderlaw1) & (orderlaw2) & (orderlaw3) & (orderlaw4) & (setcomprlaw1) & (setcomprlaw2) & (setcomprlaw3) & (setcomprlaw4) & (foralllaw1) & (foralllaw2) & (existslaw1) & (existslaw2) & (orderlaw5) & (orderlaw6) & (orderlaw7) & (otherlaw1) & (otherlaw2) & (otherlaw3) & (otherlaw4) & (otherlaw5) & (cardlaw1) & (cardlaw2) & (cardlaw3) & (cardlaw4) & (difflaw1) & (difflaw2) & (SS<<:VV or not(SS<<:VV)) & (not(SS<<:VV&not(SS<<:VV))) & (SS<:VV or not(SS<:VV)) & (not(SS<:VV&not(SS<:VV))) & (UNION(ss).(ss<:SS|ss)=SS) & (INTER(ss).(ss<:SS|ss)={}) & (SS:POW(TT) <=> SS<:TT) & (SS=TT <=> POW(SS)=POW(TT)) & (POW(SS-TT)={xx|xx<:SS&xx/\TT={}}) & (SS/={} => inter(SS)<:union(SS)) & (SS/\POW(setX)=SS) & (SS\/POW(setX)=POW(setX)) & (SS\/POW(setX)\SS=POW(setX)) & (SS/\POW(setX)\SS={}) & (POW(setX)\(POW(setX)\SS)=SS) & ((el:POW(setX)) & (el/:SS) => not((el:POW(setX)) & (el/:TT)))
+4.7675313333333336E7,4.7957937333333336E7,5.5920309333333336E7,4.8122809333333336E7:(not(SS:POW(POW(setX))) => SS:POW(POW(setX)))
+4.8021446666666664E7,4.9327641666666664E7,1.2073302033333333E8,5.5908110666666664E7:orderlaw6 & VV<<:SS&SS<:TT => VV<<:TT
+-1.0,-1.0,5.9334873333333336E7,-1.0:orderlaw5 & not(SS<<:VV or SS/<<:VV)
+-1.0,-1.0,6.0391734333333336E7,-1.0:orderlaw2 & not(SS<:VV&TT<:VV => SS<:VV&TT<:VV)
+-1.0,-1.0,5.9955785333333336E7,-1.0:law8 & not(SS-TT/\TT={})
+3.1531197273333335E9,4.056369063E9,1.120903829E9,7.65293431E8:(not(law7) => not(SS/\TT\/SS-TT=SS))
+-1.0,-1.0,6.2324964666666664E7,-1.0:cardlaw3 & not(card(SS)<card(VV) => VV/<:SS)
+4.7613410666666664E7,4.9427188666666664E7,-1.0,1.0025113266666667E8:SS/\POW(setX)=SS & SS/\POW(setX)=SS
+-1.0,-1.0,6.0034915666666664E7,-1.0:SS/\POW(setX)=SS & not(SS/\POW(setX)=SS)
+-1.0,-1.0,8.965227566666667E7,-1.0:setcomprlaw1 & not({xx|xx:SS&xx:TT}=SS/\TT)
+-1.0,-1.0,5.9941025666666664E7,-1.0:orderlaw1 & not(SS<:SS\/TT&TT<:SS\/TT)
+-1.0,-1.0,5.9944657666666664E7,-1.0:SS<<:VV or not(SS<<:VV) & not(SS<<:VV or not(SS<<:VV))
+-1.0,-1.0,6.0898736E7,-1.0:SS:POW(TT) <=> SS<:TT & not(SS:POW(TT) <=> SS<:TT)
+-1.0,-1.0,6.0475241666666664E7,-1.0:law11 & not(SS\/TT-VV=SS\/TT-(VV-SS))
+-1.0,-1.0,8.733759633333333E7,-1.0:existslaw2 & not(#xx.(xx:SS&xx/:TT) => not(SS\/TT=TT)&not(SS-TT={}))
+-1.0,-1.0,6.0192687333333336E7,-1.0:law6 & not(SS/\(TT\/VV)=SS/\TT\/(SS/\VV))
+-1.0,-1.0,5.9974852333333336E7,-1.0:otherlaw4 & not(SS<<:VV => SS<:VV)
+4.8721396333333336E7,5.5981257666666664E7,-1.0,7.478024966666667E7:difflaw1 & not(el/:SS&SS\/{el}/\VV={} <=> SS\/{el}<:POW(setX)-VV)

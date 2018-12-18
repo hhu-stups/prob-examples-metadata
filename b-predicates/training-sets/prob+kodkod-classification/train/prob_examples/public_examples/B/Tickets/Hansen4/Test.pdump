@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Hansen4/Test.mch
+5.8149457E7,5.1863415333333336E7,6.269957E7,6.0003021E7:(k=1) & (not((x:1..12)) => not((x<10&x+1:1..12)))

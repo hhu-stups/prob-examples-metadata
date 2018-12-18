@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/B_Tutorial/NormalisationTest.mch
+9.852465633333333E7,3.698708006666667E8,5.9528147666666664E7,6.4479382E7:(uu:POW(UID)) & (su:POW(POW(UID))) & (xx:UID) & (yy:UID) & (xx=ub or xx=uc) & (yy=ub or yy=uc) & (xx/=yy)
+1.2157239633333333E8,4.39441729E8,1.0268391433333333E8,6.4418178E7:not(not((uu:POW(UID)) & (su:POW(POW(UID))))) => (xx:UID) & (yy:UID) & (xx=ub or xx=uc) & (yy=ub or yy=uc) & (xx/=yy)
+4.7591876E7,4.8158638E7,6.3833862333333336E7,5.2019814E7:su:POW(POW(UID)) & su:POW(POW(UID))
+1.00406763E8,3.675803563333333E8,6.1930361666666664E7,6.4218454666666664E7:uu:POW(UID) & xx:{ub,uc}&yy:{ub,uc}&xx/=yy

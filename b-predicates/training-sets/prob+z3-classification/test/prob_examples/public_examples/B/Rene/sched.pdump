@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Rene/sched.mch
+9.113793966666667E7,4.446593616E9,1.05478916E8,7.050808166666667E7:not(not((active/={}))) => (active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (active={} => ready={})
+-1.0,-1.0,7.111442066666667E7,-1.0:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (active={} => ready={}) & (pp:PID) & (pp/:active) & (pp/:ready\/waiting) & (pp:waiting)
+4.9219527E7,7.205245866666667E7,5.9937533666666664E7,5.5815385E7:active={} => ready={} & active={} => ready={}

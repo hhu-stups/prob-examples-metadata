@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/TLC/AssertionError/phonebook.mch
+4.9012377666666664E7,6.5573119666666664E7,7.503395966666667E7,1.05343564E8:(db0:Name+->Code) & (db1:Name+->Code) & (db2:Name+->Code) & (db:Name+->Code) & (db3:Name+->Code) & (db4:Name+->Code) & (db5:Name+->Code) & (nn:Name) & (cc:Code) & (nn/:dom(db)) & (nn=nn) & (cc=cc) & (nn=nn) & (cc=cc) & (nn=nn) & (cc=cc) & not((nn:dom(db)) & (nn:Name) & (nn=nn) & (nn=nn) & (nn=nn) & (nn=nn))
+-1.0,-1.0,5.9622898333333336E7,-1.0:db1:Name+->Code & not(db1:Name+->Code)

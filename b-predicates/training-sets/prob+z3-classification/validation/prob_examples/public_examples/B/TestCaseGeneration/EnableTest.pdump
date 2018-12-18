@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/EnableTest.mch
+1.0240005633333333E8,1.21153884E8,6.918144633333333E7,1.0420987633333333E8:(iv:ID) & (xx:ID) & (zz:0..10) & ((zz>0) => not((zz>8)))

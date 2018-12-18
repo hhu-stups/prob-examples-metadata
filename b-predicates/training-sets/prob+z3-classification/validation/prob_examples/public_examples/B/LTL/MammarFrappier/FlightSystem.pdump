@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/LTL/MammarFrappier/FlightSystem.mch
+6.3346416666666664E7,9.0709859E7,-1.0,2.937869873333333E8:not((NbPlaces:NAT1) & not((cu:Customers) & (fl:Flights) & (card(tickets~[{fl}])<NbPlaces) & (first(waitingQueue(fl))=cu))) => not((tickets:Customers<->Flights) & (waitingQueue:Flights-->iseq(Customers)) & (!fl.(fl:Flights => tickets~[{fl}]/\ran(waitingQueue(fl))={})) & (!fl.(fl:Flights => card(tickets~[{fl}])<=NbPlaces)) & (!fl.(fl:Flights => size(waitingQueue(fl))<=NbPlaces)))

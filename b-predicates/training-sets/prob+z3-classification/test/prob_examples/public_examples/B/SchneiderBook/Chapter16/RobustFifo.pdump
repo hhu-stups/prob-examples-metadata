@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter16/RobustFifo.mch
+-1.0,-1.0,8.679418433333333E7,-1.0:not((queue:seq(ELEM)) & (size(queue)<=cap)) & not((ee:ELEM))
+-1.0,-1.0,2.73689529E8,-1.0:size(queue)<=cap & not(ee:ELEM&(size(queue)<cap => size(queue<-ee)<=cap&(not(size(queue)<cap) => (TRUE:BOOL => size(queue)<=cap))))

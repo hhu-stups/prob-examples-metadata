@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/BlocksWorldGeneric6.mch
+4.9681899666666664E7,2.4855434933333334E8,-1.0,6.8570987E7:not((obj/:ran(on)) & (obj:dom(on))) => (on:Objects+->Objects)
+7.223877166666667E7,2.1669075366666666E8,-1.0,8.924265666666667E7:not((on:Objects+->Objects)) => (obj/:ran(on)) & (onobj/:ran(on)) & (obj/=onobj)
+5.9696278666666664E7,4.957872086666667E8,-1.0,8.4109532E7:not(not((on:Objects+->Objects))) => (obj/:ran(on)) & (onobj/:ran(on)) & (obj/=onobj)
+5.8311163E7,2.39963802E8,1.7090921033333334E8,1.2992329566666667E8:(on:Objects+->Objects) & not((obj/:ran(on)&onobj/:ran(on)&obj/=onobj&on<+{(obj,onobj)}:Objects+->Objects))

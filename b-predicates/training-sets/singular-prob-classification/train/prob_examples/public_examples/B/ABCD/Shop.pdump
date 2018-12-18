@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ABCD/Shop.mch
+2.8060796E8,6.5769373666666664E7,7.698958533333333E7,9.088045833333333E7:(resources:NAT) & (resp:BOOL) & (state:NAT) & (state<2) & (not((mm:BOOL)) => (state=1))

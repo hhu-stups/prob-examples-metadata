@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/ForDistribution/GraphicalAnimation/scheduler.mch
+8.204020433333333E7,7.174816033333333E7,6.1560877666666664E7,7.533416133333333E7:not(not((active/={}))) => (active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={})
+5.1690395333333336E7,6.818278633333333E7,-1.0,1.02315711E8:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & (not((active/={})) => (rr:waiting))
+1.4597359066666666E8,7.462773966666667E7,6.926960933333333E7,1.34787578E8:ready/\waiting={} & not(pp/:active&pp/:ready\/waiting => ready/\(waiting\/{pp})={})

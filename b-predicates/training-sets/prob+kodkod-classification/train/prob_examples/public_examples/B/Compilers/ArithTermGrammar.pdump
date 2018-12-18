@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Compilers/ArithTermGrammar.mch
+4.9140164333333336E7,5.4621750666666664E7,-1.0,5.5115086E7:not((Terminals={a,plus,mal,auf,zu}) & (Terminals/\NonTerminals={}) & (Terminals\/NonTerminals=Alphabet) & (Productions={(S,[S,plus,S]),(S,[S,mal,S]),(S,[auf,S,zu]),(S,[a])}) & ((LHS,RHS):Productions) & (i:dom(cur)) & (cur(i)=LHS)) => (cur:seq(Alphabet))

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter13/Booth.mch
+4.7960335666666664E7,6.923510766666667E7,-1.0,7.110261733333333E7:(reserved:CUSTOMER-->NAT) & (tickets:SEAT+->CUSTOMER) & (not((cc:CUSTOMER) & (nn:NAT1)) => (cc:CUSTOMER) & (reserved(cc)>0))
+6.997684566666667E7,5.3561024E7,-1.0,1.1968158333333333E8:reserved:CUSTOMER-->NAT & nn:NAT1&reserved<+{(cc,reserved(cc)+nn)}:CUSTOMER-->NAT
+1.0019730866666667E8,6.4342213333333336E7,-1.0,1.5217775433333334E8:(reserved:CUSTOMER-->NAT) & (tickets:SEAT+->CUSTOMER) & (reserved(cc)>0&!ss.(card(ss)=reserved(cc)&ss/\dom(tickets)={} => tickets\/ss*{cc}:SEAT+->CUSTOMER)) & (reserved(cc)>0&!ss.(card(ss)=reserved(cc)&ss/\dom(tickets)={} => reserved<+{(cc,0)}:CUSTOMER-->NAT))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Marriages_Chapter11/Life.mch
+5.0402172666666664E7,6.775491466666667E7,6.5914690333333336E7,8.091191833333333E7:not((male<:PERSON) & (female<:PERSON) & (male/\female={})) & not((nn:PERSON) & (nn:male\/female))

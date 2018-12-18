@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/DSP0.mch
+6.637195251666667E9,5.1171521E7,8.70952142E8,6.5314707E7:(threshold:INTEGER) & (not(powerlevel:CELL-->INTEGER) => dsp_state=idle => powerlevel:CELL-->INTEGER)

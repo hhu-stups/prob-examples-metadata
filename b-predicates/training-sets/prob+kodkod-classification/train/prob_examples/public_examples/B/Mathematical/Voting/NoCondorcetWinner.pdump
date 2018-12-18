@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Voting/NoCondorcetWinner.mch
+-1.0,-1.0,-1.0,-1.0:not((prefs:VOTERS-->perm(CHOICES)) & (!A.(A:CHOICES => NotWinner(A)))) => (A:CHOICES) & (B:CHOICES) & (prefered(A,B))
+6.690464383333334E8,6.058866843333334E8,-1.0,1.4399678196666667E9:(prefs:VOTERS-->perm(CHOICES)) & (!A.(A:CHOICES => NotWinner(A))) & (A:CHOICES) & (!B.(B:CHOICES&B/=A => prefered(B,A)))
+3.615987066666667E8,2.16058783E8,-1.0,6.887464996666666E8:(prefs:VOTERS-->perm(CHOICES)) & (!A.(A:CHOICES => NotWinner(A))) & (V:VOTERS) & (A:CHOICES) & (B:CHOICES) & (prefers(V,A,B))
+-1.0,-1.0,-1.0,-1.0:not((prefs:VOTERS-->perm(CHOICES)) & (!A.(A:CHOICES => NotWinner(A)))) => not((V:VOTERS) & (A:CHOICES) & (B:CHOICES) & (prefers(V,A,B)))
+-1.0,-1.0,-1.0,-1.0:not((prefs:VOTERS-->perm(CHOICES)) & (!A.(A:CHOICES => NotWinner(A)))) => (A:CHOICES) & (!B.(B:CHOICES&B/=A => prefered(A,B)))
+1.060349248E9,7.812055566666666E8,-1.0,1.8879482743333333E9:(prefs:VOTERS-->perm(CHOICES)) & (!A.(A:CHOICES => NotWinner(A))) & (A:CHOICES) & (B:CHOICES) & (prefered(A,B)) & (A:CHOICES) & (!B.(B:CHOICES&B/=A => prefered(B,A)))
+1.3834925066666666E8,2.1679996233333334E8,-1.0,9.9837335E8:(prefs:VOTERS-->perm(CHOICES)) & (!A.(A:CHOICES => NotWinner(A))) & (not((A:CHOICES) & (B:CHOICES) & (prefered(A,B))) => (A:CHOICES) & (!B.(B:CHOICES&B/=A => prefered(B,A))))
+6.357149653333334E8,6.187491206666666E8,-1.0,-1.0:(prefs:VOTERS-->perm(CHOICES)) & (!A.(A:CHOICES => NotWinner(A))) & (not((A:CHOICES) & (!B.(B:CHOICES&B/=A => prefered(B,A)))) => (A:CHOICES) & (!B.(B:CHOICES&B/=A => prefered(A,B))))
+1.1611118033333333E8,9.61750862E8,-1.0,9.50888773E8:(prefs:VOTERS-->perm(CHOICES)) & (!A.(A:CHOICES => NotWinner(A))) & ((A:CHOICES) & (!B.(B:CHOICES&B/=A => prefered(B,A))) => not((A:CHOICES) & (!B.(B:CHOICES&B/=A => prefered(A,B)))))

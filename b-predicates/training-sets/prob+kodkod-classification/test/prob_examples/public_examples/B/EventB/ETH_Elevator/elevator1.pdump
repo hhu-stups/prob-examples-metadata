@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/EventB/ETH_Elevator/elevator1.mch
+5.1414243333333336E7,4.8109120666666664E7,2.4014263733333335E9,6.3834630333333336E7:(N:NATURAL1) & (phyElevatorFloor:0..N) & (phyElevatorFloor:INTEGER) & not((phyElevatorFloor/=N))
+1.28483005E8,9.130625733333333E7,8.9521021E7,5.2467030666666664E7:not((N:NATURAL1) & not((phyElevatorFloor:0..N) & (phyElevatorFloor:INTEGER))) => not((phyElevatorFloor/=N))
+5.5622878666666664E7,4.9888513666666664E7,5.7721166666666664E7,5.6457901E7:not((N:NATURAL1) & not((phyElevatorFloor/=0))) => not((phyElevatorFloor:0..N) & (phyElevatorFloor:INTEGER))
+-1.0,-1.0,6.1458676666666664E7,6.3936668333333336E7:(N:NATURAL1) & (phyElevatorFloor:0..N) & (phyElevatorFloor:INTEGER) & not((phyElevatorFloor/=N => phyElevatorFloor:INTEGER) & (phyElevatorFloor/=N => 1+phyElevatorFloor:0..N))

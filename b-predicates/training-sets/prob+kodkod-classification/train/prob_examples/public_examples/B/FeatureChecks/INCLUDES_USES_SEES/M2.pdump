@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/INCLUDES_USES_SEES/M2.mch
+7.551651633333333E7,6.1072594333333336E7,9.090897666666667E7,1.1730085733333333E8:(y:INTEGER) & (y=x+1) & not((x<9))

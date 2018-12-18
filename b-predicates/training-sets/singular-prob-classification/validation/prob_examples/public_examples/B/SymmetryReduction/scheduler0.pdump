@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/scheduler0.mch
+-1.0,-1.0,8.2375978E7,-1.0:(proc:POW(PROC)) & (pst:proc-->STATE) & (card(pst~[{active}])<=1) & (p:PROC-proc) & (p:PROC) & (pst(p)=idle)
+-1.0,8.583461166666667E7,-1.0,-1.0:(proc:POW(PROC)) & (pst:proc-->STATE) & (card(pst~[{active}])<=1) & (p:PROC-proc) & not((p:PROC) & (pst(p)=idle))
+-1.0,-1.0,7.5585473E7,-1.0:(proc:POW(PROC)) & (pst:proc-->STATE) & (card(pst~[{active}])<=1) & (p:PROC) & (pst(p)=idle) & (p:PROC) & (pst(p)=ready) & (pst~[{active}]={})

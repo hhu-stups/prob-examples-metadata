@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/LessSimple/Game/TICKET.mch
+7.2735553E7,3.71288439E8,5.7242917E7,5.5588447E7:(TICKETinstances<:TICKETSET) & (TICKETinstances/=TICKETSET)

@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Eigenvalue.mch
+-1.0,-1.0,-1.0,-1.0:(dim:NATURAL1) & (dim=2) & (m:matrix) & (found:BOOL) & (not((vec:vector)) => (eval:INTEGER) & (evect:vector) & (evect/=zerovect) & (res:vector) & (res=mulvect(eval,evect)) & (res=mulmatvect(m,evect)))
+5.2324112E7,6.1368372333333336E7,-1.0,1.2752887966666667E8:(dim:NATURAL1) & (dim=2) & (m:matrix) & (found:BOOL) & (not((eval:INTEGER) & (evect:vector) & (evect/=zerovect) & (res:vector) & (res=mulvect(eval,evect)) & (res=mulmatvect(m,evect))) => (vec:vector) & (lambda:INTEGER))
+4.7943480666666664E7,5.0063116666666664E7,7.058395266666667E7,6.4516514666666664E7:(dim:NATURAL1) & (dim=2) & found:BOOL & vec:1..dim-->INTEGER
+-1.0,-1.0,-1.0,-1.0:(dim:NATURAL1) & (dim=2) & (not((m:matrix) & (found:BOOL)) => (vec:1..dim-->INTEGER&m:1..dim-->(1..dim-->INTEGER)) & (vec:1..dim-->INTEGER))
+4.7903484333333336E7,5.2733894333333336E7,7.354589766666667E7,7.834141033333333E7:(dim:NATURAL1) & (dim=2) & (not(m:matrix) => not(vec:1..dim-->INTEGER&m:1..dim-->(1..dim-->INTEGER)))

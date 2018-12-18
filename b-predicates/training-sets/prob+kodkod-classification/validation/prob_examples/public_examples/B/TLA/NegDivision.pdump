@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TLA/NegDivision.mch
+4.8835260666666664E7,5.2169506666666664E7,6.3803248666666664E7,6.0169988666666664E7:(not(xx/-4=-xx/4) => xx>-100&xx-1/-4=-xx-1/4)

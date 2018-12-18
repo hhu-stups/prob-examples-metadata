@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/CSPB/Tokens_FM05.mch
+5.3239987333333336E7,5.2520622E7,7.900946063333334E8,6.4127405E7:(mx:NAT) & (mx=3) & not((tokens:CUST+->0..mx)) & (cc:CUST) & (cc:dom(tokens))
+6.3966584E7,5.476865E7,-1.0,7.5162235E7:not((mx:NAT) & (mx=3) & not((cc:CUST) & (cc:dom(tokens)))) => not((tokens:CUST+->0..mx))
+1.5340582033333334E8,5.5230045E7,-1.0,6.1955457666666664E7:not((mx:NAT) & (mx=3) & (tokens:CUST+->0..mx)) => (cc:CUST) & (cc/:dom(tokens))
+5.1300029E7,5.3315881E7,-1.0,7.032609866666667E7:not((mx:NAT) & (mx=3) & not((cc:CUST) & (pp:OFFICE) & (cc:dom(tokens)))) => not((tokens:CUST+->0..mx))
+4.914056E7,5.1827168E7,6.9583476E7,5.0873578E7:(mx:NAT) & (mx=3) & (tokens:CUST+->0..mx) & (cc:CUST) & (cc:dom(tokens)) & (cc:CUST) & (cc/:dom(tokens))
+8.933636066666667E7,5.6218601666666664E7,-1.0,2.38541833E8:(mx:NAT) & (mx=3) & (tokens:CUST+->0..mx) & not((cc:dom(tokens)&(tokens(cc)<mx => tokens<+{(cc,tokens(cc)+1)}:CUST+->0..mx)))
+5.8443372666666664E7,4.9241573666666664E7,3.958842343333333E8,6.6039776E7:(mx:NAT) & (mx=3) & tokens:CUST+->0..mx & cc/:dom(tokens)&tokens\/{(cc,0)}:CUST+->0..mx
+7.8134261E7,5.6903465E7,-1.0,1.3624935566666666E8:(mx:NAT) & (mx=3) & tokens:CUST+->0..mx & not(cc:dom(tokens)&(tokens(cc)=0 => tokens:CUST+->0..mx&(not(tokens(cc)=0) => (TRUE:BOOL => !nn.(nn:NAT&1<=nn&nn<=tokens(cc) => tokens<+{(cc,tokens(cc)-nn)}:CUST+->0..mx)))))

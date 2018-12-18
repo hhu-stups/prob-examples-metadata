@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/spec.mch
+4.9505481E7,1.4124039793333333E9,-1.0,6.734923E7:(call:POW(CALL)) & (caller:call-->USER) & (callee:call-->USER) & (open:POW(call)) & (hold:POW(call)) & (pcmsg:POW(call)) & (permit:POW(USER)) & (!c.(c:call-pcmsg => caller(c):permit&callee(c):permit)) & (!c.(c:pcmsg => caller(c)/:permit or callee(c)/:permit)) & (open=call-(hold\/pcmsg)) & (not((c:call)) => (u:USER) & (v:USER))
+4.8081719333333336E7,6.0397462E7,2.97721449E8,6.3198469666666664E7:(not(!c.(c:pcmsg => caller(c)/:permit or callee(c)/:permit)) => u:USER-permit => !cs.(cs={c|c:call&caller(c)=u&callee(c):permit}\/{c|c:call&callee(c)=u&caller(c):permit} => !c.(c:pcmsg-cs => caller(c)/:permit\/{u} or callee(c)/:permit\/{u})))

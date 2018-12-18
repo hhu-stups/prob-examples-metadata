@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/LTL/SafetyMC/BeverageVendingMachine.mch
+4.8504725333333336E7,6.0182327333333336E7,6.2455265333333336E7,6.8003224E7:(nmax:NATURAL) & (nmax=1) & (nsoda:NATURAL) & (nbeer:NATURAL) & (paid:BOOL) & (nbeer>0) & (paid=TRUE)
+4.8620195666666664E7,5.6083109333333336E7,6.1386274333333336E7,6.4603932333333336E7:(nmax:NATURAL) & (nmax=1) & paid:BOOL & paid=FALSE&nsoda+nbeer=0

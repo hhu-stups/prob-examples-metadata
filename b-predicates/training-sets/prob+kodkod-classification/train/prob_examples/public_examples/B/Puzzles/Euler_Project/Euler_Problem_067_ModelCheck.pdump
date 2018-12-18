@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Euler_Project/Euler_Problem_067_ModelCheck.mch
+5.879699973333334E8,5.48419972E8,-1.0,8.87204674E8:not((TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER))) => (i=row) & (i>0)
+1.07595689E8,1.0454395066666667E8,-1.0,5.506406226666666E8:not((TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER))) => Sol(1)(1)=7273
+6.32152711E8,5.951129916666666E8,-1.0,1.6420474046666667E9:(TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER)) & n=100
+1.03631195E8,1.1974059933333333E8,-1.0,4.830301626666667E8:not((TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER))) => n=100
+-1.0,-1.0,-1.0,-1.0:not((TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER))) => (1:dom(Sol) => Sol(1)(1)=7273) & (1:dom(Sol)) & (Sol(1)(1)=7273) & (n=100)
+-1.0,-1.0,-1.0,-1.0:(TriangleC=Triangle) & (n=size(TriangleC)) & Sol:1..n+->seq(INTEGER) & i=row&i>0&Sol<+{(row,%j.(j:1..row|TriangleC(row)(j)+max({Sol(row+1)(j),Sol(row+1)(j+1)})))}:1..n+->seq(INTEGER)
+5.886004776666666E8,5.621735836666666E8,-1.0,1.492800027E9:(TriangleC=Triangle) & (n=size(TriangleC)) & row:0..n-1 & i=row&i>0&row-1:0..n-1

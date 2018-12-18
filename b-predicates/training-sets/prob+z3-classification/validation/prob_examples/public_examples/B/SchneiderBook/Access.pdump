@@ -1,0 +1,14 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Access.mch
+4.7822189333333336E7,6.3600545666666664E7,3.1417565333333332E7,6.5156889E7:not((options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER)) => not((u1:USER) & (u2:USER))
+4.6288428666666664E7,4.7127478E7,6.2958238666666664E7,4.9243855E7:not((options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER)) => (pp:PRINTER)
+-1.0,-1.0,5.7532479333333336E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((access:USER<->PRINTER)) & (pp:PRINTER)
+-1.0,-1.0,6.5919998333333336E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((access:USER<->PRINTER)) & not((pp:PRINTER))
+-1.0,-1.0,6.4892004333333336E7,-1.0:not((options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((access:USER<->PRINTER))) => not((pp:PRINTER))
+-1.0,-1.0,6.4080937666666664E7,-1.0:not((options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((pp:PRINTER))) => not((access:USER<->PRINTER))
+7.744250633333333E7,6.2618111666666664E7,2.8972561333333332E7,6.4593805333333336E7:not((options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (pp:PRINTER)) => not((access:USER<->PRINTER))
+4.7905370333333336E7,6.0035311333333336E7,-1.0,6.7771118E7:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & (uu:USER) & (pp:PRINTER) & (uu:USER) & (pp:PRINTER)
+-1.0,-1.0,6.5032245666666664E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & (u1:USER) & (u2:USER) & not((uu:USER) & (pp:PRINTER))
+4.8775546333333336E7,5.8095074E7,6.6189306333333336E7,6.6653331666666664E7:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & (not((pp:PRINTER)) => (uu:USER) & (pp:PRINTER))
+-1.0,-1.0,9.309398433333333E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & (pp:PRINTER) & not((uu:USER))
+5.0824200666666664E7,5.9828371333333336E7,6.873218066666667E7,6.6486085E7:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & ((uu,oo):(access;options) => access:USER<->PRINTER&(not((uu,oo):(access;options)) => (TRUE:BOOL => access:USER<->PRINTER)))
+4.8382595333333336E7,5.7433561E7,2.4025773333333332E7,6.5346345333333336E7:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & access:USER<->PRINTER & access:USER<->PRINTER

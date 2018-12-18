@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/IPD/colouring/GraphColouring.zip_unpacked/colouring/CheckGraphIsomorphism.bcm
+1.3817150433333334E8,5.5061494666666664E7,1.03292907E8,7.873913333333333E7:not((p:Nodes >->> Nodes) & (!x oftype Nodes,y oftype Nodes.x:Nodes&y:Nodes=>(x |-> y:graph1<=>p(x) |-> p(y):graph2))) => (graph1:Nodes <-> Nodes) & (graph2:Nodes <-> Nodes)

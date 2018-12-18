@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Deploy/SignalControl-110527.zip_unpacked/SignalControl-110527/s1_mch2_signals.bcm
+5.17851E7,6.6717143E7,-1.0,7.608851666666667E7:(OCC<:BLOCK) & (IN_SWITCH:PLATFORM) & (OUT_SWITCH:PLATFORM) & (ENTRY_SIGNAL:ACCESS) & (EXIT_SIGNAL:ACCESS) & (ENTRY_SIGNAL/=allowed or IN_SWITCH/:OCC) & (EXIT_SIGNAL/=allowed or ext_pnt/:OCC) & (not((ext_pnt:OCC)) => (OUT_SWITCH:OCC) & (EXIT_SIGNAL=allowed))

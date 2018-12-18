@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/B/CBC/FeasibilityOperationCheck.mch
+7.152823033333333E7,7.062311033333333E7,-1.0,8.9307074E7:not((mx:1..2**10) & (mxn:NATURAL1) & (mxn>mx) & not((xx<0))) => not((ii:ID) & (xx:0..mx) & (yy:0..mxn))
+8.244838033333333E7,7.304162066666667E7,-1.0,1.0243788666666667E8:not((mx:1..2**10) & (mxn:NATURAL1) & (mxn>mx) & not((xx+yy+2 mod (2**mx+1)=mxn))) => not((ii:ID) & (xx:0..mx) & (yy:0..mxn))
+7.6838798E7,6.6664506333333336E7,-1.0,1.3059097833333333E8:not((mx:1..2**10) & (mxn:NATURAL1) & (mxn>mx) & not((xx>=yy))) => not((ii:ID) & (xx:0..mx) & (yy:0..mxn))
+7.899172566666667E7,8.005899366666667E7,-1.0,1.4093710333333334E8:not((mx:1..2**10) & (mxn:NATURAL1) & (mxn>mx) & (ii:ID) & (xx:0..mx) & (yy:0..mxn)) => (yy>xx) & (xx>=mx)
+7.4360783E7,7.213037766666667E7,-1.0,2.4718527433333334E8:(mx:1..2**10) & (mxn:NATURAL1) & (mxn>mx) & not((ii:ID) & (xx:0..mx) & (yy:0..mxn)) & not((yy>xx) & (xx>=mx))
+8.252157366666667E7,8.234836733333333E7,-1.0,1.30310193E8:not((mx:1..2**10) & (mxn:NATURAL1) & (mxn>mx) & (xx>yy) & (yy>=mx)) => (ii:ID) & (xx:0..mx) & (yy:0..mxn)
+7.4732362E7,7.461565666666667E7,-1.0,1.3611002266666666E8:not((mx:1..2**10) & (mxn:NATURAL1) & (mxn>mx) & not((xx>yy) & (yy>=mx))) => not((ii:ID) & (xx:0..mx) & (yy:0..mxn))
+4.4105767E8,2.2243000766666666E8,-1.0,1.4158394966666666E8:not((mx:1..2**10) & (mxn:NATURAL1) & (mxn>mx) & (ii:ID) & (xx:0..mx) & (yy:0..mxn)) => not((xx+yy+202 mod (2**mx+132)=2**mxn+2) & (xx+yy=mxn-mx))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/PartialEnumeratedSet2.mch
+5.1485806666666664E7,5.9932714E7,-1.0,6.1584018666666664E7:(iv:ID) & (iw:ID) & (iv/=iw) & (card(ID)=3) & xx:ID & xx=iv

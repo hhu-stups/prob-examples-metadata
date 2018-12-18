@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/ChannelC.bcm
+4.8207037666666664E7,4.9185631E7,6.1271246E7,5.7015095333333336E7:not((pv:INT) & (pv=sum) & (msg_rcvd_on_sum=TRUE) & (incrementer_evaluated=FALSE)) => (sum:NAT) & (sum_prime:NAT)
+8.156072066666667E7,4.6465313E7,6.7752284E7,6.2815553333333336E7:(sum:NAT) & (sum_prime:NAT) & incrementer_evaluated:BOOL
+8.278240766666667E7,4.7108900666666664E7,6.831986066666667E7,5.0790350666666664E7:(sum:NAT) & (sum_prime:NAT) & (sum_prime:INT) & (incrementer_evaluated:BOOL) & (sum:INT) & (msg_rcvd_on_sum:BOOL) & (msg_sent_on_sum:BOOL) & (adder_evaluated:BOOL)
+4.7246278E7,6.4985987333333336E7,8.392137933333333E7,5.1998488666666664E7:(sum:NAT) & (sum_prime:NAT) & (adder_evaluated=TRUE) & (msg_rcvd_on_sum=FALSE or incrementer_evaluated=TRUE) & (pv:INT) & (pv=sum) & (msg_rcvd_on_sum=TRUE) & (incrementer_evaluated=FALSE)

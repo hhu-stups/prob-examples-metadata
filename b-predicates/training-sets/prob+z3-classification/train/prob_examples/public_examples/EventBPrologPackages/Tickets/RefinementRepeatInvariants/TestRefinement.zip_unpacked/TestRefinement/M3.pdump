@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tickets/RefinementRepeatInvariants/TestRefinement.zip_unpacked/TestRefinement/M3.bcm
+4.336199453333333E8,3.5158276066666665E9,3.791238863333333E8,7.442946033333333E7:(x:NAT) & (x<100) & (y:NAT) & (y<=x) & (z:NAT) & (z<100) & (x<99)
+2.20368363E8,3.2915406116666665E9,1.5196136333333334E8,1.37303773E8:(x:NAT) & (x<100) & (y:NAT) & (y<=x) & (z:NAT) & (z<100) & not((x<99))

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Laws/SubstitutionLaws.mch
+4.7628147E7,4.7895639E7,3.561034543333333E8,5.4695572333333336E7:(xx:ID) & (cnt:INT) & not((1=2))
+1.07606794E8,6.4202507666666664E7,1.0296467633333333E8,4.997819E7:not(not((1=2))) => (xx:ID) & (cnt:INT)

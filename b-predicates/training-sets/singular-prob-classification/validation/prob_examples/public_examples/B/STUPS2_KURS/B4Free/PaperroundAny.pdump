@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/B4Free/PaperroundAny.mch
+5.7453581666666664E7,1.0814762166666667E8,-1.0,6.2164958333333336E7:not((lasth:HOUSE) & (pap<:HOUSE) & (mag<:pap) & (lasth/:mag)) => (lasth/:pap)

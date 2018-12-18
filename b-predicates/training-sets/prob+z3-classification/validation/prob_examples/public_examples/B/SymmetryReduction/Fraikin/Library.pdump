@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/Fraikin/Library.mch
+5.4138169333333336E7,5.9893859333333336E7,-1.0,1.5852099633333334E8:(maxNbLoans=2) & (member<:MEMBERID) & (book<:BOOKID) & (loan:book+->member) & (!mm.(mm:member => card(loan|>{mm})<=maxNbLoans)) & (reservation:book-->iseq(member)) & (not((member_:MEMBERID) & (book_:BOOKID) & (member_:member) & (book_:book) & (book_/:dom(loan)) & (card(loan|>{member_})<maxNbLoans) & (size(reservation(book_))/=0) & (first(reservation(book_))=member_)) => (member_:MEMBERID) & (member_/:member))

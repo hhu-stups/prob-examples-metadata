@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tickets/SonLazySetEvaluation/ProB-Animation_v2.zip_unpacked/ProB-Animation/m0_v3.bcm
+-1.0,-1.0,1.2561655533333333E8,-1.0:not((m1:1 .. size --> BIT) & (m2:1 .. size --> BIT)) & (p=ADD_MSG(m1 |-> m2))
+-1.0,-1.0,1.4344612733333334E8,-1.0:not((m1:1 .. size --> BIT) & (m2:1 .. size --> BIT)) & not((p=ADD_MSG(m1 |-> m2)))

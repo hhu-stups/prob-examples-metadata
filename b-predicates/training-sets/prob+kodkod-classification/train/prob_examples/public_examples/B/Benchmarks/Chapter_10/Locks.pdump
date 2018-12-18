@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Chapter_10/Locks.mch
+4.8637144E7,8.121011766666667E7,-1.0,9.695399633333333E7:(status:DOOR-->STATUS) & (position~[{open}]<:status~[{unlocked}]) & (dd:DOOR) & (status(dd)=unlocked) & not((dd:DOOR) & (position(dd)=closed))

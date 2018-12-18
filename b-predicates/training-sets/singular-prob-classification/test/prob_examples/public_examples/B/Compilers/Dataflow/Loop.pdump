@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Compilers/Dataflow/Loop.mch
+4.8596473333333336E7,5.3458893333333336E7,7.344139166666667E7,7.371084E7:(succs:Blocks<->Blocks) & (succs={(entry,b1),(b1,b2),(b2,b3),(b3,b3),(b3,b4),(b4,b2),(b4,b5),(b5,b6),(b6,b6),(b6,exit)}) & (not((cur:Blocks)) => not((lentry:L&lentry=b2&L={b2,b3,b4,entry,b1}&succs~[L-{lentry}]<:L&!l.(l:Blocks => (l:L => (l,lentry):closure1(L<|succs|>L))))))

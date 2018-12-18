@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Compilers/Dataflow/Semilattice.mch
+-1.0,-1.0,-1.0,-1.0:(meet:V*V-->V) & (!x.(x:V => meet(x,x)=x)) & (!x,y.(x:V&y:V => meet(x,y)=meet(y,x))) & (!x,y,z.(x:V&y:V&z:V => meet(x,meet(y,z))=meet(meet(x,y),z))) & (leq:V<->V) & (!x,y.(x:V&y:V => (x,y):leq <=> meet(x,y)=x)) & not(x:V&y:V&z:V&(x,y):leq&(y,z):leq => (x,z):leq)

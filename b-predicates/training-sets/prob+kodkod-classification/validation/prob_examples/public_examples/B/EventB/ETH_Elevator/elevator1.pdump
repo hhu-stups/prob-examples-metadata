@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/EventB/ETH_Elevator/elevator1.mch
+3.78979967E8,5.121459E7,6.1782227666666664E7,5.8290932333333336E7:(N:NATURAL1) & (not(phyElevatorFloor:0..N) => not(phyElevatorFloor/=0 => phyElevatorFloor-1:0..N))

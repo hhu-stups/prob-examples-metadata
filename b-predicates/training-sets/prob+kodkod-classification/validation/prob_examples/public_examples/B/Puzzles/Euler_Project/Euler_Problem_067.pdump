@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Euler_Project/Euler_Problem_067.mch
+7.038552086333333E9,7.296810695666667E9,-1.0,-1.0:(TriangleC=Triangle) & (n=size(TriangleC)) & (Sol:1..n-->seq(INTEGER)) & (Sol(n)=TriangleC(n)) & (!i.(i:1..n-1 => size(Sol(i))=size(TriangleC(i))&!j.(j:1..size(TriangleC(i)) => Sol(i)(j)=TriangleC(i)(j)+max({Sol(i+1)(j),Sol(i+1)(j+1)})))) & (OptimalSolution=Sol(1)(1)) & (OptimalSolution=7273) & (n=100)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/NQueens40.mch
+2.696639936666667E8,1.4260579766666666E8,2.2600897766666666E8,1.26894093E8:not((n=40) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+q2-q1/=queens(q2)&queens(q1)-q2+q1/=queens(q2)))) => (yy:1..n)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Convergence/convergenceerr.zip_unpacked/ConvergenceErr/convergent_grd_error.bcm
+5.4644192666666664E7,5.0713036333333336E7,9.8503681E7,6.2679595666666664E7:(n:INT) & not((n>=-1))

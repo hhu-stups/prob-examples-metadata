@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter12/Port.mch
+5.1239313333333336E7,5.4721111333333336E7,4.2836825E7,7.965067766666667E7:not(not((waiting:iseq(SHIP)) & (docked:QUAY>+>SHIP) & (ran(waiting)/\ran(docked)={}))) => not((waiting/=[]) & (qq:QUAY) & (qq/:dom(docked)))

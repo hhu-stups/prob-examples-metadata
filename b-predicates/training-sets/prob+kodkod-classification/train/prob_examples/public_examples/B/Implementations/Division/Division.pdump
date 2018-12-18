@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Implementations/Division/Division.mch
+3.144104196666667E8,1.6657679266666666E8,1.1054573833333333E8,6.3687963666666664E7:(!a,b,v.(a:NAT&b:NAT1&v:NAT => a*b+v mod b=v mod b)) & (!a,b.(a:NAT&b:NAT1 => (a<b => a=a mod b))) & (a:NAT) & (b:NAT1)

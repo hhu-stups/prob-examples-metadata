@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Simple/GCD.mch
+4.8489173333333336E7,5.2100177666666664E7,6.1338083666666664E7,5.6146874E7:(not(x:NAT) => w1:NAT1&w2:NAT1&(w1>w2 => w1:NAT&(not(w1>w2) => (TRUE:BOOL => w2:NAT))))

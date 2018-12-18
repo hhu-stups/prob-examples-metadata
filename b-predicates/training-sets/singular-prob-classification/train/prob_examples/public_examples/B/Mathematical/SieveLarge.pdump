@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/SieveLarge.mch
+6.5766975666666664E7,5.8952771333333336E7,8.233451566666667E7,1.0024971266666667E8:not((numbers<:INTEGER) & (cur:NATURAL1) & (limit:NATURAL1)) & not((cur=1) & (lim>MINLIM))
+5.4006798E7,6.7026400333333336E7,2.918737083333333E8,6.5564017E7:not(not((cur*cur>limit))) => not((numbers<:INTEGER) & (cur:NATURAL1) & (limit:NATURAL1))
+5.0229036666666664E7,5.4918529666666664E7,7.483982433333333E7,8.211100033333333E7:not((cur*cur>limit)) => not((numbers<:INTEGER) & (cur:NATURAL1) & (limit:NATURAL1))
+5.3069155333333336E7,6.2134926666666664E7,7.449902166666667E7,5.4912942E7:(numbers<:INTEGER) & (cur:NATURAL1) & (limit:NATURAL1) & (cc=cur) & (cur>1) & (cur*cur<=limit) & (cur*cur>limit)
+4.9721197333333336E7,6.4698451E7,7.128592733333333E7,6.781388433333333E7:(numbers<:INTEGER) & (cur:NATURAL1) & (limit:NATURAL1) & (not((cur=1) & (lim>MINLIM)) => (cur*cur>limit))

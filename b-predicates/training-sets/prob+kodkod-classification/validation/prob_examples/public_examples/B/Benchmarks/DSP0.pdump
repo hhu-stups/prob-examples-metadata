@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/DSP0.mch
+6.329705756666666E8,5.0913038666666664E7,4.3299709666666664E7,6.2873591E7:(threshold:INTEGER) & (not(dspChannels<:cellChannels(current)) => not(dsp_state=idle => dspChannels<:cellChannels(current)))
+5.1793714E7,5.0573936E7,7.053282866666667E7,6.4914376666666664E7:(threshold:INTEGER) & (not(powerlevel:CELL-->INTEGER) => not(dsp_state=idle => powerlevel:CELL-->INTEGER))
+4.5196832E7,4.7306807E7,6.751999233333333E7,5.0495201333333336E7:(threshold:INTEGER) & dsp_state:DSP_STATE & dsp_state=traffic => dsp_state:DSP_STATE
+6.0948020333333336E7,5.2438046666666664E7,-1.0,9.2622835E7:(threshold:INTEGER) & dspChannels<:cellChannels(current) & not(dsp_state=init&powerlevel(current)>threshold&cellChannels(current)/={} => CHANNEL<:cellChannels(current))

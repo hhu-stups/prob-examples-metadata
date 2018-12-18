@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/ForDistribution/LessSimple/phonebook.mch
+8.899579133333333E7,1.32360361E8,6.777172366666667E7,4.689862913333333E8:(db:Name+->Code) & (nn:Name) & (cc:Code) & (nn/:dom(db)) & not((nn:dom(db)) & (nn:Name))
+-1.0,-1.0,-1.0,-1.0:(db:Name+->Code) & (nn:Name) & (cc:Code) & (nn/:dom(db)) & (db:Name-->Code)
+5.3414846333333336E7,6.4002925E7,4.5426936333333336E7,9.054906133333333E7:(not((db:Name+->Code)) => not((nn:dom(db)&db<+{(nn,cc)}:Name+->Code)))

@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tutorial/DoubleCounter.mch
+3.240562693333333E8,2.743534403333333E8,1.4425596066666666E8,1.1444730533333333E8:not((counter:NATURAL) & (counter<=128)) => (counter<100)
+3.290304353333333E8,7.569312166666667E7,1.8317538833333334E8,9.5554749E7:not((counter:NATURAL) & (counter<=128)) & (counter<100)
+6.1864943333333336E7,6.0403351666666664E7,6.4133714E7,8.660642766666667E7:not(not((counter<100))) => not((counter:NATURAL) & (counter<=128))
+7.3066368E7,6.835125589E9,6.5173953333333336E7,1.30104324E8:(counter:NATURAL) & (counter<=128) & (counter/2:NATURAL) & (counter/2<=128)
+5.8407381E7,7.0221732E7,8.098029366666667E7,8.133741466666667E7:(not((counter:NATURAL) & (counter<=128)) => not((counter/2:NATURAL) & (counter/2<=128)))

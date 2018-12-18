@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/GolombRuler2.mch
+2.6509441833333334E8,1.5508559633333334E8,1.9111981166666666E8,2.5555703233333334E8:not((n=7) & (length=25) & (a:1..n-->0..length) & (!i.(i:2..n => a(i-1)<a(i))) & (!i1,j1,i2,j2.(i1>0&i2>0&j1<=n&j2<=n&i1<j1&i2<j2&(i1,j1)/=(i2,j2)&i1<=i2&(i1=i2 => j1<j2) => a(j1)-a(i1)/=a(j2)-a(i2)))) => (i>0) & (i<j) & (j<=n)

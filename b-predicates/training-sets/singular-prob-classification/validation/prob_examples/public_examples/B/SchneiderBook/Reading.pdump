@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Reading.mch
+5.4445540333333336E7,6.5350489E7,6.972699966666667E7,9.2391963E7:not((copyof:COPY-->>BOOK) & (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={})) => (rr:READER) & (cc:COPY) & (copyof(cc)/:hasread[{rr}]) & (rr/:dom(reading)) & (cc/:ran(reading))
+-1.0,-1.0,7.6065306E7,-1.0:(copyof:COPY-->>BOOK) & (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={}) & (rr:READER) & (cc:COPY) & (copyof(cc)/:hasread[{rr}]) & (rr/:dom(reading)) & (cc/:ran(reading)) & not((rr:READER))
+4.7746551E7,5.712861E7,7.586879566666667E7,6.3860960666666664E7:(copyof:COPY-->>BOOK) & (not(hasread:READER<->BOOK) => rr:dom(reading))

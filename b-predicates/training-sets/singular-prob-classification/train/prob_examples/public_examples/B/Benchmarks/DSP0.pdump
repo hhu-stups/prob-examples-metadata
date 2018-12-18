@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/DSP0.mch
+4.7628659333333336E7,9.246995266666667E7,5.1304033333333336E7,6.3011760333333336E7:(threshold:INTEGER) & (not(broadcasting:CHANNEL-->BOOL) => dsp_state=idle => broadcasting:CHANNEL-->BOOL)
+5.1514488E7,4.9630613E7,-1.0,7.481877933333333E7:(threshold:INTEGER) & union(ran(cellChannels))=CHANNEL & dsp_state=idle => union(ran(cellChannels))=CHANNEL
+5.4102364333333336E7,6.0360981333333336E7,1.0570881E8,5.2583223E7:(threshold:INTEGER) & (not(dsp_state:DSP_STATE) => not(dsp_state=idle => dsp_state:DSP_STATE))

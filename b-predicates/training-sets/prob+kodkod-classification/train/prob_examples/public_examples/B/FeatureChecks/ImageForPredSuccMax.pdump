@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/ImageForPredSuccMax.mch
+1.4920219033333334E8,8.668760633333333E7,-1.0,7.980276933333333E7:(mxf=%xx.(xx<:INTEGER|max(xx))) & (xx<:INTEGER) & pred(100)=99
+4.9562819666666664E7,7.109353766666667E7,-1.0,5.8286555666666664E7:(mxf=%xx.(xx<:INTEGER|max(xx))) & (xx<:INTEGER) & not((pred(100)=99) & (pred[{100,102}]={99,101}) & (succ[pred[{100,102}]]={100,102}) & (mxf[{{100},{99,2}}]={100,99}))

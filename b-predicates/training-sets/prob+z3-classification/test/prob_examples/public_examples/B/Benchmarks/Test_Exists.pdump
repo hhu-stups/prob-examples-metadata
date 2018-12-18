@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Test_Exists.mch
+5.3625255E7,7.230819366666667E7,1.0286107833333333E8,5.3168679333333336E7:(iv:ID) & (xx:ID) & (not((yy:ID) & (not(#rr.(rr:ID&rr/=yy&rr=yy)))) => (yy:ID) & (#rr.(rr:ID&rr/=yy&rr=yy)))

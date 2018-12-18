@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBTrans/TestPastLTL.mch
+3.7106168553333335E9,1.7231278033333333E9,5.7303260333333336E7,5.0904541666666664E7:(xx:ID) & (xx=bb or xx=cc) & (xx=bb) & (xx=cc)

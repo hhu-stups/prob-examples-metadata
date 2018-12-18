@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/phonebook7.mch
+4.9727203666666664E7,6.3322787E7,1.4129827566666666E8,5.6985808E7:not((db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec)) => card(active)>=card(activec)
+-1.0,-1.0,-1.0,-1.0:(db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec) & not((card(active)>=card(activec)))
+4.9511394333333336E7,6.9459368E7,7.3272469E7,6.1911155333333336E7:(not(db:Name+->Code) => nn/:active&db\/{(nn,cc)}:Name+->Code)

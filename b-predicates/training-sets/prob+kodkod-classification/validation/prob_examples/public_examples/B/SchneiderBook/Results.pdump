@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Results.mch
+9.1137567E7,5.1575204E7,-1.0,4.9114462666666664E7:(finish:iseq(RUNNER)) & (pp:NAT1) & (pp<=size(finish))
+4.832642E7,4.8961487E7,-1.0,7.700534633333333E7:not(not((rr:RUNNER) & (rr/:ran(finish)))) => not((finish:iseq(RUNNER)))
+4.8659958666666664E7,5.0012854666666664E7,-1.0,5.7720491666666664E7:(finish:iseq(RUNNER)) & ((pp:NAT1) & (pp<=size(finish)) => not((pq:NAT1) & (pq<=size(finish))))
+4.6854980666666664E7,4.8795637E7,7.649157033333333E7,2.2112143833333334E8:(not((finish:iseq(RUNNER))) => not((finish:iseq(RUNNER))))

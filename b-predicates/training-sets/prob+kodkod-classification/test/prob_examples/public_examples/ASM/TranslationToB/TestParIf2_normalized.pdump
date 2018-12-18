@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ASM/TranslationToB/TestParIf2_normalized.mch
+5.1219036333333336E7,6.4028300666666664E7,7.1994141E7,6.001557E7:not((vv:ID) & (zz:ID) & ((vv,zz)/:ff)) => (xx:ID) & (yy:POW(ID)) & (ff:ID+->ID)

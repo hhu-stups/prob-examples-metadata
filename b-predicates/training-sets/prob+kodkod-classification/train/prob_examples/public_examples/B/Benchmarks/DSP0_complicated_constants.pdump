@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/DSP0_complicated_constants.mch
+1.6709564333333334E8,9.507924633333333E7,-1.0,8.6580307E7:(cellChannels:CELL-->POW(CHANNEL)) & (disjoint(cellChannels)) & (union(ran(cellChannels))=CHANNEL) & (union(ran(cellChannels))=CHANNEL)

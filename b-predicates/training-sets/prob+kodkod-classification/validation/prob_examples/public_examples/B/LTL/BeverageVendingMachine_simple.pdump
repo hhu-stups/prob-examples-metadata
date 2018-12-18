@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/LTL/BeverageVendingMachine_simple.mch
+4.7234171666666664E7,7.332710866666667E7,-1.0,5.7250459666666664E7:not((paid=FALSE)) => (paid:BOOL) & (drink:DRINKS) & (drink/=no_drink => paid=TRUE)
+4.7301010666666664E7,6.0066879333333336E7,6.6690300666666664E7,6.3895532666666664E7:(paid:BOOL) & (drink:DRINKS) & (drink/=no_drink => paid=TRUE) & not((drink=no_drink) & (paid=TRUE))
+4.8567675E7,5.8730955666666664E7,6.534695E7,5.9924100666666664E7:(paid:BOOL) & (drink:DRINKS) & (drink/=no_drink => paid=TRUE) & ((drink=beer) & (paid=TRUE) => not((paid=FALSE)))
+4.8630741666666664E7,5.7311571333333336E7,6.5337987333333336E7,5.6015736E7:(not(drink/=no_drink => paid=TRUE) => drink=no_drink&paid=TRUE&(soda/=no_drink => paid=TRUE))
+4.7567548E7,5.5954787666666664E7,-1.0,5.9371935666666664E7:paid:BOOL & not(drink=no_drink&paid=TRUE)

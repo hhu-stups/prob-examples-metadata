@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ErrorMachines/UndefinedArithmetic/DivByZeroOp.mch
+4.6755712666666664E7,6.5835094333333336E7,6.032918E7,6.773056366666667E7:(x=2) & (xx>xx/x) & (yy:{1,0}) & (zz:{1,0})

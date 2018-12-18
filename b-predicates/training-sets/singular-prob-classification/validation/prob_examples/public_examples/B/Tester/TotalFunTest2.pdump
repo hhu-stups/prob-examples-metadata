@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/TotalFunTest2.mch
+1.3793616266666666E8,1.0473280133333333E8,1.2550622966666667E8,6.5431877E7:not((f:ID>->POW(ID)) & (!yy.(yy:ID => f(yy)={yy})) & not((xx:ID))) => not((yy:ID) & (yy:dom(f)))

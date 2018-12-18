@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/EvaluationView/SubsetFail.mch
+5.1981401E7,7.647885933333333E7,6.6149915333333336E7,6.0066623666666664E7:not((iv:ID) & (xx<:{aa})) => xx\/{bb}<:ID\{iv}

@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Special/PO_ModelChecking/Scheduler_PO.mch
+-1.0,-1.0,6.2515584666666664E7,-1.0:active/\(ready\/waiting)={} & not(!pp.(pp/:active&pp/:ready\/waiting => active/\(ready\/(waiting\/{pp}))={}))
+-1.0,-1.0,5.9853514333333336E7,-1.0:waiting<:PID & not(!pp.(pp/:active&pp/:ready\/waiting => waiting<:PID))
+-1.0,-1.0,5.9874769666666664E7,-1.0:ready<:PID & not(!pp.(pp:waiting => ready<:PID))
+-1.0,-1.0,6.0714564333333336E7,-1.0:ready:POW(PID) & not(!pp.(pp:waiting => ready:POW(PID)))
+4.7191243E7,4.8033808333333336E7,6.4286480666666664E7,5.1914283333333336E7:(not(waiting:POW(PID)) => not(!rr.(rr:waiting&active/={} => waiting:POW(PID))))
+1.2062292733333333E8,5.9996060666666664E7,6.4089737333333336E7,6.804910966666667E7:active/\(ready\/waiting)={} & not(!rr.(rr:waiting&active={} => {rr}/\(ready\/waiting-{rr})={}))

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Sieve_WithMin.mch
+4.751242E7,4.9342308E7,6.0008375666666664E7,5.328869E7:not((lim=MINLIM)) => (numbers<:INTEGER) & (limit:NATURAL1)
+4.4416262333333336E7,4.7566244E7,5.8227818666666664E7,4.8341785666666664E7:(not(numbers<:INTEGER) => not(numbers/={}&cur=min(numbers)&cur*cur>limit))
+4.9638062333333336E7,4.9270231666666664E7,6.1338829E7,7.901777666666667E7:(not(limit:NATURAL1) => not(numbers/={}&cur=min(numbers)&cur*cur>limit&limit:NATURAL1))

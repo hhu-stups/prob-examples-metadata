@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Demo/scheduler_err.mch
+5.5679311E7,5.8143311E7,8.404348533333333E7,6.4403860666666664E7:(not(waiting<:PID) => pp/:active&pp/:ready\/waiting => waiting<:PID)

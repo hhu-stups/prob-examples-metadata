@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/LTL/Stepmother.mch
+1.3840065366666666E8,1.0744739333333333E8,1.0649214966666667E8,8.052506766666667E7:(bv=10) & (jv=5) & not((bottles:DOM-->NATURAL) & (turn:BOOL)) & not((turn=FALSE) & (max(ran(bottles))>bv))
+4.9913120666666664E7,5.7058979E7,4.2576410666666664E7,1.35441152E8:not((bv=10) & (jv=5) & not((bottles:DOM-->NATURAL) & (turn:BOOL))) => not((turn=FALSE) & (ei:dom(bottles)) & (ej=ei+1 mod 5) & (ej:dom(bottles)) & (bottles(ei)=max(ran(bottles)) or bottles(ej)=max(ran(bottles))))
+4.5648286666666664E7,4.9325057666666664E7,6.1513665333333336E7,6.5459650666666664E7:(bv=10) & (jv=5) & (not(turn:BOOL) => turn=TRUE&b:0..4-->NATURAL&SIGMA(x).(x:0..4|b(x))=jv)
+9.5610389E7,5.3383906666666664E7,6.2813574E7,7.351183866666667E7:(bv=10) & (jv=5) & turn:BOOL & not(turn=FALSE&max(ran(bottles))>bv)

@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/LeaderElectionRing.mch
+-1.0,-1.0,-1.0,-1.0:not((N<:NATURAL) & (N={1,2,3,4}) & (n:N>->>N) & (!S.(S<:N&n[S]<:S&S/={} => N<:S)) & (b:N+->N)) => not((x:dom(b)) & (b(x)>x))
+-1.0,-1.0,1.03250164E8,-1.0:not((N<:NATURAL) & (N={1,2,3,4}) & (n:N>->>N) & (!S.(S<:N&n[S]<:S&S/={} => N<:S)) & not((b:N+->N))) => (x:dom(b)) & (b(x)>x)
+-1.0,-1.0,-1.0,-1.0:not((N<:NATURAL) & (N={1,2,3,4}) & (n:N>->>N) & (!S.(S<:N&n[S]<:S&S/={} => N<:S)) & (b:N+->N)) => not((x:dom(b)) & (b(x)<x))
+-1.0,-1.0,5.2152465E7,-1.0:not((N<:NATURAL) & (N={1,2,3,4}) & (n:N>->>N) & (!S.(S<:N&n[S]<:S&S/={} => N<:S)) & (x:dom(b)) & (b(x)<x)) => not((b:N+->N))

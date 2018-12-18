@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/SafetyMetroSystem_full_23_08_2012.zip_unpacked/SafetyMetroSystem/Middleware.bcm
+4.7935215666666664E7,4.7946833E7,6.0028024333333336E7,4.930925E7:(not((t1:TRAIN) & (bb:BOOL) & (t1:dom(tmsgs)) & (tmsgs(t1)=({} oftype POW(BOOL)))) => (t:TRAIN) & (oc:CDV))

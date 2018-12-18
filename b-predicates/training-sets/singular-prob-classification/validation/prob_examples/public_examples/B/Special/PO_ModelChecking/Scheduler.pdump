@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Special/PO_ModelChecking/Scheduler.mch
+4.6766049666666664E7,5.5960258666666664E7,8.5276859E7,1.63203715E8:(card(PID)=6) & (not(active<:PID) => !pp.(pp/:active&pp/:ready\/waiting => active<:PID))

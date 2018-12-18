@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/RefinementChecking/RefinementCheckingExamples.zip_unpacked/RefinementChecking/TwoEvents.bcm
+1.5016555766666666E8,9.636232366666667E7,1.5426217253333333E9,5.9583042333333336E7:not(not((x:NAT))) => not((x mod 2=0&x<1000))
+4.8279603333333336E7,4.9311391333333336E7,6.0084782333333336E7,5.5913954E7:not((x mod 2=0&x<1000)) => not((x:NAT))

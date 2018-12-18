@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/HadamardMatrix.mch
+-1.0,-1.0,-1.0,-1.0:(Order:NATURAL1) & (Order:3..16) & (Order=16) & (H:IDX-->(IDX-->{-1,1})) & (!i,j.(i:IDX&j:IDX&i<j => orthogonal(H(i),H(j)))) & not((i:IDX) & (j:IDX) & (i<j))

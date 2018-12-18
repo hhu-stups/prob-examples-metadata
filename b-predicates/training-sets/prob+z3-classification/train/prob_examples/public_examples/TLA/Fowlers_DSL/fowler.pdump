@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/TLA/Fowlers_DSL/fowler.mch
+5.4233828333333336E7,5.3388772333333336E7,6.3159567666666664E7,5.473778E7:state:STRING & door="unlocked" => !door_n,state_n.(door_n="locked"&state_n="active" => state:STRING)
+5.2160218E7,5.0082253333333336E7,6.5588043E7,5.2187432666666664E7:(not(state:STRING) => door="unlocked" => !door_n,state_n.(door_n="locked"&state_n="active" => state:STRING))
+5.2423729E7,4.9526386333333336E7,6.786286633333333E7,5.3582721666666664E7:(not(panel:STRING) => door="unlocked" => !door_n,state_n.(door_n="locked"&state_n="active" => panel:STRING))
+5.0389252333333336E7,9.335574966666667E7,1.1569008433333333E8,6.399345E7:(not(panel:STRING) => not(door="unlocked" => !door_n,state_n.(door_n="locked"&state_n="active" => panel:STRING)))

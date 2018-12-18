@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter10/Locks.mch
+5.1878757333333336E7,6.966691333333333E7,8.912076066666667E7,9.542260966666667E7:not((status:DOOR-->STATUS) & (position~[{open}]<:status~[{unlocked}])) => not((dd:DOOR) & (position(dd)=closed))
+5.6240322333333336E7,7.278015833333333E7,7.837365366666667E7,8.232078066666667E7:not((dd:DOOR) & (position(dd)=closed)) => (status:DOOR-->STATUS) & (position~[{open}]<:status~[{unlocked}])
+5.0124973E7,6.7773702E7,6.2680806E7,7.896784E7:not(not((dd:DOOR) & (position(dd)=closed))) => (status:DOOR-->STATUS) & (position~[{open}]<:status~[{unlocked}])
+-1.0,-1.0,7.316039733333333E7,-1.0:(status:DOOR-->STATUS) & (position~[{open}]<:status~[{unlocked}]) & not((dd:DOOR))
+-1.0,-1.0,7.224868933333333E7,-1.0:not((status:DOOR-->STATUS) & (position~[{open}]<:status~[{unlocked}])) & not((dd:DOOR))
+4.978885E7,6.1550727666666664E7,-1.0,8.637548533333333E7:(status:DOOR-->STATUS) & (position~[{open}]<:status~[{unlocked}]) & (not((dd:DOOR) & (status(dd)=unlocked)) => (dd:DOOR) & (position(dd)=closed))
+4.8936856333333336E7,7.2176171E7,-1.0,7.352692433333333E7:(status:DOOR-->STATUS) & (position~[{open}]<:status~[{unlocked}]) & (dd:DOOR) & (status(dd)=unlocked) & (dd:DOOR)
+-1.0,-1.0,7.5502874E7,-1.0:(status:DOOR-->STATUS) & (position~[{open}]<:status~[{unlocked}]) & (dd:DOOR) & (status(dd)=unlocked) & not((dd:DOOR))
+1.7095365266666666E8,8.320173466666667E7,-1.0,7.472318933333333E7:(status:DOOR-->STATUS) & (position~[{open}]<:status~[{unlocked}]) & (dd:DOOR) & (position(dd)=closed) & (dd:DOOR)
+-1.0,-1.0,7.195679866666667E7,-1.0:(status:DOOR-->STATUS) & (position~[{open}]<:status~[{unlocked}]) & (dd:DOOR) & (position(dd)=closed) & not((dd:DOOR))
+5.0658816666666664E7,6.2475682333333336E7,-1.0,7.0126632E7:status:DOOR-->STATUS & status(dd)=unlocked&status:DOOR-->STATUS

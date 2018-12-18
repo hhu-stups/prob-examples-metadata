@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/HashSetSet2.mch
+5.4275174666666664E7,5.3286641333333336E7,5.3342118333333336E7,8.387125666666667E7:(ssi:POW(POW(ID))) & not(({x,y}/:ssi))

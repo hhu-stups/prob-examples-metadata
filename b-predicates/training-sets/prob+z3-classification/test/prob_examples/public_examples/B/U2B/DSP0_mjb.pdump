@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/U2B/DSP0_mjb.mch
+4.8506936666666664E7,5.1971646E7,-1.0,4.8110214666666664E7:(threshold:DSP-->INT) & (threshold(thisDSP)>=0) & union(ran(cellChannels))=CHANNEL & not(union(ran(cellChannels))=CHANNEL&union(ran(cellChannels))=CHANNEL)

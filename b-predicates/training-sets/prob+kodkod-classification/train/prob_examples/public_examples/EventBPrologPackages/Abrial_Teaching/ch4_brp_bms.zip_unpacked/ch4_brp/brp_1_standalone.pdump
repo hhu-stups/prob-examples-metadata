@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Abrial_Teaching/ch4_brp_bms.zip_unpacked/ch4_brp/brp_1_standalone.bcm
+5.2105997333333336E7,5.2063324333333336E7,7.529402533333333E7,6.6846536333333336E7:(r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & (s_st/=working) & (r_st/=working)
+5.6520386E7,5.3771898333333336E7,7.465006566666667E7,6.4661551333333336E7:not((r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success)) => (s_st/=working) & (r_st/=working)
+5.0568790666666664E7,5.3315556E7,7.603690366666667E7,6.3999013333333336E7:not(not((r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success))) => (s_st/=working) & (r_st/=working)
+4.9880737666666664E7,5.4477411666666664E7,-1.0,6.3485051666666664E7:not(not((r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success))) => not((r_st=working) & (r+1=n))
+5.1731112666666664E7,5.5373359333333336E7,7.622046966666667E7,6.7191156E7:(r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & not((r_st=working) & (r+1<n))
+5.1989851666666664E7,5.3304194666666664E7,7.613300533333333E7,6.3788815E7:not(not((s_st=working))) => not((r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success))
+5.1310761333333336E7,5.6057221666666664E7,7.599467333333333E7,7.595234933333333E7:(r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & (not((r_st=working) & (s_st=failure)) => (r_st=working) & (r+1=n))
+5.0658979333333336E7,5.4738269E7,7.677761733333333E7,6.904008766666667E7:(r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & (r_st=working) & (r+1=n) & not((s_st=working) & (r_st=success))
+4.9471747333333336E7,5.4831902666666664E7,7.6882868E7,7.7863882E7:(r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & ((r_st=working) & (r+1=n) => not((s_st=working)))
+4.7544593333333336E7,5.2608901666666664E7,8.2247796E7,5.2577752333333336E7:(r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & (s_st=working) & (r_st=success) & (r_st=working) & (r+1<n)
+4.9905089333333336E7,5.2028310666666664E7,7.320314033333333E7,7.670940533333333E7:(r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & (not((s_st=working) & (r_st=success)) => (s_st=working))

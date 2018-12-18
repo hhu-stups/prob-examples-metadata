@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/LessSimple/Game/PRIZE.mch
+4.8367580333333336E7,4.7911818666666664E7,6.0246255E7,4.9139419333333336E7:(not((PRIZEinstances:POW(PRIZESET)) & (PRIZEinstances<:PRIZESET)) => not((PRIZEinstances/=PRIZESET&!new.(new:PRIZESET-PRIZEinstances => PRIZEinstances<:PRIZESET)) & (PRIZEinstances/=PRIZESET&!new.(new:PRIZESET-PRIZEinstances => PRIZEinstances:POW(PRIZESET)))))

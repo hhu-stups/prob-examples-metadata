@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Simple/Phonebook/phonebook.mch
+4.8600943333333336E7,6.1597917E7,6.4538467666666664E7,6.811252566666667E7:db:Name+->Code & nn:dom(db)&db:Name+->Code
+-1.0,-1.0,6.0121169666666664E7,-1.0:db:Name+->Code & not(db:Name+->Code)
+4.7794928333333336E7,5.8609874E7,6.4200645333333336E7,5.5703522E7:(not(db0:Name+->Code) => not(db0:Name+->Code))
+-1.0,-1.0,6.0475078666666664E7,-1.0:db4:Name+->Code & not(db4:Name+->Code)
+1.0134012133333333E8,5.6274102E7,9.814062266666667E7,8.521232566666667E7:(not((db0:Name+->Code) & (db1:Name+->Code) & (db2:Name+->Code) & (db:Name+->Code) & (db3:Name+->Code) & (db4:Name+->Code) & (db5:Name+->Code)) => not((nn:dom(db)&db5:Name+->Code) & (nn:dom(db)&db<+{(nn,cc)}:Name+->Code) & (nn:dom(db)&db2:Name+->Code) & (nn:dom(db)&db1:Name+->Code) & (nn:dom(db)&db3:Name+->Code) & (nn:dom(db)&db0:Name+->Code) & (nn:dom(db)&db4:Name+->Code)))
+4.7266229666666664E7,6.0969601666666664E7,6.654403E7,6.2074025333333336E7:(not(db:Name+->Code) => (nn,cc):db&db-{(nn,cc)}:Name+->Code)

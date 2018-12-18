@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/UnicodeSupport/t1_2_simplified.mch
+2.6027020166666666E8,8.8857668E7,-1.0,1.35918867E8:(occ:TRACKS-->iseq(TRAINS)) & (!t1,t2.(t1:TRACKS&t2:TRACKS&t1/=t2 => ran(occ(t1))/\ran(occ(t2))={})) & (UNION(t).(t:TRACKS|ran(occ(t)))=TRAINS)

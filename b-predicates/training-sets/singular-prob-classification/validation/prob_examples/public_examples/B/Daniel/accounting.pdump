@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Daniel/accounting.mch
+5.7574011666666664E7,6.1318342333333336E7,-1.0,6.324701626666666E8:not((amount:NATURAL) & (src:ACCOUNT) & (dst:ACCOUNT) & (src:accounts) & (dst:accounts) & (src/=dst) & (src:dom(limit) => balance(src)-amount>=limit(src))) => (accounts<:ACCOUNT) & (balance:accounts-->INTEGER) & (limit:accounts+->INTEGER) & (SIGMA(acc).(acc:accounts|balance(acc))=0) & (!acc,lim.(acc:accounts&lim:INT&(acc,lim):limit => balance(acc)>=lim))
+5.8625844333333336E7,6.4188469333333336E7,-1.0,1.7608156266666666E8:not(not((accounts<:ACCOUNT) & (balance:accounts-->INTEGER) & (limit:accounts+->INTEGER) & (SIGMA(acc).(acc:accounts|balance(acc))=0) & (!acc,lim.(acc:accounts&lim:INT&(acc,lim):limit => balance(acc)>=lim)))) => not((account:ACCOUNT) & (account:dom(limit)))
+-1.0,-1.0,-1.0,-1.0:balance:accounts-->INTEGER & not(!new.(new:ACCOUNT-accounts => balance<+{(new,0)}:accounts\/{new}-->INTEGER))

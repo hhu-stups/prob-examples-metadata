@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/CSPB/Tokens_FM05.mch
+4.4332965333333336E7,3.16925614E8,-1.0,2.1057973686666667E9:(mx:NAT) & (mx=3) & (tokens:CUST+->0..mx) & (cc:CUST) & (cc:dom(tokens))
+5.2073358333333336E7,5.3871934666666664E7,-1.0,5.4391716E7:(mx:NAT) & (mx=3) & not((tokens:CUST+->0..mx)) & (cc:CUST) & (cc/:dom(tokens))
+4.7421603333333336E7,5.1109990666666664E7,-1.0,7.277166066666667E7:(mx:NAT) & (mx=3) & (tokens:CUST+->0..mx) & (not((cc:CUST) & (cc:dom(tokens))) => (cc:CUST) & (cc/:dom(tokens)))

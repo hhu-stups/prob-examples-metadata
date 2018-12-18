@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Demo/RussianPostalPuzzle.mch
+5.9360527666666664E7,5.3984309E7,-1.0,7.4602224E7:(keysforsale:POW(KeyIDs)) & (hasbox:PERSONS) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL) & (not((keyid:KeyIDs) & (person:PERSONS) & (person=hasbox) & (keyid:has_keys(person)) & (keyid/:padlocks)) => (keyid:KeyIDs) & (person:PERSONS) & (person=hasbox) & (keyid:padlocks) & (keyid:has_keys(person)))
+-1.0,-1.0,-1.0,-1.0:(not(has_keys:PERSONS-->POW(KeyIDs)) => person=hasbox&keyid:has_keys(person)&keyid/:padlocks&has_keys:PERSONS-->POW(KeyIDs))
+1.1581137533333333E8,8.769620766666667E7,1.05712931E8,5.9393819E7:padlocks<:KeyIDs & person=hasbox&keyid:has_keys(person)&keyid/:padlocks

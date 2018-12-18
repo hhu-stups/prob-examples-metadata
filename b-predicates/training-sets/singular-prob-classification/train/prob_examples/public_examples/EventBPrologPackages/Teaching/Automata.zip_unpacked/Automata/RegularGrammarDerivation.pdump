@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Teaching/Automata.zip_unpacked/Automata/RegularGrammarDerivation.bcm
+4.9032911333333336E7,5.7167977666666664E7,-1.0,7.021253666666667E7:not((pos:1 .. n&cur(pos):NonTerminals) & (pos=n) & (cur(pos) |-> (T |-> NT):P) & (none/=NT)) => not((n>0) & (cur:1 .. n --> Symbols) & (cur[1 .. n - 1]<:Terminals))
+5.1953627E7,5.5967964333333336E7,-1.0,8.3463733E7:(n>0) & (cur:1 .. n --> Symbols) & (cur[1 .. n - 1]<:Terminals) & not((pos:1 .. n&cur(pos):NonTerminals) & (pos=n) & (cur(pos) |-> (T |-> none):P))
+5.0841731E7,5.6697712666666664E7,-1.0,1.1305432066666667E8:not((n>0) & (cur:1 .. n --> Symbols) & (cur[1 .. n - 1]<:Terminals)) & not((pos:1 .. n&cur(pos):NonTerminals) & (pos=n) & (cur(pos) |-> (T |-> none):P))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Rene/Integers.mch
+4.770169E7,4.7879692E7,-1.0,6.5521762666666664E7:(not(z:POW(NAT)) => z:POW(NAT))

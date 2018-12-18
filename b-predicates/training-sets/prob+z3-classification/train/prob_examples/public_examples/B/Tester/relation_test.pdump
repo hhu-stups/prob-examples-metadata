@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/relation_test.mch
+2.772564166666667E8,7.428873E7,2.5311100433333334E8,4.750758223333333E8:not((nn:ALPH) & (pp:ALPH)) => not((mrel:ALPH<->ALPH))
+3.99270862E8,2.5045787366666666E8,9.2215451E7,5.3735557666666664E7:(not(mrel:ALPH<->ALPH) => not(mrel:ALPH<->ALPH))

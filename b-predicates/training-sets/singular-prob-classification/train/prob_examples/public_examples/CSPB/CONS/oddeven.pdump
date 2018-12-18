@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSPB/CONS/oddeven.mch
+5.1235682E7,5.1575320333333336E7,6.4372105666666664E7,6.8019311E7:not((m=4) & (Range=0..m-1) & not((odd:Range) & (even:Range))) => not((nn:Range) & (nn mod 2=1))

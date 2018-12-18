@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Abrial_Modes/modes.zip_unpacked/mode_su_12/mode_m0.bcm
+4.9892075E7,1.3696862833333334E8,-1.0,5.8921273E7:not((inside=FALSE) & (outside=TRUE)) => (mss_button:M \ {no_mode}) & (current_mode:M) & (inside=FALSE&outside=FALSE&normal=TRUE=>current_mode=mss_button)
+9.857198533333333E7,6.5060089E7,-1.0,5.5557274333333336E7:not(not((inside=TRUE&outside=FALSE) & (mss_button=current_mode))) => not((mss_button:M \ {no_mode}) & (current_mode:M) & (inside=FALSE&outside=FALSE&normal=TRUE=>current_mode=mss_button))
+4.9824934666666664E7,1.8857690866666667E9,-1.0,7.129444766666667E7:not((mss_button:M \ {no_mode}) & (current_mode:M) & (inside=FALSE&outside=FALSE&normal=TRUE=>current_mode=mss_button)) => (inside=FALSE) & (outside=FALSE)
+4.8713550333333336E7,7.340137333333333E7,-1.0,6.6305475666666664E7:(mss_button:M \ {no_mode}) & (current_mode:M) & (inside=FALSE&outside=FALSE&normal=TRUE=>current_mode=mss_button) & ((inside=TRUE&outside=FALSE) => not((inside=FALSE) & (outside=TRUE)))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/HRemo/VendingMachineArith.zip_unpacked/VendingMachine_HRChanged9/m0.bcm
+5.0412439E7,6.952317933333333E7,1.06989979E8,6.0636831E7:(machineMoney:NAT) & (coin:ValidCoin) & (stock:NAT) & (sold:NAT) & (machineMoney=sold*(ValueCoin(ACCEPTED_COIN))) & (coinCustomer:ValidCoin \ {NO_COIN}) & (coin=NO_COIN) & not((coin/=NO_COIN))

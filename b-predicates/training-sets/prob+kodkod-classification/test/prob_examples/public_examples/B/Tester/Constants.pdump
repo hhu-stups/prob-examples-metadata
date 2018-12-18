@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/Constants.mch
+5.0435091E7,6.7315823E7,6.994995633333333E7,8.9709196E7:(PLACEELEMENT:POW(ROUTEELEMENT)) & not((pp:PLACEELEMENT)) & (pe:PLACEELEMENT)

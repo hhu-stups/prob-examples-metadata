@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/NQueensModelCheck.mch
+9.877936766666667E7,3.7007590843333335E9,6.1439144333333336E7,1.0282080333333333E8:(n=5) & (q:1..n+->1..n) & (cur:1..n+1) & (cur<=n) & (i:1..n) & (!j.(j:1..cur-1 => i/=q(j)&i/=q(j)+j-cur&i/=q(j)-j+cur))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROB-320/Hierarchical_temp.mch
+1.28147651E8,1.0106878866666667E8,-1.0,1.9606964933333334E8:(RH<:Roles*Roles) & (user:USERS) & (user:Users) & (sess:SESSIONS) & (sess:Sessions) & (role:ROLES) & (role:Roles) & (sess:User_sessions[{user}]) & (role/:Session_roles(sess)) & (#role_.(role_:Roles&((role_,role):closure1(RH) or role_=role)&(user,role_):UA))

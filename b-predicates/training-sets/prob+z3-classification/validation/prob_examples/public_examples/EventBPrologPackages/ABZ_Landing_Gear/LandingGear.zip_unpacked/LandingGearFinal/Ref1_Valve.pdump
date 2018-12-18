@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/ABZ_Landing_Gear/LandingGear.zip_unpacked/LandingGearFinal/Ref1_Valve.bcm
+5.979270804666667E9,1.0282776433333333E8,1.0190855966666667E8,1.2422979203333333E9:not((close_door_valve=valve_closed)) => not((gear:GEAR_STATE) & (door:DOOR_STATE) & (close_door_valve:VALVE_STATE) & (open_door_valve:VALVE_STATE) & (retract_gear_valve:VALVE_STATE) & (extend_gear_valve:VALVE_STATE))

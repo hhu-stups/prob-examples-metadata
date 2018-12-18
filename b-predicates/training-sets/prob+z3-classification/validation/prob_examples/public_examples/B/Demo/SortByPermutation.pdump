@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Demo/SortByPermutation.mch
+5.437244E7,1.3423557566666666E8,5.3342793666666664E7,1.0670181333333333E8:not((sz:NATURAL) & (sz=4) & (!i.(i:dom(a) => !j.(j:dom(a)&i<j => a(i)<=a(j)))) & (i:dom(a) => !j.(j:dom(a)&i<j => a(i)<=a(j))) & (i:dom(a)) & (!j.(j:dom(a)&i<j => a(i)<=a(j))) & (j:dom(a)&i<j => a(i)<=a(j)) & (a(i)<=a(j))) => not((a:1..sz-->INTEGER))
+4.8803435666666664E7,5.1985707666666664E7,6.3984323666666664E7,6.794274133333333E7:(sz:NATURAL) & (sz=4) & (a:1..sz-->INTEGER) & ((i:1..sz) & (val:INTEGER) => not((4:1..sz) & (val:INTEGER)))
+-1.0,-1.0,-1.0,-1.0:(sz:NATURAL) & (sz=4) & (not(a:1..sz-->INTEGER) => 4:1..sz&a<+{(4,val)}:1..sz-->INTEGER)
+-1.0,-1.0,-1.0,-1.0:(sz:NATURAL) & (sz=4) & (not((a:1..sz-->INTEGER)) => (2:1..sz&a<+{(2,val)}:1..sz-->INTEGER))
+-1.0,-1.0,-1.0,-1.0:(sz:NATURAL) & (sz=4) & a:1..sz-->INTEGER & not(!p.(p:perm(dom(a))&!i,j.(i:1..sz-1&j:2..sz&i<j => a(p(i))<=a(p(j))) => (p;a):1..sz-->INTEGER))
+-1.0,-1.0,-1.0,-1.0:(sz:NATURAL) & (sz=4) & (a:1..sz-->INTEGER) & not((!p.(p:perm(dom(a))&!i,j.(i:1..sz-1&j:2..sz&i<j => a(p(i))<=a(p(j))) => (p;a):1..sz-->INTEGER)))

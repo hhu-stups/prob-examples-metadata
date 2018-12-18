@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ExpressionViewer/TotFunAnalyseTest.mch
+5.4210595E7,8.176600766666667E7,4.8963070333333336E7,9.467330533333333E7:not((f={(aa,2),(bb,3)})) => f:{aa,bb}+->>{2,3,4}

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Daniel/deadlock.mch
+6.777468E7,6.0419345333333336E7,1.2253930233333333E8,1.1948188333333333E8:(m:NAT) & (c:0..m) & (c<m)
+2.8845591E7,1.4638618966666666E8,6.2877968E7,7.155553833333333E7:(m:NAT) & (not((c:0..m)) => (c<m => c+1:0..m))

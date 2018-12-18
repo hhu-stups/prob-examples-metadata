@@ -1,0 +1,11 @@
+#source:examples/prob_examples/public_examples/B/Tester/UndefinedFunctions.mch
+4.9714073333333336E7,7.037896833333333E7,-1.0,8.6452428E7:(f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA) & (aa:setA) & (f(aa)=b1) & (aa:dom(f))
+5.1256238666666664E7,6.6756999E7,-1.0,8.923592866666667E7:(f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA) & ((aa:setA) => not((aa:setA) & (aa:dom(f)) & (f(aa)=b1)))
+1.0537184933333333E8,6.943126833333333E7,-1.0,6.717262533333333E7:(f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA) & ((aa:setA) => not((aa:setA) & (f(aa)/=b1)))
+4.7660763E7,6.1360107E7,7.598063533333333E7,5.2018672666666664E7:(f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA) & (aa:setA) & (aa:dom(f)) & (f(aa)=b1) & (aa:setA) & (not(f(aa)=b1))
+5.2562084333333336E7,6.941369166666667E7,-1.0,7.406267666666667E7:(f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA) & (aa:setA) & (not(f(aa)=b1)) & not((bb:setB) & (bb/:dom(g)) & (aa:setA) & ((bb,aa)/:g))
+4.9495144333333336E7,6.9530955E7,-1.0,5.5612146666666664E7:(f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA) & (aa:setA) & (not(f(aa)=b1)) & (aa:setA) & (f(aa)/=b1)
+4.7586824E7,6.0253402333333336E7,-1.0,5.0137055333333336E7:(f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA) & (aa:setA) & (aa/:dom(f)) & (bb:setB) & ((aa,bb)/:f) & (aa:setA) & (f(aa)=b1)
+5.6573372E7,4.5868262666666664E7,-1.0,7.216201633333333E7:(not(a1:dom(f)) => f(aa)=bb&g(bb)=aa&a1:dom(f))
+5.1492651E7,7.088210466666667E7,-1.0,7.0837197E7:(not(f:setA+->setB) => aa:dom(f)&f(aa)=b1&f:setA+->setB)
+9.498882533333333E7,1.17947331E8,-1.0,1.1259427633333333E8:(not((f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA)) => (not(f(aa)=b1)&g:setB-->setA) & (not(f(aa)=b1)&f:setA+->setB) & (not(f(aa)=b1)&a1:dom(f)))

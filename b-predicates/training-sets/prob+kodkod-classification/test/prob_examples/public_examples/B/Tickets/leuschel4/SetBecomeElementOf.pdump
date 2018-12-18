@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/leuschel4/SetBecomeElementOf.mch
+8.9405969E7,6.5606666333333336E7,6.822317733333333E7,6.0680482333333336E7:(not((xx:ID) & (yy:ID) & (f:ID+->ID)) => (f:ID+->ID) & (yy:ID) & (xx:ID))

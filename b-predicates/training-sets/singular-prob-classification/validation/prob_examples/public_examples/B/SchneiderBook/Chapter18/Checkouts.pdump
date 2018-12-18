@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter18/Checkouts.mch
+1.8472858866666666E8,5.3145352333333336E7,-1.0,8.632901833333333E7:not((opencounters<:COUNTER) & (queues:opencounters-->iseq(CUSTOMER)) & (!cc,dd.(cc:COUNTER&dd:COUNTER => (cc/=dd => ran(queues(cc))/\ran(queues(dd))={})))) => not((co:opencounters) & (ii:NAT) & (ii<=size(queues(co))))
+-1.0,-1.0,-1.0,-1.0:not((opencounters<:COUNTER) & (queues:opencounters-->iseq(CUSTOMER)) & (!cc,dd.(cc:COUNTER&dd:COUNTER => (cc/=dd => ran(queues(cc))/\ran(queues(dd))={})))) => (co:dom(queues)) & (queues(co)/=[])

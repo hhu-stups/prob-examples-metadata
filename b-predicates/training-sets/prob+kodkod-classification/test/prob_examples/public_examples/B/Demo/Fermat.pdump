@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Demo/Fermat.mch
+7.8340572E7,5.5729340666666664E7,-1.0,5.8968695333333336E7:(sols:POW(NAT)) & (nn:Base) & (n1:Base) & (n2:Base) & (exp:Exp) & (exp>1) & (nn**exp=n1**exp+n2**exp)
+4.7778632E7,5.2154723666666664E7,-1.0,7.3309951E7:not(not((sols:POW(NAT)))) => not((nn:Base) & (n1:Base) & (n2:Base) & (exp:Exp) & (exp>1) & (nn**exp=n1**exp+n2**exp))
+-1.0,-1.0,-1.0,-1.0:not((sols:POW(NAT))) & (nn:Base) & (n1:Base) & (n2:Base) & (exp:Exp) & (exp>2) & (nn**exp=n1**exp+n2**exp)

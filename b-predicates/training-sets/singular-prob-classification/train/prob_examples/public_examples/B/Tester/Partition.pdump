@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/Partition.mch
+1.175284E8,6.5269659333333336E7,1.3381596933333333E8,5.6560428E7:(ID=A\/B\/C) & (A/\B={}) & (A/\C={}) & (C/\B={}) & (aa:A) & (bb:B) & (card(C)>card(A)) & part({aa},A,B,C)
+4.66796744E8,4.913879296666667E8,-1.0,6.677946496666666E8:(ID=A\/B\/C) & (A/\B={}) & (A/\C={}) & (C/\B={}) & (aa:A) & (bb:B) & (card(C)>card(A)) & not(card({A,B,C|A:POW1(ID)&B:POW1(ID)&C:POW1(ID)&part(ID,A,B,C)&card(A)<=card(B)&card(B)<=card(C)})=12)

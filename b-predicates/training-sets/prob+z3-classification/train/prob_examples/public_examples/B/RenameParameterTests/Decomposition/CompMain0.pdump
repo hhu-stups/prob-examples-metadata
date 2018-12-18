@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/RenameParameterTests/Decomposition/CompMain0.mch
+4.8855026E7,4.9385330333333336E7,5.9967681333333336E7,5.5905409666666664E7:not((n>0)) => (x:NATURAL) & (y:NATURAL) & (x=y-1)
+5.0601406666666664E7,5.0470896666666664E7,6.0728369666666664E7,5.6410409E7:x=y-1 & n>0 => x+n=y+n-1

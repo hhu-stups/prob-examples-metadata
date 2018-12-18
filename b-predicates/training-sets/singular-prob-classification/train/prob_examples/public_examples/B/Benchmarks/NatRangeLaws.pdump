@@ -1,0 +1,15 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/NatRangeLaws.mch
+6.2969506666666664E7,8.536516166666667E7,-1.0,3.82842306E8:not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)) & (yy:NAT)
+6.1769680333333336E7,5.4003702E7,-1.0,2.0799821466666666E8:not((yy:NAT)) => not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT))
+4.7120959666666664E7,4.8018000666666664E7,-1.0,6.788945233333333E7:NAT-NAT1={0} & yy:NAT&NAT-NAT1={0}
+4.8862591333333336E7,5.1962031E7,5.9982464333333336E7,6.3985487666666664E7:xx<zz <=> xx:0..zz-1 & yy:NAT&yy<zz <=> yy:0..zz-1
+4.6907338333333336E7,5.0378822666666664E7,-1.0,8.362576466666667E7:INT=MININT..MAXINT & not(yy:INT&INT=MININT..MAXINT)
+4.7589059E7,4.7979751333333336E7,5.9937231E7,5.6057035333333336E7:(not(xx:xx..xx) => yy:INT&xx:xx..xx)
+4.7446373333333336E7,4.9592759E7,5.9867482333333336E7,5.8704392666666664E7:xx<=zz <=> xx:0..zz & xx<=zz <=> xx:0..zz
+4.7314396333333336E7,4.9992973E7,7.517725066666667E7,7.725731033333333E7:(not(card(xx..xx)=1) => not(card(xx..xx)=1))
+4.8851254E7,4.9274562E7,7.4706637E7,2.2637841466666666E8:card(xx..xx-1)=0 & not(card(xx..xx-1)=0)
+4.7763522333333336E7,4.7756864333333336E7,6.4037356333333336E7,6.2749273666666664E7:NAT<<:INT & NAT<<:INT
+4.7679085E7,4.8023541666666664E7,5.9968100666666664E7,5.7311617666666664E7:(not(NAT<<:INT) => not(NAT<<:INT))
+4.9990202333333336E7,5.1985497666666664E7,4.2219102666666664E7,9.206117133333333E7:(not(xx<=zz => card(xx..zz)=zz-xx+1) => xx<=zz => card(xx..zz)=zz-xx+1)
+4.7418064E7,4.7960614666666664E7,-1.0,6.4210120666666664E7:(not(NAT-NAT1={0}) => not(NAT-NAT1={0}))
+4.8934575E7,5.029513E7,-1.0,7.277075266666667E7:(not(xx>zz <=> card(xx..zz)=0) => not(xx>zz <=> card(xx..zz)=0))

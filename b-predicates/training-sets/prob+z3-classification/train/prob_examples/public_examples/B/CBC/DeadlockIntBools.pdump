@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/CBC/DeadlockIntBools.mch
+5.0379497666666664E7,5.9325886666666664E7,6.8214517E7,7.676688533333333E7:(a:1..4) & (b:1..4) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (xx:BOOL) & (a>=b) & (b<=2) & (d=TRUE) & (#x.(x=TRUE)) & (e:S)
+4.8500441E7,6.4135437E7,6.5209037333333336E7,5.2042233E7:(a:1..4) & (b:1..4) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & not((xx:BOOL)) & not((a<b) & (b<=2) & (c=FALSE) & (e:S))
+4.6348445E7,5.0252130666666664E7,6.918289E7,5.2605991333333336E7:(a:1..4) & (b:1..4) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (xx:BOOL) & (a>=b) & (b<=2) & (d=FALSE) & (e:S) & (a>=b) & (b>2) & (d=c) & (e:S)
+5.0328746666666664E7,6.810184E7,6.789706566666667E7,6.935404766666667E7:(a:1..4) & (b:1..4) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (xx:BOOL) & ((a<b) & (b<=2) & (c=TRUE) & (e:S) => not((a<b) & (b>2) & (e:S)))
+4.7236779666666664E7,5.1229070666666664E7,6.6433983333333336E7,5.1595667333333336E7:(a:1..4) & (b:1..4) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (xx:BOOL) & (a<b) & (b<=2) & (c=TRUE) & (e:S) & (a>=b) & (b>2) & (d=FALSE) & (e:S)
+4.9076306333333336E7,7.7714864E7,6.896398366666667E7,5.9404528333333336E7:(a:1..4) & (b:1..4) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (xx:BOOL) & (not((a<b) & (b<=2) & (c=TRUE) & (e:S)) => (a>=b) & (b>2) & (d=FALSE) & (e:S))

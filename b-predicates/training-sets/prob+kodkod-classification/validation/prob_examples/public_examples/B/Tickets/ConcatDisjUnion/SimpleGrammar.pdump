@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/ConcatDisjUnion/SimpleGrammar.mch
+1.3875584333333334E8,1.04956038E8,-1.0,3.125684723333333E8:not((Terminals={a,b,c}) & (Terminals/\NonTerminals={}) & (Terminals\/NonTerminals=Alphabet) & (Productions={([S],[a,b])}) & (cur:seq(Alphabet))) => ((LHS,RHS):Productions) & (cur=pre^LHS^post)

@@ -1,0 +1,13 @@
+#source:examples/prob_examples/public_examples/B/RenameParameterTests/Set.mch
+-1.0,-1.0,6.6773016333333336E7,-1.0:(maxel:NATURAL1) & not((set<:ELEM)) & (e:ELEM)
+-1.0,-1.0,5.9998342E7,-1.0:not((maxel:NATURAL1) & not((set<:ELEM))) => not((e:ELEM))
+-1.0,-1.0,6.0013101666666664E7,-1.0:not((maxel:NATURAL1) & not((e:ELEM))) => not((set<:ELEM))
+-1.0,-1.0,6.0006327333333336E7,-1.0:(maxel:NATURAL1) & (set<:ELEM) & not((e:ELEM))
+-1.0,-1.0,6.0223091333333336E7,-1.0:(maxel:NATURAL1) & not((set<:ELEM)) & (e:ELEM)
+-1.0,-1.0,5.9836170333333336E7,-1.0:(maxel:NATURAL1) & not((set<:ELEM)) & not((e:ELEM))
+-1.0,-1.0,5.9878656666666664E7,-1.0:not((maxel:NATURAL1) & not((set<:ELEM))) => not((e:ELEM))
+-1.0,-1.0,6.1015743333333336E7,-1.0:(maxel:NATURAL1) & (set<:ELEM) & (e:ELEM) & not((e:ELEM))
+-1.0,-1.0,6.5530516333333336E7,-1.0:(maxel:NATURAL1) & (set<:ELEM) & ((e:ELEM) => not((e:ELEM)))
+-1.0,-1.0,6.864171333333333E7,-1.0:(maxel:NATURAL1) & set<:ELEM & not(e:ELEM&(e/:set&card(set)<maxel => set\/{e}<:ELEM))
+-1.0,-1.0,6.818399666666667E7,-1.0:(maxel:NATURAL1) & (set<:ELEM) & not((e:ELEM&(e/:set&card(set)<maxel => set\/{e}<:ELEM)))
+-1.0,-1.0,6.0061735E7,-1.0:(maxel:NATURAL1) & set<:ELEM & not(e:ELEM&(e:set => set-{e}<:ELEM))

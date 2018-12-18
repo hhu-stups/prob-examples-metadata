@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Corinna/uebung2_3.mch
+4.9238943E7,5.2568253666666664E7,6.2588825E7,5.1352387E7:(y:NAT) & not((!x.(x:1..100 => x mod 2=0 => y:NAT&(x mod 2/=0 => y:NAT))))
+4.6189812E7,5.09447E7,6.180907E7,5.6438182333333336E7:(not((y:NAT)) => not((!x.(x:1..100 => x mod 2=0 => y:NAT&(x mod 2/=0 => y:NAT)))))

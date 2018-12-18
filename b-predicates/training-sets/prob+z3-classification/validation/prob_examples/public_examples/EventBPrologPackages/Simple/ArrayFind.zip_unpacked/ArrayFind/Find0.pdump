@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Simple/ArrayFind.zip_unpacked/ArrayFind/Find0.bcm
+4.7703669E7,5.3143047E7,6.6237775666666664E7,6.869963433333333E7:not(not((z/:ran(a)))) => (i:0 .. m+1) & (i:1 .. m=>a(i)=z) & (i=m+1=>z/:ran(a))

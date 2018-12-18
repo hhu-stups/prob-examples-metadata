@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/scheduler.mch
+9.681314933333333E7,4.06177047E8,6.6084334666666664E7,5.9877330333333336E7:ready/\waiting={} & pp/:active&pp/:ready\/waiting => ready/\(waiting\/{pp})={}

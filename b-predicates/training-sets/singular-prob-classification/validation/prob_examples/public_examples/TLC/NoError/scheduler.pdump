@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/TLC/NoError/scheduler.mch
+4.9581700666666664E7,6.7008218333333336E7,7.667816333333333E7,7.918753733333333E7:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & (active/={}) & not((rr:waiting))
+-1.0,-1.0,5.9296716666666664E7,-1.0:ready/\waiting={} & not(pp/:active&pp/:ready\/waiting => ready/\(waiting\/{pp})={})

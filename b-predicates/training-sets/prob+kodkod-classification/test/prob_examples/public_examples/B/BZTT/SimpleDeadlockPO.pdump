@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/BZTT/SimpleDeadlockPO.mch
+5.7820178666666664E7,5.6817932666666664E7,7.413866466666667E7,7.082776866666667E7:(not(X:0..100) => not(x>=0&not(x:{0,1,2}&z/=0&y:A)&not(x>2&y:A)&not(y/:A)&x:0..100))

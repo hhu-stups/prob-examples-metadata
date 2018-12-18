@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter16/Archive.mch
+5.2168319E7,5.5474465666666664E7,-1.0,1.14109413E8:(read:NATURAL) & (entries:seq(ELEM)) & (not((read:NATURAL1) & (read<=size(entries))) => (ee:ELEM))
+5.9292060333333336E7,6.6763844E7,6.3185036666666664E7,7.349996566666667E7:(not(read:NATURAL) => read:NATURAL1&read<=size(entries)&read:NATURAL)

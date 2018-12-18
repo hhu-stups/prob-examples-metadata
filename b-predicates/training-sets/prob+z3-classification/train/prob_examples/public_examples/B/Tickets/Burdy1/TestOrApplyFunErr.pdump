@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Burdy1/TestOrApplyFunErr.mch
+1.3635085866666666E8,1.0055184633333333E8,9.4811126E7,5.749388E7:not((x:1..3) & (x=1 or f(x-1)=4 <=> b=TRUE) & (b=TRUE)) => xx=1
+6.822930033333333E7,3.3507309603333335E9,6.6547708E7,6.760145E7:(x:1..3) & (x=1 or f(x-1)=4 <=> b=TRUE) & (b=TRUE) & f(xx-1)=4

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/DefTest.mch
+4.8849857333333336E7,4.9704900333333336E7,6.1967401E7,6.40784E7:xx:NAT & not(aa:NAT&(aa>xx or xx>aa)&xx:NAT)

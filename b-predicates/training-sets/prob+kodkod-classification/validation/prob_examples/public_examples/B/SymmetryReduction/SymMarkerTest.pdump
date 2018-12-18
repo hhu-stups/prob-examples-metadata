@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/SymMarkerTest.mch
+9.9137304E7,1.44665603E8,7.1800541E7,8.854859766666667E7:not((r1:ID-->ID) & (r2:ID-->ID)) => (x:ID) & (r2(x)/=x)
+-1.0,-1.0,-1.0,-1.0:(r1:ID-->ID) & (r2:ID-->ID) & not((r1:ID-->ID) & ({x,y|x/=y}:ID-->ID))
+5.4598004666666664E7,1.2522050966666667E8,-1.0,1.2134445766666667E8:(not((r1:ID-->ID) & (r2:ID-->ID)) => not((r2(x)/=x&r1:ID-->ID) & (r2(x)/=x&{}:ID-->ID)))

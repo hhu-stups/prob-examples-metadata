@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/B/Tester/seq_test.mch
+3.833746154E9,4.8057019333333336E7,6.2569688333333336E7,5.0542135E7:not(not((hist:seq(ALPH)))) => (nn:ALPH)
+5.1978071666666664E7,5.2009849333333336E7,1.02842897E8,1.0497491766666667E8:not(not((not(hist:perm(ALPH))) & (hist:perm(ALPH)))) => not((hist:seq(ALPH)))
+1.5082222866666666E8,9.570472133333333E7,-1.0,7.3155648E7:not(not((nr:NAT) & (el:ALPH) & (hist(nr)=el))) => not((hist:seq(ALPH)))
+1.6475600466666667E9,5.673069180333333E9,9.270133633333333E7,2.497926331E9:not((nr:NAT) & (nr>1) & (els:POW(ALPH)) & (hist[{nr,nr-1}]=els)) => not((hist:seq(ALPH)))
+2.4315397E9,2.423011567E9,-1.0,2.5058194436666665E9:(hist:seq(ALPH)) & (el:ALPH) & (el/:ran(hist)) & not((nr:NAT) & (nr>1) & (els:POW(ALPH)) & (hist[{nr,nr-1}]=els))
+-1.0,-1.0,-1.0,-1.0:(hist:seq(ALPH)) & (not((nr:NAT) & (el:ALPH) & ((nr,el):hist)) => (hist:perm(ALPH)))
+-1.0,-1.0,-1.0,-1.0:(hist:seq(ALPH)) & (not((nr:NAT) & (el:ALPH) & ((nr,el):hist)) => (not(hist:perm(ALPH))) & (hist:perm(ALPH)))
+-1.0,-1.0,-1.0,-1.0:(hist:seq(ALPH)) & (hist/=[]) & (nr:NAT) & (nr>1) & (els:POW(ALPH)) & (hist[{nr,nr-1}]=els)
+-1.0,-1.0,-1.0,-1.0:(hist:seq(ALPH)) & not((hist^[nn]:seq(ALPH)))
+4.7871287666666664E7,4.9380837666666664E7,-1.0,1.0117517966666667E8:(hist:seq(ALPH)) & (nr:NAT&(nr,el):hist&hist:seq(ALPH))
+5.8795977666666664E7,5.1361443333333336E7,-1.0,9.043084333333333E7:(not(hist:seq(ALPH)) => nr:NAT&nr>0&nr<3&(nr,el)/:hist&hist:seq(ALPH))

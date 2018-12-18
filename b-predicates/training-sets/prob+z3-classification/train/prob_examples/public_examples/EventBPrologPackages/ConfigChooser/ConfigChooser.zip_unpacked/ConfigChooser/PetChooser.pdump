@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/ConfigChooser/ConfigChooser.zip_unpacked/ConfigChooser/PetChooser.bcm
+4.654182163333333E8,2.8500692723333335E9,2.75860801E8,2.942204686666667E8:not((p/:sel) & (#comp oftype POW(PETOBJ).sel\/{p}<:comp&comp:valid)) => not((sel<:PETOBJ) & (conflict[sel]/\sel=({} oftype POW(PETOBJ))))
+3.76823943E8,2.3754263733333334E8,3.483091206666667E8,1.8807023833333334E8:not((sel<:PETOBJ) & (conflict[sel]/\sel=({} oftype POW(PETOBJ)))) => not((p:sel) & (required~[{p}]/\sel=({} oftype POW(PETOBJ))))
+4.093955663333333E8,3.86891541E8,2.5809180533333334E8,1.8109681866666666E8:not(not((p:sel) & (required~[{p}]/\sel=({} oftype POW(PETOBJ))))) => not((sel<:PETOBJ) & (conflict[sel]/\sel=({} oftype POW(PETOBJ))))
+1.81527227E8,1.6780786133333334E8,4.8549889E7,1.43351167E8:not((sel:valid)) => (sel<:PETOBJ) & (conflict[sel]/\sel=({} oftype POW(PETOBJ)))
+2.1571213833333334E8,1.49428895E8,1.22589751E8,1.2651699633333333E8:not(not((sel:valid))) => (sel<:PETOBJ) & (conflict[sel]/\sel=({} oftype POW(PETOBJ)))
+2.20737451E8,2.742048646666667E8,1.7500714766666666E8,2.1321896666666666E8:not(not((sel:valid))) => not((sel<:PETOBJ) & (conflict[sel]/\sel=({} oftype POW(PETOBJ))))

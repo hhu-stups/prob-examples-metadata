@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Safes_Chapter10/Safes.mch
+1.9707194133333334E8,7.099603933333333E7,4.3194203666666664E7,2.5273723733333334E8:not((unlocks:KEY>->>DOOR) & (status~[{unlocked}]<:unlocks[keys])) => (kk:KEY) & (dd:DOOR) & (unlocks(kk)=dd)
+5.8711307E7,6.6894936E7,-1.0,7.295441233333333E7:(unlocks:KEY>->>DOOR) & status~[{unlocked}]<:unlocks[keys] & unlocks(kk)=dd&status(dd)=locked&status~[{unlocked}]<:unlocks[keys-{kk}]

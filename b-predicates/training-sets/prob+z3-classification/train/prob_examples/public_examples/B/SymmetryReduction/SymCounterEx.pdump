@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/SymCounterEx.mch
+5.1247974E7,7.1775864E7,-1.0,9.925435766666667E7:(not((x:POW(S)) & (card(x)=1)) => not((x:POW(S)) & (card(x\/{s1})=1)))

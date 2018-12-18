@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Abrial_BRP/DLK_Checking/ch6_brp_DLF.zip_unpacked/ch6_brp_OK/b_3.bcm
+1.6384385633333334E8,7.098339833333333E7,-1.0,9.597599663333334E8:(r_st:STATUS) & (s_st:STATUS) & (s_st=success=>r_st=success) & (r:0 .. n) & (g=1 .. r <| f) & (r_st=success<=>r=n)
+5.1105125333333336E7,5.4916806666666664E7,-1.0,6.5109490333333336E7:not(not((r_st:STATUS) & (s_st:STATUS) & (s_st=success=>r_st=success) & (r:0 .. n) & (g=1 .. r <| f) & (r_st=success<=>r=n))) => not((r_st=working) & (r+1<n))
+-1.0,-1.0,6.556127E7,-1.0:(r_st:STATUS) & (s_st:STATUS) & (s_st=success=>r_st=success) & (r:0 .. n) & (g=1 .. r <| f) & (r_st=success<=>r=n) & (r_st/=working) & (s_st/=working) & (r_st=working) & (r+1<n)
+-1.0,-1.0,6.8011791E7,-1.0:(r_st:STATUS) & (s_st:STATUS) & (s_st=success=>r_st=success) & (r:0 .. n) & (g=1 .. r <| f) & (r_st=success<=>r=n) & (r_st=working) & (s_st=failure) & (s_st=working) & (r_st=success)
+-1.0,-1.0,6.8097021E7,-1.0:(r_st:STATUS) & (s_st:STATUS) & (s_st=success=>r_st=success) & (r:0 .. n) & (g=1 .. r <| f) & (r_st=success<=>r=n) & (r_st=working) & (s_st=failure) & (s_st=working)

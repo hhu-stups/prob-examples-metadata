@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Fontainebleau_2012_projects/umlb/StateMachineDemo_CruiseControl.zip_unpacked/StateMachineDemo_CruiseControl/m0.bcm
+8.7327236E7,9.835738666666667E7,7.422785166666667E7,8.683003633333333E7:(off:BOOL) & (on:BOOL) & (partition({TRUE},{off}/\{TRUE},{on}/\{TRUE})) & (on=TRUE)
+8.344792566666667E7,1.2375412166666667E8,7.834806866666667E7,1.2215515233333333E8:(off:BOOL) & (on:BOOL) & (partition({TRUE},{off}/\{TRUE},{on}/\{TRUE})) & not((on=TRUE))
+6.2850404E7,9.589771666666667E7,8.8242506E7,1.0747304766666667E8:(off:BOOL) & (on:BOOL) & (partition({TRUE},{off}/\{TRUE},{on}/\{TRUE})) & (not((on=TRUE)) => (off=TRUE))

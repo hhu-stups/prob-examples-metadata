@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Argumentation/FindAttacks.mch
+5.5566074E7,4.9258033E7,1.1942857166666667E8,5.9112731E7:(attacks:ARGUMENTS<->ARGUMENTS) & (ARGUMENTS=in\/out\/undec) & (in/\out={}) & (in/\undec={}) & (out/\undec={}) & (attacks~[in]<:out) & (attacks[in]<:out) & (!y.(y:out => #x.((x,y):attacks&x:in))) & (!y.(y:undec => #x.((x,y):attacks&x:undec))) & (in={A,B}) & (out={C,D}) & (undec={E}) & (card({x|(A,x):attacks})>=card({x|(B,x):attacks})) & (dom(attacks)=ARGUMENTS) & (card(attacks)<6) & not((attacks/={}))

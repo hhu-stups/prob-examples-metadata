@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/DesertOilTruck.mch
+1.7218860966666666E8,9.7328275E7,1.00084794E8,6.2008281E7:not((width=8) & (maxload=5) & (dist=0) & (amount>0) & (amount=maxload-load) & (load<maxload)) => (dist:0..width) & (load:0..maxload) & (deposit:1..width-->NATURAL)
+5.283203963333333E8,2.1217497933333334E8,1.40167545E8,2.3492775633333334E8:(width=8) & (maxload=5) & (dist:0..width) & (load:0..maxload) & (deposit:1..width-->NATURAL) & not((load>0&dist<width&load-1:0..maxload) & (load>0&dist<width&deposit:1..width-->NATURAL) & (load>0&dist<width&dist+1:0..width))
+6.4819020333333336E7,3.922085806666667E8,5.7345537E7,4.0278893E8:(width=8) & (maxload=5) & dist:0..width & amount>0&dist>0&amount<=deposit(dist)&amount+load<=maxload&dist:0..width
+-1.0,-1.0,1.15239654E8,-1.0:(width=8) & (maxload=5) & (not((dist:0..width) & (load:0..maxload) & (deposit:1..width-->NATURAL)) => (amount>0&dist>0&amount<=deposit(dist)&amount+load<=maxload&load+amount:0..maxload) & (amount>0&dist>0&amount<=deposit(dist)&amount+load<=maxload&deposit<+{(dist,deposit(dist)-amount)}:1..width-->NATURAL) & (amount>0&dist>0&amount<=deposit(dist)&amount+load<=maxload&dist:0..width))
+1.7380438766666666E8,1.2311125633333333E8,1.3900913433333334E8,6.790519033333333E7:(width=8) & (maxload=5) & (not(deposit:1..width-->NATURAL) => load>0&dist>0&deposit:1..width-->NATURAL)

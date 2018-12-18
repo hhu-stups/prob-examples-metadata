@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/CSPB/SimpleRussianPostalPuzzle.mch
+5.2408340333333336E7,5.1979584666666664E7,-1.0,6.7949446E7:(keysforsale:POW(KeyIDs)) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL) & not((keyid:KeyIDs) & (person:PERSONS) & (keyid:has_keys(person)) & (keyid/:padlocks))
+3.7070907083333335E9,5.0948913666666664E7,2.2482656026666665E9,3.6966665666666664E7:not((from:PERSONS) & (to:PERSONS)) => not((keysforsale:POW(KeyIDs)) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL))
+6.5787346333333336E7,5.6069164666666664E7,1.21293031E8,7.098281633333333E7:(not(has_keys:PERSONS-->POW(KeyIDs)) => padlocks={} => has_keys:PERSONS-->POW(KeyIDs))
+8.5309917E7,5.6902068333333336E7,6.4444927E7,7.476216066666667E7:(not((keysforsale:POW(KeyIDs)) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL)) => (padlocks={} => has_keys:PERSONS-->POW(KeyIDs)) & (padlocks={} => padlocks<:KeyIDs) & (padlocks={} => box_contains_gem:BOOL) & (padlocks={} => keysforsale:POW(KeyIDs)))
+4.4909854E7,4.7196970333333336E7,6.4495189666666664E7,5.0972124666666664E7:(not(keysforsale:POW(KeyIDs)) => box_contains_gem=TRUE&padlocks={})

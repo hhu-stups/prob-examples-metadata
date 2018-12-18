@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/TLA/Fowlers_DSL/fowler.mch
+5.3738956666666664E7,5.2961111E7,7.793837966666667E7,6.0906907666666664E7:(not(door:STRING) => door="unlocked" => !door_n,state_n.(door_n="locked"&state_n="active" => door:STRING))
+5.4200212E7,4.9041339E7,7.3344336E7,6.1384668333333336E7:(not(draw:STRING) => not(!state_n,light_n,panel_n,door_n.(light="off"&light_n="on"&(draw="opened" => state_n="unlockedPanel"&panel_n="unlocked"&door_n="locked"&(not(draw="opened") => state_n="waitingForDraw"&panel_n=panel&door_n=door)) => draw:STRING)))

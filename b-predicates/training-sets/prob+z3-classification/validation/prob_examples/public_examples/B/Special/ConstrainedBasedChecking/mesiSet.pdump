@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Special/ConstrainedBasedChecking/mesiSet.mch
+7.577011E7,9.315481666666667E7,7.1349017E7,8.6386288E7:(not(!j,k.(j:{m,e,s,i}&k:{m,e,s,i}&j/=k => j/\k={})) => not(!p.(p:C&p:i => !j,k.(j:{{},{},m\/e\/s\/{p},i-{p}}&k:{{},{},m\/e\/s\/{p},i-{p}}&j/=k => j/\k={}))))

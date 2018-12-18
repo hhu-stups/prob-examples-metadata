@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/SubsetSum2.mch
+1.64554329E8,7.124262566666667E7,-1.0,1.0079033066666667E8:not((coins={16,17,23,24,39,40}) & (stolen:coins-->NATURAL) & (SIGMA(x).(x:coins|stolen(x)*x)=100)) => (x:coins)

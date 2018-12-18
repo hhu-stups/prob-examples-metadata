@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBTrans/Deploy/Bosch/BoschSwitch_m1.mch
+8.134255966666667E7,6.974599666666667E7,8.8035986E7,4.8721396E7:(clk:NATURAL) & (out:BOOL) & (clk:INTEGER) & (out:BOOL)

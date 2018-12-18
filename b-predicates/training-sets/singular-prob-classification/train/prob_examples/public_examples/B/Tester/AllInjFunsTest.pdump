@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/AllInjFunsTest.mch
+5.8122917333333336E7,6.0770111333333336E7,-1.0,6.7805806E7:(fs=ID>+>ID) & (not(xx:NATURAL) => not(!f.(f:fs&a:dom(f) => xx:NATURAL)))

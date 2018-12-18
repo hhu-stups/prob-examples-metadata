@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Oliveira2/Price.mch
+-1.0,-1.0,6.0746295666666664E7,-1.0:(price:GOODS-->NAT1) & not((price:GOODS-->NAT1))

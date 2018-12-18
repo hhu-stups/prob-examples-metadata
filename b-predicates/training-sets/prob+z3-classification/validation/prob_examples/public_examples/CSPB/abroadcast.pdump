@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/CSPB/abroadcast.mch
+4.6191767666666664E7,4.7932631666666664E7,-1.0,7.341909E7:(order:iseq(Message)) & (deliv:Node<->Message) & (bcast:POW(Message)) & (correct:POW(Node)) & (nn:Node)
+5.1824280666666664E7,7.613705633333333E7,-1.0,1.00670367E8:order:iseq(Message) & nn:correct&mm/:bcast&order:iseq(Message)

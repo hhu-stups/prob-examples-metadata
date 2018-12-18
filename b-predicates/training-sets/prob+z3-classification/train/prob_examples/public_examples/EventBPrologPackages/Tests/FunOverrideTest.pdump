@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tests/FunOverrideTest.mch
+-1.0,-1.0,-1.0,-1.0:dom(f)={1} & not(dom(f<+{(1,0)})={1})
+-1.0,-1.0,-1.0,-1.0:(f:INTEGER<->INTEGER) & (dom(f)={1}) & (init=TRUE => card(f)=1) & not((dom(f<+{(1,0)})={1}) & (f:INTEGER<->INTEGER) & (TRUE=TRUE => card(f<+{(1,0)})=1))
+-1.0,-1.0,-1.0,-1.0:dom(f)={1} & not(dom(f<+{(1,0)})={1})
+5.1739470666666664E7,6.6346658666666664E7,9.378066433333333E7,5.0097478666666664E7:(not(f:INTEGER<->INTEGER) => not(f:INTEGER<->INTEGER))
+5.0962020666666664E7,4.7346523666666664E7,9.529770966666667E7,1.20426604E8:(not(init=TRUE => card(f)=1) => TRUE=TRUE => card(f<+{(1,0)})=1)
+-1.0,-1.0,-1.0,-1.0:(f:INTEGER<->INTEGER) & (dom(f)={1}) & (init=TRUE => card(f)=1) & not((dom(f<+{(1,0)})={1}) & (f:INTEGER<->INTEGER) & (TRUE=TRUE => card(f<+{(1,0)})=1))

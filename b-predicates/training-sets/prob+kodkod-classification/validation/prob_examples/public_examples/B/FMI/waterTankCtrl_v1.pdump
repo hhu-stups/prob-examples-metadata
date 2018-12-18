@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FMI/waterTankCtrl_v1.mch
+6.5732311333333336E7,6.2731068E7,7.2600806E7,1.7968283533333334E8:(High=7000) & (Low=4000) & (ReadDelay=20) & (ComputeDelay=100) & ctrl_level:0..20000 & not(level:NATURAL&ctrl_level:0..20000)

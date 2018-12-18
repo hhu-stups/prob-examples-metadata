@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/arr.mch
+7.211950633333333E7,5.1779489666666664E7,-1.0,6.8002898E7:(array:NATURAL1+->TYP) & (card(dom(array))<=n) & (index:dom(array))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SysML2B/BModules_081214/Controller_1.mch
+7.375239533333333E7,5.6034965333333336E7,7.399611833333333E7,5.5397571333333336E7:(Phase:E_Phase) & (CreditAmount:NAT) & (GrindStatus:Status) & (MakeCoffee_CoffeeSelected:BOOL) & (MakeCoffee_SugarLevel:E_SugarLevel) & (WaterTemperature:INT) & (AddSugar:BOOL) & (ChangeAmount:NAT) & (GiveChange:BOOL) & (GrindCoffee:BOOL) & (MixCoffeeAndWater:BOOL) & (NewCup:BOOL) & (SugarQuantity:INT) & (WaterHeating:BOOL) & (Phase=out => ChangeAmount<=CreditAmount) & (temp_var:BOOL) & (Phase=in)

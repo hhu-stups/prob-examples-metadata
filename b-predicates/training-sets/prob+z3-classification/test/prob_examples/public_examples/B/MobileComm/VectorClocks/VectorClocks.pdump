@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/VectorClocks/VectorClocks.mch
+-1.0,-1.0,6.2710349E7,-1.0:ether:PROC<->(PROC-->NATURAL) & not(ether:PROC<->(PROC-->NATURAL))

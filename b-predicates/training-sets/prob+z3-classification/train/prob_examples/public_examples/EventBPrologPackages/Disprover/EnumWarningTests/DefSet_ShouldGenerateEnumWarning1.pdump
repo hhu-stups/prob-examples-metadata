@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Disprover/EnumWarningTests/DefSet_ShouldGenerateEnumWarning1.mch
+-1.0,-1.0,-1.0,-1.0:(iv:ID) & not(#x.(x:ID&x/=iv))
+1.5597909966666666E8,2.1273866833333334E8,1.4722323733333334E8,1.16191964E8:not((iv:ID)) => #x.(x:ID&x/=iv)
+3.7047465553333335E9,1.6008211166666666E8,1.07734836E8,1.2639943033333333E8:not((iv:ID)) => (#x.(x:ID&x/=iv))

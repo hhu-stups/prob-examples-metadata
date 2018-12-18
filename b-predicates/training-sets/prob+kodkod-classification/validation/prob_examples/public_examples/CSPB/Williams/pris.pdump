@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/CSPB/Williams/pris.mch
+5.1276935E7,5.0656628E7,6.4054095E7,5.6026631E7:not((y:NAT) & (y<2) & (cnt:NAT) & (cnt<3)) => not((cnt<2) & (nn:AGENTS))
+7.769563527333333E9,5.1641110666666664E7,6.744094553E9,4.4577107E7:not((y:NAT) & (y<2) & (cnt:NAT) & (cnt<3)) => (cnt<2) & (vv:NAT)
+4.8635049E7,5.1939915333333336E7,6.4062848333333336E7,6.803611933333333E7:not((y:NAT) & (y<2) & (cnt:NAT) & (cnt<3)) & not((cnt<2) & (vv:NAT))

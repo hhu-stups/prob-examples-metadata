@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROB-311/set.mch
+5.5662688666666664E7,5.9898748333333336E7,9.4019172E7,5.2715665333333336E7:not(not((ss<:ELEM))) => (ee:ELEM)

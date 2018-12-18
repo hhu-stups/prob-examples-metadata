@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/Corinna/PartialOrderEtc/PO_Simple2.mch
+5.8390432666666664E7,6.5904330666666664E7,-1.0,8.229710366666667E7:(xx:ID) & (yy:ID) & (zz:ID) & (xx=aa or yy=aa or zz=aa) & not((xx/=yy))
+4.8330144666666664E7,9.4865648E7,7.789051466666667E7,7.182235466666667E7:not((xx/=yy)) => not((xx:ID) & (yy:ID) & (zz:ID) & (xx=aa or yy=aa or zz=aa))
+4.9571085E7,7.0983748E7,7.293348333333333E7,7.0600598E7:not((xx=aa)) => not((xx:ID) & (yy:ID) & (zz:ID) & (xx=aa or yy=aa or zz=aa))
+5.5872840666666664E7,7.161690533333333E7,7.9021036E7,9.138133633333333E7:not((xx:ID) & (yy:ID) & (zz:ID) & (xx=aa or yy=aa or zz=aa)) & not((yy=aa))
+5.5315553666666664E7,5.7392587E7,7.7883112E7,6.927643033333333E7:not(not((yy=aa))) => not((xx:ID) & (yy:ID) & (zz:ID) & (xx=aa or yy=aa or zz=aa))
+5.8671799666666664E7,7.325952566666667E7,-1.0,1.1546268066666667E8:(xx:ID) & (yy:ID) & (zz:ID) & (xx=aa or yy=aa or zz=aa) & (xx/=yy&(aa:{xx,yy} or xx=aa)) & (xx/=yy) & (xx/=yy) & (xx/=yy)
+5.3309106666666664E7,5.2277364666666664E7,7.967281766666667E7,7.185313166666667E7:yy:ID & xx=aa
+5.5724032333333336E7,4.9279358E7,6.972928133333333E7,5.1192799E7:(not(xx:ID) => xx=aa)
+4.7548947333333336E7,5.6641676666666664E7,6.5086512E7,8.398463266666667E7:xx:ID & not(yy=aa)

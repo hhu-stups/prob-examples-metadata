@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/IFTHENELSE.mch
+5.7380318E7,8.7893789E7,1.1483243333333333E8,5.3703454E7:(not(c:INTEGER) => not(c:INTEGER))

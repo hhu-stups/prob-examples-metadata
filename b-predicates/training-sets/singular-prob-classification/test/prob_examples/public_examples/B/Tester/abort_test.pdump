@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/abort_test.mch
+5.3496468E7,7.326068966666667E7,1.01823097E8,4.9560771333333336E7:(not(xx:ID) => not(xx:ID))

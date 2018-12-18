@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/Incrementer.bcm
+8.376814766666667E7,4.7965363666666664E7,6.957078866666667E7,5.1410122E7:(v:NAT) & (i_sum:NAT) & data_received:BOOL
+8.3868323E7,4.6671205E7,6.807697633333333E7,6.2659784E7:(v:NAT) & (i_sum:NAT) & i_sum:INT

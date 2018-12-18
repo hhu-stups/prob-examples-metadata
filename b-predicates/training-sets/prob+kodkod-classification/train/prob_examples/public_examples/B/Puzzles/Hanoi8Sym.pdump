@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Hanoi8Sym.mch
+-1.0,-1.0,-1.0,-1.0:(dest:Stakes) & (nrdiscs=DISCS) & (on:Stakes-->seq(INTEGER)) & (from:Stakes) & (on(from)/=[]) & (to:Stakes) & (to/=from) & (disc:NATURAL1) & (disc=first(on(from))) & (on(to)/=[] => first(on(to))>disc)
+5.2050916E7,5.4696829666666664E7,-1.0,5.1508342333333336E7:not((dest:Stakes) & (nrdiscs=DISCS) & (from:Stakes) & (on(from)/=[]) & (to:Stakes) & (to/=from) & (disc:NATURAL1) & (disc=first(on(from))) & (on(to)/=[] => first(on(to))>disc)) => (on:Stakes-->seq(INTEGER))

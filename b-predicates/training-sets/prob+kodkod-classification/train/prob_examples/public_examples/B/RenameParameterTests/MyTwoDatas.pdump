@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/RenameParameterTests/MyTwoDatas.mch
+4.4943867E7,4.7934517666666664E7,6.4220014666666664E7,4.9238151333333336E7:not(not((b:Data))) => (x:Data)

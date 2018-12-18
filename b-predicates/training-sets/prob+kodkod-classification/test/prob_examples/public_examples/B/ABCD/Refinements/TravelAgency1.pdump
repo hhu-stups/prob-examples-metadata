@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ABCD/Refinements/TravelAgency1.mch
+4.9399857333333336E7,7.233121833333333E7,9.465323766666667E7,5.2072892666666664E7:ss3:dom(session_user)&session_card(ss3)/=valid => session_response(ss3)=undef & ss3:dom(session_user)&session_card(ss3)/=valid => session_response(ss3)=undef

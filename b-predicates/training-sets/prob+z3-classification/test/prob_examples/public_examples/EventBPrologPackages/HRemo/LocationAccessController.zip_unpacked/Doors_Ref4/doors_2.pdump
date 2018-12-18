@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/HRemo/LocationAccessController.zip_unpacked/Doors_Ref4/doors_2.bcm
+5.2626990333333336E7,5.7932576666666664E7,8.000288766666667E7,7.2397731E7:not(not((sit:P --> L) & (sit<:aut) & (dap:P >+> D) & (red<:D) & (dap;org<:sit) & (dap;dst<:aut) & (red/\ran(dap)=({} oftype POW(D))))) => (d:ran(dap))
+-1.0,-1.0,4.7365613666666664E7,-1.0:(sit:P --> L) & (sit<:aut) & (dap:P >+> D) & (red<:D) & (dap;org<:sit) & (dap;dst<:aut) & (red/\ran(dap)=({} oftype POW(D))) & (not(sit(p)=org(d)&p |-> dst(d):aut&p/:dom(dap))) & (d/:red\/ran(dap)) & (d:ran(dap))
+-1.0,-1.0,-1.0,-1.0:(sit:P --> L) & (sit<:aut) & (dap:P >+> D) & (red<:D) & (dap;org<:sit) & (dap;dst<:aut) & (red/\ran(dap)=({} oftype POW(D))) & (not(sit(p)=org(d)&p |-> dst(d):aut&p/:dom(dap))) & (d/:red\/ran(dap)) & (sit(p)=org(d)) & (p |-> dst(d):aut) & (p/:dom(dap)) & (d/:red\/ran(dap))
+-1.0,-1.0,1.2410532966666667E8,-1.0:(sit:P --> L) & (sit<:aut) & (dap:P >+> D) & (red<:D) & (dap;org<:sit) & (dap;dst<:aut) & (red/\ran(dap)=({} oftype POW(D))) & (sit(p)=org(d)) & (p |-> dst(d):aut) & (p/:dom(dap)) & (d/:red\/ran(dap)) & (d:ran(dap))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Disprover/EnumWarningTests/DefSet_ShouldGenerateEnumWarning1.mch
+-1.0,-1.0,-1.0,-1.0:(iv:ID) & not((#x.(x:ID&x/=iv)))

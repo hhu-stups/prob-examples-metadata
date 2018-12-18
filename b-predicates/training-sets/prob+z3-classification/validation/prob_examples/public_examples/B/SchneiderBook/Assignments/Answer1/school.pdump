@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Assignments/Answer1/school.mch
+1.0653389166666667E8,4.11548843E8,1.0409480133333333E8,5.4995866666666664E7:not(not((hasread:CHILD<->BOOK))) => (cc:CHILD) & (hasread[{cc}]/=BOOK)
+9.5047352E7,3.71392712E8,6.881512866666667E7,6.6693583333333336E7:(hasread:CHILD<->BOOK) & (cc:CHILD) & (bb:BOOK) & (cc:CHILD) & (hasread[{cc}]/=BOOK)
+4.7440856E7,4.7893311E7,5.8695616E7,4.9444998E7:(hasread:CHILD<->BOOK) & (not((cc:CHILD) & (bb:BOOK)) => (cc:CHILD))

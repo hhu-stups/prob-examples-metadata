@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Pitesti/BankMixed.zip_unpacked/Examples/BankAccount/Account.bcm
+1.51117727E8,3.739243663333333E8,6.6867628333333336E7,6.0301709E7:(state:STATES) & (balance:INT) & (transaction:BOOL) & (balance<0&balance>-100)
+8.3571265E7,3.6144819666666664E7,6.4304732E7,6.723778733333333E7:not(not((balance>1500&value<=50&value>0) & (value:NAT1))) => (state:STATES) & (balance:INT) & (transaction:BOOL)
+4.7779748666666664E7,5.2014296E7,6.4048834E7,6.807634766666667E7:(state:STATES) & (balance:INT) & (transaction:BOOL) & (amount1+amount2>200) & (amount1:NAT&amount2:NAT) & not((balance>0&balance<1000))

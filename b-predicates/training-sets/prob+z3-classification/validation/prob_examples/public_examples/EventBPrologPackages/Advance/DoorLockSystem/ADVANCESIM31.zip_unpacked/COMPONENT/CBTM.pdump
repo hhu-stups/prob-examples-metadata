@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/CBTM.bcm
+4.8719394333333336E7,5.1185023666666664E7,6.8168818E7,6.6478961333333336E7:not((T2v:INT) & (T1_timer:NAT) & (T2_timer:NAT) & (BUSwrite:NAT +-> INT) & (BUSread:INT) & (finite(BUSwrite)) & (T1_timer<10) & (T2_timer<20)) & (pv:INT) & (ppriority=3) & (T1_timer<5)
+5.0366064666666664E7,5.1345496E7,6.798252766666667E7,1.2544663233333333E8:not(not((T2v:INT) & (T1_timer:NAT) & (T2_timer:NAT) & (BUSwrite:NAT +-> INT) & (BUSread:INT) & (finite(BUSwrite)) & (T1_timer<10) & (T2_timer<20))) => (pv:INT) & (ppriority=3) & (T1_timer<5)

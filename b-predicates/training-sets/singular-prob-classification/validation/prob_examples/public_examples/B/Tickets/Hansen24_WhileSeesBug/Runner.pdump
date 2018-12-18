@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Hansen24_WhileSeesBug/Runner.mch
+4.7593063333333336E7,4.8023285666666664E7,5.9930596E7,5.601683E7:(not((a:1..10)) => (a:1..10))

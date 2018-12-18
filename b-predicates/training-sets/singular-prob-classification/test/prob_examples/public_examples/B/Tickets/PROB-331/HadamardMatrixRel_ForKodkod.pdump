@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROB-331/HadamardMatrixRel_ForKodkod.mch
+6.0576348333333336E7,7.3385682E7,-1.0,2.5616998266666666E8:not((Order:NATURAL1) & (Order:3..16) & (Order=4) & (H:POW(IDX*IDX*{-1,1})) & (dom(H)=IDX*IDX) & (H:IDX*IDX-->{-1,1}) & (!i,j.((i,j):H => (i,j)/:H)) & (!i,j.((i,j):H => (i,j)/:H)) & (!i,j.(i:IDX&j:IDX&i<j => orthogonal(i,j)))) => not((i:IDX) & (j:IDX) & (i<j))

@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/OverrideRelationAssignment.mch
+1.2458195033333333E8,5.6170039E7,-1.0,9.252049466666667E7:(r:NATURAL<->NATURAL) & (d:dom(r)) & (card(r[{d}])>1)
+5.6582451E7,5.3441991666666664E7,9.545049933333333E7,2.1363377733333334E8:not(not((r:NATURAL<->NATURAL))) => (d:dom(r)) & (card(r[{d}])>1)
+5.1386981666666664E7,5.7302142333333336E7,7.048594166666667E7,1.1031048933333333E8:not(not((d:dom(r)) & (card(r[{d}])>1))) => not((r:NATURAL<->NATURAL))
+-1.0,-1.0,1.9387244266666666E8,-1.0:(r:NATURAL<->NATURAL) & (d:dom(r)) & (card(r[{d}])>1) & (d:dom(r)) & (card(r[{d}])=1)
+5.5808353666666664E7,6.6687857E7,-1.0,2.806788956666667E8:(r:NATURAL<->NATURAL) & (not((d:dom(r)) & (card(r[{d}])>1)) => (d:dom(r)) & (card(r[{d}])=1))
+5.8797142E7,5.4538103666666664E7,7.107456433333333E7,1.6317994533333334E8:(r:NATURAL<->NATURAL) & ((d:dom(r)) & (card(r[{d}])>1) => not((d:dom(r)) & (card(r[{d}])=1)))
+-1.0,-1.0,-1.0,-1.0:r:NATURAL<->NATURAL & d:dom(r)&card(r[{d}])>1&r<+{(d,d+1)}:NATURAL<->NATURAL
+5.2658046333333336E7,5.2013015333333336E7,4.9194151666666664E7,1.7170819466666666E8:r:NATURAL<->NATURAL & not(d:dom(r)&card(r[{d}])=1&r:NATURAL<->NATURAL)

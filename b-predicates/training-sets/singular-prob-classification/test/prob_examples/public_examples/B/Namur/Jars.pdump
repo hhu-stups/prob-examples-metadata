@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Namur/Jars.mch
+8.090558633333333E7,6.8270297E7,-1.0,3.08907648E8:(maxf:Jars-->NAT) & (maxf={(j3,3),(j5,5)}) & not((level:Jars-->NAT)) & not((j1:Jars) & (j2:Jars) & (j1/=j2) & (amount>0) & (amount=min({level(j1),maxf(j2)-level(j2)})))
+7.145228933333333E7,8.881774233333333E7,-1.0,3.5347691E8:not((maxf:Jars-->NAT) & (maxf={(j3,3),(j5,5)}) & not((j:Jars) & (level(j)<maxf(j)))) => not((level:Jars-->NAT))
+-1.0,-1.0,1.4680432966666666E8,-1.0:not((maxf:Jars-->NAT) & (maxf={(j3,3),(j5,5)}) & (level:Jars-->NAT)) => (j:Jars) & (level(j)>0)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksEnablingAnalysis/MachineChocolat/cm1.mch
+5.1399227E7,4.9497797666666664E7,6.5365970333333336E7,5.7169886666666664E7:(MaxCredit:NAT) & (not(chocTray:TRAY) => credit>0&chocTray=empty => chocTray:TRAY)

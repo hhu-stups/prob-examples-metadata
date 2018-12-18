@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/SetOperators/TestInterNatural.mch
+1.0350585266666667E8,8.0457159E7,-1.0,7.1316727E7:(xx<:NATURAL) & (xx-NATURAL={})
+-1.0,-1.0,-1.0,-1.0:not((xx<:NATURAL) & (xx-NATURAL={})) & not((yy:NATURAL) & (yy/:xx))
+5.2703769E7,6.4983635666666664E7,-1.0,6.5656370666666664E7:(not((xx<:NATURAL) & (xx-NATURAL={})) => not((yy:NATURAL&yy/:xx&xx\/{yy}<:NATURAL) & (yy:NATURAL&yy/:xx&xx\/{yy}-NATURAL={})))
+4.9343402666666664E7,5.1988617666666664E7,-1.0,7.013925E7:xx-NATURAL={} & xx-NATURAL={}

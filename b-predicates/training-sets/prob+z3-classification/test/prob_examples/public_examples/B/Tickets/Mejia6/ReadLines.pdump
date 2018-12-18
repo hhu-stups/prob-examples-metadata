@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Mejia6/ReadLines.mch
+4.6224546333333336E7,1.2825511214333334E10,5.9954574666666664E7,4.9163607333333336E7:not((File="ReadLines.mch") & not((EOF(File)))) => (lastline:STRING)

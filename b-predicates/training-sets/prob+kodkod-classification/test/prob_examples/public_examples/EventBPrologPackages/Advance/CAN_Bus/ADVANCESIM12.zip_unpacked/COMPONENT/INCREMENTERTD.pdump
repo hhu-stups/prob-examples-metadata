@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/INCREMENTERTD.bcm
+6.878919433333333E7,5.7305075333333336E7,1.14240109E8,1.3590014966666666E8:not((v:NAT) & (i_sum:NAT)) & (data_received=FALSE) & (inc_complete=TRUE)
+4.8905241333333336E7,4.9578534333333336E7,1.5575977466666666E8,7.109302566666667E7:not((data_received=FALSE) & (inc_complete=TRUE)) => not((v:NAT) & (i_sum:NAT))
+6.5880025666666664E7,5.9715298333333336E7,1.0311551033333333E8,8.075982766666667E7:not((v:NAT) & (i_sum:NAT)) => (pv:INT) & (data_received=FALSE) & (inc_complete=FALSE)
+5.4962552666666664E7,5.4690963E7,1.1675299866666667E8,7.480557833333333E7:not((v:NAT) & (i_sum:NAT)) => not((pv:INT) & (data_received=FALSE) & (inc_complete=FALSE))
+1.5512102933333334E8,1.494292046E9,1.2104272E8,1.0298560533333333E8:(v:NAT) & (i_sum:NAT) & (not((data_received=FALSE) & (inc_complete=TRUE)) => (data_received=TRUE) & (inc_complete=FALSE))
+7.3092931E7,5.7725310666666664E7,1.27665047E8,1.64632318E8:(v:NAT) & (i_sum:NAT) & (data_received=TRUE) & (inc_complete=FALSE) & not((pv:INT) & (data_received=FALSE) & (inc_complete=FALSE))

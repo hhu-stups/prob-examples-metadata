@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PrjMemCheck/PrjTestsKO4.mch
+1.1757135266666667E8,6.536804343E9,1.03688162E8,5.2245889666666664E7:(p1=prj1({1},{2})) & not(p1((0,2))=0)
+9.511100066666667E7,5.0684983E7,6.822159466666667E7,7.716188366666667E7:not((p1=prj1({1},{2}))) => p1((0,2))=0

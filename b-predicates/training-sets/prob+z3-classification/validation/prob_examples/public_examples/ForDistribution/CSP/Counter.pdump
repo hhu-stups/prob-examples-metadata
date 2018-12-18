@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/CSP/Counter.mch
+1.44957982E8,8.879143566666667E7,9.168500633333333E7,6.2939219E7:not((offset=1) & not((count:NATURAL))) => not((count mod 2=0))

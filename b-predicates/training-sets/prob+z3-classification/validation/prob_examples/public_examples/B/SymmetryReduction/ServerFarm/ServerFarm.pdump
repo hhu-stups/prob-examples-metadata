@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/ServerFarm/ServerFarm.mch
+5.0810511666666664E7,8.9856655E7,5.4483837666666664E7,7.717005533333333E7:(not((active<:SERVER) & (serving:active>+>USERS)) => (u:ran(serving)) & (u:ran(serving)&serving|>>{u}:active>+>USERS))
+-1.0,-1.0,-1.0,-1.0:(active<:SERVER) & (serving:active>+>USERS) & not((u:ran(serving) => active<:SERVER&(not(u:ran(serving)) => (TRUE:BOOL => !us.(us:active&us/:dom(serving) => active<:SERVER)))) & (u:ran(serving) => serving:active>+>USERS&(not(u:ran(serving)) => (TRUE:BOOL => !us.(us:active&us/:dom(serving) => serving<+{(us,u)}:active>+>USERS)))))

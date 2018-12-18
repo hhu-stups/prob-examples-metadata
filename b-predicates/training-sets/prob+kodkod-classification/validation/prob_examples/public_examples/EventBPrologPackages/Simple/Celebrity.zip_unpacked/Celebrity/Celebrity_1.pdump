@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Simple/Celebrity.zip_unpacked/Celebrity/Celebrity_1.bcm
+4.9294513E7,5.1980609333333336E7,5.9956926333333336E7,7.203944466666667E7:(r:P) & (Q<:P) & (c:Q) & (x:Q) & (y:Q) & (x |-> y:k)

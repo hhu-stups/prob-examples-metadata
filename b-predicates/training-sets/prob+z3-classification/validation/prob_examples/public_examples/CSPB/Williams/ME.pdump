@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSPB/Williams/ME.mch
+4.8247453E7,5.0899303666666664E7,8.24908321E8,5.9028944666666664E7:not((y:0..1)) & (nn:AGENTS)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/RenameParameterTests/Counter.mch
+4.266348209E9,4.9293139666666664E7,6.1202661333333336E7,6.0084875333333336E7:(cnt:NATURAL) & (cnt>0&cnt-1:NATURAL)

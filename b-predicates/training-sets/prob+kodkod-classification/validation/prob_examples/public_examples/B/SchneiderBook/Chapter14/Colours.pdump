@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter14/Colours.mch
+6.0577566E8,9.690431533333333E7,1.01440297E8,9.6479494E7:(cols<:COLOUR) & (cc:COLOUR) & not((cols/={}))
+7.0737114E7,5.0598566666666664E7,9.834900533333333E7,6.6262872E7:(not(cols<:COLOUR) => not(cols/={}&!cc.(cc:cols => cols<:COLOUR)))
+7.669574E7,7.083426366666667E7,1.25563267E8,1.1468562666666667E8:(cols<:COLOUR) & not((cols/={}&!cc.(cc:cols => cols<:COLOUR)))

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/DeferredSetAndConstants.mch
+5.2853346E7,7.2869671E7,7.905290666666667E7,6.1838986E7:(card(ID)=6) & (iv:ID2) & (ID3=3) & (xx:ID) & (ID4:ID) & not((yy:ID))
+4.7401442333333336E7,7.188127766666667E7,1.4036342666666666E8,5.2172882333333336E7:(card(ID)=6) & (iv:ID2) & (ID3=3) & (not(ID4:ID) => ID4:ID)

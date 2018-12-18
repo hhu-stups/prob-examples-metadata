@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/SimpleSetComprTest.mch
+1.01101893E8,5.3448835666666664E7,-1.0,6.5644428E7:not((sel_colour=red) & (norm_colour=blue) & (DisColours:1..3+->COLOURS)) => (mm:dom(DisColours))
+4.8845178E7,6.716328966666667E7,7.9481383E7,4.5768716333333336E7:(sel_colour=red) & (norm_colour=blue) & (DisColours:1..3+->COLOURS) & not(({nn,cc|nn:1..3&(nn=1 => cc=sel_colour)&(nn/=1 => cc=norm_colour)}:1..3+->COLOURS))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter12/Map.mch
+-1.0,-1.0,6.1084257666666664E7,-1.0:not((fun:INDEX+->ITEM)) & not((r_par:INDEX))

@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Simple/Phonebook/phonebook5c.mch
+-1.0,-1.0,6.838015766666667E7,-1.0:(db:Name+->Code) & (activec:POW(Code)) & (ran(db)=activec) & not((nn:Name) & (cc:Code))
+4.8100925666666664E7,1.1276724966666667E8,5.8618301666666664E7,9.062611933333333E7:not((db:Name+->Code) & (activec:POW(Code)) & (ran(db)=activec)) => not((nn:Name) & (cc:Code))
+-1.0,-1.0,6.1836401666666664E7,-1.0:not((db:Name+->Code) & (activec:POW(Code)) & (ran(db)=activec)) & not((nn:Name) & (cc:Code))
+6.0755864E7,1.2447758466666667E8,6.4065992E7,7.189291766666667E7:activec:POW(Code) & nn/:dom(db)

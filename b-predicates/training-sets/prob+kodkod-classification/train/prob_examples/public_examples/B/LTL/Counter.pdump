@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/LTL/Counter.mch
+4.7444697E7,7.1158094E7,6.2960217666666664E7,6.7881095E7:(i=1) & (n=10) & xx:1..n & not(xx=n&i:1..n)

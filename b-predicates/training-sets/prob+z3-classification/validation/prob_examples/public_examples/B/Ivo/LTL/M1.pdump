@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/LTL/M1.mch
+1.5609761966666666E8,7.3530743E7,6.2036357E7,9.037033733333333E7:x:INTEGER & x1:{1,2,3,4}&r=1&x1 mod 2=0&y<10

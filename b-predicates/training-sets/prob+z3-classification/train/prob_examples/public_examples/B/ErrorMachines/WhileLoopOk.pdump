@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/ErrorMachines/WhileLoopOk.mch
+6.865624E7,4.8137964666666664E7,5.9976854333333336E7,5.6148969666666664E7:not((xx:NATURAL)) => (c:1..10) & (xx<=c)
+4.7476102333333336E7,4.7970858E7,6.0068183E7,5.5974506333333336E7:not((c:1..10) & (xx<=c)) => not((xx:NATURAL))
+1.1027996833333333E8,1.90897693E8,6.7083647E7,5.8886539E7:xx:NATURAL & c:1..10&xx<=c&(xx<=c&xx:NATURAL&!xx.(xx<=c&xx:NATURAL&xx<c => xx+1<=c&xx+1:NATURAL)&!xx.(xx<=c&xx:NATURAL => c-xx:NATURAL)&!xx.(xx<=c&xx:NATURAL&xx<c => c-(xx+1)<c-xx)&!xx.(xx<=c&xx:NATURAL&not(xx<c) => xx:NATURAL))
+3.81325284E8,5.5787518E7,6.727920266666667E7,5.5360182333333336E7:(not(xx:NATURAL) => not(c:1..10&xx<=c&(xx<=c&xx:NATURAL&!xx.(xx<=c&xx:NATURAL&xx<c => xx+1<=c&xx+1:NATURAL)&!xx.(xx<=c&xx:NATURAL => c-xx:NATURAL)&!xx.(xx<=c&xx:NATURAL&xx<c => c-(xx+1)<c-xx)&!xx.(xx<=c&xx:NATURAL&not(xx<c) => xx:NATURAL))))

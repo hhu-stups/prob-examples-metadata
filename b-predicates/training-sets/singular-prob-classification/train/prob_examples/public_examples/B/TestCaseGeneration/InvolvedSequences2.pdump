@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/InvolvedSequences2.mch
+5.3212423E7,5.5810705E7,6.4297818E7,1.0034316033333333E8:(mx:INTEGER) & s<:INT & not(y<x-1 => s\/{y}<:INT&(not(y<x-1) => (TRUE:BOOL => {y}<:INT)))
+4.8776361333333336E7,4.9277356E7,6.0027E7,5.6013478333333336E7:(mx:INTEGER) & (not(z:INT) => not(x<mx-10 => z:INT))
+5.1516234666666664E7,5.9341997E7,7.495550466666667E7,6.2738564666666664E7:(mx:INTEGER) & (x:INT) & (y:INT) & (z:INT) & (s<:INT) & (s={x,y,z} => s<:INT) & (s={x,y,z} => y:INT) & (s={x,y,z} => x:INT) & (s={x,y,z} => z:INT)
+4.7532185E7,4.9524477333333336E7,6.5238463666666664E7,5.102837E7:(mx:INTEGER) & y:INT & not(z<y => y:INT&(not(z<y) => (TRUE:BOOL => y:INT)))
+4.7776513E7,4.9037217666666664E7,7.368327566666667E7,5.1601813333333336E7:(mx:INTEGER) & s<:INT & not(card(s)=3 => s<:INT)

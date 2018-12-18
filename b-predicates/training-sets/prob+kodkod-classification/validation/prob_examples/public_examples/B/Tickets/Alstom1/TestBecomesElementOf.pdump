@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Alstom1/TestBecomesElementOf.mch
+2.2994246453333335E9,1.0067150766666667E8,-1.0,3.1265284733333335E9:not((tbid=1..3000) & (td={cu,cd}) & (pls<:tbid*tc*td)) => ((x,y):tbid*tc) & ((x,y):dom(pls))
+5.8998214333333336E7,5.6035454666666664E7,-1.0,2.732823776666667E8:(tbid=1..3000) & (td={cu,cd}) & not((pls<:tbid*tc*td)) & ((x,y):tbid*tc) & ((x,y):dom(pls))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FMI/waterTankCtrl_v2.mch
+7.440931792666667E9,3.9824771E8,5.66530911E8,5.7713275333333336E7:not((High=7000) & (Low=4000) & (ReadDelay=20) & (WriteDelay=20) & (ComputeDelay=100) & not((time:0..12000) & (pump:BOOL) & (ctrl_pump:BOOL) & (ctrl_level:0..20000) & (fmiLevel:NATURAL) & (pc:PC))) => not((pc=compute))

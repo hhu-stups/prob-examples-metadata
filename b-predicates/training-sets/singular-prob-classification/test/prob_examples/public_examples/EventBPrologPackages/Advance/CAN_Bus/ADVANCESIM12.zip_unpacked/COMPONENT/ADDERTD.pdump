@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/ADDERTD.bcm
+4.7921177666666664E7,4.8003287666666664E7,-1.0,5.5982142333333336E7:not((adder_state=A_WAIT)) => not((o_sum:NAT))

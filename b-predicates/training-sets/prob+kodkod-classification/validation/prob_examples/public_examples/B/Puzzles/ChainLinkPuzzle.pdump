@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/ChainLinkPuzzle.mch
+3.930158296666667E8,1.1968281733333333E8,1.7676337666666666E8,6.7100898E7:(open<:LINKS) & (linked:LINKS<->LINKS)
+1.1664448833333333E8,4.880716093333333E8,-1.0,6.270931283333334E8:not((card(LINKS)=12) & (chains:1..4-->POW(LINKS)) & (!ic.(ic:1..4 => card(chains(ic))=3)) & (UNION(iu).(iu:1..4|chains(iu))=LINKS) & (!i3,j.(i3:1..3&j:2..4&i3<j => chains(i3)/\chains(j)={})) & not((from:open) & (to:LINKS) & ((from,to)/:linked))) => not((open<:LINKS) & (linked:LINKS<->LINKS))

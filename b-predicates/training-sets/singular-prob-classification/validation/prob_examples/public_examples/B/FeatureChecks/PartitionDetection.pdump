@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/PartitionDetection.mch
+7.9971855E7,5.3880920666666664E7,6.6684457333333336E7,6.3992588E7:not((n:NATURAL)) => (xx<:1..n) & (yy<:1..n)
+5.3491881666666664E7,5.0799477E7,6.4653333333333336E7,7.031306166666667E7:not((xx<:1..n) & (yy<:1..n)) => not((n:NATURAL))

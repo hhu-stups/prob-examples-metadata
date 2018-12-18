@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/TrafficLightWarning/TrafficLight.mch
+4.9762775666666664E7,5.5597316333333336E7,6.6143653333333336E7,8.937726466666667E7:(TLpos:NATURAL1) & (green_orange_time:NATURAL1) & (orange_red_time:NATURAL1) & (red_green_time:NATURAL1) & not((status:COLOR) & (time:NATURAL) & (time<total_cycle_time)) & (tt:NAT) & (tt>=0)
+7.971958866666667E7,4.2600831333333336E7,6.773640733333333E7,1.1005282166666667E8:not((TLpos:NATURAL1) & (green_orange_time:NATURAL1) & (orange_red_time:NATURAL1) & (red_green_time:NATURAL1) & not((tt:NAT) & (tt>=0))) => not((status:COLOR) & (time:NATURAL) & (time<total_cycle_time))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/Tagency2.mch
+5.5134292333333336E7,6.3753056E7,-1.0,7.007148033333333E7:(not((sess:SESSION+->USER) & (booking:ROOM+->USER)) => (s:dom(sess)&sess:SESSION+->USER) & (s:dom(sess)&booking:ROOM+->USER))

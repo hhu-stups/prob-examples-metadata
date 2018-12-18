@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SysML2B/BModules_081214/CoffeeMaker_1.mch
+5.960609E7,6.3457883333333336E7,6.2764639E7,7.248705766666667E7:(GrindStatus:Status) & (StartNewCoffee:BOOL) & (SugarLevel:E_SugarLevel) & (WaterTemperature:INT) & (AddSugar:BOOL) & (GrindCoffee:BOOL) & (MixCoffeeAndWater:BOOL) & (NewCup:BOOL) & (StartTimer:BOOL) & (SugarQuantity:INT) & (TimeOut:BOOL) & (TimerValue:INT) & (PouringDuration:INT) & (temp_var:INT)

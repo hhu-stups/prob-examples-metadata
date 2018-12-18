@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/HRemo/LocationAccessController.zip_unpacked/Doors_Ref4/doors_1.bcm
+1.1350156133333333E8,3.2714248786666665E9,1.0835155766666667E8,6.2185538E7:(sit:P --> L) & (sit<:aut)
+6.791692333333333E7,9.679731866666667E7,4.1877136333333336E7,7.210388533333333E7:(sit:P --> L) & (sit<:aut) & (p |-> l:aut) & (sit(p) |-> l:com)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/BF_test.mch
+4.7712468666666664E7,5.1779117E7,7.202880566666667E7,6.5417746E7:(not(y:NATURAL) => not(y+1:NATURAL))

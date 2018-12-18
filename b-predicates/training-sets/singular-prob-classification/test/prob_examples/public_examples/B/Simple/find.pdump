@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Simple/find.mch
+1.5059801466666666E8,9.612044E7,9.260722566666666E8,6.6895192E7:(xx:NATURAL) & (not((y:0..9999) & (z:0..9999) & (y*y=z) & (z>500)) => (x:0..99999) & (x mod 2/=0) & (x mod 3/=0) & (x*x>434900000) & (x*x<434935000))

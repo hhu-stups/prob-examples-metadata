@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Laws/Laws.zip_unpacked/Laws/SetNatLaws.bcm
+5.0110073333333336E7,5.6913708E7,-1.0,6.6367075333333336E7:not(not((e:S) & (e/:r))) => not((s<:INT) & (s<:S) & (r<:S) & (t<:S) & (s\/t=t\/s) & (s\/({} oftype POW(INT))=s) & (s/\({} oftype POW(INT))=({} oftype POW(INT))) & (s={x oftype INT.x:s | x}) & (s={x oftype INT.x:s | x*1}))

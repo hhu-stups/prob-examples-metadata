@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/B/Tester/seq_test.mch
+4.6254788333333336E7,4.9091717666666664E7,-1.0,6.7937736E7:(hist:seq(ALPH)) & ((nn:ALPH) => not((nr:NAT) & (el:ALPH) & (hist(nr)=el)))
+-1.0,-1.0,-1.0,-1.0:(hist:seq(ALPH)) & (not((nr:NAT) & (el:ALPH) & ((nr,el):hist)) => (nr:NAT) & (el:ALPH) & (hist(nr)=el))
+-1.0,-1.0,-1.0,-1.0:(hist:seq(ALPH)) & (not((hist:perm(ALPH))) => (nr:NAT) & (el:ALPH) & (hist(nr)=el))
+2.4188129883333335E9,2.4279500206666665E9,-1.0,2.5128556036666665E9:(hist:seq(ALPH)) & ((hist:perm(ALPH)) => not((nr:NAT) & (nr>1) & (els:POW(ALPH)) & (hist[{nr,nr-1}]=els)))
+1.78472253E8,8.9457209E7,-1.0,1.2472607966666667E8:(hist:seq(ALPH)) & (not((not(hist:perm(ALPH))) & (hist:perm(ALPH))) => (el:ALPH) & (el:ran(hist)))
+5.6274475E7,5.5190538E7,-1.0,5.8010007E7:(hist:seq(ALPH)) & (nr:NAT) & (nr>0) & (nr<3) & (el:ALPH) & ((nr,el)/:hist) & (hist/=[])
+5.0196280666666664E7,5.0615259E7,-1.0,8.456433866666667E7:(hist:seq(ALPH)) & (hist/=[]) & (el:ALPH) & (el:ran(hist))
+-1.0,-1.0,-1.0,-1.0:(hist:seq(ALPH)) & (nr:NAT) & (nr>1) & (els:POW(ALPH)) & (hist[{nr,nr-1}]=els) & (el:ALPH) & (el:ran(hist))

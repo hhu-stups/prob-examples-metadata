@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/LOCKSR1.bcm
+4.7946274E7,6.6689998333333336E7,7.060821066666667E7,7.2014302E7:not((dpos:DoorPosition) & (doorst:DoorState) & (doorst=LOCKED=>dpos=CLOSED) & (drumst:DrumState) & (drumst/=EMPTY=>doorst=LOCKED)) & (doorst=LOCKED) & (drumst=EMPTY)
+4.9247766E7,6.0879692666666664E7,-1.0,5.7930458E7:not(not((doorst=UNLOCKED) & (dpos=CLOSED))) => (dpos:DoorPosition) & (doorst:DoorState) & (doorst=LOCKED=>dpos=CLOSED) & (drumst:DrumState) & (drumst/=EMPTY=>doorst=LOCKED)
+4.8659213666666664E7,5.6827570666666664E7,6.851117933333333E7,6.1470270666666664E7:(dpos:DoorPosition) & (doorst:DoorState) & (doorst=LOCKED=>dpos=CLOSED) & (drumst:DrumState) & (drumst/=EMPTY=>doorst=LOCKED) & (not((drumst=EMPTYING)) => (dpos=OPEN))

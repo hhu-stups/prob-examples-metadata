@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksPOR/other/Reading.mch
+1.6183091433333334E8,8.703041066666667E7,5.1198177E7,8.642009133333333E7:not((copyof:COPY-->>BOOK) & not((hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={}))) => (rr:READER) & (rr:dom(reading))
+-1.0,6.471349E7,-1.0,-1.0:(copyof:COPY-->>BOOK) & (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={}) & (rr:READER) & (cc:COPY) & (copyof(cc)/:hasread[{rr}]) & (rr/:dom(reading)) & (cc/:ran(reading)) & not((rr:READER) & (cc:COPY) & (cc=reading(rr)))
+1.2835086566666667E8,6.10080025E8,1.0250388666666667E8,8.999477733333333E7:(copyof:COPY-->>BOOK) & (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={}) & (not((rr:READER) & (bb:BOOK)) => (rr:READER))
+5.2267563666666664E7,6.4137229333333336E7,6.9933265E7,6.9753516E7:(copyof:COPY-->>BOOK) & (not(hasread:READER<->BOOK) => (rr,bb):hasread => hasread:READER<->BOOK&(not((rr,bb):hasread) => (TRUE:BOOL => hasread:READER<->BOOK)))

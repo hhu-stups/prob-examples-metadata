@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/Corinna/CXCC_corinna2.mch
+1.7767066133333334E8,1.1747492466666667E8,-1.0,1.0303286466666667E8:(REACHABLE=Nodes) & (MESSAGES:REACHABLE<->Data) & (MESSAGES/={}) & not((medium_messages:MESSAGES<->POW(Nodes)) & (medium_empty:Bool)) & (M:medium_messages) & (N:Nodes) & (N:prj2(MESSAGES,POW(Nodes))(M))
+1.7506627966666666E8,1.1059176366666667E8,-1.0,1.0192290066666667E8:(REACHABLE=Nodes) & (MESSAGES:REACHABLE<->Data) & (MESSAGES/={}) & not((medium_messages:MESSAGES<->POW(Nodes)) & (medium_empty:Bool)) & not((M:medium_messages) & (N:Nodes) & (N:prj2(MESSAGES,POW(Nodes))(M)))

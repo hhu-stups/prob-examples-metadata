@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/Pairs.mch
+4.8327374666666664E7,7.5577162E7,-1.0,7.462699433333333E7:(pairs:POW(setB*setC)) & (!xx.(xx:pairs&prj1(setB,setC)(xx)=bb => pairs:POW(setB*setC)))

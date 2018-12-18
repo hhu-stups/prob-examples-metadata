@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/INCLUDES_USES_SEES/Edd/usedNotOk.mch
+6.6128055333333336E7,1.10526136E8,1.76485222E8,6.1419518666666664E7:not(not((bObj<:B))) => (b:B)

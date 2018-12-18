@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/AbrialCrsCtl/CrsCtl_new.zip_unpacked/CrsCtl_new/CrsCtl_m1.bcm
+9.3616537E7,4.4051994E7,6.4685437333333336E7,5.8368246E7:(Acceleration:0 .. Amax) & (On=FALSE=>Acceleration=0) & (On=TRUE=>Error=FALSE) & (Target_defined=TRUE=>Target_saved=FALSE) & (Target_defined=FALSE=>Acceleration=0) & (Target_defined=TRUE&On=TRUE=>Target_Speed:Tmin .. Tmax) & (Target_saved=TRUE&On=TRUE=>Target_Speed:Tmin .. Tmax) & (t:Tmin .. Tmax) & (On=TRUE) & (Error=FALSE)

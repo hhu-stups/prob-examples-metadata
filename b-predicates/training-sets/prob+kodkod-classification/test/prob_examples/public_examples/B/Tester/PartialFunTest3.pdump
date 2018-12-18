@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/PartialFunTest3.mch
+-1.0,-1.0,4.4728709333333336E7,-1.0:not((f:POW(ID)>+>ID) & (!yy.(yy:ID&yy/=aa => f({yy})=yy)) & (xx:ID)) => f({bb})=aa

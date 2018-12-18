@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Sets2.mch
+4.7003300333333336E7,4.8028035E7,5.9986492666666664E7,5.1975114666666664E7:not((xx:POW(setX))) => not((ss/\xx={}) & (ss:POW(setX)) & (card(ss)=1))
+4.4240984E7,4.8209599E7,6.3707891666666664E7,4.9854919666666664E7:not((xx/\ss={x2,x1}) & (ss:POW(setX)) & (card(ss)=2)) => (xx:POW(setX))
+4.7678944666666664E7,4.8101647666666664E7,6.3882564666666664E7,5.06499E7:not((xx:POW(setX))) => not((xx/\ss={x1,x2}) & (ss:POW(setX)) & (card(ss)=2))

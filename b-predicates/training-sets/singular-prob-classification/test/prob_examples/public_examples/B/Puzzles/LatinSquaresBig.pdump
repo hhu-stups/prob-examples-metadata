@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/LatinSquaresBig.mch
+1.10894968E8,7.5650472E7,-1.0,2.60439939E8:(Order:NATURAL1) & (Order:3..6) & not((LatinSquare:IDX*IDX+->IDX) & (StartSolve:BOOL)) & (i:IDX) & (j:IDX) & (val:IDX) & ((i,j)/:dom(LatinSquare))

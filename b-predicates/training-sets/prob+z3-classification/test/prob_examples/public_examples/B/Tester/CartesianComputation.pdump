@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/CartesianComputation.mch
+5.1277842666666664E7,4.9250024666666664E7,7.8264259E7,5.4428476E7:not((a<:ID) & (b<:ID) & (a/=b) & (a/={}) & (b/={}) & not((yy:POW(ID)))) => (xx:POW(ID*ID))

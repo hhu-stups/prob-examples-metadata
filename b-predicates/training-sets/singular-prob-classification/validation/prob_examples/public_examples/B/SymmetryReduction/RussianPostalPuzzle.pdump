@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/RussianPostalPuzzle.mch
+-1.0,-1.0,6.7913222E7,-1.0:(keysforsale:POW(KeyIDs)) & (hasbox:PERSONS) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL) & (keyid:KeyIDs) & (person:PERSONS) & (person=hasbox) & (keyid:has_keys(person)) & (keyid/:padlocks) & (keyid:KeyIDs) & (person:PERSONS) & (person=hasbox) & (keyid:padlocks) & (keyid:has_keys(person))

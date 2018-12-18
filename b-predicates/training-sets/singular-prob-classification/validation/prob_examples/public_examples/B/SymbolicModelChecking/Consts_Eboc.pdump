@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/Consts_Eboc.mch
+5.0228221666666664E7,5.3190958333333336E7,6.896724266666667E7,7.811822033333333E7:(c1<c2) & x<=5000 & xx>c2 => xx+x+c1<=5000

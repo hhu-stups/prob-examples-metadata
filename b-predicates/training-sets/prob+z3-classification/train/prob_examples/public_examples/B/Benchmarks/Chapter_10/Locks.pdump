@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Chapter_10/Locks.mch
+1.0232234633333333E8,8.192296433333333E7,6.6380415333333336E7,5.8305691666666664E7:not((status:DOOR-->STATUS) & (position~[{open}]<:status~[{unlocked}])) => (dd:DOOR) & (status(dd)=unlocked)
+5.4120732E7,7.053313133333333E7,8.787043833333333E7,4.3730188666666664E7:not((status:DOOR-->STATUS) & (position~[{open}]<:status~[{unlocked}])) => (dd:DOOR) & (position(dd)=closed)
+4.8637144E7,8.121011766666667E7,-1.0,9.695399633333333E7:(status:DOOR-->STATUS) & (position~[{open}]<:status~[{unlocked}]) & (dd:DOOR) & (status(dd)=unlocked) & not((dd:DOOR) & (position(dd)=closed))

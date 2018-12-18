@@ -1,0 +1,13 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/T3.bcm
+9.088944433333333E7,6.893059966666667E7,1.07255911E8,5.1282988E7:(T3_readpriority:NAT)
+4.8735434E7,5.0862264E7,6.721757933333333E7,6.5862262666666664E7:(T3_readpriority:NAT) & not((ppriority:INT) & (ppriority=4) & (T3_readpriority=5) & (T3_state=T3_PROC))
+4.7968949333333336E7,4.7949882666666664E7,-1.0,5.6035617333333336E7:not((T3_state=T3_READY)) => not((T3_readpriority:NAT))
+4.7330669333333336E7,6.4843325E7,6.5599892333333336E7,9.4807401E7:not((T3_readpriority:NAT)) & not((pv:INT) & (ppriority:INT) & (T3_state=T3_READ))
+1.0250358433333333E8,5.1995741333333336E7,6.768912466666667E7,6.1935436666666664E7:(T3_readpriority:NAT) & (not((T3_state=T3_READY)) => (T3_readpriority<5) & (T3_state=T3_PROC))
+4.6020144666666664E7,5.0448500666666664E7,7.509700333333333E7,5.1996114E7:(T3_readpriority:NAT) & (T3_state=T3_READY) & (T3_state=T3_RELEASE)
+4.6741116E7,6.1852907333333336E7,7.7105196E7,6.796325133333333E7:(T3_readpriority:NAT) & (T3_state=T3_READY) & not((T3_state=T3_WAIT))
+4.9675568E7,5.0973311333333336E7,7.970624866666667E7,6.2007466333333336E7:(T3_readpriority:NAT) & ((T3_state=T3_READY) => not((pv:INT) & (ppriority:INT) & (pv=0) & (ppriority=4) & (T3_state=T3_WRITE)))
+4.8166646666666664E7,5.0802503E7,6.7180005E7,6.1806020333333336E7:(T3_readpriority:NAT) & ((ppriority:INT) & (ppriority=4) & (T3_readpriority=5) & (T3_state=T3_PROC) => not((T3_state=T3_RELEASE)))
+4.7689933333333336E7,5.1428444E7,5.4264465333333336E7,6.2135998E7:(T3_readpriority:NAT) & (not((T3_state=T3_RELEASE)) => (pv:INT) & (ppriority:INT) & (pv=0) & (ppriority=4) & (T3_state=T3_WRITE))
+9.182936866666667E7,5.7293063333333336E7,6.4297724333333336E7,7.1804173E7:(T3_readpriority:NAT) & (pv:INT) & (ppriority:INT) & (T3_state=T3_READ) & not((T3_state=T3_WAIT))
+4.7648634E7,5.138314E7,6.722861433333333E7,7.229485433333333E7:(T3_readpriority:NAT) & (T3_state=T3_WAIT) & not((pv:INT) & (ppriority:INT) & (pv=0) & (ppriority=4) & (T3_state=T3_WRITE))

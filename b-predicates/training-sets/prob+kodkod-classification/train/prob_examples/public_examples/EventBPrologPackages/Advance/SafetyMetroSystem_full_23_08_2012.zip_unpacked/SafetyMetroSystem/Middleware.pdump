@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/SafetyMetroSystem_full_23_08_2012.zip_unpacked/SafetyMetroSystem/Middleware.bcm
+7.022869333333333E7,4.8350003E7,6.9365362E7,5.9928291E7:((t1:TRAIN) & (bb:BOOL) & (t1:dom(tmsgs)) & (tmsgs(t1)=({} oftype POW(BOOL))) => not((t1:TRAIN) & (bb:BOOL) & (t1:dom(tmsgs)) & (bb:tmsgs(t1))))
+4.7962756666666664E7,4.7931211333333336E7,7.608854E7,5.9945472E7:(t1:TRAIN) & (bb:BOOL) & (t1:dom(tmsgs)) & (tmsgs(t1)=({} oftype POW(BOOL))) & (t:TRAIN) & (oc:CDV)
+4.7935215666666664E7,4.7946833E7,6.0028024333333336E7,4.930925E7:(not((t1:TRAIN) & (bb:BOOL) & (t1:dom(tmsgs)) & (tmsgs(t1)=({} oftype POW(BOOL)))) => (t:TRAIN) & (oc:CDV))
+1.0691047633333333E8,9.331405433333333E7,1.0281225966666667E8,6.0193222333333336E7:((t1:TRAIN) & (bb:BOOL) & (t1:dom(tmsgs)) & (tmsgs(t1)=({} oftype POW(BOOL))) => not((t:TRAIN) & (oc:CDV)))
+1.0459081433333333E8,9.000085366666667E7,1.0204668266666667E8,5.7078091666666664E7:((t1:TRAIN) & (bb:BOOL) & (t1:dom(tmsgs)) & (bb:tmsgs(t1)) => not((t:TRAIN) & (oc:CDV)))

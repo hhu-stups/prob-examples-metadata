@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Disprover/EnumWarningTests/MammarLaleau_Failures_ReadDoors_inv8_selected.mch
+1.6484377186666667E9,6.919215533333333E7,8.607991766666667E7,7.942830333333333E7:not((currentTime:INTEGER) & (nextInputReadForDoorOpeningClosing:NATURAL)) => {(TRUE,0),(FALSE,nextInputReadForDoorOpeningClosing)}(bool(currentTime=nextInputReadForDoorOpeningClosing)):NATURAL

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/CBC/FeasibilityOperationCheck.mch
+7.543221766666667E7,6.7944674E7,-1.0,2.2878786933333334E8:(mx:1..2**10) & (mxn:NATURAL1) & (mxn>mx) & (ii:ID) & (xx:0..mx) & (yy:0..mxn) & not((xx>=yy))
+6.6755579333333336E7,6.3682446333333336E7,-1.0,1.90601682E8:(mx:1..2**10) & (mxn:NATURAL1) & (mxn>mx) & not((ii:ID) & (xx:0..mx) & (yy:0..mxn)) & (xx>=yy)
+-1.0,-1.0,-1.0,-1.0:not((mx:1..2**10) & (mxn:NATURAL1) & (mxn>mx) & not((ii:ID) & (xx:0..mx) & (yy:0..mxn))) => (xx+yy+202 mod (2**mx+132)=2**mxn+2) & (xx+yy=mxn-mx)

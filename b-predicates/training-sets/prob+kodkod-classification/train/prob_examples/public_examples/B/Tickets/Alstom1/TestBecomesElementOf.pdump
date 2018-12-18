@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Alstom1/TestBecomesElementOf.mch
+5.2483466333333336E7,5.5953018666666664E7,-1.0,1.55242158E8:not((tbid=1..3000) & (td={cu,cd}) & not((pls<:tbid*tc*td))) => ((x,y):tbid*tc) & ((x,y):dom(pls))

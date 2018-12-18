@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Corinna/PartialOrderEtc/PO_Simple2.mch
+5.5872840666666664E7,7.161690533333333E7,7.9021036E7,9.138133633333333E7:not((xx:ID) & (yy:ID) & (zz:ID) & (xx=aa or yy=aa or zz=aa)) & not((yy=aa))
+4.8010341333333336E7,6.2043597E7,6.2690281333333336E7,6.2715237666666664E7:yy:ID & xx/=yy

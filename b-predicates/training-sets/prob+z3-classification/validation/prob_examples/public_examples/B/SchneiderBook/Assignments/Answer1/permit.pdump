@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Assignments/Answer1/permit.mch
+-1.0,-1.0,6.3071591333333336E7,-1.0:(reg:PERSON>+>CAR) & not((vv:CAR))
+-1.0,-1.0,6.4169356666666664E7,-1.0:not((reg:PERSON>+>CAR)) & not((pp:PERSON))
+-1.0,-1.0,6.4044806333333336E7,-1.0:(reg:PERSON>+>CAR) & ((vv:CAR) => not((pp:PERSON)))
+-1.0,-1.0,6.4019826333333336E7,-1.0:(reg:PERSON>+>CAR) & ((pp:PERSON) => not((pp:PERSON)))

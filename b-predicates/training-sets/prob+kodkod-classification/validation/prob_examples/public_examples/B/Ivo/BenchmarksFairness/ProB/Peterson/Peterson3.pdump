@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksFairness/ProB/Peterson/Peterson3.mch
+2.0713590733333334E8,8.302559533333333E7,1.6795408633333334E8,2.8815615E8:(N=3) & (PID=0..N-1) & not((counter:NATURAL) & (step:PID-->PID) & (pos:PID-->PID)) & not((j:PID))
+5.3552271E7,5.5849420666666664E7,7.049702366666667E7,8.4242277E7:not((N=3) & (PID=0..N-1) & not((counter:NATURAL) & (step:PID-->PID) & (pos:PID-->PID))) => (j:PID) & (p:PID) & (step(j)/=p or !k.(k:PID\{p} => pos(k)<j))

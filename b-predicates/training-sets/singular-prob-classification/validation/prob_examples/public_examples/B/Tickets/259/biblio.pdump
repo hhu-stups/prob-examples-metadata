@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/259/biblio.mch
+5.5021521666666664E7,5.7178034333333336E7,1.4623062966666666E8,7.81286317E8:(maxLivres:NATURAL) & (maxLivres=3) & not((inscription<:MEMBRE) & (etagere<:LIVRE) & (pret:etagere+->inscription) & (!x.(x:inscription => card(pret|>{x})<=maxLivres))) & not((membre:inscription) & (membre/:ran(pret)))
+4.9860344333333336E7,5.6027842E7,-1.0,2.5568607566666666E8:not((maxLivres:NATURAL) & (maxLivres=3) & not((membre:inscription) & (livre:etagere) & (livre/:dom(pret)) & (card(pret|>{membre})<maxLivres))) => (inscription<:MEMBRE) & (etagere<:LIVRE) & (pret:etagere+->inscription) & (!x.(x:inscription => card(pret|>{x})<=maxLivres))

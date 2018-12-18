@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/LabMaterial/records.mch
+-1.0,-1.0,8.828452733333333E7,-1.0:(male<:PERSON) & (female<:PERSON) & (male/\female={}) & (married:male>+>female) & not((nn:PERSON) & (ss:SEX))
+-1.0,-1.0,8.141491566666667E7,-1.0:(male<:PERSON) & (female<:PERSON) & (male/\female={}) & (married:male>+>female) & ((nn:PERSON) & (ss:SEX) => not((nn:PERSON)))

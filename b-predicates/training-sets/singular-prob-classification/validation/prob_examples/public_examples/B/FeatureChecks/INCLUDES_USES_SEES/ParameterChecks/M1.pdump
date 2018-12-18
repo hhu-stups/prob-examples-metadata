@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/INCLUDES_USES_SEES/ParameterChecks/M1.mch
+7.6978737E7,1.03932304E8,1.9421159166666666E8,7.0673815E7:(iv:ENUM) & (not((xx:ENUM)) => not((xx:ENUM)))

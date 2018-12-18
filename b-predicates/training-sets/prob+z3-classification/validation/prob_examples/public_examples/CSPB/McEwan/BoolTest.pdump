@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSPB/McEwan/BoolTest.mch
+1.758191597E9,4.7744712E7,5.8712424666666664E7,4.805078E7:(not(i:INTEGER) => i<2 => i:INTEGER&(not(i<2) => (TRUE:BOOL => i:INTEGER)))

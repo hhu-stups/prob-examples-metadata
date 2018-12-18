@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/TotalFunTest4.mch
+2.05126341E8,6.7181844E7,-1.0,1.16412988E8:(f:POW(ID)>->>POW(ID)) & (!yy.(yy:POW(ID) => f(yy)=yy)) & (xx:ID) & (yy:dom(f))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/Adder.bcm
+7.989821866666667E7,4.6213418666666664E7,6.6447066666666664E7,5.9328308333333336E7:(o_sum:NAT) & data_ready:BOOL

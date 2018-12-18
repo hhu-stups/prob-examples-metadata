@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/SquareRootBigger.mch
+-1.0,-1.0,-1.0,-1.0:(x:1..100000) & (x*x=y) & (y:12164000..12196000) & (not((yy:0..10000) & (yy*yy=y)) => (yy:-3000..30000) & (yy*yy=y))

@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/TLC/InvariantViolation/Scheduler.mch
+4.9952069666666664E7,5.5701287666666664E7,-1.0,1.82797477E8:not((p:dom(state)) & (state(p)=idle)) => not((state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3))
+-1.0,-1.0,5.8474521333333336E7,-1.0:(state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3) & (p:PROCESSES) & (p/:dom(state)) & (p:dom(state)) & (state(p)=idle)
+-1.0,-1.0,6.2665883666666664E7,-1.0:(state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3) & (p:PROCESSES) & (p/:dom(state)) & (p:dom(state)) & (state(p)=active)
+5.0964720666666664E7,5.6031916E7,-1.0,1.3784210966666666E8:(state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3) & ((p:PROCESSES) & (p/:dom(state)) => not((p:dom(state)) & (state(p)=active)))
+-1.0,-1.0,6.0301755666666664E7,-1.0:(state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3) & (p:PROCESSES) & (p/:dom(state)) & (p:dom(state)) & (state(p)=idle)
+4.8464286333333336E7,5.3261801E7,-1.0,1.0871219533333333E8:(state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3) & (not((p:PROCESSES) & (p/:dom(state))) => (p:dom(state)) & (state(p)=idle))
+-1.0,-1.0,7.0209696E7,-1.0:(state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3) & (p:dom(state)) & (state(p)=idle) & (p:dom(state)) & (state(p)=active)
+-1.0,-1.0,7.026573266666667E7,-1.0:(state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3) & (p:dom(state)) & (state(p)=active) & (p:dom(state)) & (state(p)=idle)
+-1.0,-1.0,-1.0,-1.0:(state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3) & (p:dom(state)) & (state(p)=active) & (queue/=[]) & (state~[{active}]={})

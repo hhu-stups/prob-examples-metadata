@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/SET_Game/SET_Game.zip_unpacked/SET/SET_Game.bcm
+6.0841047333333336E7,6.3848016666666664E7,5.1371290666666664E7,8.101404966666667E7:not(not((n:0 .. NrC) & (cardcol:1 .. n --> Colour) & (cardshp:1 .. n --> Shape) & (cardfll:1 .. n --> Fill) & (cardcrd:1 .. n --> Card))) => (i=n+1&i<=NrC) & (col:Colour&shp:Shape&fll:Fill&crd:Card) & (!j oftype INT.j:1 .. n=>cardcol(j) |-> cardshp(j) |-> cardfll(j) |-> cardcrd(j)/=col |-> shp |-> fll |-> crd)

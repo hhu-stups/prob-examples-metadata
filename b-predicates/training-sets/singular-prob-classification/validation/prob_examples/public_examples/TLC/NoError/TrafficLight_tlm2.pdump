@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/TLC/NoError/TrafficLight_tlm2.mch
+4.7023019E7,5.1435078666666664E7,7.619693333333333E7,6.6213075666666664E7:not((TL_Car=go <=> TL_Car_Color/={red}) & (TL_Ped=go <=> TL_Ped_Color/={red}) & (CallButtonState:BOOL) & (TL_Car_Color={red,yellow} or card(TL_Car_Color)=1) & (TL_Ped_Color={red} or TL_Ped_Color={green})) => not((TL_Ped/=go))
+4.7341146E7,5.1737957666666664E7,-1.0,4.2133919333333336E7:not(not((TL_Ped_Color={red}) & (TL_Car_Color={red}) & (CallButtonState=FALSE))) => not((TL_Car=go <=> TL_Car_Color/={red}) & (TL_Ped=go <=> TL_Ped_Color/={red}) & (CallButtonState:BOOL) & (TL_Car_Color={red,yellow} or card(TL_Car_Color)=1) & (TL_Ped_Color={red} or TL_Ped_Color={green}))
+4.8753755666666664E7,6.2062524333333336E7,8.787577E7,5.0588486333333336E7:TL_Car_Color={red,yellow} or card(TL_Car_Color)=1 & not(TL_Ped_Color={red}&TL_Car_Color={red}&CallButtonState=FALSE&({red,yellow}={red,yellow} or card({red,yellow})=1))

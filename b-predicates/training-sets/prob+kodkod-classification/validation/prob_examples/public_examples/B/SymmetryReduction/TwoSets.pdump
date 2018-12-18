@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/TwoSets.mch
+-1.0,-1.0,5.9542325E7,-1.0:(maxs=2) & not((s1:POW(ID)) & (s2:POW(ID))) & not((x:s1) & (x/:s2) & (y:s2) & (y/:s1) & (x/=y))

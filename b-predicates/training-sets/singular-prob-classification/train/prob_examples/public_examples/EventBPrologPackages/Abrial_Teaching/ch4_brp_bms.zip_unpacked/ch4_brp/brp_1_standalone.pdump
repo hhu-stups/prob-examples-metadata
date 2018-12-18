@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Abrial_Teaching/ch4_brp_bms.zip_unpacked/ch4_brp/brp_1_standalone.bcm
+5.0568790666666664E7,5.3315556E7,7.603690366666667E7,6.3999013333333336E7:not(not((r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success))) => (s_st/=working) & (r_st/=working)
+5.1471792333333336E7,5.5626813E7,7.423728E7,6.4064455E7:not((s_st=working) & (r_st=success)) => not((r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success))
+5.1731112666666664E7,5.5373359333333336E7,7.622046966666667E7,6.7191156E7:(r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & not((r_st=working) & (r+1<n))
+5.0658979333333336E7,5.4738269E7,7.677761733333333E7,6.904008766666667E7:(r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & (r_st=working) & (r+1=n) & not((s_st=working) & (r_st=success))
+4.7544593333333336E7,5.2608901666666664E7,8.2247796E7,5.2577752333333336E7:(r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & (s_st=working) & (r_st=success) & (r_st=working) & (r+1<n)
+1.3062932066666667E8,5.3147680333333336E7,7.4890669E7,7.535697566666667E7:(r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & ((s_st=working) & (r_st=success) => not((s_st=working)))

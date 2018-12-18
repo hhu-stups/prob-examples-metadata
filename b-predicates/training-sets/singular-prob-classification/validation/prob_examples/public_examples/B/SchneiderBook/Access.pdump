@@ -1,0 +1,11 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Access.mch
+-1.0,-1.0,6.5246891E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((access:USER<->PRINTER)) & (uu:USER) & (oo:OPTION)
+-1.0,-1.0,6.6602580333333336E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((access:USER<->PRINTER)) & not((uu:USER) & (oo:OPTION))
+-1.0,-1.0,9.064693166666667E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((access:USER<->PRINTER)) & not((u1:USER) & (u2:USER))
+-1.0,-1.0,6.786810433333333E7,-1.0:not((options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((access:USER<->PRINTER))) => not((u1:USER) & (u2:USER))
+-1.0,-1.0,6.4892004333333336E7,-1.0:not((options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((access:USER<->PRINTER))) => not((pp:PRINTER))
+-1.0,-1.0,6.4080937666666664E7,-1.0:not((options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((pp:PRINTER))) => not((access:USER<->PRINTER))
+-1.0,-1.0,6.4503081666666664E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & ((uu:USER) & (pp:PRINTER) => not((uu:USER) & (pp:PRINTER)))
+-1.0,-1.0,7.620068233333333E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & ((uu:USER) & (oo:OPTION) => not((uu:USER) & (pp:PRINTER)))
+-1.0,-1.0,6.815063533333333E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & access:USER<->PRINTER & not((uu,oo):(access;options) => access:USER<->PRINTER&(not((uu,oo):(access;options)) => (TRUE:BOOL => access:USER<->PRINTER)))
+-1.0,-1.0,6.3853254666666664E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & access:USER<->PRINTER & not(access:USER<->PRINTER)

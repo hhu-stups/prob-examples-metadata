@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/ErrorMachines/WhileLoopVariantErr2.mch
+2.0000308463333333E9,2.5019068466666666E8,2.70807947E8,6.589666209333333E9:not((xx:NATURAL)) => (c:1..10) & (xx<=c)
+4.8088843333333336E7,4.8625014666666664E7,5.904445E7,6.2375087333333336E7:not((xx:NATURAL)) & (c:1..10) & (xx<=c)
+4.8234974333333336E7,4.9358302E7,5.845606E7,5.5451511333333336E7:not(not((xx:NATURAL))) => not((c:1..10) & (xx<=c))
+1.38238785E8,9.634125466666667E7,9.9374136E7,5.1846979333333336E7:(not(xx:NATURAL) => c:1..10&xx<=c&(xx<=c&xx:NATURAL&!xx.(xx<=c&xx:NATURAL&xx<c => xx+1<=c&xx+1:NATURAL)&!xx.(xx<=c&xx:NATURAL => c-xx-2:NATURAL)&!xx.(xx<=c&xx:NATURAL&xx<c => c-(xx+1)-2<c-xx-2)&!xx.(xx<=c&xx:NATURAL&not(xx<c) => xx:NATURAL)))
+4.9863673666666664E7,5.6017342E7,6.5266191E7,5.6072772333333336E7:(not((xx:NATURAL)) => (c:1..10&xx<=c&(xx<=c&xx:NATURAL&!xx.(xx<=c&xx:NATURAL&xx<c => xx+1<=c&xx+1:NATURAL)&!xx.(xx<=c&xx:NATURAL => c-xx-2:NATURAL)&!xx.(xx<=c&xx:NATURAL&xx<c => c-(xx+1)-2<c-xx-2)&!xx.(xx<=c&xx:NATURAL&not(xx<c) => xx:NATURAL))))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/SubstSetInTests.mch
+4.7458572333333336E7,4.7982242333333336E7,6.4034749E7,5.0686612666666664E7:not((iv:ID) & (e:ID)) => (xc:ID*ID) & (xs:POW(ID))

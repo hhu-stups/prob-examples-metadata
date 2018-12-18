@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/Functions/Half.mch
+6.2500522333333336E7,9.466571566666667E7,6.721427366666667E7,7.791116433333333E7:(f:NAT-->NAT) & (!x.(x:NAT => f(x)+f(x)<=x&f(x)+f(x)+1>=x)) & (x:NAT) & (f(x):NAT)

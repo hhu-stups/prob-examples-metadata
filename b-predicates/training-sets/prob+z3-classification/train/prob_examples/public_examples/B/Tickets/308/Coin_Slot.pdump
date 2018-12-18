@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/308/Coin_Slot.mch
+4.7406447666666664E7,4.9322939E7,6.5269287E7,5.4432131333333336E7:not(not((cstate:CSTATE) & (current_coin:COINS))) => not((cc:COINS))

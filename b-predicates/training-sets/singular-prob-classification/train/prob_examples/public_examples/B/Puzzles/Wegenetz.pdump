@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Wegenetz.mch
+5.553723E7,1.3823026433333334E8,5.038984823333333E8,7.087423633333333E7:not((link={(p1,p2),(p2,p3),(p3,p4),(p4,p1),(p4,q1),(q1,q2),(q2,q3),(q3,p4),(q3,r1),(r1,r2),(r2,p1),(p1,q3)}) & not((From=pos) & ((To,From):left_to_traverse))) => (left_to_traverse<:link) & (pos:Corners)
+5.9828721E7,1.1679886066666667E8,5.216503673333333E8,1.52630163E8:(link={(p1,p2),(p2,p3),(p3,p4),(p4,p1),(p4,q1),(q1,q2),(q2,q3),(q3,p4),(q3,r1),(r1,r2),(r2,p1),(p1,q3)}) & (left_to_traverse<:link) & (pos:Corners) & not((From=pos) & ((From,To):left_to_traverse))
+5.2367623E7,6.2191940333333336E7,-1.0,7.930924766666667E7:not((link={(p1,p2),(p2,p3),(p3,p4),(p4,p1),(p4,q1),(q1,q2),(q2,q3),(q3,p4),(q3,r1),(r1,r2),(r2,p1),(p1,q3)}) & (left_to_traverse<:link) & (pos:Corners)) => not((From=pos) & ((From,To):left_to_traverse))
+6.2001901666666664E7,1.7921613266666666E8,5.739808813333334E8,1.0742285466666667E8:(link={(p1,p2),(p2,p3),(p3,p4),(p4,p1),(p4,q1),(q1,q2),(q2,q3),(q3,p4),(q3,r1),(r1,r2),(r2,p1),(p1,q3)}) & (not(left_to_traverse<:link) => From=pos&(To,From):left_to_traverse&left_to_traverse-{(To,From)}<:link)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/259/biblio.mch
+5.113823E7,7.653124033333333E7,1.0577061966666667E8,7.346804833333333E7:(maxLivres:NATURAL) & (maxLivres=3) & (inscription<:MEMBRE) & (etagere<:LIVRE) & (pret:etagere+->inscription) & (!x.(x:inscription => card(pret|>{x})<=maxLivres)) & (not((membre:MEMBRE) & (membre/:inscription)) => (membre:inscription) & (membre/:ran(pret)))

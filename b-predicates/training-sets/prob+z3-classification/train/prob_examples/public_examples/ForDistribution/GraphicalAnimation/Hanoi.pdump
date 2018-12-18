@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/ForDistribution/GraphicalAnimation/Hanoi.mch
+-1.0,-1.0,-1.0,-1.0:(orig:Stakes) & (dest:Stakes) & (orig/=dest) & (nrdiscs=5) & (on:Stakes-->seq(INTEGER)) & (from:Stakes) & (on(from)/=[]) & (to:Stakes) & (to/=from) & (disc:NATURAL1) & (disc=first(on(from))) & (on(to)/=[] => first(on(to))>disc)
+5.8822540333333336E7,6.817505666666667E7,-1.0,1.15331659E8:(orig:Stakes) & (dest:Stakes) & (orig/=dest) & (nrdiscs=5) & not((on:Stakes-->seq(INTEGER))) & not((from:Stakes) & (on(from)/=[]) & (to:Stakes) & (to/=from) & (disc:NATURAL1) & (disc=first(on(from))) & (on(to)/=[] => first(on(to))>disc))
+5.6873992E7,5.5758114666666664E7,-1.0,1.0042042833333333E8:not((orig:Stakes) & (dest:Stakes) & (orig/=dest) & (nrdiscs=5) & not((from:Stakes) & (on(from)/=[]) & (to:Stakes) & (to/=from) & (disc:NATURAL1) & (disc=first(on(from))) & (on(to)/=[] => first(on(to))>disc))) => not((on:Stakes-->seq(INTEGER)))

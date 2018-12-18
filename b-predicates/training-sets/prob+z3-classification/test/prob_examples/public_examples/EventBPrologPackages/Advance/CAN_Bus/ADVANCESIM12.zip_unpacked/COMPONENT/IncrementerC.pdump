@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/IncrementerC.bcm
+5.4814954666666664E7,5.9106539E7,9.913513866666667E7,7.8885008E7:not((v:NAT) & (i_sum:NAT)) => v:INT

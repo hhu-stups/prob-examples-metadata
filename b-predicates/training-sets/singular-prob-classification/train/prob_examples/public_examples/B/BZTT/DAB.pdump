@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/BZTT/DAB.mch
+-1.0,-1.0,8.598355966666667E7,-1.0:not((rap_transac:ETAT_TRANSACTION) & (ticket:TICKET) & (somme_del:NAT) & (somme_del:MONTANT)) & (code1:CODE) & (code2:CODE) & (code3:CODE) & (mont:MONTANT) & (mont:NAT) & (mont/=0) & (tick:TICKET) & (carte:ETAT_CARTE) & (pin:CODE) & (montant_max:0..140) & (etat_dab:ETAT_DAB)

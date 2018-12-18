@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/DetTest.mch
+6.6035516E7,5.9300231666666664E7,8.158698133333333E7,6.6641179E7:not((ss<:Els)) => (tt:Els) & (uu:Els) & (vv:ss) & (ww:Els) & (xx:Els) & (yy:ss) & (zz:Els) & (tt2:Els) & (uu2:Els) & (vv2:Els) & (tt=vv) & (vv=xx) & (xx=zz) & (zz=uu2) & (uu=ww) & (ww=yy) & (yy=tt2) & (tt2=vv2) & (tt:{cc,dd}) & (uu:{gg,bb,ee})

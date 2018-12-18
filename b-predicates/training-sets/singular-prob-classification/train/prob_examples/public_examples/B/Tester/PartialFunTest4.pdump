@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/PartialFunTest4.mch
+6.0885256333333336E7,5.28096415E8,-1.0,9.2791199E7:(f:POW(ID)>+>>ID) & (!yy.(yy:ID => {yy}:dom(f)&f({yy})=yy)) & (xx:ID) & (yy:ID) & (yy=xx)

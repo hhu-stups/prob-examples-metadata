@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Compilers/SimpleGrammar.mch
+-1.0,-1.0,-1.0,-1.0:(Terminals={a,b}) & (Terminals/\NonTerminals={}) & (Terminals\/NonTerminals=Alphabet) & (Productions={([S],[a,S,b]),([S],[a,b])}) & (cur:seq(Alphabet)) & ((LHS,RHS):Productions) & (cur=pre^LHS^post)
+-1.0,-1.0,-1.0,-1.0:(Terminals={a,b}) & (Terminals/\NonTerminals={}) & (Terminals\/NonTerminals=Alphabet) & (Productions={([S],[a,S,b]),([S],[a,b])}) & cur:seq(Alphabet) & (LHS,RHS):Productions&cur=pre^LHS^post&pre^RHS^post:seq(Alphabet)
+8.3982956E7,7.321084666666667E7,4.464694846666667E8,1.4742205233333334E8:(Terminals={a,b}) & (Terminals/\NonTerminals={}) & (Terminals\/NonTerminals=Alphabet) & (Productions={([S],[a,S,b]),([S],[a,b])}) & (not(cur:seq(Alphabet)) => not((LHS,RHS):Productions&cur=pre^LHS^post&pre^RHS^post:seq(Alphabet)))
+5.9208041666666664E7,5.0499066E7,-1.0,2.48692076E8:(Terminals={a,b}) & (Terminals/\NonTerminals={}) & (Terminals\/NonTerminals=Alphabet) & (Productions={([S],[a,S,b]),([S],[a,b])}) & (cur:seq(Alphabet)) & not(((LHS,RHS):Productions&cur=pre^LHS^post&pre^RHS^post:seq(Alphabet)))

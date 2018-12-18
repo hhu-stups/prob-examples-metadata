@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Daniel/Kodkod/Power2Nr.mch
+-1.0,-1.0,-1.0,-1.0:(nr:obj>->1..2**card(obj)) & (!i.(i:obj => #j.(j:1..card(obj)&nr(i)=2**j))) & (nr(o1)<nr(o2)) & (nr(o2)<nr(o3)) & (nr(o3)<nr(o4)) & (nr(o4)<nr(o5)) & (nr(o5)<nr(o6)) & (nr(o6)<nr(o7)) & (nr(o7)<nr(o8)) & (nr(o8)<nr(o9)) & (nr(o9)<nr(o10)) & (nr(o10)<nr(o11)) & not(nr(o3)=2**3)

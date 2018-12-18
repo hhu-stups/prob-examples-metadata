@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksEnablingAnalysis/other/scheduler.mch
+1.02855142E8,6.1916509E7,7.6894648E7,1.19356472E8:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & (pp:waiting)
+1.2723184533333333E8,1.8034264933333334E8,8.3331337E7,1.2368362833333333E8:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & (active/={}) & (pp:waiting)
+1.3012881466666667E8,2.6676136666666666E8,1.18928089E8,5.2913805E7:(not(ready<:PID) => not(ready<:PID))
+6.5861308E7,2.0758936366666666E8,5.4691871E7,1.5967908133333334E8:(not(waiting:POW(PID)) => waiting:POW(PID))
+4.359248946666667E8,2.74308416E8,6.4020129E7,1.40076495E8:ready:POW(PID) & ready:POW(PID)
+8.237539666666667E7,2.1822481733333334E8,7.234988933333333E7,2.06345374E8:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & (active:POW(PID)) & (active/\(ready\/waiting)={}) & (active={} => ready={}) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (active<:PID) & (waiting:POW(PID)) & (ready:POW(PID)) & (ready/\waiting={})
+1.61452049E8,6.2548061E7,1.00439914E8,4.9510951333333336E7:(not(waiting<:PID) => not(pp/:active&pp/:ready\/waiting => waiting<:PID))
+8.184078466666667E7,4.887223E7,6.0112020333333336E7,7.3800865E7:(not(waiting:POW(PID)) => pp/:active&pp/:ready\/waiting => waiting:POW(PID))

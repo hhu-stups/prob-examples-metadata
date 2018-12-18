@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TLA/TLA_Finite_Seq.mch
+6.817289133333333E7,5.2010571E7,5.1294767666666664E7,1.21612485E8:not((s:seq(Resources)) & (!r.(r:Resources => #n.(n:1..size(s)&s(n)=r)))) => (yy:dom(s))

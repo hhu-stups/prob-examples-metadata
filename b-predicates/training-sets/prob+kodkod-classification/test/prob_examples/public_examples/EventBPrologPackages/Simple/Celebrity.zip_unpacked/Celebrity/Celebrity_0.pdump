@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Simple/Celebrity.zip_unpacked/Celebrity/Celebrity_0.bcm
+5.3218895E7,4.7401023E7,6.0735051E7,7.5153202E7:(r:P) & (true => c : P)

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/ProofDirected/TestInvPreservation.zip_unpacked/TestInvPreservationPOInfo/M2_ko.bcm
+7.359969866666667E7,5.2009896333333336E7,6.0697010666666664E7,5.4681651333333336E7:(not(x:{0,1}) => not(true => 2 : {0,1}))
+7.3025115E7,5.0649574E7,6.13267E7,6.3481932E7:(not(y>x) => not(true => y > 2))

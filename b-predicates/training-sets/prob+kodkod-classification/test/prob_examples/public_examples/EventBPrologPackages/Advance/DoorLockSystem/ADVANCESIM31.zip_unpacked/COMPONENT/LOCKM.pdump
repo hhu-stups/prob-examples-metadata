@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/LOCKM.bcm
+4.4296182333333336E7,4.442781E7,6.0872731333333336E7,5.0555265E7:not((locked:BOOL)) => not((locked=FALSE))

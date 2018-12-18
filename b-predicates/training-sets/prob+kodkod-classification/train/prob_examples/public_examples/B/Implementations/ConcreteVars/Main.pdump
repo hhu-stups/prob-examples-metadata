@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Implementations/ConcreteVars/Main.mch
+5.8952818E7,5.7482217E7,6.5193905E7,8.187188733333333E7:(not(x:NATURAL) => not(x=c => x:NATURAL&(not(x=c) => (TRUE:BOOL => x:NATURAL))))
+5.3785401E7,5.478781E7,6.1595705333333336E7,6.436291E7:(not((x:NATURAL) & (c:NAT)) => (x=c => c:NAT&(not(x=c) => (TRUE:BOOL => c:NAT))) & (x=c => x:NATURAL&(not(x=c) => (TRUE:BOOL => x:NATURAL))))

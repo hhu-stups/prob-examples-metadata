@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/PerformanceTests/LargeConstants_ctx_internal_saved.mch
+2.4287399466666666E8,1.8331774833333334E8,1.2757758266666667E8,1.1623251833333333E8:not((f:POW(INTEGER*INTEGER)) & (g:POW(INTEGER)) & (h:POW(INTEGER*INTEGER*INTEGER)) & (n:INTEGER) & (n=250) & (f={x,y|x:1..n&(y:1..n&x+y>n)}-{x,y|x:2..n&(y:2..n&x=y)}) & (g={x|x:1..n+n}) & (h={x,y,z|x:1..n&(y:1..2&z:1..2)})) => 0/:g

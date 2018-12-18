@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tutorial/InfiniteParityFunction.mch
+7.5874616E7,6.8177292E7,-1.0,2.2448168866666666E8:(parity:NATURAL-->INTEGER) & (parity=%x.(x:NATURAL|x mod 2)) & (not((c:NATURAL)) => (c:NATURAL))

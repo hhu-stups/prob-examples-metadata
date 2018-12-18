@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/CBC/SimpleDeadlock1.mch
+4.8895323666666664E7,5.2287607666666664E7,6.5158565666666664E7,5.6957638666666664E7:(iv:ID) & (not((mode:1..4) & (x<:ID)) => (mode<3) & (mode<3&mode+1:1..4))

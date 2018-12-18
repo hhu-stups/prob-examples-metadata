@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLA/TLA_Distribution/AlternatingBit/AlternatingBit.mch
+5.5998159333333336E7,5.500639E7,7.4018444E7,7.192125033333333E7:(Data={d1,d2}) & (not(sBit:INTEGER) => not(sAck/=sBit => !msgQ_n.(msgQ_n=msgQ<-rec(bit:sBit,data:sent) => sBit:INTEGER)))

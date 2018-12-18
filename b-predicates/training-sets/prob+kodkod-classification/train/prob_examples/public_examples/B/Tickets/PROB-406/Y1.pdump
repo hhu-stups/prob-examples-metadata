@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROB-406/Y1.mch
+-1.0,-1.0,6.933817066666667E7,-1.0:vy1:T_ & not(vy1:T_)
+-1.0,-1.0,1.348306071E9,-1.0:(vy1:T_) & not((vy1:T_))
+4.6986282E7,7.271972233333333E7,-1.0,5.7386418E7:(not((vy1:T_)) => not((vy1:T_)))

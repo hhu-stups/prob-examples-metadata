@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/HD_ABZ16/HDMachine-160122.zip_unpacked/HDMachine/m0.bcm
+7.273568096666666E8,9.816287866666667E7,1.0510521866666667E8,5.2250872E7:not(not((CS_TopLevel:CS_TopLevel_STATES))) => (CS_TopLevel=INITIATION)

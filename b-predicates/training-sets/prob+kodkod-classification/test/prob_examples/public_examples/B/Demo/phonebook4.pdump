@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Demo/phonebook4.mch
+4.6144601333333336E7,4.7998771333333336E7,5.6045092333333336E7,5.0667779333333336E7:not((db:Name+->Code)) => (nn:Name)
+-1.0,-1.0,5.9951804E7,-1.0:not((db:Name+->Code)) & not((nn:Name) & (cc:Code))
+-1.0,-1.0,6.0000134333333336E7,-1.0:db:Name+->Code & not(db:Name+->Code)

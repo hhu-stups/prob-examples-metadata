@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/ASM/TranslationToB/TestParIf_normalized.mch
+9.6245316E7,7.494370166666667E7,5.8264997666666664E7,6.5586064E7:(xx:ID) & (yy:POW(ID)) & ({(TRUE,1),(FALSE,2)}(FALSE)=2) & ({(TRUE,xx),(FALSE,aa)}(FALSE)=aa)
+5.135255E7,5.0636164666666664E7,6.796911833333333E7,5.1899104666666664E7:(xx:ID) & (yy:POW(ID)) & not(({(TRUE,1),(FALSE,2)}(FALSE)=2) & ({(TRUE,xx),(FALSE,aa)}(FALSE)=aa))
+8.950304833333333E7,3.368054532E9,6.764577666666667E7,5.4892501666666664E7:yy:POW(ID) & not(!xx__1,xx__upd_,yy__1,yy__upd_.(xx=aa => xx__1=bb&xx__upd_=TRUE&(not(xx=aa) => xx__upd_=FALSE)&(xx=bb => yy__1={xx}&yy__upd_=TRUE)&(not(xx=bb) => yy__1={}&yy__upd_=TRUE) => yy:POW(ID)))
+9.045933833333333E7,2.9594376493333335E9,6.6369263666666664E7,5.3229603666666664E7:xx:ID & not(!xx__1,xx__upd_,yy__1,yy__upd_.(xx=aa => xx__1=bb&xx__upd_=TRUE&(not(xx=aa) => xx__upd_=FALSE)&(xx=bb => yy__1={xx}&yy__upd_=TRUE)&(not(xx=bb) => yy__1={}&yy__upd_=TRUE) => xx:ID))

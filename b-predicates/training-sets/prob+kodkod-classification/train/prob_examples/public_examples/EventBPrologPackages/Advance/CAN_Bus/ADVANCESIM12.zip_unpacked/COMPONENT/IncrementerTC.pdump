@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/IncrementerTC.bcm
+8.8559469E7,6.7342293E7,9.044350733333333E7,6.2782518333333336E7:(v:NAT) & (i_sum:NAT)
+7.890277133333333E7,5.0727563666666664E7,6.2785498E7,5.5891185666666664E7:not((v:NAT) & (i_sum:NAT)) => (data_received=FALSE) & (inc_complete=TRUE)
+4.8005801666666664E7,4.9280964333333336E7,6.4017661333333336E7,6.3979551333333336E7:not((v:NAT) & (i_sum:NAT)) & (pv:INT) & (data_received=FALSE) & (inc_complete=FALSE)
+7.352685466666667E7,6.2995092E7,6.4708345333333336E7,5.8705090666666664E7:(v:NAT) & (i_sum:NAT) & (data_received=FALSE) & (inc_complete=TRUE) & (data_received=TRUE) & (inc_complete=FALSE)

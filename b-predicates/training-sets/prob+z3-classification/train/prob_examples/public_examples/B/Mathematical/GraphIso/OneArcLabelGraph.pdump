@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/GraphIso/OneArcLabelGraph.mch
+1.9787106566666666E8,5.6447983333333336E7,-1.0,6.743399433333333E7:not((g:GRAPH) & (INIT) & not((p:N>->>N))) => (vg:GRAPH)
+4.9287040666666664E7,5.5754762666666664E7,-1.0,5.4429104666666664E7:(g:GRAPH) & (INIT) & vg:GRAPH & not((n1,n2):vg(c) => vg:C-->(N<->N)&(not((n1,n2):vg(c)) => (TRUE:BOOL => vg:C-->(N<->N))))
+-1.0,-1.0,-1.0,-1.0:(g:GRAPH) & (INIT) & (not((vg:GRAPH)) => not(((n1,n2):vg(c) => vg:C-->(N<->N)&(not((n1,n2):vg(c)) => (TRUE:BOOL => vg:C-->(N<->N))))))
+5.9928267666666664E7,5.9996596E7,-1.0,1.7333065433333334E8:(g:GRAPH) & (INIT) & vg:GRAPH & not(p:N>->>N&!nvg.(nvg:C-->(N<->N)&!c.(c:C => nvg(c)=((p;vg(c));p~)) => nvg:C-->(N<->N)))

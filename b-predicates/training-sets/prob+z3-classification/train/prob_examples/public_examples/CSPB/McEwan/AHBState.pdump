@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSPB/McEwan/AHBState.mch
+5.2066537333333336E7,5.5974925333333336E7,-1.0,6.904804701E9:not((yy:0..15)) => (XX<:0..15) & (YY<:0..15) & (ZZ<:0..15) & (YYlatched<:0..15) & (ZZlatched<:0..15) & (Burst:BurstType) & (Burstlatched:BurstType) & (BurstCount:0..17) & (BurstCountlatched:0..17) & (BurstCountlatched>0 => Burst=Burstlatched)

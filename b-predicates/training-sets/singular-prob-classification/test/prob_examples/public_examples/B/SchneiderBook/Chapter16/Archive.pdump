@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter16/Archive.mch
+-1.0,-1.0,7.201095E7,-1.0:(read:NATURAL) & (entries:seq(ELEM)) & (read:NATURAL1) & (read<=size(entries)) & not((ee:ELEM))
+5.1233796333333336E7,5.9333802E7,-1.0,1.5796024033333334E8:(read:NATURAL) & (entries:seq(ELEM)) & not((read:NATURAL1&read<=size(entries)&read:NATURAL) & (read:NATURAL1&read<=size(entries)&entries:seq(ELEM)))
+-1.0,-1.0,8.5374846E7,-1.0:entries:seq(ELEM) & not(entries:seq(ELEM))
+-1.0,-1.0,7.399714333333333E7,-1.0:(read:NATURAL) & (entries:seq(ELEM)) & not((0:NATURAL) & (entries:seq(ELEM)))
+-1.0,-1.0,-1.0,-1.0:entries:seq(ELEM) & not(ee:ELEM&entries<-ee:seq(ELEM))
+-1.0,-1.0,-1.0,-1.0:(read:NATURAL) & (entries:seq(ELEM)) & not((ee:ELEM&read:NATURAL) & (ee:ELEM&entries<-ee:seq(ELEM)))

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Records/RecordsTest.zip_unpacked/RecordsTest/IntBoolMachine.bcm
+6.953859166666667E7,4.9281942333333336E7,6.3955502666666664E7,5.6029913666666664E7:not((x=fld1(bi)&y=fld2(bi))) => (bi:BIRec)
+1.9431152526666667E9,4.8759576E7,1.5870965853333333E9,3.262182286666667E8:not((bi:BIRec)) & not((x=fld1(bi)&y=fld2(bi)))
+2.2207207133333334E8,1.6867698966666666E8,6.4552552333333336E7,3.660059006666667E8:(bi:BIRec) & ((x:BOOL&y:NAT1) => not((x=fld1(bi)&y=fld2(bi))))

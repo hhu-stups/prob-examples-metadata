@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/ForDistribution/GraphicalAnimation/Puzzle8.mch
+5.4513287E7,6.2611104666666664E7,-1.0,1.0064357066666667E8:not((dim:NATURAL1) & (dim=3) & (nmax:NATURAL1) & (nmax=dim*dim-1) & (i:1..dim-1) & (j:1..dim) & (board((i,j))=0) & (x:1..nmax) & (board((i+1,j))=x)) => (INV)
+-1.0,-1.0,-1.0,-1.0:(dim:NATURAL1) & (dim=3) & (nmax:NATURAL1) & (nmax=dim*dim-1) & (INV) & (not((i:1..dim-1) & (j:1..dim) & (board((i,j))=0) & (x:1..nmax) & (board((i+1,j))=x)) => (i:1..dim) & (j:1..dim-1) & (board((i,j))=0) & (x:1..nmax) & (board((i,j+1))=x))
+6.1197260666666664E7,7.188493266666667E7,-1.0,9.9111137E7:(dim:NATURAL1) & (dim=3) & (nmax:NATURAL1) & (nmax=dim*dim-1) & (INV) & (i:1..dim-1) & (j:1..dim) & (board((i,j))=0) & (x:1..nmax) & (board((i+1,j))=x) & (i:2..dim) & (j:1..dim) & (board((i,j))=0) & (x:1..nmax) & (board((i-1,j))=x)
+6.9186638E7,6.6383674666666664E7,-1.0,3.933513473333333E8:(dim:NATURAL1) & (dim=3) & (nmax:NATURAL1) & (nmax=dim*dim-1) & (INV) & (not((i:1..dim-1) & (j:1..dim) & (board((i,j))=0) & (x:1..nmax) & (board((i+1,j))=x)) => (i:1..dim) & (j:2..dim) & (board((i,j))=0) & (x:1..nmax) & (board((i,j-1))=x))

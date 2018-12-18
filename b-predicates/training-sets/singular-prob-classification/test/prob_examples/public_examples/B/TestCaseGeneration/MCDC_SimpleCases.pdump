@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/MCDC_SimpleCases.mch
+5.0040674666666664E7,5.3183625333333336E7,5.6291003333333336E7,5.9563067666666664E7:(not(x:0..10) => x=10&y=10 or (x=0&y=0) => x:0..10)

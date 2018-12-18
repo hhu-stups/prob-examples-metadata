@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/ForAll.mch
+4.8329353666666664E7,6.811855466666667E7,-1.0,6.0077076E7:not(not((x:COLOURS) & (x/:col1))) => not((col1:POW(COLOURS)) & (col2:POW(COLOURS)) & (!cc.(cc:col1 => cc/:col2)) & (!cc2.(cc2:col2 => cc2/:col1)))
+-1.0,6.4265667666666664E7,6.800573866666667E7,4.3695407333333336E7:not((col1:POW(COLOURS)) & (col2:POW(COLOURS)) & (!cc.(cc:col1 => cc/:col2)) & (!cc2.(cc2:col2 => cc2/:col1))) & (not(!x2.(x2:COLOURS => x2:col1 or x2:col2))) & (!x2.(x2:COLOURS => x2:col1 or x2:col2)) & (x2:COLOURS => x2:col1 or x2:col2) & (x2:COLOURS) & (x2:col1 or x2:col2) & (x2:col1) & (x2:col2)
+4.8313709333333336E7,6.3942209333333336E7,-1.0,5.5759349E7:not((col1:POW(COLOURS)) & (col2:POW(COLOURS)) & (!cc.(cc:col1 => cc/:col2)) & (!cc2.(cc2:col2 => cc2/:col1))) => (!x.(x:COLOURS => x:col1 or x:col2)) & (x:COLOURS => x:col1 or x:col2) & (x:COLOURS) & (x:col1 or x:col2) & (x:col1) & (x:col2)

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Demo/Stack.mch
+-1.0,-1.0,-1.0,-1.0:not((empty:STACKS) & (empty/:STACKS1) & (STACKS=STACKS1\/{empty}) & (full:STACKS) & (push:NFSTACKS*DATA-->STACKS1) & (push/={}) & (pop:STACKS1-->STACKS) & (tops:STACKS1-->DATA) & (!s,d.(s:NFSTACKS&d:DATA => pop(push(s,d))=s)) & (!s,d.(s:NFSTACKS&d:DATA => tops(push(s,d))=d)) & (d:DATA) & ((mystack,d):dom(push))) => not((mystack:STACKS))
+-1.0,-1.0,-1.0,-1.0:(empty:STACKS) & (empty/:STACKS1) & (STACKS=STACKS1\/{empty}) & (full:STACKS) & (push:NFSTACKS*DATA-->STACKS1) & (push/={}) & (pop:STACKS1-->STACKS) & (tops:STACKS1-->DATA) & (!s,d.(s:NFSTACKS&d:DATA => pop(push(s,d))=s)) & (!s,d.(s:NFSTACKS&d:DATA => tops(push(s,d))=d)) & (not(mystack:STACKS) => mystack:STACKS)

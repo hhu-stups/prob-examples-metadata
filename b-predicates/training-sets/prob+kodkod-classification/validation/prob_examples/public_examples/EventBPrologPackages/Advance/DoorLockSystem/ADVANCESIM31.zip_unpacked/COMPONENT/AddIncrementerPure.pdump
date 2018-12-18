@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/AddIncrementerPure.bcm
+6.0398648666666664E7,5.1402905333333336E7,-1.0,6.788766E7:(v:NAT) & (trigger_received=FALSE) & not((p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (trigger_received=TRUE))

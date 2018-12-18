@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/pf_test.mch
+1.1533619866666667E8,2.0642387566666666E8,6.1845038666666664E7,8.097193533333333E7:not((nm:POW(Name)) & (f:Name+->Name)) => (n:POW(Name)) & (n=nm)
+7.914882233333333E7,2.0109305366666666E8,1.15730196E8,1.29137232E8:(nm:POW(Name)) & (f:Name+->Name) & ((n:Name) => not((nn=nn~) & (nn:Name-->Name)))

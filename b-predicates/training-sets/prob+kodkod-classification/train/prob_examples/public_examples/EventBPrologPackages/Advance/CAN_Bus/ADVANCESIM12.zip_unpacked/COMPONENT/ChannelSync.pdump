@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/ChannelSync.bcm
+4.9046879333333336E7,4.8791447E7,6.2082568666666664E7,5.6104062E7:not(not((sum:NAT) & (sum_prime:NAT))) => (adder_evaluated=TRUE) & (incrementer_evaluated=TRUE)
+4.9935144333333336E7,4.9597857E7,6.1175819666666664E7,6.4566171333333336E7:(sum:NAT) & (sum_prime:NAT) & (pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE)
+5.066757E7,4.9617529333333336E7,6.0950557666666664E7,5.7701774333333336E7:not((sum:NAT) & (sum_prime:NAT)) => (pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE)
+5.1989874666666664E7,5.6991046666666664E7,9.938207466666667E7,4.8891296333333336E7:not((sum:NAT) & (sum_prime:NAT)) => incrementer_evaluated:BOOL
+5.4786529666666664E7,6.2008839666666664E7,1.03769085E8,4.8730498666666664E7:not((sum:NAT) & (sum_prime:NAT)) => sum:INT
+9.2353993E7,5.6281319E7,7.975548633333333E7,5.5624042666666664E7:(sum:NAT) & (sum_prime:NAT) & In1:Parameters +-> INT
+6.6048576E7,4.8477696333333336E7,6.6695958E7,6.0084246666666664E7:not((sum:NAT) & (sum_prime:NAT)) => In1:Parameters +-> INT

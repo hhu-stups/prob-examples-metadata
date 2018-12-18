@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Convergence/convergenceerr.zip_unpacked/ConvergenceErr/variant_set.bcm
+3.02941177E8,4.020744766666667E8,9.891614033333333E7,3.227526816666667E8:not((s<:INT) & (finite(s))) => not((e:1 .. 4))

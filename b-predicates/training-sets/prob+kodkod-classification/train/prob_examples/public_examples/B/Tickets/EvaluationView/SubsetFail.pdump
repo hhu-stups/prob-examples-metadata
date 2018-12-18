@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tickets/EvaluationView/SubsetFail.mch
+4.7422999333333336E7,6.0104338E7,6.3851439E7,5.6130275333333336E7:not((iv:ID) & (xx<:{aa})) => xx<:{bb}
+5.4670243666666664E7,4.9332297333333336E7,-1.0,7.167382566666667E7:(iv:ID) & (xx<:{aa}) & not({xx,{},{bb}}:POW(POW({bb})))
+4.6757529E7,5.151549E7,9.911870266666667E7,6.4978770666666664E7:not((iv:ID) & (xx<:{aa})) => (xx\/{bb}<:ID\{iv}) & (xx<:{bb}) & ({xx,{},{bb}}:POW(POW({bb})))

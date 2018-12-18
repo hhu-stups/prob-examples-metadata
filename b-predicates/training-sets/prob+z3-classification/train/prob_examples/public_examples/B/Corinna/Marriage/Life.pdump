@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Corinna/Marriage/Life.mch
+5.1479125666666664E7,8.243480766666667E7,7.5460806E7,6.854440066666667E7:(male<:PERSON) & (female<:PERSON) & (male/\female={}) & not((nn:PERSON) & (nn/:male\/female) & (ss:SEX))
+7.6788233E7,9.4113318E7,7.350490066666667E7,8.2898065E7:(not((male<:PERSON) & (female<:PERSON) & (male/\female={})) => (nn:male\/female&(nn:male => female<:PERSON&(not(nn:male) => (TRUE:BOOL => female<:PERSON)))) & (nn:male\/female&(nn:male => male-{nn}/\female={}&(not(nn:male) => (TRUE:BOOL => male/\female-{nn}={})))) & (nn:male\/female&(nn:male => male<:PERSON&(not(nn:male) => (TRUE:BOOL => male<:PERSON)))))
+5.1623510666666664E7,4.8097899666666664E7,6.773882866666667E7,5.4332537666666664E7:(not(female<:PERSON) => not(nn/:male\/female&(ss=boy => female<:PERSON&(not(ss=boy) => (TRUE:BOOL => female<:PERSON)))))
+5.3745289E7,7.221807566666667E7,7.070559266666667E7,6.6585632333333336E7:male<:PERSON & not(nn/:male\/female&(ss=boy => male<:PERSON&(not(ss=boy) => (TRUE:BOOL => male<:PERSON))))

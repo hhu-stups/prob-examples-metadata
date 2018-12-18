@@ -1,0 +1,11 @@
+#source:examples/prob_examples/public_examples/B/Laws/NatRangeLaws.mch
+-1.0,-1.0,-1.0,-1.0:not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) & (card(0..xx)=xx+1) & (card(1..MAXINT)=MAXINT) & (min(-1..xx)=-1) & (max(-1..xx)=xx) & (xx..xx-1<:xx..zz) & (xx..zz<:xx..zz) & (xx..zz<:xx..zz+1) & (xx+1..zz<:xx..zz) & (xx..zz-1<:xx..zz) & (xx+1..zz-1<:xx..zz) & (xx<=zz => xx..zz<:xx..zz+1&xx+1..zz<<:xx..zz&xx..zz-1<<:xx..zz&xx+1..zz-1<<:xx..zz) & (xx..zz<:zz..xx <=> zz<=xx) & (xx..zz<<:zz..xx <=> zz<xx) & (perm(NAT1)=perm(1..MAXINT)) & (%i.(i:NAT1|i):perm(NAT1))) => not((yy:INT))
+4.874165E7,5.1977303333333336E7,6.0025068E7,5.6007960333333336E7:(not(xx<=zz <=> xx:0..zz) => not(yy:NAT&yy<=zz <=> yy:0..zz))
+4.7472517333333336E7,4.8008828666666664E7,-1.0,6.796457833333333E7:(not(NAT1=1..MAXINT) => not(yy:NAT&NAT1=1..MAXINT))
+4.7487696333333336E7,4.9389800333333336E7,6.4070508E7,5.9907152666666664E7:(not(NAT\/NAT1=NAT) => yy:NAT&NAT\/NAT1=NAT)
+4.8509567E7,5.1898778333333336E7,6.1330378333333336E7,5.6144244E7:(not(xx:xx..xx+1) => yy:NAT&yy:yy..yy+1)
+7.5917964E7,4.9570363666666664E7,4.1743576333333336E7,1.04031595E8:(not(card(xx..xx)=1) => not(yy:INT&card(xx..xx)=1))
+4.8171792E7,5.0599963666666664E7,6.462812E7,5.478881055E9:(not(card(xx..xx+1)=2) => yy:INT&card(xx..xx+1)=2)
+5.6858021666666664E7,5.9976458666666664E7,6.5623522E7,7.0508687E7:{}:1..0-->INTEGER & yy:INT&{}:1..0-->INTEGER
+1.5369349733333334E8,1.0103684733333333E8,6.710240643333334E8,1.33834989E8:(not(xx<=zz => xx..zz<:xx..zz+1&xx+1..zz<<:xx..zz&xx..zz-1<<:xx..zz&xx+1..zz-1<<:xx..zz) => xx<=zz => xx..zz<:xx..zz+1&xx+1..zz<<:xx..zz&xx..zz-1<<:xx..zz&xx+1..zz-1<<:xx..zz)
+4.7322266E7,4.9394759E7,-1.0,1.081575201E9:(not(%i.(i:NAT1|i):perm(NAT1)) => not(%i.(i:NAT1|i):perm(NAT1)))

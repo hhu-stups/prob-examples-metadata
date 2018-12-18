@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Doors.mch
+-1.0,-1.0,6.4878967E7,-1.0:(position:DOOR-->POSITION) & ((dd:DOOR) => not((dd:DOOR)))

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/FunctionalProgramming/Butler/fact1.mch
+-1.0,-1.0,1.76695654E8,6.7710077E7:(fact:NATURAL-->NATURAL) & (fact={x,y|x:NATURAL&y:NATURAL&(x=0 => y=1)&(x>0 => y=x*fact(x-1))}) & (N:NATURAL) & (ff:NATURAL) & not(fact(0)=1)
+2.5550614133333334E8,2.1818654433333334E8,-1.0,6.6348730666666664E7:not((fact:NATURAL-->NATURAL) & (fact={x,y|x:NATURAL&y:NATURAL&(x=0 => y=1)&(x>0 => y=x*fact(x-1))}) & (N:NATURAL) & (ff:NATURAL)) => !x.(x:NATURAL&x>0 => fact(x)=x*fact(x-1))
+-1.0,-1.0,1.09446483E8,-1.0:not((fact:NATURAL-->NATURAL) & (fact={x,y|x:NATURAL&y:NATURAL&(x=0 => y=1)&(x>0 => y=x*fact(x-1))}) & (N:NATURAL) & (ff:NATURAL)) => (fact(0)=1) & (!x.(x:NATURAL&x>0 => fact(x)=x*fact(x-1)))

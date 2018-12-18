@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Paperround.mch
+4.7500454E7,5.0599987E7,-1.0,7.397491033333333E7:(not(magazines<:papers) => hh:1..163&card(papers)<60&magazines<:papers\/{hh})
+5.0625176E7,5.5864762333333336E7,-1.0,1.16635619E8:(papers<:1..163) & (magazines<:papers) & (card(papers)<=60) & (hh:papers&magazines\/{hh}<:papers) & (hh:papers&papers<:1..163) & (hh:papers&card(papers)<=60)
+5.3112387E7,5.3256050666666664E7,4.5979380666666664E7,1.1072583566666667E8:card(papers)<=60 & not(hh:1..163&card(papers-{hh})<=60)

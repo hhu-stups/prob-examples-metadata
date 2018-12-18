@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/ADDERTD.bcm
+4.9236475E7,5.2007684333333336E7,-1.0,5.9938441333333336E7:not(not((p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (adder_state=A_ADD))) => (o_sum:NAT)

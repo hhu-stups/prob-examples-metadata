@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Tester/ForAllSet.mch
+7.145112533333333E7,6.5109001E7,9.975248933333333E7,9.9528858E7:not((f:ID-->POW(ID)) & (f={(aa,{bb}),(bb,{cc}),(cc,{aa,cc})}) & (xx:ID) & (!y.(y:f(y) => y=cc)) & (!z.(z:ran(f) => card(z)<=2)) & (!v,w.((v,{w}):f => v/=cc))) => (yy:f(xx))
+7.2490689E7,5.6677551666666664E7,-1.0,1.3233666133333333E8:not((f:ID-->POW(ID)) & (f={(aa,{bb}),(bb,{cc}),(cc,{aa,cc})}) & not((yy:f(xx)))) => (xx:ID) & (!y.(y:f(y) => y=cc)) & (!z.(z:ran(f) => card(z)<=2)) & (!v,w.((v,{w}):f => v/=cc))
+1.7453983966666666E8,1.0848728266666667E8,9.029963433333333E7,1.1063217866666667E8:(f:ID-->POW(ID)) & (f={(aa,{bb}),(bb,{cc}),(cc,{aa,cc})}) & (xx:ID) & (!y.(y:f(y) => y=cc)) & (!z.(z:ran(f) => card(z)<=2)) & (!v,w.((v,{w}):f => v/=cc)) & !v,w.((v,{w}):f => v/=bb)
+6.0852244333333336E7,5.8697012333333336E7,-1.0,8.764054433333333E7:(f:ID-->POW(ID)) & (f={(aa,{bb}),(bb,{cc}),(cc,{aa,cc})}) & (xx:ID) & (!y.(y:f(y) => y=cc)) & (!z.(z:ran(f) => card(z)<=2)) & (!v,w.((v,{w}):f => v/=cc)) & not(!v,w.((v,{w}):f => v/=bb))
+9.470387233333333E7,6.1088308E7,1.73230665E8,7.211629366666667E7:not((f:ID-->POW(ID)) & (f={(aa,{bb}),(bb,{cc}),(cc,{aa,cc})}) & (xx:ID) & (!y.(y:f(y) => y=cc)) & (!z.(z:ran(f) => card(z)<=2)) & (!v,w.((v,{w}):f => v/=cc))) => (v,w):f => v:w
+5.3742960666666664E7,5.9560809666666664E7,-1.0,9.491977566666667E7:(f:ID-->POW(ID)) & (f={(aa,{bb}),(bb,{cc}),(cc,{aa,cc})}) & (xx:ID) & (!y.(y:f(y) => y=cc)) & (!z.(z:ran(f) => card(z)<=2)) & (!v,w.((v,{w}):f => v/=cc)) & not((v,w):f)

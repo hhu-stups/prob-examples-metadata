@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/CSPB/SimpleRussianPostalPuzzle.mch
+4.8539995E7,4.7878667333333336E7,-1.0,6.015467E7:(keysforsale:POW(KeyIDs)) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL) & (from:PERSONS) & (to:PERSONS)
+1.274396E8,4.7930722666666664E7,6.5301670333333336E7,5.4238624E7:(not(box_contains_gem:BOOL) => not(keyid:padlocks&keyid:has_keys(person)))

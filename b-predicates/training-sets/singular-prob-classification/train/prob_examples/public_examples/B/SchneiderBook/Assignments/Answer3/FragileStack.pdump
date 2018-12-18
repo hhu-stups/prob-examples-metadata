@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Assignments/Answer3/FragileStack.mch
+4.7262202E7,5.2672224333333336E7,7.119545966666667E7,1.0904598966666667E8:not((items:seq(ITEM)) & (size(items)<=dep)) => not((items/=[]))

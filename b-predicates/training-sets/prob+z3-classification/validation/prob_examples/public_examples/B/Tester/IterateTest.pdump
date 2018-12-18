@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/IterateTest.mch
+-1.0,-1.0,-1.0,-1.0:(r:ID<->ID) & (r={(aa,bb),(bb,cc),(dd,bb),(dd,dd),(cc,ee)}) & ir<:closure1(r)\/id(ID) & not(iterate(ir,2)<:closure1(r)\/id(ID))
+-1.0,-1.0,-1.0,-1.0:(r:ID<->ID) & (r={(aa,bb),(bb,cc),(dd,bb),(dd,dd),(cc,ee)}) & (ir:ID<->ID) & (ir<:closure1(r)\/id(ID)) & not((iterate(ir,2)<:closure1(r)\/id(ID)) & (ir:ID<->ID))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/Z/Daniel/BirthdayBook.mch
+-1.0,-1.0,7.5598091E7,-1.0:(turing:NAME) & (June23:DATE) & (INV(known,birthday)) & (name:NAME) & (date:DATE) & (name/:known) & not((name:NAME) & (date:DATE) & (name/:known))

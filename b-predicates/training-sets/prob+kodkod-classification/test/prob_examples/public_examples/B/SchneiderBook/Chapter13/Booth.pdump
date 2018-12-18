@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter13/Booth.mch
+5.7753922333333336E7,5.7375965E7,6.3041396333333336E7,2.6771616666666666E8:(not(reserved:CUSTOMER-->NAT) => not(nn:NAT1&reserved<+{(cc,reserved(cc)+nn)}:CUSTOMER-->NAT))

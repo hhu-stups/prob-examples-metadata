@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/Ticktest.mch
+9.2914399E7,5.2844916E8,1.1341889233333333E8,6.3383083333333336E7:not((iv:ID) & not((xx:ID))) => (zz=xx)

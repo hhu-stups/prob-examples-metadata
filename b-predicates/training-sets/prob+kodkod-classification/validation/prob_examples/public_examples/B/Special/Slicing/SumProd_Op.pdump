@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Special/Slicing/SumProd_Op.mch
+3.19190264E8,2.875173576666667E8,-1.0,3.87101437E8:not((arr:seq(INTEGER)) & (sumv:INTEGER) & (prod:INTEGER) & (cur:0..size(arr)) & (sumv=SIGMA(z).(z:1..cur|arr(z))) & (prod=PI(z).(z:1..cur|arr(z)))) & (cur=size(arr))

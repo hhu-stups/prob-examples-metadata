@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/TLC/GOAL/BlocksWorld.mch
+7.862384833333333E7,7.9788824E7,-1.0,6.1429972E7:not((on:Objects+->Objects)) => (obj/:ran(on)) & ((obj,table)/:on)
+4.7921340666666664E7,1.1061839633333333E8,4.5535259666666664E7,6.3277274E7:not((on:Objects+->Objects)) => not((obj/:ran(on)) & ((obj,table)/:on))
+4.9709347666666664E7,9.263650066666667E7,7.214567366666667E7,7.2249574E7:not((on:Objects+->Objects)) & not((obj/:ran(on)) & ((obj,table)/:on))
+4.7689304666666664E7,7.653475566666667E7,-1.0,6.2693587E7:not(not((obj/:ran(on)) & (onobj/:ran(on)) & (obj/=onobj))) => not((on:Objects+->Objects))

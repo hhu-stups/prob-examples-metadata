@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/GraphIso/CheckGraphIsomorphism.mch
+5.1697170333333336E7,7.328734533333333E7,1.0632509E8,5.0640681333333336E7:(not(graph2:Nodes<->Nodes) => not(graph2:Nodes<->Nodes))

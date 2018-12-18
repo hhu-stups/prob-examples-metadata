@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/CSPB/SimpleRussianPostalPuzzle.mch
+-1.0,-1.0,1.16750182E8,-1.0:not((keysforsale:POW(KeyIDs)) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL)) => (keyid:KeyIDs) & (person:PERSONS) & (keyid:padlocks) & (keyid:has_keys(person))
+5.4004982333333336E7,5.5818760333333336E7,7.335448666666667E7,6.6636267E7:not((keysforsale:POW(KeyIDs)) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL)) => (keyid:keysforsale) & (person:PERSONS)
+5.3615872666666664E7,5.9377593E7,-1.0,6.6488971666666664E7:not(not((keyid:keysforsale) & (person:PERSONS))) => not((keysforsale:POW(KeyIDs)) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL))
+4.9204604333333336E7,5.3850284E7,-1.0,7.443893533333333E7:has_keys:PERSONS-->POW(KeyIDs) & box_contains_gem=TRUE&padlocks={}&has_keys:PERSONS-->POW(KeyIDs)

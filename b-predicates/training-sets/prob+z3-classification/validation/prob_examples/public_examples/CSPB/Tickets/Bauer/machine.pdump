@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSPB/Tickets/Bauer/machine.mch
+7.77504179E8,3.3796984E8,9.980261233333333E7,5.0482490666666664E7:not(not((x:NATURAL))) => (i:1..3)

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/BZTT/TestBZTT.mch
+5.0967910333333336E7,9.2476657E7,-1.0,7.077531733333333E7:not(not((ff:ID-->ID) & (!y.(y:ID => ff(y)/=y)))) => (fun:ID-->ID) & (x:ID) & (s:POW(ID))
+-1.0,1.2044757933333333E8,-1.0,-1.0:not((fun:ID-->ID) & (x:ID) & (s:POW(ID))) => not((z:ID) & (z=fun(z)))
+5.5813731333333336E7,9.241466133333333E7,1.12164566E8,5.7654957666666664E7:not(not((ff:ID-->ID) & (ff(a)/=a) & (ff(b)/=b) & (ff(c)/=c) & (ff(d)/=d) & (ff(e)/=e) & (ff(f)/=f) & (ff(g)/=g))) => not((fun:ID-->ID) & (x:ID) & (s:POW(ID)))

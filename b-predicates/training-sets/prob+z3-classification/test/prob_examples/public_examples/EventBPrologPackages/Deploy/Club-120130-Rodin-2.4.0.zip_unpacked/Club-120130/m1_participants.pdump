@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Deploy/Club-120130-Rodin-2.4.0.zip_unpacked/Club-120130/m1_participants.bcm
+5.0451155E7,1.0057503366666667E8,4.7437852333333336E7,1.0694474533333333E8:not((crs:POW(CRS)) & (card(crs)<=m) & (prtcpts:crs <-> PRTCPT) & (!c oftype CRS.c:crs=>instrs(c)/:prtcpts[{c}])) => not((card(crs)/=m) & (crs/=CRS) & (dom(prtcpts)<:crs))
+7.568639333333333E7,5.9840617333333336E7,-1.0,1.1462635466666667E8:(crs:POW(CRS)) & (card(crs)<=m) & (prtcpts:crs <-> PRTCPT) & (!c oftype CRS.c:crs=>instrs(c)/:prtcpts[{c}]) & (p:PRTCPT) & (c:crs) & (p/=instrs(c)) & (c |-> p/:prtcpts) & not((cs<:crs) & (cs/=({} oftype POW(CRS))))

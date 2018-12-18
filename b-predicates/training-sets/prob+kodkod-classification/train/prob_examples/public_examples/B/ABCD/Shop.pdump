@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/ABCD/Shop.mch
+5.6192946666666664E7,5.0589580333333336E7,6.0360795E7,5.7176801E7:not((resources:NAT) & (resp:BOOL) & (state:NAT) & (state<2)) => (state=1)
+5.091085E7,5.0312543666666664E7,6.1004149666666664E7,6.6040148666666664E7:(resources:NAT) & (resp:BOOL) & (state:NAT) & (state<2) & not((state=1))
+4.8646712666666664E7,4.9272490333333336E7,6.1438679E7,5.8668564333333336E7:not(not((state=1))) => not((resources:NAT) & (resp:BOOL) & (state:NAT) & (state<2))

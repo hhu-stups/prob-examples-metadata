@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLA/Login/Login.mch
+5.3177641666666664E7,7.068431433333333E7,7.2234209E7,5.6006493333333336E7:(card(User)=15) & not((x:POW(User))) & not((x/={}) & (u:x))

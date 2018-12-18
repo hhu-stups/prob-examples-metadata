@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Valerio6/MEMORY.mch
+-1.0,-1.0,2.517578318E9,-1.0:not((PROGRAM_R_ADR=USHORT) & (DATA_R_ADR=USHORT) & (STACK_R_ADR=USHORT) & not((mem:BV16+->BYTE))) => not((NewValues:BV16+->BYTE))
+5.0558501E7,5.3490578E7,6.8186138E7,6.6374455E7:(PROGRAM_R_ADR=USHORT) & (DATA_R_ADR=USHORT) & (STACK_R_ADR=USHORT) & (mem:BV16+->BYTE) & (address:BV16) & (value:BYTE) & not((NewValues:BV16+->BYTE))

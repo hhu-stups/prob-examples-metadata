@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Rene/sched.mch
+4.6277206666666664E7,4.7969228333333336E7,5.7417753666666664E7,4.7962454E7:(not(ready:POW(PID)) => ready:POW(PID))
+-1.0,-1.0,6.001231E7,-1.0:active/\(ready\/waiting)={} & not(pp/:active&pp/:ready\/waiting => active/\(ready\/(waiting\/{pp}))={})
+-1.0,-1.0,-1.0,-1.0:card(active)<=1 & not(pp/:active&pp/:ready\/waiting => card(active)<=1)

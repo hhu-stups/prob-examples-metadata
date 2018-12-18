@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksEnablingAnalysis/other/phonebook5.mch
+5.5052554666666664E7,7.755092333333333E7,7.1311373E7,1.19290775E8:not((db:Name+->Code) & (active:POW(Name)) & (dom(db)=active)) & not((nn:Name) & (cc:Code) & (nn/:active))
+1.0631012033333333E8,4.7900807333333336E7,7.268985333333333E7,5.1119442666666664E7:not((db:Name+->Code) & (active:POW(Name)) & (dom(db)=active)) => (nn:Name) & (cc:Code)
+4.9018756333333336E7,4.9105918333333336E7,1.28080766E8,8.4897947E7:not((nn:Name) & (cc:Code)) => (db:Name+->Code) & (active:POW(Name)) & (dom(db)=active)
+8.75968E7,7.935031366666667E7,7.518437433333333E7,7.1879811E7:not(not((db:Name+->Code) & (active:POW(Name)) & (dom(db)=active))) => not((nn:Name) & (cc:Code))
+9.878665433333333E7,6.5707192E7,7.255818E7,6.5300156666666664E7:(db:Name+->Code) & (active:POW(Name)) & (dom(db)=active) & (not((nn:Name) & (cc:Code) & (nn/:active)) => (nn:Name) & (cc:Code))
+4.7647842E7,6.0160070666666664E7,6.3787953E7,5.7451998666666664E7:active:POW(Name) & nn/:active
+1.22185137E8,4.8016627333333336E7,8.518327166666667E7,5.0847993333333336E7:(not(active:POW(Name)) => not(nn/:active))

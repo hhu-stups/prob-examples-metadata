@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/TimingExampleSimpler_v2_VariablesLimited.mch
+5.2768931333333336E7,3.04824913E8,6.2620346666666664E7,1.57393222E8:(mxc:1..10) & (mxe:1..10) & not((INV) & (timer_c<LIMIT) & (timer_e<LIMIT)) & (pc=1) & (v:1..mxe) & (timer_e<LIMIT-v)
+6.2543265333333336E7,7.053124533333333E7,5.9039351333333336E7,1.4582233766666666E8:(mxc:1..10) & (mxe:1..10) & (INV) & (timer_c<LIMIT) & (timer_e<LIMIT) & ((pc=0) & (v:1..mxc) & (timer_c<LIMIT-v) => not((pc=1) & (v:1..mxe) & (timer_e<LIMIT-v)))
+-1.0,-1.0,6.728406833333333E7,-1.0:(mxc:1..10) & (mxe:1..10) & INV & not(v=timer_e&timer_c>=timer_e&pc=2 => timer_c-v:NATURAL&timer_e-v:NATURAL&timer_c-v-(timer_e-v)<50&0:0..2)

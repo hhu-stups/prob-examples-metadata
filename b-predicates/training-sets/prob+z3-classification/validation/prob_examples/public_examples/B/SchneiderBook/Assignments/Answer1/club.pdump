@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Assignments/Answer1/club.mch
+4.8657048666666664E7,5.1975045E7,4.1756939333333336E7,1.6199776566666666E8:not((bound:NAT1) & (bound=500) & (nn:waiting) & (card(member)<bound)) => (member<:NAMES) & (waiting<:NAMES) & (card(member)<=bound) & (member/\waiting={})
+5.0288122333333336E7,5.1923409E7,4.5010705E7,1.0683355733333333E8:(bound:NAT1) & (bound=500) & (member<:NAMES) & (waiting<:NAMES) & (card(member)<=bound) & (member/\waiting={}) & (nn:waiting) & (nn:waiting) & (card(member)<bound)
+4.9308086E7,5.1829217E7,4.2162624333333336E7,1.01591364E8:(bound:NAT1) & (bound=500) & (member<:NAMES) & (waiting<:NAMES) & (card(member)<=bound) & (member/\waiting={}) & (not((nn:waiting)) => (nn:waiting) & (card(member)<bound))
+-1.0,-1.0,6.0018246666666664E7,-1.0:(bound:NAT1) & (bound=500) & member/\waiting={} & not(member/\waiting={})
+-1.0,-1.0,-1.0,-1.0:(bound:NAT1) & (bound=500) & (member<:NAMES) & (waiting<:NAMES) & (card(member)<=bound) & (member/\waiting={}) & not((member/\waiting={}) & (waiting<:NAMES) & (card(member)<=bound) & (member<:NAMES))
+4.9360280666666664E7,5.2014854666666664E7,4.3744296666666664E7,1.18241037E8:(bound:NAT1) & (bound=500) & card(member)<=bound & not(nn:member&card(member-{nn})<=bound)

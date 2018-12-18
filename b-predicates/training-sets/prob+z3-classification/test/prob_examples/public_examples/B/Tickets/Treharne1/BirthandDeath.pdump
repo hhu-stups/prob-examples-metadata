@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Treharne1/BirthandDeath.mch
+4.431138741333333E9,6.4301612333333336E7,6.5117568333333336E7,5.6009241E7:not(not((male<:PERSON) & (female<:PERSON) & (male/\female={}))) => (nn:PERSON) & (ss:SEX) & (nn/:male\/female)
+4.8193791666666664E7,6.927219333333333E7,-1.0,5.3896518666666664E7:not((nn:PERSON) & (nn:male\/female)) => not((male<:PERSON) & (female<:PERSON) & (male/\female={}))

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Puzzle8_difficult.mch
+7.618671366666667E7,6.805472E7,6.4337930333333336E7,2.45454025E8:(dim:NATURAL1) & (dim=3) & (nmax:NATURAL1) & (nmax=dim*dim-1) & not((INV)) & not((i:1..dim-1) & (j:1..dim) & (board((i,j))=0) & (x:1..nmax) & (board((i+1,j))=x))
+6.5107394666666664E7,8.848576333333333E7,8.048909933333333E7,1.3423462133333334E8:not((dim:NATURAL1) & (dim=3) & (nmax:NATURAL1) & (nmax=dim*dim-1) & (i:1..dim) & (j:2..dim) & (board((i,j))=0) & (x:1..nmax) & (board((i,j-1))=x)) => not((INV))
+7.160507866666667E7,7.241521433333333E7,-1.0,3.541140256666667E8:(dim:NATURAL1) & (dim=3) & (nmax:NATURAL1) & (nmax=dim*dim-1) & (INV) & (i:1..dim) & (j:1..dim-1) & (board((i,j))=0) & (x:1..nmax) & (board((i,j+1))=x) & (i:2..dim) & (j:1..dim) & (board((i,j))=0) & (x:1..nmax) & (board((i-1,j))=x)

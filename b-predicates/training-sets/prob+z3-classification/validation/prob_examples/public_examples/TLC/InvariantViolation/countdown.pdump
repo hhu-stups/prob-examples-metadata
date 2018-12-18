@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLC/InvariantViolation/countdown.mch
+1.0715657366666667E8,1.0991011266666667E8,6.4755139E7,1.5324832866666666E8:not(not((nums:POW(NATURAL)) & (1234/:nums))) => (n1:nums) & (n2:nums) & (n1<n2)

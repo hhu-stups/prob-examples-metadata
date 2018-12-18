@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/HadamardMatrix_ForKodkod.mch
+-1.0,-1.0,-1.0,-1.0:(Order:NATURAL1) & (Order:3..16) & (Order=16) & (H:IDX*IDX-->{-1,1}) & (!i,j.(i:IDX&j:IDX&i<j => SIGMA(k).(k:IDX|H(i,k)*H(j,k))=0)) & (i:IDX) & (j:IDX) & (i<j)
+1.85487298E8,1.33832987E8,-1.0,9.961175933333333E7:not((Order:NATURAL1) & (Order:3..16) & (Order=16) & (H:IDX*IDX-->{-1,1}) & (!i,j.(i:IDX&j:IDX&i<j => SIGMA(k).(k:IDX|H(i,k)*H(j,k))=0))) => not((i:IDX) & (j:IDX) & (i<j))

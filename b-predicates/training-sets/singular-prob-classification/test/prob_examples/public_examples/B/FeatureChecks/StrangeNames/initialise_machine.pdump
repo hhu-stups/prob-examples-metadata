@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/StrangeNames/initialise_machine.mch
+6.3527492E7,9.950441366666667E7,1.1991205933333333E8,5.2404429E7:(iv:ID) & (not((xx:ID)) => not((xx:ID)))
+5.8003442E7,5.3835291333333336E7,7.380608033333333E7,5.6652827666666664E7:(iv:ID) & (xx:ID) & (xx:ID)

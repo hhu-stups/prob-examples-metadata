@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/LTL/SimpleWithConstants.mch
+4.8853931333333336E7,6.928609233333333E7,6.812938033333333E7,6.3887314333333336E7:not((iv:ID) & (iv=s1) & not((xx:ID))) => not((xx=iv))
+4.7940733333333336E7,6.2453728666666664E7,6.5589253E7,6.2598509666666664E7:(iv:ID) & (iv=s1) & (xx:ID) & (not((xx=s2)) => (xx=iv))
+4.7544290666666664E7,6.1367394333333336E7,6.4937331333333336E7,6.6860644E7:(iv:ID) & (iv=s1) & (xx:ID) & (xx=s2) & not((xx=iv))

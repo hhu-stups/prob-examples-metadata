@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Queens.mch
+7.679498433333333E7,7.8489334E7,-1.0,2.734880836666667E8:(M=5) & not((board:BOARD)) & not((i:IDX) & (j:IDX) & (!j2.(j2:IDX => board(i,j2)=FALSE)))

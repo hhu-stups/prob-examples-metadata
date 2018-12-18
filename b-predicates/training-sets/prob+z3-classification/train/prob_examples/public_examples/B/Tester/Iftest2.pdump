@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/Iftest2.mch
+5.4749234E7,7.267399966666667E7,1.06317989E8,5.1976069333333336E7:(not(yy:SS) => not(xx=bb => yy:SS&(not(xx=bb) => (xx=cc => yy:SS))))

@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/CBC/ReservationLivre.mch
+-1.0,-1.0,6.2063618666666664E7,-1.0:(emprunt:LIVRES+->UTIL) & (reservation:LIVRES<->UTIL) & (emprunt/\reservation={}) & not((lec:UTIL) & (livre:LIVRES))
+4.8122250666666664E7,1.0329914633333333E8,6.461662E7,6.2873707333333336E7:not(not((lec:UTIL) & (livre:LIVRES))) => (emprunt:LIVRES+->UTIL) & (reservation:LIVRES<->UTIL) & (emprunt/\reservation={})
+4.7383422666666664E7,4.7904811666666664E7,6.1277322E7,4.9443624333333336E7:not(not((emprunt:LIVRES+->UTIL) & (reservation:LIVRES<->UTIL) & (emprunt/\reservation={}))) => (lec:UTIL) & (livre:LIVRES)
+-1.0,-1.0,6.2736492666666664E7,-1.0:not((emprunt:LIVRES+->UTIL) & (reservation:LIVRES<->UTIL) & (emprunt/\reservation={})) & not((lec:UTIL) & (livre:LIVRES))
+8.2554097E7,2.1521973333333334E8,6.4996649666666664E7,6.5391206666666664E7:emprunt/\reservation={} & not(emprunt/\(reservation\/{(livre,lec)})={})
+-1.0,-1.0,6.0311021333333336E7,-1.0:emprunt:LIVRES+->UTIL & not(emprunt:LIVRES+->UTIL)
+7.9005671E7,7.163154833333333E7,6.4846258E7,6.0281152333333336E7:(not(emprunt:LIVRES+->UTIL) => not(emprunt:LIVRES+->UTIL))

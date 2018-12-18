@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/CSPB/abroadcast.mch
+5.1281032E7,5.0067447E7,-1.0,6.8104843E7:not((order:iseq(Message)) & (deliv:Node<->Message) & (bcast:POW(Message)) & (correct:POW(Node))) & (mm:Message) & (mm:bcast-ran(order))
+1.1552639966666667E8,6.221550124333333E9,-1.0,7.322672333333333E7:(order:iseq(Message)) & (deliv:Node<->Message) & (bcast:POW(Message)) & (correct:POW(Node)) & (not((nn:correct) & (mm:Message)) => (nn:correct))
+1.8529819133333334E8,8.046391E7,-1.0,7.7001482E7:(order:iseq(Message)) & (deliv:Node<->Message) & (bcast:POW(Message)) & (correct:POW(Node)) & (nn:correct) & (mm:Message) & not((nn:correct) & (mm:Message) & (mm/:bcast))
+4.9470979E7,5.1911070666666664E7,-1.0,1.8193547266666666E8:deliv:Node<->Message & not(nn:correct&!ii.(ii:NATURAL&order|>>deliv[{nn}]/={}&ii=min(dom(order|>>deliv[{nn}]))&mm=order(ii) => deliv:Node<->Message))
+1.08553888E8,5.1151896E7,-1.0,9.449667666666667E7:(not(order:iseq(Message)) => nn:correct&mm/:bcast&order:iseq(Message))

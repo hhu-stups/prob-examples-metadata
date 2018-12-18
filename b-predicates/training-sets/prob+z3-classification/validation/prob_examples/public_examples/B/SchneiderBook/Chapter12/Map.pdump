@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter12/Map.mch
+-1.0,-1.0,6.1298530666666664E7,-1.0:(fun:INDEX+->ITEM) & (ss1:INDEX) & (ss2:ITEM) & not((r_par:INDEX))
+-1.0,-1.0,6.5571001E7,-1.0:(fun:INDEX+->ITEM) & not((r_par:INDEX&{r_par}<<|fun:INDEX+->ITEM))

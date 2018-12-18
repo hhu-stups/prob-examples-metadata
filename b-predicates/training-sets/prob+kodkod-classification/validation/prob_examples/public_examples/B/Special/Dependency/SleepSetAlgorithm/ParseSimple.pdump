@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Special/Dependency/SleepSetAlgorithm/ParseSimple.mch
+4.9305711E7,6.799565766666667E7,-1.0,7.4363181E7:not((Trans:Nodes<->Nodes) & (Initial:Nodes) & (Reachable:POW(Nodes)) & (Reachable={Initial}\/closure1(Trans)[{Initial}]) & not((Stack<:Nodes) & (Table<:Nodes) & (Reachable=Table\/Stack\/closure1(Trans)[Stack]))) => (Stack={})

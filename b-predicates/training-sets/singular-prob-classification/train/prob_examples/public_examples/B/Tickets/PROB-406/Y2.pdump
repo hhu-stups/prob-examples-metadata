@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROB-406/Y2.mch
+5.8874502666666664E7,3.3648739363333335E9,6.1241144333333336E7,5.7188813666666664E7:(vy2:INT) & (!vv.(vv:INTEGER => vy2:INT))

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Compilers/AbsIntPrecise.mch
+6.813727266666667E7,1.3033438133333333E8,-1.0,1.42191452E8:(gamma:Abs-->POW(Concr)) & (alpha:POW(Concr)-->Abs) & (!S.(S<:Concr => S<:gamma(alpha(S)))) & (SemFun:Concr-->Concr) & (!X,a.(X<:Concr&a:Abs&X<:gamma(a) => gamma(alpha(X))<:gamma(a))) & (#a1,a2.(a1:Abs&a2:Abs&gamma(a1)/=gamma(a2))) & (c:Concr) & (a:Abs) & (c:gamma(a)) & not(gamma(alpha(X))<:gamma(alpha(Y)))
+-1.0,-1.0,-1.0,-1.0:(gamma:Abs-->POW(Concr)) & (alpha:POW(Concr)-->Abs) & (!S.(S<:Concr => S<:gamma(alpha(S)))) & (SemFun:Concr-->Concr) & (!X,a.(X<:Concr&a:Abs&X<:gamma(a) => gamma(alpha(X))<:gamma(a))) & (#a1,a2.(a1:Abs&a2:Abs&gamma(a1)/=gamma(a2))) & a:Abs & not(a:Abs)

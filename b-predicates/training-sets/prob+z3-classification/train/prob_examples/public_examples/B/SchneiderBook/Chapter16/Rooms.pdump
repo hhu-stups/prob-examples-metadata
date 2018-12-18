@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter16/Rooms.mch
+1.58059206E8,1.0513352766666667E8,1.3882521866666666E8,4.9684554E7:(small<:ROOM) & (price:ROOM-->NAT1) & (defaultprice:NAT1) & (price[small]<:{defaultprice}) & (price[ROOM-small]<:{defaultprice*3/2}) & (rr:ROOM)
+1.5353472433333334E8,1.0100586066666667E8,1.2240257666666667E8,7.048398633333333E7:(small<:ROOM) & (price:ROOM-->NAT1) & (defaultprice:NAT1) & (price[small]<:{defaultprice}) & (price[ROOM-small]<:{defaultprice*3/2}) & (rr:ROOM) & (rr:ROOM)

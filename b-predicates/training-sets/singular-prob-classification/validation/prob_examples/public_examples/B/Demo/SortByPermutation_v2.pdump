@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Demo/SortByPermutation_v2.mch
+4.9624886E7,5.1121841E7,1.3612650466666666E8,6.8924198E7:(ia=[4,13,11,2,5,0,6,7,9,1,17]) & (sz=size(ia)) & (not(a:seq(NATURAL)) => not(i:1..size(a)&a:seq(NATURAL)))
+-1.0,-1.0,-1.0,-1.0:(ia=[4,13,11,2,5,0,6,7,9,1,17]) & (sz=size(ia)) & (not((a:seq(NATURAL)) & (ran(a)=ran(ia))) => (p:perm(dom(a))&!i.(i:1..size(a)-1 => a(p(i))<=a(p(i+1)))&ran((p;a))=ran(ia)) & (p:perm(dom(a))&!i.(i:1..size(a)-1 => a(p(i))<=a(p(i+1)))&(p;a):seq(NATURAL)))
+-1.0,-1.0,3.340815433333333E8,-1.0:(ia=[4,13,11,2,5,0,6,7,9,1,17]) & (sz=size(ia)) & ran(a)=ran(ia) & !i.(i:1..size(a)-1 => a(i)<=a(i+1)) => ran(a)=ran(ia)&(not(!i.(i:1..size(a)-1 => a(i)<=a(i+1))) => (TRUE:BOOL => ran(a)=ran(ia)))

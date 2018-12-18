@@ -1,0 +1,15 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/Tagency.mch
+5.2545509E7,6.881086833333333E7,5.7732691E7,6.816839866666667E7:not(not((sess:SESSION>+>USER) & (booking:ROOM+->USER))) => (u:USER) & (u:ran(sess))
+5.2022537333333336E7,6.6151056E7,1.05363841E8,7.003281166666667E7:not((sess:SESSION>+>USER) & (booking:ROOM+->USER)) => (s:SESSION) & (sess/={}) & (dom(booking)/={r1,r2}) & (s:dom(sess))
+5.6036153E7,7.191678066666667E7,-1.0,8.059095133333333E7:not((sess:SESSION>+>USER) & (booking:ROOM+->USER)) & not((s:SESSION) & (sess/={}) & (dom(booking)/={r1,r2}) & (s:dom(sess)))
+4.8796731333333336E7,6.9274964E7,-1.0,1.8054400166666666E8:(sess:SESSION>+>USER) & (booking:ROOM+->USER) & (not((s:SESSION) & (s:dom(sess))) => (u:USER) & (u/:ran(sess)) & (card(dom(sess))/=2))
+5.3852728333333336E7,6.799335333333333E7,-1.0,1.07208721E8:(sess:SESSION>+>USER) & (booking:ROOM+->USER) & (r:ROOM) & (s:SESSION) & (booking(r)=sess(s)) & (u:USER) & (u:ran(sess))
+4.8215233E7,6.3919557666666664E7,8.005666566666667E7,6.1598522333333336E7:(sess:SESSION>+>USER) & (booking:ROOM+->USER) & (not((r:ROOM) & (s:SESSION) & (booking(r)=sess(s))) => (u:USER))
+5.1166446E7,6.883456833333333E7,-1.0,7.659705433333333E7:(sess:SESSION>+>USER) & (booking:ROOM+->USER) & ((r:ROOM) & (s:SESSION) & (booking(r)=sess(s)) => not((s:SESSION) & (sess/={}) & (dom(booking)/={r1,r2}) & (s:dom(sess))))
+4.9818951333333336E7,6.9046653E7,-1.0,1.48496793E8:(sess:SESSION>+>USER) & (booking:ROOM+->USER) & (u:USER) & (u/:ran(sess)) & (card(dom(sess))/=2) & (s:SESSION) & (sess/={}) & (dom(booking)/={r1,r2}) & (s:dom(sess))
+5.0690035E7,6.3951498333333336E7,4.4777970333333336E7,8.919479233333333E7:booking:ROOM+->USER & not(booking(r)=sess(s)&{r}<<|booking:ROOM+->USER)
+5.2129976333333336E7,6.3553612333333336E7,-1.0,6.900106966666667E7:(not(sess:SESSION>+>USER) => u:ran(sess)&sess:SESSION>+>USER)
+4.7775582E7,5.9887853333333336E7,7.7328246E7,6.795084266666667E7:booking:ROOM+->USER & u:ran(sess)&booking:ROOM+->USER
+4.7799351E7,5.6819329666666664E7,7.027262333333333E7,5.4163941E7:sess:SESSION>+>USER & not(sess:SESSION>+>USER)
+4.7761520333333336E7,5.8508208333333336E7,6.855280533333333E7,5.1441108333333336E7:booking:ROOM+->USER & not(booking:ROOM+->USER)
+5.0124903E7,5.6136282E7,7.468328666666667E7,6.1377777E7:(not(booking:ROOM+->USER) => booking:ROOM+->USER)

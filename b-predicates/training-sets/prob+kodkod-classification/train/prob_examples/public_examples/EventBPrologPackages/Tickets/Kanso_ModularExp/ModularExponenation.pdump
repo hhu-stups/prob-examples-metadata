@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tickets/Kanso_ModularExp/ModularExponenation.mch
+-1.0,-1.0,1.3274807266666667E8,-1.0:not((expmod=%e,b,m.(e=0&b:INTEGER&m:NATURAL1|1)\/%e,b,m.(e:NATURAL1&b:INTEGER&m:NATURAL1|b*expmod(e-1,b,m) mod m))) => (expmod(3,3,7)=6)

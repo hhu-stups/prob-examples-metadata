@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter17/Heaparray.mch
+5.2820706666666664E7,5.8953703E7,-1.0,9.3118988E7:not(not((heaparray:seq(NAT)))) => not((heaparray/=[]))
+5.9926661333333336E7,5.8819724E7,-1.0,1.3749041233333334E8:(heaparray:seq(NAT)) & not((ii:1..size(heaparray)))
+5.6252567666666664E7,6.3959203666666664E7,7.871922833333333E7,1.0316127966666667E8:not(not((heaparray:seq(NAT)))) => (heaparray/=[])
+1.7736766666666666E8,1.0713173366666667E8,1.3011440466666667E8,7.759203633333333E7:not((nn:NAT)) => not((heaparray:seq(NAT)))
+6.4709020333333336E7,5.6105226333333336E7,-1.0,1.2370737433333333E8:(heaparray:seq(NAT)) & (heaparray/=[]) & not((nn:NAT))

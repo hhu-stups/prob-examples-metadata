@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/TicTacToe_SimplerSym.mch
+1.8807105266666666E8,1.4335128266666666E8,-1.0,1.07959655E8:not((middleR:Rows) & (card(Rows)=3) & (middleC:Cols) & (card(Cols)=3) & (other={(O,X),(X,O)}) & not((turn=other(ox)) & (win_horiz(ox)))) => not((turn:{O,X}) & (board:Rows*Cols+->NC))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/Constants4.mch
+5.4687983333333336E7,9.867095066666667E7,-1.0,1.02160617E8:not((PLACEELEMENT:POW1(ROUTEELEMENT)) & (FUNC:ROUTEELEMENT+->ROUTEELEMENT) & (card(FUNC)=1) & (route_el1:dom(FUNC)) & (route_el2:ran(FUNC)) & (qqt={}) & (qqt:POW(ROUTEELEMENT)) & not((pp:PLACEELEMENT) & (qq:POW(PLACEELEMENT)))) => not((pe:PLACEELEMENT) & (pe:dom(FUNC)))

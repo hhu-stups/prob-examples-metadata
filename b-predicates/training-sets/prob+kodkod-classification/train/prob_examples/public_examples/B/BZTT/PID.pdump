@@ -1,0 +1,11 @@
+#source:examples/prob_examples/public_examples/B/BZTT/PID.mch
+5.4681837E7,1.56011203E8,-1.0,7.7979143E7:not(not((active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\waiting={}) & (ready/\active={}) & (active={} => ready={}))) => not((pp:PID) & (pp/:ready\/waiting\/active))
+5.4977428666666664E7,1.3873735866666666E8,8.5130309E7,1.1164166433333333E8:not(not((active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\waiting={}) & (ready/\active={}) & (active={} => ready={}))) => not((active/={}))
+4.8446547666666664E7,8.533284866666667E7,-1.0,7.1510723E7:not((active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\waiting={}) & (ready/\active={}) & (active={} => ready={})) => (pp:PID) & (pp:waiting)
+5.6737428666666664E7,9.436218533333333E7,-1.0,2.67458266E8:not((pp:PID) & (pp:waiting)) => (active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\waiting={}) & (ready/\active={}) & (active={} => ready={})
+5.4061274E7,1.50523354E8,-1.0,1.4514727533333334E8:(active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\waiting={}) & (ready/\active={}) & (active={} => ready={}) & ((pp:PID) & (pp/:ready\/waiting\/active) => not((rr:PID) & (rr:waiting)))
+6.1049569666666664E7,1.1198235E8,1.4183216566666666E8,1.9168294133333334E8:(active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\waiting={}) & (ready/\active={}) & (active={} => ready={}) & (pp:PID) & (pp/:ready\/waiting\/active) & not((pp:PID) & (pp:waiting))
+6.831920966666667E7,1.1778825566666667E8,-1.0,1.4737609633333334E8:(active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\waiting={}) & (ready/\active={}) & (active={} => ready={}) & ((pp:PID) & (pp/:ready\/waiting\/active) => not((pp:PID) & (pp:waiting)))
+4.9120701666666664E7,6.1139502E7,8.858261E7,5.5459636333333336E7:(not(ready<:PID) => pp/:ready\/waiting\/active)
+5.2112865E7,1.55006606E8,7.288231333333333E7,8.731787733333333E7:waiting<:PID & not(pp/:ready\/waiting\/active)
+6.6387329333333336E7,5.0485423666666664E7,1.0379958233333333E8,5.9115711E7:(not(waiting<:PID) => not(pp/:ready\/waiting\/active))

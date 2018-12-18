@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/BarRel_CXCC_Feb08.mch
+6.0352972666666664E7,6.8098045E7,-1.0,2.1790818066666666E8:not((route:perm(NODES)) & (expack:Packets) & (card(Packets)>1) & (expack=ACK) & (route=[k0,k1,k2]) & not((pout={}) & (pin={}) & (ether={}) & (to_send=[]))) => not((pout:NODES+->Packets) & (pin:NODES+->Packets) & (pinlast:NODES+->Packets) & (ether:NODES+->Packets) & (card(ether)<=1) & (to_send:iseq(DataPackets)))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Disprover/EnumWarningTests/MammarLaleau_Cylinders_LockGearCylinder_inv4_selected.mch
+7.249503356666666E8,1.2093439633333333E8,1.2532708733333333E8,7.063593306666666E8:(po:PositionsDG) & (gear_cylinder_locked_p(po)=FALSE) & (gear_extended_p(po)=TRUE or gear_retracted_p(po)=TRUE) & (!po1.(po1:PositionsDG&gear_cylinder_locked_p(po1)=TRUE => gear_extended_p(po1)=TRUE or gear_retracted_p(po1)=TRUE)) & (not(GOAL)) & not((GOAL))

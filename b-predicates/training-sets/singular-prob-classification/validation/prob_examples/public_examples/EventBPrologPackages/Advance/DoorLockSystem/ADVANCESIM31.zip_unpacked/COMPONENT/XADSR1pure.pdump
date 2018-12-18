@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/XADSR1pure.bcm
+4.7112089666666664E7,5.9284541E7,6.4426558333333336E7,6.5716899666666664E7:(v:NAT) & (msg_rcvd_on_purechannel:BOOL) & (msg_sent_on_purechannel:BOOL) & (adder_evaluated:BOOL) & (incrementer_evaluated:BOOL) & (trigger_sent:BOOL) & (trigger_received:BOOL) & (adder_evaluated=FALSE) & (trigger_sent=TRUE) & not((adder_evaluated=TRUE) & (msg_rcvd_on_purechannel=FALSE or incrementer_evaluated=TRUE))

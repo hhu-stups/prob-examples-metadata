@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Tester/SetComprehension.mch
+4.8904822E7,6.6302588333333336E7,6.4836015E7,5.4000512E7:(col1:POW(COLOURS)) & (col2:POW(COLOURS)) & (col1/=col2) & (col1/={}) & not((col1/=col2) & (col2:POW(COLOURS)) & (col1:POW(COLOURS)) & (col1/={}))
+4.9865139666666664E7,5.2679348E7,8.949306066666667E7,5.6172063666666664E7:(not(col1:POW(COLOURS)) => col1:POW(COLOURS))
+1.42119935E8,4.758605826666667E8,-1.0,9.025062933333333E7:col1/={} & {xx|xx:col1&xx/=x}/={}
+5.5807329666666664E7,1.2538947866666667E8,-1.0,6.626087E7:(not(col1/={}) => {xx|xx:col1&xx/=x}/={})

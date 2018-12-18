@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter16/Garray.mch
+-1.0,-1.0,6.1420241E7,-1.0:(garray:ITEM-->ITEM) & not((ii:ITEM) & (jj:ITEM))
+-1.0,-1.0,6.0161724333333336E7,-1.0:not((garray:ITEM-->ITEM)) & not((ii:ITEM) & (jj:ITEM))
+-1.0,-1.0,5.9998551333333336E7,-1.0:(garray:ITEM-->ITEM) & not((ii:ITEM))
+4.7682111E7,6.6852705333333336E7,-1.0,5.5907785E7:not(not((garray:ITEM-->ITEM))) => not((ii:ITEM))
+-1.0,-1.0,6.4653519333333336E7,-1.0:(garray:ITEM-->ITEM) & not((ii:ITEM&garray:ITEM-->ITEM))

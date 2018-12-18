@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/VectorClocks/VectorClocks.mch
+-1.0,-1.0,-1.0,-1.0:(not((clocks:PROC-->(PROC-->NATURAL)) & (ether:PROC<->(PROC-->NATURAL))) => ((p,c):ether&c:PROC-->NATURAL&ether-{(p,c)}:PROC<->(PROC-->NATURAL)) & ((p,c):ether&c:PROC-->NATURAL&clocks<+{(p,{q,m|m:NATURAL&m=max({c(q),clocks(p)(q)})})}:PROC-->(PROC-->NATURAL)))
+-1.0,-1.0,-1.0,-1.0:(not(clocks:PROC-->(PROC-->NATURAL)) => clocks<+{(p,clocks(p)<+{(p,clocks(p)(p)+1)})}:PROC-->(PROC-->NATURAL))
+-1.0,-1.0,-1.0,-1.0:(not((clocks:PROC-->(PROC-->NATURAL)) & (ether:PROC<->(PROC-->NATURAL))) => (p/=q&ether\/{(q,clocks(p))}:PROC<->(PROC-->NATURAL)) & (p/=q&clocks<+{(p,clocks(p)<+{(p,clocks(p)(p)+1)})}:PROC-->(PROC-->NATURAL)))

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Composition/SimpleComposition.zip_unpacked/SimpleComposition/M1.bcm
+1.69414723E8,3.3286778063333335E9,8.888388233333333E7,1.6478841366666666E8:(x:NAT) & (p:1 .. 3)
+1.0420289233333333E8,1.6544552666666666E8,8.7740417E7,9.195787633333333E7:not(not((x:NAT))) => not((p:1 .. 3))
+1.2639887133333333E8,4.8190555333333336E7,9.234128133333333E7,9.661968833333333E7:not(not((p:1 .. 3))) => not((x:NAT))

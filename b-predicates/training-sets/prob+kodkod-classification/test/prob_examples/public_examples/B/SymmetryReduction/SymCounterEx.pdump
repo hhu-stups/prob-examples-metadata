@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/SymCounterEx.mch
+5.4431759E7,5.3666182333333336E7,8.623722333333333E7,6.5367367666666664E7:(not(x:POW(S)) => x:POW(S))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/ForAll_VariousVersions.mch
+5.5906178333333336E7,7.870665666666667E7,6.2153853333333336E7,6.3648293666666664E7:(f:ID-->ID) & (!x.(x:dom(f) => f(x)=ee)) & (!x,y.((y,x):f => x=ee)) & (g:ID-->ID) & (!x.(g(x)=aa => x=aa)) & (!x.(g(x)/=aa => g(x)=bb)) & (h:ID-->ID) & (!y.(y:ID => (y:dom(h) => h(y)=ee))) & xx:ID & not(xx:ID)

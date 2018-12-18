@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/VacuousGuards.mch
+5.1197153E7,4.7988993666666664E7,6.0009865666666664E7,6.0369595E7:(x:INTEGER) & (y:INTEGER) & (z:NATURAL) & not((z>0))
+4.7527156333333336E7,4.9402837333333336E7,6.1280302E7,5.5949363666666664E7:not(not((x:INTEGER) & (y:INTEGER) & (z:NATURAL))) => not((z>0))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Records/RecordsTest.zip_unpacked/RecordsTest/IntBoolMachine.bcm
+4.7799793666666664E7,5.0712291666666664E7,6.4177644E7,6.3841335333333336E7:(bi:BIRec) & (x:BOOL&y:NAT1) & (x=fld1(bi)&y=fld2(bi))

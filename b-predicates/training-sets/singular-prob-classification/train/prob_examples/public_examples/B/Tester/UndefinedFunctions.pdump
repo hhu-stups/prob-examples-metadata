@@ -1,0 +1,22 @@
+#source:examples/prob_examples/public_examples/B/Tester/UndefinedFunctions.mch
+6.0806987666666664E7,1.1203494033333333E8,6.0168661666666664E7,7.3913147E7:not(not((aa:setA) & (bb:setB) & (f(aa)=bb) & (g(bb)=aa))) => (f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA)
+5.2236578E7,6.5945606666666664E7,6.6829983666666664E7,1.0942860333333333E8:not((f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA)) => not((aa:setA) & (aa:dom(f)) & (f(aa)=b1))
+4.9714073333333336E7,7.037896833333333E7,-1.0,8.6452428E7:(f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA) & (aa:setA) & (f(aa)=b1) & (aa:dom(f))
+5.3349172333333336E7,1.2175936166666667E8,-1.0,7.4001124E7:not((aa:setA) & (not(f(aa)=b1))) => (f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA)
+5.6350555E7,8.305062166666667E7,-1.0,7.3845075E7:not(not((bb:setB) & (bb/:dom(g)) & (aa:setA) & ((bb,aa)/:g))) => not((f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA))
+5.225597E7,6.5016205333333336E7,-1.0,7.331197633333333E7:not((aa:setA) & (f(aa)/=b1)) => not((f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA))
+4.9621999E7,8.4463767E7,-1.0,4.7316096E7:(f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA) & ((aa:setA) => not((aa:setA) & (bb:setB) & (f(aa)=bb) & (g(bb)=aa)))
+5.1256238666666664E7,6.6756999E7,-1.0,8.923592866666667E7:(f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA) & ((aa:setA) => not((aa:setA) & (aa:dom(f)) & (f(aa)=b1)))
+5.2208501E7,7.761680666666667E7,-1.0,7.8181963E7:(f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA) & ((aa:setA) & (bb:setB) & (f(aa)=bb) & (g(bb)=aa) => not((bb:setB) & (bb/:dom(g)) & (aa:setA) & ((bb,aa)/:g)))
+4.7660763E7,6.1360107E7,7.598063533333333E7,5.2018672666666664E7:(f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA) & (aa:setA) & (aa:dom(f)) & (f(aa)=b1) & (aa:setA) & (not(f(aa)=b1))
+5.3457123666666664E7,7.040073533333333E7,-1.0,5.4440396333333336E7:(f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA) & ((aa:setA) & (f(aa)=b1) & (aa:dom(f)) => not((aa:setA) & (aa/:dom(f)) & (bb:setB) & ((aa,bb)/:f)))
+4.9495144333333336E7,6.9530955E7,-1.0,5.5612146666666664E7:(f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA) & (aa:setA) & (not(f(aa)=b1)) & (aa:setA) & (f(aa)/=b1)
+5.1213542333333336E7,1.76133711E8,-1.0,1.1049067966666667E8:(f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA) & (aa:setA) & (aa/:dom(f)) & (bb:setB) & ((aa,bb)/:f) & not((bb:setB) & (bb/:dom(g)) & (aa:setA) & ((bb,aa)/:g))
+4.7586824E7,6.0253402333333336E7,-1.0,5.0137055333333336E7:(f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA) & (aa:setA) & (aa/:dom(f)) & (bb:setB) & ((aa,bb)/:f) & (aa:setA) & (f(aa)=b1)
+5.0079413333333336E7,6.942286466666667E7,-1.0,8.5449716E7:(f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA) & ((bb:setB) & (bb/:dom(g)) & (aa:setA) & ((bb,aa)/:g) => not((aa:setA) & (f(aa)/=b1)))
+5.1492651E7,7.088210466666667E7,-1.0,7.0837197E7:(not(f:setA+->setB) => aa:dom(f)&f(aa)=b1&f:setA+->setB)
+7.285148933333333E7,6.9595838E7,-1.0,7.4961674E7:g:setB-->setA & f(aa)=b1&aa:dom(f)&g:setB-->setA
+1.55170244E8,4.826321603333333E8,-1.0,1.4201985233333334E8:(f:setA+->setB) & (a1:dom(f)) & (g:setB-->setA) & (f(aa)=b1&aa:dom(f)&g:setB-->setA) & (f(aa)=b1&aa:dom(f)&f:setA+->setB) & (f(aa)=b1&aa:dom(f)&a1:dom(f))
+5.8132252666666664E7,9.481368633333333E7,-1.0,1.1032198966666667E8:f:setA+->setB & aa/:dom(f)&(aa,bb)/:f&f<+{(aa,bb)}:setA+->setB
+5.2527001E7,7.344413966666667E7,1.45841125E8,6.4421180666666664E7:(not(g:setB-->setA) => not(bb/:dom(g)&(bb,aa)/:g&g<+{(bb,aa)}:setB-->setA))
+6.3289286333333336E7,5.9953271E7,-1.0,7.217747433333333E7:f:setA+->setB & not(f(aa)/=b1&f:setA+->setB)

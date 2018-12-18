@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/TransitiveClosure/Treillis_B.mch
+1.09770593E8,1.0224973433333333E8,9.5858931E7,6.0837881E7:(RR:SS<->SS) & (RR={(Obj,UObj)}) & (not((vv:SS)) => (!vv.(vv:dom(closure(RR)\/id(SS)|>{vv}) => vv:SS)))

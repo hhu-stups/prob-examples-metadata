@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/SetComprehension.mch
+7.5556163E7,7.224121666666667E7,6.5175723333333336E7,5.601399E7:(not((col1:POW(COLOURS)) & (col2:POW(COLOURS)) & (col1/=col2) & (col1/={})) => not((col1/=col2) & (col2:POW(COLOURS)) & (col1:POW(COLOURS)) & (col1/={})))
+4.5022951E7,4.3981593333333336E7,6.0086924333333336E7,4.7887770666666664E7:col1:POW(COLOURS) & col1:POW(COLOURS)

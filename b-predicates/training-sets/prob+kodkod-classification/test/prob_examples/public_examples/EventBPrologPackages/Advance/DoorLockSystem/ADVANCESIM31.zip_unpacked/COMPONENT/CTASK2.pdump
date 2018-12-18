@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/CTASK2.bcm
+4.7999190333333336E7,4.7922597666666664E7,7.208162933333333E7,5.5925617E7:not((pv:INT) & (ppriority:INT) & (T2_state=T2_RCV)) => (T2_readpriority:NAT)
+4.7913658E7,4.7907861333333336E7,7.207941733333333E7,5.5988614333333336E7:not(not((T2_readpriority:NAT))) => not((T2_readpriority=3) & (T2_state=T2_PROC))
+8.3718584E7,4.6334616333333336E7,7.822926833333333E7,6.2337070333333336E7:(T2_readpriority:NAT) & T2_state:T2state
+5.4500110666666664E7,5.9416517E7,1.1435837433333333E8,5.2969817333333336E7:not((T2_readpriority:NAT)) => (T2_writevalue:INT) & (T2_readvalue:INT) & (T2v:INT) & (T2_readpriority:INT) & (T2_state:T2state)
+7.387277866666667E7,2.77034042E8,6.6249113666666664E7,5.2408968666666664E7:(T2_readpriority:NAT) & (pv:INT) & (ppriority:INT) & (T2_state=T2_RCV) & (T2_readpriority=4) & (T2_state=T2_PROC)
+4.7942222666666664E7,5.1889117666666664E7,7.484152366666667E7,6.788821866666667E7:(T2_readpriority:NAT) & (T2_state=T2_EN) & not((pv:INT) & (ppriority:INT) & (pv=T2_writevalue) & (ppriority=5) & (T2_state=T2_SEND))

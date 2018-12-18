@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/VariableCaptureComprSet.mch
+-1.0,-1.0,-1.0,-1.0:({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER) & not({yy|yy:{yy|yy>xx&yy<10}}={zz|zz:{yy|yy>xx&yy<10}})

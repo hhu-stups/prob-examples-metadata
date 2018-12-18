@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/TotalFunction2.mch
+5.1278914E7,5.6955775666666664E7,-1.0,7.470666066666667E7:not(not((disjoint(f2)))) => not((f1:CELL-->CHANNEL) & (f2:CELL-->POW(CHANNEL)))
+2.773087973333333E8,2.68795401E8,-1.0,-1.0:(not(f2:CELL-->POW(CHANNEL)) => !a1,a2.(a1:dom(f2)&a2:dom(f2)&a1/=a2&1=1 => f2(a1)/\f2(a2)={})&f2:CELL-->POW(CHANNEL))

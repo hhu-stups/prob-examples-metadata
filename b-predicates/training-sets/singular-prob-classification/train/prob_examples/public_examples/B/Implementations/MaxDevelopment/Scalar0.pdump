@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Implementations/MaxDevelopment/Scalar0.mch
+5.4410923E7,6.3743487666666664E7,9.306791066666667E7,8.648185366666667E7:not(not((z:NAT))) => not((v:NAT))
+4.6916045E7,5.9189975666666664E7,8.4972444E7,7.417537733333333E7:(z:NAT) & (z:NAT)

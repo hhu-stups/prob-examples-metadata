@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/INCLUDES_USES_SEES/ParameterChecks/M2.mch
+4.8693296E7,4.8076807333333336E7,7.329242066666667E7,5.2109443333333336E7:(i2:ENUM2) & (not(yy:ENUM2) => yy:ENUM2)

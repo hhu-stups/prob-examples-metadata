@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Namur/Problems/door.mch
+-1.0,-1.0,-1.0,-1.0:position:DOOR-->POSITION & not(position<+{(dd,closed)}:DOOR-->POSITION)
+-1.0,-1.0,-1.0,-1.0:(position:DOOR-->POSITION) & not((position<+{(dd,closed)}:DOOR-->POSITION))

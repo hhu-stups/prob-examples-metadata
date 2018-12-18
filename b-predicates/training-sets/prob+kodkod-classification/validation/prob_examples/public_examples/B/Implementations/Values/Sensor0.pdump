@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Implementations/Values/Sensor0.mch
+4.8704703666666664E7,5.4384825666666664E7,-1.0,6.777391166666667E7:(LowerBound:NATURAL) & (UpperBound:NATURAL) & (UpperBound>=LowerBound) & (not(val:1..3-->NATURAL) => not(ran(val)<:LowerBound..UpperBound => val:1..3-->NATURAL&(not(ran(val)<:LowerBound..UpperBound) => (TRUE:BOOL => val:1..3-->NATURAL))))

@@ -1,0 +1,11 @@
+#source:examples/prob_examples/public_examples/B/Corinna/Access2.mch
+-1.0,-1.0,1.3127630766666667E8,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((access:USER<->PRINTER)) & (uu:USER) & (pp:PRINTER) & ({(uu,pp)}/<:access) & (card(access[{uu}])<6)
+-1.0,-1.0,7.461630933333333E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((access:USER<->PRINTER)) & (uu:USER) & (oo:OPTION)
+4.8512966E7,5.3286012333333336E7,6.937662933333333E7,5.4649291E7:not((options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((access:USER<->PRINTER))) => (u1:USER) & (u2:USER)
+-1.0,-1.0,6.0983150666666664E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((access:USER<->PRINTER)) & not((u1:USER) & (u2:USER))
+-1.0,-1.0,7.4017769E7,-1.0:not((options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((access:USER<->PRINTER))) => not((u1:USER) & (u2:USER))
+-1.0,-1.0,8.795890433333333E7,-1.0:not((options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((pp:PRINTER))) => not((access:USER<->PRINTER))
+-1.0,-1.0,6.6369916E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((access:USER<->PRINTER)) & not((uu:USER) & (uu:dom(access)))
+4.8168019666666664E7,7.007136466666667E7,-1.0,8.287338733333333E7:not((options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (uu:USER) & (uu:dom(access))) => not((access:USER<->PRINTER))
+-1.0,-1.0,8.760762566666667E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & (uu:USER) & (pp:PRINTER) & ({(uu,pp)}/<:access) & (card(access[{uu}])<6) & not((pp:PRINTER))
+5.0141292333333336E7,6.6979165E7,8.857234333333333E7,6.829106366666667E7:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & (not((uu:USER) & (oo:OPTION)) => (uu:USER) & (uu:dom(access)))

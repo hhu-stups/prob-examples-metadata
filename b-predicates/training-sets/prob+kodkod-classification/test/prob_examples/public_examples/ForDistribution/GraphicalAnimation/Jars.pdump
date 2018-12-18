@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/ForDistribution/GraphicalAnimation/Jars.mch
+8.093368566666667E7,5.5087289E7,7.057931966666667E7,8.821179966666667E7:not((maxf:Jars-->NATURAL) & (maxf={(j3,3),(j5,5)}) & (level:Jars-->NATURAL)) => (j:Jars) & (level(j)<maxf(j))
+8.0664587E7,7.5369291E7,7.824796266666667E7,1.02559946E8:not((maxf:Jars-->NATURAL) & (maxf={(j3,3),(j5,5)}) & not((level:Jars-->NATURAL))) => (j:Jars) & (level(j)<maxf(j))
+5.7778413666666664E7,5.1778302E7,-1.0,6.738629266666667E7:not((maxf:Jars-->NATURAL) & (maxf={(j3,3),(j5,5)}) & (j:Jars) & (level(j)<maxf(j))) => not((level:Jars-->NATURAL))
+-1.0,-1.0,5.5385395E7,-1.0:not((maxf:Jars-->NATURAL) & (maxf={(j3,3),(j5,5)}) & not((level:Jars-->NATURAL))) => (j:Jars) & (level(j)>0)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Tantris_1Tile.mch
+5.367848806666667E8,3.253044493333333E8,2.95708833E8,1.45929568E8:not((tile:TILE)) => (off:DIRECTIONS)

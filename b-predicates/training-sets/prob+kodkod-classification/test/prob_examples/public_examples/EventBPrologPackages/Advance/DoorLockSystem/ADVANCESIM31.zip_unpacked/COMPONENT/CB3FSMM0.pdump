@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/CB3FSMM0.bcm
+7.722287866666667E7,4.9510369666666664E7,6.5370324E7,5.9862431E7:(T2v:INT) & (mode:Mode) & not((ppriority=5) & (mode=DISPLAY))
+8.356795933333333E7,1.0063507366666667E8,9.227009E7,5.4970887E7:not(not((T2v:INT) & (mode:Mode))) => (ppriority=5) & (mode=DISPLAY)
+4.7590456E7,4.8896465E7,6.4246601E7,5.9082373333333336E7:not(not((ppriority=3) & (pvalue:INT) & (mode=COLLECT))) => not((T2v:INT) & (mode:Mode))
+4.7943038E7,6.4341259333333336E7,6.3937856E7,6.4589358666666664E7:(T2v:INT) & (mode:Mode) & (ppriority=5) & (mode=DISPLAY) & not((ppriority=4) & (mode=COLLECT))
+5.1102005333333336E7,4.9088249E7,6.3158986333333336E7,5.7439264333333336E7:(T2v:INT) & (mode:Mode) & (not((ppriority=3) & (pvalue:INT) & (mode=COLLECT)) => (ppriority=4) & (mode=COLLECT))

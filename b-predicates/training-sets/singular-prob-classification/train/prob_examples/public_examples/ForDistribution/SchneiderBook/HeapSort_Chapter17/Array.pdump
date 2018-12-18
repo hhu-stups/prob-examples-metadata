@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/HeapSort_Chapter17/Array.mch
+5.718872E7,5.161364E7,6.6037936666666664E7,6.4566823666666664E7:not((array:1..cap-->NAT)) => not((ii:1..cap) & (nn:NAT))
+5.1582211E7,5.0451294666666664E7,7.164679766666667E7,7.389098366666667E7:not((array:1..cap-->NAT)) & not((ii:1..cap) & (nn:NAT))

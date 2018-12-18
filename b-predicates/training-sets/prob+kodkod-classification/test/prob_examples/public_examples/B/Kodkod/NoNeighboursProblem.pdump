@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Kodkod/NoNeighboursProblem.mch
+5.4493801333333336E7,5.2001096E7,6.927773433333333E7,5.4807668E7:not((next:ID<->ID) & (number:ID-->1..8) & (!x,y.((x,y):next => number(x)-number(y)>1 or number(y)-number(x)>1)) & (next={(A,B),(A,C),(A,D),(A,E),(B,D),(B,E),(B,F),(C,D),(C,G),(D,E),(D,G),(D,H),(E,F),(E,G),(E,H),(F,H),(G,H)}) & (number(A)=3) & (number(B)=5) & (number(C)=7) & (number(D)=1) & (number(E)=8) & (number(F)=2)) => (yy:ID)

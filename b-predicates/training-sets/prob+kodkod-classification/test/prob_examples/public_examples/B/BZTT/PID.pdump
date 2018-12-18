@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/BZTT/PID.mch
+5.5837105333333336E7,2.2723557733333334E8,-1.0,9.026438866666667E7:not((active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\waiting={}) & (ready/\active={}) & (active={} => ready={})) => not((pp:PID) & (pp/:ready\/waiting\/active))
+2.0545469503333333E9,1.64465258E8,8.961938033333333E7,2.1013262696666667E9:not((active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\waiting={}) & (ready/\active={}) & (active={} => ready={})) & (pp:PID) & (pp/:ready\/waiting\/active)

@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/BridgePuzzle/BridgePuzzle.zip_unpacked/BridgePuzzle/Bridge.bcm
+5.8860022333333336E7,5.6807573E7,1.31227279E8,6.2187237666666664E7:not((right=Toy)) => (partition(Toy,left,right)) & (clock:NAT) & (torch_left:BOOL) & (right/=Toy or clock>60)
+6.734727466666667E7,4.1726162666666664E7,1.7277241266666666E8,8.340082933333333E7:not((partition(Toy,left,right)) & (clock:NAT) & (torch_left:BOOL) & (right/=Toy or clock>60)) & (right=Toy)
+1.4550453666666666E8,5.2741227333333336E7,-1.0,1.3696602066666666E8:not((partition(Toy,left,right)) & (clock:NAT) & (torch_left:BOOL) & (right/=Toy or clock>60)) => not((torch_left=TRUE) & (x<:left) & (card(x)<=2&card(x)>0) & (clock<60))
+5.1768571333333336E7,5.3197407666666664E7,-1.0,1.2371298533333333E8:not((partition(Toy,left,right)) & (clock:NAT) & (torch_left:BOOL) & (right/=Toy or clock>60)) & not((torch_left=TRUE) & (x<:left) & (card(x)<=2&card(x)>0) & (clock<60))
+8.150282266666667E7,5.9414515666666664E7,-1.0,3.745988463333333E8:not((partition(Toy,left,right)) & (clock:NAT) & (torch_left:BOOL) & (right/=Toy or clock>60)) => (torch_left=FALSE) & (x<:right) & (card(x)<=2&card(x)>0)
+5.158412E7,5.1667673666666664E7,1.1717919366666667E8,5.4611018E7:(partition(Toy,left,right)) & (clock:NAT) & (torch_left:BOOL) & (right/=Toy or clock>60) & (right=Toy) & (torch_left=TRUE) & (x<:left) & (card(x)<=2&card(x)>0) & (clock<60)
+5.5474838333333336E7,1.5148779266666666E8,-1.0,1.09249647E8:(partition(Toy,left,right)) & (clock:NAT) & (torch_left:BOOL) & (right/=Toy or clock>60) & ((right=Toy) => not((torch_left=FALSE) & (x<:right) & (card(x)<=2&card(x)>0)))

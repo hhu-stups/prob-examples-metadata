@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Tester/PartialEnumeratedSet2.mch
+4.8040187666666664E7,6.5260673333333336E7,8.138239266666667E7,6.3709894E7:not((iv:ID) & (iw:ID) & (iv/=iw) & (card(ID)=3) & (xx:ID)) => (xx=iv)
+4.6194841E7,5.9793241333333336E7,-1.0,4.1080596E7:(iv:ID) & (iw:ID) & (iv/=iw) & (card(ID)=3) & (xx:ID) & ((xx/=iw) => not((xx=iw)))
+4.7423209666666664E7,6.0908117666666664E7,-1.0,4.6498440666666664E7:(iv:ID) & (iw:ID) & (iv/=iw) & (card(ID)=3) & (xx:ID) & ((xx=iv) => not((xx=iw)))
+4.5260388E7,5.6168432333333336E7,-1.0,5.3896681333333336E7:(iv:ID) & (iw:ID) & (iv/=iw) & (card(ID)=3) & (not(xx:ID) => xx=iw)

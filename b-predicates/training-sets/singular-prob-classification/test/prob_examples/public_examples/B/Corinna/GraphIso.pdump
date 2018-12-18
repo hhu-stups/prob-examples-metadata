@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Corinna/GraphIso.mch
+4.8673857666666664E7,6.7926771E7,1.63422085E8,5.4009894E7:not((F:Nodes<->Nodes) & (G:Nodes<->Nodes) & (checked:BOOL) & (iso:BOOL) & (checked=TRUE => (iso=TRUE => card(F)=card(G)&card(dom(F))=card(dom(G))&card(ran(F))=card(ran(G))))) & not((g:Nodes<->Nodes))

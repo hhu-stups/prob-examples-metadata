@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Stefan/secure.zip_unpacked/Secure_21_exp/M.bcm
+2.5781586233333334E8,1.3753939466666666E8,1.8156838733333334E8,6.3885289E7:not((aroom:Person <-> Room) & (loc:Person --> Room) & (Person ** {Outside}<:aroom) & (loc<:aroom)) => (p |-> r:aroom) & (loc(p)/=r)
+4.7761753333333336E7,4.8027080666666664E7,7.322325466666667E7,1.0155427833333333E8:not((aroom:Person <-> Room) & (loc:Person --> Room) & (Person ** {Outside}<:aroom) & (loc<:aroom)) => (p:Person) & (r:Room)
+7.935585466666667E7,8.364804366666667E7,-1.0,8.903518166666667E7:not((aroom:Person <-> Room) & (loc:Person --> Room) & (Person ** {Outside}<:aroom) & (loc<:aroom)) => not((R:S) & (loc(p)/:R) & (Outside/:R))

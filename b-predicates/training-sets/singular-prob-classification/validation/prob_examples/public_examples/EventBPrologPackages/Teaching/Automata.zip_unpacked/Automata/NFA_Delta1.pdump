@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Teaching/Automata.zip_unpacked/Automata/NFA_Delta1.bcm
+-1.0,-1.0,1.0051618066666667E8,-1.0:(n>0) & (cur:1 .. n --> Symbols) & (cur[1 .. n - 1]<:Terminals) & (A:Z) & (A:NonTerminals<=>A=cur(n)) & (A:Final<=>cur(n):Terminals) & (a:Terminals) & (delta(A |-> a)=({} oftype POW(Symbols))) & (A:Final)

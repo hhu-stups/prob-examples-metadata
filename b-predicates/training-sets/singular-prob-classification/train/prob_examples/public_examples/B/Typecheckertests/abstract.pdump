@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/Typecheckertests/abstract.mch
+-1.0,-1.0,6.8844858E7,-1.0:(x:POW(P)) & (cnt:NATURAL) & (5>7) & (e:P) & (card(x)<p)
+-1.0,-1.0,7.5643744E7,-1.0:x:POW(P) & 5>7&e:P&card(x)<p&x\/{e}:POW(P)
+4.7086132E7,5.0037206E7,-1.0,7.4501001E7:(not(x:POW(P)) => 5>7&e:P&card(x)<p&x\/{e}:POW(P))
+4.7370246666666664E7,4.9427723666666664E7,-1.0,7.1968207E7:(not(x:POW(P)) => not(5>7&e:P&card(x)<p&x\/{e}:POW(P)))
+-1.0,-1.0,6.6685109333333336E7,-1.0:cnt:NATURAL & 5>7&e:P&card(x)<p&cnt:NATURAL
+-1.0,-1.0,5.5860642E7,-1.0:(x:POW(P)) & (cnt:NATURAL) & (5>7&e:P&card(x)<p&x\/{e}:POW(P)) & (5>7&e:P&card(x)<p&cnt:NATURAL)
+-1.0,-1.0,5.9888458333333336E7,-1.0:x:POW(P) & not(x:POW(P))
+4.7496007666666664E7,6.4137834666666664E7,5.9884128333333336E7,5.6040995333333336E7:(not(x:POW(P)) => not(x:POW(P)))
+-1.0,-1.0,6.2074956333333336E7,-1.0:(x:POW(P)) & (cnt:NATURAL) & not((x:POW(P)) & (cnt+1:NATURAL))

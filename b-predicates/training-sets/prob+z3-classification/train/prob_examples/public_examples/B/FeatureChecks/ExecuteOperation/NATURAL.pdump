@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/ExecuteOperation/NATURAL.mch
+1.03819348E8,6.6407537E7,8.408250333333333E7,6.1324953666666664E7:not((xx:NATURAL)) => (yy:NATURAL)

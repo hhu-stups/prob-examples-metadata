@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Refinement/Server.mch
+4.6144229E7,4.8155355666666664E7,5.9886852E7,4.8068472666666664E7:not((pp:Process) & (pp:logged_in)) => (logged_in:POW(Process))
+4.4874025666666664E7,4.4509687E7,5.9703588666666664E7,4.8669666666666664E7:(not((logged_in:POW(Process))) => (pp:logged_in))

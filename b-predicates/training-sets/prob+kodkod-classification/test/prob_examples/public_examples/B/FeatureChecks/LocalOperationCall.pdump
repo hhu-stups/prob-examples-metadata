@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/LocalOperationCall.mch
+5.1196012333333336E7,5.0071288E7,7.5174876E7,6.4540888666666664E7:(not(yy:NATURAL) => not(yy:NATURAL))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/EventB2Java/MIO.zip_unpacked/MIO/abstract.bcm
+1.5609361566666666E8,1.0295624866666667E8,1.11933601E8,1.0692768033333333E8:not((parked:0 .. min({n,m}))) & not((parked<n) & (parked<m))

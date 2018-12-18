@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/FileSystem.mch
+-1.0,1.7141958733333334E8,-1.0,-1.0:(Folders<:FilesFolders) & (Files<:FilesFolders) & (Folders\/Files=FilesFolders) & (Folders/\Files={}) & (root:Folders) & (empty:Names) & (card(Files)>2) & (card(Folders)>2) & (Folders={d0,d1,d2,d3}) & (root=d0) & (empty=eps) & parent:FilesFolders+->Folders & not(df:dom(parent)\/{root}&df/=root&parent~[{df}]={}&{df}<<|parent:FilesFolders+->Folders)

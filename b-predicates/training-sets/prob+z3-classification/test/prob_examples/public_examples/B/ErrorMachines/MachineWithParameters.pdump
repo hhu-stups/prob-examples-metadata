@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ErrorMachines/MachineWithParameters.mch
+4.8588301666666664E7,5.1966059E7,6.0064575E7,5.9974084E7:(x:0..a) & (x=a => 0:0..a&(not(x=a) => (TRUE:BOOL => x+1:0..a)))

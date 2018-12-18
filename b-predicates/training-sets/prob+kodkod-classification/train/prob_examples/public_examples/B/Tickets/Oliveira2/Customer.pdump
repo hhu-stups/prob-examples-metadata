@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Oliveira2/Customer.mch
+4.8511686E7,4.9586869E7,6.5795308333333336E7,7.049648766666667E7:not((limit:GOODS-->NAT1) & (purchases<:GOODS)) => not((gg:GOODS) & (price(gg)<=limit(gg)))

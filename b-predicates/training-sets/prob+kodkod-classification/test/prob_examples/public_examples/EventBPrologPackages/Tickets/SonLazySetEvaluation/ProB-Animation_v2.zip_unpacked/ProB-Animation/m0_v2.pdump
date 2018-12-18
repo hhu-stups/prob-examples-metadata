@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tickets/SonLazySetEvaluation/ProB-Animation_v2.zip_unpacked/ProB-Animation/m0_v2.bcm
+1.2343278233333333E8,2.736503013333333E8,2.5047100366666666E8,2.0374308766666666E8:not(not((m1:MSG) & (m2:MSG))) => not((p=ADD_MSG(m1 |-> m2)))

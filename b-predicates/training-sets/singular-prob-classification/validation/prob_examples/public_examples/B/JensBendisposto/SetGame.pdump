@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/SetGame.mch
+-1.0,1.6330440233333334E8,-1.0,-1.0:not((KARTEN=FARBE*FORM*ANZAHL*FUELLUNG) & not((tisch<:KARTEN) & (rest<:KARTEN) & (rest\/tisch=KARTEN) & (rest/\tisch={}))) => (x<:rest) & (card(x)=12)

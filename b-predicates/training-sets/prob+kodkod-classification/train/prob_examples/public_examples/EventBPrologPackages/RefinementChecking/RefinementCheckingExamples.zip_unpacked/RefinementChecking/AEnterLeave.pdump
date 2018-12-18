@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/RefinementChecking/RefinementCheckingExamples.zip_unpacked/RefinementChecking/AEnterLeave.bcm
+6.2860135E7,5.5895096666666664E7,7.708626933333333E7,6.0168684666666664E7:not(not((p:T) & (card(s)<maxitems) & (p/:s))) => (s:POW(T))

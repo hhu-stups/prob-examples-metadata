@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Disprover/EnumWarningTests/ExistentialQuantifier_EnumWarning.mch
+1.4893548966666666E8,7.862792233333333E7,1.8358603166666666E8,7.863025033333333E7:not((iv:ID)) => #x.(x:NATURAL1&x**2+1-(1+x*x)+x<100)
+-1.0,-1.0,-1.0,-1.0:(iv:ID) & not(#x.(x:NATURAL1&x**2+1-(1+x*x)+x>100))
+1.0974675366666667E8,1.03266158E8,6.3503536333333336E7,6.6780000333333336E7:not((iv:ID)) => #x.(x:NATURAL1&x>200&x**2+1-(1+x*x)+x>100)

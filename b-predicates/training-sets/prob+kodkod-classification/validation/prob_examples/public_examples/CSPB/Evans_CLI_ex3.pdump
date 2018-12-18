@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/CSPB/Evans_CLI_ex3.mch
+4.9698824666666664E7,4.8650460333333336E7,6.4057727E7,5.5958559E7:not((Range=0..10) & (xx:Range)) => (yy:Range)
+6.794859643333334E8,4.8103370333333336E7,6.3943257E7,5.5911276666666664E7:not((Range=0..10) & not((xx:Range))) => (yy:Range)
+4.8531218E7,8.156161713333334E8,6.5679115666666664E7,6.807860633333333E7:(Range=0..10) & (yy:Range) & (xx:Range&yy+xx:Range)
+5.0563553E7,5.1622090666666664E7,6.5158728E7,6.6759420666666664E7:(Range=0..10) & (not((yy:Range)) => not((xx:Range&yy+xx:Range)))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Alexei/ttrain.zip_unpacked/ttrain/ttrain.bcm
+5.4558753333333336E7,5.8750371333333336E7,-1.0,1.3737699E8:(train:1 .. n --> POSITION) & (card(train~[{BRIDGE}])<=1) & (ts:NAT) & (tc:BOOL) & (l_train:1 .. n --> POSITION) & (l_event:1 .. n ** POSITION +-> NAT) & (i:dom(train)) & (train(i)/=l_train(i)) & (tc=TRUE)

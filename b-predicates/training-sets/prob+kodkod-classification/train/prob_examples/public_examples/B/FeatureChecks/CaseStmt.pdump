@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/CaseStmt.mch
+4.9323451E7,4.8148580666666664E7,6.799426133333333E7,5.2655392333333336E7:not((xx:ID)) => (yy:ID)

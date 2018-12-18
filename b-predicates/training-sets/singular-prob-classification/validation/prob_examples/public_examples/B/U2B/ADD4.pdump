@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/U2B/ADD4.mch
+4.7632453666666664E7,4.7900900666666664E7,6.0148151666666664E7,5.5875145333333336E7:(not(inpA:0..15) => inpA:0..15)
+4.9369965333333336E7,5.309812023E9,1.8616337313333333E9,5.3466761666666664E7:(inpA:0..15) & (inpB:0..15) & (inpc:0..1) & (out:0..15) & (outc:0..1) & (valid:BOOL) & (valid=TRUE => outc*16+out=inpA+inpB+inpc) & (inpA:0..15) & (valid:BOOL) & (out:0..15) & (outc:0..1) & (inpc:0..1) & (inpB:0..15) & (valid=TRUE => outc*16+out=inpA+inpB+inpc)

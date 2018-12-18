@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter16/Archive.mch
+-1.0,-1.0,1.04070799E8,-1.0:(read:NATURAL) & (entries:seq(ELEM)) & not((ee:ELEM))
+-1.0,-1.0,8.964768966666667E7,-1.0:not((read:NATURAL) & (entries:seq(ELEM))) & not((ee:ELEM))
+-1.0,-1.0,6.950441566666667E7,-1.0:read:NATURAL & not(ee:ELEM&read:NATURAL)

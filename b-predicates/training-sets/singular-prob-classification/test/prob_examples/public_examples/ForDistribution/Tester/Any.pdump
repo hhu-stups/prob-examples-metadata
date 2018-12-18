@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/Any.mch
+4.8761670666666664E7,5.8502364666666664E7,6.405349E7,5.2014622E7:col2:POW(COLOURS) & not(!v.(v=TRUE => col1=col2 => col2:POW(COLOURS)))

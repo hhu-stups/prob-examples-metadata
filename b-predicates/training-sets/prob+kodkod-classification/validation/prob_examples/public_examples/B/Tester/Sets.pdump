@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/Sets.mch
+6.766160733333333E7,6.6019918E7,1.1692026866666667E8,5.8387756E7:(not(valY:POW(setY)) => not(valY:POW(setY)))
+7.183713833333333E7,2.0044820866666666E8,7.270330966666667E7,8.266707666666667E7:(not(funX:setX+->setY) => not(funX:setX+->setY))

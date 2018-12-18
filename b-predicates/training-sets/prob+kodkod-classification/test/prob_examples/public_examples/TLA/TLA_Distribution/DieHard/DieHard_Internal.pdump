@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/TLA/TLA_Distribution/DieHard/DieHard_Internal.mch
+5.1950507666666664E7,5.0981086666666664E7,7.502215666666667E7,7.259296033333333E7:(not(small:0..3) => small:0..3)
+6.5587460666666664E7,4.46867091E8,5.1101121333333336E7,8.5449041E7:(small:0..3) & (big:0..5) & (big/=4) & (small:0..3) & (0:0..5) & (0/=4)
+5.1469627E7,4.8922632E7,7.071700033333333E7,6.6740517E7:(not(big/=4) => big/=4)

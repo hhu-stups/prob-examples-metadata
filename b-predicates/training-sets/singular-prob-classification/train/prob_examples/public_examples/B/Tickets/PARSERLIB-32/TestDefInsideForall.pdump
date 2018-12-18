@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PARSERLIB-32/TestDefInsideForall.mch
+4.7869728E7,4.9797929666666664E7,-1.0,7.149817466666667E7:(iv:ID) & (!x,y.(x:ID&y:ID&x=y => EQ(x,y)&#z.(z:ID&(z/=x or z/=y)))) & (not(xx:ID) => xx:ID)
+1.3292223366666667E8,9.901207866666667E7,-1.0,6.961488166666667E7:(iv:ID) & (!x,y.(x:ID&y:ID&x=y => EQ(x,y)&#z.(z:ID&(z/=x or z/=y)))) & (not((xx:ID)) => not((xx:ID)))

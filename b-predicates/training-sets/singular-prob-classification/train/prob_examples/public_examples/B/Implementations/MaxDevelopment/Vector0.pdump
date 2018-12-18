@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Implementations/MaxDevelopment/Vector0.mch
+6.3764440333333336E7,5.8085133E7,7.482452866666667E7,7.604884666666667E7:not((v:NAT) & (w:NAT)) => not((x:NAT) & (y:NAT))
+5.2624033333333336E7,6.1313057666666664E7,7.604921933333333E7,1.7401393466666666E8:(x:NAT) & (y:NAT) & (v:NAT&w:NAT&w:NAT) & (v:NAT&w:NAT&v:NAT)

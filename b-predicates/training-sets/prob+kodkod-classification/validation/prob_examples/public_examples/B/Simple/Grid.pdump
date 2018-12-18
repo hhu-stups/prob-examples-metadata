@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Simple/Grid.mch
+5.2116986E7,5.0461677333333336E7,6.0528507333333336E7,6.4555206333333336E7:(limit:NAT) & (limit=3) & yy:NAT & not(yy<limit => yy+1:NAT)

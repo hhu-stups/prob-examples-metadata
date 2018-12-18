@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/DeferredSetMinCard.mch
+-1.0,-1.0,6.913637566666667E7,-1.0:(a:ID) & (b:ID) & (c:ID) & (d:ID) & (a/=b) & (a/=c) & (a/=d) & (b/=c) & (b/=d) & (not(c=d)) & (a/=zz) & not((xx:ID)) & not((yy:ID))
+4.9839717666666664E7,8.0335588E7,7.617917033333333E7,8.690532533333333E7:(a:ID) & (b:ID) & (c:ID) & (d:ID) & (a/=b) & (a/=c) & (a/=d) & (b/=c) & (b/=d) & (not(c=d)) & (a/=zz) & (not((xx:ID)) => (xx:ID))

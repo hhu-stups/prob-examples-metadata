@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Daniel/SigmaProblem.mch
+2.79382478E8,1.2452507633333333E8,-1.0,1.27198298E8:(function:0..10-->NATURAL) & (function=%p1.(p1:0..10|SIGMA(idx1).(idx1:p1..10|idx1))) & (not(tmp:0..100) => not(!v1.(v1=function(5) => (v1:NATURAL => v1:0..100))))

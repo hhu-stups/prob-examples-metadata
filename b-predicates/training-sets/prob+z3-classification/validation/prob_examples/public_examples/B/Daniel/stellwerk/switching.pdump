@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Daniel/stellwerk/switching.mch
+1.77692149E8,1.21538058E8,6.774567266666667E7,7.124094966666667E7:not((switches_left<:switches) & (switches_right<:switches) & (switches_left/\switches_right={}) & (switches_left\/switches_right=switches) & (connected:SECTION-end_tracks-->SECTION) & (connected=track_next\/(switches_left<|switch_next_left)\/(switches_right<|switch_next_right))) => (switch:switches)
+5.0177959E7,6.951419366666667E7,6.3982996333333336E7,5.988627E7:(not(switches_left\/switches_right=switches) => switch:switches&switches_left-{switch}\/(switches_right\/{switch})=switches)

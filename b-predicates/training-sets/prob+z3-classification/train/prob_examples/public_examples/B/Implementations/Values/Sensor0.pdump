@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Implementations/Values/Sensor0.mch
+8.657593E7,5.3850982E7,6.7901023E7,6.2781098666666664E7:not((LowerBound:NATURAL) & (UpperBound:NATURAL) & (UpperBound>=LowerBound) & (val:1..3-->NATURAL)) => (ii:1..3) & (new:NATURAL)
+4.6790983E7,5.4262091E7,6.5775939E7,6.906043466666667E7:not((LowerBound:NATURAL) & (UpperBound:NATURAL) & (UpperBound>=LowerBound) & not((val:1..3-->NATURAL))) => (ii:1..3) & (new:NATURAL)
+5.0232574666666664E7,5.5988591E7,4.3458995E7,8.519402733333333E7:(LowerBound:NATURAL) & (UpperBound:NATURAL) & (UpperBound>=LowerBound) & (val:1..3-->NATURAL) & (ran(val)<:LowerBound..UpperBound => val:1..3-->NATURAL&(not(ran(val)<:LowerBound..UpperBound) => (TRUE:BOOL => val:1..3-->NATURAL)))

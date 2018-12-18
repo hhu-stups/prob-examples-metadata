@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/B_Day/Parking.mch
+4.7693774333333336E7,4.7809920333333336E7,6.0130062666666664E7,5.5988241333333336E7:not((NbPlaces:NAT) & not((VehiculesPres<NbPlaces))) => (VehiculesPres:0..NbPlaces)

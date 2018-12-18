@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Rene/Lift.mch
+4.7628845333333336E7,4.8171069333333336E7,6.1208900666666664E7,5.5980163666666664E7:not(not((floor>0))) => not((floor:0..99))
+4.9347942E7,4.943976E7,5.8803078E7,5.6626335E7:not(not((floor:0..99))) => not((floor<99))

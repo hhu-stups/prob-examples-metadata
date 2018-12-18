@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/SetRelation.mch
+-1.0,-1.0,-1.0,-1.0:(r:POW(ID)+->POW(ID)) & ({x}:dom(r)) & (r({x})={y}) & ({z}:dom(r)) & (z/=x) & (y/=x) & (z/=y)

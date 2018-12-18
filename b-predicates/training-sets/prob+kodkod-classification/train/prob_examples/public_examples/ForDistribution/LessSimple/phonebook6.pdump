@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/ForDistribution/LessSimple/phonebook6.mch
+8.408045466666667E7,7.266720166666667E7,6.8295533E7,6.4057144666666664E7:not((db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec)) => (nn:Name) & (cc:Code) & (nn/:active)
+4.8518344E7,6.6387888E7,6.691654E7,7.4648133E7:(db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec) & not((nn:Name) & (nn:active))
+4.9496308333333336E7,6.4698543666666664E7,6.8779347E7,8.1792477E7:not((db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec)) & (nn:Name) & (nn:active)
+-1.0,-1.0,6.6636616333333336E7,-1.0:not((db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec)) & not((nn:Name) & (cc:Code))
+-1.0,-1.0,7.283682266666667E7,-1.0:(db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec) & (nn:Name) & (cc:Code) & (nn/:active) & (nn:Name) & (nn:active)
+-1.0,-1.0,6.4045574666666664E7,-1.0:(db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec) & (nn:Name) & (nn:active) & not((nn:Name) & (cc:Code))

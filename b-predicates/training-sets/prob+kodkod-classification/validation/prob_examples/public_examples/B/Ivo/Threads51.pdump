@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/Threads51.mch
+4.8561506666666664E7,5.0127277666666664E7,2.50444278E8,8.370971333333333E7:(n=51) & (not(pc1:NATURAL) => not(pc2<n&pc1:NATURAL))

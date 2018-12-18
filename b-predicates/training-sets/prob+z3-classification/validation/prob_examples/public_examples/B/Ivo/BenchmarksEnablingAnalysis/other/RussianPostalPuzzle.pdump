@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksEnablingAnalysis/other/RussianPostalPuzzle.mch
+1.0740865333333333E8,7.8860191E7,-1.0,9.9990951E7:(keysforsale:POW(KeyIDs)) & (hasbox:PERSONS) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL)
+1.7355365733333334E8,1.0698786066666667E8,1.1328847533333333E8,1.1707459433333333E8:not((keysforsale:POW(KeyIDs)) & (hasbox:PERSONS) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL)) => (keyid:keysforsale) & (person:PERSONS) & (person=hasbox)
+1.2127117033333333E8,4.7557607333333336E7,6.5287678666666664E7,5.1900291666666664E7:(not(hasbox:PERSONS) => not(person=hasbox&keyid:has_keys(person)&keyid/:padlocks))

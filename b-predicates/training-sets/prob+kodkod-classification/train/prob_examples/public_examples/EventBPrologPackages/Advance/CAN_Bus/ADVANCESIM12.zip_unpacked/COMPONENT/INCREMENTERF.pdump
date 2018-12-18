@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/INCREMENTERF.bcm
+4.7979937333333336E7,4.7982754333333336E7,-1.0,5.6017109333333336E7:not((v:NAT) & (i_sum:NAT)) => (incrementer_state=I_INC)
+6.807790766666667E7,5.0378543E7,-1.0,5.6015572666666664E7:not(not((pv:INT) & (incrementer_state=I_RCV))) => not((v:NAT) & (i_sum:NAT))
+6.7203448E7,6.3321436666666664E7,5.8107855E7,5.7873374333333336E7:(v:NAT) & (i_sum:NAT) & (incrementer_state=I_WAIT) & (incrementer_state=I_INC)

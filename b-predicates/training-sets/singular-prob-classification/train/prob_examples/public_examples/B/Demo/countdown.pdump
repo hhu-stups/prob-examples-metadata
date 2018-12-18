@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/Demo/countdown.mch
+4.8605785333333336E7,4.7927417E7,6.4135553333333336E7,5.8508580666666664E7:not(not((nums:POW(NATURAL)) & (1234/:nums))) => not((n1:nums) & (n2:nums) & (n1<n2))
+4.7466907E7,4.7842117E7,6.4110899666666664E7,5.9990124E7:not(not((n1:nums) & (n2:nums) & (n1<n2))) => not((nums:POW(NATURAL)) & (1234/:nums))
+-1.0,-1.0,-1.0,-1.0:not((nums:POW(NATURAL)) & (1234/:nums)) & not((card(nums)<2))
+4.7711863E7,5.1035773E7,6.4629470333333336E7,6.4371942666666664E7:(not(nums:POW(NATURAL)) => not(n1:nums&n2:nums&n1<n2&!c.(c=n2-n1 => (c:NATURAL => nums-{n1,n2}\/{c}:POW(NATURAL)))))
+5.1241269E7,5.1862507666666664E7,7.194548466666667E7,6.4107570333333336E7:(not(nums:POW(NATURAL)) => n1:nums&n2:nums&n1<n2&!c.(c=n1*n2 => (c:NATURAL => nums-{n1,n2}\/{c}:POW(NATURAL))))
+4.7634339333333336E7,5.2189038666666664E7,6.4943197666666664E7,6.56245E7:(not(nums:POW(NATURAL)) => not(n1:nums&n2:nums&n1<n2&!c.(c=n1+n2 => (c:NATURAL => nums-{n1,n2}\/{c}:POW(NATURAL)))))
+5.1211866333333336E7,5.5822345666666664E7,7.211012433333333E7,6.664467596666666E8:(not((nums:POW(NATURAL)) & (1234/:nums)) => (n1:nums&n2:nums&n1<n2&!c.(c=n1+n2 => (c:NATURAL => nums-{n1,n2}\/{c}:POW(NATURAL)))) & (n1:nums&n2:nums&n1<n2&!c.(c=n1+n2 => (c:NATURAL => 1234/:nums-{n1,n2}\/{c}))))

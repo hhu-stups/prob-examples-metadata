@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/TASK2.bcm
+7.6495179E7,3.20275668E8,6.6820485333333336E7,5.5594895666666664E7:(not((pr:INT) & (T2_state=T2_RCV)) => (T2_state=T2_WAIT))

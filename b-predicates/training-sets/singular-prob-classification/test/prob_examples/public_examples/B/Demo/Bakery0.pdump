@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Demo/Bakery0.mch
+4.7591294333333336E7,5.5996506333333336E7,6.0089717333333336E7,5.1939798666666664E7:aa:0..2 & not(aa=0 => 2:0..2)

@@ -1,0 +1,11 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/Paperround_simple.mch
+1.0926224166666667E8,1.1985162366666667E8,-1.0,7.342442066666667E7:(houseset:POW(NAT1)) & (magazine<:houseset)
+6.5197885666666664E7,6.1202638333333336E7,-1.0,1.8207303733333334E8:not((houseset:POW(NAT1)) & (magazine<:houseset)) & not((new:NAT1) & (new/:houseset))
+5.6787203E7,5.5453001333333336E7,6.751379966666667E7,6.762854866666667E7:not((new:houseset)) => (houseset:POW(NAT1)) & (magazine<:houseset)
+5.752326E7,5.5396825333333336E7,-1.0,8.631330366666667E7:not((houseset:POW(NAT1)) & (magazine<:houseset)) & not((new:houseset))
+5.2506490333333336E7,5.3243456E7,-1.0,8.114984433333333E7:houseset:POW(NAT1) & not(new:NAT1&new/:houseset&houseset\/{new}:POW(NAT1))
+5.1102098666666664E7,5.8724902333333336E7,-1.0,6.7376165E7:(not(magazine<:houseset) => new:NAT1&new/:houseset&magazine<:houseset\/{new})
+5.2396188E7,5.0612302E7,-1.0,6.0936845666666664E7:(not(magazine<:houseset) => not(new:NAT1&new/:houseset&magazine<:houseset\/{new}))
+5.7765935333333336E7,6.9264907E7,-1.0,7.849115E7:(not((houseset:POW(NAT1)) & (magazine<:houseset)) => (new:NAT1&new/:houseset&houseset\/{new}:POW(NAT1)) & (new:NAT1&new/:houseset&magazine<:houseset\/{new}))
+5.7725683E7,5.3798833666666664E7,7.309020733333333E7,7.223027433333333E7:(not(houseset:POW(NAT1)) => not(houseset:POW(NAT1)))
+4.9892051666666664E7,4.9835271333333336E7,6.768665633333333E7,7.071793166666667E7:(not(magazine<:houseset) => not(magazine<:houseset))

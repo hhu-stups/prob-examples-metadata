@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/WarnApp/WarningApp.mch
+1.1653204433333333E8,1.9332883046666667E9,-1.0,4.7740382E7:(loc:Persons-->Locations) & (nextId:NATURAL) & (reports:seq(Locations)) & (dangers<:Locations)
+7.482993033333333E7,5.5164603333333336E7,-1.0,5.5619875333333336E7:reports:seq(Locations) & reports:seq(Locations)
+-1.0,-1.0,7.6037812E7,-1.0:reports:seq(Locations) & not(reports:seq(Locations))
+-1.0,-1.0,6.5073405666666664E7,-1.0:loc:Persons-->Locations & not(loc:Persons-->Locations)

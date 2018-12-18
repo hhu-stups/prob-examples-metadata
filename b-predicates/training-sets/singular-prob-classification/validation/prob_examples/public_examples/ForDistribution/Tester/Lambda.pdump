@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/Lambda.mch
+5.5687365666666664E7,6.1598755333333336E7,2.609982992E9,5.1066736333333336E7:(not(col1:POW(COLOURS)) => not(col1:POW(COLOURS)))

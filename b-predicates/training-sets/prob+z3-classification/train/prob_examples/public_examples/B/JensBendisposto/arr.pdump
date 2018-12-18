@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/arr.mch
+5.1934537E7,5.1974044E7,5.3798298666666664E7,7.6824993E7:not(not((array:NATURAL1+->TYP) & (card(dom(array))<=n))) => (index:dom(array))
+5.0257601666666664E7,5.1905855333333336E7,4.3150319666666664E7,9.341234433333333E7:not((array:NATURAL1+->TYP) & (card(dom(array))<=n)) => (i<j) & (i:dom(array)) & (j:dom(array))
+4.9641461333333336E7,5.2145550666666664E7,4.2000825666666664E7,1.92079151E8:not((i<j) & (i:dom(array)) & (j:dom(array))) => (array:NATURAL1+->TYP) & (card(dom(array))<=n)
+5.2420213333333336E7,5.1962404333333336E7,4.5969881666666664E7,1.01211148E8:not(not((array:NATURAL1+->TYP) & (card(dom(array))<=n))) => (i<j) & (i:dom(array)) & (j:dom(array))
+4.8985908E7,5.1964848333333336E7,4.1723183E7,9.0400439E7:not(not((array:NATURAL1+->TYP) & (card(dom(array))<=n))) => not((i<j) & (i:dom(array)) & (j:dom(array)))
+5.6503018333333336E7,5.4652155E7,8.0832695E7,1.0542911933333333E8:(array:NATURAL1+->TYP) & (card(dom(array))<=n) & (not((index:dom(array))) => (i<j) & (i:dom(array)) & (j:dom(array)))
+5.0449455333333336E7,5.2033549E7,4.3451195666666664E7,1.0340779633333333E8:(array:NATURAL1+->TYP) & (card(dom(array))<=n) & ((index:dom(array)) => not((i<j) & (i:dom(array)) & (j:dom(array))))
+-1.0,-1.0,-1.0,-1.0:(array:NATURAL1+->TYP) & (card(dom(array))<=n) & (index:dom(array)) & not((index:NATURAL1) & (card(dom(array)\/{index})<=n) & (value:TYP))
+4.7702411666666664E7,5.0608181666666664E7,7.2061189E7,6.949975933333333E7:array:NATURAL1+->TYP & index:dom(array)&array:NATURAL1+->TYP

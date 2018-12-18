@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/SafetyMetroSystem_full_23_08_2012.zip_unpacked/GCDoors/Door_M0.bcm
+-1.0,-1.0,6.2834201E7,-1.0:not((door<:DOOR) & (door_state:door --> DOOR_STATE)) & not((doors<:DOOR))
+4.8740951333333336E7,6.4146937666666664E7,7.784649166666667E7,6.932839266666667E7:(door<:DOOR) & (door_state:door --> DOOR_STATE) & (ds<:door) & (ds/=({} oftype POW(DOOR))) & (door_state[ds]={CLOSED})

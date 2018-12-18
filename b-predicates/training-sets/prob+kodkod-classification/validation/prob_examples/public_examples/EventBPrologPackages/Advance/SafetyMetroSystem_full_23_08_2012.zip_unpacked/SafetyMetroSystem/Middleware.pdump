@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/SafetyMetroSystem_full_23_08_2012.zip_unpacked/SafetyMetroSystem/Middleware.bcm
+-1.0,-1.0,7.253005666666667E7,-1.0:(t1:TRAIN) & (bb:BOOL) & (t1:dom(tmsgs)) & (tmsgs(t1)=({} oftype POW(BOOL))) & (t1:TRAIN) & (bb:BOOL) & (t1:dom(tmsgs)) & (bb:tmsgs(t1))

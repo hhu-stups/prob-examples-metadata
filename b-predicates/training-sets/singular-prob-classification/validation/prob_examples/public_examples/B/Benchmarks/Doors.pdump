@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Doors.mch
+-1.0,-1.0,6.4176410666666664E7,-1.0:not((position:DOOR-->POSITION)) & not((dd:DOOR))
+4.7642674333333336E7,7.206903433333333E7,7.1898575E7,5.9900471E7:not((position:DOOR-->POSITION)) & (dd:DOOR)

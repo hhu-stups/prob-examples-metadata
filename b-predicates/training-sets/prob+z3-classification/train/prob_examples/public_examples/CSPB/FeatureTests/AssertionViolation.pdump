@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSPB/FeatureTests/AssertionViolation.mch
+2.4331242007E10,9.097262533333333E7,9.334457533333333E7,5.1278681E7:not((a:2..3) & (xx:NATURAL)) => a<3

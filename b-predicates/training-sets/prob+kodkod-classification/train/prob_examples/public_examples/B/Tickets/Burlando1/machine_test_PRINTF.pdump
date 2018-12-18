@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Burlando1/machine_test_PRINTF.mch
+4.8584995666666664E7,4.9407726333333336E7,6.0883371E7,5.5661291333333336E7:not((process=1)) => (xx:INT) & (process:1..10)

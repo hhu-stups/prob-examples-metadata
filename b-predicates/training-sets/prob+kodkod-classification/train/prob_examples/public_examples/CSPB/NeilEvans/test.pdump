@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/CSPB/NeilEvans/test.mch
+6.39904E7,2.4794344766666666E8,1.5919605866666666E8,1.6816803333333334E8:not((custObj<:CUST) & (accsObj<:ACCS) & (assoc:custObj<->accsObj)) & not((cc:custObj))
+6.1650693666666664E7,5.0781504333333336E7,1.2202589866666667E8,5.6224352E7:(not(accsObj<:ACCS) => not(cc:custObj&!xx.((cc,xx):assoc => accsObj<:ACCS)))
+7.4135824E7,3.70683637E8,1.34349254E8,1.3036005933333333E8:custObj<:CUST & not(cc:custObj&!xx.((cc,xx):assoc => custObj<:CUST))

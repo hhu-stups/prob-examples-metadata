@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/ChannelTC.bcm
+5.0607762E7,7.202352133333333E7,6.4030186E7,6.6594735E7:(sum:NAT) & (sum_prime:NAT) & (incrementer_evaluated=FALSE) & not((adder_enabled=FALSE) & (adder_evaluated=FALSE))

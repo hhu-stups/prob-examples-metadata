@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tester/TimeoutTest2.mch
+1.15382177E8,9.0769783E7,9.5644099E7,6.3945421333333336E7:not(not((xx:ID))) => not((yy:ID) & (!x.(x<:POW(ID) => {yy}:x)))
+1.0877840466666667E8,8.857637066666667E7,9.510771766666667E7,5.1724967333333336E7:not(not((xx:ID))) => (yy:INTEGER) & (yy mod 100=1)
+1.2017962133333333E8,9.057399433333333E7,1.0073499366666667E8,5.9433116666666664E7:not(not((xx:ID))) => not((yy:INTEGER) & (yy mod 100=1))

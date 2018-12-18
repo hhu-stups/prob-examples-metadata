@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Demo/CarlaTravelAgencyErr.mch
+1.64383916E8,5.427171128E9,1.3806779E8,4.6336409E7:(AGENCY_USER<:USER) & (AGENCY_USER/={}) & (not(user_rental_bookings:USER+->CAR_RENT) => sid:dom(session)&session_state(sid)=s1&session_request(sid)=none => user_rental_bookings:USER+->CAR_RENT)
+6.3042816666666664E7,6.3528376666666664E7,8.429267866666667E7,1.9602886233333334E8:(AGENCY_USER<:USER) & (AGENCY_USER/={}) & session:SESSION+->USER & not(sid:dom(session)&session_state(sid):{s6,s7} => {sid}<<|session:SESSION+->USER)
+4.9603002666666664E7,7.243875066666667E7,-1.0,8.803179533333333E7:(AGENCY_USER<:USER) & (AGENCY_USER/={}) & (not(dom(session)=dom(session_request)) => sid:dom(session)&session_state(sid):{s6,s7} => dom({sid}<<|session)=dom({sid}<<|session_request))

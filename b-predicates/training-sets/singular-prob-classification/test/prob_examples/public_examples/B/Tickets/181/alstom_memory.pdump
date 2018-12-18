@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/181/alstom_memory.mch
+4.7234265666666664E7,5.2005007E7,5.8337749E7,1.6258149833333334E8:not(not((not(reverse_limit:primary_key-->iseq(2..MAXINT))) & (reverse_limit:primary_key-->iseq(2..MAXINT)))) => (primary_key:POW(INTEGER)) & (reverse_limit:primary_key-->iseq(NAT))

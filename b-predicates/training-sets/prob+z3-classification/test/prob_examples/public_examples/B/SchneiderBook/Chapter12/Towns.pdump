@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter12/Towns.mch
+-1.0,-1.0,6.4000550333333336E7,-1.0:(roads:TOWN<->TOWN) & not((tt1:TOWN) & (tt2:TOWN))

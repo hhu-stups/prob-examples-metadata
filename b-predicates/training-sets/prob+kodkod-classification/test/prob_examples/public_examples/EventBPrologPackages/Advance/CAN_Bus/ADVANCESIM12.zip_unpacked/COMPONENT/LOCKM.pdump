@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/LOCKM.bcm
+4.6375753E7,4.5670937666666664E7,6.1586672666666664E7,5.1043292333333336E7:not(not((locked=FALSE))) => (locked:BOOL)

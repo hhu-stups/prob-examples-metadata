@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tickets/DefinitionCallSwallow/PerserDefBug.mch
+1.6510921766666666E8,9.7334887E7,2.1295212E7,1.2688380266666667E8:(f=pred) & (g=%x.(x:1..10|D("hello")(x))) & not(g(1)=0)
+-1.0,-1.0,-1.0,-1.0:not((f=pred) & (g=%x.(x:1..10|D("hello")(x)))) => g(1)=0
+-1.0,-1.0,-1.0,-1.0:not((f=pred) & (g=%x.(x:1..10|D("hello")(x)))) => (g(1)=0)

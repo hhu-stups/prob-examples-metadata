@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Demo/countdown.mch
+4.8594587666666664E7,5.1605794333333336E7,6.2616575E7,9.4728061E7:(not(1234/:nums) => not(n1:nums&n2:nums&n1<n2&!c.(c=n2-n1 => (c:NATURAL => 1234/:nums-{n1,n2}\/{c}))))

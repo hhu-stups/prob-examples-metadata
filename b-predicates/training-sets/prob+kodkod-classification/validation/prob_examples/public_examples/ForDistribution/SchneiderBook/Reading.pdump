@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Reading.mch
+5.3928552333333336E7,8.4577864E7,-1.0,7.122083533333333E7:not((copyof:COPY-->>BOOK) & (rr:READER) & (rr:dom(reading))) => (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={})
+-1.0,-1.0,6.986514633333333E7,-1.0:(copyof:COPY-->>BOOK) & not((hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={})) & not((rr:READER) & (bb:BOOK))
+8.054655533333333E7,4.8441262666666664E7,6.5785996333333336E7,5.1652983666666664E7:not((copyof:COPY-->>BOOK) & (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={})) => (rr:READER)
+-1.0,-1.0,7.3675314E7,-1.0:(copyof:COPY-->>BOOK) & (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={}) & (rr:READER) & (rr:dom(reading)) & (rr:READER) & (cc:COPY) & (copyof(cc)/:hasread[{rr}]) & (rr/:dom(reading)) & (cc/:ran(reading))
+4.9050511333333336E7,1.1305629966666667E8,7.205823233333333E7,8.052469466666667E7:(copyof:COPY-->>BOOK) & (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={}) & (rr:READER) & (rr:dom(reading)) & (rr:READER)
+6.914850466666667E7,6.3135309666666664E7,7.6334963E7,6.3464239E7:(copyof:COPY-->>BOOK) & (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={}) & ((rr:READER) & (cc:COPY) & (cc=reading(rr)) => not((rr:READER)))
+4.8364251E7,7.221442033333333E7,-1.0,8.185829133333333E7:(copyof:COPY-->>BOOK) & (not((reading;copyof)/\hasread={}) => copyof(cc)/:hasread[{rr}]&rr/:dom(reading)&cc/:ran(reading)&(reading\/{(rr,cc)};copyof)/\hasread={})
+-1.0,-1.0,-1.0,-1.0:(copyof:COPY-->>BOOK) & (reading;copyof)/\hasread={} & not(rr:dom(reading) => (reading;copyof)/\hasread={}&(not(rr:dom(reading)) => (TRUE:BOOL => (reading;copyof)/\hasread={})))

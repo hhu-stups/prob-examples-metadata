@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/TokenRing.mch
+-1.0,-1.0,8.795224566666667E7,-1.0:(next:Servers>->Servers) & not((token:Servers) & (requests<:Servers) & (in_critical<:Servers)) & (s=token) & (in_critical={})
+5.2559104333333336E7,1.2346949533333333E8,-1.0,7.290633833333333E7:(next:Servers>->Servers) & (token:Servers) & (requests<:Servers) & (in_critical<:Servers) & (in_critical={})
+-1.0,-1.0,6.7518898E7,-1.0:(next:Servers>->Servers) & not((token:Servers) & (requests<:Servers) & (in_critical<:Servers)) & not((s:in_critical))
+5.5547473666666664E7,7.8565973E7,-1.0,7.0916653E7:(next:Servers>->Servers) & (not(requests<:Servers) => s=token&in_critical={})

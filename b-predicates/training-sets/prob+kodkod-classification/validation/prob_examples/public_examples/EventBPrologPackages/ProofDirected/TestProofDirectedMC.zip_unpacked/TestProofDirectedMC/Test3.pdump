@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/ProofDirected/TestProofDirectedMC.zip_unpacked/TestProofDirectedMC/Test3.bcm
+9.28664509E8,5.6572557E7,1.183980658E9,7.04108532E8:(not((x:NAT&y:NAT) & x' = x - 1 & y' = y - 1) => not((x' : NAT & y' : NAT)))

@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Tester/DefinitionMultiInclude/AtelierBCorrect/Apply.mch
+5.1332226E7,5.1323123333333336E7,9.092201366666667E7,4.9772949333333336E7:(yy:INTEGER)
+1.2694395933333333E8,6.3814656E7,-1.0,6.6519375666666664E7:(ff=%x2.(x2:INTEGER|x2+1)) & (rr=CallOrApply(1)) & (yy:INTEGER) & (x3:NAT)
+-1.0,-1.0,6.6648489333333336E7,-1.0:not((ff=%x2.(x2:INTEGER|x2+1)) & (rr=CallOrApply(1)) & (yy:INTEGER)) => (x3:NAT)
+5.3988173666666664E7,5.2021839E7,-1.0,6.1242168333333336E7:(ff=%x2.(x2:INTEGER|x2+1)) & (rr=CallOrApply(1)) & (yy:INTEGER) & not((x3:NAT))
+-1.0,-1.0,9.818012933333333E7,-1.0:not((ff=%x2.(x2:INTEGER|x2+1)) & (rr=CallOrApply(1)) & not((yy:INTEGER))) => not((x3:NAT))

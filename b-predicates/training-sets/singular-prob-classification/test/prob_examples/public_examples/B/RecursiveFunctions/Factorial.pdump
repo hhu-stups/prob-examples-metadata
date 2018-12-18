@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/RecursiveFunctions/Factorial.mch
+-1.0,-1.0,6.3484702E7,-1.0:not((fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1)))) => fac(4)=24

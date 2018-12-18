@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/Counters/CounterArticle64_ok.mch
+6.6907205E7,6.8558206E7,6.4289297333333336E7,8.8844795E7:not((m:{127,255}) & not((c>=-2) & (c/=-1))) => (i:1..64)

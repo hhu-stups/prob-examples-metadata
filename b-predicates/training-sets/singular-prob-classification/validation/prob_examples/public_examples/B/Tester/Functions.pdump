@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/Functions.mch
+1.34333726E8,7.481698666666667E7,-1.0,2.4412499233333334E8:not((ff:setX<->setY) & (gg:setX<->setY) & (gg:dom(ff)<->ran(ff) <=> (dom(gg)<:dom(ff)&ran(gg)<:ran(ff))) & (gg:dom(ff)-->setY => dom(gg)=dom(ff)) & (dom(gg)=dom(ff)&gg:setX+->setY => gg:dom(ff)-->setY)) & (yy:setY)

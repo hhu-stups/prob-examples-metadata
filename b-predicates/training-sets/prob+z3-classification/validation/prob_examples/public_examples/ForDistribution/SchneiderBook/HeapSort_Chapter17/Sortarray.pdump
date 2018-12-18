@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/HeapSort_Chapter17/Sortarray.mch
+5.3068317333333336E7,5.3225879333333336E7,4.7217340333333336E7,1.0023628E8:(not(aa:1..cap-->NAT) => ii:1..cap&nn:NAT&aa<+{(ii,nn)}:1..cap-->NAT)

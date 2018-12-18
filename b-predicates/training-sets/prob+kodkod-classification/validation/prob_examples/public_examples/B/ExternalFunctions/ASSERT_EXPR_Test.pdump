@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/ASSERT_EXPR_Test.mch
+4.8440238333333336E7,4.9785660666666664E7,-1.0,6.6974369E7:not(not((xx<20))) => not((xx:NATURAL) & (ASSERT_EXPR(bool(xx<10),"xx has reached 10",xx)<20))

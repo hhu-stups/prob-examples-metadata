@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/SharedEventComposition/SimpleHeater/SimpleHeater.zip_unpacked/Composition/CombinedCtlEnv_M0.bcm
+5.0653997333333336E7,4.9144214666666664E7,6.000819E7,5.6026445333333336E7:(heater_on:BOOL) & (temp:INT) & (sensor_temp:INT) & not((sensor_temp>19))
+4.5530603333333336E7,4.5235920333333336E7,5.786504E7,4.7573484666666664E7:not(not((sensor_temp<18))) => (heater_on:BOOL) & (temp:INT) & (sensor_temp:INT)
+8.010024633333333E7,4.9360793E7,6.0069603333333336E7,5.8699666666666664E7:(heater_on:BOOL) & (temp:INT) & (sensor_temp:INT) & (t:INT) & (heater_on=TRUE=>t>=temp) & (heater_on=FALSE=>t<=temp)
+4.8033203E7,4.7949905666666664E7,6.0034054E7,5.1946154333333336E7:not((heater_on:BOOL) & (temp:INT) & (sensor_temp:INT)) => (t:INT) & (heater_on=TRUE=>t>=temp) & (heater_on=FALSE=>t<=temp)
+4.5374787666666664E7,4.4047896666666664E7,5.5122279333333336E7,4.7772183E7:not((heater_on:BOOL) & (temp:INT) & (sensor_temp:INT)) => not((t:INT) & (t=temp))
+5.0482746333333336E7,4.9074047666666664E7,6.0801447333333336E7,5.5918423666666664E7:(heater_on:BOOL) & (temp:INT) & (sensor_temp:INT) & (not((sensor_temp>19)) => (t:INT) & (heater_on=TRUE=>t>=temp) & (heater_on=FALSE=>t<=temp))
+4.8027941666666664E7,4.7923692E7,6.0061548666666664E7,5.5936443E7:(heater_on:BOOL) & (temp:INT) & (sensor_temp:INT) & (sensor_temp<18) & (t:INT) & (t=temp)

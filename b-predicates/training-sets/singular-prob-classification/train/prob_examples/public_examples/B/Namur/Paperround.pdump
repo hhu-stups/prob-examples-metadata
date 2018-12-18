@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Namur/Paperround.mch
+6.908466966666667E7,6.3522533333333336E7,1.2529123566666667E8,2.935173763333333E8:not(not((houseset:POW(NAT1)) & (card(houseset)<=2))) => not((new:NAT1) & (new/:houseset))

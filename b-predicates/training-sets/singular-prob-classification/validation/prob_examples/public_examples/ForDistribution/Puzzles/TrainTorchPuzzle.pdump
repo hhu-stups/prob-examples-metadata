@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Puzzles/TrainTorchPuzzle.mch
+5.3637547E7,8.6714472E7,-1.0,1.7141278933333334E8:(speed:Persons-->NATURAL1) & (speed(aa)=1) & (speed(bb)=2) & (speed(cc)=5) & (speed(dd)=8) & (traindeparts=16) & (torchLeft:BOOL) & (Pleft<:Persons) & (time:NATURAL) & (PP<:Pleft&card(PP)<3&PP/={}&torchLeft=TRUE&time<traindeparts) & (PP<:Pleft&card(PP)<3&PP/={}&torchLeft=TRUE&time<traindeparts&time+max(speed[PP]):NATURAL) & (PP<:Pleft&card(PP)<3&PP/={}&torchLeft=TRUE&time<traindeparts)

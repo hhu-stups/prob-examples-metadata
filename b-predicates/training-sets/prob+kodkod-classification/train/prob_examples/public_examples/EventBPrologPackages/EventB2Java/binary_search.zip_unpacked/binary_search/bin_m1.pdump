@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/EventB2Java/binary_search.zip_unpacked/binary_search/bin_m1.bcm
+6.0025975666666664E7,5.9840523666666664E7,5.4570045E7,8.3156664E7:not((r:NAT) & (p:1 .. n) & (q:1 .. n) & (r:p .. q) & (v:f[p .. q])) & (f(r)>v)
+5.46539589E8,5.4706793333333336E7,6.5248148666666664E7,6.4079238333333336E7:not(not((r:NAT) & (p:1 .. n) & (q:1 .. n) & (r:p .. q) & (v:f[p .. q]))) => not((f(r)>v))
+5.2180867E7,5.4944394E7,6.6223504666666664E7,6.4304639E7:not(not((f(r)=v))) => not((r:NAT) & (p:1 .. n) & (q:1 .. n) & (r:p .. q) & (v:f[p .. q]))
+-1.0,-1.0,6.7533518E7,-1.0:(r:NAT) & (p:1 .. n) & (q:1 .. n) & (r:p .. q) & (v:f[p .. q]) & (f(r)>v) & (f(r)=v)
+-1.0,-1.0,6.731025866666667E7,-1.0:(r:NAT) & (p:1 .. n) & (q:1 .. n) & (r:p .. q) & (v:f[p .. q]) & (f(r)>v) & (f(r)<v)
+-1.0,-1.0,6.805714133333333E7,-1.0:(r:NAT) & (p:1 .. n) & (q:1 .. n) & (r:p .. q) & (v:f[p .. q]) & (f(r)=v) & (f(r)<v)

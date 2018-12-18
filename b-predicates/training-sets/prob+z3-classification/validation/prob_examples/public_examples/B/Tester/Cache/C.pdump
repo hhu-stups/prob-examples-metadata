@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/Cache/C.mch
+5.6641025E7,5.8289535E7,8.869428633333333E7,1.19312426E8:(b:1..4) & (c:NATURAL) & not((b<A__a => c+b:NATURAL) & (b<A__a => b+1:1..4))

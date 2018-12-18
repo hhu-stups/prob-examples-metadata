@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Convergence/convergenceerr.zip_unpacked/ConvergenceErr/convergent_var_error.bcm
+1.5665874833333334E8,3.9643262666666664E7,9.2711394E7,5.5043149666666664E7:not((n:INT)) => not((n>=0))
+1.3793499833333334E8,1.5600780466666666E8,1.1009342233333333E8,9.569371E7:not(not((n:INT))) => not((n>=0))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tutorial/SimpleCountDefSet.mch
+5.1306431333333336E7,6.6215007333333336E7,1.4011129953333333E9,8.042177233333333E7:(card(ID)=5) & card(s)<10 & x:s&card(s-{x})<10

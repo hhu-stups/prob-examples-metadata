@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Assignments/Answer2/harbour.mch
+5.8685675333333336E7,6.2646770333333336E7,4.6514761E7,1.3234550733333333E8:not((free<:BERTH) & (berthed:BERTH>+>SHIP) & (free/\dom(berthed)={}) & (free\/dom(berthed)=BERTH) & (waiting:seq(SHIP)) & (ran(waiting)/\ran(berthed)={}) & (waiting:NAT>+>SHIP)) & not((ss:ran(berthed)))
+5.9318437333333336E7,6.4084755666666664E7,4.6020517E7,1.2780826866666667E8:not((free<:BERTH) & (berthed:BERTH>+>SHIP) & (free/\dom(berthed)={}) & (free\/dom(berthed)=BERTH) & (waiting:seq(SHIP)) & (ran(waiting)/\ran(berthed)={}) & (waiting:NAT>+>SHIP)) & (waiting/=[]) & (free/={})
+-1.0,-1.0,-1.0,-1.0:(free<:BERTH) & (berthed:BERTH>+>SHIP) & (free/\dom(berthed)={}) & (free\/dom(berthed)=BERTH) & (waiting:seq(SHIP)) & (ran(waiting)/\ran(berthed)={}) & (waiting:NAT>+>SHIP) & (bb:free) & (ss:SHIP) & (ss/:ran(waiting)) & (ss/:ran(berthed)) & not((ss:SHIP) & (ss/:ran(berthed)) & (ss/:ran(waiting)))

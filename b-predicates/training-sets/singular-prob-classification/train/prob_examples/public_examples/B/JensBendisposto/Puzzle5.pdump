@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/Puzzle5.mch
+5.6425727333333336E7,8.586971833333333E7,-1.0,2.2149609033333334E8:(all={1,2,5,8}) & (l<:all) & (r<:all) & (c:NATURAL) & (light:{0,1}) & (light=0&s<:l&card(s):{1,2}&r\/s<:all) & (light=0&s<:l&card(s):{1,2}&c+max(s):NATURAL) & (light=0&s<:l&card(s):{1,2}&l-s<:all) & (light=0&s<:l&card(s):{1,2}&1:{0,1})
+4.8939277333333336E7,5.0943815E7,7.924105866666667E7,7.859356E7:(all={1,2,5,8}) & (not(l<:all) => light=1&s<:r&card(s):{1,2}&l\/s<:all)

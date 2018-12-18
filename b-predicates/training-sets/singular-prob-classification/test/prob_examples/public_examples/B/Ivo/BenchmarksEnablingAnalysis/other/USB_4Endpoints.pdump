@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksEnablingAnalysis/other/USB_4Endpoints.mch
+-1.0,-1.0,7.724019966666667E7,-1.0:(ENDPOINTS=0..4) & transfer_endpoint:transfers+->ENDPOINTS & not(transfer_endpoint:transfers+->ENDPOINTS)
+-1.0,-1.0,6.940633533333333E7,-1.0:(ENDPOINTS=0..4) & transfer_endpoint:transfers+->ENDPOINTS & not(transfer_endpoint:transfers+->ENDPOINTS)
+-1.0,-1.0,6.4826446666666664E7,-1.0:(ENDPOINTS=0..4) & transfer_completed:transfers+->BOOL & not(!tr,ep.(tr:TRANSFERS-transfers&ep:ENDPOINTS-{0}&transfer_endpoint~[{ep}]/\transfer_completed~[{FALSE}]={} => transfer_completed<+{(tr,FALSE)}:transfers\/{tr}+->BOOL))

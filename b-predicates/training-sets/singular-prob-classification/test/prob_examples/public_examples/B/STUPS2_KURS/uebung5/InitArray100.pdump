@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/uebung5/InitArray100.mch
+-1.0,-1.0,7.045951833333333E7,-1.0:(len:NAT) & (len=5) & (initarray:1..len-->ELEMENTS) & not((initarray:1..len-->ELEMENTS))
+-1.0,-1.0,7.1285392E7,-1.0:(len:NAT) & (len=5) & initarray:1..len-->ELEMENTS & not(initarray:1..len-->ELEMENTS)

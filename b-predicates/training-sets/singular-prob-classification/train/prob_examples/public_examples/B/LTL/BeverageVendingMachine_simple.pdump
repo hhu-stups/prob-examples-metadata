@@ -1,0 +1,17 @@
+#source:examples/prob_examples/public_examples/B/LTL/BeverageVendingMachine_simple.mch
+4.7350900333333336E7,6.797999033333333E7,6.803206866666667E7,5.6001325333333336E7:not((drink=beer) & (paid=TRUE)) => not((paid:BOOL) & (drink:DRINKS) & (drink/=no_drink => paid=TRUE))
+4.7234171666666664E7,7.332710866666667E7,-1.0,5.7250459666666664E7:not((paid=FALSE)) => (paid:BOOL) & (drink:DRINKS) & (drink/=no_drink => paid=TRUE)
+4.8711152333333336E7,5.9969986333333336E7,-1.0,5.5994969666666664E7:not(not((drink=no_drink) & (paid=TRUE))) => (paid:BOOL) & (drink:DRINKS) & (drink/=no_drink => paid=TRUE)
+4.7301010666666664E7,6.0066879333333336E7,6.6690300666666664E7,6.3895532666666664E7:(paid:BOOL) & (drink:DRINKS) & (drink/=no_drink => paid=TRUE) & not((drink=no_drink) & (paid=TRUE))
+4.8344112666666664E7,5.9907850666666664E7,6.8065569E7,6.1317480666666664E7:(paid:BOOL) & (drink:DRINKS) & (drink/=no_drink => paid=TRUE) & (not((drink=beer) & (paid=TRUE)) => (drink=no_drink) & (paid=TRUE))
+4.8497834E7,5.6240368666666664E7,6.3865593666666664E7,5.1950321E7:(paid:BOOL) & (drink:DRINKS) & (drink/=no_drink => paid=TRUE) & (drink=no_drink) & (paid=TRUE) & not((drink=no_drink) & (paid=TRUE))
+4.7696079E7,4.7922272E7,6.4064804333333336E7,5.9949150666666664E7:paid:BOOL & drink=beer&paid=TRUE
+4.7643721333333336E7,4.7906348E7,6.4213799E7,4.9159091E7:(not(paid:BOOL) => drink=beer&paid=TRUE)
+4.7720151333333336E7,5.5715092333333336E7,-1.0,5.9638938666666664E7:paid:BOOL & not(drink=beer&paid=TRUE)
+4.6406436666666664E7,9.2815364E7,-1.0,5.7131986333333336E7:(not((paid:BOOL) & (drink:DRINKS) & (drink/=no_drink => paid=TRUE)) => not((drink=beer&paid=TRUE&(no_drink/=no_drink => FALSE=TRUE)) & (drink=beer&paid=TRUE) & (drink=beer&paid=TRUE)))
+4.8630741666666664E7,5.7311571333333336E7,6.5337987333333336E7,5.6015736E7:(not(drink/=no_drink => paid=TRUE) => drink=no_drink&paid=TRUE&(soda/=no_drink => paid=TRUE))
+4.7655827333333336E7,4.7991415E7,6.6653844E7,5.9995920666666664E7:paid:BOOL & drink=no_drink&paid=TRUE
+4.8695508333333336E7,5.6163194E7,6.792076433333333E7,5.8580051666666664E7:drink/=no_drink => paid=TRUE & not(drink=no_drink&paid=TRUE&(beer/=no_drink => paid=TRUE))
+4.7654128E7,4.7894870333333336E7,6.3974267E7,6.0052282666666664E7:paid:BOOL & drink=no_drink&paid=TRUE
+4.7567548E7,5.5954787666666664E7,-1.0,5.9371935666666664E7:paid:BOOL & not(drink=no_drink&paid=TRUE)
+2.24313115E8,5.899747E7,6.6553738333333336E7,5.5208534E7:(paid:BOOL) & (drink:DRINKS) & (drink/=no_drink => paid=TRUE) & (drink=no_drink&paid=TRUE&(beer/=no_drink => paid=TRUE)) & (drink=no_drink&paid=TRUE) & (drink=no_drink&paid=TRUE)

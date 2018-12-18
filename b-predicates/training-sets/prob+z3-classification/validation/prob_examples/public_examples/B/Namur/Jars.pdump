@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Namur/Jars.mch
+1.4139266126666667E9,2.013322947E9,1.7952708933333334E8,1.45945554E9:not((maxf:Jars-->NAT) & (maxf={(j3,3),(j5,5)}) & not((level:Jars-->NAT))) => (j:Jars) & (level(j)<maxf(j))
+1.4009571563333333E9,1.2608504893333333E9,2.1980723466666666E8,1.5671164146666667E9:not((maxf:Jars-->NAT) & (maxf={(j3,3),(j5,5)}) & not((level:Jars-->NAT))) => not((j:Jars) & (level(j)>0))

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/Wiki_Example1.mch
+4.7523082333333336E7,5.2014529E7,5.9993941666666664E7,5.5939865E7:not((n:NATURAL1) & (yy:1..n)) => (x:0..n) & (y:0..n)
+4.8638191666666664E7,5.1883087333333336E7,6.1483516666666664E7,5.9976551666666664E7:(n:NATURAL1) & (not(x:0..n) => not(yy:1..n&x:0..n))

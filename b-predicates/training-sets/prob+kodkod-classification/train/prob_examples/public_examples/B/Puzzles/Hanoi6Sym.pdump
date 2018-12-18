@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Hanoi6Sym.mch
+3.278262086666667E8,2.44544622E8,-1.0,2.19440778E8:(on:Stakes-->seq(INTEGER))
+1.1832405533333333E8,8.0892945E7,-1.0,5.25726351E8:(dest:Stakes) & (nrdiscs=DISCS) & not((on:Stakes-->seq(INTEGER))) & not((from:Stakes) & (on(from)/=[]) & (to:Stakes) & (to/=from) & (disc:NATURAL1) & (disc=first(on(from))) & (on(to)/=[] => first(on(to))>disc))
+8.800562766666667E7,8.133001166666667E7,-1.0,2.5530397433333334E8:not((dest:Stakes) & (nrdiscs=DISCS) & not((from:Stakes) & (on(from)/=[]) & (to:Stakes) & (to/=from) & (disc:NATURAL1) & (disc=first(on(from))) & (on(to)/=[] => first(on(to))>disc))) => not((on:Stakes-->seq(INTEGER)))

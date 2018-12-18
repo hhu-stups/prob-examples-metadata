@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Safes_Chapter10/Locks.mch
+7.3305481E7,1.6801086733333334E8,6.0015406333333336E7,9.516671033333333E7:not((dd:DOOR) & (position(dd)=closed)) => (status:DOOR-->STATUS) & (position~[{open}]<:status~[{unlocked}])

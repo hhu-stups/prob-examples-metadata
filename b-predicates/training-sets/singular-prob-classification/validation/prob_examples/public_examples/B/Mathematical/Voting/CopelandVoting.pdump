@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Voting/CopelandVoting.mch
+-1.0,-1.0,-1.0,-1.0:not((prefs:VOTERS-->perm(CHOICES)) & (EScore=Copeland0Score(E)) & (!B.(B:CHOICES&B/=E => prefered(E,B)))) => (A:CHOICES) & (!B.(B:CHOICES&B/=A => prefered(B,A)))
+-1.0,-1.0,-1.0,-1.0:not((prefs:VOTERS-->perm(CHOICES)) & (EScore=Copeland0Score(E)) & (!B.(B:CHOICES&B/=E => prefered(E,B)))) => (V:VOTERS) & (A:CHOICES) & (B:CHOICES) & (prefers(V,A,B))
+6.3992518333333336E7,1.0993050633333333E8,-1.0,-1.0:(prefs:VOTERS-->perm(CHOICES)) & (EScore=Copeland0Score(E)) & (!B.(B:CHOICES&B/=E => prefered(E,B))) & (not((A:CHOICES)) => (A:CHOICES))

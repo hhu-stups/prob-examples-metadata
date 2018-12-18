@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/B4MSecure/Functional_4_4.mch
+5.2171555333333336E7,7.010169866666667E7,8.077521566666667E7,1.7266436866666666E8:not((Book<:BOOK) & (Member<:MEMBER) & (Lend:Member<->Book) & (!c2.(c2:dom(Lend) => card(Lend[{c2}])<=3)) & (Reserve:Book+->Member)) & not((Instance:Book) & (Instance:ran(Lend)))
+5.0335241333333336E7,7.058223E7,6.6218616E7,1.0881730566666667E8:(Book<:BOOK) & (Member<:MEMBER) & (Lend:Member<->Book) & (!c2.(c2:dom(Lend) => card(Lend[{c2}])<=3)) & (Reserve:Book+->Member) & (((me,bo):Lend) => not((Instance:Book) & (Reserve__memberValue:Member) & ((Instance,Reserve__memberValue)/:Reserve)))
+6.9660488E7,6.834702933333333E7,-1.0,1.4716629366666666E8:(Book<:BOOK) & (Member<:MEMBER) & (Lend:Member<->Book) & (!c2.(c2:dom(Lend) => card(Lend[{c2}])<=3)) & (Reserve:Book+->Member) & (not(((me,bo):Lend)) => ((sombody_else,bo):Lend))

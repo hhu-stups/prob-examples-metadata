@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Guiziou_ClearSy/Machine_SansPrintf.mch
+4.7295353333333336E7,4.9618437333333336E7,6.3874579666666664E7,5.8042134E7:not(not((IC_Errors:POW(STRING)) & (prop_toto_0:POW(NAT)) & (process:NAT))) => (process=0)
+5.2088281333333336E7,5.1915889333333336E7,6.408997E7,6.1283514666666664E7:not(not((IC_Errors:POW(STRING)) & (prop_toto_0:POW(NAT)) & (process:NAT))) => not((process=0))
+5.4220069666666664E7,4.8087167E7,5.9916092E7,5.2013365333333336E7:process:NAT & not(!toto.(toto:prop_toto_0 => process:NAT))
+4.7521033333333336E7,4.8061582E7,5.9996246333333336E7,5.5959490333333336E7:(not(process:NAT) => not(!toto.(toto:prop_toto_0 => process:NAT)))
+4.8728938666666664E7,4.7885861E7,-1.0,6.2445277666666664E7:(not(prop_toto_0:POW(NAT)) => !toto.(toto:prop_toto_0 => prop_toto_0-{toto}:POW(NAT)))
+3.52371648E8,3.468296256666667E8,-1.0,-1.0:(IC_Errors:POW(STRING)) & (prop_toto_0:POW(NAT)) & (process:NAT) & not((!toto.(toto:prop_toto_0 => process:NAT)) & (!toto.(toto:prop_toto_0 => prop_toto_0-{toto}:POW(NAT))) & (!toto.(toto:prop_toto_0 => IC_Errors:POW(STRING))))
+5.7940119333333336E7,5.3414520666666664E7,6.792649166666667E7,6.815457033333333E7:prop_toto_0:POW(NAT) & process=0 => {toto|toto>0&toto<10}:POW(NAT)

@@ -1,0 +1,11 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/TimingExampleSimpler_v2_VariablesLimited.mch
+6.3191299E7,1.33754602E8,6.6769128333333336E7,1.52189302E8:(mxc:1..10) & (mxe:1..10) & not((INV) & (timer_c<LIMIT) & (timer_e<LIMIT)) & (v=timer_e) & (timer_c>=timer_e) & (pc=2)
+5.7497302E7,5.7016608E7,7.0011114E7,8.058666766666667E7:not((mxc:1..10) & (mxe:1..10) & (pc=1) & (v:1..mxe) & (timer_e<LIMIT-v)) => not((INV) & (timer_c<LIMIT) & (timer_e<LIMIT))
+5.684133E7,6.8899521E7,7.824174666666667E7,1.2309714766666667E8:(mxc:1..10) & (mxe:1..10) & (INV) & (timer_c<LIMIT) & (timer_e<LIMIT) & (not((v=timer_c) & (timer_c<timer_e) & (pc=2)) => (v=timer_e) & (timer_c>=timer_e) & (pc=2))
+-1.0,-1.0,6.825113733333333E7,-1.0:(mxc:1..10) & (mxe:1..10) & INV & not(v=timer_c&timer_c<timer_e&pc=2 => timer_c-v:NATURAL&timer_e-v:NATURAL&timer_c-v-(timer_e-v)<50&0:0..2)
+6.1835749666666664E7,1.6791981733333334E8,7.612644033333333E7,7.534433466666667E7:(mxc:1..10) & (mxe:1..10) & (not(timer_c<LIMIT) => not(v=timer_c&timer_c<timer_e&pc=2 => timer_c-v<55))
+6.0370945666666664E7,1.22873004E8,5.9221637333333336E7,1.20052161E8:(mxc:1..10) & (mxe:1..10) & (not(timer_e<LIMIT) => not(pc=0&v:1..mxc&timer_c<55-v => timer_e<55))
+5.5771710333333336E7,8.218898966666667E7,8.194680366666667E7,7.396154666666667E7:(mxc:1..10) & (mxe:1..10) & (not(timer_c<LIMIT) => pc=0&v:1..mxc&timer_c<55-v => timer_c+v<55)
+-1.0,-1.0,6.2491186333333336E7,1.4901737853333333E9:(mxc:1..10) & (mxe:1..10) & timer_c<LIMIT & not(pc=0&v:1..mxc&timer_c<55-v => timer_c+v<55)
+6.0542452333333336E7,1.5192832833333334E8,7.752100766666667E7,8.3520118E7:(mxc:1..10) & (mxe:1..10) & (not(INV) => not(v=timer_e&timer_c>=timer_e&pc=2 => timer_c-v:NATURAL&timer_e-v:NATURAL&timer_c-v-(timer_e-v)<50&0:0..2))
+7.1373345E7,8.854682766666667E7,1.46462899E8,9.770243833333333E7:(mxc:1..10) & (mxe:1..10) & (not((INV) & (timer_c<LIMIT) & (timer_e<LIMIT)) => (pc=1&v:1..mxe&timer_e<55-v => timer_c:NATURAL&timer_e+v:NATURAL&timer_c-(timer_e+v)<50&2:0..2) & (pc=1&v:1..mxe&timer_e<55-v => timer_e+v<55) & (pc=1&v:1..mxe&timer_e<55-v => timer_c<55))

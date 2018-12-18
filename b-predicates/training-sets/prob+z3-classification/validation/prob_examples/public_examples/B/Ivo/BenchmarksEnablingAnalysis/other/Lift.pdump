@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksEnablingAnalysis/other/Lift.mch
+1.4768253733333334E8,8.736457766666667E7,6.6867814E7,5.8898854E7:(floor:0..99) & (floor-1:0..99)

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/TestLibraryIO.mch
+4.6366114666666664E7,5.7254254666666664E7,6.2101752E7,5.4115401333333336E7:not((xx:ID) & (cnt:NATURAL)) & (cnt=3) & (yy:ID) & (yy/=xx)
+4.8575008333333336E7,6.6859829333333336E7,6.7260834E7,6.852961766666667E7:(xx:ID) & (cnt:NATURAL) & (cnt=0) & (yy:ID) & (yy/=xx) & not((cnt=1) & (yy:ID) & (yy/=xx))

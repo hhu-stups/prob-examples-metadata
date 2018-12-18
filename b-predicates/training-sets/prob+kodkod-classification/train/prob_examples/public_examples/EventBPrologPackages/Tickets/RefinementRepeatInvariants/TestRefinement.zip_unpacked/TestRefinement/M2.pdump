@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tickets/RefinementRepeatInvariants/TestRefinement.zip_unpacked/TestRefinement/M2.bcm
+2.0109663833333334E8,1.57077587E8,1.0201206466666667E8,1.1367697933333333E8:not(not((x<99))) => not((x:NAT) & (x<100) & (y:NAT) & (y<=x))

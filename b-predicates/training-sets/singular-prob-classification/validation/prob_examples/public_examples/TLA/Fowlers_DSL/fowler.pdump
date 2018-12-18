@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLA/Fowlers_DSL/fowler.mch
+5.0389252333333336E7,9.335574966666667E7,1.1569008433333333E8,6.399345E7:(not(panel:STRING) => not(door="unlocked" => !door_n,state_n.(door_n="locked"&state_n="active" => panel:STRING)))

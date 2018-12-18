@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Compilers/LLParsingTest.mch
+1.0879705233333333E8,7.715010366666667E7,-1.0,7.3333278E7:(Nullable<:NonTerminals) & (First:Symbols-->POW(Terminals)) & (Follow:NonTerminals-->POW(Terminals))
+6.3002029E7,5.7312246333333336E7,-1.0,7.775092533333333E7:(Rules:Symbols<->seq(Symbols)) & (NonTerminals=dom(Rules)) & (Terminals=Symbols-NonTerminals) & (Rules={(S,[a,S,a]),(S,[b,T,b])}) & (not(Follow:NonTerminals-->POW(Terminals)) => not(a=N)&Follow:NonTerminals-->POW(Terminals))

@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Simple/dijkstra.mch
+1.3588124566666666E8,9.301357366666667E7,1.1884586266666667E8,6.4464762333333336E7:not(not((marked:POW(States)) & (dist:States+->NAT) & (dom(dist)=marked) & (trans:States<->States) & (dom(trans)\/ran(trans)=States))) => not((marked=States))
+4.5714612E7,4.4557458666666664E7,6.863719666666667E7,5.1082194333333336E7:marked:POW(States) & marked=States => marked:POW(States)
+1.5015673433333334E8,4.9107990666666664E7,7.248892E7,6.0832479666666664E7:(not(dom(dist)=marked) => marked=States => dom(dist)=marked)
+5.8488792666666664E7,6.1778829E7,6.17645023E8,1.9494182866666666E8:(marked:POW(States)) & (dist:States+->NAT) & (dom(dist)=marked) & (trans:States<->States) & (dom(trans)\/ran(trans)=States) & (marked=States => dist:States+->NAT) & (marked=States => marked:POW(States)) & (marked=States => trans:States<->States) & (marked=States => dom(trans)\/ran(trans)=States) & (marked=States => dom(dist)=marked)
+6.5842148E7,5.9114640333333336E7,5.7390910666666664E7,6.760603666666667E7:(not(dist:States+->NAT) => mm:marked&ss/:marked&(ss,mm):trans&!xx.(xx:marked&dist(xx)<dist(mm) => trans~[{xx}]<:marked) => dist\/{(ss,dist(mm)+1)}:States+->NAT)
+1.50715558E8,6.0736680666666664E7,1.0319017033333333E8,5.3688391666666664E7:dom(trans)\/ran(trans)=States & mm:marked&ss/:marked&(ss,mm):trans&!xx.(xx:marked&dist(xx)<dist(mm) => trans~[{xx}]<:marked) => dom(trans)\/ran(trans)=States

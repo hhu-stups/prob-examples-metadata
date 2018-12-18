@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/PostCorrespondence_Turing_TLC.mch
+5.8984432333333336E7,1.0435172466666667E8,-1.0,3.72960812E8:(K={([a],[a]),([b],[b]),([Hash],[Hash])}\/{([z0,a],[a,z0]),([z0,b],[b,z1]),([z1,b],[b,z1]),([z1,Hash],[z2,Hash])}\/{([a,z2],[z2]),([b,z2],[z2])}\/{([z2,Hash,Hash],[Hash])}) & not((x:seq(Alphabet)) & (y:seq(Alphabet))) & not((ix:dom(K)) & (iy:ran(K)) & ((ix,iy):K) & (size(x^ix)<=size(y^iy)))

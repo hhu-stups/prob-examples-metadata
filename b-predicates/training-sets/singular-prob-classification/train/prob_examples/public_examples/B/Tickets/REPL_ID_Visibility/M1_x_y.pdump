@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/REPL_ID_Visibility/M1_x_y.mch
+4.7567036E7,4.7896640333333336E7,6.0022506666666664E7,5.6040343666666664E7:(x=10) & y:NATURAL & not(y<x => y+1:NATURAL)

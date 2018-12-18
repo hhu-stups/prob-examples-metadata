@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/FeatureTests/TheoremsInGuards.zip_unpacked/CamilleTests/EventWithSlash.bcm
+9.1455322E7,6.0979495333333336E7,6.0826589666666664E7,1.33176316E8:(not((y:NAT) & (x:NAT) & x' = x - 1 & y' = y + 1) => (y' : NAT) & (x' : NAT))

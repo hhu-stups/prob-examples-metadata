@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/ABZ_Landing_Gear/LandingGear.zip_unpacked/LandingGearFinal/Mch0_GearDoor.bcm
+8.109932666666667E7,5.6663653333333336E7,6.925543166666667E7,5.6835439666666664E7:(gear:GEAR_STATE) & (door:DOOR_STATE) & (not((door=open)) => (door=door_moving))

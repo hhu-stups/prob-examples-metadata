@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/RecursiveFunctions/RecFunWithCstConstraint.mch
+-1.0,-1.0,-1.0,-1.0:(n:1..10) & (add_n:INTEGER<->INTEGER) & (add_n=%xb.(xb=0|n)\/%xi.(xi>0|1+add_n(xi-1))) & (add_n(1)=8) & xx:NATURAL & add_n(xx):NATURAL
+-1.0,-1.0,-1.0,-1.0:(n:1..10) & (add_n:INTEGER<->INTEGER) & (add_n=%xb.(xb=0|n)\/%xi.(xi>0|1+add_n(xi-1))) & (add_n(1)=8) & (xx:NATURAL) & (add_n(xx):NATURAL)

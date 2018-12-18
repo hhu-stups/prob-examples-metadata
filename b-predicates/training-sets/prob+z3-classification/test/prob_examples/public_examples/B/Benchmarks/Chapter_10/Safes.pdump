@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Chapter_10/Safes.mch
+5.3958305E7,1.07781653E8,-1.0,6.4228535333333336E7:(unlocks:KEY>->>DOOR) & (status~[{unlocked}]<:unlocks[keys]) & not((kk:KEY) & (dd:DOOR) & (unlocks(kk)=dd) & (status(dd)=locked))
+6.924851766666667E7,6.857734958333333E9,5.2206405666666664E7,2.534968564E9:not((unlocks:KEY>->>DOOR) & not((status~[{unlocked}]<:unlocks[keys]))) => (dd:DOOR) & (position(dd)=closed)

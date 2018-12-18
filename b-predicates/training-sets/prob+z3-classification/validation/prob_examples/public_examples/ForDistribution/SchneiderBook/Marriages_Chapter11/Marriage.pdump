@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Marriages_Chapter11/Marriage.mch
+9.8552779E7,8.254641433333333E7,7.637467933333333E7,6.10082E7:not((marriage:male>+>female)) => (nn:PERSON) & (nn:dom(marriage)\/ran(marriage))
+4.7499406333333336E7,6.6991666333333336E7,-1.0,6.0529112666666664E7:not((mm:male) & (ff:female) & ((mm,ff):marriage)) => (marriage:male>+>female)

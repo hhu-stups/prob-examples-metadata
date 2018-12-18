@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Chapter13/Jobshop.mch
+1.1866073633333333E8,7.710687233333333E7,1.0678541366666667E8,6.9126202E7:(jobs<:JOB) & (card(jobs)<=limit)
+7.302418333333333E7,5.1047553E7,4.5540311666666664E7,1.16409426E8:(jobs<:JOB) & (card(jobs)<=limit) & not((jj:JOB) & (jj/:jobs) & (card(jobs)<limit))
+-1.0,-1.0,-1.0,-1.0:not((jobs<:JOB) & (card(jobs)<=limit)) & (jj:JOB) & (jj/:jobs) & (card(jobs)<limit)
+8.694965133333333E7,5.2229547E7,-1.0,1.3923905166666666E8:not(not((jobs<:JOB) & (card(jobs)<=limit))) => (jj:JOB) & (jj/:jobs) & (card(jobs)<limit)
+4.7936077666666664E7,5.1960611E7,4.5339075333333336E7,9.005726233333333E7:(not((jobs<:JOB) & (card(jobs)<=limit)) => not((jobs/={}&!job.(job:jobs => card(jobs-{job})<=limit)) & (jobs/={}&!job.(job:jobs => jobs-{job}<:JOB))))
+8.122485366666667E7,5.2920160666666664E7,6.937115866666667E7,1.12972839E8:(jobs<:JOB) & (card(jobs)<=limit) & (jj:jobs&card(jobs-{jj})<=limit) & (jj:jobs&jobs-{jj}<:JOB)

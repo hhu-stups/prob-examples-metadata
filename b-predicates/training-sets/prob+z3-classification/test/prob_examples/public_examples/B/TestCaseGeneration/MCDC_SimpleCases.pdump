@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/MCDC_SimpleCases.mch
+4.7091323666666664E7,6.4124798E7,5.9833027666666664E7,5.2113121333333336E7:(x:0..10) & (y:0..10) & (x=10) & (y=10) & not((x=10&y=10 or (x=0&y=0)))

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksEnablingAnalysis/other/phonebook4.mch
+-1.0,-1.0,1.6788415133333334E8,-1.0:(db:Name+->Code) & not((nn:Name))
+-1.0,-1.0,6.857108033333333E7,-1.0:(db:Name+->Code) & not((nn:Name) & (cc:Code))
+-1.0,-1.0,6.1259652666666664E7,-1.0:(db:Name+->Code) & not((db:Name+->Code))

@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Convergence/convergenceerr.zip_unpacked/ConvergenceErr/variant_set.bcm
+-1.0,-1.0,-1.0,-1.0:not((s<:INT) & (finite(s))) & (e:1 .. 4)
+1.0908060766666667E8,8.516108533333333E7,1.6148594466666666E8,1.1620912166666667E8:not(not((s<:INT) & (finite(s)))) => (e:1 .. 4)
+-1.0,-1.0,-1.0,-1.0:not((s<:INT) & (finite(s))) & not((e:1 .. 4))
+2.4192140633333334E8,1.64402773E8,6.4492558333333336E7,2.1555983733333334E8:not((e:1 .. 4)) => not((s<:INT) & (finite(s)))
+1.83127035E8,1.6900191466666666E8,-1.0,1.7643502966666666E8:(s<:INT) & (finite(s)) & (e:s)
+-1.0,-1.0,-1.0,-1.0:not((s<:INT) & (finite(s))) & (e:s)
+-1.0,-1.0,-1.0,-1.0:not((s<:INT) & (finite(s))) & not((e:s))
+1.45124647E8,7.127449666666667E7,6.0637738666666664E7,8.621508366666667E7:(s<:INT) & (finite(s)) & (e:1 .. 4) & not((e:s))

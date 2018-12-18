@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/PerfectNumbers.mch
+1.3663143433333334E8,9.670834066666667E7,-1.0,9.039108033333333E7:not((maxp=1000) & (perfect={n|n:1..maxp&is_perfect(n)})) => 1..5/\perfect={}

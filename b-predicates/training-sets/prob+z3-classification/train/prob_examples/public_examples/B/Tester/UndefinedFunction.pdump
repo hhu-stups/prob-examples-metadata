@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tester/UndefinedFunction.mch
+1.1812458866666667E8,3.2774014766666665E9,1.0004403033333333E8,5.7722703666666664E7:not((iv:ID) & not((f:ID<->ID))) => not((yy:ID) & (f(yy)=iv))
+2.1287104066666666E8,7.608376733333333E7,6.716301E7,6.4500730333333336E7:not((iv:ID) & not((yy:ID) & (f(yy)=iv))) => not((f:ID<->ID))
+9.0523127E7,1.1245297096666667E9,6.950965433333333E7,6.8366771E7:(iv:ID) & f:ID<->ID & f(yy)=iv

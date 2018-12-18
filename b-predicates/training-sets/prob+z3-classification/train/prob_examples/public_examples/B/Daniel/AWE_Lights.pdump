@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Daniel/AWE_Lights.mch
+1.3432734733333334E8,8.3521189E7,-1.0,5.4591579E7:not(not((Square=Go))) => (Moat=Stop or Square=Stop) & (Moat:COMMAND) & (Square:COMMAND)
+2.296738014E9,6.0201836333333336E7,6.7922045E7,8.865940986666666E8:not(not((Moat=Stop) & (Square=Stop))) => not((Moat=Stop or Square=Stop) & (Moat:COMMAND) & (Square:COMMAND))
+1.1590787233333333E8,2.8295719263333335E9,-1.0,6.4111575E7:(Moat=Stop or Square=Stop) & (Moat:COMMAND) & (Square:COMMAND) & (Moat:COMMAND) & (Stop:{Stop,Stop}) & (Square:COMMAND)
+8.665904133333333E7,4.9363190666666664E7,6.7467099E7,5.0731777E7:(not(Moat:COMMAND) => Moat=Stop&Square=Stop)
+5.5542282E7,6.2077121333333336E7,1.01491491E8,5.1022247E7:(not(Moat:COMMAND) => not(Moat=Stop&Square=Stop))

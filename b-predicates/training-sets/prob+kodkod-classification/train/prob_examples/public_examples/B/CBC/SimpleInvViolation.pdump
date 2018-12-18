@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/CBC/SimpleInvViolation.mch
+5.719028E7,5.3147145E7,9.401973133333333E7,7.022440966666667E7:(n:10..100) & not((reserve:ID-->0..n)) & (idx:ID)

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROB-320/Hierarchical_temp.mch
+4.8591840333333336E7,6.9437298E7,-1.0,6.0096957666666664E7:not(not((rasc:ROLES) & (rdesc:ROLES) & (rdesc:Roles) & (rasc/:Roles))) => (RH<:Roles*Roles)
+-1.0,-1.0,-1.0,-1.0:(RH<:Roles*Roles) & (rasc:ROLES) & (rdesc:ROLES) & (rdesc:Roles) & (rasc:Roles) & ((rasc,rdesc):RH) & (rasc:ROLES) & (rdesc:ROLES) & (rdesc:Roles) & (rasc:Roles) & ((rasc,rdesc)/:RH) & ((rdesc,rasc)/:closure1(RH)) & (rasc/=rdesc)

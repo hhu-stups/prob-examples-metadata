@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Chapter13/Books.mch
+5.1778419E7,6.6190423333333336E7,5.9415842333333336E7,5.3362977666666664E7:not((read<:BOOK)) => (read/=BOOK)
+9.8065776E7,6.1621733E7,6.6805842E7,6.3875371333333336E7:read<:BOOK & read/=BOOK&!tt.(tt:BOOK-read => read\/{tt}<:BOOK)
+4.7366754333333336E7,6.1431578E7,6.1317527333333336E7,6.3925960333333336E7:(read<:BOOK) & not((read/=BOOK&!tt.(tt:BOOK-read => read\/{tt}<:BOOK)))

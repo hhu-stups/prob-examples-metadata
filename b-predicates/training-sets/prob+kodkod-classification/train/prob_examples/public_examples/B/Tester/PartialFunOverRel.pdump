@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/PartialFunOverRel.mch
+1.82247361E8,1.27845261E8,-1.0,1.0160610033333333E8:(f:ID-->ID+->>ID) & (card(f)=3) & (dom(f)={{(aa,aa),(bb,aa),(cc,aa)},{(aa,aa),(bb,aa),(cc,bb)},{(aa,aa),(bb,aa),(cc,cc)}}) & (x:ID) & (y:ID)

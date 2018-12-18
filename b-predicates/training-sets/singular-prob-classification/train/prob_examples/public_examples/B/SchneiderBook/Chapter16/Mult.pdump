@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter16/Mult.mch
+4.7466790666666664E7,4.7932468666666664E7,6.0054122E7,5.6066533666666664E7:(not(nn:NAT1) => not(mm:NAT1&nn*mm:NAT1))

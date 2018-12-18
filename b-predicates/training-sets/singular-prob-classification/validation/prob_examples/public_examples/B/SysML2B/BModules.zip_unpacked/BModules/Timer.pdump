@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SysML2B/BModules.zip_unpacked/BModules/Timer.mch
+4.8742464666666664E7,4.7861137666666664E7,6.939548666666667E7,5.7385230666666664E7:(StartTimer:BOOL) & (TimeOut:BOOL) & (TimerValue:INT) & (temp_var:BOOL)
+4.7343334E7,4.8059603333333336E7,6.8024502E7,5.1922803666666664E7:not((StartTimer:BOOL) & (TimeOut:BOOL) & (TimerValue:INT)) => (temp_var:BOOL)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Marriages_Chapter11/Life.mch
+-1.0,-1.0,6.5439606333333336E7,-1.0:(male<:PERSON) & (female<:PERSON) & (male/\female={}) & (nn:PERSON) & (nn:male\/female) & (nn:PERSON) & (nn/:male\/female) & (ss:SEX)

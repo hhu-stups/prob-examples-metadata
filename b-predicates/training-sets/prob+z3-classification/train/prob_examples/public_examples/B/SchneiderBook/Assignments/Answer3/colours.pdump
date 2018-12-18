@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Assignments/Answer3/colours.mch
+5.0338524333333336E7,5.1871889E7,6.5329978666666664E7,2.1727709433333334E8:not((ii:1..arrsize) & (jj:1..arrsize)) => not((cols:1..arrsize-->SPECTRUM))

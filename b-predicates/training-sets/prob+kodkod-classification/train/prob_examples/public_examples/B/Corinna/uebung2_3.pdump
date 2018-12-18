@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Corinna/uebung2_3.mch
+8.981530833333333E7,7.9276352E7,9.3125762E7,5.5231721E7:(y:NAT)
+-1.0,-1.0,6.770148633333333E7,-1.0:y:NAT & !x.(x:1..100 => x mod 2=0 => y:NAT&(x mod 2/=0 => y:NAT))
+-1.0,-1.0,6.5144969666666664E7,-1.0:(y:NAT) & (!x.(x:1..100 => x mod 2=0 => y:NAT&(x mod 2/=0 => y:NAT)))

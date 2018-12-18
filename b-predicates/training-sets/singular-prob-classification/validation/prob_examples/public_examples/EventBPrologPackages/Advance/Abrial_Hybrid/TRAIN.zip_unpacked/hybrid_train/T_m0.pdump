@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/Abrial_Hybrid/TRAIN.zip_unpacked/hybrid_train/T_m0.bcm
+-1.0,-1.0,6.729603433333333E7,2.4574319356666665E9:(phase:{0,1,2}) & (z:NAT) & (a:{0,A,-b}) & (v:NAT) & (m:NAT) & (2*m - 2*z>=v*v) & (phase=2&v+2*a<=0=>a=-b) & (phase=2&a=A=>2*m - 2*z>=v*v+24+12*v) & (phase=2&a=0=>2*m - 2*z>=v*v+24+12*v) & (x:1 .. 300) & (v=0) & (m - z<12) & (phase=1) & (2*m - 2*z>=v*v+24+12*v) & (v>=0) & (e>0) & (A>0) & (v+4<=sl)

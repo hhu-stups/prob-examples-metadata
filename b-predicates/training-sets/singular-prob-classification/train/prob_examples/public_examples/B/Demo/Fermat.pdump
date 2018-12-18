@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Demo/Fermat.mch
+-1.0,-1.0,-1.0,-1.0:not((sols:POW(NAT))) & (nn:Base) & (n1:Base) & (n2:Base) & (exp:Exp) & (exp>2) & (nn**exp=n1**exp+n2**exp)

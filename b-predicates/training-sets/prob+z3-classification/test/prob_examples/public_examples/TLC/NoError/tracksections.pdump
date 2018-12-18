@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/TLC/NoError/tracksections.mch
+5.0928799333333336E7,6.0423302333333336E7,-1.0,6.3527142666666664E7:not(not((ts:sections) & (state(ts)=free))) => (sections<:SECTION) & (state:sections-->STATE)
+4.8362062666666664E7,6.5113517666666664E7,-1.0,4.3238203333333336E7:(sections<:SECTION) & (state:sections-->STATE) & (not((ts:sections) & (state(ts)=blocked)) => (ts:sections) & (state(ts)=free))
+4.7967948333333336E7,1.1938713233333333E8,-1.0,7.452437466666667E7:(sections<:SECTION) & (state:sections-->STATE) & ((ss:SECTION-sections) => not((ts:sections) & (state(ts)=free)))

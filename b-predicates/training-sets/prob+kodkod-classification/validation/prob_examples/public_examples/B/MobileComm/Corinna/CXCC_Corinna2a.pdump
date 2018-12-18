@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/Corinna/CXCC_Corinna2a.mch
+4.9608101E7,5.4770046666666664E7,-1.0,6.5236834E7:not((ROUTES<:iseq(Nodes)) & (ROUTES/={}) & (messages:Nodes<->Nodes<->Data) & (medium_empty:Bool) & (medium_messages:messages<->POW(Nodes)) & (used_data<:Data) & (FIRST<:Nodes) & (LAST<:Nodes)) => not((n_send:Nodes) & (n_send:FIRST) & (n_rec:Nodes) & (n_rec:LAST) & (d:Data) & (d/:used_data) & ({(n_send,n_rec)}/:dom(messages)) & (d/:ran(messages)))

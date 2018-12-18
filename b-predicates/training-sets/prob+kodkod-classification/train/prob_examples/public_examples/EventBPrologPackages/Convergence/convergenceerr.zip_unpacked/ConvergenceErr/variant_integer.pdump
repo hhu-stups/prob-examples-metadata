@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Convergence/convergenceerr.zip_unpacked/ConvergenceErr/variant_integer.bcm
+1.0139438833333333E8,9.828116633333333E7,8.265667E7,1.01863675E8:(n:INT) & (n>=0) & not((n>=0))

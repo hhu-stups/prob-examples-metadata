@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/MinOfEmptySet.mch
+5.8209404333333336E7,6.1213440666666664E7,-1.0,1.2462106166666667E8:(xx:POW(NATURAL)) & (card(xx)>2 => max(xx)=max({})) & (yy:NAT)
+1.05807915E8,1.0658948533333333E8,-1.0,2.1645029033333334E8:not((xx:POW(NATURAL)) & (card(xx)>2 => max(xx)=max({}))) & (yy:NAT)

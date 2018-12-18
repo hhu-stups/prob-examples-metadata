@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/PartialFunTest4.mch
+4.7429611E7,5.5181551666666664E7,7.4044588E7,5.158703E7:not((f:POW(ID)>+>>ID) & (!yy.(yy:ID => {yy}:dom(f)&f({yy})=yy)) & not((yy:POW(ID)) & (yy:dom(f)))) => (xx:ID)

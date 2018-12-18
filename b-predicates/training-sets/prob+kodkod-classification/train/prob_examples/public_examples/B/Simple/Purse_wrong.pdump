@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/B/Simple/Purse_wrong.mch
+1.6937291166666666E8,1.0287355666666667E8,-1.0,7.863460366666667E7:not((Coins<:NAT1) & (Coins={1,2}) & (purse:Coins-->NAT)) => (total(purse)=0)
+5.5172216333333336E7,5.2150021E7,-1.0,7.200664266666667E7:not((Coins<:NAT1) & (Coins={1,2}) & (total(purse)=0)) => (purse:Coins-->NAT)
+-1.0,-1.0,-1.0,-1.0:not((Coins<:NAT1) & (Coins={1,2}) & not((purse:Coins-->NAT))) => not((total(purse)=0))
+4.7933865E7,5.0447290666666664E7,6.4313136333333336E7,6.935104433333333E7:not((Coins<:NAT1) & (Coins={1,2}) & (purse:Coins-->NAT)) => not((cc:Coins) & (purse(cc)<MAXINT))
+4.7864792333333336E7,5.0416467E7,6.6638548666666664E7,6.1882380333333336E7:not((Coins<:NAT1) & (Coins={1,2}) & not((cc:Coins) & (purse(cc)<MAXINT))) => (purse:Coins-->NAT)
+5.6416322333333336E7,5.3490973333333336E7,6.6795644666666664E7,8.0879256E7:(Coins<:NAT1) & (Coins={1,2}) & not((purse:Coins-->NAT)) & (cc:Coins) & (purse(cc)<MAXINT)
+1.0558751933333333E8,5.3298118666666664E7,6.4056586E7,5.9830304E7:not((Coins<:NAT1) & (Coins={1,2}) & (purse:Coins-->NAT)) => (amount:NAT1)
+1.2064583533333333E8,9.6136457E7,1.00880123E8,7.704096533333333E7:(Coins<:NAT1) & (Coins={1,2}) & not((purse:Coins-->NAT)) & not((amount:NAT1))

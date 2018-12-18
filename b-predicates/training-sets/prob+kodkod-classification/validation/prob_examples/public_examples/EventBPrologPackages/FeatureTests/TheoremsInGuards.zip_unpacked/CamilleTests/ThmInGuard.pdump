@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/FeatureTests/TheoremsInGuards.zip_unpacked/CamilleTests/ThmInGuard.bcm
+8.547690833333333E7,5.0462771666666664E7,6.353354990666667E9,5.4533238E7:(x:INT) & (x:NAT) & (x>=0)

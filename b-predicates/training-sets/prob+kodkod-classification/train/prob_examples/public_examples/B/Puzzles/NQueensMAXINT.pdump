@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/NQueensMAXINT.mch
+3.9008482156666665E9,9.6723729E7,5.477916012E9,4.888649038666667E9:(n=MAXINT) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+q2-q1/=queens(q2)&queens(q1)-q2+q1/=queens(q2))) & not((yy:1..n))

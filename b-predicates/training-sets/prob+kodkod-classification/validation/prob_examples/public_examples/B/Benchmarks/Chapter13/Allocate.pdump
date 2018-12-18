@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Chapter13/Allocate.mch
+4.7423163E7,5.1985567666666664E7,6.4058867666666664E7,6.2676266333333336E7:(allocated<:NAT1) & (!mm.(mm:NAT1-allocated => allocated\/{mm}<:NAT1))

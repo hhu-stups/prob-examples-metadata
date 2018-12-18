@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/HDCP/hdcp.zip_unpacked/HalfDuplexCommProtocol/HDCP0_mch.bcm
+5.5199500333333336E7,6.5798381333333336E7,6.6165722666666664E7,5.5938049E7:not((CC_ACK=TRUE) & (CC_ST=in)) => not((CC_ACK:BOOL) & (CR_ACK:BOOL) & (CC_ST:STATUS) & (CC_ACK/=CR_ACK))

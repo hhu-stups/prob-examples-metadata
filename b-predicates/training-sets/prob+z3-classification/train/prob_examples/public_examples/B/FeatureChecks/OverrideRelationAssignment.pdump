@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/OverrideRelationAssignment.mch
+5.1386981666666664E7,5.7302142333333336E7,7.048594166666667E7,1.1031048933333333E8:not(not((d:dom(r)) & (card(r[{d}])>1))) => not((r:NATURAL<->NATURAL))
+-1.0,-1.0,-1.0,-1.0:r:NATURAL<->NATURAL & d:dom(r)&card(r[{d}])>1&r<+{(d,d+1)}:NATURAL<->NATURAL
+5.2658046333333336E7,5.2013015333333336E7,4.9194151666666664E7,1.7170819466666666E8:r:NATURAL<->NATURAL & not(d:dom(r)&card(r[{d}])=1&r:NATURAL<->NATURAL)

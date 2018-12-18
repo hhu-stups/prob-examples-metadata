@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter12/Port.mch
+5.2010780666666664E7,5.6134326333333336E7,4.7511326E7,1.1867461166666667E8:not((waiting:iseq(SHIP)) & (docked:QUAY>+>SHIP) & (ran(waiting)/\ran(docked)={})) & not((ss:SHIP) & (ss/:ran(waiting)) & (ss/:ran(docked)))

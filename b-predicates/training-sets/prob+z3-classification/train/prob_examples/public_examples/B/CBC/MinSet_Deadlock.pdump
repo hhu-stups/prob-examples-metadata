@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/CBC/MinSet_Deadlock.mch
+1.7701790166666666E8,7.281405433333333E7,9.8476466E7,6.0251074666666664E7:(ss<:0..NN) & (ww:0..NN) & (zz:0..NN)
+1.2450638453333333E9,1.2284804043333333E9,6.5766627E7,1.247436563E9:(NN>=0) & (II<:0..NN) & ww:0..NN & not(!xx.(ww:ss&xx:ss&xx<ww => xx:0..NN))
+-1.0,-1.0,6.883300833333333E7,1.72066131E8:(NN>=0) & (II<:0..NN) & ss<:0..NN & not(!xx.(ww:ss&xx:ss&xx<ww => ss-{ww}<:0..NN))
+4.9925669E7,6.6169541E7,6.4452842333333336E7,6.804622266666667E7:(NN>=0) & (II<:0..NN) & (not(zz:0..NN) => !xx.(ww:ss&xx:ss&xx<ww => zz:0..NN))
+-1.0,-1.0,6.3322508E7,-1.0:(NN>=0) & (II<:0..NN) & zz:0..NN & not(!xx.(ww:ss&xx:ss&xx<ww => zz:0..NN))
+-1.0,-1.0,6.2969506333333336E7,9.95606192E8:(NN>=0) & (II<:0..NN) & ss<:0..NN & not(!xx.(ww:ss&xx:ss&xx>ww => ss-{xx}<:0..NN))

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Compilers/Dataflow/Dataflow.zip_unpacked/Dataflow/LivenessAnalysis.bcm
+5.0351281666666664E7,5.2700905666666664E7,1.0208113733333333E8,6.6775716666666664E7:not((in:Blocks --> POW(Domain)) & (out:Blocks --> POW(Domain)) & (BlocksToTreat<:Blocks) & (change:BOOL) & (lastBlockTreated:Blocks)) => not((BlocksToTreat=({} oftype POW(Blocks))&change=FALSE))
+7.293195826666666E8,1.8424542733333334E8,-1.0,7.348038733333333E7:(in:Blocks --> POW(Domain)) & (out:Blocks --> POW(Domain)) & (BlocksToTreat<:Blocks) & (change:BOOL) & (lastBlockTreated:Blocks) & ((B=lastBlockTreated) & (lastBlockTreated:BlocksToTreat) => not((B:BlocksToTreat) & (lastBlockTreated/:BlocksToTreat)))

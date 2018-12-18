@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Voting/Condorcet.mch
+-1.0,-1.0,-1.0,-1.0:not((prefs:VOTERS-->perm(CHOICES)) & (prefs(Anna)=[H,F,E,G]) & (prefs(Belle)=[F,H,E,G]) & (prefs(Chris)=[E,G,H,F]) & (prefs(David)=[G,E,H,F]) & (prefs(Edgar)=[G,E,F,H])) => (A:CHOICES) & (B:CHOICES) & (prefered(A,B))

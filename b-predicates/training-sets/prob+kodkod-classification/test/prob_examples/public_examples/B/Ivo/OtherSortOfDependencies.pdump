@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/OtherSortOfDependencies.mch
+4.9095698E7,1.11695256E8,6.0354113333333336E7,6.796450866666667E7:(S={0,1,2,3}) & x:S & not(x+y<3&y<2&x:S)

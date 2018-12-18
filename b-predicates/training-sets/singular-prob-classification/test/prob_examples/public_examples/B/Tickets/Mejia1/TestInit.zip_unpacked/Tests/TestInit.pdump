@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Mejia1/TestInit.zip_unpacked/Tests/TestInit.bcm
+3.7061207666666664E7,4.7853734333333336E7,6.3924632666666664E7,9.618592766666667E7:(vv:NAT <-> NAT) & not((#x oftype INT.x:dom(vv)or x:ran(vv)))

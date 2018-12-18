@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/SimpleAccount.mch
+4.9639110666666664E7,5.0943233333333336E7,8.356127766666667E7,6.0353019333333336E7:not((minb<maxb) & (minb<=0) & (maxb>=0) & (maxb>1000) & not((balance:minb..maxb))) => (s>0) & (balance+s<=maxb)

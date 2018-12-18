@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/FormalLanguages.mch
+-1.0,-1.0,4.628330876666667E8,-1.0:not((cat=%a,b.(a<:Word&b<:Word|{c|#aw,bw.(aw:a&bw:b&c=aw^bw)})) & (catword=%x,y.(x:Word&y:Word|x^y))) => cat({[a,b,c,a,b,c,a,b,c]},{[c,c,c,b,b,b,a,a,a]})={[a,b,c,a,b,c,a,b,c,c,c,c,b,b,b,a,a,a]}

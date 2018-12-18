@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Daniel/rel_fnc.mch
+5.1299377666666664E7,5.8166242E7,1.3262540833333333E8,7.351277E7:(startrel={(aa,kk),(aa,ll),(bb,mm)}) & (phase:PHASE) & (rr:S1<->S2) & (ff:S1+->POW(S2)) & (phase/=init => dom(ff)=dom(startrel)) & (phase=steprel => startrel=rr) & (c:NATURAL) & (x:dom(rr)) & not((phase=stepfunc))
+1.4041927633333334E8,1.3997091866666666E8,1.1093773433333333E8,9.855405966666667E7:(startrel={(aa,kk),(aa,ll),(bb,mm)}) & (phase:PHASE) & (rr:S1<->S2) & (ff:S1+->POW(S2)) & (phase/=init => dom(ff)=dom(startrel)) & (phase=steprel => startrel=rr) & (c:NATURAL) & (x:dom(rr)) & (phase=init)
+-1.0,-1.0,-1.0,-1.0:(startrel={(aa,kk),(aa,ll),(bb,mm)}) & (not(phase=steprel => startrel=rr) => phase=stepfunc => (steprel=steprel => startrel={x,y|y:union(ff[{x}])}))
+5.3865392666666664E7,5.6322898E7,-1.0,7.3464556E7:(startrel={(aa,kk),(aa,ll),(bb,mm)}) & phase=steprel => startrel=rr & not(phase=stepfunc => (steprel=steprel => startrel={rel_x,rel_y|rel_x:dom(ff)&rel_y:union(ff[{rel_x}])}))

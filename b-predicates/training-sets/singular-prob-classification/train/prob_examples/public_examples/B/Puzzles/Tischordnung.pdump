@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Tischordnung.mch
+5.0320086333333336E7,5.7349238666666664E7,8.234995066666667E7,1.1013907566666667E8:not((u_avoid:ID<->ID) & (u_avoid={(Peter,Ute),(Gabi,Heinz),(Gabi,Ute),(Ute,Paula),(Gabi,Paula)}) & (d_avoid=u_avoid\/u_avoid~\/{(Paula,Heinz)}) & (order:perm(ID)) & (!i.(i:1..size(order)-1 => (order(i),order(i+1))/:d_avoid))) => not((yy:dom(order)))

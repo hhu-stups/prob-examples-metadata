@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Convergence/convergenceerr.zip_unpacked/ConvergenceErr/anticipated_grd_error.bcm
+1.3639190233333334E8,1.97903774E8,5.2714245333333336E7,8.281022766666667E7:not(not((n>=-1))) => not((n:INT))

@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/EventB2Java/MIO.zip_unpacked/MIO/ref1.bcm
+5.3742309E7,5.5309850333333336E7,6.6706876666666664E7,1.33762471E8:not((parked:0 .. min({n,m})) & (busSta:BUSES >+> STATS) & (finite(busSta)) & (card(busSta)=parked)) & (parked>0) & (b:dom(busSta))
+4.846012E7,5.1463527333333336E7,-1.0,6.810668233333333E7:not(not((parked>0) & (b:dom(busSta)))) => not((parked:0 .. min({n,m})) & (busSta:BUSES >+> STATS) & (finite(busSta)) & (card(busSta)=parked))
+7.4073316E7,5.3057375333333336E7,-1.0,2.5419612833333334E8:not((parked>0) & (b:dom(busSta))) => not((parked:0 .. min({n,m})) & (busSta:BUSES >+> STATS) & (finite(busSta)) & (card(busSta)=parked))
+5.1635523333333336E7,5.5966334666666664E7,-1.0,1.5676958633333334E8:not((parked:0 .. min({n,m})) & (busSta:BUSES >+> STATS) & (finite(busSta)) & (card(busSta)=parked)) & not((parked<n) & (parked<m) & (b:BUSES \ dom(busSta)) & (s:STATS \ ran(busSta)))
+-1.0,-1.0,1.1213073966666667E8,-1.0:(parked:0 .. min({n,m})) & (busSta:BUSES >+> STATS) & (finite(busSta)) & (card(busSta)=parked) & (parked>0) & (b:dom(busSta)) & (parked<n) & (parked<m) & (b:BUSES \ dom(busSta)) & (s:STATS \ ran(busSta))

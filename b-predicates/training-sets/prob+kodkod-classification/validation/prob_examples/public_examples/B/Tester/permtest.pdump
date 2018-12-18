@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/permtest.mch
+5.2377214333333336E7,4.7602119333333336E7,7.2344721E7,5.6471823E7:not(not((ff:seq(BOOKS)))) => (bb:BOOKS)
+-1.0,-1.0,-1.0,-1.0:(ff:seq(BOOKS)) & not(([bb]^ff:seq(BOOKS)))

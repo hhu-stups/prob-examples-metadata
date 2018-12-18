@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/LOCKSM.bcm
+4.7906301333333336E7,5.8644561666666664E7,-1.0,5.6056826E7:not(not((dpos:DoorPosition) & (doorst:DoorState) & (doorst=LOCKED=>dpos=CLOSED))) => not((dpos=OPEN))

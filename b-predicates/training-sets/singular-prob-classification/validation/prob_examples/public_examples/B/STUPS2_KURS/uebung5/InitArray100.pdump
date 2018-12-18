@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/uebung5/InitArray100.mch
+6.939048133333333E7,6.189274E7,-1.0,1.2956156366666667E8:(len:NAT) & (len=5) & (not((initarray:1..len-->ELEMENTS)) => (pos:1..len&initarray<+{(pos,el)}:1..len-->ELEMENTS))
+6.2166937E7,5.2861750333333336E7,6.4736887E7,1.01005838E8:(len:NAT) & (len=5) & (not((initarray:1..len-->ELEMENTS)) => not((initarray:1..len-->ELEMENTS)))

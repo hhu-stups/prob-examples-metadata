@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/AccessControl_Butler/AccessControl_Butler.zip_unpacked/Rooms1/M1.bcm
+2.940056136666667E8,3.775892636666667E8,3.737595636666667E8,1.8996479966666666E8:(authorised:User <-> Activity) & (takeplace:Room <-> Activity) & (location:User +-> Room) & (!u oftype User,r oftype Room.u:dom(location)&location(u)=r=>takeplace[{r}]<:authorised[{u}]) & (u |-> a:authorised) & (u:dom(location)=>location(u) |-> a/:takeplace)

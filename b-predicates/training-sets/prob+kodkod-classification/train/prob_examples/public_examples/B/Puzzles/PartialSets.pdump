@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/PartialSets.mch
+7.6635839E7,6.5272709333333336E7,2.77110821E8,1.1236682633333333E8:(pset(x)) & (pset(y)) & g:POW(POW(Els)) & g:POW(POW(Els))
+8.405396133333333E7,7.869268866666667E7,2.9111749E8,1.2615247133333333E8:(pset(x)) & (pset(y)) & (not(g:POW(POW(Els))) => g:POW(POW(Els)))
+8.31757656E8,4.321089293333333E8,1.031819898E9,1.41887829E8:(pset(x)) & (pset(y)) & (not(g:POW(POW(Els))) => not(g:POW(POW(Els))))

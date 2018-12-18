@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Special/PO_ModelChecking/Scheduler_true.mch
+4.8097387333333336E7,8.376879933333333E7,1.0254995866666667E8,5.9892346333333336E7:(card(PID)=6) & ready<:PID & !pp.(active/={}&ready/={}&pp:ready => ready<:PID)
+-1.0,6.0530509666666664E7,6.790267566666667E7,-1.0:(card(PID)=6) & ready/\waiting={} & not(!rr.(rr:waiting&active/={} => ready\/{rr}/\waiting-{rr}={}))
+4.999998E7,6.5391043333333336E7,1.3423911433333334E8,4.3889240666666664E7:(card(PID)=6) & (not(ready/\waiting={}) => not(!rr.(rr:waiting&active/={} => ready\/{rr}/\waiting-{rr}={})))

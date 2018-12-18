@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Hansen13/OverrideSymbolicTest.mch
+4.5411361333333336E7,4.7096585333333336E7,5.8354114666666664E7,5.1338256E7:not((x:BOOL) & (f:INTEGER<->BOOL)) => not((v:0..5))

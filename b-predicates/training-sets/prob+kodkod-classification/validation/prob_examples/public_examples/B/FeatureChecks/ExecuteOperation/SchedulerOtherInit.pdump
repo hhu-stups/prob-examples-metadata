@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/ExecuteOperation/SchedulerOtherInit.mch
+5.6268654333333336E7,1.2448207766666667E8,8.3991151E7,1.0728875966666667E8:(active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & (pp:PID) & (pp/:active) & (pp/:ready\/waiting)
+6.0371574E7,5.5971922333333336E7,9.346614533333333E7,1.4908474066666666E8:(active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & (active/={}) & (rr:waiting)

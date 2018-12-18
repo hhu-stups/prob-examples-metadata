@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/CBTM.bcm
+5.0343506E7,5.1985032666666664E7,6.811788E7,9.403667866666667E7:not(not((T2_timer<10))) => (T2v:INT) & (T1_timer:NAT) & (T2_timer:NAT) & (BUSwrite:NAT +-> INT) & (BUSread:INT) & (finite(BUSwrite)) & (T1_timer<10) & (T2_timer<20)

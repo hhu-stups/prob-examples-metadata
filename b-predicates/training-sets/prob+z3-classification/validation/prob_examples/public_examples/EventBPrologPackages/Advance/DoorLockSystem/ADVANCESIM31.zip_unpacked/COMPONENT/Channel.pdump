@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/Channel.bcm
+4.8228735666666664E7,5.1971204E7,7.3479828E7,6.795594133333333E7:not((sum_value:Schedule +-> NAT) & (sum_delay:Schedule +-> NAT) & (!s oftype Schedule.s:dom(sum_value)<=>s:dom(sum_delay))) => not((adder_evaluated=TRUE) & (0/:ran(sum_delay)or incrementer_evaluated=TRUE))
+5.0714642666666664E7,5.1896473666666664E7,2.5324309333333332E7,1.03969413E8:not(not((adder_evaluated=TRUE) & (0/:ran(sum_delay)or incrementer_evaluated=TRUE))) => not((sum_value:Schedule +-> NAT) & (sum_delay:Schedule +-> NAT) & (!s oftype Schedule.s:dom(sum_value)<=>s:dom(sum_delay)))
+1.2400671433333333E8,5.4200420666666664E7,8.3835638E7,6.3109119333333336E7:(sum_value:Schedule +-> NAT) & (sum_delay:Schedule +-> NAT) & (!s oftype Schedule.s:dom(sum_value)<=>s:dom(sum_delay)) & sum_delay:POW(Schedule ** INT)

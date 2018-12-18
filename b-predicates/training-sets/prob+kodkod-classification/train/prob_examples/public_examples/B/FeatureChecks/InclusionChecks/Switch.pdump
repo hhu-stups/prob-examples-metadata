@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/InclusionChecks/Switch.mch
+5.0258509666666664E7,4.8052386333333336E7,6.3000632666666664E7,5.1264922333333336E7:curStatus:Status & curStatus:Status
+4.7469979666666664E7,5.0369347333333336E7,6.945706333333333E7,5.3611869E7:curStatus:Status & curStatus:Status
+6.823512033333333E7,7.235878266666667E7,1.1880745E8,5.4858093333333336E7:(not((curStatus:Status)) => not((curStatus:Status)))

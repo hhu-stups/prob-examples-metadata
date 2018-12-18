@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/LTL/Stepmother.mch
+1.1732369466666667E8,7.5501524E7,1.0525027866666667E8,5.6180817333333336E7:(bottles:DOM-->NATURAL) & (turn:BOOL)
+5.2978967E7,5.4300923E7,-1.0,8.9290335E7:(bv=10) & (jv=5) & (bottles:DOM-->NATURAL) & (turn:BOOL) & not((turn=TRUE) & (b:DOM-->NATURAL) & (SIGMA(x).(x:DOM|b(x))=jv))

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tester/ThreeDimensionalArray.mch
+2.4982394766666666E8,1.11921006E8,2.05519594E8,1.84765791E8:not((ar:IDX-->(IDX-->(IDX-->NAT)))) => (x:IDX) & (y:IDX) & (z:IDX)
+3.748153076666667E8,4.475356583333333E8,-1.0,3.456666053333333E8:ar:IDX-->(IDX-->(IDX-->NAT)) & x:1..3&y:1..3&z:1..3&ar:1..3-->(1..3-->(1..3-->NAT))
+1.2366928766666667E8,1.7152095E8,-1.0,2.870648563333333E8:(not(ar:IDX-->(IDX-->(IDX-->NAT))) => x:1..3&y:1..3&z:1..3&ar:1..3-->(1..3-->(1..3-->NAT)))

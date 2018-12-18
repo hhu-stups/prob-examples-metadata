@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/LatinSquaresBig.mch
+2.4662745166666666E8,6.6348381333333336E7,1.3498313333333334E8,1.1877425233333333E8:not((Order:NATURAL1) & (Order:3..6) & (LatinSquare:IDX*IDX+->IDX) & (StartSolve:BOOL)) => (i:IDX) & (j:IDX) & (val:IDX) & ((i,j)/:dom(LatinSquare))
+7.2003826E7,6.682996E7,1.1829588566666667E8,2.0045963933333334E8:(Order:NATURAL1) & (Order:3..6) & (LatinSquare:IDX*IDX+->IDX) & (StartSolve:BOOL) & not((i:IDX) & (j:IDX) & (val:IDX) & ((i,j)/:dom(LatinSquare)))
+8.082703833333333E7,6.807809366666667E7,1.61220571E8,1.4387046E8:not((Order:NATURAL1) & (Order:3..6) & not((i:IDX) & (j:IDX) & (val:IDX) & ((i,j)/:dom(LatinSquare)))) => (LatinSquare:IDX*IDX+->IDX) & (StartSolve:BOOL)
+7.564092666666667E7,8.5808491E7,1.3027909033333333E8,1.4907642966666666E8:not((Order:NATURAL1) & (Order:3..6) & not((i:IDX) & (j:IDX) & (val:IDX) & ((i,j)/:dom(LatinSquare)))) => not((LatinSquare:IDX*IDX+->IDX) & (StartSolve:BOOL))
+6.969762033333333E7,7.7189099E7,1.2981851033333333E8,1.48881246E8:not((Order:NATURAL1) & (Order:3..6) & (i:IDX) & (j:IDX) & (val:IDX) & ((i,j)/:dom(LatinSquare))) => not((LatinSquare:IDX*IDX+->IDX) & (StartSolve:BOOL))
+8.505548566666667E7,6.3741322666666664E7,1.20579416E8,2.04502891E8:(Order:NATURAL1) & (Order:3..6) & (LatinSquare:IDX*IDX+->IDX) & (StartSolve:BOOL) & (StartSolve=TRUE)

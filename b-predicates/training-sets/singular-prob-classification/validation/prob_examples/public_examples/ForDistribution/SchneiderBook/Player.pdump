@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Player.mch
+-1.0,-1.0,6.6092786E7,-1.0:(card(PLAYER)>11) & (team<:PLAYER) & (card(team)=11) & not((pp:PLAYER))
+-1.0,-1.0,-1.0,-1.0:(card(PLAYER)>11) & (team<:PLAYER) & (card(team)=11) & not((pp:team => card(team)=11&(not(pp:team) => (TRUE:BOOL => card(team)=11))) & (pp:team => team<:PLAYER&(not(pp:team) => (TRUE:BOOL => team<:PLAYER))))
+-1.0,-1.0,-1.0,-1.0:(card(PLAYER)>11) & card(team)=11 & pp:team&rr/:team&card(team\/{rr}-{pp})=11

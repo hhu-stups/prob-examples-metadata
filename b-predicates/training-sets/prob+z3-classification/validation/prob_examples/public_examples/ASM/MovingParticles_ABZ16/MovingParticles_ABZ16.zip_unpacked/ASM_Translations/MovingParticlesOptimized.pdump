@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ASM/MovingParticles_ABZ16/MovingParticles_ABZ16.zip_unpacked/ASM_Translations/MovingParticlesOptimized.bcm
+-1.0,-1.0,9.365583466666667E7,-1.0:(pos:1 .. n --> mn .. mx) & (cont:mn .. mx --> NAT) & (!p oftype INT.p:1 .. n=>cont(pos(p))>0) & (pos(1)<pos(2)) & not(cont(pos(1))>0)

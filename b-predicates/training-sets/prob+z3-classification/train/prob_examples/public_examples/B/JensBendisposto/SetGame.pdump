@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/SetGame.mch
+-1.0,2.6804283833333334E8,-1.0,-1.0:not((KARTEN=FARBE*FORM*ANZAHL*FUELLUNG) & (tisch<:KARTEN) & (rest<:KARTEN) & (rest\/tisch=KARTEN) & (rest/\tisch={})) => (x<:rest) & (card(x)=12)
+1.6421510933333334E8,2.849769046666667E8,-1.0,2.5721050133333334E8:(KARTEN=FARBE*FORM*ANZAHL*FUELLUNG) & (tisch<:KARTEN) & (rest<:KARTEN) & (rest\/tisch=KARTEN) & (rest/\tisch={}) & not((x<:rest) & (card(x)=12))
+5.6022976E7,1.1279658333333333E8,-1.0,1.60246844E8:not((KARTEN=FARBE*FORM*ANZAHL*FUELLUNG) & (tisch<:KARTEN) & (rest<:KARTEN) & (rest\/tisch=KARTEN) & (rest/\tisch={})) => not((x<:rest) & (card(x)=12))
+-1.0,1.4288034333333334E8,-1.0,-1.0:(KARTEN=FARBE*FORM*ANZAHL*FUELLUNG) & not((tisch<:KARTEN) & (rest<:KARTEN) & (rest\/tisch=KARTEN) & (rest/\tisch={})) & (x<:rest) & (card(x)=12)
+-1.0,1.6330440233333334E8,-1.0,-1.0:not((KARTEN=FARBE*FORM*ANZAHL*FUELLUNG) & not((tisch<:KARTEN) & (rest<:KARTEN) & (rest\/tisch=KARTEN) & (rest/\tisch={}))) => (x<:rest) & (card(x)=12)
+5.0208572666666664E7,1.07861901E8,-1.0,1.1986023733333333E8:(KARTEN=FARBE*FORM*ANZAHL*FUELLUNG) & rest/\tisch={} & not(x<:rest&card(x)=12&rest-x/\x={})
+-1.0,1.69877678E8,-1.0,-1.0:(KARTEN=FARBE*FORM*ANZAHL*FUELLUNG) & rest<:KARTEN & x<:rest&card(x)=12&rest-x<:KARTEN

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Pitesti/Basket_Sym.mch
+5.3798531333333336E7,9.235522633333333E7,-1.0,2.1775187566666666E8:(card(ITEMS)=20) & (it1:ITEMS) & (it20:ITEMS) & (it1/=it20) & (buffer<:ITEMS) & (isEmpty:BOOL) & (isFull:BOOL) & (items<:ITEMS) & (count:NATURAL) & (CAPACITY:NATURAL1) & (count>=0) & (count<=CAPACITY) & (count=card(items)) & not((count=CAPACITY))

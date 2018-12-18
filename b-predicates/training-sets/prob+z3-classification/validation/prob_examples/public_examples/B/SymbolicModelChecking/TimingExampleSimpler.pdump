@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/TimingExampleSimpler.mch
+5.9563510333333336E7,6.2976676666666664E7,5.6156628666666664E7,8.515868766666667E7:not((mxc:1..10) & (mxe:1..10) & not((INV))) => not((v=min({timer_c,timer_e})) & (pc=2))

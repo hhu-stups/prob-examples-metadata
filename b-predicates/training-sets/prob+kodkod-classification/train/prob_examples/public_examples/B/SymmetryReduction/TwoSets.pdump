@@ -1,0 +1,11 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/TwoSets.mch
+-1.0,-1.0,6.0031260666666664E7,-1.0:(maxs=2) & not((s1:POW(ID)) & (s2:POW(ID))) & (x:s1) & (x/:s2) & (y:s2) & (y/:s1) & (x/=y)
+4.8111914E7,9.559553633333333E7,-1.0,6.4290554666666664E7:not((maxs=2) & not((x:s1) & (x/:s2) & (y:s2) & (y/:s1) & (x/=y))) => not((s1:POW(ID)) & (s2:POW(ID)))
+-1.0,-1.0,7.079755066666667E7,-1.0:(maxs=2) & not((s1:POW(ID)) & (s2:POW(ID))) & not((card(s2)<maxs) & (y/:s2))
+4.989885E7,4.9867538333333336E7,-1.0,9.288131733333333E7:not((maxs=2) & not((s1:POW(ID)) & (s2:POW(ID)))) => not((card(s2)<maxs) & (y/:s2))
+-1.0,-1.0,6.819652166666667E7,-1.0:(maxs=2) & not((s1:POW(ID)) & (s2:POW(ID))) & (card(s1)<maxs) & (x/:s1)
+-1.0,-1.0,6.9390901E7,-1.0:(maxs=2) & not((s1:POW(ID)) & (s2:POW(ID))) & not((card(s1)<maxs) & (x/:s1))
+4.7812644E7,6.800224633333333E7,7.195349333333333E7,7.599881666666667E7:not((maxs=2) & (card(s1)<maxs) & (x/:s1)) => not((s1:POW(ID)) & (s2:POW(ID)))
+-1.0,-1.0,6.793915633333333E7,-1.0:(maxs=2) & (s1:POW(ID)) & (s2:POW(ID)) & (x:s1) & (x/:s2) & (y:s2) & (y/:s1) & (x/=y) & (card(s2)<maxs) & (y/:s2)
+-1.0,-1.0,6.828582533333333E7,-1.0:(maxs=2) & (s1:POW(ID)) & (s2:POW(ID)) & (x:s1) & (x/:s2) & (y:s2) & (y/:s1) & (x/=y) & (card(s1)<maxs) & (x/:s1)
+4.8207619666666664E7,4.8087865666666664E7,6.1382037333333336E7,5.5940377E7:(maxs=2) & (not((s1:POW(ID)) & (s2:POW(ID))) => not((x:s1&x/:s2&y:s2&y/:s1&x/=y) & (x:s1&x/:s2&y:s2&y/:s1&x/=y)))

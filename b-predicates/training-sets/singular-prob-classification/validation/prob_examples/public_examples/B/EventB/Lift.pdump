@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/EventB/Lift.mch
+6.4887999666666664E7,7.7183116E7,9.9471145E7,8.553657533333333E7:not((groundf:INT) & (topf:INT) & (groundf<topf) & (b:FLOORS) & (b/:inside_buttons) & (b/=cur_floor)) => not((cur_floor:FLOORS) & (inside_buttons<:FLOORS) & (door_open:BOOL) & (call_buttons<:FLOORS) & (direction_up:BOOL))
+6.5248450666666664E7,7.7900432E7,-1.0,1.90244723E8:(groundf:INT) & (topf:INT) & (groundf<topf) & (cur_floor:FLOORS) & (inside_buttons<:FLOORS) & (door_open:BOOL) & (call_buttons<:FLOORS) & (direction_up:BOOL) & ((direction_up=TRUE) => not((door_open=FALSE) & (cur_floor:all_buttons_pressed)))
+6.3964791666666664E7,6.2818090333333336E7,1.0176608366666667E8,1.9123889066666666E8:(groundf:INT) & (topf:INT) & (groundf<topf) & (cur_floor:FLOORS) & (inside_buttons<:FLOORS) & (door_open:BOOL) & (call_buttons<:FLOORS) & (direction_up:BOOL) & ((direction_up=TRUE) => not((door_open=FALSE) & (cur_floor>groundf) & (direction_up=FALSE)))
+8.55244E7,6.8540071E7,9.2517631E7,1.5047146233333334E8:(groundf:INT) & (topf:INT) & (groundf<topf) & door_open:BOOL & direction_up=TRUE
+7.665199566666667E7,6.8537091E7,9.1731288E7,1.8093150433333334E8:(groundf:INT) & (topf:INT) & (groundf<topf) & cur_floor:FLOORS & not(direction_up=FALSE&cur_floor:groundf..topf)

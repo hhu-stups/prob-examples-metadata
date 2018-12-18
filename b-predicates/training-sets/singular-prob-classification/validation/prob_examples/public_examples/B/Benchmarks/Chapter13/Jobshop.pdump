@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Chapter13/Jobshop.mch
+8.694965133333333E7,5.2229547E7,-1.0,1.3923905166666666E8:not(not((jobs<:JOB) & (card(jobs)<=limit))) => (jj:JOB) & (jj/:jobs) & (card(jobs)<limit)
+4.8178217E7,5.1562888666666664E7,7.1748393E7,6.0360003333333336E7:jobs<:JOB & jj:JOB&jj/:jobs&card(jobs)<limit&jobs\/{jj}<:JOB

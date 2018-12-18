@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Chapter13/Allocate.mch
+8.4866425E7,5.1600672666666664E7,6.4636618E7,6.761390533333333E7:allocated<:NAT1 & not(nn:NAT1&(nn:allocated => allocated<:NAT1&(not(nn:allocated) => (TRUE:BOOL => allocated<:NAT1))))
+4.7562263333333336E7,5.2065303E7,6.3952988333333336E7,5.9908269666666664E7:(not(allocated<:NAT1) => nn:NAT1&nn/:allocated&allocated\/{nn}<:NAT1)

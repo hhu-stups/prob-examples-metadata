@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/IPD/colouring/GraphColouring.zip_unpacked/colouring/EventColourProblem40.bcm
+6.0213103666666664E7,5.8570855666666664E7,7.741324233333333E7,2.0567033466666666E8:not(not((c:Vtx --> 1 .. 6) & (!i oftype INT,j oftype INT.i |-> j:Edge=>c(i)/=c(j)))) => not((colour:Vtx --> 1 .. 6))

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/Towns.mch
+-1.0,-1.0,6.5252618333333336E7,-1.0:(roads:TOWN<->TOWN) & not((tt1:TOWN) & (tt2:TOWN))
+-1.0,-1.0,6.5153048E7,-1.0:roads:TOWN<->TOWN & not(tt1:TOWN&tt2:TOWN&roads\/{(tt1,tt2)}:TOWN<->TOWN)
+-1.0,-1.0,7.048813E7,-1.0:(roads:TOWN<->TOWN) & not((tt1:TOWN&tt2:TOWN&roads\/{(tt1,tt2)}:TOWN<->TOWN))

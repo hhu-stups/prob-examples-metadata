@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Puzzle3.mch
+5.9040631666666664E7,7.630670066666667E7,1.6545316266666666E8,1.06097454E8:not((dim:NATURAL1) & (dim=2) & (nmax:NATURAL1) & (nmax=dim*dim-1) & not((i:1..dim) & (j:2..dim) & (board((i,j))=0) & (x:1..nmax) & (board((i,j-1))=x))) => (INV)
+7.150795333333333E7,8.004758633333333E7,7.245791066666667E7,3.00180607E8:(dim:NATURAL1) & (dim=2) & (nmax:NATURAL1) & (nmax=dim*dim-1) & not((INV)) & not((i:1..dim) & (j:2..dim) & (board((i,j))=0) & (x:1..nmax) & (board((i,j-1))=x))
+7.5735422E7,8.0071728E7,-1.0,1.0158240133333333E8:(dim:NATURAL1) & (dim=2) & (nmax:NATURAL1) & (nmax=dim*dim-1) & (INV) & (i:1..dim-1) & (j:1..dim) & (board((i,j))=0) & (x:1..nmax) & (board((i+1,j))=x) & (i:1..dim) & (j:2..dim) & (board((i,j))=0) & (x:1..nmax) & (board((i,j-1))=x)
+8.475130333333333E7,5.7554223E7,-1.0,2.10420566E8:(dim:NATURAL1) & (dim=2) & (nmax:NATURAL1) & (nmax=dim*dim-1) & (INV) & ((i:2..dim) & (j:1..dim) & (board((i,j))=0) & (x:1..nmax) & (board((i-1,j))=x) => not((i:1..dim) & (j:2..dim) & (board((i,j))=0) & (x:1..nmax) & (board((i,j-1))=x)))

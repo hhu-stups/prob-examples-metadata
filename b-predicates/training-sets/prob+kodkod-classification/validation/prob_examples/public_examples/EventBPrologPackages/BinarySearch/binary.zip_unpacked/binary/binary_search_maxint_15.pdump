@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/BinarySearch/binary.zip_unpacked/binary/binary_search_maxint_15.bcm
+5.3139276E7,5.5694908666666664E7,6.769501433333333E7,6.0785546E7:(found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)) & not((pc=5) & (arr(mid)<goal))
+5.1011864E7,5.6731748666666664E7,6.6800487333333336E7,7.1340031E7:(found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)) & (not((pc=0) & (i<=j&found=FALSE)) => (pc=4))
+6.4691210333333336E7,5.7403226333333336E7,6.4259870666666664E7,6.952415766666667E7:(found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)) & (pc=0) & (i<=j&found=FALSE) & not((pc=0) & (not(i<=j&found=FALSE)))
+-1.0,-1.0,6.6387189666666664E7,-1.0:(found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)) & (not((pc=8)) => (pc=6))
+5.1760795333333336E7,5.5949456333333336E7,6.805665233333333E7,6.4651587333333336E7:(found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)) & ((pc=8) => not((pc=4)))
+4.8068753E7,5.5983120333333336E7,6.4116952666666664E7,7.588662866666667E7:(found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)) & (pc=7) & not((pc=6))
+-1.0,-1.0,6.739418433333333E7,-1.0:(found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)) & (not((pc=6)) => (pc=5) & (arr(mid)<goal))
+7.727125533333333E7,5.6245886E7,6.6717329666666664E7,6.9378562E7:(found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)) & ((pc=6) => not((pc=5) & (arr(mid)<goal)))
+7.1025908E7,5.7194307333333336E7,6.7002421666666664E7,7.004489433333333E7:(found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)) & (not((pc=2)) => (pc=5) & (arr(mid)<goal))

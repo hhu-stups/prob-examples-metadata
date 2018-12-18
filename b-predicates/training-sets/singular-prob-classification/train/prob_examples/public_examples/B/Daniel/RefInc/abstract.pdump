@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Daniel/RefInc/abstract.mch
+4.7677780666666664E7,4.8033482333333336E7,1.52406555E8,5.5649651333333336E7:(not(xx:NAT) => not(xx:NAT))
+5.0095360333333336E7,1.38626404E8,6.0147825666666664E7,5.5869674666666664E7:(not((xx:NAT) & (yy:NAT)) => (yy:NAT) & (xx:NAT))

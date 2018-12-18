@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/SetOperators/TestDifficultSetDifference.mch
+4.9919546E7,5.1049205333333336E7,7.599753666666667E7,5.4475619E7:(not(xx<:ID) => r2-{yy}=xx)

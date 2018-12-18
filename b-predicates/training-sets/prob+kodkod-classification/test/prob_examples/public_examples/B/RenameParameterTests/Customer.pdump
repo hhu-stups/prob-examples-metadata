@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/RenameParameterTests/Customer.mch
+-1.0,-1.0,5.540835E7,-1.0:(Articles<:ITEMS) & (card(Articles)>0) & (card(Articles)<=maxel) & (maxel>1) & (card(set)=cnt) & (i:Articles) & (i/:set) & (i:set)

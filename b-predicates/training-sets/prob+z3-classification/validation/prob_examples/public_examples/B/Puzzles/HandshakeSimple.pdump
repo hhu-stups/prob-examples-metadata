@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/HandshakeSimple.mch
+-1.0,4.917353433333333E8,-1.0,-1.0:(married={(hilary,jocelyn),(h1,w1)}) & (shake:PERS<->PERS) & (!x,y.((x,y):shake => (y,x):shake&y/=x&(y,x)/:married)) & (!yy,xx.((yy,xx):married => (xx,yy)/:shake&(yy,xx)/:shake)) & (!x.(x/=hilary => !y.(y/=hilary&x/=y => card(shake[{x}])/=card(shake[{y}])))) & x:PERS-{hilary}

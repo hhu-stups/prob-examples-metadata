@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/ASM/MovingParticles.mch
+1.7108323166666666E8,1.3851642733333334E8,1.0269236533333333E8,6.1628577E7:not((n=2) & (mn=0) & (mx=10) & (pos:1..n-->mn..mx) & (cont:mn..mx-->NATURAL)) => (i:1..n) & (m:{-1,1})
+5.2771445333333336E7,5.6312281666666664E7,6.8847745E7,7.508699233333333E7:not((n=2) & (mn=0) & (mx=10) & not((i:1..n) & (m:{-1,1}))) => not((pos:1..n-->mn..mx) & (cont:mn..mx-->NATURAL))
+7.408199966666667E7,6.1942863E7,6.3618285666666664E7,1.26819944E8:(n=2) & (mn=0) & (mx=10) & pos:1..n-->mn..mx & i:1..n&m:{-1,1}&!pm.(pm=pos(i)+m => (pm:mn..mx => pos<+{(i,pm)}:1..n-->mn..mx))
+-1.0,-1.0,7.9308619E7,-1.0:(n=2) & (mn=0) & (mx=10) & (not(cont:mn..mx-->NATURAL) => i:1..n&m:{-1,1}&!pm.(pm=pos(i)+m => (pm:mn..mx => cont<+{(pos(i),cont(pos(i))-1)}:mn..mx-->NATURAL)))

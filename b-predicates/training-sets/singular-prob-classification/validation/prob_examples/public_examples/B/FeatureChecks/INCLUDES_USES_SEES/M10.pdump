@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/INCLUDES_USES_SEES/M10.mch
+-1.0,-1.0,7.955527466666667E7,-1.0:not(not((x:INTEGER) & (x<10))) => not((x<9))
+-1.0,-1.0,7.491101633333333E7,-1.0:not(not((x<9))) => not((x:INTEGER) & (x<10))

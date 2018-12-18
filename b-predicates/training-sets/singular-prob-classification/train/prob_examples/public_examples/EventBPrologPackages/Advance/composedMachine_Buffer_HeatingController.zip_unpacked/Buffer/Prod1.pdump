@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/composedMachine_Buffer_HeatingController.zip_unpacked/Buffer/Prod1.bcm
+4.5478013333333336E7,4.4164671333333336E7,7.517594733333333E7,4.8816031333333336E7:not((p:INT) & (init:BOOL) & (Produce:BOOL)) => (init=TRUE)

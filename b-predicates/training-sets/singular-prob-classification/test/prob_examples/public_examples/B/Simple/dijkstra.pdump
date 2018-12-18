@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Simple/dijkstra.mch
+4.5714612E7,4.4557458666666664E7,6.863719666666667E7,5.1082194333333336E7:marked:POW(States) & marked=States => marked:POW(States)
+5.8488792666666664E7,6.1778829E7,6.17645023E8,1.9494182866666666E8:(marked:POW(States)) & (dist:States+->NAT) & (dom(dist)=marked) & (trans:States<->States) & (dom(trans)\/ran(trans)=States) & (marked=States => dist:States+->NAT) & (marked=States => marked:POW(States)) & (marked=States => trans:States<->States) & (marked=States => dom(trans)\/ran(trans)=States) & (marked=States => dom(dist)=marked)

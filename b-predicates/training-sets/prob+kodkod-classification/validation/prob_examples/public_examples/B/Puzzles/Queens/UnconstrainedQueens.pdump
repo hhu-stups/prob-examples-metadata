@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Queens/UnconstrainedQueens.mch
+5.2678184E7,5.1960308666666664E7,6.4204509666666664E7,6.922493466666667E7:(dim:NATURAL) & (queens:1..dim<->1..dim) & (n:NATURAL1) & (q:1..n<->1..n)

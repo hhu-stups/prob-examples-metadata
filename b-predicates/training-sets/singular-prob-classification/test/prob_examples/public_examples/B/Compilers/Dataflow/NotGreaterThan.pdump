@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Compilers/Dataflow/NotGreaterThan.mch
+-1.0,7.3223371E7,-1.0,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not(x:V&y:V => (x,y):lt <=> ((x,y):leq&x/=y))
+-1.0,7.371435566666667E7,-1.0,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not((x,y):lt <=> ((x,y):leq&x/=y))
+-1.0,6.5797845666666664E7,7.608406966666667E7,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not(x:V&y:V => (x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq))
+-1.0,7.327519333333333E7,-1.0,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not(!x,y.(x:V&y:V => not((y,x):lt) <=> ((x,y):leq or (x,y):incomp)))

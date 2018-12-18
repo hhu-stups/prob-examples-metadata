@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter13/Booth.mch
+4.8735038333333336E7,5.1928228333333336E7,6.3928450666666664E7,6.0068742E7:not(not((reserved:CUSTOMER-->NAT) & (tickets:SEAT+->CUSTOMER))) => not((cc:CUSTOMER) & (nn:NAT1))

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/NewSyntax/RecTest.mch
+-1.0,-1.0,6.5962205666666664E7,-1.0:not((xx:struct(name:ID,balance:INT)) & (bank:struct(name:ID))) & not((xx'balance>0))
+5.1493233333333336E7,5.0356659666666664E7,8.682568266666667E7,6.763436866666667E7:(xx:struct(name:ID,balance:INT)) & (bank:struct(name:ID)) & (amt:NAT1) & (xx'balance>=amt)

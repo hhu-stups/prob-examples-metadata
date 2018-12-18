@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Ivo/CTLIssue.mch
+4.9436547333333336E7,4.8191882666666664E7,6.0784103E7,5.8577234666666664E7:not(not((x=0))) => not((x:INTEGER))
+1.15257278E8,1.06494245E8,1.06533473E8,5.4816980333333336E7:x:INTEGER & not(x=0 => !x.(x:{1,2} => x:INTEGER)&(x:{1,2} => x:INTEGER)&(x=3 => !x.(x:{4} => x:INTEGER)))

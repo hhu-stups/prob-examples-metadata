@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Demo/nasty_coin/NastyCoin.mch
+5.2468729666666664E7,5.3332643333333336E7,6.1397426E7,7.19595E7:not((c10:NAT) & (c20:NAT) & (c50:NAT) & (c100:NAT) & (c200:NAT) & (cardnr:NAT) & (ticket:NAT)) & not((cardnr=0) & (ticket>0))
+4.9829428E7,5.3558230666666664E7,6.2527248333333336E7,5.9843061333333336E7:not(not((c10:NAT) & (c20:NAT) & (c50:NAT) & (c100:NAT) & (c200:NAT) & (cardnr:NAT) & (ticket:NAT))) => not((cardnr=0) & (ticket>0))
+4.7387520333333336E7,4.7962384E7,6.1430972666666664E7,5.6041367666666664E7:(not(c200:NAT) => not(cardnr=0&ticket>0&c200:NAT))
+4.8657771E7,5.0639912666666664E7,6.0107992333333336E7,5.5945592E7:(not(c100:NAT) => not(cardnr=0&ticket>0&c100:NAT))

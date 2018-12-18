@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/ForDistribution/LessSimple/phonebook6.mch
+1.1109762433333333E8,4.063397773333333E8,9.0277448E7,6.5878884666666664E7:(db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec)
+4.8518344E7,6.6387888E7,6.691654E7,7.4648133E7:(db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec) & not((nn:Name) & (nn:active))
+4.9741381333333336E7,6.4899431E7,4.3221138333333336E7,7.0230206E7:db:Name+->Code & not(nn/:active&db\/{(nn,cc)}:Name+->Code)

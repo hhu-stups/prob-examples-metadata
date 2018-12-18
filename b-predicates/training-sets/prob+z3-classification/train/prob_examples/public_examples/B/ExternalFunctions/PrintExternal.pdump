@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/PrintExternal.mch
+6.4255261666666664E7,4.8762974666666664E7,6.0020551333333336E7,5.4604150666666664E7:not((xx:NATURAL)) => (xx<1000)
+4.8208318333333336E7,5.0540203E7,-1.0,4.8019328333333336E7:xx:NATURAL & not(!vv,ww.(vv=xx*xx&ww=vprintf("DSqr: value of ww=~w~n",vv*vv) => ww:NATURAL))
+4.751959E7,4.7978354666666664E7,-1.0,4.8037463666666664E7:xx:NATURAL & not(vprintf("Value of xx (without tilde): ",xx):NATURAL)

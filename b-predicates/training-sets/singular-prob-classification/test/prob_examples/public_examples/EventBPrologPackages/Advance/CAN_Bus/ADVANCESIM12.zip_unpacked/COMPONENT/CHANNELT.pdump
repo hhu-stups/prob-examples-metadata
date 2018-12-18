@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/CHANNELT.bcm
+4.7947578E7,4.8061605E7,8.8510394E7,5.6707257666666664E7:not((adder_enabled=FALSE or adder_evaluated=TRUE) & (msg_rcvd_on_sum=FALSE or incrementer_evaluated=TRUE)) => (sum:NAT) & (sum_prime:NAT)
+4.7895755333333336E7,5.8717732666666664E7,6.799430766666667E7,6.3909057666666664E7:(sum:NAT) & (sum_prime:NAT) & ((pv:INT) & (adder_enabled=TRUE) => not((adder_enabled=TRUE)))

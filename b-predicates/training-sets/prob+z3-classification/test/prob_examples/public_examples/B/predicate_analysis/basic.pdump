@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/predicate_analysis/basic.mch
+4.7012239666666664E7,5.5427975E7,2.8132045E7,9.7838955E7:not((aval={a,b}) & (x:3..5) & (iset=0..x) & ((y,z)=(10,x))) => card(iset):4..6

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter17/Sortarray.mch
+5.6270819333333336E7,6.3757618666666664E7,-1.0,1.53876621E8:(not((aa:1..cap-->NAT)) => (!pp.(pp:1..cap>->>1..cap&!ii.(ii:1..cap-1 => (pp;aa)(ii)<=(pp;aa)(ii+1)) => (pp;aa):1..cap-->NAT)))

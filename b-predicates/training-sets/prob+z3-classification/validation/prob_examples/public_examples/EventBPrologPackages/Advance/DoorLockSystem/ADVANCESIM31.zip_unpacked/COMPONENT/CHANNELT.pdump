@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/CHANNELT.bcm
+8.125057833333333E7,4.7232426666666664E7,7.461668133333333E7,5.2959365E7:(sum:NAT) & (sum_prime:NAT) & adder_evaluated:BOOL

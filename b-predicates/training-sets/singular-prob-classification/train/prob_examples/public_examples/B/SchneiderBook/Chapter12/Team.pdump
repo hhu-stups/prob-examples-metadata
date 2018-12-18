@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter12/Team.mch
+5.6652805E7,7.519235966666667E7,6.736233733333333E7,1.0780791366666667E8:not((team<:1..22) & (card(team)=11)) & (pp:1..22)
+5.776086E7,6.0341472333333336E7,1.1109623876666667E9,6.2410194666666664E7:(team<:1..22) & (card(team)=11) & (not((pp:1..22)) => (pp:team) & (rr:1..22) & (rr/:team))
+-1.0,-1.0,-1.0,-1.0:card(team)=11 & pp:team&rr:1..22&rr/:team&card(team\/{rr}-{pp})=11

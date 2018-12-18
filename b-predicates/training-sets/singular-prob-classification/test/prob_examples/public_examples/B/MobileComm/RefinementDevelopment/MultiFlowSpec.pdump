@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/RefinementDevelopment/MultiFlowSpec.mch
+-1.0,-1.0,-1.0,-1.0:not((emptyp:PACKETS) & (RPACKETS=PACKETS-{emptyp}) & (messages:DEVICES*DEVICES-->iseq(RPACKETS)) & (!x.(x:DEVICES => messages(x,x)=[]))) => (dest:DEVICES) & (source:DEVICES) & (dest/=source) & (p:PACKETS) & (p/=emptyp) & (p/:ran(messages(dest,source)))
+5.0467428333333336E7,5.3290226333333336E7,-1.0,1.5671739166666666E8:not((emptyp:PACKETS) & (RPACKETS=PACKETS-{emptyp}) & (dest:DEVICES) & (source:DEVICES) & (dest/=source) & (p:PACKETS) & (p/=emptyp) & (i:NATURAL1)) => (messages:DEVICES*DEVICES-->iseq(RPACKETS)) & (!x.(x:DEVICES => messages(x,x)=[]))
+4.9918336E7,6.6442993E7,-1.0,6.3806181666666664E7:(emptyp:PACKETS) & (RPACKETS=PACKETS-{emptyp}) & (messages:DEVICES*DEVICES-->iseq(RPACKETS)) & (!x.(x:DEVICES => messages(x,x)=[])) & not((dest:DEVICES) & (source:DEVICES) & (dest/=source))

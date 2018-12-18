@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/TLA/TLA_Distribution/AlternatingBit/ABCorrectness.mch
+6.3509076666666664E7,5.36058275E8,7.845716066666667E7,6.5659024333333336E7:(Data={d1,d2}) & TypeInv & not(d:Data&sAck=sBit => !sent_n,sBit_n.(sent_n=d&sBit_n=1-sBit => sBit_n:{0,1}&sAck:{0,1}&rBit:{0,1}&sent_n:Data&rcvd:Data))
+5.0484376333333336E7,5.7427158333333336E7,8.2513822E7,8.0554727E7:(Data={d1,d2}) & (not(TypeInv) => not(rBit/=sAck => !sAck_n.(sAck_n=rBit => sBit:{0,1}&sAck_n:{0,1}&rBit:{0,1}&sent:Data&rcvd:Data)))

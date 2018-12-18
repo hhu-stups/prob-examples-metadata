@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/DefinitionFileTest.mch
+5.7191095E7,5.2192182E7,5.5374290333333336E7,1.3047981366666667E8:(not((INV)) => (y<x-1&(x:NATURAL&y+1:NATURAL&x>y+1)))

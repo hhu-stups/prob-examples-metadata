@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/RefinementChecking/RefinementCheckingExamples.zip_unpacked/RefinementChecking/CCounter.bcm
+8.239451865E9,9.455417966666667E7,3.430459907E9,1.09359228E8:not((n>0)) => (s:POW(T)) & (n:NAT) & (n=card(s))

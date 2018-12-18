@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Stefan/quicksort.zip_unpacked/QSortFull_16_exp/qs0.bcm
+9.8551522E7,5.2944930666666664E7,7.425387866666667E7,8.357323302E9:not((a:D --> INT) & (b:D --> INT)) => (p:P) & (!x oftype INT,y oftype INT.x:D&y:D&x<=y=>(a circ p)(x)<=(a circ p)(y))

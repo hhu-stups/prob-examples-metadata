@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/CosinusExternal.mch
+-1.0,-1.0,-1.0,-1.0:not((cos:NATURAL-->INTEGER) & (cos=%x.(x:NATURAL|COS(x))) & (sin:INTEGER-->INTEGER) & (sin=%x.(x:INTEGER|SIN(x)))) => cos(628)=100
+-1.0,-1.0,-1.0,-1.0:not((cos:NATURAL-->INTEGER) & (cos=%x.(x:NATURAL|COS(x))) & (sin:INTEGER-->INTEGER) & (sin=%x.(x:INTEGER|SIN(x)))) => sin(628)=0
+-1.0,-1.0,-1.0,-1.0:(cos:NATURAL-->INTEGER) & (cos=%x.(x:NATURAL|COS(x))) & (sin:INTEGER-->INTEGER) & (sin=%x.(x:INTEGER|SIN(x))) & not(sin(i)*sin(i)+cos(i)*cos(i):99*99..101*101)
+-1.0,-1.0,-1.0,-1.0:not((cos:NATURAL-->INTEGER) & (cos=%x.(x:NATURAL|COS(x))) & (sin:INTEGER-->INTEGER) & (sin=%x.(x:INTEGER|SIN(x)))) => sin(i)*sin(i)+cos(i)*cos(i):99*99..101*101
+-1.0,-1.0,-1.0,-1.0:(cos:NATURAL-->INTEGER) & (cos=%x.(x:NATURAL|COS(x))) & (sin:INTEGER-->INTEGER) & (sin=%x.(x:INTEGER|SIN(x))) & i:0..10000 => sin(i)<=100
+4.8312289E7,5.1746454333333336E7,-1.0,1.0062045366666667E8:(cos:NATURAL-->INTEGER) & (cos=%x.(x:NATURAL|COS(x))) & (sin:INTEGER-->INTEGER) & (sin=%x.(x:INTEGER|SIN(x))) & not(i:0..10000)
+-1.0,-1.0,-1.0,-1.0:(cos:NATURAL-->INTEGER) & (cos=%x.(x:NATURAL|COS(x))) & (sin:INTEGER-->INTEGER) & (sin=%x.(x:INTEGER|SIN(x))) & not(sin(i)<=100)
+-1.0,-1.0,-1.0,-1.0:not((cos:NATURAL-->INTEGER) & (cos=%x.(x:NATURAL|COS(x))) & (sin:INTEGER-->INTEGER) & (sin=%x.(x:INTEGER|SIN(x)))) => sin(i)<=100

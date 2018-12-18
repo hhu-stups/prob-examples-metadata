@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PrjMemCheck/PrjTestsOK_For_AtelierB.mch
+7.861483782333333E9,5.6587619666666664E7,-1.0,6.945729633333333E7:(p1:INTEGER*INTEGER+->INTEGER) & (p1=prj1({1},{2})) & (empty<:BOOL) & (empty={}) & prj1({2},NATURAL)((2,3))=2
+6.165295042333333E9,5.4860305E7,-1.0,7.002706133333333E7:(p1:INTEGER*INTEGER+->INTEGER) & (p1=prj1({1},{2})) & (empty<:BOOL) & (empty={}) & not({xx,yy|xx:BOOL*BOOL&yy:BOOL*BOOL&prj1(BOOL,BOOL)(xx)=prj2(BOOL,BOOL)(yy)&prj2(BOOL,BOOL)(xx)=prj1(BOOL,BOOL)(yy)}={((FALSE,FALSE),(FALSE,FALSE)),((FALSE,TRUE),(TRUE,FALSE)),((TRUE,FALSE),(FALSE,TRUE)),((TRUE,TRUE),(TRUE,TRUE))})

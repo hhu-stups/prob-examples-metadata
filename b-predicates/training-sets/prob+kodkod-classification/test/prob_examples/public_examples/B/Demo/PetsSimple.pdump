@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Demo/PetsSimple.mch
+5.6844496333333336E7,5.1912211333333336E7,1.56917813E8,4.1817421666666664E7:not((owners<:PEOPLE) & (owns:owners-->POW(PETTYPE))) & (oo:owners) & (pp:PETTYPE) & (pp:owns(oo))
+5.0049474333333336E7,5.1921849E7,-1.0,6.662344E7:not((oo:owners) & (pp:PETTYPE) & (pp:owns(oo))) => not((owners<:PEOPLE) & (owns:owners-->POW(PETTYPE)))
+4.7412989333333336E7,4.8004475E7,-1.0,5.9930898666666664E7:not((owners<:PEOPLE) & (owns:owners-->POW(PETTYPE))) => (oo:owners)
+4.8716414E7,5.4738897333333336E7,7.4435164E7,7.1215527E7:(owners<:PEOPLE) & (owns:owners-->POW(PETTYPE)) & (oo:owners) & (pp:PETTYPE) & (pp:owns(oo)) & not((oo:owners) & (owns(oo)/={}))
+4.8802039666666664E7,5.1497726333333336E7,-1.0,6.6460989E7:(owners<:PEOPLE) & (owns:owners-->POW(PETTYPE)) & ((oo:owners) & (pp:PETTYPE) & (pp:owns(oo)) => not((oo:owners) & (owns(oo)/={})))
+4.8741557E7,5.1086384666666664E7,-1.0,8.291287133333333E7:(owners<:PEOPLE) & (owns:owners-->POW(PETTYPE)) & (not((oo:owners) & (pp:PETTYPE) & (pp:owns(oo))) => (oo:owners) & (pp:PETTYPE) & (pp/:owns(oo)))

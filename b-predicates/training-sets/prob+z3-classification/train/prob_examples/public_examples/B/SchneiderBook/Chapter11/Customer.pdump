@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter11/Customer.mch
+1.5901135166666666E8,9.147990566666667E7,1.0569263066666667E8,6.4033585E7:not((limit:GOODS-->NAT1) & not((purchases<:GOODS))) => not((gg:GOODS) & (price(gg)<=limit(gg)))

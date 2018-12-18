@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/PrologFun.mch
+1.6045490166666666E8,6.963283066666667E7,-1.0,8.1818528E7:(arcsin=%x.(x:INTEGER|PROLOG_FUN("asin",100,x))) & (x:INTEGER) & arcsin(100)=157
+-1.0,-1.0,-1.0,-1.0:not((arcsin=%x.(x:INTEGER|PROLOG_FUN("asin",100,x))) & (x:INTEGER)) => arcsin(100)=157

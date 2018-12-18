@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/spec.mch
+5.6154230666666664E7,6.3292709E7,-1.0,7.883611933333333E7:not((call:POW(CALL)) & (caller:call-->USER) & (callee:call-->USER) & (open:POW(call)) & (hold:POW(call)) & (pcmsg:POW(call)) & (permit:POW(USER)) & (!c.(c:call-pcmsg => caller(c):permit&callee(c):permit)) & (!c.(c:pcmsg => caller(c)/:permit or callee(c)/:permit)) & (open=call-(hold\/pcmsg))) & (c:call)
+5.1082031333333336E7,6.926846866666667E7,5.5385255666666664E7,5.9104956E7:not(not((call:POW(CALL)) & (caller:call-->USER) & (callee:call-->USER) & (open:POW(call)) & (hold:POW(call)) & (pcmsg:POW(call)) & (permit:POW(USER)) & (!c.(c:call-pcmsg => caller(c):permit&callee(c):permit)) & (!c.(c:pcmsg => caller(c)/:permit or callee(c)/:permit)) & (open=call-(hold\/pcmsg)))) => not((c:call))
+4.6927382666666664E7,5.5891674333333336E7,6.6615896666666664E7,5.5263079666666664E7:call:POW(CALL) & c:call&(c:hold => call:POW(CALL))
+4.818718E7,2.2692897366666666E8,-1.0,4.213637313333333E8:open:POW(call) & c:call&(c:hold => open\/{c}-pcmsg:POW(call))
+5.0737829666666664E7,4.7336606E7,7.1977286E7,5.3443178666666664E7:(not(permit:POW(USER)) => c:call&(c:hold => permit:POW(USER)))
+4.8048917333333336E7,8.197636966666667E7,-1.0,5.7794593333333336E7:(not(open:POW(call)) => u:USER-permit => !cs.(cs={c|c:call&caller(c)=u&callee(c):permit}\/{c|c:call&callee(c)=u&caller(c):permit} => open\/cs-hold:POW(call)))

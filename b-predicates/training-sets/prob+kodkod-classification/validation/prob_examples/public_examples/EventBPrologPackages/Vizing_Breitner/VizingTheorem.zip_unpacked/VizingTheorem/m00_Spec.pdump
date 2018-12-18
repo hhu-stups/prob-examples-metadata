@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Vizing_Breitner/VizingTheorem.zip_unpacked/VizingTheorem/m00_Spec.bcm
+1.8603329366666666E8,1.2659472933333333E8,-1.0,9.614725933333333E7:not((coloring:graph +-> C) & (coloring:valid)) => not((#c oftype POW(V**V**C).c:graph --> C&c:valid))

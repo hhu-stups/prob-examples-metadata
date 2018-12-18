@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/Compilers/Dataflow/NotGreaterThan.mch
+-1.0,2.2085678633333335E9,-1.0,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not(!x,y.(x:V&y:V => (x,y):lt <=> ((x,y):leq&x/=y)))
+-1.0,6.8834172E7,6.4185955666666664E7,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not(!x,y.(x:V&y:V => (x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq)))
+-1.0,5.2464166666666664E7,-1.0,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not(x:V&y:V => not((y,x):lt) <=> ((x,y):leq or (x,y):incomp))
+-1.0,7.745412333333333E7,-1.0,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not(not((y,x):lt) <=> ((x,y):leq or (x,y):incomp))
+-1.0,6.991322E7,-1.0,1.850603279E9:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not(not((y,x):lt))
+-1.0,7.276297733333333E7,-1.0,1.8141841223333333E9:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & (y,x):lt
+-1.0,6.7772678E7,-1.0,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not((x,y):leq or (x,y):incomp)
+4.847744E7,6.827011133333333E7,-1.0,7.3858042E7:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not((x,y):leq)
+-1.0,6.963366866666667E7,-1.0,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not((!x,y.(x:V&y:V => (x,y):lt <=> ((x,y):leq&x/=y))) & (x:V&y:V => (x,y):lt <=> ((x,y):leq&x/=y)) & ((x,y):lt <=> ((x,y):leq&x/=y)) & ((x,y):lt) & (!x,y.(x:V&y:V => (x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq))) & (x:V&y:V => (x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq)) & ((x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq)) & ((x,y):incomp) & (!x,y.(x:V&y:V => not((y,x):lt) <=> ((x,y):leq or (x,y):incomp))) & (x:V&y:V => not((y,x):lt) <=> ((x,y):leq or (x,y):incomp)) & (not((y,x):lt) <=> ((x,y):leq or (x,y):incomp)) & (not((y,x):lt)) & ((y,x):lt) & ((x,y):leq or (x,y):incomp) & ((x,y):leq) & ((x,y):incomp))

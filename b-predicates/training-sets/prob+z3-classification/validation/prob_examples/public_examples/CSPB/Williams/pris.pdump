@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/CSPB/Williams/pris.mch
+2.3673860133333334E8,5.1922641E7,1.2878169266666667E8,6.4874357666666664E7:not((y:NAT) & (y<2) & (cnt:NAT) & (cnt<3)) & (cnt>1)
+7.221493266666667E7,5.2467985E7,6.720614866666667E7,6.0060430666666664E7:(not((y:NAT) & (y<2) & (cnt:NAT) & (cnt<3)) => (cnt>1&y:NAT) & (cnt>1&cnt<3) & (cnt>1&cnt:NAT) & (cnt>1&y<2))

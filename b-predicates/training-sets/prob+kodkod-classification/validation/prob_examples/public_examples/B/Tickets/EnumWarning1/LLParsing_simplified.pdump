@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/EnumWarning1/LLParsing_simplified.mch
+1.7157621766666666E8,1.2082854066666667E8,-1.0,2.2822152633333334E8:not((Rules:Symbols<->seq(Symbols)) & (NonTerminals=dom(Rules)) & (Terminals=Symbols-NonTerminals) & (Rules={(S,[a,S,a]),(S,[b,T,b])}) & (First:Symbols-->POW(Terminals))) => not((N:NonTerminals) & (t:Terminals) & (s:seq(Symbols)) & (s/=[]) & (s:ran(Rules)) & (i:NATURAL1) & (i<size(s)) & (st:seq(Symbols)) & (st=s\|/i) & (s(i)=N) & (printf("s=~w~n",s)) & (printf("st=~w~n",st)) & (printf("i=~w~n",i)) & (inFirst(t,st)))

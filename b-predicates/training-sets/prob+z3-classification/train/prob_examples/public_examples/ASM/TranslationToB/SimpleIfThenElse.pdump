@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ASM/TranslationToB/SimpleIfThenElse.mch
+2.6804653966666666E8,7.201176433333333E7,1.0207427E8,5.0942115666666664E7:(not((xx:ID)) => not((xx:ID)))

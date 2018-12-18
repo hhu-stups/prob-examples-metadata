@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/B_Day/Parking_R2.mch
+4.9787662333333336E7,5.6306043E7,-1.0,7.1782988E7:(NbPlaces:NAT) & (feu:COULEUR_FEU) & (cc=0&feu=vert => VehiculesPres<NbPlaces) & (cc=0&feu=rouge => VehiculesPres=NbPlaces) & (VehiculesPres:0..NbPlaces) & (cc:-1..1) & not((VehiculesPres>0) & (cc=0))
+5.3357157666666664E7,5.6075473333333336E7,-1.0,6.2675055666666664E7:not((NbPlaces:NAT) & not((VehiculesPres<NbPlaces) & (cc=0))) => not((feu:COULEUR_FEU) & (cc=0&feu=vert => VehiculesPres<NbPlaces) & (cc=0&feu=rouge => VehiculesPres=NbPlaces) & (VehiculesPres:0..NbPlaces) & (cc:-1..1))
+5.0801013E7,5.3423716333333336E7,-1.0,6.1225802666666664E7:not((NbPlaces:NAT) & (VehiculesPres<NbPlaces) & (cc=0)) => not((feu:COULEUR_FEU) & (cc=0&feu=vert => VehiculesPres<NbPlaces) & (cc=0&feu=rouge => VehiculesPres=NbPlaces) & (VehiculesPres:0..NbPlaces) & (cc:-1..1))

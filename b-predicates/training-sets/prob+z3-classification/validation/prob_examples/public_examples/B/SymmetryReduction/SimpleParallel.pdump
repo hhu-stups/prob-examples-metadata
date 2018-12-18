@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/SimpleParallel.mch
+5.7198149E7,8.919840033333333E7,6.716363833333333E7,7.114084333333333E7:(MAX=10) & (array:1..MAX+->BOOL) & (ran(array)={TRUE})
+5.1689417666666664E7,5.2067375E7,4.9745106333333336E7,1.2813775633333333E8:(MAX=10) & (array:1..MAX+->BOOL) & not((i:1..MAX&array(i)=FALSE&array<+{(i,TRUE)}:1..MAX+->BOOL))

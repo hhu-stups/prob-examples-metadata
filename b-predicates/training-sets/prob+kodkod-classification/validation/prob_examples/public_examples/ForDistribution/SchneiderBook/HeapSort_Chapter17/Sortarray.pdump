@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/HeapSort_Chapter17/Sortarray.mch
+5.5239613E7,5.1353993E7,6.5952032E7,7.032437566666667E7:aa:1..cap-->NAT & ii:1..cap&aa:1..cap-->NAT
+-1.0,-1.0,-1.0,-1.0:(aa:1..cap-->NAT) & not((!pp.(pp:1..cap>->>1..cap&!ii.(ii:1..cap-1 => (pp;aa)(ii)<=(pp;aa)(ii+1)) => (pp;aa):1..cap-->NAT)))

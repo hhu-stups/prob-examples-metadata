@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/TASK1.bcm
+4.8947565333333336E7,5.0022119666666664E7,6.914424466666667E7,5.7819620333333336E7:((pv:INT) & (ppriority:INT) & (pv=T1_write) & (ppriority=3) & (T1_state=T1_SEND) => not((T1_state=T1_EN)))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/HexLiterals.mch
+5.8928955333333336E7,5.2567904666666664E7,7.228503E7,6.902730666666667E7:not((a=255) & (a=255) & (b=16) & (c=65535)) => c=65535

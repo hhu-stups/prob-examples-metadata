@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/Pairs.mch
+6.818148233333333E7,5.834644987666667E9,6.7148227E7,5.1965942666666664E7:(pairs:POW(setB*setC)) & (bb:setB) & (cc:setC) & (pairs/={}) & not((bb:setB) & (cc:setC))
+4.7766781666666664E7,6.3923096E7,-1.0,4.7905509666666664E7:(pairs:POW(setB*setC)) & not((!xx.(xx:pairs&prj1(setB,setC)(xx)=bb => pairs:POW(setB*setC))))
+7.595123166666667E7,6.461093830666667E9,5.9682822333333336E7,6.1292315E7:pairs:POW(setB*setC) & not(pairs/={}&((bb,cc)/:pairs => pairs:POW(setB*setC)))

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Stefan/gcd/gcd00.zip_unpacked/gcd00/g0.bcm
+1.0279833766666667E8,8.8307389E7,3.6615677643333335E9,3.025845535E9:(a:INT) & (b:INT) & (d:INT) & not((x:gcd[{a |-> b}]))
+6.5463096666666664E7,6.1664917666666664E7,7.956921966666667E7,5.1879688333333336E7:not(not((x:gcd[{a |-> b}]))) => (a:INT) & (b:INT) & (d:INT)

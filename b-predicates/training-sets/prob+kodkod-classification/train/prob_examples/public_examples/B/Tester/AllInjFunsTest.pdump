@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Tester/AllInjFunsTest.mch
+1.25147455E8,7.862494233333333E7,-1.0,7.415905833333333E7:not((fs=ID>+>ID) & (xx:NATURAL)) => not((a:ID))
+1.1632810733333333E8,5.2738876333333336E7,-1.0,1.0083109466666667E8:not((fs=ID>+>ID) & (a:ID)) => (xx:NATURAL)
+5.9472669666666664E7,4.9406608666666664E7,-1.0,6.815773633333333E7:not((fs=ID>+>ID) & (a:ID)) => not((xx:NATURAL))
+5.8032729E7,6.1773614333333336E7,-1.0,6.2230865E7:(fs=ID>+>ID) & (not((xx:NATURAL)) => (!f.(f:fs&a:dom(f) => xx:NATURAL)))

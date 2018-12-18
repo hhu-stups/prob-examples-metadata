@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/UnicodeSupport/TestUmlauteInString.mch
+2.982597856666667E8,1.0637314033333333E8,-1.0,4.5938942666666664E7:(a:STRING) & (b:STRING) & (c:STRING) & (a="ä") & (b="ae") & (c="a") & not(b/=c)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Valerio3/BV16_DEFINITION.mch
+1.5116442766666666E8,6.4876103666666664E7,2.02121955E8,1.1259334533333333E8:not((BV16_INDX=1..BV16_WIDTH) & (PHYS_BV16_INDEX=0..BV16_WIDTH-1) & (BV16={bt|bt:BIT_VECTOR&bv_size(bt)=BV16_WIDTH}) & (BV16_ZERO=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]) & (bv16_get_low=%bv.(bv:BV16|bv/|\8))) => (bb:BV16) & (bb(1)=1) & (bb(2)=1)

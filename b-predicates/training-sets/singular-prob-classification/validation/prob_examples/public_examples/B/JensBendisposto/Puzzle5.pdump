@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/Puzzle5.mch
+4.8898490333333336E7,5.3584118666666664E7,-1.0,1.0010921533333333E8:not((all={1,2,5,8}) & not((l<:all) & (r<:all) & (c:NATURAL) & (light:{0,1}))) => not((light=1) & (s<:r) & (card(s):{1,2}))

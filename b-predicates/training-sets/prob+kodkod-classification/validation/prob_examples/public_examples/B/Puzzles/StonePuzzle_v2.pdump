@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/StonePuzzle_v2.mch
+8.8881647E7,5.8994629666666664E7,-1.0,5.6629547666666664E7:not((n=4) & (weight=40) & (st:1..n-->1..weight) & (SIGMA(i).(i:1..n|st(i))=weight) & (!w.(w:1..weight => #x.(x:1..n-->{-1,0,1}&w=SIGMA(i).(i:1..n|st(i)*x(i)))))) => (w:1..weight)

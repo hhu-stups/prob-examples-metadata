@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROBPLUGIN-109/ltl_issue.zip_unpacked/ltl_issue/changeMe.bcm
+1.4817109536666667E9,9.392949566666667E7,9.2154829E7,5.0503442666666664E7:not((done:{0,1})) => (done=0)
+4.9271978E7,4.7982126E7,6.0071209666666664E7,5.5929621666666664E7:not(not((done=0))) => not((done:{0,1}))
+4.5725391333333336E7,4.5794673E7,5.8976936333333336E7,4.8925449E7:(done:{0,1}) & (done=0) & (done=1)

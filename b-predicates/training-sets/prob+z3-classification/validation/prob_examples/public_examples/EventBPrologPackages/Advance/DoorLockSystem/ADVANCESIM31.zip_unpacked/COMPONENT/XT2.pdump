@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/XT2.bcm
+4.7306388E7,5.3763354666666664E7,7.6731359E7,5.3724942E7:(T2_readpriority:NAT) & (T2_readpriority=5&T2_state=T2_PROC=>mode=DISPLAY) & (T2_readpriority=4) & (T2_state=T2_PROC) & (mode=COLLECT) & (T2_state=T2_EN)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/KKS/KKS.zip_unpacked/KKS/Ablauf_PC.bcm
+1.5615575166666666E8,9.950427366666667E7,-1.0,1.10906841E8:(inqueue:Subjects --> POW(Objects)) & (zustand:Subjects --> 0 .. 2) & (s:Subjects&do:Objects&io:Subjects) & (s |-> do |-> io |-> pc |-> nextpc:receive) & (pc=zustand(s)) & (do:inqueue(s))

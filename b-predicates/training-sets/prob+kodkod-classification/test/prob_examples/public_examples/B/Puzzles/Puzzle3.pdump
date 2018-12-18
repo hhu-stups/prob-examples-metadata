@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Puzzle3.mch
+5.9040631666666664E7,7.630670066666667E7,1.6545316266666666E8,1.06097454E8:not((dim:NATURAL1) & (dim=2) & (nmax:NATURAL1) & (nmax=dim*dim-1) & not((i:1..dim) & (j:2..dim) & (board((i,j))=0) & (x:1..nmax) & (board((i,j-1))=x))) => (INV)

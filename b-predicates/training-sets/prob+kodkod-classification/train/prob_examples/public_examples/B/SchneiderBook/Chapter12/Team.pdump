@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter12/Team.mch
+1.3606977066666666E8,8.05094E7,2.0366578973333333E9,6.3275015333333336E7:(team<:1..22) & (card(team)=11)
+4.7962361E7,5.1516584E7,7.875463766666667E7,8.419874233333333E7:not((team<:1..22) & (card(team)=11)) & not((pp:1..22))
+5.0679582333333336E7,9.511977733333333E7,-1.0,8.912425266666667E7:not((team<:1..22) & (card(team)=11)) & (pp:team) & (rr:1..22) & (rr/:team)
+5.776086E7,6.0341472333333336E7,1.1109623876666667E9,6.2410194666666664E7:(team<:1..22) & (card(team)=11) & (not((pp:1..22)) => (pp:team) & (rr:1..22) & (rr/:team))
+4.8559503666666664E7,2.0423181366666666E8,7.307758933333333E7,6.8047783E7:team<:1..22 & pp:1..22&(pp:team => team<:1..22&(not(pp:team) => (TRUE:BOOL => team<:1..22)))
+-1.0,-1.0,-1.0,-1.0:card(team)=11 & pp:team&rr:1..22&rr/:team&card(team\/{rr}-{pp})=11
+-1.0,-1.0,-1.0,-1.0:(team<:1..22) & (card(team)=11) & (pp:team&rr:1..22&rr/:team&card(team\/{rr}-{pp})=11) & (pp:team&rr:1..22&rr/:team&team\/{rr}-{pp}<:1..22)

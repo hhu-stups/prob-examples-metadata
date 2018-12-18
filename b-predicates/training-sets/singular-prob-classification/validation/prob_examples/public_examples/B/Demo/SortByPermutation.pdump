@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Demo/SortByPermutation.mch
+-1.0,-1.0,8.7911156E7,-1.0:(sz:NATURAL) & (sz=4) & (not((a:1..sz-->INTEGER)) => (!i.(i:dom(a) => !j.(j:dom(a)&i<j => a(i)<=a(j)))&a:1..sz-->INTEGER))
+4.8947635E7,5.18968E7,-1.0,5.9525796E7:(sz:NATURAL) & (sz=4) & a:1..sz-->INTEGER & not(3:1..sz&a<+{(3,val)}:1..sz-->INTEGER)

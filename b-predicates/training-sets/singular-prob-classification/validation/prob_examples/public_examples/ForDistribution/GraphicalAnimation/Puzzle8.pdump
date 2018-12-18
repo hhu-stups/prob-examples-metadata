@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/GraphicalAnimation/Puzzle8.mch
+1.2801322933333333E8,6.5427733666666664E7,-1.0,7.062907033333333E7:(dim:NATURAL1) & (dim=3) & (nmax:NATURAL1) & (nmax=dim*dim-1) & (INV) & (i:1..dim) & (j:1..dim) & (board((i,j))=j+i-1*dim mod dim*dim)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/StaticAssertionProj_Sub.mch
+1.1120762433333333E8,5.8876947333333336E7,6.6297746333333336E7,5.9884803333333336E7:not((sub1=1024) & (sub2=sub1*2) & (sub3=256)) => sub1<sub2

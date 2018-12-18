@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tickets/PROB-342/test1.zip_unpacked/test1/m0.bcm
+-1.0,-1.0,2.760378956666667E8,-1.0:not((value_set<:NAT) & (empty_set<:NAT) & (resulting_set<:NAT)) => not((#z oftype INT.z:value_set=>result_value=z) & (#z oftype INT.z:empty_set=>result_empty=z))
+-1.0,-1.0,1.4168310066666666E8,-1.0:not((#z oftype INT.z:value_set=>result_value=z) & (#z oftype INT.z:empty_set=>result_empty=z)) => not((value_set<:NAT) & (empty_set<:NAT) & (resulting_set<:NAT))
+-1.0,-1.0,9.478931166666667E7,-1.0:not(not((#z oftype INT.z:value_set=>result_value={z}) & (#z oftype INT.z:empty_set=>result_empty={z}))) => not((value_set<:NAT) & (empty_set<:NAT) & (resulting_set<:NAT))

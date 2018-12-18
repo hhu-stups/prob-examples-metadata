@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/TLC/NoError/SaveSpec.mch
+4.9646257E7,6.4714398E7,5.0271267E7,9.067417066666667E7:(empty:CONTENT) & (FILENAME<:ALLFILENAME) & (empty=nix) & (FILENAME={a,b,c}) & opened<:FILENAME & filename:FILENAME&filename:dom(disk)&opened<:FILENAME
+4.8678583333333336E7,6.4618366333333336E7,5.1657267333333336E7,8.169449E7:(empty:CONTENT) & (FILENAME<:ALLFILENAME) & (empty=nix) & (FILENAME={a,b,c}) & opened<:FILENAME & not(filename:FILENAME&filename/:dom(disk)&opened<:FILENAME)
+5.0511893666666664E7,9.752054833333333E7,-1.0,1.57533813E8:(empty:CONTENT) & (FILENAME<:ALLFILENAME) & (empty=nix) & (FILENAME={a,b,c}) & (disk:ALLFILENAME+->CONTENT) & (ram:FILENAME+->CONTENT) & (opened<:FILENAME) & (filename:FILENAME&filename/:dom(disk)&disk\/{(filename,empty)}:ALLFILENAME+->CONTENT) & (filename:FILENAME&filename/:dom(disk)&opened<:FILENAME) & (filename:FILENAME&filename/:dom(disk)&ram:FILENAME+->CONTENT)

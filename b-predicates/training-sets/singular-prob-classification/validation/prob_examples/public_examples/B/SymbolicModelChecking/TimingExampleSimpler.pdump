@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/TimingExampleSimpler.mch
+-1.0,-1.0,6.6621088E7,1.544797631E9:(mxc:1..10) & (mxe:1..10) & (INV) & not((pc=1&v:1..mxe => timer_c:NATURAL&timer_e+v:NATURAL&timer_c-(timer_e+v)<50&2:0..2))

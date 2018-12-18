@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/Counters/InfiniteAndFiniteCounterWrong.mch
+-1.0,-1.0,8.403151933333333E7,-1.0:not(not((ct:INTEGER) & (ct<4) & (ict:INTEGER))) => (ct=4)
+5.1259544666666664E7,5.6243511666666664E7,7.907839866666667E7,6.2871891666666664E7:ct:INTEGER & ct:INTEGER
+4.7143192E7,5.2235436666666664E7,7.2803276E7,5.6816303E7:(ct:INTEGER) & (ct<4) & (ict:INTEGER) & (ct=4) & (ct=4&0<4) & (ct=4)

@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Teaching/Automata.zip_unpacked/Automata/NFA_Delta.bcm
+-1.0,-1.0,1.3661146E8,-1.0:(n>0) & (cur:1 .. n --> Symbols) & (cur[1 .. n - 1]<:Terminals) & (A:Z) & (A:NonTerminals<=>A=cur(n)) & (A:Final<=>cur(n):Terminals) & (a:Terminals) & (B:delta(A |-> a)) & (B/=X) & (a:Terminals) & (delta(A |-> a)=({} oftype POW(Symbols)))
+-1.0,-1.0,6.819403033333333E7,-1.0:(n>0) & (cur:1 .. n --> Symbols) & (cur[1 .. n - 1]<:Terminals) & (A:Z) & (A:NonTerminals<=>A=cur(n)) & (A:Final<=>cur(n):Terminals) & (a:Terminals) & (B:delta(A |-> a)) & (B/=X) & (A:Final)
+-1.0,-1.0,1.0278874666666667E8,-1.0:(n>0) & (cur:1 .. n --> Symbols) & (cur[1 .. n - 1]<:Terminals) & (A:Z) & (A:NonTerminals<=>A=cur(n)) & (A:Final<=>cur(n):Terminals) & (a:Terminals) & (delta(A |-> a)=({} oftype POW(Symbols))) & (A:Final)
+-1.0,-1.0,7.7662995E7,-1.0:(n>0) & (cur:1 .. n --> Symbols) & (cur[1 .. n - 1]<:Terminals) & (A:Z) & (A:NonTerminals<=>A=cur(n)) & (A:Final<=>cur(n):Terminals) & (a:Terminals) & (B:delta(A |-> a)) & (B=X) & (A:Final)
+5.2613371333333336E7,5.589675E7,-1.0,9.397964166666667E7:(n>0) & (cur:1 .. n --> Symbols) & (cur[1 .. n - 1]<:Terminals) & (A:Z) & (A:NonTerminals<=>A=cur(n)) & (A:Final<=>cur(n):Terminals) & (a:Terminals) & (B:delta(A |-> a)) & (B=X) & not((A:Final))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Alloy/Hotel/Hotel.mch
+-1.0,-1.0,-1.0,-1.0:desk:Desk & not(!k.(k/:desk'issued => rec(issued:desk'issued\/{k},prev:desk'prev):struct(issued:POW(Key),prev:Room+->Key)))

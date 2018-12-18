@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/Rene/sched.mch
+9.113793966666667E7,4.446593616E9,1.05478916E8,7.050808166666667E7:not(not((active/={}))) => (active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (active={} => ready={})
+4.6935647666666664E7,7.4105769E7,-1.0,1.37504939E8:not((rr:waiting)) => (active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (active={} => ready={})
+5.0616562333333336E7,6.848238166666667E7,7.5719335E7,8.992072233333333E7:not((active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (active={} => ready={})) & not((pp:waiting))
+-1.0,-1.0,7.111442066666667E7,-1.0:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (active={} => ready={}) & (pp:PID) & (pp/:active) & (pp/:ready\/waiting) & (pp:waiting)
+4.4921029E7,4.6713272666666664E7,5.743391E7,4.7899177666666664E7:ready:POW(PID) & ready:POW(PID)
+-1.0,-1.0,6.0257965333333336E7,-1.0:ready/\waiting={} & not(ready/\waiting={})
+4.8281349E7,7.717543333333333E7,6.1128723333333336E7,5.494756E7:(not(ready/\waiting={}) => not(ready/\waiting={}))

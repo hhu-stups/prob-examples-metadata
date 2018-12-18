@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SysML2B/BModules.zip_unpacked/BModules/CoffeeMaker_1.mch
+1.26997458E8,9.575125866666667E7,1.0527193E8,6.1694670333333336E7:not(not((GrindStatus:Status) & (StartNewCoffee:BOOL) & (SugarLevel:E_SugarLevel) & (WaterTemperature:INT) & (AddSugar:BOOL) & (GrindCoffee:BOOL) & (MixCoffeeAndWater:BOOL) & (NewCup:BOOL) & (StartTimer:BOOL) & (SugarQuantity:INT) & (TimeOut:BOOL) & (TimerValue:INT) & (PouringDuration:INT))) => not((temp_var:E_SugarLevel))

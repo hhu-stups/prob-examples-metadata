@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/AssignByPredicate.mch
+5.0453716E7,4.8982765333333336E7,7.6174654E7,5.5499981E7:not((xx:NATURAL)) & not((xx<1000))
+5.5586165333333336E7,5.4867917666666664E7,6.5699905E7,7.529570166666667E7:not(not((xx:NATURAL))) => not((xx<1000))

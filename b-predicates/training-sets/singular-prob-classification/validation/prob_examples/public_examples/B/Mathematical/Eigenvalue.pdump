@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Eigenvalue.mch
+-1.0,-1.0,-1.0,-1.0:(dim:NATURAL1) & (dim=2) & (not(m:matrix) => vec:1..dim-->INTEGER&m:1..dim-->(1..dim-->INTEGER))
+-1.0,-1.0,-1.0,-1.0:(dim:NATURAL1) & (dim=2) & (not((m:matrix) & (found:BOOL)) => (evect:1..dim-->INTEGER&evect/=%z.(z:1..dim|0)&res:1..dim-->INTEGER&res=(evect;%z.(z:INTEGER|z*eval))&res=%i.(i:1..dim|SIGMA(j).(j:1..dim|m(i)(j)*evect(j)))&m:1..dim-->(1..dim-->INTEGER)) & (evect:1..dim-->INTEGER&evect/=%z.(z:1..dim|0)&res:1..dim-->INTEGER&res=(evect;%z.(z:INTEGER|z*eval))&res=%i.(i:1..dim|SIGMA(j).(j:1..dim|m(i)(j)*evect(j)))))
+-1.0,-1.0,-1.0,-1.0:(dim:NATURAL1) & (dim=2) & (not(m:matrix) => vec:1..dim-->INTEGER&m:1..dim-->(1..dim-->INTEGER))
+-1.0,-1.0,-1.0,-1.0:(dim:NATURAL1) & (dim=2) & (not((m:matrix) & (found:BOOL)) => (vec:1..dim-->INTEGER&m:1..dim-->(1..dim-->INTEGER)) & (vec:1..dim-->INTEGER))

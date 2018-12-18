@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Corinna/GraphIso.mch
+5.0721463666666664E7,8.4274381E7,1.5192202163333333E9,8.390850306666666E8:not(not((g:Nodes<->Nodes))) => (F:Nodes<->Nodes) & (G:Nodes<->Nodes) & (checked:BOOL) & (iso:BOOL) & (checked=TRUE => (iso=TRUE => card(F)=card(G)&card(dom(F))=card(dom(G))&card(ran(F))=card(ran(G))))
+5.0000282666666664E7,7.347584733333333E7,2.2501933146666665E9,7.886720556666666E8:(F:Nodes<->Nodes) & (G:Nodes<->Nodes) & (checked:BOOL) & (iso:BOOL) & (checked=TRUE => (iso=TRUE => card(F)=card(G)&card(dom(F))=card(dom(G))&card(ran(F))=card(ran(G)))) & (not((g:Nodes<->Nodes)) => (g:Nodes<->Nodes))

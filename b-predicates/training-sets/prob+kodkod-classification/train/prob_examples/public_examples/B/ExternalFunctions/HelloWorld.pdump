@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/HelloWorld.mch
+9.3187828E7,8.707804266666667E7,-1.0,6.880348866666667E7:vprintf("resultat: ~w~n",1+2)=3

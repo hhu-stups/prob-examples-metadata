@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Mejia1/TestInit.zip_unpacked/Tests/TestComplExists.bcm
+1.49250055E8,7.247560366666667E7,1.1085655566666667E8,7.192220433333333E7:(t1:TRACKIDS&t2:TRACKIDS&t1/=t2) & (p:TRACKIDS) & (p:Nxt~[{t1}]&p:Nxt~[{t2}])

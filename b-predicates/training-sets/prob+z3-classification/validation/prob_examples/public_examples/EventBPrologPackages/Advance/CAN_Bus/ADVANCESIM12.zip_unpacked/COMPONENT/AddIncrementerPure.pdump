@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/AddIncrementerPure.bcm
+9.918058266666667E7,6.746458433333333E7,9.497690566666667E7,4.8121808666666664E7:(v:NAT)
+6.5164129666666664E7,4.9467836E7,6.1246731666666664E7,5.1998512E7:not((v:NAT)) => (trigger_received=FALSE)
+5.8839419E7,5.2031127333333336E7,6.0251656E7,7.297755333333333E7:(v:NAT) & (p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (trigger_received=TRUE)

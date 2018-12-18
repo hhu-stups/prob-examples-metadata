@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/Tagency2.mch
+8.946275E7,3.97675966E8,1.0309739833333333E8,6.5476483E7:(sess:SESSION+->USER) & (booking:ROOM+->USER)
+4.8826647E7,6.0121449333333336E7,7.349004833333333E7,6.7108021666666664E7:(sess:SESSION+->USER) & (booking:ROOM+->USER) & (u:USER) & (sess={})

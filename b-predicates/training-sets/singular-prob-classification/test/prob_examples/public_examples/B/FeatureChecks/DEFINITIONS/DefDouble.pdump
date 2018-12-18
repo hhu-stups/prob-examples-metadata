@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/DEFINITIONS/DefDouble.mch
+5.2841193666666664E7,5.5333223333333336E7,9.899513066666667E7,7.050149333333333E7:(not((xx:ID<->ID) & (c:NATURAL)) => not((c:NATURAL) & (xx:ID<->ID)))

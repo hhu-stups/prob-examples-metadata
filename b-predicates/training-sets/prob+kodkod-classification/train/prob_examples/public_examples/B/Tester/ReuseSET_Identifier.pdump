@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Tester/ReuseSET_Identifier.mch
+1.2990518366666667E8,4.741630433333333E8,9.6427509E7,5.820398E7:not((iv:ID) & (all=ID) & (#ID.(ID<:all&aa/:ID&bb/:ID&#vv.(vv:ID))) & not((yy:all))) => not((xx:ID))
+6.0294818E7,8.538525266666667E7,6.741751133333333E7,6.8884365E7:not((iv:ID) & (all=ID) & (#ID.(ID<:all&aa/:ID&bb/:ID&#vv.(vv:ID))) & (yy:all)) => not((xx:ID))
+4.9108688666666664E7,7.608844666666667E7,7.602770833333333E7,6.1526446E7:(iv:ID) & (all=ID) & (#ID.(ID<:all&aa/:ID&bb/:ID&#vv.(vv:ID))) & (not(xx:ID) => yy:all)
+4.8354775666666664E7,6.5618773E7,7.2907525E7,6.1112636333333336E7:(iv:ID) & (all=ID) & (#ID.(ID<:all&aa/:ID&bb/:ID&#vv.(vv:ID))) & (not((xx:ID)) => not((yy:all)))

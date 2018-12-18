@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter16/Rooms.mch
+1.5691245866666666E8,1.03227885E8,1.4041117533333334E8,5.1265108666666664E7:not((small<:ROOM) & (price:ROOM-->NAT1) & (defaultprice:NAT1) & (price[small]<:{defaultprice}) & (price[ROOM-small]<:{defaultprice*3/2})) => not((rr:ROOM))

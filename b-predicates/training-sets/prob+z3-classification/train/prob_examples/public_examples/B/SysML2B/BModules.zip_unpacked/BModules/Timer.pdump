@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/SysML2B/BModules.zip_unpacked/BModules/Timer.mch
+7.3123288E7,5.0299459666666664E7,6.793417466666667E7,6.0017315333333336E7:not((StartTimer:BOOL) & (TimeOut:BOOL) & (TimerValue:INT)) & (temp_var:BOOL)
+8.760008266666667E7,9.568155766666667E7,1.0010542066666667E8,5.8729605E7:not((StartTimer:BOOL) & (TimeOut:BOOL) & (TimerValue:INT)) => not((temp_var:BOOL))
+4.8648155333333336E7,4.7945715666666664E7,6.945475866666667E7,6.1270733333333336E7:not(not((temp_var:BOOL))) => (StartTimer:BOOL) & (TimeOut:BOOL) & (TimerValue:INT)
+1.2032116666666667E8,8.8834132E7,1.00972314E8,5.7481169E7:not(not((StartTimer:BOOL) & (TimeOut:BOOL) & (TimerValue:INT))) => not((temp_var:BOOL))
+5.0520134666666664E7,5.0188901333333336E7,6.834849566666667E7,5.9541393666666664E7:not(not((temp_var:BOOL))) => not((StartTimer:BOOL) & (TimeOut:BOOL) & (TimerValue:INT))

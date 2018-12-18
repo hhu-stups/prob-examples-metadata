@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Deploy/Club-120130-Rodin-2.4.0.zip_unpacked/Club-120130/m0_courses.bcm
+1.2842589833333333E8,1.5811703433333334E8,1.2155344633333333E8,3.23094438E8:not((crs:POW(CRS)) & (card(crs)<=m)) => (card(crs)/=m) & (crs/=CRS)

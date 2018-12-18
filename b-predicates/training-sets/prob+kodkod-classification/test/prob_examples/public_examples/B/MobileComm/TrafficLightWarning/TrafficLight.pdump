@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/TrafficLightWarning/TrafficLight.mch
+5.3649071E7,5.5877799333333336E7,6.6378576E7,5.4477155666666664E7:(TLpos:NATURAL1) & (green_orange_time:NATURAL1) & (orange_red_time:NATURAL1) & (red_green_time:NATURAL1) & (status:COLOR) & (time:NATURAL) & (time<total_cycle_time) & not((tt:NAT) & (tt>=0))

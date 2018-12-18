@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/NestedAnys.mch
+5.5848582666666664E7,5.0477927E7,7.7762705E7,5.7915954333333336E7:x:INTEGER & !xx,yy.(xx=x&yy=y => (xx/=yy => !zz.(zz=z => (zz<1 => x:INTEGER))))
+4.8611675E7,4.8008456E7,6.2057099666666664E7,5.4034082333333336E7:(not(y:INTEGER) => !xx,yy.(xx=x&yy=y => (xx=yy&xx=0 => y:INTEGER)))
+4.7870961666666664E7,5.1768757333333336E7,6.9821239E7,5.2262791E7:(not(x:INTEGER) => !xx,yy.(xx=x&yy=y => (xx=yy&xx=0 => x:INTEGER)))
+6.3947634E7,7.5919384E7,1.21918134E8,6.2181138333333336E7:(not((x:INTEGER) & (y:INTEGER) & (z:INTEGER)) => not((z>=10 => !xx,yy.(xx=x&yy=y => y:INTEGER)) & (z>=10 => !xx,yy.(xx=x&yy=y => x:INTEGER)) & (z>=10 => !xx,yy.(xx=x&yy=y => z:INTEGER))))
+5.9778435E7,5.9397544E7,8.755738666666667E7,6.5523113333333336E7:(x:INTEGER) & (y:INTEGER) & (z:INTEGER) & not((!xx,yy.(xx=x&yy=y&xx/=yy&x>0 => !zz.(zz=z => !vv.(zz>0&zz<3&vv:{10,11} => y:INTEGER)))) & (!xx,yy.(xx=x&yy=y&xx/=yy&x>0 => !zz.(zz=z => !vv.(zz>0&zz<3&vv:{10,11} => x:INTEGER)))) & (!xx,yy.(xx=x&yy=y&xx/=yy&x>0 => !zz.(zz=z => !vv.(zz>0&zz<3&vv:{10,11} => z:INTEGER)))))

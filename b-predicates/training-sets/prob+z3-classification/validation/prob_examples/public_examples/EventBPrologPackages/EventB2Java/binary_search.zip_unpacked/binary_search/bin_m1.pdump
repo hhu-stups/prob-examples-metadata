@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/EventB2Java/binary_search.zip_unpacked/binary_search/bin_m1.bcm
+5.46539589E8,5.4706793333333336E7,6.5248148666666664E7,6.4079238333333336E7:not(not((r:NAT) & (p:1 .. n) & (q:1 .. n) & (r:p .. q) & (v:f[p .. q]))) => not((f(r)>v))
+5.1833802666666664E7,5.6064648333333336E7,6.3953476666666664E7,6.4044550333333336E7:not(not((f(r)<v))) => (r:NAT) & (p:1 .. n) & (q:1 .. n) & (r:p .. q) & (v:f[p .. q])

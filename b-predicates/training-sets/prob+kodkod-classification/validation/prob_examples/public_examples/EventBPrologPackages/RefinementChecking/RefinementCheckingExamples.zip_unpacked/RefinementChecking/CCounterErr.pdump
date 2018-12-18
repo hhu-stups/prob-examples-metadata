@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/RefinementChecking/RefinementCheckingExamples.zip_unpacked/RefinementChecking/CCounterErr.bcm
+4.8142737333333336E7,4.8024030666666664E7,7.202673366666667E7,1.6061888866666666E8:not(not((s:POW(T)) & (n:NAT) & (n=card(s)))) => not((n>0))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLA/TLA_Distribution/AlternatingBit/MCAlternatingBit.mch
+8.6520569E7,6.4630448666666664E7,7.400782866666667E7,9.913036666666667E7:(Data={d1,d2}) & (msgQLen=2) & (ackQLen=2) & (not(sent:ENUM) => not(sAck/=sBit => !msgQ_n.(msgQ_n=msgQ<-rec(bit:sBit,data:sent) => sent:ENUM)))

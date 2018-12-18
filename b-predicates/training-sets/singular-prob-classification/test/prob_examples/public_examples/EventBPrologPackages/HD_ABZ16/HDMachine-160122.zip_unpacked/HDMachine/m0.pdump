@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/HD_ABZ16/HDMachine-160122.zip_unpacked/HDMachine/m0.bcm
+4.8572285E7,6.3487915333333336E7,6.804692166666667E7,5.5842553E7:(CS_TopLevel:CS_TopLevel_STATES) & (not((CS_TopLevel=STANDBY)) => (CS_TopLevel=PREPARATION))

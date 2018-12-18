@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Simple/ArrayFind.zip_unpacked/ArrayFind/FindLoop.bcm
+5.3606048666666664E7,5.8162191333333336E7,7.195095566666667E7,6.7040904333333336E7:(i:0 .. m+1) & (i:1 .. m=>a(i)=z) & (i=m+1=>z/:ran(a)) & (k:1 .. m+1) & (!n oftype INT.n:1 .. k - 1=>a(n)/=z) & (k<=m) & (a(k)=z) & not((k<=m) & (a(k)/=z))

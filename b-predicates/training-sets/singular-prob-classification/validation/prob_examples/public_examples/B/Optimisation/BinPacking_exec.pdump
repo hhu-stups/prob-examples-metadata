@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Optimisation/BinPacking_exec.mch
+5.1034492666666664E7,9.890138066666667E7,-1.0,1.0252921566666667E8:(object_volume:OBJECTS-->1..LIM) & (object_volume(o1)=34) & (object_volume(o2)=18) & (object_volume(o3)=56) & (object_volume(o4)=63) & (object_volume(o5)=82) & (object_volume(o6)=1) & (object_volume(o7)=89) & (not(binvols:1..bins+->1..LIM) => found=FALSE => binvols:1..bins+1+->1..100)

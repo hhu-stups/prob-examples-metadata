@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Implementations/Mul/Mul.mch
+1.0475845633333333E8,9.957374266666667E7,9.2674564E7,6.2155972E7:(a:NAT) & (b:NAT) & (a*b:NAT)

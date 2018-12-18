@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/Bakery0Wrong.mch
+4.7305736E7,4.9455125333333336E7,6.9260996E7,5.9929176E7:not(not((aa:0..2))) => not((aa=2))
+4.7767084333333336E7,5.0649527666666664E7,6.804307966666667E7,6.2627261E7:not((aa=0)) => (aa:0..2)

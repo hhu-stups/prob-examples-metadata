@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Convergence/convergenceerr.zip_unpacked/ConvergenceErr/variant_set.bcm
+-1.0,-1.0,-1.0,-1.0:not((s<:INT) & (finite(s))) & (e:s)
+-1.0,-1.0,-1.0,-1.0:not((s<:INT) & (finite(s))) & not((e:s))

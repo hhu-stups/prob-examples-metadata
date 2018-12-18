@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Compilers/LL_LeftFactoring.mch
+-1.0,-1.0,-1.0,-1.0:(NonTerminals={E,T,F,E2,T2,F2}) & (Terminals=Symbols-NonTerminals) & not((Rules:Symbols<->seq(Symbols))) & ((X,RHS1):Rules) & ((X,RHS2):Rules) & (RHS1/=RHS2) & (RHS1=Prefix^Rest1) & (RHS2=Prefix^Rest2) & (Prefix/=[])

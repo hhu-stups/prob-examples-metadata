@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/308/Dispenser.mch
+1.12460437E8,5.6122174E7,-1.0,7.312347466666667E7:(dstate:DSTATE) & (given:0..MAXINT) & (given<=lifetime) & (dstate=stocked => given:0..MAXINT&(not(dstate=stocked) => (TRUE:BOOL => given:0..MAXINT))) & (dstate=stocked => given<=lifetime&(not(dstate=stocked) => (TRUE:BOOL => given<=lifetime))) & (dstate=stocked => dstate:DSTATE&(not(dstate=stocked) => (TRUE:BOOL => dstate:DSTATE)))

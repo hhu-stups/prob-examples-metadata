@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/uebung5/ArrayImp.mch
+1.07567799E8,8.537708133333333E7,1.2762072133333333E8,8.486514466666667E7:(array:1..length-->ELEMENTS)
+-1.0,-1.0,8.324943633333333E7,-1.0:(length:NAT) & (length=5) & (not(array:1..length-->ELEMENTS) => !aa.(aa:1..length-->ELEMENTS&!i.(i:NAT&i:dom(array) => array(i)=aa(size(array)-i+1)) => aa:1..length-->ELEMENTS))
+-1.0,-1.0,9.549508133333333E7,-1.0:(length:NAT) & (length=5) & array:1..length-->ELEMENTS & not(!aa.(aa:1..length-->ELEMENTS&!i.(i:NAT&i:dom(array) => array(i)=aa(size(array)-i+1)) => aa:1..length-->ELEMENTS))
+-1.0,-1.0,8.540585633333333E7,-1.0:(length:NAT) & (length=5) & (not(array:1..length-->ELEMENTS) => not(!aa.(aa:1..length-->ELEMENTS&!i.(i:NAT&i:dom(array) => array(i)=aa(size(array)-i+1)) => aa:1..length-->ELEMENTS)))
+-1.0,-1.0,8.877178666666667E7,-1.0:(length:NAT) & (length=5) & (not((array:1..length-->ELEMENTS)) => (!aa.(aa:1..length-->ELEMENTS&!i.(i:NAT&i:dom(array) => array(i)=aa(size(array)-i+1)) => aa:1..length-->ELEMENTS)))
+-1.0,-1.0,7.6185922E7,-1.0:(length:NAT) & (length=5) & (array:1..length-->ELEMENTS) & not((!aa.(aa:1..length-->ELEMENTS&!i.(i:NAT&i:dom(array) => array(i)=aa(size(array)-i+1)) => aa:1..length-->ELEMENTS)))
+-1.0,-1.0,1.00697931E8,-1.0:(length:NAT) & (length=5) & (not((array:1..length-->ELEMENTS)) => not((!aa.(aa:1..length-->ELEMENTS&!i.(i:NAT&i:dom(array) => array(i)=aa(size(array)-i+1)) => aa:1..length-->ELEMENTS))))

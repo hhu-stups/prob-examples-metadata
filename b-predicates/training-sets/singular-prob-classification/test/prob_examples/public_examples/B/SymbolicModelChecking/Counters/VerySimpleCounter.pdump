@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/Counters/VerySimpleCounter.mch
+-1.0,-1.0,7.874860766666667E7,-1.0:not(not((ct:INTEGER) & (ct<5))) => (ct=4)

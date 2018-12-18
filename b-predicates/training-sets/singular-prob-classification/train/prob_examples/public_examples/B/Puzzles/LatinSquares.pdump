@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/LatinSquares.mch
+8.499146466666667E7,1.84723025E8,1.50591473E8,1.5008233033333334E8:not((Order:NATURAL1) & (i:IDX) & (j:IDX) & (val:IDX) & ((i,j)/:dom(LatinSquare))) => (LatinSquare:IDX*IDX+->IDX)

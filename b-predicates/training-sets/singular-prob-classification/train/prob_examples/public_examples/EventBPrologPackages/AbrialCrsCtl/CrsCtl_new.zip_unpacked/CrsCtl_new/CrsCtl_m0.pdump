@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/AbrialCrsCtl/CrsCtl_new.zip_unpacked/CrsCtl_new/CrsCtl_m0.bcm
+4.7910934666666664E7,5.0080507E7,3.026492403333333E8,5.6601052333333336E7:not((Acceleration:0 .. Amax)) => (a:0 .. Amax)

@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/UnsatCore.mch
+6.737244066666667E7,8.75853E7,-1.0,1.01118166E8:(f=%x.(x:POW(INTEGER)|bool(x/\1..2={}))) & (g=%x.(x:POW(ID)|bool(x/\{aa}={}))) & (xx<:ID) & not(UNSAT_CORE(f,0..200)={2})
+-1.0,-1.0,-1.0,-1.0:not((f=%x.(x:POW(INTEGER)|bool(x/\1..2={}))) & (g=%x.(x:POW(ID)|bool(x/\{aa}={}))) & (xx<:ID)) => UNSAT_CORE(f,0..200)={2}
+5.672651E7,9.799735466666667E7,-1.0,1.4193217833333334E8:(f=%x.(x:POW(INTEGER)|bool(x/\1..2={}))) & (g=%x.(x:POW(ID)|bool(x/\{aa}={}))) & (xx<:ID) & UNSAT_CORE(f,2..200)={2}
+5.5277536666666664E7,9.612863466666667E7,-1.0,9.163008766666667E7:(f=%x.(x:POW(INTEGER)|bool(x/\1..2={}))) & (g=%x.(x:POW(ID)|bool(x/\{aa}={}))) & (xx<:ID) & not(UNSAT_CORE(f,2..200)={2})
+5.0904192E7,5.8967764E7,-1.0,8.302494333333333E7:(f=%x.(x:POW(INTEGER)|bool(x/\1..2={}))) & (g=%x.(x:POW(ID)|bool(x/\{aa}={}))) & (xx<:ID) & MAX_SAT(f,0..3)={0,3}
+-1.0,-1.0,-1.0,-1.0:not((f=%x.(x:POW(INTEGER)|bool(x/\1..2={}))) & (g=%x.(x:POW(ID)|bool(x/\{aa}={}))) & (xx<:ID)) => MAX_SAT(f,0..3)={0,3}

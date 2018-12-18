@@ -1,0 +1,13 @@
+#source:examples/prob_examples/public_examples/B/LTL/Stepmother.mch
+5.0909174E7,5.5548846666666664E7,-1.0,9.4659407E7:not((bv=10) & (jv=5) & not((bottles:DOM-->NATURAL) & (turn:BOOL))) => (turn=TRUE) & (b:DOM-->NATURAL) & (SIGMA(x).(x:DOM|b(x))=jv)
+-1.0,-1.0,-1.0,-1.0:not((bv=10) & (jv=5) & (bottles:DOM-->NATURAL) & (turn:BOOL)) => (turn=FALSE) & (ei:dom(bottles)) & (ej=ei+1 mod 5) & (ej:dom(bottles)) & (bottles(ei)=max(ran(bottles)) or bottles(ej)=max(ran(bottles)))
+-1.0,-1.0,-1.0,-1.0:(bv=10) & (jv=5) & not((bottles:DOM-->NATURAL) & (turn:BOOL)) & (turn=FALSE) & (ei:dom(bottles)) & (ej=ei+1 mod 5) & (ej:dom(bottles)) & (bottles(ei)=max(ran(bottles)) or bottles(ej)=max(ran(bottles)))
+-1.0,-1.0,5.1182951666666664E7,-1.0:not((bv=10) & (jv=5) & not((bottles:DOM-->NATURAL) & (turn:BOOL))) => (turn=FALSE) & (ei:dom(bottles)) & (ej=ei+1 mod 5) & (ej:dom(bottles)) & (bottles(ei)=max(ran(bottles)) or bottles(ej)=max(ran(bottles)))
+-1.0,-1.0,-1.0,-1.0:(bv=10) & (jv=5) & (bottles:DOM-->NATURAL) & (turn:BOOL) & (not((turn=TRUE) & (b:DOM-->NATURAL) & (SIGMA(x).(x:DOM|b(x))=jv)) => (turn=FALSE) & (max(ran(bottles))>bv))
+-1.0,-1.0,-1.0,-1.0:(bv=10) & (jv=5) & (bottles:DOM-->NATURAL) & (turn:BOOL) & (not((turn=TRUE) & (b:DOM-->NATURAL) & (SIGMA(x).(x:DOM|b(x))=jv)) => (turn=FALSE) & (ei:dom(bottles)) & (ej=ei+1 mod 5) & (ej:dom(bottles)) & (bottles(ei)=max(ran(bottles)) or bottles(ej)=max(ran(bottles))))
+5.8194737333333336E7,6.1868598666666664E7,-1.0,1.3509951233333334E8:(bv=10) & (jv=5) & (bottles:DOM-->NATURAL) & (turn:BOOL) & (turn=FALSE) & (max(ran(bottles))>bv) & not((turn=FALSE) & (ei:dom(bottles)) & (ej=ei+1 mod 5) & (ej:dom(bottles)) & (bottles(ei)=max(ran(bottles)) or bottles(ej)=max(ran(bottles))))
+-1.0,-1.0,-1.0,-1.0:(bv=10) & (jv=5) & (not(bottles:DOM-->NATURAL) => turn=TRUE&b:0..4-->NATURAL&SIGMA(x).(x:0..4|b(x))=jv&%i.(i:0..4|bottles(i)+b(i)):0..4-->NATURAL)
+-1.0,-1.0,-1.0,-1.0:(bv=10) & (jv=5) & (not((bottles:DOM-->NATURAL) & (turn:BOOL)) => (turn=TRUE&b:0..4-->NATURAL&SIGMA(x).(x:0..4|b(x))=jv) & (turn=TRUE&b:0..4-->NATURAL&SIGMA(x).(x:0..4|b(x))=jv&%i.(i:0..4|bottles(i)+b(i)):0..4-->NATURAL))
+8.171022766666667E7,1.01286018E8,9.097781666666667E7,5.2821777666666664E7:(bv=10) & (jv=5) & (not(turn:BOOL) => turn=FALSE&max(ran(bottles))>bv)
+-1.0,-1.0,6.5003424666666664E7,-1.0:(bv=10) & (jv=5) & (not((bottles:DOM-->NATURAL) & (turn:BOOL)) => (turn=FALSE&max(ran(bottles))>bv) & (turn=FALSE&max(ran(bottles))>bv&bottles:0..4-->NATURAL))
+5.3181692666666664E7,5.5422318E7,6.6084730666666664E7,1.3538825966666666E8:(bv=10) & (jv=5) & turn:BOOL & not(turn=FALSE&ei:dom(bottles)&ej=ei+1 mod 5&ej:dom(bottles)&(bottles(ei)=max(ran(bottles)) or bottles(ej)=max(ran(bottles))))

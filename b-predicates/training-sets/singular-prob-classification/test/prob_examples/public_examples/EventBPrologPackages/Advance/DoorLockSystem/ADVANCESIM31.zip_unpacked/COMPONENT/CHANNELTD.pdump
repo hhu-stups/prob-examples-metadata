@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/CHANNELTD.bcm
+8.7058976E7,6.2894939666666664E7,6.2479546666666664E7,7.547517033333333E7:(sum:NAT) & (sum_prime:NAT) & (incrementer_evaluated=FALSE) & (adder_enabled=FALSE) & (adder_evaluated=FALSE)
+4.7903112E7,4.8008758333333336E7,6.804736366666667E7,6.3975314E7:(sum:NAT) & (sum_prime:NAT) & (incrementer_evaluated=FALSE) & (adder_enabled=TRUE)

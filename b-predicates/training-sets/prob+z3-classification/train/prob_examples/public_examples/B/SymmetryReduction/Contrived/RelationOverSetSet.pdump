@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/Contrived/RelationOverSetSet.mch
+4.7960522E7,5.1534882E7,9.6500004E7,7.543261366666667E7:ssi:POW(POW(ID))<->POW(POW(ID)) & (x,y)/:ssi&card(ssi)<3

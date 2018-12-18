@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/GraphIso/ArcLabelGraph.mch
+-1.0,-1.0,-1.0,-1.0:(not(g2:GRAPH) => not(#p.(p:N>->>N&!c.(c:C => ((p;g1(c));p)=g2(c))) => g2:C-->(N<->N)&(not(#p.(p:N>->>N&!c.(c:C => ((p;g1(c));p)=g2(c)))) => (TRUE:BOOL => g2:C-->(N<->N)))))
+-1.0,-1.0,-1.0,-1.0:g2:GRAPH & not(g2<+{(c,g2(c)\/{(n1,n2)})}:C-->(N<->N))
+5.2129766333333336E7,5.5969850333333336E7,7.221972866666667E7,3.50983739E8:(not(g2:GRAPH) => not(g2<+{(c,g2(c)\/{(n1,n2)})}:C-->(N<->N)))
+-1.0,-1.0,5.9900098333333336E7,-1.0:g2:GRAPH & not(g2:C-->(N<->N))

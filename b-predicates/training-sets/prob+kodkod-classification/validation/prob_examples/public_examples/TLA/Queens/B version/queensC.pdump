@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLA/Queens/B version/queensC.mch
+-1.0,-1.0,-1.0,-1.0:(N=14) & solutions:INTEGER & not(solutions=0 => !solutions_n.(solutions_n=SIGMA(sol).(sol:1..N-->1..N&!i.(i:1..N => !j.(j:2..N => (i<j => sol(i)/=sol(j)&sol(i)+(i-j)/=sol(j)&sol(i)-i+j/=sol(j))))|1) => solutions:INTEGER))

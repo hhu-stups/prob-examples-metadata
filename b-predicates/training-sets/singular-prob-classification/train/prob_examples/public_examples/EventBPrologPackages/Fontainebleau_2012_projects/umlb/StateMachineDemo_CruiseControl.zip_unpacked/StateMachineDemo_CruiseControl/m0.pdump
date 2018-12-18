@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Fontainebleau_2012_projects/umlb/StateMachineDemo_CruiseControl.zip_unpacked/StateMachineDemo_CruiseControl/m0.bcm
+6.2850404E7,9.589771666666667E7,8.8242506E7,1.0747304766666667E8:(off:BOOL) & (on:BOOL) & (partition({TRUE},{off}/\{TRUE},{on}/\{TRUE})) & (not((on=TRUE)) => (off=TRUE))

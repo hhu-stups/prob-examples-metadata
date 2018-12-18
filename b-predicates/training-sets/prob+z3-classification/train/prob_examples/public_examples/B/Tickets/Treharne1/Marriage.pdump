@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Treharne1/Marriage.mch
+8.453966133333333E7,1.1409674833333333E8,7.121855366666667E7,8.365670433333333E7:(married:male>+>female) & (mm:male) & (ff:female) & ((mm,ff):married)
+5.3972436E7,1.6741561E8,-1.0,8.247771333333333E7:not((married:male>+>female)) => not((mm:male) & (mm/:dom(married)) & (ff:female) & (ff/:ran(married)))
+-1.0,-1.0,-1.0,-1.0:(married:male>+>female) & (mm:male) & (ff:female) & ((mm,ff):married) & (mm:male) & (mm/:dom(married)) & (ff:female) & (ff/:ran(married))
+1.9120161866666666E8,6.87119058E8,1.15787117E8,1.1943450833333333E8:(married:male>+>female) & (mm:BirthandDeath__male&ff:BirthandDeath__female&(mm,ff):married&#male,female.(married-{(mm,ff)}:male>+>female))

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/Tagency.mch
+5.5998461666666664E7,6.9444562E7,-1.0,7.2042518E7:not((r:ROOM) & (s:SESSION) & (booking(r)=sess(s))) => (sess:SESSION>+>USER) & (booking:ROOM+->USER)
+5.4809553666666664E7,7.3381305E7,-1.0,1.12865819E8:(sess:SESSION>+>USER) & (booking:ROOM+->USER) & not((u:USER) & (u/:ran(sess)) & (card(dom(sess))/=2))
+4.9962475333333336E7,6.886560133333333E7,-1.0,6.3976897333333336E7:(not(sess:SESSION>+>USER) => not(booking(r)=sess(s)&sess:SESSION>+>USER))

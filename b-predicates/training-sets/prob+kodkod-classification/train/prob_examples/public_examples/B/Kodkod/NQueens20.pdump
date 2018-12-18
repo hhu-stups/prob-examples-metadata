@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Kodkod/NQueens20.mch
+1.5297715766666666E8,1.0647571433333333E8,-1.0,1.69865146E9:(n=20) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+(q2-q1)/=queens(q2)&queens(q1)+(q1-q2)/=queens(q2))) & not((yy:1..n))

@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/Counters/VerySimpleCounterWrongLargeBranching.mch
+1.2000909266666667E8,6.5188271333333336E7,-1.0,8.173311233333333E7:not((lim=2**25) & (ct:INTEGER) & (ct<lim)) => (ct=lim)
+5.5874307666666664E7,4.9649028E7,-1.0,7.290545366666667E7:not((lim=2**25) & (ct=lim)) => (ct:INTEGER) & (ct<lim)
+7.4799223E7,6.889211733333333E7,-1.0,1.2844652466666667E8:(lim=2**25) & (ct:INTEGER) & (ct<lim) & (i:1..1000) & (ct+i<=lim)
+6.3196025E7,5.5836220333333336E7,7.416341133333333E7,6.1735155333333336E7:(lim=2**25) & (ct:INTEGER) & (ct<lim) & (ct=lim&0<lim) & (ct=lim)

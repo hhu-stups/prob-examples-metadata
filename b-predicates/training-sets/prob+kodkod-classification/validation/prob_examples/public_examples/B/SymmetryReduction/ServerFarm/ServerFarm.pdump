@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/ServerFarm/ServerFarm.mch
+4.8871042333333336E7,6.6711719333333336E7,6.5052406333333336E7,6.2697288333333336E7:not((active<:SERVER) & (serving:active>+>USERS)) => (s:SERVER) & (s:active)
+-1.0,-1.0,6.5153001333333336E7,-1.0:(active<:SERVER) & (serving:active>+>USERS) & (s:SERVER) & (s:active) & not((u:USERS))
+4.8232832666666664E7,1.0001793266666667E8,6.7710426E7,9.3011269E7:(active<:SERVER) & (serving:active>+>USERS) & (s:active) & (s:active&{s}<<|serving:active-{s}>+>USERS)

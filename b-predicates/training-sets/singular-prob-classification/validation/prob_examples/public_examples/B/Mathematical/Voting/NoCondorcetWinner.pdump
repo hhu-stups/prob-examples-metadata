@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Voting/NoCondorcetWinner.mch
+6.357149653333334E8,6.187491206666666E8,-1.0,-1.0:(prefs:VOTERS-->perm(CHOICES)) & (!A.(A:CHOICES => NotWinner(A))) & (not((A:CHOICES) & (!B.(B:CHOICES&B/=A => prefered(B,A)))) => (A:CHOICES) & (!B.(B:CHOICES&B/=A => prefered(A,B))))

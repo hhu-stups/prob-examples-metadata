@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Library/UsesLibraryMath.mch
+4.5292491666666664E7,4.8403943666666664E7,5.9774570333333336E7,5.3926387333333336E7:(not((xx:NATURAL)) => not((xx:NATURAL)))

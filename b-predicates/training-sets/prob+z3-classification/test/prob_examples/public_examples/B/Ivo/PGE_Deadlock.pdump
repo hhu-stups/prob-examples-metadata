@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/PGE_Deadlock.mch
+1.2562440166666667E8,4.8228549E7,6.0024067333333336E7,5.2029242E7:(x:NAT) & (x/=1) & (x<2) & not((x/=3))

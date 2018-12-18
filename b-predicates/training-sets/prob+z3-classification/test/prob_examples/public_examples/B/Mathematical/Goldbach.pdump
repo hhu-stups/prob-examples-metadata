@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Goldbach.mch
+2.0292368633333334E8,1.1751464166666667E8,1.0044084533333333E8,1.4328900833333334E8:(x:NATURAL) & (x mod 2=0) & (x>2) & (p1<x) & (p2<x) & (p1<=p2) & (prime(p1)) & (prime(p2)) & (x=p1+p2)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROB-379/OpCallSelect1.mch
+4.9313068E7,4.7931630333333336E7,5.9633560666666664E7,5.5040635333333336E7:not((xx<=1)) => (xx:NAT)

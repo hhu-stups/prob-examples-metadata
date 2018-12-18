@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/Z/Daniel/tests/scope_b.mch
+6.2727506666666664E7,5.5860734666666664E7,-1.0,1.10687586E8:(not((s:seq(Token))) => not((s^[t]:seq(Token))))

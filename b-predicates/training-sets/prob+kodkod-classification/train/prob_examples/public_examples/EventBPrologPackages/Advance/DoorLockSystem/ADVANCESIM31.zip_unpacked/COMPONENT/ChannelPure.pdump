@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/ChannelPure.bcm
+8.972919433333333E7,8.4148364E7,9.216590966666667E7,5.2561759E7:(msg_rcvd_on_purechannel=TRUE) & (incrementer_evaluated=FALSE)
+4.5563079666666664E7,4.4695721E7,6.2134787E7,5.1746315333333336E7:(adder_evaluated=FALSE)
+4.4930574E7,4.3919644666666664E7,5.8394530333333336E7,4.8456673666666664E7:msg_rcvd_on_purechannel:BOOL
+5.0602011666666664E7,6.5028194666666664E7,6.1250387E7,4.8952733333333336E7:(msg_rcvd_on_purechannel=TRUE) & (incrementer_evaluated=FALSE) & (adder_evaluated=TRUE) & (msg_rcvd_on_purechannel=FALSE or incrementer_evaluated=TRUE)
+4.7915869333333336E7,6.818590566666667E7,6.3917089666666664E7,5.5898659E7:((msg_rcvd_on_purechannel=TRUE) & (incrementer_evaluated=FALSE) => not((adder_evaluated=TRUE) & (msg_rcvd_on_purechannel=FALSE or incrementer_evaluated=TRUE)))

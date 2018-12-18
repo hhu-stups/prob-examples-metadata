@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SysML2B/BModules.zip_unpacked/BModules/TempController_1.mch
+8.0005379E7,5.5453769666666664E7,7.4476626E7,6.0128456666666664E7:not((WaterTempMeasure:INT) & (WaterHeating:BOOL) & (WaterTempRef:INT)) => (temp_var:INT)
+5.9451904E7,5.2134772333333336E7,7.5798652E7,6.788859066666667E7:(WaterTempMeasure:INT) & (WaterHeating:BOOL) & (WaterTempRef:INT) & not((temp_var:INT))
+5.0064676666666664E7,5.2087861666666664E7,7.200184666666667E7,6.0158301333333336E7:not(not((temp_var:INT))) => not((WaterTempMeasure:INT) & (WaterHeating:BOOL) & (WaterTempRef:INT))

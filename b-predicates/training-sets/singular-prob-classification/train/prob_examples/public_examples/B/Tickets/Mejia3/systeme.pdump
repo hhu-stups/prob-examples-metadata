@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Mejia3/systeme.mch
+4.8585880666666664E7,5.5906364333333336E7,1.0642237856666666E9,6.4636967333333336E7:(not(yy:0..10) => not(!xxp,xxs,yyp,yys.(xxp:0..10&xxs:0..10&yyp:0..10&yys:0..10&(xxp<yyp => xxs=xxp&yys=yyp)&(not(xxp<yyp) => xxs=xx&yys=yy) => yys:0..10)))
+4.7007350666666664E7,9.379598266666667E7,6.568589E7,-1.0:xx:0..10 & !xxp,xxs,yyp,yys.(xxp:0..10&xxs:0..10&yyp:0..10&yys:0..10&(xxp<yyp => xxs=xxp&yys=yyp)&(not(xxp<yyp) => xxs=xx&yys=yy) => xxs:0..10)

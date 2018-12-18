@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Guiziou_ClearSy/Machine_SansPrintf.mch
+4.7295353333333336E7,4.9618437333333336E7,6.3874579666666664E7,5.8042134E7:not(not((IC_Errors:POW(STRING)) & (prop_toto_0:POW(NAT)) & (process:NAT))) => (process=0)

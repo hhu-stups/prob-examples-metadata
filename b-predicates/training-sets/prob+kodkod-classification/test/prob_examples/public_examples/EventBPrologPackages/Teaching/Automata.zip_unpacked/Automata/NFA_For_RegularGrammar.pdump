@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Teaching/Automata.zip_unpacked/Automata/NFA_For_RegularGrammar.bcm
+-1.0,-1.0,6.5869526333333336E7,-1.0:(n>0) & (cur:1 .. n --> Symbols) & (cur[1 .. n - 1]<:Terminals) & (A:Z) & (A:NonTerminals<=>A=cur(n)) & (A:Final<=>cur(n):Terminals) & (A |-> (a |-> B):P) & (B:NonTerminals) & (a:Terminals) & (!B oftype Symbols.B:Symbols=>A |-> (a |-> B)/:P)

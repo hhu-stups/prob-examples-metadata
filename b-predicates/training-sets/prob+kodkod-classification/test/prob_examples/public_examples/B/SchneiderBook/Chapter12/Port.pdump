@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter12/Port.mch
+5.2010780666666664E7,5.6134326333333336E7,4.7511326E7,1.1867461166666667E8:not((waiting:iseq(SHIP)) & (docked:QUAY>+>SHIP) & (ran(waiting)/\ran(docked)={})) & not((ss:SHIP) & (ss/:ran(waiting)) & (ss/:ran(docked)))
+5.2192065666666664E7,5.1999978333333336E7,4.2007692666666664E7,7.906903966666667E7:not((waiting:iseq(SHIP)) & (docked:QUAY>+>SHIP) & (ran(waiting)/\ran(docked)={})) => (waiting/=[]) & (qq:QUAY) & (qq/:dom(docked))
+4.9471072333333336E7,5.1822325666666664E7,-1.0,6.1853675666666664E7:(waiting:iseq(SHIP)) & (docked:QUAY>+>SHIP) & (ran(waiting)/\ran(docked)={}) & (not((ss:SHIP) & (ss:ran(docked))) => (waiting/=[]) & (qq:QUAY) & (qq/:dom(docked)))

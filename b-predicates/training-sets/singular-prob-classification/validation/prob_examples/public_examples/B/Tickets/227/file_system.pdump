@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Tickets/227/file_system.mch
+5.3379903E7,7.848872866666667E7,-1.0,9.006585233333333E7:(users<:USERS) & (groups<:GROUPS) & (files<:FILES) & (open:files+->users) & (ingroup:users<->groups) & (access:files-->groups) & (!f.(f:dom(open) => access(f):ingroup[{open(f)}])) & ((user:users) & (file:files) & (access(file):ingroup[{user}]) & (file/:dom(open)) => not((file:FILES) & (group:groups) & (file/:files)))
+4.8873440666666664E7,6.741043466666667E7,7.135518633333333E7,6.2951580333333336E7:(users<:USERS) & (groups<:GROUPS) & (files<:FILES) & (open:files+->users) & (ingroup:users<->groups) & (access:files-->groups) & (!f.(f:dom(open) => access(f):ingroup[{open(f)}])) & (user:users) & (user:USERS) & (user/:users)
+4.9724549666666664E7,4.8203569E7,6.546738E7,5.4710286333333336E7:(not(files<:FILES) => not(user:users&file:files&(user,access(file)):ingroup&file/:dom(open)))
+6.4978421E7,7.5354182E7,-1.0,1.04202543E8:users<:USERS & user:users&file:files&(user,access(file)):ingroup&file/:dom(open)

@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/TLC/InvariantViolation/countdown.mch
+-1.0,-1.0,-1.0,-1.0:not((nums:POW(NATURAL)) & (1234/:nums)) & not((card(nums)<2))
+4.7459759666666664E7,4.9652356666666664E7,7.160852466666667E7,7.457850133333333E7:not((card(nums)<2)) => not((nums:POW(NATURAL)) & (1234/:nums))
+5.289851E7,5.1485690333333336E7,-1.0,6.7071285E7:(nums:POW(NATURAL)) & (1234/:nums) & (not((card(nums)<2)) => (n1:nums) & (n2:nums) & (n1<n2))
+5.3361324333333336E7,5.8377279333333336E7,-1.0,6.5904307E7:nums:POW(NATURAL) & n1:nums&n2:nums&n1<n2&!c.(c=n1+n2 => (c:NATURAL => nums-{n1,n2}\/{c}:POW(NATURAL)))
+6.1921002666666664E7,5.9961931333333336E7,-1.0,9.896223533333333E7:(nums:POW(NATURAL)) & (1234/:nums) & (n1:nums&n2:nums&n1<n2&!c.(c=n1+n2 => (c:NATURAL => nums-{n1,n2}\/{c}:POW(NATURAL)))) & (n1:nums&n2:nums&n1<n2&!c.(c=n1+n2 => (c:NATURAL => 1234/:nums-{n1,n2}\/{c})))
+4.9858435333333336E7,5.8593461666666664E7,-1.0,7.6479651E7:(nums:POW(NATURAL)) & (1234/:nums) & not((n1:nums&n2:nums&n1<n2&!c.(c=n1+n2 => (c:NATURAL => nums-{n1,n2}\/{c}:POW(NATURAL)))) & (n1:nums&n2:nums&n1<n2&!c.(c=n1+n2 => (c:NATURAL => 1234/:nums-{n1,n2}\/{c}))))

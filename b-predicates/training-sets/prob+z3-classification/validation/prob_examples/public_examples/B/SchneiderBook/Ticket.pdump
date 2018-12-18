@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Ticket.mch
+7.364216233333333E7,5.0466310333333336E7,6.1159057666666664E7,5.301419E7:not((serve:NAT) & (next:NAT) & (serve<=next)) => (serve<next)

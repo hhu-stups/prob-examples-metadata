@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/LTL/SafetyMC/BeverageVendingMachine.mch
+4.8537713666666664E7,5.1929717666666664E7,6.0015034E7,5.6008495333333336E7:not((nmax:NATURAL) & (nmax=1) & (nsoda>0) & (paid=TRUE)) => not((nsoda:NATURAL) & (nbeer:NATURAL) & (paid:BOOL))

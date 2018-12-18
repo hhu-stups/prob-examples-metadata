@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/SymMarkerTest.mch
+9.9137304E7,1.44665603E8,7.1800541E7,8.854859766666667E7:not((r1:ID-->ID) & (r2:ID-->ID)) => (x:ID) & (r2(x)/=x)

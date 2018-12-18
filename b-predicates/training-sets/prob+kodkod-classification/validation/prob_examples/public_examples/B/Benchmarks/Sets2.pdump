@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Sets2.mch
+4.8468593666666664E7,4.8089821E7,6.4048275E7,5.1876895E7:not((xx:POW(setX))) => (ss/\xx={}) & (ss:POW(setX)) & (card(ss)=1)
+4.7003300333333336E7,4.8028035E7,5.9986492666666664E7,5.1975114666666664E7:not((xx:POW(setX))) => not((ss/\xx={}) & (ss:POW(setX)) & (card(ss)=1))
+4.7678944666666664E7,4.8101647666666664E7,6.3882564666666664E7,5.06499E7:not((xx:POW(setX))) => not((xx/\ss={x1,x2}) & (ss:POW(setX)) & (card(ss)=2))
+1.1409183633333333E8,6.9116145E7,1.9561514533333334E8,6.3286516E7:not(not((xx:POW(setX)))) => (sss<:POW(setX)) & (sss-{xx}={}) & (sss={{x1,x2}})
+4.7242879333333336E7,4.8020957666666664E7,7.205110833333333E7,6.0037243666666664E7:(xx:POW(setX)) & (sss<:POW(setX)) & (sss-{xx}={}) & (sss={{x2,x1}})
+4.8824202333333336E7,4.9175038333333336E7,6.5397539E7,6.7933755E7:(xx:POW(setX)) & not((sss<:POW(setX)) & (sss-{xx}={}) & (sss={{x2,x1}}))
+8.089643733333333E7,7.482345866666667E7,-1.0,9.6576271E7:(xx:POW(setX)) & (ss/\xx={}) & (ss:POW(setX)) & (card(ss)=1) & not((xx-ss={x2,x1}) & (ss:POW(setX)) & (card(ss)=1))
+4.7953467333333336E7,5.1412566666666664E7,1.0601636733333333E8,5.3074789666666664E7:(xx:POW(setX)) & (not((xx/\ss={x1,x2}) & (ss:POW(setX)) & (card(ss)=2)) => (sss<:POW(setX)) & (sss-{xx}={}) & (sss={{x1,x2}}))
+4.7580189E7,4.8024776E7,8.7044938E7,5.1500589666666664E7:(not(xx:POW(setX)) => not(xx-ss={x2,x1}&card(ss)=1))

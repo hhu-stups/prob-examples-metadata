@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/B/Laws/NatRangeLaws.mch
+-1.0,-1.0,-1.0,-1.0:not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) & (card(0..xx)=xx+1) & (card(1..MAXINT)=MAXINT) & (min(-1..xx)=-1) & (max(-1..xx)=xx) & (xx..xx-1<:xx..zz) & (xx..zz<:xx..zz) & (xx..zz<:xx..zz+1) & (xx+1..zz<:xx..zz) & (xx..zz-1<:xx..zz) & (xx+1..zz-1<:xx..zz) & (xx<=zz => xx..zz<:xx..zz+1&xx+1..zz<<:xx..zz&xx..zz-1<<:xx..zz&xx+1..zz-1<<:xx..zz) & (xx..zz<:zz..xx <=> zz<=xx) & (xx..zz<<:zz..xx <=> zz<xx) & (perm(NAT1)=perm(1..MAXINT)) & (%i.(i:NAT1|i):perm(NAT1))) => not((yy:INT))
+4.7808803E7,4.8679165E7,7.626323633333333E7,6.735747133333333E7:(not(card(1..MAXINT)=MAXINT) => not(yy:NAT&card(1..MAXINT)=MAXINT))
+8.317505566666667E7,5.2870899333333336E7,5.6286045E7,2.4903850083333335E9:(not(card(xx..xx-1)=0) => not(yy:NAT&card(yy..yy-1)=0))
+4.7736634E7,5.0641542333333336E7,-1.0,1.1900945433333333E8:perm(NAT1)=perm(1..MAXINT) & not(yy:NAT&perm(NAT1)=perm(1..MAXINT))
+2.0787998483333333E9,3.9196628E7,5.5272811E7,9.484781566666667E7:(not(card(xx..xx+1)=2) => not(yy:INT&card(xx..xx+1)=2))
+8.178158923333334E8,5.3318465666666664E7,1.95629067E8,2.592709613E9:(not(xx<=zz => card(xx..zz)=zz-xx+1) => not(yy:INT&(xx<=yy => card(xx..yy)=yy-xx+1)))
+7.014932718E9,2.1190967533333334E8,1.6887789753333333E9,1.6557486586666667E9:(not(card(0..xx)=xx+1) => not(yy:INT&card(0..xx)=xx+1))
+4.8592445666666664E7,5.2000677E7,4.2687458E7,1.1077763433333333E8:(not(xx..zz<:xx..zz+1) => yy:INT&xx..yy<:xx..yy+1)
+4.8584437E7,5.2135703333333336E7,9.671483366666666E8,6.081041E7:(not(xx+1..zz-1<:xx..zz) => not(yy:INT&xx+1..yy-1<:xx..yy))
+4.8534314333333336E7,5.1910349E7,4.2358366E7,9.3490008E7:(not(xx<=zz => card(xx..zz)=zz-xx+1) => xx<=zz => card(xx..zz)=zz-xx+1)
+-1.0,-1.0,1.0946003233333333E8,-1.0:(not(xx<=zz => xx..zz<:xx..zz+1&xx+1..zz<<:xx..zz&xx..zz-1<<:xx..zz&xx+1..zz-1<<:xx..zz) => not(xx<=zz => xx..zz<:xx..zz+1&xx+1..zz<<:xx..zz&xx..zz-1<<:xx..zz&xx+1..zz-1<<:xx..zz))

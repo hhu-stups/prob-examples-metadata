@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Dedale/LandingGears-5-fevrier-2015.zip_unpacked/LandingGears/LandingSystem.bcm
+5.8252938333333336E7,7.848535333333333E7,-1.0,6.6380903666666664E7:not(not((!g oftype LANDING_SETS.g:LANDING_SETS=>gear_position(g)=up) & (operating_mode=normal))) => (operating_mode:OPERATING_MODES) & (gear_position:LANDING_SETS --> GEAR_STATUS)

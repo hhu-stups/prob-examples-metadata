@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Special/Slicing/SumProd_Op.mch
+4.9680782E7,5.1054118333333336E7,7.200377933333333E7,6.6982679666666664E7:cur:0..size(arr) & not(cur=size(arr)&cur:0..size(arr))

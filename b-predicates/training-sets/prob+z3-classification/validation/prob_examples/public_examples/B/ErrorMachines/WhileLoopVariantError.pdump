@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ErrorMachines/WhileLoopVariantError.mch
+4.7418786E7,4.7998166333333336E7,5.9969311E7,5.6159981333333336E7:not((c:1..10) & (xx<=c)) => not((xx:NATURAL))

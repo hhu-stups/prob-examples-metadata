@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/predicate_analysis/setext_dombug.mch
+4.7395761666666664E7,5.1473747666666664E7,-1.0,5.2304184E7:(aval={(a,0),(b,3)}) & (e:ran(aval)) & not(card(aval):1..2)

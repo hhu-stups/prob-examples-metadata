@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/NewSyntax/RecTest2.mch
+4.9402720666666664E7,5.1904458666666664E7,6.9301224E7,6.1492526666666664E7:not(not((xx:struct(name:ID,balance:NAT)) & (bank:struct(name:ID)) & (total:struct(money:NAT)))) => not((amt:NAT1) & (xx'balance>=amt))
+4.9201974E7,5.0272314666666664E7,6.7022908333333336E7,7.0981582E7:total:struct(money:NAT) & amt:NAT1&xx'balance>=amt&total:struct(money:NAT)
+4.7536538333333336E7,4.8067751333333336E7,6.3984114333333336E7,5.5964053333333336E7:(not(total:struct(money:NAT)) => total:struct(money:NAT))
+4.8883287666666664E7,5.1976209E7,-1.0,7.600084266666667E7:xx:struct(name:ID,balance:NAT) & rec(balance:xx'balance-1,name:xx'name):struct(balance:NAT,name:ID)
+5.0241840666666664E7,4.8507262666666664E7,-1.0,5.8178674E7:xx:struct(name:ID,balance:NAT) & not(rec(balance:xx'balance-1,name:xx'name):struct(balance:NAT,name:ID))
+5.1532600666666664E7,5.1681572333333336E7,-1.0,6.2116954333333336E7:(xx:struct(name:ID,balance:NAT)) & (bank:struct(name:ID)) & (total:struct(money:NAT)) & not((total:struct(money:NAT)) & (rec(balance:xx'balance-1,name:xx'name):struct(balance:NAT,name:ID)) & (bank:struct(name:ID)))

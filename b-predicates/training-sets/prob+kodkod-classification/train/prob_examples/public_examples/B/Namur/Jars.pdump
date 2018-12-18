@@ -1,0 +1,17 @@
+#source:examples/prob_examples/public_examples/B/Namur/Jars.mch
+3.10466948E8,2.4020542933333334E8,-1.0,1.3375534666666667E8:(level:Jars-->NAT)
+-1.0,-1.0,2.0428580066666666E8,-1.0:not((maxf:Jars-->NAT) & (maxf={(j3,3),(j5,5)}) & (level:Jars-->NAT)) => (j1:Jars) & (j2:Jars) & (j1/=j2) & (amount>0) & (amount=min({level(j1),maxf(j2)-level(j2)}))
+9.731011666666667E7,9.3817121E7,-1.0,1.6806168866666666E8:not((maxf:Jars-->NAT) & (maxf={(j3,3),(j5,5)}) & not((j1:Jars) & (j2:Jars) & (j1/=j2) & (amount>0) & (amount=min({level(j1),maxf(j2)-level(j2)})))) => (level:Jars-->NAT)
+1.0891482833333333E8,7.150096833333333E7,-1.0,2.717469166666667E8:(maxf:Jars-->NAT) & (maxf={(j3,3),(j5,5)}) & not((level:Jars-->NAT)) & (j1:Jars) & (j2:Jars) & (j1/=j2) & (amount>0) & (amount=min({level(j1),maxf(j2)-level(j2)}))
+1.39447216E9,1.3925235883333333E9,1.9838181466666666E8,1.4677942166666667E9:not((maxf:Jars-->NAT) & (maxf={(j3,3),(j5,5)}) & not((level:Jars-->NAT))) => (j1:Jars) & (j2:Jars) & (j1/=j2) & (amount>0) & (amount=min({level(j1),maxf(j2)-level(j2)}))
+8.090558633333333E7,6.8270297E7,-1.0,3.08907648E8:(maxf:Jars-->NAT) & (maxf={(j3,3),(j5,5)}) & not((level:Jars-->NAT)) & not((j1:Jars) & (j2:Jars) & (j1/=j2) & (amount>0) & (amount=min({level(j1),maxf(j2)-level(j2)})))
+7.145228933333333E7,8.881774233333333E7,-1.0,3.5347691E8:not((maxf:Jars-->NAT) & (maxf={(j3,3),(j5,5)}) & not((j:Jars) & (level(j)<maxf(j)))) => not((level:Jars-->NAT))
+-1.0,-1.0,1.4680432966666666E8,-1.0:not((maxf:Jars-->NAT) & (maxf={(j3,3),(j5,5)}) & (level:Jars-->NAT)) => (j:Jars) & (level(j)>0)
+7.8347859E7,6.7939086E7,-1.0,1.15687663E8:not((maxf:Jars-->NAT) & (maxf={(j3,3),(j5,5)}) & (j:Jars) & (level(j)>0)) => not((level:Jars-->NAT))
+8.022454033333333E7,7.824838133333333E7,-1.0,2.835035793333333E8:(maxf:Jars-->NAT) & (maxf={(j3,3),(j5,5)}) & (level:Jars-->NAT) & (not((j1:Jars) & (j2:Jars) & (j1/=j2) & (amount>0) & (amount=min({level(j1),maxf(j2)-level(j2)}))) => (j:Jars) & (level(j)<maxf(j)))
+1.6304068166666666E8,7.879847466666667E7,-1.0,3.361596473333333E8:(maxf:Jars-->NAT) & (maxf={(j3,3),(j5,5)}) & (level:Jars-->NAT) & (j1:Jars) & (j2:Jars) & (j1/=j2) & (amount>0) & (amount=min({level(j1),maxf(j2)-level(j2)})) & not((j:Jars) & (level(j)>0))
+8.307127133333333E7,6.5659350333333336E7,-1.0,2.1306492E8:(maxf:Jars-->NAT) & (maxf={(j3,3),(j5,5)}) & (level:Jars-->NAT) & ((j:Jars) & (level(j)<maxf(j)) => not((j:Jars) & (level(j)>0)))
+3.590004706666667E8,1.0284981033333333E8,-1.0,1.359860985E9:(maxf:Jars-->NAT) & (maxf={(j3,3),(j5,5)}) & (not((level:Jars-->NAT)) => (level(j)<maxf(j)&level<+{(j,maxf(j))}:Jars-->NAT))
+5.97837523E8,3.701753086666667E8,-1.0,3.639879066666667E8:(maxf:Jars-->NAT) & (maxf={(j3,3),(j5,5)}) & level:Jars-->NAT & level(j)>0&level<+{(j,0)}:Jars-->NAT
+-1.0,-1.0,-1.0,-1.0:(maxf:Jars-->NAT) & (maxf={(j3,3),(j5,5)}) & (not(level:Jars-->NAT) => level(j)>0&level<+{(j,0)}:Jars-->NAT)
+7.008700866666667E7,6.6380997E7,-1.0,3.42453767E8:(maxf:Jars-->NAT) & (maxf={(j3,3),(j5,5)}) & (level:Jars-->NAT) & (level(j)>0&level<+{(j,0)}:Jars-->NAT)

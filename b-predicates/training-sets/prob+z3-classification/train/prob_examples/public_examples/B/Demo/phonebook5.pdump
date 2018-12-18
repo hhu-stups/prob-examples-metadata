@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Demo/phonebook5.mch
+2.7215794686666665E9,1.9038911306666667E9,9.308932833333333E7,7.235042533333333E7:not((db:Name+->Code) & (active:POW(Name)) & (dom(db)=active)) & (nn:Name) & (cc:Code) & (nn/:active)

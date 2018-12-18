@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tickets/Cansell_RingLead/ringlead.zip_unpacked/ringlead/elect1_2.bcm
+2.0997586333333334E8,1.0634231733333333E8,-1.0,3.03079975E8:not((ld:N) & (a:N +-> N) & (!f oftype N.f:dom(a)=>V(f)=max(V[itrv(f)(n~(a(f)))])) & (dom(a)<:da) & (da/=({} oftype POW(N))=>V~(max(V[da])):dom(a)) & (ini<:da)) & not((x:dom(a)) & (V(x)<V(a(x))) & (a(x):da))
+-1.0,-1.0,6.0346291E7,-1.0:(ld:N) & (a:N +-> N) & (!f oftype N.f:dom(a)=>V(f)=max(V[itrv(f)(n~(a(f)))])) & (dom(a)<:da) & (da/=({} oftype POW(N))=>V~(max(V[da])):dom(a)) & (ini<:da) & (x/:da) & (x:dom(a)) & (V(x)>V(a(x)))

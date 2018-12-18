@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROB-335/RecordDetectionBugSimple.mch
+-1.0,-1.0,-1.0,-1.0:(pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)}) & !xx.(xx/=self => (xx,FALSE):main)
+-1.0,-1.0,-1.0,-1.0:not((pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)})) => !xx.(xx/=self => (xx,FALSE):main)
+4.9875616333333336E7,5.2021885666666664E7,4.8712083333333336E7,1.0890097566666667E8:not((pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)})) => xx/=self => (xx,FALSE):main
+-1.0,-1.0,-1.0,-1.0:(pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)}) & xx/=self
+-1.0,-1.0,-1.0,-1.0:(pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)}) & not((xx,FALSE):main)
+-1.0,-1.0,-1.0,-1.0:(pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)}) & (!xx.(xx/=self => (xx,FALSE):main)) & (xx/=self => (xx,FALSE):main) & (xx/=self) & ((xx,FALSE):main)
+-1.0,-1.0,-1.0,-1.0:(pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)}) & not((!xx.(xx/=self => (xx,FALSE):main)) & (xx/=self => (xx,FALSE):main) & (xx/=self) & ((xx,FALSE):main))
+-1.0,-1.0,-1.0,-1.0:not((pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)})) => (!xx.(xx/=self => (xx,FALSE):main)) & (xx/=self => (xx,FALSE):main) & (xx/=self) & ((xx,FALSE):main)

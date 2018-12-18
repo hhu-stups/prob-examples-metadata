@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/GraphIso/CheckLargeGraphIsomorphismAsConstants_v2.mch
+-1.0,-1.0,1.7521618266666666E8,-1.0:not((graph1:Nodes<->Nodes) & (graph2:Nodes<->Nodes) & (graph1=%x.(x:Nodes|x+1 mod Mx)\/{(1,1)}) & (graph2=%x.(x:Nodes|x+1 mod Mx)\/{(5,5)}) & (p:RelevantNodes>->>RelevantNodes) & (!x.(x:RelevantNodes => p[graph1[{x}]]=graph2[{p(x)}]))) => not((x:RelevantNodes))

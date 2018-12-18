@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Oliveira2/Shop.mch
+5.5536391666666664E7,4.7986945E7,6.0033588333333336E7,5.5906830333333336E7:not((gg:GOODS) & (takings+price(gg)<=2147483647)) => (takings:NAT)

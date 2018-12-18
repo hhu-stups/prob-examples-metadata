@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/HashSetSet2.mch
+1.22826117E8,1.0391896433333333E8,1.1260756933333333E8,7.4635818E7:not(not((ssi:POW(POW(ID))))) => (x:ID) & (y:ID) & ({x,y}/:ssi)
+5.4275174666666664E7,5.3286641333333336E7,5.3342118333333336E7,8.387125666666667E7:(ssi:POW(POW(ID))) & not(({x,y}/:ssi))

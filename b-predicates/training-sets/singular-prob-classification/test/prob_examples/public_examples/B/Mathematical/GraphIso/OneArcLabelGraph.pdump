@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/GraphIso/OneArcLabelGraph.mch
+-1.0,-1.0,-1.0,-1.0:(g:GRAPH) & (INIT) & (not(vg:GRAPH) => not((n1,n2):vg(c) => vg:C-->(N<->N)&(not((n1,n2):vg(c)) => (TRUE:BOOL => vg:C-->(N<->N)))))

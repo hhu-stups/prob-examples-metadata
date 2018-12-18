@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Corinna/Array.mch
+8.024409633333333E7,6.0184864666666664E7,5.0647711333333336E7,1.09980443E8:(not(arr:1..maxindex+->TYPE) => not(ix:1..maxindex&tt:TYPE&arr<+{(ix,tt)}:1..maxindex+->TYPE))

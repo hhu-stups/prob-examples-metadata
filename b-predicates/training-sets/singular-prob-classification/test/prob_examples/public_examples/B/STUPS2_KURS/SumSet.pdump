@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/SumSet.mch
+-1.0,-1.0,7.6597217E7,-1.0:(all<:NATURAL) & (!e,s.(e:NATURAL&s<:NATURAL&e:s => card(s-{e})=card(s)-1)) & sum:NATURAL & not(!x.(x:elements => sum+1:NATURAL))
+-1.0,-1.0,-1.0,-1.0:(all<:NATURAL) & (!e,s.(e:NATURAL&s<:NATURAL&e:s => card(s-{e})=card(s)-1)) & (not(sum:NATURAL) => not(!x.(x:elements => sum+1:NATURAL)))
+-1.0,-1.0,-1.0,-1.0:(all<:NATURAL) & (!e,s.(e:NATURAL&s<:NATURAL&e:s => card(s-{e})=card(s)-1)) & (not(elements={} => sum=card(all)) => !x.(x:elements => (elements-{x}={} => sum+1=card(all))))

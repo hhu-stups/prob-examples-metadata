@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Demo/GCD.mch
+4.7435547666666664E7,4.9322287333333336E7,5.9965888666666664E7,5.6136584666666664E7:not((w1:NAT1) & (w2:NAT1)) => (x:NAT) & (y:NAT)

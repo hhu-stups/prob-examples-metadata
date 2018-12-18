@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Valerio9/Michael_12/BIT_DEFINITION.mch
+9.441538133333333E7,7.6433556E7,5.4821519333333336E7,1.11609514E8:not((BIT={0,1}) & (bit_not:BIT>->>BIT) & (bit_not={(0,1)}\/{(1,0)}) & (bit_and:BIT*BIT-->BIT) & (bit_and={((0,0),0)}\/{((0,1),0)}\/{((1,0),0)}\/{((1,1),1)}) & (bit_or:BIT*BIT-->BIT) & (bit_or={((0,0),0)}\/{((0,1),1)}\/{((1,0),1)}\/{((1,1),1)}) & (bit_xor:BIT*BIT-->BIT) & (bit_xor={((0,0),0)}\/{((0,1),1)}\/{((1,0),1)}\/{((1,1),0)}) & (bool_bit={(TRUE,1),(FALSE,0)})) => bit_not(0)=1

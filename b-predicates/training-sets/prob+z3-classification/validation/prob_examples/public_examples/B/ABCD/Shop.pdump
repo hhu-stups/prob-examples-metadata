@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ABCD/Shop.mch
+9.759013333333333E7,7.922052533333333E7,9.2409261E7,6.1506867E7:(resources:NAT) & (resp:BOOL) & (state:NAT) & (state<2)

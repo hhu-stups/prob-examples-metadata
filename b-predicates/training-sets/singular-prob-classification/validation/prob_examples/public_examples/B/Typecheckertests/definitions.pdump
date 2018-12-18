@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Typecheckertests/definitions.mch
+4.8711222333333336E7,5.0557407E7,6.4111505E7,5.7407090666666664E7:not(not((x:INTEGER) & (y:INTEGER) & (PRED))) => (divides(x,y))

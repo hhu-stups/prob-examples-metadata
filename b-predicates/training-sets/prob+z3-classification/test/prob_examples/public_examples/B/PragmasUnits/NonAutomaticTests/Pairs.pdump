@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/PragmasUnits/NonAutomaticTests/Pairs.mch
+5.594563623333334E8,6.0267766666666664E7,1.00254462E8,5.4652737E7:not(not((bb:setB))) => (pairs:POW(setB*setC))
+1.3613372233333334E8,9.620416583333334E8,1.1669074633333333E8,7.233189333333333E7:not(not((pairs:POW(setB*setC)))) => (bb:setB) & (cc:setC) & (pairs/={})

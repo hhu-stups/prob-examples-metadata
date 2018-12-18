@@ -1,0 +1,15 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksEnablingAnalysis/MachineChocolat/cm1.mch
+1.10539522E8,1.0029951E8,1.0945052487E10,5.4858466E7:(credit:0..MaxCredit) & (chocTray:TRAY)
+1.5175246833333334E8,5.1977862E7,6.5260649666666664E7,1.4111449933333334E8:not((MaxCredit:NAT) & (credit:0..MaxCredit) & (chocTray:TRAY)) => (credit<MaxCredit)
+4.8678862333333336E7,9.8724193E7,6.3853976333333336E7,6.6793014333333336E7:(MaxCredit:NAT) & (credit:0..MaxCredit) & (chocTray:TRAY) & not((credit<MaxCredit))
+5.2138240666666664E7,5.1686507666666664E7,6.79406E7,1.2201379266666667E8:not((MaxCredit:NAT) & (credit:0..MaxCredit) & (chocTray:TRAY)) => (credit<MaxCredit-1)
+4.9106896333333336E7,5.2153466333333336E7,6.5709077333333336E7,5.6497384666666664E7:not((MaxCredit:NAT) & (credit<MaxCredit-1)) => (credit:0..MaxCredit) & (chocTray:TRAY)
+2.75650859E8,6.5717668E7,6.838546533333333E7,6.831466933333333E7:(MaxCredit:NAT) & (credit:0..MaxCredit) & (chocTray:TRAY) & not(chocTray=empty)
+2.879097496666667E8,5.1996905333333336E7,8.7353776E7,8.605570566666667E7:(MaxCredit:NAT) & (credit:0..MaxCredit) & (chocTray:TRAY) & ((credit>0) & (chocTray=empty) => not((credit>1) & (chocTray=empty)))
+8.9674904E7,5.2465051666666664E7,6.979102133333333E7,8.761104833333333E7:(MaxCredit:NAT) & (credit:0..MaxCredit) & (chocTray:TRAY) & ((credit>0) & (chocTray=empty) => not((credit<MaxCredit-1)))
+1.07024643E8,4.9978073E7,6.848568766666667E7,6.5216952333333336E7:(MaxCredit:NAT) & (credit:0..MaxCredit) & (chocTray:TRAY) & ((credit>0) & (chocTray=empty) => not((chocTray=full)))
+5.1399227E7,4.9497797666666664E7,6.5365970333333336E7,5.7169886666666664E7:(MaxCredit:NAT) & (not(chocTray:TRAY) => credit>0&chocTray=empty => chocTray:TRAY)
+8.577540933333333E7,5.2396398E7,6.5904540333333336E7,5.4639234E7:(MaxCredit:NAT) & (credit:0..MaxCredit) & (chocTray:TRAY) & not((credit>1&chocTray=empty => credit-2:0..MaxCredit) & (credit>1&chocTray=empty => chocTray:TRAY))
+4.7851709E7,5.1399506333333336E7,6.5579591666666664E7,6.1776547666666664E7:(MaxCredit:NAT) & (not(credit:0..MaxCredit) => not(credit<MaxCredit => credit+1:0..MaxCredit))
+8.3146141E7,4.8396145E7,6.3961881333333336E7,5.6361636666666664E7:(MaxCredit:NAT) & chocTray:TRAY & chocTray:TRAY
+9.085245166666667E7,9.8458866E7,9.743906666666667E7,5.868209E7:(MaxCredit:NAT) & (not(chocTray:TRAY) => not(chocTray=full => chocTray:TRAY))

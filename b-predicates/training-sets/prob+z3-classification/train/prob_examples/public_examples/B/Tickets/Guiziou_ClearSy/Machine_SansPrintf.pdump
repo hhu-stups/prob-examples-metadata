@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Guiziou_ClearSy/Machine_SansPrintf.mch
+4.4560112333333336E7,4.4403621333333336E7,5.6017761333333336E7,4.7907489E7:(not(IC_Errors:POW(STRING)) => process=0 => IC_Errors:POW(STRING))

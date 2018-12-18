@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Tester/CartesianComputation.mch
+6.0826636E7,9.879605966666667E7,-1.0,7.7366123E7:not((a<:ID) & (b<:ID) & (a/=b) & (a/={}) & (b/={}) & (xx:POW(ID*ID))) => ((x,y):xx)
+5.1277842666666664E7,4.9250024666666664E7,7.8264259E7,5.4428476E7:not((a<:ID) & (b<:ID) & (a/=b) & (a/={}) & (b/={}) & not((yy:POW(ID)))) => (xx:POW(ID*ID))
+5.2449709666666664E7,7.604623933333333E7,8.256007933333333E7,7.366714233333333E7:(a<:ID) & (b<:ID) & (a/=b) & (a/={}) & (b/={}) & (not((xx:POW(ID*ID))) => not(((x,y):xx)))
+5.7185041666666664E7,1.3786564633333334E8,7.296467866666667E7,9.882010866666667E7:(a<:ID) & (b<:ID) & (a/=b) & (a/={}) & (b/={}) & (not(xx:POW(ID*ID)) => not(xx:POW(ID*ID)))

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/ConfigChooser/ConfigChooser.zip_unpacked/ConfigChooser/PetChooser.bcm
+2.29146085E8,1.4341048533333334E8,-1.0,6.4003297666666664E7:not((sel<:PETOBJ) & (conflict[sel]/\sel=({} oftype POW(PETOBJ)))) & (sel:valid)
+2.921178966666667E8,1.4393506366666666E8,1.00840151E8,3.24267632E8:not(not((sel<:PETOBJ) & (conflict[sel]/\sel=({} oftype POW(PETOBJ))))) => not((sel:valid))

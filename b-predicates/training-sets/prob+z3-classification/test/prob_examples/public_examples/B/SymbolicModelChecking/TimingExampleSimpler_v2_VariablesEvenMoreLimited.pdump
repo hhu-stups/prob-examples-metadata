@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/TimingExampleSimpler_v2_VariablesEvenMoreLimited.mch
+1.0352948233333333E8,6.1395726333333336E7,6.718093566666667E7,7.077806466666667E7:(mxc:1..10) & (mxe:1..10) & (INV) & (timer_c<LIMIT) & (timer_e<LIMIT) & (v=timer_c) & (timer_c<timer_e) & (pc=2) & (pc=0) & (v:1..mxc) & (timer_c<LIMIT-v)
+-1.0,-1.0,5.6091467333333336E7,1.425371737E9:(mxc:1..10) & (mxe:1..10) & timer_e<LIMIT & not(pc=1&v:1..mxe&timer_e<20-v => timer_e+v<20)

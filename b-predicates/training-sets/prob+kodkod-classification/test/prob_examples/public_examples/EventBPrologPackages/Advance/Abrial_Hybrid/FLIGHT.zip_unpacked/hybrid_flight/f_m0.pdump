@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/Abrial_Hybrid/FLIGHT.zip_unpacked/hybrid_flight/f_m0.bcm
+5.1978328E7,5.8567992E7,6.1376753333333336E7,5.9950244333333336E7:not(not((phase=3))) => (rho>0) & (r>0) & (2*rho*sin_phi_d_2>=p) & (phase/=0=>2*r*sin_phi_d_2>=p) & (phase=1=>rhoi - sqrt3*r:NAT)
+4.9279567666666664E7,5.6008914333333336E7,6.139135E7,6.3881540333333336E7:not((rho>0) & (r>0) & (2*rho*sin_phi_d_2>=p) & (phase/=0=>2*r*sin_phi_d_2>=p) & (phase=1=>rhoi - sqrt3*r:NAT)) & (phase=3)
+4.9287413333333336E7,5.0522066666666664E7,6.0009190666666664E7,5.2058971E7:(rho>0) & (r>0) & (2*rho*sin_phi_d_2>=p) & (phase/=0=>2*r*sin_phi_d_2>=p) & (phase=1=>rhoi - sqrt3*r:NAT) & (phase=2) & (phase=1)
+4.9289601333333336E7,5.1960704333333336E7,5.9911459333333336E7,5.6032591E7:(rho>0) & (r>0) & (2*rho*sin_phi_d_2>=p) & (phase/=0=>2*r*sin_phi_d_2>=p) & (phase=1=>rhoi - sqrt3*r:NAT) & (phase=1) & (phase=0) & (c>0) & (p<=2*c*sin_phi_d_2) & (c*sqrt3<=rhoi)
+4.7931025333333336E7,4.9761588333333336E7,5.8843633333333336E7,5.3177781333333336E7:(rho>0) & (r>0) & (2*rho*sin_phi_d_2>=p) & (phase/=0=>2*r*sin_phi_d_2>=p) & (phase=1=>rhoi - sqrt3*r:NAT) & (phase=3) & (phase=4)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FMI/waterTankCtrl.mch
+4.9395876333333336E7,1.2437903833333333E8,7.233803966666667E7,4.8296341666666664E7:(High=7000) & (Low=4000) & (ReadDelay=20) & (WriteDelay=20) & (ComputeDelay=100) & (time:0..12000) & (pump:BOOL) & (level:0..20000) & (fmiLevel:NATURAL) & (fmiPump:BOOL) & (pc:PC) & (lpc:LPC) & (not((lpc=lread) & (pc=compute)) => (level<=Low) & (pc=compute) & (lpc=ldecide))

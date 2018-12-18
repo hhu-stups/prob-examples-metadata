@@ -1,0 +1,13 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Player.mch
+-1.0,-1.0,6.6092786E7,-1.0:(card(PLAYER)>11) & (team<:PLAYER) & (card(team)=11) & not((pp:PLAYER))
+-1.0,-1.0,6.4337068666666664E7,-1.0:(card(PLAYER)>11) & not((team<:PLAYER) & (card(team)=11)) & not((pp:PLAYER))
+9.060644733333333E7,7.141802033333333E7,-1.0,8.225505966666667E7:not((card(PLAYER)>11) & not((pp:team) & (rr:PLAYER) & (rr/:team))) => not((team<:PLAYER) & (card(team)=11))
+5.1588776333333336E7,6.1836867E7,-1.0,1.1925634333333333E8:(card(PLAYER)>11) & (not(card(team)=11) => pp:team => card(team)=11&(not(pp:team) => (TRUE:BOOL => card(team)=11)))
+-1.0,-1.0,-1.0,-1.0:(card(PLAYER)>11) & card(team)=11 & not(pp:team => card(team)=11&(not(pp:team) => (TRUE:BOOL => card(team)=11)))
+-1.0,-1.0,7.208342133333333E7,-1.0:(card(PLAYER)>11) & team<:PLAYER & not(pp:team => team<:PLAYER&(not(pp:team) => (TRUE:BOOL => team<:PLAYER)))
+5.5351894333333336E7,6.0460039333333336E7,-1.0,6.716934233333333E7:(card(PLAYER)>11) & (not(team<:PLAYER) => not(pp:team => team<:PLAYER&(not(pp:team) => (TRUE:BOOL => team<:PLAYER))))
+-1.0,-1.0,-1.0,-1.0:(card(PLAYER)>11) & (team<:PLAYER) & (card(team)=11) & not((pp:team => card(team)=11&(not(pp:team) => (TRUE:BOOL => card(team)=11))) & (pp:team => team<:PLAYER&(not(pp:team) => (TRUE:BOOL => team<:PLAYER))))
+-1.0,-1.0,-1.0,-1.0:(card(PLAYER)>11) & card(team)=11 & pp:team&rr/:team&card(team\/{rr}-{pp})=11
+4.6410440666666664E7,6.7044675666666664E7,-1.0,6.6016658666666664E7:(card(PLAYER)>11) & team<:PLAYER & pp:team&rr/:team
+4.5641023E7,6.0825239333333336E7,3.252770476666667E8,6.920393533333333E7:(card(PLAYER)>11) & (not(team<:PLAYER) => pp:team&rr/:team)
+5.8312606333333336E7,6.858604933333333E7,-1.0,8.1066128E7:(card(PLAYER)>11) & (not(team<:PLAYER) => not(pp:team&rr/:team))

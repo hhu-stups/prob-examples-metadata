@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/RussianPostalPuzzle.mch
+5.125547E7,5.2978478E7,-1.0,6.822797366666667E7:not(not((keysforsale:POW(KeyIDs)) & (hasbox:PERSONS) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL))) => not((keyid:KeyIDs) & (person:PERSONS) & (person=hasbox) & (keyid:has_keys(person)) & (keyid/:padlocks))
+4.8913645333333336E7,7.826735533333333E7,-1.0,6.813084733333333E7:(keysforsale:POW(KeyIDs)) & (hasbox:PERSONS) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL) & not((from:PERSONS) & (from=hasbox) & (to:PERSONS) & (to/=hasbox))
+4.8331961E7,5.1954162666666664E7,-1.0,6.5885636333333336E7:(keysforsale:POW(KeyIDs)) & (hasbox:PERSONS) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL) & (not((keyid:KeyIDs) & (person:PERSONS) & (person=hasbox) & (keyid:has_keys(person)) & (keyid/:padlocks)) => (keyid:keysforsale) & (person:PERSONS) & (person=hasbox))
+4.9489603E7,5.2460768333333336E7,-1.0,7.2831282E7:has_keys:PERSONS-->POW(KeyIDs) & person=hasbox&keyid:has_keys(person)&keyid/:padlocks&has_keys:PERSONS-->POW(KeyIDs)

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/KKS/KKS.zip_unpacked/KKS/Ablauf.bcm
+1.0999529566666667E8,7.0785142E7,-1.0,5.3466715666666664E7:(inqueue:Subjects --> POW(Objects))
+4.7869332E7,1.278651822E9,-1.0,6.838476666666667E7:(inqueue:Subjects --> POW(Objects)) & (s:Subjects&do:Objects&io:Subjects) & (s |-> do |-> io:send)
+4.8685311333333336E7,5.0199679333333336E7,-1.0,6.2683389666666664E7:not(not((inqueue:Subjects --> POW(Objects)))) => (s:Subjects&do:Objects&io:Subjects) & (s |-> do |-> io:send)

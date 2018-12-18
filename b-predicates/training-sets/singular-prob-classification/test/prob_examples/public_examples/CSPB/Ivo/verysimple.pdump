@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSPB/Ivo/verysimple.mch
+4.8795753666666664E7,5.2015483E7,6.0011193E7,5.7261727666666664E7:not((c=10) & not((x:1..c) & (y:NATURAL))) => not((y:1..5))

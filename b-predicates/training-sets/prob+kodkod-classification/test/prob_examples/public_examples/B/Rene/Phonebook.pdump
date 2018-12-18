@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Rene/Phonebook.mch
+5.0134587333333336E7,4.8382060333333336E7,8.896892533333333E7,4.2140344666666664E7:count:NAT & n:ran(book)&p:dom(book)&book[{p}]={n}&count-1:NAT
+1.1769562333333333E8,9.1543578E7,9.569859833333333E7,5.236015E7:(not(count:NAT) => not(count:NAT))
+1.13813309E8,5.8525342666666664E7,5.9583019666666664E7,6.1305957E7:book:Persons<->NAT1 & book:Persons<->NAT1

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/Constants7.mch
+5.4924861666666664E7,1.3257838166666667E8,-1.0,7.6129444E7:not((minnr:NATURAL) & (mxnr:NATURAL1) & (root:IDS) & (pid:PERSONS>->IDS) & (pnr:PERSONS>->minnr..mxnr) & (eqp:EQUIPMENT)) => not((p:PERSONS))

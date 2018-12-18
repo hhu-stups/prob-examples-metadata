@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/LessSimple/Game/PRIZE.mch
+5.0002401E7,9.131982966666667E7,6.2173804666666664E7,5.8794511333333336E7:PRIZEinstances:POW(PRIZESET) & PRIZEinstances/=PRIZESET&!new.(new:PRIZESET-PRIZEinstances => PRIZEinstances:POW(PRIZESET))

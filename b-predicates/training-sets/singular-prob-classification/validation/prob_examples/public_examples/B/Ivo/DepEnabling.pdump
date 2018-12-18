@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Ivo/DepEnabling.mch
+8.6606218E7,5.8184052E7,1.16344846E8,5.9753106E7:(x:INTEGER) & (y:INTEGER) & (z:INTEGER) & (w:INTEGER) & (z=0)
+4.6622199666666664E7,4.8228456333333336E7,1.1984138066666667E8,5.202717E7:(not((x:INTEGER) & (y:INTEGER) & (z:INTEGER) & (w:INTEGER)) => (y=2&z<1) & (y=2&z<1) & (y=2&z<1) & (y=2&z<1))

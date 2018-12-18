@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Compilers/Galois.mch
+7.1973422E7,7.765743166666667E7,5.7075903333333336E7,2.770996923333333E8:(gamma:Abs-->POW(Concr)) & (alpha:POW(Concr)-->Abs) & (ALEQ:Abs<->Abs) & (!x,y.(x:POW(Concr)&y:POW(Concr)&x<:y => (alpha(x),alpha(y)):ALEQ)) & (!a,b.(a:Abs&b:Abs&(a,b):ALEQ => gamma(a)<:gamma(b))) & (!S.(S<:Concr => S<:gamma(alpha(S)))) & (!A.(A:Abs => (alpha(gamma(A)),A):ALEQ)) & (!A,B,C.(A:Abs&B:Abs&C:Abs&(A,B):ALEQ&(B,C):ALEQ => (A,C):ALEQ)) & x:POW(Concr)&B:Abs => (alpha(x),B):ALEQ <=> x<:gamma(B)

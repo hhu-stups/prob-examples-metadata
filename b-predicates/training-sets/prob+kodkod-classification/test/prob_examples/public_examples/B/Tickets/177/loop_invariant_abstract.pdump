@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/177/loop_invariant_abstract.mch
+5.1734954E7,4.7922109E7,6.0077821E7,6.3873275666666664E7:not((x:NAT)) & (new:NAT) & (x<=new)

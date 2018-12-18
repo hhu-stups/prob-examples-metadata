@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Voting/ThreeApprovalKodkod.mch
+5.4190759666666664E7,3.18453089E8,-1.0,2.716867136666667E8:(App:Voter<->Candidate) & (dom(App)=Voter) & (!v.(v:Voter => card(App[{v}])=3)) & (card(Candidate)=15) & (card(Voter)=5) & (c:Candidate) & (step:NATURAL) & (output:Result) & not((step=1))
+6.517122043333334E8,2.3196341266666666E8,-1.0,8.995445346666666E8:(App:Voter<->Candidate) & (dom(App)=Voter) & (!v.(v:Voter => card(App[{v}])=3)) & (card(Candidate)=15) & (card(Voter)=5) & (c:Candidate) & (step:NATURAL) & (output:Result) & ((step=4) & (i:V(c)) & (j:V(c)) & (i/=j) & (App[{i}]/\App[{j}]-{c}={}) => not((step=2) & (!i,j.(i:V(c)&j:V(c)&i/=j => App[{i}]/\App[{j}]/={c}))))

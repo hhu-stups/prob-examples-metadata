@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Abrial_Teaching/ch4_brp_bms.zip_unpacked/ch4_brp/brp_1.bcm
+-1.0,-1.0,6.7995332E7,-1.0:(i:0 .. n) & (g:1 .. i --> D) & (r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & (s_st/=working) & (r_st/=working) & (r_st=working) & (r+1=n)
+-1.0,-1.0,7.099736666666667E7,-1.0:(i:0 .. n) & (g:1 .. i --> D) & (r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & (r_st=working) & (s_st=failure) & (s_st=working)
+-1.0,-1.0,7.171607966666667E7,-1.0:(i:0 .. n) & (g:1 .. i --> D) & (r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & (s_st=working) & (r_st=success) & (r_st=working) & (r+1<n)

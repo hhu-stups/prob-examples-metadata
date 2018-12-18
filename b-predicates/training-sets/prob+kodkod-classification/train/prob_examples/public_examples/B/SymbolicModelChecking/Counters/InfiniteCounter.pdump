@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/Counters/InfiniteCounter.mch
+5.3347892E7,5.1586029E7,8.261716366666667E7,5.5239891666666664E7:(not(ct:INTEGER) => ct:INTEGER)
+6.6261708333333336E7,5.5567029E7,1.0871813133333333E8,5.4393928666666664E7:(not(ct:INTEGER) => not(ct:INTEGER))

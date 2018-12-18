@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/CBC/ProcessIDStarvation_InvErr.mch
+-1.0,-1.0,6.8080887E7,-1.0:(root:ID) & (free<:ID-{root}) & (used<:ID) & (used/\free={}) & (used/\deleted={}) & (free/\deleted={}) & (used\/free\/deleted=ID) & (running:used) & (i:used) & (i:free)
+4.8216746E7,5.6281156E7,6.734941666666667E7,5.5628187333333336E7:(root:ID) & used<:ID & i:free

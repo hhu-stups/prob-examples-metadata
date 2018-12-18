@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/EventB2Java/reversing_array.zip_unpacked/reversing_array/rev_m1.bcm
+5.7816872666666664E7,9.499711266666667E7,7.172108533333333E7,2.0594834933333334E8:not(not((g:NAT <-> S) & (g:1 .. n --> S) & (i:1 .. n) & (j:1 .. n) & (i+j=n+1) & (i<=j+1) & (!k oftype INT.k:1 .. i - 1=>g(k)=f(n - k+1)) & (!k oftype INT.k:i .. j=>g(k)=f(k)) & (!k oftype INT.k:j+1 .. n=>g(k)=f(n - k+1)))) => not((j<=i))

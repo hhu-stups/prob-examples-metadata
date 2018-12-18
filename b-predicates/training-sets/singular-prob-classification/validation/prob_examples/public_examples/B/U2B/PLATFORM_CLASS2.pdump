@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/U2B/PLATFORM_CLASS2.mch
+-1.0,-1.0,-1.0,-1.0:(invariant) & (thisPLATFORM:PLATFORM) & not((thisPLATFORM:PLATFORM))

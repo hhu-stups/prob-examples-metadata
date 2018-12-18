@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Stefan/gcd/gcd00.zip_unpacked/gcd00/g1.bcm
+1.2971516833333333E8,8.089445833333333E7,5.512475294333333E9,1.762062247E9:(a:INT) & (b:INT) & (d:INT) & (u:INT) & (v:INT) & not((x=a*y+b*z) & (x |-> a:dv) & (x |-> b:dv))

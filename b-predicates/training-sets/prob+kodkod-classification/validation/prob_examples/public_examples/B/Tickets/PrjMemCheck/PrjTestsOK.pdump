@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PrjMemCheck/PrjTestsOK.mch
+4.5476849E7,7.3364986E7,6.2430751E7,5.8948977E7:(p1=prj1({1},{2})) & not(p1(1,2)=1)

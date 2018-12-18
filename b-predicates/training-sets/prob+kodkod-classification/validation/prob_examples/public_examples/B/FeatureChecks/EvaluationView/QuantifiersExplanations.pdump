@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/EvaluationView/QuantifiersExplanations.mch
+-1.0,1.2969174866666667E8,-1.0,-1.0:not((r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa})) => f:ID-->ID

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ASM/TranslationToB/ExtremaFinding_normalized_wd.mch
+4.8638052333333336E7,4.7998073E7,6.4010211666666664E7,5.1989176333333336E7:not((N=4) & (m:{11,13,17}) & (card(Agents)=N+1-1) & (pos:Agents>->>0..N-1) & (pid:Agents-->NATURAL) & (!p.(p:Agents => pid(p)=pos(p)*113 mod m)) & (mode:Agents-->Status) & (notified:Agents-->BOOL) & (isLargest:Agents-->BOOL) & (rightMsg:Agents+->NATURAL) & (leftMsg:Agents+->NATURAL)) => (self:Agents)

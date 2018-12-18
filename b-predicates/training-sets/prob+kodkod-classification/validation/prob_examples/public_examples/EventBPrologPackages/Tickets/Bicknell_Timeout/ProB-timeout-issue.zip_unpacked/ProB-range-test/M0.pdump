@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tickets/Bicknell_Timeout/ProB-timeout-issue.zip_unpacked/ProB-range-test/M0.bcm
+-1.0,-1.0,1.6043471733333334E8,-1.0:not(not((vals<:NAT))) => (v:NAT \ vals)
+-1.0,-1.0,1.27587151E8,-1.0:not((v:NAT \ vals)) => not((vals<:NAT))

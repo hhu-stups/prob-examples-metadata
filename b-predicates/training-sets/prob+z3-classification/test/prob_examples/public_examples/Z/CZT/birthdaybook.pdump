@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/Z/CZT/birthdaybook.mch
+5.5120719666666664E7,6.812647033333333E7,8.305737333333333E7,6.0118189666666664E7:(not(birthday:NAME+->DATE) => not(today__in:14..15&known=dom(birthday)&!known__prime,birthday__prime.(known__prime=known&birthday__prime=birthday => !card__out__prime.(card__out__prime:1..2&known__prime:POW(1..2)&birthday__prime:1..2+->14..15&known__prime=dom(birthday__prime)&card__out__prime:known&birthday(card__out__prime)=today__in => birthday__prime:1..2+->14..15))))

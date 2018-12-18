@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/SudokuMikeSmall2.mch
+-1.0,-1.0,-1.0,-1.0:not((Squares:SDSet) & (UNION(col,mincol).(col:INDEX&mincol:INDEX|{Squares(1,col)(1,mincol)})=RANGE) & (UNION(col,mincol).(col:INDEX&mincol:INDEX|{Squares(1,col)(2,mincol)})=RANGE)) => (CHECK_ROWS)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLC/NoError/EnumerateFunctionTests.mch
+5.3174080333333336E7,7.695631733333333E7,1.06090237E8,5.2907775E7:(not(funs<:ID<->ID) => not(funs<:ID<->ID))

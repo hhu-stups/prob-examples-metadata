@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TLA/TLA_Finite_Seq.mch
+2.0339173933333334E8,9.693201933333333E7,-1.0,7.773346466666667E7:(s:seq(Resources)) & (!r.(r:Resources => #n.(n:1..size(s)&s(n)=r))) & (yy:dom(s))

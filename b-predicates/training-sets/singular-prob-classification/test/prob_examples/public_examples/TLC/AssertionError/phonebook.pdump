@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/TLC/AssertionError/phonebook.mch
+6.1121669E7,1.24317089E8,6.4347754333333336E7,7.8326487E7:(db0:Name+->Code) & (db1:Name+->Code) & (db2:Name+->Code) & (db:Name+->Code) & (db3:Name+->Code) & (db4:Name+->Code) & (db5:Name+->Code) & (nn:Name) & (cc:Code) & (nn/:dom(db)) & (nn=nn) & (cc=cc) & (nn=nn) & (cc=cc) & (nn=nn) & (cc=cc)
+5.257575E7,1.2317134266666667E8,-1.0,7.465849233333333E7:not((nn:Name) & (cc:Code) & (nn/:dom(db)) & (nn=nn) & (cc=cc) & (nn=nn) & (cc=cc) & (nn=nn) & (cc=cc)) => not((db0:Name+->Code) & (db1:Name+->Code) & (db2:Name+->Code) & (db:Name+->Code) & (db3:Name+->Code) & (db4:Name+->Code) & (db5:Name+->Code))
+4.7359094666666664E7,6.0057614E7,-1.0,6.0104058333333336E7:(not(db0:Name+->Code) => nn:dom(db)&db0:Name+->Code)
+4.7526481E7,6.0179999E7,-1.0,5.9943656666666664E7:(not(db0:Name+->Code) => not(nn:dom(db)&db0:Name+->Code))
+-1.0,-1.0,5.9881427666666664E7,-1.0:db5:Name+->Code & not(db5:Name+->Code)
+-1.0,-1.0,6.5247077333333336E7,-1.0:db:Name+->Code & not(db:Name+->Code)
+-1.0,-1.0,5.9622898333333336E7,-1.0:db1:Name+->Code & not(db1:Name+->Code)
+5.0897813333333336E7,6.142804E7,6.7785063E7,6.6477378333333336E7:(not(db5:Name+->Code) => not(db:Name-->Code&db5:Name+->Code))
+5.0215697E7,6.0847635E7,7.296060533333333E7,7.559243333333333E7:db1:Name+->Code & not(db:Name-->Code&db1:Name+->Code)

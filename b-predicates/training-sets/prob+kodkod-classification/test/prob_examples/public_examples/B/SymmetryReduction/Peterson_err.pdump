@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/Peterson_err.mch
+-1.0,-1.0,-1.0,-1.0:not((N:NATURAL1) & (N>1) & (card(PID)=N) & not((i:PID) & (P(i)=L1))) => (P:PID-->label_t) & (Q:PID-->0..N) & (turn:1..N+->PID) & (localj:PID+->0..N) & (not(#i1,i2.(i1:PID&i2:PID&not(i1=i2)&P(i1)=L4&P(i2)=L4)))
+1.88933523E8,1.7324790396666667E9,-1.0,4.01878712E8:(N:NATURAL1) & (N>1) & (card(PID)=N) & (P:PID-->label_t) & (Q:PID-->0..N) & (turn:1..N+->PID) & (localj:PID+->0..N) & (not(#i1,i2.(i1:PID&i2:PID&not(i1=i2)&P(i1)=L4&P(i2)=L4))) & not((i:PID) & (P(i)=L2))
+-1.0,-1.0,-1.0,-1.0:not((N:NATURAL1) & (N>1) & (card(PID)=N) & not((i:PID) & (P(i)=L2))) => (P:PID-->label_t) & (Q:PID-->0..N) & (turn:1..N+->PID) & (localj:PID+->0..N) & (not(#i1,i2.(i1:PID&i2:PID&not(i1=i2)&P(i1)=L4&P(i2)=L4)))
+-1.0,-1.0,-1.0,-1.0:not((N:NATURAL1) & (N>1) & (card(PID)=N) & not((P:PID-->label_t) & (Q:PID-->0..N) & (turn:1..N+->PID) & (localj:PID+->0..N) & (not(#i1,i2.(i1:PID&i2:PID&not(i1=i2)&P(i1)=L4&P(i2)=L4))))) => (i:PID) & (P(i)=L2)
+-1.0,-1.0,-1.0,-1.0:(N:NATURAL1) & (N>1) & (card(PID)=N) & (P:PID-->label_t) & (Q:PID-->0..N) & (turn:1..N+->PID) & (localj:PID+->0..N) & (not(#i1,i2.(i1:PID&i2:PID&not(i1=i2)&P(i1)=L4&P(i2)=L4))) & (i:PID) & (P(i)=L0) & (i:PID) & (P(i)=L2)

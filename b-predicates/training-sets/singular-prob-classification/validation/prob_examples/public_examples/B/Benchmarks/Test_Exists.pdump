@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Test_Exists.mch
+4.7376765E7,4.8001285666666664E7,6.4119070666666664E7,5.0545766333333336E7:not((iv:ID) & (xx:ID)) => (yy:ID) & (not(#rr.(rr:ID&rr/=yy&rr=yy)))
+4.7533489333333336E7,4.7925275E7,6.856156776666666E8,4.8977247666666664E7:not((iv:ID) & (yy:ID) & (#rr.(rr:ID&rr=yy))) => (xx:ID)

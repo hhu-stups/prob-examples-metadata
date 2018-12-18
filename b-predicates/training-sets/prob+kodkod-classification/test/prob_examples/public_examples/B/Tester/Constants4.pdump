@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/Constants4.mch
+5.5216053E7,8.3774387E7,-1.0,2.3575302433333334E8:(PLACEELEMENT:POW1(ROUTEELEMENT)) & (FUNC:ROUTEELEMENT+->ROUTEELEMENT) & (card(FUNC)=1) & (route_el1:dom(FUNC)) & (route_el2:ran(FUNC)) & (qqt={}) & (qqt:POW(ROUTEELEMENT)) & (pp:PLACEELEMENT) & (qq:POW(PLACEELEMENT)) & (pe:PLACEELEMENT&pe:dom(FUNC)&pp:PLACEELEMENT) & (pe:PLACEELEMENT&pe:dom(FUNC)&qq:POW(PLACEELEMENT))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Demo/phonebook5.mch
+-1.0,-1.0,6.6093483666666664E7,-1.0:not((db:Name+->Code) & (active:POW(Name)) & (dom(db)=active)) & not((nn:Name) & (cc:Code))

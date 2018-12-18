@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBTrans/TestPastLTL.mch
+1.19061393E8,4.589437083666667E9,1.0197854066666667E8,6.1444615E7:not(not((xx:ID))) => not((xx=bb or xx=cc) & (xx=bb) & (xx=cc))
+4.7433103333333336E7,6.3576404E7,6.5317594E7,5.8604821666666664E7:(xx:ID) & (not((xx=bb)) => (xx=aa or xx=bb) & (xx=aa) & (xx=bb))

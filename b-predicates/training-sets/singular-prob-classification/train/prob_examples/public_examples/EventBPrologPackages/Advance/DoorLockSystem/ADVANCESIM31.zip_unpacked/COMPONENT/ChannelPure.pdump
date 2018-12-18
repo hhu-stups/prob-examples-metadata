@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/ChannelPure.bcm
+5.0602011666666664E7,6.5028194666666664E7,6.1250387E7,4.8952733333333336E7:(msg_rcvd_on_purechannel=TRUE) & (incrementer_evaluated=FALSE) & (adder_evaluated=TRUE) & (msg_rcvd_on_purechannel=FALSE or incrementer_evaluated=TRUE)

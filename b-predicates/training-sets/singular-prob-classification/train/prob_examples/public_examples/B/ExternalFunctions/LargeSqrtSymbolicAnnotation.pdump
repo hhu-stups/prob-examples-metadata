@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/LargeSqrtSymbolicAnnotation.mch
+4.8400824666666664E7,5.2065605666666664E7,6.0063434333333336E7,7.3250353E7:(mysqr=%x.(x:NAT|SYMBOLIC(x*x))) & (x:NAT) & (xx:NATURAL1) & (ms:INTEGER<->INTEGER) & not((ms:INTEGER<->INTEGER) & (xx+5:NATURAL1))
+4.9996395333333336E7,5.3040893E7,-1.0,7.3861837E7:(mysqr=%x.(x:NAT|SYMBOLIC(x*x))) & (x:NAT) & (not((xx:NATURAL1) & (ms:INTEGER<->INTEGER)) => not((xx:dom(mysqr) => ms:INTEGER<->INTEGER&(not(xx:dom(mysqr)) => (TRUE:BOOL => ms:INTEGER<->INTEGER))) & (xx:dom(mysqr) => xx:NATURAL1&(not(xx:dom(mysqr)) => (TRUE:BOOL => xx:NATURAL1)))))

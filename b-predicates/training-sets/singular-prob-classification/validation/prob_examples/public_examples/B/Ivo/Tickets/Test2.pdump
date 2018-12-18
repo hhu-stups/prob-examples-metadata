@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/Tickets/Test2.mch
+4.5630593E7,4.9117094E7,5.9900517333333336E7,5.4258482666666664E7:(c=4) & (addr:INTEGER) & (addr>4 => addr:INTEGER)

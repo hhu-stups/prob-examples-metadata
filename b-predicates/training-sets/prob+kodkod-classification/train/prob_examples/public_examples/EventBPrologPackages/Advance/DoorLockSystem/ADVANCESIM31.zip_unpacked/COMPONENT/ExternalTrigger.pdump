@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/ExternalTrigger.bcm
+4.51624E7,4.4527031E7,6.1774359333333336E7,5.2272406666666664E7:(trigger_sent=TRUE)
+4.4853236E7,4.4166510333333336E7,5.7744633666666664E7,4.9077214E7:(trigger_sent:BOOL)

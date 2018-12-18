@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLA/Fowlers_DSL/fowler.mch
+5.4457693333333336E7,4.9465088666666664E7,6.7029147666666664E7,5.3730575666666664E7:draw:STRING & panel="unlocked" => !panel_n,light_n,draw_n,door_n,state_n.(panel_n="locked"&light_n="off"&draw_n="closed"&door_n="unlocked"&state_n="idle" => draw:STRING)

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/SafetyMetroSystem_full_23_08_2012.zip_unpacked/ServiceDoors/ServiceDoorsInst_M00.bcm
+9.165991E7,6.5136425333333336E7,3.5338129333333336E7,6.975053633333333E7:not((carriage_door<:DOOR) & (carriage_ds:carriage_door --> DOOR_STATE)) => (platform:CDV) & (ds:POW(DOOR)) & (occpTrns:POW(CDV)) & (platform:PLATFORM) & (platform:occpTrns/\PLATFORM) & (DOOR_SIDE[ds]={PLATFORM_SIDE(platform)}) & (ds<:dom(carriage_ds)) & (carriage_ds[ds]={CLOSED})
+-1.0,-1.0,6.4030675E7,-1.0:(carriage_door<:DOOR) & (carriage_ds:carriage_door --> DOOR_STATE) & not((carriage_door:POW(DOOR)) & (carriage_ds:POW(DOOR ** DOOR_STATE)))

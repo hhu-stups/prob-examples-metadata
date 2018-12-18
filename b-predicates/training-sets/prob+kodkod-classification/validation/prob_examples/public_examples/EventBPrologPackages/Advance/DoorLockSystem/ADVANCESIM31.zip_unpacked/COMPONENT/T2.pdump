@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/T2.bcm
+8.917328066666667E7,7.8140244E7,1.07912256E8,5.1174058666666664E7:(T2_readpriority:NAT)
+4.6400011E7,6.8378272E7,7.714656533333333E7,6.7003818666666664E7:not((T2_readpriority:NAT)) & not((T2_state=T2_EN))
+4.7537888666666664E7,5.055899E7,7.825771633333333E7,6.0113208E7:(T2_readpriority:NAT) & ((T2_readpriority=4) & (T2_state=T2_PROC) => not((T2_state=T2_EN)))
+4.9533394E7,5.2239697E7,6.713477066666667E7,6.2682738333333336E7:(T2_readpriority:NAT) & ((ppriority:INT) & (ppriority=T2_readpriority) & (T2_state=T2_RELEASE) => not((pv:INT) & (ppriority:INT) & (pv=T2_writevalue) & (ppriority=5) & (T2_state=T2_SEND)))

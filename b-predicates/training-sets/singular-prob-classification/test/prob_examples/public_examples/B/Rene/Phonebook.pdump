@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Rene/Phonebook.mch
+1.0511682573E10,5.3483989333333336E7,-1.0,4.47551652E8:(book:Persons<->NAT1) & (count:NAT) & (count=card(book)) & (n:ran(book)) & (p:dom(book)) & (book[{p}]={n})

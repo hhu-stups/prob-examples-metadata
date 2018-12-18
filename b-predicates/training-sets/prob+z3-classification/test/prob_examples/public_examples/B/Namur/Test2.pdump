@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Namur/Test2.mch
+5.44057197E8,2.5125315633333334E8,3.2470861E8,1.2169529333333333E8:not((xx:NATURAL) & (pc:0..2)) => not((pc=0))

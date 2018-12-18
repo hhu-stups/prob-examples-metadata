@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/SymmetryBreakingTest.mch
+1.1871816933333333E8,1.0559499266666667E8,-1.0,5.9910202333333336E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & x1=TRUE or y=TRUE
+5.2658512E7,5.6482904333333336E7,-1.0,6.9125131E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & x1=TRUE
+5.7242987E7,5.5666971666666664E7,-1.0,6.8384185E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & x2/=y&x2:s&y:s => x2=aa or y=aa

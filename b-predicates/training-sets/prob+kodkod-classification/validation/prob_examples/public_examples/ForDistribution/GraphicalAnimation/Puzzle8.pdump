@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/GraphicalAnimation/Puzzle8.mch
+1.5327389033333334E8,7.208402666666667E7,-1.0,1.03454636E8:(dim:NATURAL1) & (dim=3) & (nmax:NATURAL1) & (nmax=dim*dim-1) & (INV) & ((i:1..dim) & (j:1..dim-1) & (board((i,j))=0) & (x:1..nmax) & (board((i,j+1))=x) => not((i:2..dim) & (j:1..dim) & (board((i,j))=0) & (x:1..nmax) & (board((i-1,j))=x)))

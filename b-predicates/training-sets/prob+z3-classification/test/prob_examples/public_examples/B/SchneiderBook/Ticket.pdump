@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Ticket.mch
+-1.0,-1.0,5.8474288666666664E7,5.7296578333333336E7:serve<=next & not(serve<=next+1)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/SymMarkerTest.mch
+-1.0,-1.0,-1.0,-1.0:(r1:ID-->ID) & (r2:ID-->ID) & not((r1:ID-->ID) & ({x,y|x/=y}:ID-->ID))

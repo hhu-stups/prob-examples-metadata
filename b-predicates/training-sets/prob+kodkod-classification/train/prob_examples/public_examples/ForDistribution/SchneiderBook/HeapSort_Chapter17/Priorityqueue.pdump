@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/HeapSort_Chapter17/Priorityqueue.mch
+1.6256846166666666E8,7.419069633333333E7,-1.0,7.4202034E7:(queue:seq(NAT)) & (!xx.(xx:1..size(queue)-1 => queue(xx)<=queue(xx+1)))
+1.2430703166666667E8,9.639880433333333E7,-1.0,7.072528833333333E7:(queue:seq(NAT)) & (!xx.(xx:1..size(queue)-1 => queue(xx)<=queue(xx+1))) & not((queue/=[]))
+1.12361681E8,5.2069889666666664E7,-1.0,1.4749803966666666E8:not((queue:seq(NAT)) & (!xx.(xx:1..size(queue)-1 => queue(xx)<=queue(xx+1)))) => not((queue/=[]))
+4.6703262E7,4.8554359E7,-1.0,9.4375665E7:not((queue:seq(NAT)) & (!xx.(xx:1..size(queue)-1 => queue(xx)<=queue(xx+1)))) & not((queue/=[]))
+1.7715851533333334E8,9.8898959E7,-1.0,7.893876266666667E7:(queue:seq(NAT)) & (!xx.(xx:1..size(queue)-1 => queue(xx)<=queue(xx+1))) & not((nn:NAT))
+1.19194254E8,9.223551833333333E7,-1.0,2.53006545E8:(not(queue:seq(NAT)) => queue/=[]&tail(queue):seq(NAT))

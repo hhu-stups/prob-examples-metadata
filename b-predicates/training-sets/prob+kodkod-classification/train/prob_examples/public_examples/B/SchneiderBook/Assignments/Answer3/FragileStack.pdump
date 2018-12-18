@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Assignments/Answer3/FragileStack.mch
+4.9822863E7,4.8110098333333336E7,-1.0,5.4891966333333336E7:(items:seq(ITEM)) & (size(items)<=dep) & (items/=[])

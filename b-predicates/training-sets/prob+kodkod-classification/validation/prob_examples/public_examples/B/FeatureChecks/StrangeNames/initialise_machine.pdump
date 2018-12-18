@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/StrangeNames/initialise_machine.mch
+5.5607141E7,4.9376460666666664E7,6.751722166666667E7,5.7575757E7:not((iv:ID) & not((yy:ID))) => (xx:ID)

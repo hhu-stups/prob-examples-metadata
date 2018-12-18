@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROB-320/Hierarchical_temp.mch
+1.05674844E8,6.5405547666666664E7,6.5199818E7,5.7246316333333336E7:not((RH<:Roles*Roles)) => (rasc:ROLES) & (rdesc:ROLES) & (rdesc:Roles) & (rasc/:Roles)
+4.8591840333333336E7,6.9437298E7,-1.0,6.0096957666666664E7:not(not((rasc:ROLES) & (rdesc:ROLES) & (rdesc:Roles) & (rasc/:Roles))) => (RH<:Roles*Roles)
+-1.0,-1.0,-1.0,-1.0:(RH<:Roles*Roles) & (rasc:ROLES) & (rdesc:ROLES) & (rdesc:Roles) & (rasc:Roles) & ((rasc,rdesc):RH) & (rasc:ROLES) & (rdesc:ROLES) & (rdesc:Roles) & (rasc:Roles) & ((rasc,rdesc)/:RH) & ((rdesc,rasc)/:closure1(RH)) & (rasc/=rdesc)
+-1.0,-1.0,6.3479976666666664E7,-1.0:(RH<:Roles*Roles) & (rasc:ROLES) & (rdesc:ROLES) & (rdesc:Roles) & (rasc:Roles) & ((rasc,rdesc):RH) & (rasc:ROLES) & (rdesc:ROLES) & (rasc:Roles) & (rdesc/:Roles)
+-1.0,-1.0,6.4036541666666664E7,-1.0:(RH<:Roles*Roles) & (rasc:ROLES) & (rdesc:ROLES) & (rdesc:Roles) & (rasc:Roles) & ((rasc,rdesc):RH) & (rasc:ROLES) & (rdesc:ROLES) & (rdesc:Roles) & (rasc/:Roles)
+5.5043335333333336E7,5.6070259E7,-1.0,9.471949366666667E7:(RH<:Roles*Roles) & (not((rasc:ROLES) & (rdesc:ROLES) & (rdesc:Roles) & (rasc:Roles) & ((rasc,rdesc):RH)) => (user:USERS) & (user:Users) & (sess:SESSIONS) & (sess:Sessions) & (role:ROLES) & (role:Roles) & (sess:User_sessions[{user}]) & (role/:Session_roles(sess)) & (#role_.(role_:Roles&((role_,role):closure1(RH) or role_=role)&(user,role_):UA)))
+-1.0,-1.0,-1.0,-1.0:(RH<:Roles*Roles) & (rasc:ROLES) & (rdesc:ROLES) & (rdesc:Roles) & (rasc:Roles) & ((rasc,rdesc)/:RH) & ((rdesc,rasc)/:closure1(RH)) & (rasc/=rdesc) & (rasc:ROLES) & (rdesc:ROLES) & (rasc:Roles) & (rdesc/:Roles)
+4.7748786333333336E7,6.835994966666667E7,6.6319467333333336E7,6.3483049333333336E7:(not(RH<:Roles*Roles) => not(rdesc:Roles&rasc:Roles&(rasc,rdesc):RH&RH-{(rasc,rdesc)}<:Roles*Roles))

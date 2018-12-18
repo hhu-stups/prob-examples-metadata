@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Tester/ForAll.mch
+5.3965405E7,8.524196166666667E7,-1.0,1.82588326E8:(col1:POW(COLOURS)) & (col2:POW(COLOURS)) & (!cc.(cc:col1 => cc/:col2)) & (!cc2.(cc2:col2 => cc2/:col1)) & (#x3.(x3:COLOURS&(x3:col1 or x3:col2))) & not(({xcs|xcs:COLOURS&not(xcs:col1 or xcs:col2)}={}))
+6.0229376666666664E7,7.8176189E7,5.2452689666666664E7,7.152923066666667E7:col2:POW(COLOURS) & not(x/:col1)
+2.3724660333333334E8,7.01413986E8,8.234294333333333E7,7.090503633333333E7:!cc2.(cc2:col2 => cc2/:col1) & !cc2.(cc2:col1 => cc2/:col2)
+5.0289425666666664E7,8.8974327E7,7.548627566666667E7,6.743178266666667E7:col1:POW(COLOURS) & not({xcs|not(xcs:col1 or xcs:col2)}={})
+5.3299445333333336E7,1.5605958E8,-1.0,1.2108788433333333E8:!cc2.(cc2:col2 => cc2/:col1) & not(!x2.(x2:COLOURS => x2:col1 or x2:col2))&!cc2.(cc2:col2 => cc2/:col1)
+9.144687133333333E7,6.811853166666667E7,7.974731533333333E7,7.679195833333333E7:(not((col1:POW(COLOURS)) & (col2:POW(COLOURS)) & (!cc.(cc:col1 => cc/:col2)) & (!cc2.(cc2:col2 => cc2/:col1))) => (not(!x2.(x2:COLOURS => x2:col1 or x2:col2))) & (not(!x2.(x2:COLOURS => x2:col1 or x2:col2))) & (not(!x2.(x2:COLOURS => x2:col1 or x2:col2))&!cc2.(cc2:col2 => cc2/:col1)) & (not(!x2.(x2:COLOURS => x2:col1 or x2:col2))&!cc.(cc:col1 => cc/:col2)))

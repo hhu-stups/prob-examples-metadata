@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/EventB2Java/sorting_array.zip_unpacked/sorting_array/sort_m2.bcm
+2.65121377E8,8.425242733333333E7,-1.0,1.0783997E8:(g:NAT <-> NAT) & (g:1 .. n >-> NAT) & (ran(g)=ran(f)) & (k:1 .. n) & (!i_f oftype INT,j_f oftype INT.i_f:1 .. k - 1&j_f:i_f+1 .. n=>g(i_f)<g(j_f)) & (l:NAT) & (j:k .. n) & (l:k .. j) & (g(l)=min(g[k .. j]))
+2.2779591333333334E8,1.06371534E8,-1.0,1.69447223E8:(g:NAT <-> NAT) & (g:1 .. n >-> NAT) & (ran(g)=ran(f)) & (k:1 .. n) & (!i_f oftype INT,j_f oftype INT.i_f:1 .. k - 1&j_f:i_f+1 .. n=>g(i_f)<g(j_f)) & (l:NAT) & (j:k .. n) & (l:k .. j) & (g(l)=min(g[k .. j])) & not((k/=n) & (j=n))

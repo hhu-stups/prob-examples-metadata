@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter10/Locks.mch
+4.978885E7,6.1550727666666664E7,-1.0,8.637548533333333E7:(status:DOOR-->STATUS) & (position~[{open}]<:status~[{unlocked}]) & (not((dd:DOOR) & (status(dd)=unlocked)) => (dd:DOOR) & (position(dd)=closed))
+-1.0,-1.0,7.5502874E7,-1.0:(status:DOOR-->STATUS) & (position~[{open}]<:status~[{unlocked}]) & (dd:DOOR) & (status(dd)=unlocked) & not((dd:DOOR))

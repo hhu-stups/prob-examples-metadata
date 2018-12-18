@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/TASK1.bcm
+4.4928432333333336E7,4.427516E7,6.2235335E7,4.9118746333333336E7:T1_read:INT
+6.3023051666666664E7,4.8712758666666664E7,6.810249166666667E7,5.7197124666666664E7:(not((T1_state=T1_WAIT)) => (pv:INT) & (ppriority:INT) & (pv=T1_write) & (ppriority=3) & (T1_state=T1_SEND))
+4.7977888666666664E7,4.7896244333333336E7,6.799710133333333E7,5.7394775E7:((pv:INT) & (ppriority:INT) & (pv=T1_write) & (ppriority=3) & (T1_state=T1_SEND) => not((T1_state=T1_EN)))

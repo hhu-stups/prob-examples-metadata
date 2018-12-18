@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/CBC/BinarySearchEvents_Overflow_v3.mch
+1.35206858E8,1.3770463866666666E8,8.191023E7,3.608773153333333E8:not((sze:myNAT) & (arr:myNAT+->myINT) & (arr:1..sze-->myINT) & (!i.(i:1..sze-1 => arr(i)<=arr(i+1))) & (goal:myINT) & (mxint=1023) & (sze<mxint) & (pc=2) & (arr(mid)>goal)) => not((found:BOOL) & (found=TRUE => arr(i)=goal) & (i:myNAT) & (j:myNAT) & (pc:0..10) & (mid:myNAT))

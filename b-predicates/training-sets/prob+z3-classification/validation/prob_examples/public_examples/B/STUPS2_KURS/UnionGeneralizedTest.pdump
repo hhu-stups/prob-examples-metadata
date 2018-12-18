@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/UnionGeneralizedTest.mch
+1.11778274E8,6.6213168666666664E7,7.392045733333333E7,8.588526966666667E7:not((f:MYRANGE-->MYRANGE) & (UNION(i).(i:MYRANGE|{f(i)})=MYRANGE)) => (yy:MYRANGE)

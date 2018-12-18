@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/TLC/NoError/scheduler.mch
+4.9601256333333336E7,4.5197577333333336E7,-1.0,1.47066537E8:not(not((pp:PID) & (pp/:active) & (pp/:ready\/waiting))) => (active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={})
+1.5427317933333334E8,6.9185148E7,1.09630445E8,6.4655941E7:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & (active/={})
+9.4100095E7,6.956492133333333E7,7.592643866666667E7,7.317862566666667E7:not(not((active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}))) => not((active/={}))
+4.2634705E7,6.997414533333333E7,7.3769018E7,7.789465866666667E7:not((active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={})) => not((rr:waiting))
+4.8994382666666664E7,6.9862888E7,-1.0,9.093104666666667E7:not((active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={})) & not((rr:waiting))
+5.1709578666666664E7,4.7698942666666664E7,5.9853723666666664E7,5.2338964666666664E7:active:POW(PID) & pp/:active&pp/:ready\/waiting => active:POW(PID)
+-1.0,-1.0,5.9698862666666664E7,-1.0:active/\(ready\/waiting)={} & not(pp/:active&pp/:ready\/waiting => active/\(ready\/(waiting\/{pp}))={})
+-1.0,-1.0,-1.0,-1.0:card(active)<=1 & not(pp/:active&pp/:ready\/waiting => card(active)<=1)
+-1.0,-1.0,5.9296716666666664E7,-1.0:ready/\waiting={} & not(pp/:active&pp/:ready\/waiting => ready/\(waiting\/{pp})={})

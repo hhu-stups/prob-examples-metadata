@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter18/Checkouts.mch
+-1.0,-1.0,-1.0,-1.0:(opencounters<:COUNTER) & (queues:opencounters-->iseq(CUSTOMER)) & (!cc,dd.(cc:COUNTER&dd:COUNTER => (cc/=dd => ran(queues(cc))/\ran(queues(dd))={}))) & (co:dom(queues)) & (ii:NAT1) & (ii<=size(queues(co))) & (co:COUNTER) & (co/:opencounters)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/RenameParameterTests/FourCounters.mch
+9.655462E7,6.4311018333333336E7,8.8471539E7,5.5262614E7:(t1c1cnt=t1c2cnt) & (t2c1cnt=t2c2cnt) & (t1c1cnt>=t2c2cnt)

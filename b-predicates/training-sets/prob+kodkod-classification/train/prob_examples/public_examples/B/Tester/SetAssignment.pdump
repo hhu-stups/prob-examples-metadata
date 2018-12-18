@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tester/SetAssignment.mch
+6.2249373E7,9.6271158E7,-1.0,8.728740333333333E7:not(not((cc:COLOURS-->COLOURS) & (ran(cc)=dom(cc)))) => (col1:COLOURS-->COLOURS) & (ran(col1)=dom(col1))
+5.3110618333333336E7,8.7692297E7,-1.0,1.18885323E8:not((col1:COLOURS-->COLOURS) & (ran(col1)=dom(col1))) & (cc:COLOURS-->COLOURS) & (ran(cc)=dom(cc))
+6.2337489666666664E7,6.1164156333333336E7,-1.0,1.1790379733333333E8:(not((col1:COLOURS-->COLOURS) & (ran(col1)=dom(col1))) => (cc:COLOURS-->COLOURS&ran(cc)=dom(cc) => col1:COLOURS-->COLOURS) & (cc:COLOURS-->COLOURS&ran(cc)=dom(cc) => ran(col1)=dom(col1)))

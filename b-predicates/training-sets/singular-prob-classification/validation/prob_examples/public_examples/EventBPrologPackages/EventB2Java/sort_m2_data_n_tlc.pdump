@@ -1,0 +1,11 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/EventB2Java/sort_m2_data_n_tlc.mch
+-1.0,-1.0,-1.0,-1.0:(n:INTEGER) & (n=1000) & (n>0) & (f:1..n>->NATURAL) & (f=%i.(i:1..n|n+100-i)) & (j:k..n) & (l:k..j) & (g(l)=min(g[k..j])) & (g:1..n>->NATURAL) & not((k/=n) & (j/=n) & (g(l)>g(j+1)))
+-1.0,-1.0,-1.0,-1.0:(n:INTEGER) & (n=1000) & (n>0) & (f:1..n>->NATURAL) & (f=%i.(i:1..n|n+100-i)) & (j:k..n) & (l:k..j) & (g(l)=min(g[k..j])) & (g:1..n>->NATURAL) & (k/=n) & (j/=n) & (g(l)<=g(j+1))
+-1.0,-1.0,-1.0,-1.0:(n:INTEGER) & (n=1000) & (n>0) & (f:1..n>->NATURAL) & (f=%i.(i:1..n|n+100-i)) & (j:k..n) & (l:k..j) & (g(l)=min(g[k..j])) & (g:1..n>->NATURAL) & (k=n)
+-1.0,-1.0,-1.0,-1.0:(n:INTEGER) & (n=1000) & (n>0) & (f:1..n>->NATURAL) & (f=%i.(i:1..n|n+100-i)) & (j:k..n) & (l:k..j) & (g(l)=min(g[k..j])) & (g:1..n>->NATURAL) & not((k=n))
+-1.0,-1.0,-1.0,-1.0:(n:INTEGER) & (n=1000) & (n>0) & (f:1..n>->NATURAL) & (f=%i.(i:1..n|n+100-i)) & (j:k..n) & (l:k..j) & (g(l)=min(g[k..j])) & (g:1..n>->NATURAL) & (k/=n) & (j/=n) & (g(l)<=g(j+1)) & not((k=n))
+-1.0,-1.0,-1.0,-1.0:(n:INTEGER) & (n=1000) & (n>0) & (f:1..n>->NATURAL) & (f=%i.(i:1..n|n+100-i)) & (j:k..n) & (l:k..j) & (g(l)=min(g[k..j])) & (g:1..n>->NATURAL) & ((k/=n) & (j=n) => not((k=n)))
+-1.0,-1.0,-1.0,-1.0:(n:INTEGER) & (n=1000) & (n>0) & (f:1..n>->NATURAL) & (f=%i.(i:1..n|n+100-i)) & (not(g:1..n>->NATURAL) => not(k/=n&j/=n&g(l)>g(j+1) => g:1..n>->NATURAL))
+5.3311248333333336E7,6.5810486666666664E7,8.6827964E7,1.18096256E8:(n:INTEGER) & (n=1000) & (n>0) & (f:1..n>->NATURAL) & (f=%i.(i:1..n|n+100-i)) & g(l)=min(g[k..j]) & k/=n&j/=n&g(l)>g(j+1) => g(j+1)=min(g[k..j+1])
+-1.0,-1.0,-1.0,-1.0:(n:INTEGER) & (n=1000) & (n>0) & (f:1..n>->NATURAL) & (f=%i.(i:1..n|n+100-i)) & g(l)=min(g[k..j]) & not(k/=n&j/=n&g(l)>g(j+1) => g(j+1)=min(g[k..j+1]))
+-1.0,-1.0,-1.0,-1.0:(n:INTEGER) & (n=1000) & (n>0) & (f:1..n>->NATURAL) & (f=%i.(i:1..n|n+100-i)) & (not(g:1..n>->NATURAL) => not(k/=n&j=n => g<+({(k,g(l))}<+{(l,g(k))}):1..n>->NATURAL))

@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/Any.mch
+4.7785033666666664E7,5.8744900666666664E7,6.3858050333333336E7,5.1933536E7:b:BOOL & not(!x.(x/:col1 => b:BOOL))
+4.8638750333333336E7,6.6824605333333336E7,7.186998666666667E7,5.9960302E7:(not(!cc.(cc:col1 => cc/:col2)) => not(!v.(v=TRUE => col1=col2 => !cc.(cc:col1 => cc/:col2))))
+7.693115133333333E7,7.0083982E7,7.0963307E7,5.9509080666666664E7:(col1:POW(COLOURS)) & (col2:POW(COLOURS)) & (!cc.(cc:col1 => cc/:col2)) & (!cc2.(cc2:col2 => cc2/:col1)) & (b:BOOL) & not((!v.(v=TRUE => col1=col2 => col2:POW(COLOURS))) & (!v.(v=TRUE => col1=col2 => col1:POW(COLOURS))) & (!v.(v=TRUE => col1=col2 => b:BOOL)) & (!v.(v=TRUE => col1=col2 => !cc2.(cc2:col2 => cc2/:col1))) & (!v.(v=TRUE => col1=col2 => !cc.(cc:col1 => cc/:col2))))
+4.4996015333333336E7,4.665151E7,6.1374471E7,4.7965713E7:col1:POW(COLOURS) & col1:POW(COLOURS)
+1.59643835E8,4.842393063333333E9,6.4657430666666664E7,6.3277180333333336E7:!cc2.(cc2:col2 => cc2/:col1) & !cc2.(cc2:col2-{x} => cc2/:col1-{x})

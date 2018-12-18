@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/ADDERTD.bcm
+4.9206815666666664E7,4.8772403333333336E7,6.6182647666666664E7,6.374407E7:(o_sum:NAT) & (pv:INT) & (pv=o_sum) & (adder_state=A_SEND)
+4.7936752333333336E7,4.9313370666666664E7,-1.0,6.1337455666666664E7:not((pv:INT) & (pv=o_sum) & (adder_state=A_SEND)) => not((o_sum:NAT))

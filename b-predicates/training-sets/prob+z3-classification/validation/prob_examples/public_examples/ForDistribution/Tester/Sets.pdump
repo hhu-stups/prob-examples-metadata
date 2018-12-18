@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/Sets.mch
+6.338187745E9,2.8051885646666665E9,6.911437533333333E7,5.7718000666666664E7:(not(funX:setX+->setY) => not(funX:setX+->setY))

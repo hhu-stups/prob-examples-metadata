@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/BinarySearch/binary.zip_unpacked/binary/binary_search.bcm
+4.9366357E7,5.6774422E7,6.6272952666666664E7,7.243334966666667E7:not((found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr))) => not((pc=3) & (arr(mid)=goal))
+-1.0,-1.0,6.860665266666667E7,-1.0:(found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)) & (not((pc=8)) => (pc=5) & (arr(mid)<goal))
+8.696349072666666E9,5.7556713666666664E7,6.724470133333333E7,2.9804541016666665E9:(found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)) & ((pc=3) & (arr(mid)=goal) => not((pc=5) & (arr(mid)<goal)))
+6.825851365E9,5.6241090666666664E7,1.1062251515333334E10,6.617484039E9:(found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)) & ((pc=7) => not((pc=2)))
+-1.0,-1.0,6.4516095333333336E7,-1.0:(found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)) & (pc=0) & (not(i<=j&found=FALSE)) & not((pc=1))

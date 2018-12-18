@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/FuzzySets.mch
+2.3004077533333334E8,6.378607693333334E8,1.18524523E8,8.1777578E7:(A:FuzzySet) & (B:FuzzySet)
+5.1781375333333336E7,1.1887372933333333E8,4.9292488E7,6.962328566666667E7:(A:FuzzySet) & (B:FuzzySet) & not((!x.(x:El => B(x)<=A(x))) & (x:El => B(x)<=A(x)) & (x:El) & (B(x)<=A(x)))
+-1.0,-1.0,6.0472192E7,-1.0:B:FuzzySet & not(B:El-->0..4)
+-1.0,-1.0,6.4025763333333336E7,-1.0:(A:FuzzySet) & (B:FuzzySet) & not((A:El-->0..4) & (B:El-->0..4))
+4.7638879E7,6.5473200333333336E7,6.786039833333333E7,2.07986551E8:B:FuzzySet & B:El-->0..4

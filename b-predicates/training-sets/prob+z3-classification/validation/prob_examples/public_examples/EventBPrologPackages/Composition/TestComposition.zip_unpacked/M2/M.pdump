@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Composition/TestComposition.zip_unpacked/M2/M.bcm
+3.653092103333333E8,1.3285730466666667E8,8.8267067E7,7.936512066666667E7:not(not((B:NAT) & (C:NAT))) => (A1:INT)

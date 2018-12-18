@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Simple/Phonebook/phonebook4.mch
+-1.0,-1.0,5.9610071E7,-1.0:(db:Name+->Code) & not((nn:Name))
+4.7521033666666664E7,6.6707365333333336E7,6.4095022E7,5.5835638666666664E7:not(not((nn:Name) & (cc:Code))) => (db:Name+->Code)
+-1.0,-1.0,5.9978530333333336E7,-1.0:not((db:Name+->Code)) & not((nn:Name) & (cc:Code))
+-1.0,-1.0,5.8783289666666664E7,-1.0:(db:Name+->Code) & not((db:Name+->Code))
+5.6720737333333336E7,1.6546501266666666E8,4.3938734333333336E7,6.770940133333333E7:db:Name+->Code & not(db\/{(nn,cc)}:Name+->Code)

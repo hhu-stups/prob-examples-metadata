@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/GraphicalAnimation/NQueens.mch
+8.6915592E7,5.6731678666666664E7,5.3208768E7,1.10562267E8:not((n=8) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+q2-q1/=queens(q2)&queens(q1)-q2+q1/=queens(q2)))) => (yy:1..n)

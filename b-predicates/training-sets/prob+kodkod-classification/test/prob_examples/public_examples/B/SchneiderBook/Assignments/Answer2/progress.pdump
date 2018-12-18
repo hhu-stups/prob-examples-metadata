@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Assignments/Answer2/progress.mch
+-1.0,-1.0,5.9959883E7,-1.0:(trainee<:NAME) & (sales<:NAME) & (manager<:NAME) & (trainee/\sales={}) & (trainee/\manager={}) & (sales/\manager={}) & (ee:sales) & (ee:NAME) & (ee/:employee)
+4.5145057E7,4.4401316333333336E7,5.9096108666666664E7,4.7352529666666664E7:(not(manager<:NAME) => not(ee:trainee))
+4.4899447666666664E7,4.4415099E7,5.8093700666666664E7,4.7350574333333336E7:(not(trainee<:NAME) => not(ee:trainee))
+6.737402366666667E7,6.1197587E7,6.2648469666666664E7,6.4038892666666664E7:trainee/\manager={} & not(ee/:trainee\/sales\/manager&trainee\/{ee}/\manager={})

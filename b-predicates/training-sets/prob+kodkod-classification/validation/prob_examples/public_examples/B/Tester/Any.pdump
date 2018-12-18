@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Tester/Any.mch
+4.9603654333333336E7,6.825476866666667E7,6.6415941E7,5.2005332666666664E7:(col1:POW(COLOURS)) & (col2:POW(COLOURS)) & (!cc.(cc:col1 => cc/:col2)) & (!cc2.(cc2:col2 => cc2/:col1)) & (b:BOOL) & (col:COLOURS) & not((x:COLOURS))
+4.7589618E7,5.9968217E7,6.4085151333333336E7,5.1853638E7:col1:POW(COLOURS) & not(!x.(x/:col1 => col1:POW(COLOURS)))
+7.523330966666667E7,6.6859736E7,6.978482833333333E7,6.4850262666666664E7:!cc.(cc:col1 => cc/:col2) & !x.(x/:col1 => !cc.(cc:col1\/{x} => cc/:col2))
+5.3047761E7,6.1108632333333336E7,1.0748669E8,5.2769628666666664E7:(not(col:COLOURS) => not(col:COLOURS))

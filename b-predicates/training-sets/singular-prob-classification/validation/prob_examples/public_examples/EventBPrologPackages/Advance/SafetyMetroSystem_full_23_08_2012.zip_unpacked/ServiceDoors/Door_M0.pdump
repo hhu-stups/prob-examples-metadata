@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/SafetyMetroSystem_full_23_08_2012.zip_unpacked/ServiceDoors/Door_M0.bcm
+5.4270379E7,7.3475917E7,-1.0,4.8727821333333336E7:not((door<:DOOR) & (door_state:door --> DOOR_STATE)) & (ds<:DOOR \ ({} oftype POW(DOOR))) & (ds<:dom(door_state)) & (door_state[ds]/={CLOSED}) & (st:{CLOSED,OBSTRUCTED}) & (ds/=({} oftype POW(DOOR)))
+4.5767226E7,6.3129210333333336E7,6.773128533333333E7,5.7925499333333336E7:not(not((doors<:DOOR))) => (door<:DOOR) & (door_state:door --> DOOR_STATE)

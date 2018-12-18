@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/TASK2.bcm
+4.8080206E7,6.3976431666666664E7,6.796872233333333E7,5.5940307333333336E7:(not((T2_state=T2_WAIT)) => (T2_state=T2_CALC))

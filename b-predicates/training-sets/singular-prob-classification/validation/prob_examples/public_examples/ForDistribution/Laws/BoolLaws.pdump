@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Laws/BoolLaws.mch
+4.7419857E7,5.9899819E7,5.9954831E7,5.9971802E7:(FF:BOOL) & (FF=FALSE) & (TT:BOOL) & (TT=TRUE) & (not(fail or tr) => not(TT=FF or TT=TT))
+5.0974010333333336E7,7.214008566666667E7,6.2595879333333336E7,6.2580583333333336E7:(FF:BOOL) & (FF=FALSE) & (TT:BOOL) & (TT=TRUE) & pt or (qt&rt) <=> (pt or qt&(pt or rt)) & not(TRUE=TRUE or QQ=TRUE&RR=TRUE <=> (TRUE=TRUE or QQ=TRUE&(TRUE=TRUE or RR=TRUE)))

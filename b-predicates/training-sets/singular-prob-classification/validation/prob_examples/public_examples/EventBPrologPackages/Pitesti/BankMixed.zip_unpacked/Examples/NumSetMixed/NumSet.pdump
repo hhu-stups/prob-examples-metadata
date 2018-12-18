@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Pitesti/BankMixed.zip_unpacked/Examples/NumSetMixed/NumSet.bcm
+4.9699709E7,5.2009942333333336E7,6.5419282333333336E7,1.5221388633333334E8:not((setA:POW(A)) & (setB:POW(B)) & (value:NAT) & (sizeA:NAT) & (sizeB:NAT) & (sizeA=card(setA)) & (sizeB=card(setB)) & (found:BOOL&full:BOOL)) => not((sizeA=0&sizeB=card(B)&value>0))
+5.3389401E7,6.928639466666667E7,-1.0,1.2628505366666667E8:(setA:POW(A)) & (setB:POW(B)) & (value:NAT) & (sizeA:NAT) & (sizeB:NAT) & (sizeA=card(setA)) & (sizeB=card(setB)) & (found:BOOL&full:BOOL) & (sizeA=0&sizeB=card(B)&value>0) & not((s1<:A&s2<:B) & (v1:NAT))

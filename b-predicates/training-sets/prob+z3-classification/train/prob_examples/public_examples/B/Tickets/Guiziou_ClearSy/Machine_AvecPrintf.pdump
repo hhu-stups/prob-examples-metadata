@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Guiziou_ClearSy/Machine_AvecPrintf.mch
+3.547667153333333E8,3.568432363333333E8,-1.0,-1.0:(IC_Errors:POW(STRING)) & (prop_toto_0:POW(NAT)) & (process:NAT) & not((!toto.(toto:prop_toto_0 => process:NAT)) & (!toto.(toto:prop_toto_0 => prop_toto_0-{toto}:POW(NAT))) & (!toto.(toto:prop_toto_0 => IC_Errors:POW(STRING))))

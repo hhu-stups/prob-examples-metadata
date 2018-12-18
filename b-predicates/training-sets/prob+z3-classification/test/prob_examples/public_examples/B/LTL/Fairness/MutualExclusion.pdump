@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/LTL/Fairness/MutualExclusion.mch
+5.2839447666666664E7,5.4495593666666664E7,7.0822856E7,5.8950932333333336E7:p2:PHASE2 & not(p1=crit1)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Simple/Purse.mch
+5.1332854666666664E7,5.7238633666666664E7,-1.0,7.8757152E7:(Coins<:NAT1) & (Coins={1,2}) & (purse:Coins-->NAT) & (not((total(purse)=0)) => (cc:Coins) & (purse(cc)<MAXINT))

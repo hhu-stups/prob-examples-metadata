@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/arr.mch
+5.1742637E7,5.4799845666666664E7,-1.0,2.4710432833333334E8:not((array:NATURAL1+->TYP) & (card(dom(array))<=n)) & not((index:NATURAL1) & (card(dom(array)\/{index})<=n) & (value:TYP))
+5.4185801E7,5.8719199333333336E7,-1.0,3.59189228E8:card(dom(array))<=n & i<j&i:dom(array)&j:dom(array)&card(dom(array<+{(i,array(j)),(j,array(i))}))<=n

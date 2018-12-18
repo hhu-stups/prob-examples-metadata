@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Treharne1/Marriage.mch
+5.3972436E7,1.6741561E8,-1.0,8.247771333333333E7:not((married:male>+>female)) => not((mm:male) & (mm/:dom(married)) & (ff:female) & (ff/:ran(married)))

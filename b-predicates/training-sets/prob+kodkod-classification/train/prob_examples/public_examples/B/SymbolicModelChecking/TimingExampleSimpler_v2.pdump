@@ -1,0 +1,13 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/TimingExampleSimpler_v2.mch
+6.1146276666666664E7,1.48347566E8,6.598821E7,1.7537819133333334E8:(mxc:1..10) & (mxe:1..10) & (INV) & (v=timer_e) & (timer_c>=timer_e) & (pc=2)
+5.8932261E7,5.8653408333333336E7,6.5227498666666664E7,8.484547233333333E7:not((mxc:1..10) & (mxe:1..10) & (INV)) => (v=timer_e) & (timer_c>=timer_e) & (pc=2)
+5.6471916333333336E7,9.2522753E7,8.2519013E7,1.2337970233333333E8:(mxc:1..10) & (mxe:1..10) & not((INV)) & (v=timer_e) & (timer_c>=timer_e) & (pc=2)
+6.5375422666666664E7,6.741467133333333E7,8.0480742E7,7.405767166666667E7:not((mxc:1..10) & (mxe:1..10) & (pc=1) & (v:1..mxe)) => (INV)
+5.5929039666666664E7,6.6485619333333336E7,8.028360333333333E7,6.837319633333333E7:not((mxc:1..10) & (mxe:1..10) & not((pc=1) & (v:1..mxe))) => (INV)
+5.8900228E7,6.5265306333333336E7,7.3508719E7,1.39988216E8:(mxc:1..10) & (mxe:1..10) & (INV) & ((v=timer_c) & (timer_c<timer_e) & (pc=2) => not((pc=1) & (v:1..mxe)))
+-1.0,-1.0,7.098982333333333E7,-1.0:(mxc:1..10) & (mxe:1..10) & INV & not(v=timer_c&timer_c<timer_e&pc=2 => timer_c-v:NATURAL&timer_e-v:NATURAL&timer_c-v-(timer_e-v)<50&0:0..2)
+-1.0,-1.0,7.045577066666667E7,-1.0:(mxc:1..10) & (mxe:1..10) & (INV) & not((v=timer_c&timer_c<timer_e&pc=2 => timer_c-v:NATURAL&timer_e-v:NATURAL&timer_c-v-(timer_e-v)<50&0:0..2))
+6.0884558E7,8.6856343E7,7.5888072E7,1.0776258666666667E8:(mxc:1..10) & (mxe:1..10) & (not(INV) => not(pc=0&v:1..mxc => timer_c+v:NATURAL&timer_e:NATURAL&timer_c+v-timer_e<50&1:0..2))
+-1.0,-1.0,6.2669654666666664E7,-1.0:(mxc:1..10) & (mxe:1..10) & INV & not(v=timer_e&timer_c>=timer_e&pc=2 => timer_c-v:NATURAL&timer_e-v:NATURAL&timer_c-v-(timer_e-v)<50&0:0..2)
+-1.0,-1.0,8.5336084E7,1.4671846186666667E9:(mxc:1..10) & (mxe:1..10) & INV & not(pc=1&v:1..mxe => timer_c:NATURAL&timer_e+v:NATURAL&timer_c-(timer_e+v)<50&2:0..2)
+-1.0,-1.0,6.3484981333333336E7,1.5094941196666667E9:(mxc:1..10) & (mxe:1..10) & (INV) & not((pc=1&v:1..mxe => timer_c:NATURAL&timer_e+v:NATURAL&timer_c-(timer_e+v)<50&2:0..2))

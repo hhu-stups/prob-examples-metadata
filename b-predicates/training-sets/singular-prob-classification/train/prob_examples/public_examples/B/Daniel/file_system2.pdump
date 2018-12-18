@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Daniel/file_system2.mch
+1.70585589E8,3.8022877536666665E9,1.1663710866666667E8,5.9449412333333336E7:(users<:USERS) & (groups<:GROUPS) & (files<:FILES) & (ingroup:users<->groups) & (access:files-->groups)
+4.8132587E7,7.8083393E7,6.4852497666666664E7,7.228526266666667E7:groups<:GROUPS & user:users&file:files&(user,access(file)):ingroup

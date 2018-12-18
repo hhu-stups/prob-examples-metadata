@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Tester/Pairs.mch
+5.7353010333333336E7,5.2635604333333336E7,6.4843395E7,6.721334266666667E7:not((pairs:POW(setB*setC))) => (bb:setB)
+5.5900777E7,8.189609866666667E7,5.9199986E7,7.824628633333333E7:(pairs:POW(setB*setC)) & not((bb:setB) & (cc:setC) & (pairs/={}))
+6.2236336E7,5.1049764333333336E7,7.077708633333333E7,5.1345821333333336E7:(not(pairs:POW(setB*setC)) => pairs/={}&((bb,cc)/:pairs => pairs:POW(setB*setC)))
+5.6751933E7,5.4690427666666664E7,6.3963791E7,5.6186544333333336E7:pairs:POW(setB*setC) & pairs={} => pairs:POW(setB*setC)

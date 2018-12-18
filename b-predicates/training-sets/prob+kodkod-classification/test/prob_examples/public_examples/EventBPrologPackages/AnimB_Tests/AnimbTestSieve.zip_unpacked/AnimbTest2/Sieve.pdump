@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/AnimB_Tests/AnimbTestSieve.zip_unpacked/AnimbTest2/Sieve.bcm
+4.7960870666666664E7,4.7921224E7,6.0040130333333336E7,5.5996553E7:not(not((cur:numbers) & (cur*cur<=mx))) => (numbers<:NAT) & (cur:NAT1)

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/TLC/InvariantViolation/Scheduler.mch
+-1.0,-1.0,6.0301755666666664E7,-1.0:(state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3) & (p:PROCESSES) & (p/:dom(state)) & (p:dom(state)) & (state(p)=idle)
+-1.0,-1.0,7.0209696E7,-1.0:(state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3) & (p:dom(state)) & (state(p)=idle) & (p:dom(state)) & (state(p)=active)
+-1.0,-1.0,-1.0,-1.0:(state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3) & (p:dom(state)) & (state(p)=idle) & not((p:dom(state)) & (state(p)=idle))

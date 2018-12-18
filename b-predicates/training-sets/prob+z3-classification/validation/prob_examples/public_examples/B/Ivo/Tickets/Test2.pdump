@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Ivo/Tickets/Test2.mch
+1.3686270233333334E8,9.0558443E7,8.8685021E7,5.7621969E7:not((c=4) & not((addr:INTEGER))) => not((addr=3) & (p:INT) & (p=1))
+1.7911896033333334E8,9.0818439E7,8.610890133333333E7,5.5610912666666664E7:not((c=4) & not((addr:INTEGER))) => not((addr=2))
+4.9585285666666664E7,5.0087584666666664E7,6.1279371E7,5.8436179E7:(c=4) & (addr:INTEGER) & (not((addr>4)) => (addr=3) & (p:INT) & (p=1))
+4.7028466333333336E7,4.8554056E7,6.1216700333333336E7,5.7462381333333336E7:(c=4) & (addr:INTEGER) & (addr=4 => addr:INTEGER&(addr>4&addr<c => addr:INTEGER))

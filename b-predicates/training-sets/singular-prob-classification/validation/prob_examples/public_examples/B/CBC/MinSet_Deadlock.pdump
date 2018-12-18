@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/CBC/MinSet_Deadlock.mch
+4.9925669E7,6.6169541E7,6.4452842333333336E7,6.804622266666667E7:(NN>=0) & (II<:0..NN) & (not(zz:0..NN) => !xx.(ww:ss&xx:ss&xx<ww => zz:0..NN))
+-1.0,-1.0,6.3322508E7,-1.0:(NN>=0) & (II<:0..NN) & zz:0..NN & not(!xx.(ww:ss&xx:ss&xx<ww => zz:0..NN))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/CBC/DeadlockBools.mch
+8.499060333333333E7,1.67611538E8,8.924456566666667E7,8.7993266E7:not((a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (xx:BOOL)) => not((a=FALSE) & (b=FALSE) & (d=TRUE) & (#x.(x=TRUE)) & (e:S))

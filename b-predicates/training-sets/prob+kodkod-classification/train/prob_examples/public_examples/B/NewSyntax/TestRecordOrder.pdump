@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/NewSyntax/TestRecordOrder.mch
+6.1142947666666664E7,4.8901586333333336E7,6.0008446E7,6.4068668666666664E7:xx:struct(aa:NAT,bb:NAT1) & not(zz:struct(aa:NAT,bb:NAT1))
+5.3329407333333336E7,5.5937513666666664E7,6.4004321666666664E7,6.3980156666666664E7:(not((xx:struct(aa:NAT,bb:NAT1)) & (yy:struct(bb:NAT1,aa:NAT)) & (zz:struct(aa:NAT1,bb:NAT1))) => (yy:struct(aa:NAT,bb:NAT1)) & (zz:struct(aa:NAT,bb:NAT1)) & (zz:struct(aa:NAT1,bb:NAT1)))
+5.7293528666666664E7,5.6333304333333336E7,6.3668594333333336E7,6.5392952333333336E7:(not((xx:struct(aa:NAT,bb:NAT1)) & (yy:struct(bb:NAT1,aa:NAT)) & (zz:struct(aa:NAT1,bb:NAT1))) => (yy:struct(aa:NAT,bb:NAT1)) & (xx:struct(aa:NAT,bb:NAT1)) & (xx:struct(aa:NAT1,bb:NAT1)))

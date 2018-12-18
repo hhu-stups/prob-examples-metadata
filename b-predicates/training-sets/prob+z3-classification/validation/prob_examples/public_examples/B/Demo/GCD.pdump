@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Demo/GCD.mch
+5.1664414E7,5.5860106E7,6.0115931333333336E7,6.7929169E7:x:NAT & not(y>0 => y:NAT)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Deadlock/QueensDeadlock.zip_unpacked/Chess/QueenEventsTF.bcm
+1.97809605E8,1.5128478766666666E8,1.4928863033333334E8,3.8988999E8:(n:3 .. 100) & (board:1 .. n --> 1 .. n) & (not((i:1 .. n&j:1 .. n&i>j) & (board(i)+(j - i)=board(j))) => (i:1 .. n&j:1 .. n&i>j) & (board(i) - (j - i)=board(j)))

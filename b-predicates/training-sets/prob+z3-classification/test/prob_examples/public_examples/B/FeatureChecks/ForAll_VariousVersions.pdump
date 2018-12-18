@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/ForAll_VariousVersions.mch
+5.5075415666666664E7,5.5066336666666664E7,7.003751433333333E7,6.0423605333333336E7:not((f:ID-->ID) & (!x.(x:dom(f) => f(x)=ee)) & (!x,y.((y,x):f => x=ee)) & (g:ID-->ID) & (!x.(g(x)=aa => x=aa)) & (!x.(g(x)/=aa => g(x)=bb)) & (h:ID-->ID) & (!y.(y:ID => (y:dom(h) => h(y)=ee))) & (xx:ID)) => (yy:ID)
+5.0130373666666664E7,4.8498066333333336E7,7.635226033333333E7,5.7174844666666664E7:not((f:ID-->ID) & (!x.(x:dom(f) => f(x)=ee)) & (!x,y.((y,x):f => x=ee)) & (g:ID-->ID) & (!x.(g(x)=aa => x=aa)) & (!x.(g(x)/=aa => g(x)=bb)) & (h:ID-->ID) & (!y.(y:ID => (y:dom(h) => h(y)=ee))) & not((yy:ID))) => (xx:ID)

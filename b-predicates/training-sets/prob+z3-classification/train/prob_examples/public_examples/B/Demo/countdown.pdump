@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Demo/countdown.mch
+4.8605785333333336E7,4.7927417E7,6.4135553333333336E7,5.8508580666666664E7:not(not((nums:POW(NATURAL)) & (1234/:nums))) => not((n1:nums) & (n2:nums) & (n1<n2))
+-1.0,-1.0,-1.0,-1.0:not((nums:POW(NATURAL)) & (1234/:nums)) & not((card(nums)<2))
+1.1287350166666667E8,1.1156814466666667E8,6.3451504333333336E7,1.5489735133333334E8:not(not((nums:POW(NATURAL)) & (1234/:nums))) => (n1:nums) & (n2:nums) & (n1<n2)
+4.7711863E7,5.1035773E7,6.4629470333333336E7,6.4371942666666664E7:(not(nums:POW(NATURAL)) => not(n1:nums&n2:nums&n1<n2&!c.(c=n2-n1 => (c:NATURAL => nums-{n1,n2}\/{c}:POW(NATURAL)))))
+5.1241269E7,5.1862507666666664E7,7.194548466666667E7,6.4107570333333336E7:(not(nums:POW(NATURAL)) => n1:nums&n2:nums&n1<n2&!c.(c=n1*n2 => (c:NATURAL => nums-{n1,n2}\/{c}:POW(NATURAL))))
+4.6995757666666664E7,4.9173850666666664E7,-1.0,9.917618266666667E7:(not(nums:POW(NATURAL)) => not(card(nums)<2&{5,6,7,8,9,11}:POW(NATURAL)))

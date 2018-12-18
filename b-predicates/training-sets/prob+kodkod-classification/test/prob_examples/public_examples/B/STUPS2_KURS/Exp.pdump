@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/Exp.mch
+5.2938202666666664E7,5.2327976333333336E7,-1.0,9.748404433333333E7:not((x:INTEGER) & (y:NATURAL) & (remy>0)) => not((res:INTEGER) & (remy:NATURAL) & (x**y=res*x**remy))
+-1.0,-1.0,-1.0,-1.0:(x:INTEGER) & (y:NATURAL) & (res:INTEGER) & (remy:NATURAL) & (x**y=res*x**remy) & (remy>0) & (remy>0&x**y=res*x*x**remy-1) & (remy>0&remy-1:NATURAL)

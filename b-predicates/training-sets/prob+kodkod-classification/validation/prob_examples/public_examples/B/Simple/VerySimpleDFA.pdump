@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Simple/VerySimpleDFA.mch
+8.099191033333333E7,5.2899487666666664E7,6.1239934E7,5.7446923333333336E7:not((s:0..3) & (r:0..3)) => (s=3) & (r=1)

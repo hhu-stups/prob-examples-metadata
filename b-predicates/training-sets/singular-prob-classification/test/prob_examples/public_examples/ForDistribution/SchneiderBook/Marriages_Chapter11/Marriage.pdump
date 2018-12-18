@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Marriages_Chapter11/Marriage.mch
+-1.0,-1.0,-1.0,-1.0:(marriage:male>+>female) & (mm:male) & (mm/:dom(marriage)) & (ff:female) & (ff/:ran(marriage)) & (mm:male) & (ff:female) & ((mm,ff):marriage)
+4.8037416666666664E7,7.180969066666667E7,-1.0,9.164254266666667E7:(marriage:male>+>female) & (mm:male) & (mm/:dom(marriage)) & (ff:female) & (ff/:ran(marriage)) & not((mm:male) & (ff:female) & ((mm,ff):marriage))

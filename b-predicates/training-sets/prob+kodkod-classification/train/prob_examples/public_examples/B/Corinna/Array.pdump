@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Corinna/Array.mch
+5.4189852666666664E7,5.0484795E7,7.009555266666667E7,6.2912935E7:not(not((ix:dom(arr)))) => (arr:1..maxindex+->TYPE)
+6.5274059666666664E7,5.6134768666666664E7,-1.0,1.0594466433333333E8:not((arr:1..maxindex+->TYPE)) & not((ix:dom(arr)))
+5.0514244333333336E7,5.0388879666666664E7,8.407661366666667E7,7.1112418E7:not((arr:1..maxindex+->TYPE)) => (ix:dom(arr)) & (jx:dom(arr))
+6.1731593E7,5.8977728333333336E7,6.3905706E7,1.96490722E8:(arr:1..maxindex+->TYPE) & not((ix:1..maxindex&tt:TYPE&arr<+{(ix,tt)}:1..maxindex+->TYPE))
+5.8684487666666664E7,5.8524970333333336E7,5.385324E7,1.3017004433333333E8:(not((arr:1..maxindex+->TYPE)) => not((ix:1..maxindex&tt:TYPE&arr<+{(ix,tt)}:1..maxindex+->TYPE)))

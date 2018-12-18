@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Queens/QueensAllSolutions.mch
+2.722368766666667E8,2.7584532E8,-1.0,-1.0:(n:NAT1) & (all_queens={queens|queens:1..n>->1..n&!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+(q2-q1)/=queens(q2)&queens(q1)+(q1-q2)/=queens(q2))}) & (card(all_queens)=92) & (not(queens:all_queens) => queens:all_queens)

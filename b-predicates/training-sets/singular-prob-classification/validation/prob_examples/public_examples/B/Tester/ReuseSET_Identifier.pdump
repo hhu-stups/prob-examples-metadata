@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/ReuseSET_Identifier.mch
+6.0294818E7,8.538525266666667E7,6.741751133333333E7,6.8884365E7:not((iv:ID) & (all=ID) & (#ID.(ID<:all&aa/:ID&bb/:ID&#vv.(vv:ID))) & (yy:all)) => not((xx:ID))

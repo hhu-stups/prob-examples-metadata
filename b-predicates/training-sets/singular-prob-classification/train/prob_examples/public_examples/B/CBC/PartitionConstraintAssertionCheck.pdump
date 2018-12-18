@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/CBC/PartitionConstraintAssertionCheck.mch
+-1.0,-1.0,-1.0,-1.0:not((x\/y\/z\/v=1101..1110) & (x/\y={}) & (x/\z={}) & (x/\v={}) & (y/\v={}) & (z/\v={}) & (card(x)=card(y)+2) & (card(z)=card(v)+2)) => (not(y/\z={})) & (y/\z={})
+-1.0,-1.0,-1.0,-1.0:(x\/y\/z\/v=1101..1110) & (x/\y={}) & (x/\z={}) & (x/\v={}) & (y/\v={}) & (z/\v={}) & (card(x)=card(y)+2) & (card(z)=card(v)+2) & not(y/\z={})
+-1.0,-1.0,-1.0,-1.0:(x\/y\/z\/v=1101..1110) & (x/\y={}) & (x/\z={}) & (x/\v={}) & (y/\v={}) & (z/\v={}) & (card(x)=card(y)+2) & (card(z)=card(v)+2) & not(y/\z={})
+-1.0,-1.0,-1.0,-1.0:(x\/y\/z\/v=1101..1110) & (x/\y={}) & (x/\z={}) & (x/\v={}) & (y/\v={}) & (z/\v={}) & (card(x)=card(y)+2) & (card(z)=card(v)+2) & not((not(y/\z={})) & (y/\z={}))
+-1.0,-1.0,-1.0,-1.0:not((x\/y\/z\/v=1101..1110) & (x/\y={}) & (x/\z={}) & (x/\v={}) & (y/\v={}) & (z/\v={}) & (card(x)=card(y)+2) & (card(z)=card(v)+2)) => (not(y/\z={})) & (y/\z={})

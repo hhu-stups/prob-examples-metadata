@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Daniel/Kodkod/Sorting1.mch
+1.8260255033333334E8,1.14127106E8,1.0038185233333333E8,1.3349451333333333E8:not((original=%x.(x:1..n|n-x)) & (permu:1..n-->1..n) & (ran(permu)=1..n) & (!i,j.(i:1..n&j:2..n&i<j => permu(i)/=permu(j))) & (!x.(x:2..n => original(permu(x-1))<original(permu(x)))) & (sorted=(permu;original))) => x:1..n

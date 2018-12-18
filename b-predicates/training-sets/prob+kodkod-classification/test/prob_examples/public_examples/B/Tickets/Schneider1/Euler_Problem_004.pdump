@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Schneider1/Euler_Problem_004.mch
+-1.0,-1.0,-1.0,-1.0:not((num=%s.(s:seq(0..9)|SIGMA(i).(i:dom(s)|s(i)*10**i-1))) & (all_palindromes={x,y,p|{x,y}<:100..999&x<y&#k,s.(size(k)=3&k(1)>0&s=k^rev(k)&p=x*y&num(s)=p)}) & (best_palindrome=max(ran(all_palindromes))) & (best_factors=all_palindromes~[{best_palindrome}])) => num([3,2,1])=123

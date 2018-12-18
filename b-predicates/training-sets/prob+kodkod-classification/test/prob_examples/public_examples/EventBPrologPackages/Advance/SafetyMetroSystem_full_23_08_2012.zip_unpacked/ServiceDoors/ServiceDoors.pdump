@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/SafetyMetroSystem_full_23_08_2012.zip_unpacked/ServiceDoors/ServiceDoors.bcm
+4.9493398333333336E7,6.6653425E7,-1.0,7.206337733333333E7:(carriage_door<:DOOR) & (carriage_ds:carriage_door --> DOOR_STATE) & not((ds:POW(DOOR)) & (c:CARRIAGE) & (ds=DOOR_CARRIAGE~[{c}]) & (ds/\dom(carriage_ds)=({} oftype POW(DOOR))))

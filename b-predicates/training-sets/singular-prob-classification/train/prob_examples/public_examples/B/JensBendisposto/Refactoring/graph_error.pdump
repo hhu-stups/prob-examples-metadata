@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/Refactoring/graph_error.mch
+-1.0,5.335655933333333E8,-1.0,-1.0:(Labels<:LabelsUniverse) & (card(Labels)<card(LabelsUniverse)) & (Labels/={}) & (V<:Vertices) & (E<:Vertices*Vertices) & (L:Vertices*Vertices<->LabelsUniverse) & (E/={}) & (L/={}) & (V/={}) & (f:V>->>V) & (g:Labels>+>LabelsUniverse) & (o1:ran(L)) & (o2:LabelsUniverse) & (o2/:ran(L))

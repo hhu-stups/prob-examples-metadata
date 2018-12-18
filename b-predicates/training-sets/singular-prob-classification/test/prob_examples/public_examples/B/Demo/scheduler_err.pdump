@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Demo/scheduler_err.mch
+-1.0,-1.0,7.5377742E7,-1.0:active/\(ready\/waiting)={} & not(pp/:active&pp/:ready\/waiting => active/\(ready\/(waiting\/{pp}))={})

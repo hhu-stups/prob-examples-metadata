@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/PairRelation.mch
+5.4560173666666664E7,6.0217504E7,-1.0,1.2394378766666667E8:(pair:INT*INT) & (pair=(1,2)) & (r:ID*ID+->ID) & not((yy:ID) & (zz:ID) & (card(dom(r))<2))
+-1.0,-1.0,-1.0,-1.0:(pair:INT*INT) & (pair=(1,2)) & (r:ID*ID+->ID) & ((x,x):dom(r)) & (r(x,x)=y) & ((z,z):dom(r)) & (z/=x) & (y/=x) & (z/=y)
+-1.0,-1.0,2.51253203E8,-1.0:(pair:INT*INT) & (pair=(1,2)) & not((r:ID*ID+->ID)) & ((x,x):dom(r)) & (r(x,x)=y) & ((z,z):dom(r)) & (z/=x) & (y/=x) & (z/=y)
+5.4318383E7,5.9930363E7,-1.0,9.432337733333333E7:not((pair:INT*INT) & (pair=(1,2)) & not((r:ID*ID+->ID))) => not(((x,x):dom(r)) & (r(x,x)=y) & ((z,z):dom(r)) & (z/=x) & (y/=x) & (z/=y))
+4.8033319666666664E7,5.2680907333333336E7,2.30829493E8,4.5768785666666664E7:(pair:INT*INT) & (pair=(1,2)) & not((r:ID*ID+->ID)) & (x:ID) & (y:ID) & ((x,y):dom(r))
+-1.0,-1.0,5.1425370666666664E7,-1.0:(pair:INT*INT) & (pair=(1,2)) & (r:ID*ID+->ID) & (yy:ID) & (zz:ID) & (card(dom(r))<2) & ((x,x):dom(r)) & (r(x,x)=y) & ((z,z):dom(r)) & (z/=x) & (y/=x) & (z/=y)
+-1.0,-1.0,-1.0,-1.0:(pair:INT*INT) & (pair=(1,2)) & (r:ID*ID+->ID) & ((x,x):dom(r)) & (r(x,x)=y) & ((z,z):dom(r)) & (z/=x) & (y/=x) & (z/=y) & (x:ID) & (y:ID) & ((x,y):dom(r))
+-1.0,-1.0,-1.0,-1.0:(pair:INT*INT) & (pair=(1,2)) & (r:ID*ID+->ID) & ((x,x):dom(r)) & (r(x,x)=y) & ((z,z):dom(r)) & (z/=x) & (y/=x) & (z/=y) & not((x:ID) & (y:ID) & ((x,y):dom(r)))
+5.3820834E7,5.5390400333333336E7,-1.0,1.37943752E8:(pair:INT*INT) & (pair=(1,2)) & r:ID*ID+->ID & card(dom(r))<2&r<+{((yy,yy),zz)}:ID*ID+->ID
+-1.0,-1.0,-1.0,-1.0:(pair:INT*INT) & (pair=(1,2)) & r:ID*ID+->ID & (x,x):dom(r)&r((x,x))=y&(z,z):dom(r)&z/=x&y/=x&z/=y&r:ID*ID+->ID
+4.8407459333333336E7,5.3566332E7,2.36069033E8,5.0195978E7:(pair:INT*INT) & (pair=(1,2)) & r:ID*ID+->ID & not((x,y):dom(r)&r:ID*ID+->ID)

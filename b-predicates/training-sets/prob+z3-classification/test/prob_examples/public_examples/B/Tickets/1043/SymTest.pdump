@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/1043/SymTest.mch
+7.339667066666667E7,2.0108588066666667E9,1.2122887033333333E8,8.994123266666667E7:not(not((xx:ID) & (yy:ID))) => (zz=xx)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/EventB2Java/sqrt_number.zip_unpacked/sqrt_number/sqrt_m1.bcm
+1.38752933E8,9.5959363E7,5.9977855666666664E7,6.5294546333333336E7:not(not(((r+1)*(r+1)<=n))) => not((r:NAT) & (r*r<=n))

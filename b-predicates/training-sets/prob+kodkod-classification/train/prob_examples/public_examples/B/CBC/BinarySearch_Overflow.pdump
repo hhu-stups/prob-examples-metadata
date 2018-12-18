@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/CBC/BinarySearch_Overflow.mch
+1.4926257933333334E8,8.036988033333333E7,9.676579666666667E7,5.8090045333333336E7:(found:BOOL) & (found=TRUE => arr(i)=goal) & (i:NAT) & (j:NAT)
+1.42972045E8,6.3719159666666664E7,3.408097496666667E8,8.871456333333333E7:(sze:NAT) & (arr:1..sze-->INT) & (!i.(i:1..sze-1 => arr(i)<=arr(i+1))) & (goal:INT) & (arr=[-1,0,1,2,3,5]) & (goal=5 or goal=4 or goal=2 or goal=6) & (found:BOOL) & (found=TRUE => arr(i)=goal) & (i:NAT) & (j:NAT) & (found=FALSE) & (i<j)
+5.4534821333333336E7,6.2882763666666664E7,1.9854319466666666E8,7.863953933333333E7:(sze:NAT) & (arr:1..sze-->INT) & (!i.(i:1..sze-1 => arr(i)<=arr(i+1))) & (goal:INT) & (arr=[-1,0,1,2,3,5]) & (goal=5 or goal=4 or goal=2 or goal=6) & not((found:BOOL) & (found=TRUE => arr(i)=goal) & (i:NAT) & (j:NAT)) & not((found=FALSE) & (i<j))

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Sets2.mch
+1.0115546133333333E8,6.851613833333333E7,1.95183969E8,6.2453169666666664E7:not(not((xx:POW(setX)))) => (sss<:POW(setX)) & (sss-{xx}={}) & (sss={{x2,x1}})
+4.7218760333333336E7,4.940598E7,6.4000364333333336E7,5.2197861666666664E7:(not((xx:POW(setX))) => (sss-{xx}={}&sss={{x2,x1}}))

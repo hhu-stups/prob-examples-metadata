@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/SetOperators/TestInterNatural.mch
+4.8550540333333336E7,5.9953457333333336E7,-1.0,7.043523733333333E7:not((xx<:NATURAL) & (xx-NATURAL={})) => (xx-NATURAL={})

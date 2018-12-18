@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Chapter13/Jukebox.mch
+-1.0,-1.0,5.9941514E7,-1.0:(limit:NAT1) & credit:NAT & not(credit>0 => credit-1:NAT&(playset/={} => !pp.(pp:playset => credit:NAT))&(not(credit>0)&not(playset/={}) => credit:NAT))

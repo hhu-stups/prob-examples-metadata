@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/CSPB/abroadcast_err.mch
+1.5704597133333334E8,6.82498382E8,1.0997993033333333E8,5.9870462333333336E7:not(not((order:iseq(Message)) & (deliv:Node<->Message) & (bcast:POW(Message)) & (correct:POW(Node)))) => not((nn:correct))
+4.8290498333333336E7,4.9325732E7,6.3005195666666664E7,9.2636501E7:(not(order:iseq(Message)) => not(nn/:correct => order:iseq(Message)))
+4.7101264E7,6.863163266666667E7,6.142456453E9,4.228762843E9:correct:POW(Node) & not(mm/:ran(order))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Hansen19_UndefinedVarRead/Nodes_Traversing.mch
+-1.0,-1.0,1.8830364766666667E9,-1.0:!ii,jj.(ii:1..size(mySeq)-1&jj:2..size(mySeq)&jj=ii+1 => (mySeq(ii),mySeq(jj)):next) & not(!p_mySeq.(p_mySeq:iseq(NODES)&!ii,jj.(ii:1..size(p_mySeq)-1&jj:2..size(p_mySeq)&jj=ii+1 => (p_mySeq(ii),p_mySeq(jj)):next) => !ii,jj.(ii:1..size(p_mySeq)-1&jj:2..size(p_mySeq)&jj=ii+1 => (p_mySeq(ii),p_mySeq(jj)):next)))

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/EulerWayModelCheck.mch
+1.09134804E8,7.045153333333333E7,8.8669935E7,8.041034133333333E7:not((BaseEdge={(1,2),(1,3),(1,4),(2,4),(2,3),(3,4),(3,5),(4,5)}) & (State:Nd) & (Edges<:BaseEdge)) => ((State,i):Edges)
+5.958267E7,7.609834033333333E7,1.1994681733333333E8,6.812425933333333E7:(BaseEdge={(1,2),(1,3),(1,4),(2,4),(2,3),(3,4),(3,5),(4,5)}) & (not((State:Nd) & (Edges<:BaseEdge)) => not(((i,State):Edges&i:1..5) & ((i,State):Edges&Edges-{(i,State)}<:BaseEdge)))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/UnionGeneralizedTest.mch
+2.3526902366666666E8,7.805072376666666E8,2.3054451766666666E8,9.4375455E7:(f:MYRANGE-->MYRANGE) & (UNION(i).(i:MYRANGE|{f(i)})=MYRANGE) & (yy:MYRANGE)

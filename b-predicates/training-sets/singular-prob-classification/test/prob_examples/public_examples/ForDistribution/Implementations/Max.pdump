@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Implementations/Max.mch
+4.7299474E7,4.7971999E7,6.5256366E7,5.6211873666666664E7:(not((values<:NAT)) => not((values/={}&values<:NAT)))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/CBSM.bcm
+4.9199436333333336E7,5.2112539333333336E7,6.748095066666667E7,5.5519909333333336E7:not((T2v:INT) & (T1_evaluated:BOOL) & (T2_evaluated:BOOL) & (T1_timer:NAT) & (T2_timer:NAT) & (BUSwrite:NAT +-> INT) & (BUSread:INT) & (T1_evaluated=TRUE=>T1_timer>0) & (T2_evaluated=TRUE=>T2_timer>0) & (finite(BUSwrite)) & (T1_timer<10) & (T2_timer<20)) & not((T2_timer<10) & (T2_evaluated=FALSE))

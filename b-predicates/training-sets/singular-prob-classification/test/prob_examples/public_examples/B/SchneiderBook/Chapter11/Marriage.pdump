@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter11/Marriage.mch
+5.1168588E7,6.848200933333333E7,7.329793866666667E7,6.849646666666667E7:(marriage:male>+>female) & (mm:male) & (ff:female) & ((mm,ff):marriage)

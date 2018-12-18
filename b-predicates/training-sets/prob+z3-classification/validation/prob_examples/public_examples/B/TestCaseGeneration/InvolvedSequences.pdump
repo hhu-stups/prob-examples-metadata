@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/InvolvedSequences.mch
+4.9471444666666664E7,6.7933546E7,-1.0,9.356792733333333E7:(flight:FLIGHT-->TOWN*TOWN) & (!f.(f:FLIGHT => prj1(TOWN,TOWN)(flight(f))/=prj2(TOWN,TOWN)(flight(f)))) & (hotel_town:HOTEL-->TOWN) & bookf:PERSON<->FLIGHT & not((p,f)/:bookf&(p,f2):bookf&(prj1(TOWN,TOWN)(flight(f))=prj2(TOWN,TOWN)(flight(f2))&prj2(TOWN,TOWN)(flight(f))=prj1(TOWN,TOWN)(flight(f2))))

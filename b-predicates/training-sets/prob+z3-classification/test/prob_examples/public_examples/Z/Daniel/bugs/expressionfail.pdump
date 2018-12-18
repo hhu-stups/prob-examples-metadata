@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/Z/Daniel/bugs/expressionfail.mch
+1.39665736E8,7.059584866666667E7,9.0106314E7,8.106191466666667E7:state:POW(INTEGER*INTEGER) & x:{2,3} => !state2.(state2=state<+{(2,state(x))} => state:POW(INTEGER*INTEGER))

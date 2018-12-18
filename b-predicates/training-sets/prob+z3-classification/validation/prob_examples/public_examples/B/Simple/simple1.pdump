@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Simple/simple1.mch
+4.7220715666666664E7,6.3295596E7,6.1673205666666664E7,5.5197219E7:(not((users:POW(Name)) & (users/=Name)) => not((uu/:users) & (uu/:users&users\/{uu}/=Name)))

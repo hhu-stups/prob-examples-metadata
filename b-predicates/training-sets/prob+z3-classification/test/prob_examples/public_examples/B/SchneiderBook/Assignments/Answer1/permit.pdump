@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Assignments/Answer1/permit.mch
+-1.0,-1.0,6.4110480333333336E7,-1.0:(reg:PERSON>+>CAR) & not((pp:PERSON))
+4.8598032666666664E7,6.817494066666667E7,-1.0,6.388324E7:not(not((reg:PERSON>+>CAR))) => not((pp:PERSON) & (vv:CAR) & (pp/:dom(reg)) & (vv/:ran(reg)))
+-1.0,-1.0,6.3926890666666664E7,-1.0:(reg:PERSON>+>CAR) & not((pp:PERSON))
+-1.0,-1.0,6.3930476E7,-1.0:(reg:PERSON>+>CAR) & ((pp:PERSON) => not((pp:PERSON)))
+4.7958705333333336E7,6.3710173666666664E7,7.5381117E7,7.5141073E7:(reg:PERSON>+>CAR) & ({pp}<<|reg:PERSON>+>CAR)
+-1.0,-1.0,6.5954662333333336E7,-1.0:(reg:PERSON>+>CAR) & not((reg:PERSON>+>CAR))

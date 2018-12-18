@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Laws/TautologiesPL.mch
+4.7001926333333336E7,6.2547618333333336E7,5.8385427333333336E7,5.1829519666666664E7:(p:BOOL) & (q:BOOL) & (r:BOOL) & not(P or not(P))
+5.1511602E7,6.4034004E7,6.086479014E9,5.8757681E7:(p:BOOL) & (q:BOOL) & (r:BOOL) & P&Q <=> not(P => not(Q))

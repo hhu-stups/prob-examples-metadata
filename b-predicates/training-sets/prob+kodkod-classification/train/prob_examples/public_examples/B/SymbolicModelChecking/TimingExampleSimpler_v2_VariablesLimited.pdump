@@ -1,0 +1,15 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/TimingExampleSimpler_v2_VariablesLimited.mch
+2.3278155666666666E8,6.5390042333333336E7,8.782229433333333E7,7.374201233333333E7:not((mxc:1..10) & (mxe:1..10) & not((INV) & (timer_c<LIMIT) & (timer_e<LIMIT))) => (v=timer_e) & (timer_c>=timer_e) & (pc=2)
+6.0753023666666664E7,6.0712352666666664E7,8.6682485E7,7.1204329E7:not((mxc:1..10) & (mxe:1..10) & not((INV) & (timer_c<LIMIT) & (timer_e<LIMIT))) => not((v=timer_e) & (timer_c>=timer_e) & (pc=2))
+5.2768931333333336E7,3.04824913E8,6.2620346666666664E7,1.57393222E8:(mxc:1..10) & (mxe:1..10) & not((INV) & (timer_c<LIMIT) & (timer_e<LIMIT)) & (pc=1) & (v:1..mxe) & (timer_e<LIMIT-v)
+5.7497302E7,5.7016608E7,7.0011114E7,8.058666766666667E7:not((mxc:1..10) & (mxe:1..10) & (pc=1) & (v:1..mxe) & (timer_e<LIMIT-v)) => not((INV) & (timer_c<LIMIT) & (timer_e<LIMIT))
+5.684133E7,6.8899521E7,7.824174666666667E7,1.2309714766666667E8:(mxc:1..10) & (mxe:1..10) & (INV) & (timer_c<LIMIT) & (timer_e<LIMIT) & (not((v=timer_c) & (timer_c<timer_e) & (pc=2)) => (v=timer_e) & (timer_c>=timer_e) & (pc=2))
+6.1393911E7,7.855342533333333E7,7.112750466666667E7,7.727125566666667E7:(mxc:1..10) & (mxe:1..10) & INV & v=timer_c&timer_c<timer_e&pc=2 => timer_c-v:NATURAL&timer_e-v:NATURAL&timer_c-v-(timer_e-v)<50&0:0..2
+2.3224531533333334E8,6.1653347333333336E7,7.015193733333333E7,2.0699305866666666E8:(mxc:1..10) & (mxe:1..10) & timer_e<LIMIT & not(v=timer_c&timer_c<timer_e&pc=2 => timer_e-v<55)
+5.4789532666666664E7,5.1072812333333336E7,6.7691103E7,6.1972755E7:(mxc:1..10) & (mxe:1..10) & timer_c<LIMIT & not(v=timer_c&timer_c<timer_e&pc=2 => timer_c-v<55)
+6.4548804E7,7.342716766666667E7,8.1745288E7,8.321349133333333E7:(mxc:1..10) & (mxe:1..10) & INV & pc=0&v:1..mxc&timer_c<55-v => timer_c+v:NATURAL&timer_e:NATURAL&timer_c+v-timer_e<50&1:0..2
+6.0370945666666664E7,1.22873004E8,5.9221637333333336E7,1.20052161E8:(mxc:1..10) & (mxe:1..10) & (not(timer_e<LIMIT) => not(pc=0&v:1..mxc&timer_c<55-v => timer_e<55))
+5.5771710333333336E7,8.218898966666667E7,8.194680366666667E7,7.396154666666667E7:(mxc:1..10) & (mxe:1..10) & (not(timer_c<LIMIT) => pc=0&v:1..mxc&timer_c<55-v => timer_c+v<55)
+-1.0,-1.0,6.2491186333333336E7,1.4901737853333333E9:(mxc:1..10) & (mxe:1..10) & timer_c<LIMIT & not(pc=0&v:1..mxc&timer_c<55-v => timer_c+v<55)
+-1.0,-1.0,7.380331E7,1.482445452E9:(mxc:1..10) & (mxe:1..10) & timer_e<LIMIT & not(pc=1&v:1..mxe&timer_e<55-v => timer_e+v<55)
+7.1373345E7,8.854682766666667E7,1.46462899E8,9.770243833333333E7:(mxc:1..10) & (mxe:1..10) & (not((INV) & (timer_c<LIMIT) & (timer_e<LIMIT)) => (pc=1&v:1..mxe&timer_e<55-v => timer_c:NATURAL&timer_e+v:NATURAL&timer_c-(timer_e+v)<50&2:0..2) & (pc=1&v:1..mxe&timer_e<55-v => timer_e+v<55) & (pc=1&v:1..mxe&timer_e<55-v => timer_c<55))

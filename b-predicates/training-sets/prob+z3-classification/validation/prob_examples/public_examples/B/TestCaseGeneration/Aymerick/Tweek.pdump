@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/Aymerick/Tweek.mch
+4.8909851E7,4.8073222333333336E7,6.0047161E7,5.5975437666666664E7:not((a:0..5)) => not((a<5))
+4.7712678E7,4.7886676333333336E7,5.9964026666666664E7,5.6128436666666664E7:(not(a:0..5) => a:0..5)

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Merging/merging.zip_unpacked/Merging/M0.bcm
+-1.0,-1.0,1.138007736E10,-1.0:not((c mod 2=0)) => (c:NAT) & (d:NAT) & (c:{d*2,d*2 - 1})
+-1.0,-1.0,2.5466790633333334E8,-1.0:not((c mod 2=1)) => (c:NAT) & (d:NAT) & (c:{d*2,d*2 - 1})

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSPB/Turner/ProB_test_v2.mch
+9.3739178E7,7.2484916E7,1.0411188966666667E8,4.9177459333333336E7:not((v1:aIH<->bIH)) => (d:aIH) & (r:bIH) & ((d,r):v1)

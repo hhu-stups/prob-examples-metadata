@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/LessSimple/CSM.mch
+5.4452734666666664E7,6.3108677E7,6.4821045666666664E7,8.348245033333333E7:(x0:NAT) & (x1:NAT) & (x2:NAT) & (x3:NAT) & (x4:NAT) & (x5:NAT) & (x6:NAT) & (x7:NAT) & (x8:NAT) & (x9:NAT) & (x10:NAT) & (x11:NAT) & (x12:NAT) & (x13:NAT) & (x9<2) & (x1>=1) & (x2>=1) & (x9>=1)

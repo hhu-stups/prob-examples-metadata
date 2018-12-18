@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/LargeSqrtSymbolicAnnotation.mch
+6.6322959333333336E7,5.4323318666666664E7,-1.0,7.0950596E7:(mysqr=%x.(x:NAT|SYMBOLIC(x*x))) & (x:NAT) & (not(xx:NATURAL1) => xx+1:NATURAL1)

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Bipartite_Graphs.mch
+1.74664134E8,1.0515361833333333E8,1.0585997033333333E8,7.0222058E7:(n=50) & (g={x,y|x:1..n-1&y=x+1}\/{(n,1)}) & (a\/b=1..n) & (a/\b={}) & (!x,y.((x,y):g => x:a <=> y:b)) & n:b or n:a
+-1.0,1.50315856E8,-1.0,-1.0:(n=50) & (g={x,y|x:1..n-1&y=x+1}\/{(n,1)}) & (a\/b=1..n) & (a/\b={}) & (!x,y.((x,y):g => x:a <=> y:b)) & not((n:b or n:a) & (n:b) & (n:a))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/CoinPuzzle.mch
+1.61553901E8,6.047331856666666E8,1.01373925E8,1.6444735533333334E8:(up<:COINS) & (pile<:COINS) & (finished:BOOL) & (finished=TRUE => card(up/\pile)=card(up/\COINS-pile))

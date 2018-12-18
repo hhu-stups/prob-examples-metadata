@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/ParallelProduct.mch
+1.1204208766666667E8,8.989111E7,9.117076533333333E7,6.731412333333333E7:not((r1:NATURAL<->NATURAL) & (r2:NATURAL<->NATURAL) & (pp:NATURAL*NATURAL<->NATURAL*NATURAL)) => ((x,y)/:r1) & (x:NAT) & (y:NAT)

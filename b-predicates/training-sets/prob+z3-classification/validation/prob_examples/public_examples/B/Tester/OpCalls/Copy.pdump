@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/OpCalls/Copy.mch
+4.7218434333333336E7,4.8027825333333336E7,5.9970196E7,4.9405142E7:(vv:INT) & (xx:INT) & (yy:INT) & not((vv:INT) & (xx:INT) & (yy:INT))

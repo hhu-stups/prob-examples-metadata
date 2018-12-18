@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/AdderSync.bcm
+4.7281291666666664E7,5.0086676666666664E7,6.0719686E7,5.4358076333333336E7:not((o_sum:NAT)) => not((pv:INT) & (pv=o_sum) & (data_ready=TRUE))

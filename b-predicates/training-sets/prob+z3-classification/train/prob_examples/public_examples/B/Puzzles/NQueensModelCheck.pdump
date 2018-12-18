@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/NQueensModelCheck.mch
+9.237014966666667E7,8.161545333333333E7,7.2153845E7,1.70223951E8:not((n=5) & (q:1..n+->1..n) & (cur:1..n+1)) => (cur<=n) & (i:1..n) & (!j.(j:1..cur-1 => i/=q(j)&i/=q(j)+j-cur&i/=q(j)-j+cur))
+-1.0,-1.0,7.359599733333333E7,-1.0:(n=5) & (not((q:1..n+->1..n) & (cur:1..n+1)) => (cur<=n&i:1..n&!j.(j:1..cur-1 => i/=q(j)&i/=q(j)+j-cur&i/=q(j)-j+cur)&q<+{(cur,i)}:1..n+->1..n) & (cur<=n&i:1..n&!j.(j:1..cur-1 => i/=q(j)&i/=q(j)+j-cur&i/=q(j)-j+cur)&cur+1:1..n+1))
+5.8246373666666664E7,7.752477933333333E7,8.5196914E7,4.056578933333333E8:(n=5) & (not((q:1..n+->1..n) & (cur:1..n+1)) => not((cur<=n&i:1..n&!j.(j:1..cur-1 => i/=q(j)&i/=q(j)+j-cur&i/=q(j)-j+cur)&q<+{(cur,i)}:1..n+->1..n) & (cur<=n&i:1..n&!j.(j:1..cur-1 => i/=q(j)&i/=q(j)+j-cur&i/=q(j)-j+cur)&cur+1:1..n+1)))

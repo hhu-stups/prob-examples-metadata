@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/CSP/Dining.mch
+6.2688465333333336E7,6.241648E7,8.979119033333333E7,9.5779824E7:not((lFork:Phil>->>Forks) & (rFork:Phil>->>Forks) & (!pp.(pp:Phil => lFork(pp)/=rFork(pp))) & not((taken:Forks+->Phil) & (!xx.(xx:dom(taken) => lFork(taken(xx))=xx or rFork(taken(xx))=xx)))) => (p:Phil) & (f:Forks) & (f:dom(taken)) & (taken(f)=p)
+5.4547113333333336E7,4.6588303333333336E7,-1.0,8.422814566666667E7:(lFork:Phil>->>Forks) & (rFork:Phil>->>Forks) & (!pp.(pp:Phil => lFork(pp)/=rFork(pp))) & (taken:Forks+->Phil) & (!xx.(xx:dom(taken) => lFork(taken(xx))=xx or rFork(taken(xx))=xx)) & ((p:Phil) & (f:Forks) & (f/:dom(taken)) & (rFork(p)=f) => not((p:Phil) & (f:Forks) & (f/:dom(taken)) & (lFork(p)=f)))

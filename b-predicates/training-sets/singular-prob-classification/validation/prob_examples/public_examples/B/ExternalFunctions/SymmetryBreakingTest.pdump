@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/SymmetryBreakingTest.mch
+-1.0,-1.0,-1.0,-1.0:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & not(!x2,y.(x2/=y&x2:s&y:s => x2=aa or y=aa))

@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Player.mch
+-1.0,-1.0,6.6092786E7,-1.0:(card(PLAYER)>11) & (team<:PLAYER) & (card(team)=11) & not((pp:PLAYER))
+-1.0,-1.0,6.4337068666666664E7,-1.0:(card(PLAYER)>11) & not((team<:PLAYER) & (card(team)=11)) & not((pp:PLAYER))
+5.1588776333333336E7,6.1836867E7,-1.0,1.1925634333333333E8:(card(PLAYER)>11) & (not(card(team)=11) => pp:team => card(team)=11&(not(pp:team) => (TRUE:BOOL => card(team)=11)))
+-1.0,-1.0,-1.0,-1.0:(card(PLAYER)>11) & card(team)=11 & not(pp:team => card(team)=11&(not(pp:team) => (TRUE:BOOL => card(team)=11)))
+-1.0,-1.0,7.208342133333333E7,-1.0:(card(PLAYER)>11) & team<:PLAYER & not(pp:team => team<:PLAYER&(not(pp:team) => (TRUE:BOOL => team<:PLAYER)))
+-1.0,-1.0,-1.0,-1.0:(card(PLAYER)>11) & (team<:PLAYER) & (card(team)=11) & not((pp:team => card(team)=11&(not(pp:team) => (TRUE:BOOL => card(team)=11))) & (pp:team => team<:PLAYER&(not(pp:team) => (TRUE:BOOL => team<:PLAYER))))
+-1.0,-1.0,-1.0,-1.0:(card(PLAYER)>11) & card(team)=11 & pp:team&rr/:team&card(team\/{rr}-{pp})=11

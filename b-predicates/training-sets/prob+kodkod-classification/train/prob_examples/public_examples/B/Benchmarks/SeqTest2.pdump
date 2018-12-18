@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/SeqTest2.mch
+1.4642942133333334E8,8.839990533333333E7,-1.0,6.2981286333333336E7:not((iv:seq(ID)) & (iv:POW(INTEGER*ID)) & (size(iv)>0) & (yy:ID)) => not((xx:ID))
+1.3134812766666667E8,9.022388E7,-1.0,5.1152338E7:(iv:seq(ID)) & (iv:POW(INTEGER*ID)) & (size(iv)>0) & (not(xx:ID) => not(xx:ID))

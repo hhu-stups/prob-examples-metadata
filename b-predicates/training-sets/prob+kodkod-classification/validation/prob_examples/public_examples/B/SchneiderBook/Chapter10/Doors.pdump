@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter10/Doors.mch
+-1.0,-1.0,8.943057633333333E7,-1.0:(position:DOOR-->POSITION) & not((dd:DOOR))
+4.7563218E7,4.8155960666666664E7,5.991118E7,4.9308458E7:not(not((position:DOOR-->POSITION))) => (dd:DOOR)
+-1.0,-1.0,-1.0,-1.0:position:DOOR-->POSITION & not(position<+{(dd,open)}:DOOR-->POSITION)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Demo/countdown.mch
+1.21973774E8,1.10245584E8,6.2695379666666664E7,1.2031665E8:not(not((nums:POW(NATURAL)) & (1234/:nums))) => (n1:nums) & (n2:nums) & (n1<n2)

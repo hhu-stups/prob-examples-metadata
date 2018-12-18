@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksEnablingAnalysis/other/scheduler.mch
+1.02855142E8,6.1916509E7,7.6894648E7,1.19356472E8:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & (pp:waiting)
+2.13203462E8,1.7431339033333334E8,-1.0,9.32936025E8:not(not((pp:waiting))) => (active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={})
+2.61486208E8,2.765788955E9,1.1829642133333333E8,7.6197492E7:(not(card(active)<=1) => card(active)<=1)
+-1.0,-1.0,1.0209640933333333E8,-1.0:card(active)<=1 & not(card(active)<=1)

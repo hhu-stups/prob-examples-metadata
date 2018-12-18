@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Goldbach.mch
+-1.0,-1.0,-1.0,-1.0:(x:NATURAL) & (x mod 2=0) & (x>2) & (!p1,p2.(p1<x&p2<x&p1<=p2&prime(p1)&prime(p2) => x/=p1+p2))
+-1.0,-1.0,-1.0,-1.0:(x:NATURAL) & (x mod 2=0) & (x>2) & (p1<x) & (p2<x) & (p1<=p2) & (prime(p1)) & (prime(p2)) & (x=p1+p2) & (x:NATURAL) & (x mod 2=0) & (x>2) & (!p1,p2.(p1<x&p2<x&p1<=p2&prime(p1)&prime(p2) => x/=p1+p2))
+-1.0,-1.0,-1.0,-1.0:(not((x:NATURAL) & (x mod 2=0) & (x>2) & (p1<x) & (p2<x) & (p1<=p2) & (prime(p1)) & (prime(p2)) & (x=p1+p2)) => (x:NATURAL) & (x mod 2=0) & (x>2) & (!p1,p2.(p1<x&p2<x&p1<=p2&prime(p1)&prime(p2) => x/=p1+p2)))

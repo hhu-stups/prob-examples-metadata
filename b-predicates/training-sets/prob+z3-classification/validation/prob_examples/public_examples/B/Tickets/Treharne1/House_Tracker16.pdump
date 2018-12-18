@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Treharne1/House_Tracker16.mch
+6.2883392E7,7.354233666666667E7,-1.0,5.6526019333333336E7:(card(HOUSES)=16) & not((houseset<:HOUSES) & (card(houseset)<17)) & (new:HOUSES)

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Demo/Bakery0 copy.mch
+4.7637272666666664E7,4.9151083E7,6.0122054333333336E7,5.6196857666666664E7:not(not((aa=0))) => not((aa:0..2))
+1.5318142033333334E8,4.9002693E7,5.9952316666666664E7,5.3338765666666664E7:(not(aa:0..2) => not(aa:0..2))

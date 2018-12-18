@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Hansen18_While/M1.mch
+4.8638983333333336E7,4.9291533333333336E7,6.0033728E7,6.4098723666666664E7:(k=52) & not((xx:1..k)) & (xx+aa+bb<=k) & (#step1.(step1=aa+bb))

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/ForDistribution/LessSimple/Sieve.mch
+8.1669766E7,5.5748336666666664E7,6.4411706333333336E7,5.8156255E7:not((numbers<:INTEGER) & (cur:NATURAL1) & (limit:NATURAL1)) => (cc=cur) & (cur>1) & (cur*cur<=limit)
+4.8565300333333336E7,5.1964336333333336E7,6.1265938333333336E7,5.6160633333333336E7:not(not((cur*cur>limit))) => (numbers<:INTEGER) & (cur:NATURAL1) & (limit:NATURAL1)
+6.974287733333333E7,4.8417190666666664E7,6.160106E7,7.035003066666667E7:not((numbers<:INTEGER) & (cur:NATURAL1) & (limit:NATURAL1)) & not((cur*cur>limit))

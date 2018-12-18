@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter12/Team.mch
+5.0696903333333336E7,4.9602513333333336E7,7.6083139E7,1.0241416366666667E8:not((pp:1..22)) => not((team<:1..22) & (card(team)=11))

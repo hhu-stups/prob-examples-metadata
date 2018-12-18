@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/RenameParameterTests/Decomposition/CompMain0.mch
+4.8380523666666664E7,4.8686731E7,5.9091313333333336E7,5.5844182333333336E7:(not(x:NATURAL) => y mod 2=0 => x:NATURAL)

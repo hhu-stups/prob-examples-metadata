@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Daniel/ltl_until.mch
+5.2792863E7,6.5311448E7,5.9248735333333336E7,1.0852478733333333E8:(full_length=3) & (a:STATES+->BOOL) & (b:STATES+->BOOL) & (full_length/:dom(a)) & (full_length/:dom(b)) & COMPLETION(a,c)&COMPLETION(b,d) => FULL_UNTIL(c,d)
+5.6444561333333336E7,5.9986888E7,5.0278251333333336E7,1.0212097033333333E8:not((full_length=3) & (a:STATES+->BOOL) & (b:STATES+->BOOL) & (full_length/:dom(a)) & (full_length/:dom(b))) => COMPLETION(a,c)&COMPLETION(b,d) => not(FULL_UNTIL(c,d))
+5.7087427E7,5.6023604333333336E7,4.1659184666666664E7,9.848303133333333E7:(full_length=3) & (a:STATES+->BOOL) & (b:STATES+->BOOL) & (full_length/:dom(a)) & (full_length/:dom(b)) & not(FULL_UNTIL(c,d))

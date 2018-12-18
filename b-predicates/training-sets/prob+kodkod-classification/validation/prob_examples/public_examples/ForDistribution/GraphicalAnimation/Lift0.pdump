@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/GraphicalAnimation/Lift0.mch
+1.7326293133333334E8,9.4549966E7,-1.0,6.8090037E7:not((topf:INTEGER) & (groundf:INTEGER) & (groundf=-1) & (topf=2) & (groundf<topf) & (cur_floor:groundf..topf) & (door_open:BOOL) & (call_buttons:POW(groundf..topf)) & (direction_up:BOOL) & (door_open=TRUE => cur_floor:call_buttons)) => not((door_open=TRUE))

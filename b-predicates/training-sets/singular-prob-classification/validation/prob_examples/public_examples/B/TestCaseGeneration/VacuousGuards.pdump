@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/VacuousGuards.mch
+4.7598977E7,4.8095688E7,5.9927686E7,5.6124246E7:x:INTEGER & x<10&y<10

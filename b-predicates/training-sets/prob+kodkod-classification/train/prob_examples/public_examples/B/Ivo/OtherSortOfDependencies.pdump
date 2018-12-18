@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/OtherSortOfDependencies.mch
+1.5044382866666666E8,9.986165133333333E7,7.892789303333334E8,1.070192003E9:not((S={0,1,2,3}) & (x:S) & (y:S)) => not((x+y<3) & (y<2))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Beauger2/bug_not_labels_corrected.mch
+7.515641466666667E7,6.1246848333333336E7,1.50568425E8,5.8973584333333336E7:(aa=0) & (aa=0) & (not(aa=1) => aa<2) & (aa<3) & aa=1

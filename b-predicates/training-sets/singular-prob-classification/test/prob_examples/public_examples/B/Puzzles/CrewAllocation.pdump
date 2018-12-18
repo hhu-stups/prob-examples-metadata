@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/CrewAllocation.mch
+4.6317482E7,7.848465466666667E7,-1.0,9.3028054E7:(male:PERSONNEL-->BOOL) & (speaks:PERSONNEL<->LANGUAGE) & (ran(male)=BOOL) & (ran(speaks)=LANGUAGE) & (male={(tom,TRUE),(david,TRUE),(jeremy,TRUE),(carol,FALSE),(janet,FALSE),(tracy,FALSE)}) & (speaks={(tom,german),(david,french),(jeremy,german),(carol,spanish),(janet,french),(tracy,spanish)}) & not((assign:FLIGHTS<->PERSONNEL)) & (f:FLIGHTS)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/Consts_Eboc.mch
+5.8057406E7,6.5690918666666664E7,7.591121266666667E7,7.527144333333333E7:(c1<c2) & (not((c1=2 => x/=150) & (x>=-5000) & (x<=5000)) => not((xx>c2 => (c1=2 => xx+x+c1/=150)) & (xx>c2 => xx+x+c1<=5000) & (xx>c2 => xx+x+c1>=-5000)))

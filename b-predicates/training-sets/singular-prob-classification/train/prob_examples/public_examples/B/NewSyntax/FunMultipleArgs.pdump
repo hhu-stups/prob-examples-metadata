@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/NewSyntax/FunMultipleArgs.mch
+9.1334426E7,7.897845633333333E7,1.0167775766666667E8,5.3841367333333336E7:(f:AA*NAT+->NAT)
+4.8624177E7,5.0847271333333336E7,-1.0,7.177970466666667E7:(f:AA*NAT+->NAT) & not((xx:AA) & (yy:NAT) & ((xx,yy):dom(f)))

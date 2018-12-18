@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/PartialEnumeratedSet.mch
+5.6929609E7,6.311778E7,8.662447033333333E7,5.7026083333333336E7:not((iv:ID) & (card(ID)=2) & (xx:ID)) => (yy:ID)

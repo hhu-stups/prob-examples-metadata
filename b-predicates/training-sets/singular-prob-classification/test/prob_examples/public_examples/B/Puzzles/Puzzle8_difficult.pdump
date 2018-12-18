@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Puzzle8_difficult.mch
+-1.0,-1.0,-1.0,-1.0:(dim:NATURAL1) & (dim=3) & (nmax:NATURAL1) & (nmax=dim*dim-1) & (INV) & (not((i:1..dim-1) & (j:1..dim) & (board((i,j))=0) & (x:1..nmax) & (board((i+1,j))=x)) => (i:1..dim) & (j:1..dim-1) & (board((i,j))=0) & (x:1..nmax) & (board((i,j+1))=x))

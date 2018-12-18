@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/ABCD/Refinements/TravelAgency1.mch
+5.2749445333333336E7,5.7399757666666664E7,-1.0,1.3239400066666667E8:msg_hotel_request:HOTEL-->FIN(SESSION*USER*REQUEST) & msg_hotel_request:HOTEL-->FIN(SESSION*USER*REQUEST)
+4.9609567666666664E7,7.1930958E7,7.1909633E7,7.4544861E7:(not(ss2:dom(session_user)&session_card(ss2)/=valid => session_response(ss2)=undef) => ss2:dom(session_user)&session_card(ss2)/=valid => session_response(ss2)=undef)
+4.6521698E7,6.4413522E7,7.7296119E7,7.4637308E7:session_user:SESSION+->USER & not(session_user:SESSION+->USER)

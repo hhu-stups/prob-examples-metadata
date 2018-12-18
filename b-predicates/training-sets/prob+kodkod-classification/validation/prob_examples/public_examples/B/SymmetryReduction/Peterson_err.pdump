@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/Peterson_err.mch
+-1.0,-1.0,-1.0,-1.0:not((N:NATURAL1) & (N>1) & (card(PID)=N) & (i:PID) & (P(i)=L0)) => (P:PID-->label_t) & (Q:PID-->0..N) & (turn:1..N+->PID) & (localj:PID+->0..N) & (not(#i1,i2.(i1:PID&i2:PID&not(i1=i2)&P(i1)=L4&P(i2)=L4)))
+-1.0,-1.0,-1.0,-1.0:not((N:NATURAL1) & (N>1) & (card(PID)=N) & (P:PID-->label_t) & (Q:PID-->0..N) & (turn:1..N+->PID) & (localj:PID+->0..N) & (not(#i1,i2.(i1:PID&i2:PID&not(i1=i2)&P(i1)=L4&P(i2)=L4)))) => (i:PID) & (P(i)=L3)
+1.4228447856666667E9,5.46786874E8,-1.0,1.0152458633333334E9:(N:NATURAL1) & (N>1) & (card(PID)=N) & not((P:PID-->label_t) & (Q:PID-->0..N) & (turn:1..N+->PID) & (localj:PID+->0..N) & (not(#i1,i2.(i1:PID&i2:PID&not(i1=i2)&P(i1)=L4&P(i2)=L4)))) & (i:PID) & (P(i)=L3)
+-1.0,-1.0,-1.0,-1.0:not((N:NATURAL1) & (N>1) & (card(PID)=N) & not((P:PID-->label_t) & (Q:PID-->0..N) & (turn:1..N+->PID) & (localj:PID+->0..N) & (not(#i1,i2.(i1:PID&i2:PID&not(i1=i2)&P(i1)=L4&P(i2)=L4))))) => (i:PID) & (P(i)=L1)
+9.9137537E7,7.965822066666667E7,-1.0,3.03317459E8:not((N:NATURAL1) & (N>1) & (card(PID)=N) & (P:PID-->label_t) & (Q:PID-->0..N) & (turn:1..N+->PID) & (localj:PID+->0..N) & (not(#i1,i2.(i1:PID&i2:PID&not(i1=i2)&P(i1)=L4&P(i2)=L4)))) => not((i:PID) & (P(i)=L2))
+-1.0,-1.0,-1.0,-1.0:(N:NATURAL1) & (N>1) & (card(PID)=N) & (P:PID-->label_t) & (Q:PID-->0..N) & (turn:1..N+->PID) & (localj:PID+->0..N) & (not(#i1,i2.(i1:PID&i2:PID&not(i1=i2)&P(i1)=L4&P(i2)=L4))) & (i:PID) & (P(i)=L3) & (i:PID) & (P(i)=L2)
+-1.0,-1.0,-1.0,-1.0:(N:NATURAL1) & (N>1) & (card(PID)=N) & (P:PID-->label_t) & (Q:PID-->0..N) & (turn:1..N+->PID) & (localj:PID+->0..N) & (not(#i1,i2.(i1:PID&i2:PID&not(i1=i2)&P(i1)=L4&P(i2)=L4))) & (i:PID) & (P(i)=L1) & (i:PID) & (P(i)=L2)

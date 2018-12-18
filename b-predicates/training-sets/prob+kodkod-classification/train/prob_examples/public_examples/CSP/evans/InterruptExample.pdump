@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/CSP/evans/InterruptExample.mch
+5.43581E7,4.8522721E7,8.930164933333333E7,5.9523304666666664E7:(iv:ID) & (xx:ID) & (yy:ID)
+5.5422434E7,6.8060936E7,1.1531803933333333E8,5.5392006666666664E7:(iv:ID) & (not((xx:ID)) => not((xx:ID)))

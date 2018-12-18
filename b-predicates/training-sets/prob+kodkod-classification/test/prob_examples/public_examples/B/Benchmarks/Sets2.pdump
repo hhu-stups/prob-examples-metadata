@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Sets2.mch
+5.3587703666666664E7,4.9471864E7,1.0379313366666667E8,6.0103663E7:(xx:POW(setX)) & (sss<:POW(setX)) & (sss-{xx}={}) & (sss={{x1,x2}})
+4.8313127E7,6.2779910666666664E7,-1.0,1.36538196E8:(xx:POW(setX)) & (xx-ss={x1,x2}) & (ss:POW(setX)) & (card(ss)=1) & not((xx/\ss={x1,x2}) & (ss:POW(setX)) & (card(ss)=2))
+5.847013086666666E8,4.8234765E7,6.2640996333333336E7,8.066237333333334E8:(not(xx:POW(setX)) => xx-ss={x1,x2}&card(ss)=1)
+4.7475287666666664E7,4.7973675E7,7.0623227E7,5.9953736666666664E7:(xx:POW(setX)) & (sss-{xx}={}&sss={{x1,x2}})

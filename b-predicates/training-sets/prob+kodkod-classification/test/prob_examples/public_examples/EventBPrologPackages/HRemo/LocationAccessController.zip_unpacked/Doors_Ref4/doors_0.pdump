@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/HRemo/LocationAccessController.zip_unpacked/Doors_Ref4/doors_0.bcm
+4.8282117666666664E7,7.6087888E7,-1.0,6.714899533333333E7:not((sit:P --> L) & (sit<:aut)) => not((p |-> l:aut) & (sit(p)/=l))
+4.8687639E7,7.9521146E7,-1.0,7.164856633333333E7:not((sit:P --> L) & (sit<:aut)) & (p |-> l:aut) & (sit(p)/=l)

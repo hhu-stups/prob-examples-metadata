@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Teaching/Automata.zip_unpacked/Automata/NFA_Delta1_ex1.bcm
+-1.0,-1.0,5.3291995666666664E7,-1.0:not((n>0) & (cur:1 .. n --> Symbols) & (cur[1 .. n - 1]<:Terminals) & (A:Z) & (A:NonTerminals<=>A=cur(n)) & (A:Final<=>cur(n):Terminals)) => (a:Terminals) & (B:delta(A |-> a))
+4.9350852333333336E7,5.5671279E7,-1.0,7.0576177E7:not(not((n>0) & (cur:1 .. n --> Symbols) & (cur[1 .. n - 1]<:Terminals) & (A:Z) & (A:NonTerminals<=>A=cur(n)) & (A:Final<=>cur(n):Terminals))) => not((a:Terminals) & (B:delta(A |-> a)))

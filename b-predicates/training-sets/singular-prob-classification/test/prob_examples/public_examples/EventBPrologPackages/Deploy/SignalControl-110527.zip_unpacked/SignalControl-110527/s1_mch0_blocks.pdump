@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Deploy/SignalControl-110527.zip_unpacked/SignalControl-110527/s1_mch0_blocks.bcm
+6.5776544E7,1.28979181E8,1.0372848366666667E8,2.903169463333333E8:not((OCC<:BLOCK)) => (ent_pnt/:OCC)
+8.099100233333333E7,6.2163398333333336E7,2.1166723786666667E9,5.2127858E7:not((OCC<:BLOCK)) => not((ent_pnt:OCC) & (p:PLATFORM \ OCC))

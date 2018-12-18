@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tickets/PROB-323/PrintersFull.zip_unpacked/Printers/SinglePrinter.bcm
+9.024648566666667E7,9.196239233333333E7,6.900458466666667E7,9.867774833333333E7:not((job<:JOB) & (position:job >-> POSITION) & (document:job --> DOCUMENT) & (finite(ran(position)))) & not((j:job) & (position(j)=min(ran(position))))

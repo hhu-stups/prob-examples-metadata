@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/B_Day/Parking_R2.mch
+5.250691E7,5.6031799333333336E7,6.986090866666667E7,7.411941133333333E7:(NbPlaces:NAT) & (feu:COULEUR_FEU) & (cc=0&feu=vert => VehiculesPres<NbPlaces) & (cc=0&feu=rouge => VehiculesPres=NbPlaces) & (VehiculesPres:0..NbPlaces) & (cc:-1..1) & ((cc=-1) => not((VehiculesPres>0) & (cc=0)))

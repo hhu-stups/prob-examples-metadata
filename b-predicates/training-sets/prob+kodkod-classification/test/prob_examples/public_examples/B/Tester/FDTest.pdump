@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/FDTest.mch
+6.4742171333333336E7,6.3412789333333336E7,8.489871533333333E7,6.1646316666666664E7:(iv:ID) & (iv/=aa) & (iv/=bb) & (iv/=iw) & (iw:ID) & (iw/=bb) & (iw/=cc) & (iw/=aa) & not((xx:ID)) & (yy:ID) & (yy:{aa,bb,cc}) & (yy/:{aa,cc})
+5.7039120333333336E7,5.6703090333333336E7,8.54672E7,1.0546776466666667E8:(iv:ID) & (iv/=aa) & (iv/=bb) & (iv/=iw) & (iw:ID) & (iw/=bb) & (iw/=cc) & (iw/=aa) & (not((xx:ID)) => not((yy:{aa,bb,cc}&yy/:{aa,cc})))

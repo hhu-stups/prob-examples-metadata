@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Corinna/telefonbuch2.mch
+4.7212894E7,4.9522987666666664E7,-1.0,5.9974176666666664E7:not((NUMMERN<:NATURAL1) & (NUMMERN={100,101,102,230,240,516}) & (name:Namen) & (name/:dom(telefonbuch))) => (telefonbuch:Namen>+>NUMMERN)

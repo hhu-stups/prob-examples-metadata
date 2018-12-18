@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/DESYNC/DESYNC.zip_unpacked/DESYNC/Desync_Alg.bcm
+5.3430234333333336E7,5.6034104666666664E7,6.0961336666666664E7,1.21404405E8:not(not((t>=curTime) & (t<=curTime+cycleTime) & (card(sendTime~[{t}])>1) & (!m oftype Nodes.m:dom(sendTime)&sendTime(m)>=curTime=>sendTime(m)>=t))) => not((curTime:NAT) & (sendTime:Nodes +-> NAT) & (prevTime:NAT) & (prevprevTime:NAT) & (prevNode:Nodes))

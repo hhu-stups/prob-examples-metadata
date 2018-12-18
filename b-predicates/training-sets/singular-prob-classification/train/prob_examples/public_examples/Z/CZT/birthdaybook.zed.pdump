@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/Z/CZT/birthdaybook.zed.mch
+4.9410007666666664E7,3.880452953333333E8,-1.0,1.0946934433333333E8:(birthday:NAME+->DATE) & (known:POW(NAME)) & (known=dom(birthday)) & (today__in:DATE) & (known=dom(birthday))
+6.2613013666666664E7,6.9714708E7,-1.0,1.48288736E8:(birthday:NAME+->DATE) & (known:POW(NAME)) & (known=dom(birthday)) & (today__in:DATE) & (known=dom(birthday)) & not((date__in:DATE) & (name__in:NAME) & (known=dom(birthday)) & (name__in/:known))
+5.7544351666666664E7,8.542822833333333E7,7.691504166666667E7,1.0218829766666667E8:(not(birthday:NAME+->DATE) => name__in:1..5&known=dom(birthday)&name__in:known&!known__prime,birthday__prime,date__out__prime.(known__prime=known&birthday__prime=birthday&date__out__prime=birthday(name__in) => (date__out__prime:10..15&known__prime:POW(1..5)&birthday__prime:1..5+->10..15&known__prime=dom(birthday__prime) => birthday__prime:1..5+->10..15)))

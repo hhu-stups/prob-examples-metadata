@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/Tester/TotalFunTest3.mch
+2.810280323333333E8,9.966150933333333E7,-1.0,1.5065051233333334E8:(f:POW(ID)-->>ID) & (!yy.(yy:ID => f({yy})=yy)) & (xx:ID) & (yy:POW(ID)) & (yy:dom(f)) & (card(yy)=1)
+-1.0,-1.0,1.2375821933333333E8,-1.0:not((f:POW(ID)-->>ID) & (!yy.(yy:ID => f({yy})=yy)) & (xx:ID)) => (yy:POW(ID)) & (yy:dom(f)) & (card(yy)=1)
+-1.0,-1.0,-1.0,-1.0:(f:POW(ID)-->>ID) & (!yy.(yy:ID => f({yy})=yy)) & (xx:ID) & not((yy:POW(ID)) & (yy:dom(f)) & (card(yy)=1))
+5.5215238666666664E7,5.4840074333333336E7,8.0586831E7,6.6964963666666664E7:not((f:POW(ID)-->>ID) & (!yy.(yy:ID => f({yy})=yy)) & not((yy:POW(ID)) & (yy:dom(f)))) => (xx:ID)
+1.6071731833333334E8,1.46173849E8,1.0610508966666667E8,1.5797392966666666E8:not((f:POW(ID)-->>ID) & (!yy.(yy:ID => f({yy})=yy)) & not((xx:ID))) => not((yy:POW(ID)) & (yy:dom(f)))
+-1.0,-1.0,-1.0,-1.0:not((f:POW(ID)-->>ID) & (!yy.(yy:ID => f({yy})=yy)) & not((yy:POW(ID)) & (yy:dom(f)))) => not((xx:ID))
+5.9187158666666664E7,8.542468966666667E7,-1.0,9.844561933333333E7:not((f:POW(ID)-->>ID) & (!yy.(yy:ID => f({yy})=yy)) & (yy:POW(ID)) & (yy:dom(f))) => not((xx:ID))

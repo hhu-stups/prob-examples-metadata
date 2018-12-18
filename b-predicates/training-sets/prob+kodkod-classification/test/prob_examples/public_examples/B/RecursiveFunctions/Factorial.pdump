@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/RecursiveFunctions/Factorial.mch
+-1.0,-1.0,-1.0,-1.0:(fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1))) & fac(4)=24
+-1.0,-1.0,6.5963043666666664E7,-1.0:not((fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1)))) => fac(20)=2432902008176640000
+-1.0,-1.0,-1.0,-1.0:not((fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1)))) => (fac(4)=24) & (fac(20)=2432902008176640000) & (!x.(x:2..20 => fac(x)=x*fac(x-1))) & (x:2..20 => fac(x)=x*fac(x-1)) & (x:2..20) & (fac(x)=x*fac(x-1))

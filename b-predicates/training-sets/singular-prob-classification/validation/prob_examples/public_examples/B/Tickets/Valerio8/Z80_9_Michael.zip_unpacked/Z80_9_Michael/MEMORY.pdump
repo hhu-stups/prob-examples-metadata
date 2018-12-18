@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Valerio8/Z80_9_Michael.zip_unpacked/Z80_9_Michael/MEMORY.mch
+5.5563234333333336E7,7.038937433333333E7,6.819617233333333E7,7.5932421E7:(PROGRAM_R_ADR=USHORT) & (DATA_R_ADR=USHORT) & (STACK_R_ADR=USHORT) & (mem:BV16-->BYTE) & not((NewValues:BV16+->BYTE))

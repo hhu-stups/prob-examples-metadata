@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/DisjunctionInProperties.mch
+5.6344409E7,6.1343555E7,2.3668631366666666E8,6.5428269E7:not((x:1..10) & (y:20..40) & (z=x&mutant=1 or z=y) & (mutant=2) & (x=y)) => (v:NATURAL) & (v<999)

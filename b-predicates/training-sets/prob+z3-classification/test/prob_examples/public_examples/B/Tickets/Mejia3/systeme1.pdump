@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Mejia3/systeme1.mch
+4.9570945333333336E7,5.7356967666666664E7,6.3003915333333336E7,5.9801808666666664E7:(not(xx1:0..10) => not(out1:0..10&out2:0..10&!xx1p,yy1p.(xx1p:0..10&yy1p:0..10 => xx1p:0..10)))

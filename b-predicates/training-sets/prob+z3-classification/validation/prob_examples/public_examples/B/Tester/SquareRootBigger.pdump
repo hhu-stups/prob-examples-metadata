@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/SquareRootBigger.mch
+1.4020518966666666E8,9.2214753E7,-1.0,5.4078478333333336E7:not((x:1..100000) & (x*x=y) & (y:12164000..12196000)) => (yy:-3000..30000) & (yy*yy=y)

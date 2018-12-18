@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Hanoi8Sym.mch
+-1.0,-1.0,-1.0,-1.0:(dest:Stakes) & (nrdiscs=DISCS) & (on:Stakes-->seq(INTEGER)) & (from:Stakes) & (on(from)/=[]) & (to:Stakes) & (to/=from) & (disc:NATURAL1) & (disc=first(on(from))) & (on(to)/=[] => first(on(to))>disc)

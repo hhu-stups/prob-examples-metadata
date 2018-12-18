@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROB-320/Hierarchical_temp.mch
+4.861249E7,6.4160556333333336E7,-1.0,6.0074026666666664E7:not(not((RH<:Roles*Roles))) => not((rasc:ROLES) & (rdesc:ROLES) & (rdesc:Roles) & (rasc/:Roles))
+-1.0,-1.0,6.4036541666666664E7,-1.0:(RH<:Roles*Roles) & (rasc:ROLES) & (rdesc:ROLES) & (rdesc:Roles) & (rasc:Roles) & ((rasc,rdesc):RH) & (rasc:ROLES) & (rdesc:ROLES) & (rdesc:Roles) & (rasc/:Roles)
+5.5043335333333336E7,5.6070259E7,-1.0,9.471949366666667E7:(RH<:Roles*Roles) & (not((rasc:ROLES) & (rdesc:ROLES) & (rdesc:Roles) & (rasc:Roles) & ((rasc,rdesc):RH)) => (user:USERS) & (user:Users) & (sess:SESSIONS) & (sess:Sessions) & (role:ROLES) & (role:Roles) & (sess:User_sessions[{user}]) & (role/:Session_roles(sess)) & (#role_.(role_:Roles&((role_,role):closure1(RH) or role_=role)&(user,role_):UA)))

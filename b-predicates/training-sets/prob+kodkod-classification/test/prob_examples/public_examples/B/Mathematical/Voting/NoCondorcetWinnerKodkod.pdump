@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Voting/NoCondorcetWinnerKodkod.mch
+3.351408726666667E8,1.43154214E8,-1.0,1.383791077E9:(prefs:VOTERS*CHOICES-->ORDER) & (!v,a,b.(v:VOTERS&a:CHOICES&b:CHOICES&a/=b => prefs(v,a)/=prefs(v,b))) & (prefs((Anna,E))=1) & (prefs((Anna,F))=2) & (prefs((Anna,G))=3) & (!A.(A:CHOICES => NotWinner(A))) & (A:CHOICES) & (!B.(B:CHOICES&B/=A => prefered(B,A))) & (V:VOTERS) & (A:CHOICES) & (B:CHOICES) & (prefers(V,A,B))

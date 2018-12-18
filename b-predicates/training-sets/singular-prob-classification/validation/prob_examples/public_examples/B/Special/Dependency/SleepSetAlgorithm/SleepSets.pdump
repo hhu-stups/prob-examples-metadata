@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Special/Dependency/SleepSetAlgorithm/SleepSets.mch
+4.8461516333333336E7,6.3333076666666664E7,1.0915151056666667E9,4.5541848333333336E7:not((Indep:Labels<->Labels) & (Indep~=Indep) & (id(Labels)/\Indep={}) & (LTS2) & (CurOpsToTreat={}) & (Stack={})) => not((SleepTable:Nodes+->SLEEP) & (CurNode:Nodes) & (CurSleep:SLEEP) & (CurOpsToTreat:POW(Labels)) & (Stack:Nodes<->SLEEP) & (Finished:BOOL) & (Finished=TRUE => dom(SleepTable)=Nodes))
+5.5061308333333336E7,5.4731424666666664E7,-1.0,1.7271190666666666E8:(Indep:Labels<->Labels) & (Indep~=Indep) & (id(Labels)/\Indep={}) & (LTS2) & SleepTable:Nodes+->SLEEP & not(CurOpsToTreat={}&n:dom(Stack)&n:dom(SleepTable)&SleepTable<+{(n,Stack(n)/\SleepTable(n))}:Nodes+->POW(Labels))

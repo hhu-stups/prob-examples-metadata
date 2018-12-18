@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Corinna/Errors/symm_setv2.mch
+4.7542568E7,5.6035268333333336E7,7.722439233333333E7,7.343827233333333E7:(card(PERSON)=2) & (not((member<:PERSON)) => not((pp:member)))

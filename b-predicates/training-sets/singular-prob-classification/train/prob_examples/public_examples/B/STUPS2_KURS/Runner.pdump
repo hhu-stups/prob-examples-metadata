@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/Runner.mch
+5.0668827333333336E7,4.8396494333333336E7,-1.0,7.6615702E7:not((iv:POW(NAT)) & (iv=1..0) & (yy:ID)) => not((xx:ID))

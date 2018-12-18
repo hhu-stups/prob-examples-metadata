@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/RecursiveFunctions/RecursiveSigmaCHOOSEv2.mch
+-1.0,-1.0,-1.0,-1.0:not((sigma:POW(INTEGER)<->INTEGER) & (sigma={({},0)}\/{x,r|x:POW1(INTEGER)&#c.(c=CHOOSE(x)&r=c+sigma(x-{c}))})) => (y:{{},{8},{9},{8,9}}) & (sigma(y)<0)
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma={({},0)}\/{x,r|x:POW1(INTEGER)&#c.(c=CHOOSE(x)&r=c+sigma(x-{c}))}) & sigma({3,5,7})=15
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma={({},0)}\/{x,r|x:POW1(INTEGER)&#c.(c=CHOOSE(x)&r=c+sigma(x-{c}))}) & SIGMA(z).(z:1..1000|z)=500500
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma={({},0)}\/{x,r|x:POW1(INTEGER)&#c.(c=CHOOSE(x)&r=c+sigma(x-{c}))}) & not(z:1..1000)
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma={({},0)}\/{x,r|x:POW1(INTEGER)&#c.(c=CHOOSE(x)&r=c+sigma(x-{c}))}) & not(y:{{},{8},{9},{8,9}} => sigma(y)>=0)
+-1.0,-1.0,-1.0,-1.0:not((sigma:POW(INTEGER)<->INTEGER) & (sigma={({},0)}\/{x,r|x:POW1(INTEGER)&#c.(c=CHOOSE(x)&r=c+sigma(x-{c}))})) => sigma(y)>=0
+-1.0,-1.0,-1.0,-1.0:not((sigma:POW(INTEGER)<->INTEGER) & (sigma={({},0)}\/{x,r|x:POW1(INTEGER)&#c.(c=CHOOSE(x)&r=c+sigma(x-{c}))})) => (sigma({3,5,7})=15) & (sigma(1..1000)=500500) & (SIGMA(z).(z:1..1000|z)=500500) & (z:1..1000) & (sigma(1..100)=SIGMA(z).(z:1..100|z)) & (z:1..100) & (!y.(y:{{},{8},{9},{8,9}} => sigma(y)>=0)) & (y:{{},{8},{9},{8,9}} => sigma(y)>=0) & (y:{{},{8},{9},{8,9}}) & (sigma(y)>=0)

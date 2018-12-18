@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/Corinna/fahrzeug_inhaber2.mch
+-1.0,-1.0,5.4232711E7,-1.0:(person_familie:PERSON-->FAMILIE) & (kfz_marke:KFZ-->MARKE) & (fahrzeug_besitzer:KFZ+->PERSON) & not((name:PERSON))
+6.5349069E7,6.2760751E7,8.3426577E7,6.2665953E7:not((person_familie:PERSON-->FAMILIE) & (kfz_marke:KFZ-->MARKE) & (fahrzeug_besitzer:KFZ+->PERSON)) => (familie:FAMILIE) & (marke:MARKE)
+-1.0,-1.0,6.3461491666666664E7,-1.0:(person_familie:PERSON-->FAMILIE) & (kfz_marke:KFZ-->MARKE) & (fahrzeug_besitzer:KFZ+->PERSON) & ((name:PERSON) => not((name:PERSON) & (marke:MARKE)))
+-1.0,-1.0,7.9882365E7,-1.0:(person_familie:PERSON-->FAMILIE) & (kfz_marke:KFZ-->MARKE) & (fahrzeug_besitzer:KFZ+->PERSON) & (name:PERSON) & not((familie:FAMILIE) & (marke:MARKE))
+-1.0,-1.0,7.166649266666667E7,-1.0:(person_familie:PERSON-->FAMILIE) & (kfz_marke:KFZ-->MARKE) & (fahrzeug_besitzer:KFZ+->PERSON) & (name:PERSON) & (marke:MARKE) & not((familie:FAMILIE) & (marke:MARKE))
+5.2157074666666664E7,8.868616166666667E7,-1.0,1.0231564166666667E8:(person_familie:PERSON-->FAMILIE) & (kfz_marke:KFZ-->MARKE) & (fahrzeug_besitzer:KFZ+->PERSON) & ((name:PERSON) & (marke:MARKE) => not((name:PERSON) & (kfz:KFZ) & ((kfz,name)/:fahrzeug_besitzer) & (kfz/:dom(fahrzeug_besitzer))))
+-1.0,-1.0,-1.0,-1.0:person_familie:PERSON-->FAMILIE & not(name:ran(fahrzeug_besitzer) => person_familie:PERSON-->FAMILIE&(not(name:ran(fahrzeug_besitzer)) => (TRUE:BOOL => person_familie:PERSON-->FAMILIE)))
+-1.0,-1.0,1.7728953733333334E8,-1.0:fahrzeug_besitzer:KFZ+->PERSON & not((familie,marke):((person_familie~;fahrzeug_besitzer~);kfz_marke) => fahrzeug_besitzer:KFZ+->PERSON&(not((familie,marke):((person_familie~;fahrzeug_besitzer~);kfz_marke)) => (TRUE:BOOL => fahrzeug_besitzer:KFZ+->PERSON)))
+5.0675415E7,6.909137433333333E7,-1.0,7.451981166666667E7:(not(person_familie:PERSON-->FAMILIE) => not((kfz,name)/:fahrzeug_besitzer&kfz/:dom(fahrzeug_besitzer)&person_familie:PERSON-->FAMILIE))

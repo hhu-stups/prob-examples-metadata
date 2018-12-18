@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/TestPrioritiesAndAssociativity.mch
+5.1618039666666664E7,4.7880320666666664E7,6.8411609E7,5.686163E7:not(1=2 => 1=1 => 1=2) & not(1=2)

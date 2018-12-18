@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Hansen16/BecomeElementGuard.mch
+5.3616362E7,5.0174420333333336E7,6.1302767666666664E7,5.2315335E7:(not(x:INT) => !x.(x:{} => x:INT))

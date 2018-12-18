@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter12/List.mch
+1.79924556E8,4.8259629E7,-1.0,5.548301E7:(list:seq(ELEMENT)) & ((ee:ELEMENT) => not((list/=[])))
+-1.0,-1.0,-1.0,-1.0:list:seq(ELEMENT) & not(ee:ELEMENT&list<-ee:seq(ELEMENT))

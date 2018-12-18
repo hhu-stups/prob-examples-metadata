@@ -1,0 +1,13 @@
+#source:examples/prob_examples/public_examples/B/Implementations/FTP/FileTransfer0.mch
+6.5799754666666664E7,5.5671232333333336E7,8.912097E7,6.0483529333333336E7:not((empty:DATA) & (sender:DATA) & (receiver:DATA) & (finished:BOOL) & (finished=TRUE => sender=receiver)) => (d:DATA)
+6.3982205333333336E7,6.0620628E7,8.951866966666667E7,5.9995292E7:not((empty:DATA) & (d:DATA)) => (sender:DATA) & (receiver:DATA) & (finished:BOOL) & (finished=TRUE => sender=receiver)
+-1.0,-1.0,7.6100017E7,-1.0:(empty:DATA) & not((sender:DATA) & (receiver:DATA) & (finished:BOOL) & (finished=TRUE => sender=receiver)) & not((d:DATA))
+6.801209333333333E7,8.552689133333333E7,1.0252027666666667E8,1.01854968E8:not((empty:DATA) & not((sender:DATA) & (receiver:DATA) & (finished:BOOL) & (finished=TRUE => sender=receiver))) => not((d:DATA))
+5.0637212E7,5.5139390666666664E7,3.145906803333333E8,6.2783333E7:not((empty:DATA) & (d:DATA)) => not((sender:DATA) & (receiver:DATA) & (finished:BOOL) & (finished=TRUE => sender=receiver))
+4.3914034E7,1.54892928E8,-1.0,8.108568366666667E7:not((empty:DATA) & not((finished=FALSE))) => (sender:DATA) & (receiver:DATA) & (finished:BOOL) & (finished=TRUE => sender=receiver)
+6.2794763666666664E7,9.752865E7,1.4258798733333334E8,5.1162860666666664E7:(empty:DATA) & (not(sender:DATA) => not(sender:DATA))
+-1.0,-1.0,8.785677266666667E7,-1.0:(empty:DATA) & (sender:DATA) & (receiver:DATA) & (finished:BOOL) & (finished=TRUE => sender=receiver) & not((receiver:DATA) & (FALSE=TRUE => d=receiver) & (finished:BOOL) & (sender:DATA))
+5.0021957E7,1.2323524733333333E8,6.9772513E7,7.638161733333333E7:(empty:DATA) & finished=TRUE => sender=receiver & not(finished=FALSE&(finished=TRUE => sender=receiver))
+2.974871783333333E8,1.5163187533333334E8,-1.0,6.772292766666667E7:(empty:DATA) & (not(finished=TRUE => sender=receiver) => not(finished=FALSE&(finished=TRUE => sender=receiver)))
+5.5362719666666664E7,6.6018241333333336E7,9.0135391E7,6.5659233666666664E7:(empty:DATA) & finished:BOOL & not(finished=FALSE)
+5.5219149333333336E7,5.4896483E7,7.462764633333333E7,6.2728274666666664E7:(empty:DATA) & (not(sender:DATA) => finished=FALSE)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROB-406/X2.mch
+5.5322491E7,4.8400382333333336E7,9.275739633333333E7,5.3623113333333336E7:(not(v2:INT) => !vv.(vv:INTEGER => v2:INT))

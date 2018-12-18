@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/FeatureTests/TheoremsInGuards.zip_unpacked/CamilleTests/ComplicatedTheoremInGuard.bcm
+9.281474503333334E8,7.721061E7,7.61338622E8,1.192911869E9:(x:INT) & not((x:NAT) & (x>=0))

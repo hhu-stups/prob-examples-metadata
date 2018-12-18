@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/water.mch
+7.999606666666667E7,7.195924366666667E7,9.699550433333333E7,1.2022173566666667E8:not((three:0..3) & (five:0..5)) & (five>0)

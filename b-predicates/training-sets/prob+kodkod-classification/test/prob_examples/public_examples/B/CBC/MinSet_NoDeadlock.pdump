@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/CBC/MinSet_NoDeadlock.mch
+4.7675033666666664E7,7.747761333333333E7,6.5116404333333336E7,5.2512799666666664E7:(NN>=0) & (II<:0..NN) & (NN<4) & (ss<:0..NN) & (ww:0..NN) & (zz:0..NN) & (ww:ss) & not((ss={ww} => ww:0..NN) & (ss={ww} => ww:ss) & (ss={ww} => ss<:0..NN) & (ss={ww} => ww:0..NN))

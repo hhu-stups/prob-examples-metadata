@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Demo/RussianPostalPuzzle2.mch
+-1.0,-1.0,-1.0,-1.0:(not(has_keys:PERSONS-->POW(KeyIDs)) => person=hasbox&keyid:has_keys(person)&has_keys:PERSONS-->POW(KeyIDs))

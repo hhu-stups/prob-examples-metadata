@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/CSPB/trafficLight/myMachine.mch
+4.8819965E7,5.0639004666666664E7,5.9996921666666664E7,5.5954578333333336E7:not((d:NAT) & (d>0) & not((nn:NAT) & (nn<=d))) => (0<nn)
+4.8761694333333336E7,4.811685E7,5.9937230666666664E7,5.5995714666666664E7:not((d:NAT) & (d>0) & not((nn:NAT) & (nn<=d))) => not((nn<d))
+5.3958747E7,5.4700741E7,6.0033309333333336E7,7.5904019E7:(d:NAT) & (d>0) & (nn:NAT) & (nn<=d) & not((nn<d&nn+1<=d) & (nn<d&nn+1:NAT))

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Theories/FiniteSequences2.mch
+6.0080987333333336E7,8.1066617E7,8.3486804E7,6.4777138333333336E7:not((yy:ID)) => (s:SEQ(ID))
+2.6556009666666666E8,7.625699666666667E7,-1.0,2.29923698E8:(s:SEQ(ID)) & {(2,aa)}/:SEQ(ID)

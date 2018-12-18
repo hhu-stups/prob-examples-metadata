@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/Partition_internal_saved.mch
+8.11583861E8,7.65691596E8,-1.0,8.523128766666666E8:(A:POW(ID)) & (B:POW(ID)) & (C:POW(ID)) & (ID=A\/B\/C) & (A/\B={}) & (A/\C={}) & (B/\C={}) & (aa:A) & (bb:B) & (card(C)>card(A)) & not(card({A,B,C|A:POW(ID)&B:POW(ID)&C:POW(ID)&({aa,bb}=A\/B\/C&A/\B={}&A/\C={}&B/\C={})})=9)

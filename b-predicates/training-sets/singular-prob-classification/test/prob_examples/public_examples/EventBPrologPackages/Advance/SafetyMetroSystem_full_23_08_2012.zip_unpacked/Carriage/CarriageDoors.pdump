@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/SafetyMetroSystem_full_23_08_2012.zip_unpacked/Carriage/CarriageDoors.bcm
+-1.0,-1.0,6.4022480333333336E7,-1.0:(carriage_door<:DOOR) & (carriage_ds:carriage_door --> DOOR_STATE) & not(carriage_door:POW(DOOR))

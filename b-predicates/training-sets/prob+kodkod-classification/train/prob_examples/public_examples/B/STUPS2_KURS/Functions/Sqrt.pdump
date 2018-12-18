@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/Functions/Sqrt.mch
+8.482072566666667E7,8.9594587E7,1.4444725566666666E8,7.725884666666667E7:(x:NAT)
+1.95283981E8,6.5083765333333336E7,-1.0,6.6057655E7:(f:NAT-->NAT) & (!x.(x:NAT => f(x)*f(x)<=x&f(x)+1*f(x)+1>x)) & x:NAT & f(x):NAT
+6.4538281333333336E7,6.0110321E7,-1.0,6.3664427333333336E7:(f:NAT-->NAT) & (!x.(x:NAT => f(x)*f(x)<=x&f(x)+1*f(x)+1>x)) & (not((x:NAT)) => not((f(x):NAT)))

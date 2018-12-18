@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/LessSimple/GraphColouring/GraphColouringNAT.mch
+5.5256957E7,6.000649E7,8.944230966666667E7,9.7463744E7:not((Vertexes=Vtx) & (Edges=Edge) & (Edges:Vertexes<->Vertexes) & (maxnocol:1..6) & (colour:Vertexes-->1..maxnocol) & (!x,y.((x,y):Edges => colour(x)/=colour(y))) & (colour(1)=1)) => not((yy:Vertexes))

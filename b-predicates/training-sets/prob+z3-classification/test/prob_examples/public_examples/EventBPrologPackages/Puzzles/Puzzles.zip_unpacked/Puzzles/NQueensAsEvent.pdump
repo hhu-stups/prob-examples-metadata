@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Puzzles/Puzzles.zip_unpacked/Puzzles/NQueensAsEvent.bcm
+1.2470509926666667E9,2.3081256833333334E8,9.212773E7,1.8317764666666666E8:not((queens:1 .. n +-> 1 .. n) & (n:NAT)) => not((q:1 .. n >->> 1 .. n) & (!q1 oftype INT,q2 oftype INT.q1:1 .. n&q2:2 .. n&q2>q1=>q(q1)+q2 - q1/=q(q2)&q(q1) - q2+q1/=q(q2)))

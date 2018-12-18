@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROB-83/Time.mch
+-1.0,-1.0,6.2221879E7,-1.0:not((Time=%b,n.(b=FALSE|n)\/%b,n.(b=TRUE|n+1)) & (b=FALSE) & (b=TRUE) & not((CLK:BOOL))) => (cnt:NATURAL)
+4.7735818666666664E7,5.1015193333333336E7,6.3231597666666664E7,4.8953781333333336E7:(Time=%b,n.(b=FALSE|n)\/%b,n.(b=TRUE|n+1)) & (b=FALSE) & (b=TRUE) & not((cnt:NATURAL)) & (CLK:BOOL)

@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Space InPath/phonebook7.mch
+2.8944011666666665E9,4.890621799E9,1.2190505066666667E8,6.775924533333333E7:(db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec)
+1.3215083666666667E8,5.264909013E9,1.09267154E8,6.3380569E7:not(not((db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec))) => (nn:Name) & (cc:Code) & (nn/:active)
+4.9189914666666664E7,6.2910234666666664E7,7.345019233333333E7,6.7081622E7:not((db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec)) => not((nn:Name) & (nn:active))
+5.1498890333333336E7,8.291008006666666E8,4.1776588E7,8.768864133333333E7:not((db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec)) & not((nn:Name) & (nn:active))
+4.8798616666666664E7,6.915392866666667E7,-1.0,6.249852E7:(db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec) & ((nn:Name) & (cc:Code) & (nn/:active) => not((nn:Name) & (cc:Code) & (nn:active) & (cc:activec) & (db(nn)=cc)))

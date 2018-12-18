@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/MachineRenaming/Counter.mch
+7.699440466666667E7,4.9907556666666664E7,1.8802865933333334E8,5.6088278E7:not((cnt:NATURAL)) => (cnt>0)
+4.8862335333333336E7,4.8039372666666664E7,5.9986841333333336E7,4.9345544E7:not((cnt:NATURAL)) & (cnt>0)

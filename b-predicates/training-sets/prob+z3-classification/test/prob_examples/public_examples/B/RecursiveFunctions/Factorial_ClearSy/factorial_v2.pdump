@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/RecursiveFunctions/Factorial_ClearSy/factorial_v2.mch
+-1.0,-1.0,-1.0,-1.0:(fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn)) & not((nn:NAT))

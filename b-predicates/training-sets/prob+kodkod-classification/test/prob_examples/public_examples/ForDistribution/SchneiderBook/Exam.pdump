@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Exam.mch
+5.5199338E7,4.9445743E7,6.4036937666666664E7,6.1257789666666664E7:not((marks:CANDIDATE+->0..100)) => (cc:CANDIDATE) & (cc/:dom(marks)) & (nn:0..100)

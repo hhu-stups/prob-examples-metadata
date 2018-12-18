@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tester/ForAllSet.mch
+2.4914988633333334E8,7.911425066666667E7,-1.0,7.188991466666667E7:(xx:ID) & (!y.(y:f(y) => y=cc)) & (!z.(z:ran(f) => card(z)<=2)) & (!v,w.((v,{w}):f => v/=cc))
+7.267604833333333E7,6.3140152E7,-1.0,8.303541933333333E7:(f:ID-->POW(ID)) & (f={(aa,{bb}),(bb,{cc}),(cc,{aa,cc})}) & (xx:ID) & (!y.(y:f(y) => y=cc)) & (!z.(z:ran(f) => card(z)<=2)) & (!v,w.((v,{w}):f => v/=cc)) & (yy:f(xx))
+4.8719230666666664E7,5.6044370666666664E7,-1.0,1.3869058833333334E8:not((f:ID-->POW(ID)) & (f={(aa,{bb}),(bb,{cc}),(cc,{aa,cc})}) & (yy:f(xx))) => (xx:ID) & (!y.(y:f(y) => y=cc)) & (!z.(z:ran(f) => card(z)<=2)) & (!v,w.((v,{w}):f => v/=cc))

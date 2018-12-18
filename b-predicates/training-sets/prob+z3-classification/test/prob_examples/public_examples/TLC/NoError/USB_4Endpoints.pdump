@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLC/NoError/USB_4Endpoints.mch
+6.4982681333333336E7,5.5977882E7,6.4796578E7,6.3065189333333336E7:(ENDPOINTS=0..4) & (not(transfers<:TRANSFERS) => transfers<:TRANSFERS)

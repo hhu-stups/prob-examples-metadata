@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Convergence/convergenceerr.zip_unpacked/ConvergenceErr/variant_integer.bcm
+1.8572610866666666E8,8.907745866666667E7,8.124822766666667E7,1.5037976033333334E8:not((n:INT)) => (n>=0)

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/CSPB/RedSum/red_sum.mch
+-1.0,-1.0,-1.0,-1.0:(Index=1..3) & (Range=0..2) & aa:seq(Range) & not(!xx.(xx:seq(Range)&size(xx)=3 => aa:seq(Range)))
+4.9516538666666664E7,5.1913352E7,-1.0,1.10328671E8:(Index=1..3) & (Range=0..2) & (not(aa:seq(Range)) => not(!xx.(xx:seq(Range)&size(xx)=3 => aa:seq(Range))))

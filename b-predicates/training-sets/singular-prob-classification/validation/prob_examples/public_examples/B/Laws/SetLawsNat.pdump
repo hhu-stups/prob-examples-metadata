@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Laws/SetLawsNat.mch
+-1.0,-1.0,-1.0,-1.0:orderlaw7 & not(NAT<:SS&SS<<:TT => NAT<<:TT)

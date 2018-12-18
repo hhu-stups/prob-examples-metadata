@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Compilers/LLParsingTest.mch
+5.145361E7,6.0054564333333336E7,-1.0,3.333236483333333E8:(Rules:Symbols<->seq(Symbols)) & (NonTerminals=dom(Rules)) & (Terminals=Symbols-NonTerminals) & (Rules={(S,[a,S,a]),(S,[b,T,b])}) & (not(Follow:NonTerminals-->POW(Terminals)) => not(N:NonTerminals&t:Terminals&t/:Follow(N)&#s.(s:seq(Symbols)&s/=[]&s:ran(Rules))&Follow<+{(N,Follow(N)\/{t})}:NonTerminals-->POW(Terminals)))

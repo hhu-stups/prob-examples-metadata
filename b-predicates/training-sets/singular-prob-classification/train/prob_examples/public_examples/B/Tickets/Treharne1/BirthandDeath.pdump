@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Treharne1/BirthandDeath.mch
+5.8165799666666664E7,6.6052603333333336E7,6.5120036E7,6.1072663666666664E7:(male<:PERSON) & (female<:PERSON) & (male/\female={}) & not((nn:PERSON) & (ss:SEX) & (nn/:male\/female))
+4.8193791666666664E7,6.927219333333333E7,-1.0,5.3896518666666664E7:not((nn:PERSON) & (nn:male\/female)) => not((male<:PERSON) & (female<:PERSON) & (male/\female={}))
+-1.0,-1.0,6.4527968333333336E7,-1.0:(male<:PERSON) & (female<:PERSON) & (male/\female={}) & (nn:PERSON) & (ss:SEX) & (nn/:male\/female) & (nn:PERSON) & (nn:male\/female)
+4.7097679666666664E7,6.021925E7,6.4502034333333336E7,6.3896300333333336E7:(male<:PERSON) & (female<:PERSON) & (male/\female={}) & (nn:PERSON) & (ss:SEX) & (nn/:male\/female) & not((nn:PERSON) & (nn:male\/female))
+4.8407878E7,6.4042548333333336E7,6.796299566666667E7,6.0026627666666664E7:(not(male/\female={}) => not(nn:male\/female&(nn:male => male-{nn}/\female={}&(not(nn:male) => (TRUE:BOOL => male/\female-{nn}={})))))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/308/Dispenser.mch
+5.4945325E7,4.8548888E7,6.3949868666666664E7,5.5295136666666664E7:(not(given<=lifetime) => given<=lifetime)

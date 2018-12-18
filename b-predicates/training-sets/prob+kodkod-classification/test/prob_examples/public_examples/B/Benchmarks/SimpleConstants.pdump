@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/SimpleConstants.mch
+8.005368566666667E7,6.6573316666666664E7,8.5362787E7,6.0032773666666664E7:(nn:mynumbers)
+8.458440633333333E7,4.9177668666666664E7,-1.0,7.1231497E7:(mynumbers:FIN1(INT)) & (mynumbers={xx|xx:NAT&xx>0&xx<5}) & nn:mynumbers & nn:mynumbers

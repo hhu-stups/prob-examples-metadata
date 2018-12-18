@@ -1,0 +1,11 @@
+#source:examples/prob_examples/public_examples/B/Tester/permtest.mch
+4.7650682333333336E7,5.3405045333333336E7,-1.0,7.755963E7:not(not((bb:BOOKS))) => not((ff:seq(BOOKS)))
+1.0120509466666667E8,5.5061261666666664E7,-1.0,1.2262441566666667E8:not((ff:seq(BOOKS))) => (ff:perm(BOOKS))
+5.9522280333333336E7,5.4850643666666664E7,-1.0,1.1021308433333333E8:(ff:seq(BOOKS)) & not((ff:perm(BOOKS)))
+6.1475717666666664E7,6.0599908333333336E7,-1.0,1.28805835E8:not(not((ff:seq(BOOKS)))) => (ff:perm(BOOKS))
+5.4557915666666664E7,5.3228906E7,9.6038097E7,9.5068467E7:not(not((ff:perm(BOOKS)))) => not((ff:seq(BOOKS)))
+4.8789724333333336E7,5.0989934E7,-1.0,1.2162144833333333E8:not((ff:perm(BOOKS))) => not((ff:seq(BOOKS)))
+-1.0,-1.0,-1.0,-1.0:ff:seq(BOOKS) & not([bb]^ff:seq(BOOKS))
+5.8897270666666664E7,5.1306338E7,-1.0,6.7813489E7:(not(ff:seq(BOOKS)) => !ff.(ff:perm(BOOKS) => ff:seq(BOOKS)))
+-1.0,-1.0,-1.0,-1.0:ff:seq(BOOKS) & not(!rr.(rr:BOOKS-->BOOKS => ff:seq(BOOKS)))
+-1.0,-1.0,6.1765466666666664E7,-1.0:(ff:seq(BOOKS)) & not((!rr.(rr:BOOKS => ff:seq(BOOKS))))

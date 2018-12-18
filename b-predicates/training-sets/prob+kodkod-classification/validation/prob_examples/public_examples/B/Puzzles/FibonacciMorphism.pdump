@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/FibonacciMorphism.mch
+5.2940042E7,5.1726457E7,5.9299230333333336E7,5.0510962333333336E7:(fib:Alph-->seq(Alph)) & (fib(a)=[a,b]) & (fib(b)=[a]) & s:seq(Alph) & not(s:seq(Alph))

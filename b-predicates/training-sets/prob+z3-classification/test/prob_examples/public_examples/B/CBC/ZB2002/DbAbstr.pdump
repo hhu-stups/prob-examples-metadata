@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/CBC/ZB2002/DbAbstr.mch
+5.017314E7,7.118603066666667E7,2.3796670666666668E7,7.8211901E7:(abstDb:STUDENTS+->GRADES) & not((st/:dom(abstDb)&abstDb\/{(st,gr)}:STUDENTS+->GRADES))

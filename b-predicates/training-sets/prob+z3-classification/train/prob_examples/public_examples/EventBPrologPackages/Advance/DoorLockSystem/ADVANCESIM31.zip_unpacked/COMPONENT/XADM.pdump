@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/XADM.bcm
+7.540905366666667E7,5.0709614E7,6.1170907333333336E7,5.6065859E7:not((v:NAT)) => (p:Inputs) & (In1(p):NAT) & (In2(p):NAT)

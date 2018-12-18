@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Assignments/Answer1/school.mch
+4.5322895666666664E7,4.7000204333333336E7,6.0711863666666664E7,5.1593804666666664E7:not((cc:CHILD) & (hasread[{cc}]/=BOOK)) => (hasread:CHILD<->BOOK)
+4.7752651E7,4.657217E7,6.0003953E7,4.7933958666666664E7:not((cc:CHILD)) => (hasread:CHILD<->BOOK)
+7.263800833333333E7,1.1117903566666667E8,7.413847766666667E7,1.07449418E8:hasread:CHILD<->BOOK & not(hasread[{cc}]/=BOOK&!bb.(bb:ran({cc}<<|hasread) => hasread:CHILD<->BOOK))
+5.6137562333333336E7,7.134906366666667E7,7.019922033333333E7,6.740175033333333E7:(hasread:CHILD<->BOOK) & not((hasread[{cc}]/=BOOK&!bb.(bb:ran({cc}<<|hasread) => hasread:CHILD<->BOOK)))
+4.5804055666666664E7,4.8758971E7,5.8593275E7,4.9152852E7:(not((hasread:CHILD<->BOOK)) => not((hasread[{cc}]/=BOOK&!bb.(bb:ran({cc}<<|hasread) => hasread:CHILD<->BOOK))))

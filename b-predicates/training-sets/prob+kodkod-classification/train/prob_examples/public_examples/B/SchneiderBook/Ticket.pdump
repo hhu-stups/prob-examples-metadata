@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Ticket.mch
+7.364216233333333E7,5.0466310333333336E7,6.1159057666666664E7,5.301419E7:not((serve:NAT) & (next:NAT) & (serve<=next)) => (serve<next)
+4.7981380666666664E7,4.7591224E7,5.9996176666666664E7,6.2683297E7:next:NAT & not(serve<next&next:NAT)
+4.7702504333333336E7,4.7916195333333336E7,5.9941282E7,5.6409548E7:(not(next:NAT) => not(serve<next&next:NAT))
+4.7626005E7,4.79818E7,5.9925404666666664E7,5.5921869E7:serve<=next & serve<=next+1
+-1.0,-1.0,5.8474288666666664E7,5.7296578333333336E7:serve<=next & not(serve<=next+1)

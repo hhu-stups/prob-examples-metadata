@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/trace_checking_test.mch
+8.2668613E7,4.083928546666667E8,9.671481266666667E7,6.2462458666666664E7:not(not((vv:MM))) => not((vv=mb))

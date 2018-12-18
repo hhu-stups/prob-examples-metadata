@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/ChannelC.bcm
+4.8076318666666664E7,6.953386533333333E7,6.2650331666666664E7,6.5232317666666664E7:not((sum:NAT) & (sum_prime:NAT)) & (adder_evaluated=TRUE) & (msg_rcvd_on_sum=FALSE or incrementer_evaluated=TRUE)
+4.8179380666666664E7,4.9564031E7,6.1497578666666664E7,5.6606639333333336E7:not(not((adder_evaluated=TRUE) & (msg_rcvd_on_sum=FALSE or incrementer_evaluated=TRUE))) => not((sum:NAT) & (sum_prime:NAT))

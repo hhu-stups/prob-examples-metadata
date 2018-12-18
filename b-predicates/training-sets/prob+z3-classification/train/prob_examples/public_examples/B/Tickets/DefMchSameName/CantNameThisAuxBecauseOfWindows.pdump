@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tickets/DefMchSameName/CantNameThisAuxBecauseOfWindows.mch
+-1.0,-1.0,-1.0,-1.0:(x=2**25) & (y=2**26) & card(1..x\/{y})=x+1
+-1.0,-1.0,-1.0,-1.0:(x=2**25) & (y=2**26) & (card(1..x\/{y})=x+1)
+-1.0,-1.0,-1.0,-1.0:(x=2**25) & (y=2**26) & not((card(1..x\/{y})=x+1))

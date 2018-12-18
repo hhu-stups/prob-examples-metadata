@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/StrictSubsetPerformance.mch
+3.624605592E9,5.8577537666666664E7,-1.0,2.0455355623333333E9:(SS:POW(setX)) & (SS=setX) & (GOAL)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/TestLibraryIO.mch
+4.7433406E7,5.0721208E7,-1.0,5.7352149E7:not((cnt=3) & (yy:ID) & (yy/=xx)) => (xx:ID) & (cnt:NATURAL)

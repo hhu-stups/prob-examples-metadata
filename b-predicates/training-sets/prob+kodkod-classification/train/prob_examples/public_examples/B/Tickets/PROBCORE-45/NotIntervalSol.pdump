@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROBCORE-45/NotIntervalSol.mch
+1.7707710366666666E8,1.2438718633333333E8,-1.0,7.318460966666667E7:(ia:NATURAL) & (csrs:{"SD","HD","MD"}-->NATURAL) & (totCSR:{"SD","HD","MD"}-->NATURAL) & (ia=32) & (not(ia+totCSR("MD")-csrs("MD")*2..ia+totCSR("MD")-csrs("MD")+1*2<:33..160)) & (totCSR("MD")=1) & (csrs("MD")=1) & (ia+totCSR("MD")-csrs("MD")*2<33 or ia+totCSR("MD")-csrs("MD")+1*2>160) & (ia+totCSR("MD")-csrs("MD")*2<33) & (ia+totCSR("MD")-csrs("MD")+1*2>160)

@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Priorityqueue.mch
+5.0255389666666664E7,5.4543528333333336E7,8.9866083E7,1.3133087666666667E8:not((queue/=[])) => (queue:seq(NAT)) & (!xx.(xx:1..size(queue)-1 => queue(xx)<=queue(xx+1)))
+1.78759045E8,9.815256566666667E7,1.1305921E8,1.3911736466666666E8:not(not((queue:seq(NAT)) & (!xx.(xx:1..size(queue)-1 => queue(xx)<=queue(xx+1))))) => (nn:NAT)
+1.0398338133333333E8,5.0516200333333336E7,-1.0,6.1875932E7:(queue:seq(NAT)) & (!xx.(xx:1..size(queue)-1 => queue(xx)<=queue(xx+1))) & (queue/=[]) & (nn:NAT)
+5.4775517333333336E7,5.2307094E7,-1.0,7.2362112E7:(queue:seq(NAT)) & (!xx.(xx:1..size(queue)-1 => queue(xx)<=queue(xx+1))) & (not((queue/=[])) => (nn:NAT))
+1.1246029766666667E8,9.1479044E7,-1.0,2.65122099E8:(not(queue:seq(NAT)) => queue/=[]&tail(queue):seq(NAT))
+5.7439054333333336E7,4.9096001333333336E7,-1.0,1.1797000633333333E8:queue:seq(NAT) & not(queue/=[]&tail(queue):seq(NAT))

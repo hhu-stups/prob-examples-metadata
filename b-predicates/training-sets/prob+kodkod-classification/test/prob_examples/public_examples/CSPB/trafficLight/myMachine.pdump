@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSPB/trafficLight/myMachine.mch
+4.7305596666666664E7,4.9626795333333336E7,5.9789726E7,5.1985963666666664E7:(d:NAT) & (d>0) & (nn:NAT) & (nn<=d) & not((nn<=d) & (nn:NAT))

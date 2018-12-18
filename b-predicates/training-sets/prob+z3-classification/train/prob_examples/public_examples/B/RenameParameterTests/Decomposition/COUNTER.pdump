@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/RenameParameterTests/Decomposition/COUNTER.mch
+1.3239523466666667E8,8.923169133333333E7,9.125513333333333E7,5.3757371666666664E7:not(not((c:NATURAL))) => (c mod 2=0)

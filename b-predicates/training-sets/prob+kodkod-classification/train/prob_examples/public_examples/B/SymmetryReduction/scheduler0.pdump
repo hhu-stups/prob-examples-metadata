@@ -1,0 +1,13 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/scheduler0.mch
+4.9329457333333336E7,7.209578333333333E7,-1.0,1.22080189E8:(proc:POW(PROC)) & (pst:proc-->STATE) & (card(pst~[{active}])<=1) & (p:PROC) & (pst(p)=active)
+4.8542113E7,6.1333148666666664E7,-1.0,8.579072833333333E7:not((proc:POW(PROC)) & (pst:proc-->STATE) & (card(pst~[{active}])<=1)) => (p:PROC) & (pst(p)=ready) & (pst~[{active}]={})
+4.9979260666666664E7,6.9353093E7,-1.0,1.40721829E8:(proc:POW(PROC)) & (pst:proc-->STATE) & (card(pst~[{active}])<=1) & not((p:PROC) & (pst(p)=ready) & (pst~[{active}]={}))
+-1.0,8.583461166666667E7,-1.0,-1.0:(proc:POW(PROC)) & (pst:proc-->STATE) & (card(pst~[{active}])<=1) & (p:PROC-proc) & not((p:PROC) & (pst(p)=idle))
+-1.0,-1.0,9.863109466666667E7,-1.0:(proc:POW(PROC)) & (pst:proc-->STATE) & (card(pst~[{active}])<=1) & (p:PROC-proc) & (p:PROC) & (pst(p)=active)
+-1.0,8.9568466E7,-1.0,-1.0:(proc:POW(PROC)) & (pst:proc-->STATE) & (card(pst~[{active}])<=1) & (p:PROC-proc) & not((p:PROC) & (pst(p)=active))
+-1.0,-1.0,9.243230833333333E7,-1.0:(proc:POW(PROC)) & (pst:proc-->STATE) & (card(pst~[{active}])<=1) & (p:PROC-proc) & (p:PROC) & (pst(p)=idle)
+4.9326617333333336E7,7.4797547E7,-1.0,8.5084912E7:(proc:POW(PROC)) & (pst:proc-->STATE) & (card(pst~[{active}])<=1) & ((p:PROC-proc) => not((p:PROC) & (pst(p)=idle)))
+-1.0,-1.0,1.3088563833333333E8,-1.0:(proc:POW(PROC)) & (pst:proc-->STATE) & (card(pst~[{active}])<=1) & (p:PROC) & (pst(p)=idle) & (p:PROC) & (pst(p)=active)
+-1.0,-1.0,7.5585473E7,-1.0:(proc:POW(PROC)) & (pst:proc-->STATE) & (card(pst~[{active}])<=1) & (p:PROC) & (pst(p)=idle) & (p:PROC) & (pst(p)=ready) & (pst~[{active}]={})
+5.1428187666666664E7,7.752226466666667E7,-1.0,1.5455892333333334E8:(proc:POW(PROC)) & (pst:proc-->STATE) & (card(pst~[{active}])<=1) & ((p:PROC) & (pst(p)=idle) => not((p:PROC) & (pst(p)=ready) & (pst~[{active}]={})))
+4.7723596666666664E7,4.7199228666666664E7,6.5038694666666664E7,4.9900526E7:(not(proc:POW(PROC)) => not(p:PROC-proc))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/CBC/CBC_Sequence.mch
+4.8704261333333336E7,4.8099598666666664E7,6.000812E7,6.255274E7:(x:INTEGER) & (a:INTEGER) & (b:INTEGER) & (c:NATURAL1) & (x=a) & not((x=c))

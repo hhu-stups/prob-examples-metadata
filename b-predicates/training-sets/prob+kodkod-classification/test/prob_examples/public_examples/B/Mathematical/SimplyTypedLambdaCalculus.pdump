@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/SimplyTypedLambdaCalculus.mch
+6.0332625333333336E7,9.3287491E7,1.3580567733333334E8,6.4577532333333336E7:not((iv:ID) & (xx:ID)) => not((yy:ID))

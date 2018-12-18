@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLC/NoError/Counter.mch
+5.1366611E7,4.7994720333333336E7,6.0002369333333336E7,6.4111854E7:not((k=10) & not((x=k))) => (x:1..k)

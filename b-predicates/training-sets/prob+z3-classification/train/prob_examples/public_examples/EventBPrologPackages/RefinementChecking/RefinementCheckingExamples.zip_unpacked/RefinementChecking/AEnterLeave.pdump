@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/RefinementChecking/RefinementCheckingExamples.zip_unpacked/RefinementChecking/AEnterLeave.bcm
+2.2097626166666666E8,7.4074131E7,1.1525013066666667E8,1.2965124033333333E8:(s:POW(T)) & (p:T) & (card(s)<maxitems) & (p/:s)
+-1.0,-1.0,1.7114473833333334E8,-1.0:(s:POW(T)) & (p:T) & (card(s)<maxitems) & (p/:s) & (p:s)
+1.29027511E8,5.8506043333333336E7,7.6840102E7,1.44732883E8:(s:POW(T)) & (not((p:T) & (card(s)<maxitems) & (p/:s)) => (p:s))

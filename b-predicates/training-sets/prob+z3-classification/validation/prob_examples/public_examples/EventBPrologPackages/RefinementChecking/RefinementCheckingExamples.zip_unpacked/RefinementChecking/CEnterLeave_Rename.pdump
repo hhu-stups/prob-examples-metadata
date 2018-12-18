@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/RefinementChecking/RefinementCheckingExamples.zip_unpacked/RefinementChecking/CEnterLeave_Rename.bcm
+6.2474052333333336E7,6.1345371E7,6.0466348333333336E7,1.96342123E8:(s:POW(T)) & (n:NAT) & (l:1 .. n >-> T) & (s=ran(l)) & (n=card(s)) & (not((p/:ran(l)) & (n<maxitems)) => (n |-> p:l))

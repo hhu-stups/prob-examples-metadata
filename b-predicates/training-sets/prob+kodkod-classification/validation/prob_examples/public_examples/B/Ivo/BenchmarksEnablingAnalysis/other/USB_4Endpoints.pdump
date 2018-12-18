@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksEnablingAnalysis/other/USB_4Endpoints.mch
+1.1131140833333333E8,5.2487075E7,1.6163847833333334E8,1.05998093E8:(ENDPOINTS=0..4) & (not(transfer_endpoint:transfers+->ENDPOINTS) => transfer_endpoint:transfers+->ENDPOINTS)

@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Tester/NastySetComprehensions.mch
+-1.0,1.1280121566666667E8,8.723916633333333E7,-1.0:not((f:COLOURS-->ID) & (g:ID-->COLOURS) & (!x.(x:COLOURS => g(f(x))=x)) & (f(red)=ia) & (f(green)=ib) & (cc:COLOURS) & (ii:ID)) => {c|c:COLOURS&g(f(c))=c}=COLOURS
+-1.0,-1.0,-1.0,-1.0:not((f:COLOURS-->ID) & (g:ID-->COLOURS) & (!x.(x:COLOURS => g(f(x))=x)) & (f(red)=ia) & (f(green)=ib) & (cc:COLOURS) & (ii:ID)) => {c|c:MYCOLOURS3&#z.(z:MYID2&z=f(c)&g(z)=c)}=COLOURS
+-1.0,-1.0,-1.0,-1.0:not((f:COLOURS-->ID) & (g:ID-->COLOURS) & (!x.(x:COLOURS => g(f(x))=x)) & (f(red)=ia) & (f(green)=ib) & (cc:COLOURS) & (ii:ID)) => MYIDFA=ID
+-1.0,-1.0,-1.0,-1.0:not((f:COLOURS-->ID) & (g:ID-->COLOURS) & (!x.(x:COLOURS => g(f(x))=x)) & (f(red)=ia) & (f(green)=ib) & (cc:COLOURS) & (ii:ID)) => (card({i|i:ID&f(g(i))/=i})=1) & ({i|i:ID&f(g(i))/=i}={i|i:ID&#z.(z:COLOURS&z=g(i)&f(z)/=i)}) & (card({i|i:ID&#z.(z:COLOURS&z=g(i)&f(z)/=i)})=1) & ({c|c:COLOURS&g(f(c))=c}=COLOURS) & ({c|c:COLOURS&#z.(z:ID&z=f(c)&g(z)=c)}=COLOURS) & ({c|c:MYCOLOURS2&#z.(z:ID&z=f(c)&g(z)=c)}=COLOURS) & ({c|c:MYCOLOURS3&#z.(z:MYID2&z=f(c)&g(z)=c)}=COLOURS) & (MYIDFA=ID) & (MYIDFA2=ID)
+5.1178528666666664E7,7.498625833333333E7,-1.0,4.4824485E7:(f:COLOURS-->ID) & (g:ID-->COLOURS) & (!x.(x:COLOURS => g(f(x))=x)) & (f(red)=ia) & (f(green)=ib) & (not(cc:COLOURS) => not(cc:COLOURS))

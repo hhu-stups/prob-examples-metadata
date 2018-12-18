@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/Cache/B.mch
+5.3261219E7,5.9465104E7,1.0507714233333333E8,7.849894866666667E7:not((b:1..4) & (c:NATURAL) & (c=b)) & (b<a)
+5.9843154666666664E7,6.9304507E7,8.011949933333333E7,7.385860033333333E7:not(not((a=b))) => (b:1..4) & (c:NATURAL) & (c=b)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksEnablingAnalysis/other/Lift.mch
+5.9868484E7,5.1932488666666664E7,6.939986333333333E7,5.9933762333333336E7:not(not((floor<99))) => not((floor:0..99))

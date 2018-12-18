@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Treharne1/House_Tracker.mch
+-1.0,-1.0,-1.0,-1.0:not((houseset<:HOUSES) & (card(houseset)<17)) & (new:HOUSES) & (new/:houseset) & (card(houseset)<16)
+-1.0,-1.0,7.190697933333333E7,-1.0:(houseset<:HOUSES) & (card(houseset)<17) & not((new:HOUSES))
+4.6408136E7,7.225585966666667E7,8.122406266666667E7,5.7186089333333336E7:not((houseset<:HOUSES) & (card(houseset)<17)) => (new:HOUSES) & (new:houseset)
+4.9445789666666664E7,6.983753533333333E7,7.252623833333333E7,6.751796666666667E7:not((new:HOUSES) & (new:houseset)) => not((houseset<:HOUSES) & (card(houseset)<17))
+-1.0,-1.0,6.867011533333333E7,-1.0:(houseset<:HOUSES) & (card(houseset)<17) & (new:HOUSES) & (new/:houseset) & (card(houseset)<16) & not((new:HOUSES))
+5.4326112333333336E7,6.947159033333333E7,7.100337266666667E7,1.1101628233333333E8:(houseset<:HOUSES) & (card(houseset)<17) & ((new:HOUSES) & (new/:houseset) & (card(houseset)<16) => not((new:HOUSES) & (new/:houseset)))
+-1.0,-1.0,1.0301896633333333E8,-1.0:(houseset<:HOUSES) & (card(houseset)<17) & (new:HOUSES) & (new/:houseset) & (card(houseset)<16) & (new:HOUSES) & (new:houseset)
+4.7479850666666664E7,4.8002263666666664E7,1.0247532133333333E8,5.3858339E7:(not(houseset<:HOUSES) => new/:houseset&card(houseset)<16)
+4.9619671333333336E7,7.521943466666667E7,5.8341171E7,7.8275457E7:(not((houseset<:HOUSES) & (card(houseset)<17)) => (houseset<:HOUSES) & (card(houseset\/{new})<17))

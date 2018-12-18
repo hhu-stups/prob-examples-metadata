@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/LTL/Fairness/TestingFairnessAsLTL.mch
+5.7291177666666664E7,5.074372E7,5.9957904E7,6.3415047E7:(addr:NATURAL) & not((addr=0 or addr=2) & (addr=0) & (addr=2))
+4.7550204E7,2.0565541166666666E8,5.9473066E7,6.275372E7:(addr:NATURAL) & (addr=1) & not((addr=1 or addr=4) & (addr=1) & (addr=4))
+6.1321717666666664E7,5.1403627333333336E7,5.9892788E7,6.0002812E7:(addr:NATURAL) & (not((addr=3)) => (addr=4 or addr=5) & (addr=4) & (addr=5))

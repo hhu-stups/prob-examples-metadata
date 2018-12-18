@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tickets/PROB-323/PrintersFull.zip_unpacked/Printers/SinglePrinter.bcm
+1.03923411E8,5.2223121666666664E7,-1.0,1.0943814833333333E8:(job<:JOB) & (position:job >-> POSITION) & (document:job --> DOCUMENT) & (finite(ran(position))) & (j:JOB \ job) & (d:DOCUMENT) & (p:POSITION) & (p/:ran(position)) & (position/=({} oftype POW(JOB**INT))=>p>max(ran(position)))

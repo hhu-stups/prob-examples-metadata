@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Chapter_10/Doors.mch
+5.332772183333333E8,1.4031674933333334E8,1.3719121233333334E8,2.3552061533333334E8:not((dd:DOOR)) => (position:DOOR-->POSITION)
+4.8114731E7,2.1402298E8,-1.0,2.2167462766666666E8:position:DOOR-->POSITION & not(position<+{(dd,closed)}:DOOR-->POSITION)

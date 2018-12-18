@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/RecursiveFunctions/RecursiveSigmaCHOOSE.mch
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & (y:{{},{8},{9},{8,9}}) & (sigma(y)<0)
+-1.0,-1.0,-1.0,-1.0:not((sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)})))) => not((y:{{},{8},{9},{8,9}}) & (sigma(y)<0))
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & sigma({3,5,7})=15
+-1.0,-1.0,-1.0,-1.0:not((sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)})))) => sigma(1..1000)=500500
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & not(z:1..100)
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & not(!y.(y:{{},{8},{9},{8,9}} => sigma(y)>=0))
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & not(y:{{},{8},{9},{8,9}})

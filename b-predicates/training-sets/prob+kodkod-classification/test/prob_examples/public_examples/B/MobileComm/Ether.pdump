@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/Ether.mch
+6.5541738E7,4.5174227E7,-1.0,1.5094128466666666E8:(link:NODES<->NODES) & (link=link~) & (id(NODES)/\link={}) & (link={(n1,n2),(n2,n1),(n2,n3),(n3,n2),(n3,n4),(n4,n3)}) & not((onAir:NODES*NODES+->PACKETS*TYPE) & (dom(onAir):NODES>+>NODES)) & (FT_TYPE) & ((from,to):dom(onAir))
+-1.0,-1.0,-1.0,-1.0:(link:NODES<->NODES) & (link=link~) & (id(NODES)/\link={}) & (link={(n1,n2),(n2,n1),(n2,n3),(n3,n2),(n3,n4),(n4,n3)}) & (onAir:NODES*NODES+->PACKETS*TYPE) & (dom(onAir):NODES>+>NODES) & not(dom(onAir)~:NODES>+>NODES)
+5.8558401333333336E7,7.350234033333333E7,-1.0,1.09174288E8:(link:NODES<->NODES) & (link=link~) & (id(NODES)/\link={}) & (link={(n1,n2),(n2,n1),(n2,n3),(n3,n2),(n3,n4),(n4,n3)}) & (not(dom(onAir):NODES>+>NODES) => from/=to&(from,to):dom(onAir)&dom({(from,to)}<<|onAir):NODES>+>NODES)

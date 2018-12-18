@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/HeapSort_Chapter17/Sortarray.mch
+4.7599372E7,5.0924702333333336E7,6.4829403E7,6.2403862333333336E7:not(not((ii:1..cap) & (nn:NAT))) => (aa:1..cap-->NAT)
+4.8794473E7,5.2013132E7,6.6658942333333336E7,6.1332962333333336E7:not((aa:1..cap-->NAT)) => not((ii:1..cap))
+-1.0,-1.0,-1.0,-1.0:aa:1..cap-->NAT & not(!pp.(pp:1..cap>->>1..cap&!ii.(ii:1..cap-1 => (pp;aa)(ii)<=(pp;aa)(ii+1)) => (pp;aa):1..cap-->NAT))
+4.9870424E7,5.5872793666666664E7,4.8349746666666664E7,1.0291627633333333E8:(not(aa:1..cap-->NAT) => not(!pp.(pp:1..cap>->>1..cap&!ii.(ii:1..cap-1 => (pp;aa)(ii)<=(pp;aa)(ii+1)) => (pp;aa):1..cap-->NAT)))

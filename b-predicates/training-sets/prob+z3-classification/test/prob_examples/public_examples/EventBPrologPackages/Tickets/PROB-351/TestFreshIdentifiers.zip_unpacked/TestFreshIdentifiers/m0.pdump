@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tickets/PROB-351/TestFreshIdentifiers.zip_unpacked/TestFreshIdentifiers/m0.bcm
+1.2765317466666667E8,1.4351408333333334E8,1.09120138E8,7.751244033333333E7:not(not((r<:INT))) => (cc=card(r))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Kodkod6_SetsCardBug/FindAttacks.mch
+1.44215406E8,1.440158E8,-1.0,1.57880319E8:(attacks:ARGUMENTS<->ARGUMENTS) & (ARGUMENTS=in\/out\/undec) & (in/\out={}) & (in/\undec={}) & (out/\undec={}) & (attacks~[in]<:out) & (attacks[in]<:out) & (!y.(y:out => #x.((x,y):attacks&x:in))) & (!y.(y:undec => #x.((x,y):attacks&x:undec))) & (in={A,B}) & (out={C,D}) & (undec={E}) & (card({x|(A,x):attacks})>=card({x|(B,x):attacks})) & (dom(attacks)=ARGUMENTS) & (card(attacks)<2) & (attacks/={})

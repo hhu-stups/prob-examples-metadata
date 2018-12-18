@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/BasProgrammingLanguage/BrainfuckInterpreter/Tape.mch
+6.423013848666667E9,5.1863392E7,6.945652766666667E7,5.1794365666666664E7:(data:INTEGER+->INTEGER) & (data_pointer:INTEGER) & not((data_pointer:INTEGER) & (data:INTEGER+->INTEGER))
+4.7274167666666664E7,4.8035181666666664E7,6.3972055333333336E7,5.2088234666666664E7:data_pointer:INTEGER & data_pointer:dom(data) => data_pointer:INTEGER&(not(data_pointer:dom(data)) => (TRUE:BOOL => data_pointer:INTEGER))
+7.303060866666667E7,5.0251106333333336E7,6.4998721333333336E7,5.995227E7:(not(data:INTEGER+->INTEGER) => data:INTEGER+->INTEGER)
+-1.0,-1.0,-1.0,-1.0:data:INTEGER+->INTEGER & not(data_pointer:dom(data) => data<+{(data_pointer,data(data_pointer)+1)}:INTEGER+->INTEGER&(not(data_pointer:dom(data)) => (TRUE:BOOL => data<+{(data_pointer,1)}:INTEGER+->INTEGER)))

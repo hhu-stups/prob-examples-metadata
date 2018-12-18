@@ -1,0 +1,18 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/CTASK2.bcm
+4.7860485333333336E7,5.2042139333333336E7,-1.0,5.8658413666666664E7:not((ppriority:INT) & (ppriority=T2_readpriority) & (T2_readpriority=5) & (T2_state=T2_PROC)) => not((T2_readpriority:NAT))
+4.7896593666666664E7,4.8057321333333336E7,7.1987902E7,5.5959607E7:not((T2_state=T2_EN)) => (T2_readpriority:NAT)
+4.7920758666666664E7,4.7977051E7,7.213726866666667E7,5.5896982666666664E7:not(not((T2_state=T2_EN))) => (T2_readpriority:NAT)
+4.8031270666666664E7,4.7849869666666664E7,-1.0,5.5852843E7:not(not((T2_readpriority:NAT))) => (T2_state=T2_EN)
+4.7934168333333336E7,4.793042E7,7.209727333333333E7,5.6041297666666664E7:not(not((T2_readpriority=3) & (T2_state=T2_PROC))) => (T2_readpriority:NAT)
+4.8067449E7,4.7858366666666664E7,7.203008633333333E7,5.6020997333333336E7:not((T2_readpriority:NAT)) => not((T2_readpriority<3) & (T2_state=T2_PROC))
+4.7844561666666664E7,4.8063630666666664E7,7.196876566666667E7,5.6022719666666664E7:not((T2_readpriority<3) & (T2_state=T2_PROC)) => (T2_readpriority:NAT)
+5.1809009333333336E7,5.9254089666666664E7,1.06493896E8,4.8934901E7:not((T2_readpriority:NAT)) => T2_readvalue:INT
+5.1874404E7,6.0453264666666664E7,1.08897251E8,4.9206257E7:not((T2_readpriority:NAT)) => T2_readpriority:INT
+8.281013533333333E7,4.7685789E7,7.7798278E7,5.0698416E7:(T2_readpriority:NAT) & (T2_writevalue:INT) & (T2_readvalue:INT) & (T2v:INT) & (T2_readpriority:INT) & (T2_state:T2state)
+9.754680833333333E7,5.2880398E7,6.2520240666666664E7,6.0611199333333336E7:(T2_readpriority:NAT) & (not((pv:INT) & (ppriority:INT) & (T2_state=T2_RCV)) => (T2_readpriority=4) & (T2_state=T2_PROC))
+-1.0,-1.0,1.06920021E8,-1.0:(T2_readpriority:NAT) & (not((T2_readpriority=4) & (T2_state=T2_PROC)) => (ppriority:INT) & (ppriority=T2_readpriority) & (T2_readpriority=5) & (T2_state=T2_PROC))
+4.8038744E7,5.1884205E7,7.598284633333333E7,6.0006816333333336E7:(T2_readpriority:NAT) & ((T2_readpriority=4) & (T2_state=T2_PROC) => not((ppriority:INT) & (ppriority=T2_readpriority) & (T2_readpriority=5) & (T2_state=T2_PROC)))
+4.7915916666666664E7,6.2756537333333336E7,7.589531233333333E7,7.1920109E7:(T2_readpriority:NAT) & (T2_readpriority=4) & (T2_state=T2_PROC) & not((pv:INT) & (ppriority:INT) & (pv=T2_writevalue) & (ppriority=5) & (T2_state=T2_SEND))
+5.5901103666666664E7,4.7945202666666664E7,7.605983533333333E7,6.8027156E7:(T2_readpriority:NAT) & (T2_state=T2_EN) & not((T2_readpriority<3) & (T2_state=T2_PROC))
+4.7784265333333336E7,5.1928437666666664E7,7.6153632E7,6.930946566666667E7:(T2_readpriority:NAT) & (T2_state=T2_WAIT) & not((pv:INT) & (ppriority:INT) & (pv=T2_writevalue) & (ppriority=5) & (T2_state=T2_SEND))
+4.8161222E7,5.0710009666666664E7,7.5011913E7,6.1900469333333336E7:(T2_readpriority:NAT) & ((pv:INT) & (ppriority:INT) & (pv=T2_writevalue) & (ppriority=5) & (T2_state=T2_SEND) => not((T2_readpriority=3) & (T2_state=T2_PROC)))

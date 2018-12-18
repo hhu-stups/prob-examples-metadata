@@ -1,0 +1,20 @@
+#source:examples/prob_examples/public_examples/B/Simple/Phonebook/phonebook.mch
+5.0781364E7,6.6177619333333336E7,-1.0,7.319250166666667E7:not((nn:Name) & (cc:Code) & (nn/:dom(db)) & (nn=nn) & (cc=cc) & (nn=nn) & (cc=cc) & (nn=nn) & (cc=cc)) => (db0:Name+->Code) & (db1:Name+->Code) & (db2:Name+->Code) & (db:Name+->Code) & (db3:Name+->Code) & (db4:Name+->Code) & (db5:Name+->Code)
+1.9806629533333334E8,8.1476213E7,7.3839092E7,7.6042631E7:(db0:Name+->Code) & (db1:Name+->Code) & (db2:Name+->Code) & (db:Name+->Code) & (db3:Name+->Code) & (db4:Name+->Code) & (db5:Name+->Code) & not((nn:dom(db)) & (nn:Name) & (nn=nn) & (nn=nn) & (nn=nn) & (nn=nn))
+5.2103413333333336E7,7.605517866666667E7,-1.0,9.585068933333333E7:not(not((nn:dom(db)) & (nn:Name) & (nn=nn) & (nn=nn) & (nn=nn) & (nn=nn))) => (db0:Name+->Code) & (db1:Name+->Code) & (db2:Name+->Code) & (db:Name+->Code) & (db3:Name+->Code) & (db4:Name+->Code) & (db5:Name+->Code)
+5.2016553666666664E7,1.06166876E8,-1.0,7.4946658E7:not(not((nn:Name) & (cc:Code) & (nn=nn) & (cc=cc) & (cc=cc) & (nn=nn) & (nn:dom(db)))) => not((db0:Name+->Code) & (db1:Name+->Code) & (db2:Name+->Code) & (db:Name+->Code) & (db3:Name+->Code) & (db4:Name+->Code) & (db5:Name+->Code))
+5.1841066666666664E7,7.208442266666667E7,7.1933775E7,7.6128513E7:not((db0:Name+->Code) & (db1:Name+->Code) & (db2:Name+->Code) & (db:Name+->Code) & (db3:Name+->Code) & (db4:Name+->Code) & (db5:Name+->Code)) => not((db:Name-->Code))
+-1.0,-1.0,-1.0,-1.0:(db0:Name+->Code) & (db1:Name+->Code) & (db2:Name+->Code) & (db:Name+->Code) & (db3:Name+->Code) & (db4:Name+->Code) & (db5:Name+->Code) & (nn:Name) & (cc:Code) & (nn/:dom(db)) & (nn=nn) & (cc=cc) & (nn=nn) & (cc=cc) & (nn=nn) & (cc=cc) & (db:Name-->Code)
+5.4350393666666664E7,7.663749233333333E7,7.652383766666667E7,7.457452033333333E7:(db0:Name+->Code) & (db1:Name+->Code) & (db2:Name+->Code) & (db:Name+->Code) & (db3:Name+->Code) & (db4:Name+->Code) & (db5:Name+->Code) & (not((nn:Name) & (cc:Code) & (nn/:dom(db)) & (nn=nn) & (cc=cc) & (nn=nn) & (cc=cc) & (nn=nn) & (cc=cc)) => (db:Name-->Code))
+-1.0,-1.0,-1.0,-1.0:(db0:Name+->Code) & (db1:Name+->Code) & (db2:Name+->Code) & (db:Name+->Code) & (db3:Name+->Code) & (db4:Name+->Code) & (db5:Name+->Code) & (nn:Name) & (cc:Code) & (nn/:dom(db)) & (nn=nn) & (cc=cc) & (nn=nn) & (cc=cc) & (nn=nn) & (cc=cc) & (nn:Name) & (cc:Code) & ((nn,cc):db)
+5.2656882E7,7.324714066666667E7,4.3674106E7,1.0731576533333333E8:(db0:Name+->Code) & (db1:Name+->Code) & (db2:Name+->Code) & (db:Name+->Code) & (db3:Name+->Code) & (db4:Name+->Code) & (db5:Name+->Code) & (nn:dom(db)) & (nn:Name) & (nn=nn) & (nn=nn) & (nn=nn) & (nn=nn) & not((db:Name-->Code))
+4.8680748E7,6.2635851333333336E7,-1.0,6.1233811E7:(not(db5:Name+->Code) => not(nn/:dom(db)&db5:Name+->Code))
+4.8445382666666664E7,6.1554173E7,-1.0,6.0126105E7:(not(db4:Name+->Code) => nn:dom(db)&db4:Name+->Code)
+-1.0,-1.0,6.0302221333333336E7,-1.0:db5:Name+->Code & not(db5:Name+->Code)
+1.8499272866666666E8,6.0103592666666664E7,6.4001574666666664E7,5.9872674E7:db2:Name+->Code & db2:Name+->Code
+-1.0,-1.0,6.0038757E7,-1.0:db0:Name+->Code & not(db0:Name+->Code)
+5.2025866E7,6.939532366666667E7,4.2696188333333336E7,1.6092328033333334E8:db:Name+->Code & nn:dom(db)&db<+{(nn,cc)}:Name+->Code
+4.7491514333333336E7,6.5386527333333336E7,-1.0,6.3437653E7:(not(db4:Name+->Code) => not(nn:dom(db)&db4:Name+->Code))
+5.0604061E7,6.1293525333333336E7,6.3984835666666664E7,6.495102E7:(not(db5:Name+->Code) => db:Name-->Code&db5:Name+->Code)
+5.0204103E7,6.0099542E7,6.3983392333333336E7,6.3922258E7:(not(db2:Name+->Code) => db:Name-->Code&db2:Name+->Code)
+5.3016611333333336E7,1.14966598E8,1.7113817333333334E8,6.5844663E7:(not((db0:Name+->Code) & (db1:Name+->Code) & (db2:Name+->Code) & (db:Name+->Code) & (db3:Name+->Code) & (db4:Name+->Code) & (db5:Name+->Code)) => ((nn,cc):db&db5:Name+->Code) & ((nn,cc):db&db-{(nn,cc)}:Name+->Code) & ((nn,cc):db&db2:Name+->Code) & ((nn,cc):db&db1:Name+->Code) & ((nn,cc):db&db3:Name+->Code) & ((nn,cc):db&db0:Name+->Code) & ((nn,cc):db&db4:Name+->Code))

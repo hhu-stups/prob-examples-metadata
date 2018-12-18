@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/ChannelPure.bcm
+5.3388609666666664E7,4.7829895E7,6.0072769666666664E7,4.7993556333333336E7:(incrementer_evaluated:BOOL) & (msg_sent_on_purechannel:BOOL) & (msg_rcvd_on_purechannel:BOOL) & (adder_evaluated:BOOL)

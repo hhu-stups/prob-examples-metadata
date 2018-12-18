@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLA/TLA_Distribution/DieHard/DieHard_Internal.mch
+7.4237071E7,5.1463783666666664E7,7.1249889E7,5.9238445666666664E7:(not(big:0..5) => not(0:0..5))

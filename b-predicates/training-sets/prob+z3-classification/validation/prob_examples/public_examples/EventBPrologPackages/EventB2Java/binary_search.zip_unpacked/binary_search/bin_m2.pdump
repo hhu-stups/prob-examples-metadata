@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/EventB2Java/binary_search.zip_unpacked/binary_search/bin_m2.bcm
+1.5787768833333334E8,7.5059149E7,1.0343026166666667E8,7.326648633333333E7:(r:NAT) & (p:1 .. n) & (q:1 .. n) & (r:p .. q) & (v:f[p .. q])

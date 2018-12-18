@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/StaticAssertionProjection.mch
+6.370859E7,7.9598972E7,6.986852166666667E7,2.49900075E8:(a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (not(xx:ID) => not(xx:ID))

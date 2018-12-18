@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/CSPB/Dining/Dining.mch
+8.817895066666667E7,3.875267006666667E8,2.5371990366666666E8,7.739768446666666E8:not((lFork:Phil>->>Forks) & (rFork:Phil>->>Forks) & (!pp.(pp:Phil => lFork(pp)/=rFork(pp))) & (taken:Forks+->Phil) & (!xx.(xx:dom(taken) => lFork(taken(xx))=xx or rFork(taken(xx))=xx))) => not((p:Phil) & (f:Forks) & (f:dom(taken)) & (taken(f)=p))
+9.063024E7,2.0472528866666666E8,-1.0,3.189696586666667E8:not((lFork:Phil>->>Forks) & (rFork:Phil>->>Forks) & (!pp.(pp:Phil => lFork(pp)/=rFork(pp))) & not((taken:Forks+->Phil) & (!xx.(xx:dom(taken) => lFork(taken(xx))=xx or rFork(taken(xx))=xx)))) => not((p:Phil) & (f:Forks) & (f:dom(taken)) & (taken(f)=p))

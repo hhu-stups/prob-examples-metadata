@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/Aymerick/Tweek.mch
+5.4085369333333336E7,6.1076598E7,6.5565134333333336E7,5.8820608333333336E7:(not(a:0..5) => a>0 => a-1:0..5)

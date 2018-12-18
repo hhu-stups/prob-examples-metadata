@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/TotalFunction.mch
+7.921887233333333E7,6.1423174E7,1.02815146E8,5.0520135E7:(not(cube:FACE) => not(!rot.(rot={(fbot,fbot)} => (rot:FACE+->FACE => cube:FACE))))

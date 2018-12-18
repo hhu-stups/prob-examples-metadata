@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/PrintExternal.mch
+4.8963978E7,4.7994836666666664E7,6.0029584E7,5.3275932E7:not(not((xx<1000))) => (xx:NATURAL)
+4.8877002E7,4.8018955666666664E7,-1.0,6.808279666666667E7:xx:NATURAL & vprintf("Value of xx (without tilde): ",xx):NATURAL
+4.751959E7,4.7978354666666664E7,-1.0,4.8037463666666664E7:xx:NATURAL & not(vprintf("Value of xx (without tilde): ",xx):NATURAL)

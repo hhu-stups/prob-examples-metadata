@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Corinna/PartialOrderEtc/PO_Simple2.mch
+4.8209901333333336E7,8.457109E7,-1.0,6.6318466E7:not((xx:ID) & (yy:ID) & (zz:ID) & (xx=aa or yy=aa or zz=aa)) => (yy=aa)
+4.9052467E7,6.6879640666666664E7,-1.0,7.695454866666667E7:not((yy=aa)) => (xx:ID) & (yy:ID) & (zz:ID) & (xx=aa or yy=aa or zz=aa)
+4.9701944333333336E7,7.0910763E7,8.323481666666667E7,7.186342166666667E7:zz:ID & not(xx=aa)
+4.8969402333333336E7,6.4968503666666664E7,8.531918266666667E7,6.5804038333333336E7:xx=aa or yy=aa or zz=aa & not(yy=aa&(aa:{xx,bb} or zz=aa))

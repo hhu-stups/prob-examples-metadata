@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/Cache/A.mch
+6.849786333333333E7,7.6185898E7,6.6579299666666664E7,7.398973933333333E7:not((a:0..4)) => not((a=3))

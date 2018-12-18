@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Corinna/PartialOrderEtc/PO_Simple3.mch
+5.2429758333333336E7,6.833585466666667E7,-1.0,6.0506554E7:(xx:ID) & (yy:ID) & (zz:ID) & (xx=aa or yy=aa or zz=aa) & ((zz=aa) => not((xx=aa)))

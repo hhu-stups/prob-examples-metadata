@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Demo/RussianPostalPuzzle.mch
+5.7642991E7,5.7276068666666664E7,-1.0,6.807776766666667E7:not(not((keyid:keysforsale) & (person:PERSONS) & (person=hasbox))) => not((keysforsale:POW(KeyIDs)) & (hasbox:PERSONS) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL))
+1.1581137533333333E8,8.769620766666667E7,1.05712931E8,5.9393819E7:padlocks<:KeyIDs & person=hasbox&keyid:has_keys(person)&keyid/:padlocks

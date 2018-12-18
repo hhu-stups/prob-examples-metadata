@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/CSPB/Tokens_FM05.mch
+4.8721349333333336E7,8.1411307E7,6.4056586E7,2.3934701703333335E9:not((mx:NAT) & (mx=3) & (cc:CUST)) => not((tokens:CUST+->0..mx))
+6.3966584E7,5.476865E7,-1.0,7.5162235E7:not((mx:NAT) & (mx=3) & not((cc:CUST) & (cc:dom(tokens)))) => not((tokens:CUST+->0..mx))
+5.2073358333333336E7,5.3871934666666664E7,-1.0,5.4391716E7:(mx:NAT) & (mx=3) & not((tokens:CUST+->0..mx)) & (cc:CUST) & (cc/:dom(tokens))
+4.6967541666666664E7,5.0707705333333336E7,-1.0,7.58508E7:(mx:NAT) & (mx=3) & (tokens:CUST+->0..mx) & (cc:CUST) & (pp:OFFICE) & (cc:dom(tokens))
+4.914056E7,5.1827168E7,6.9583476E7,5.0873578E7:(mx:NAT) & (mx=3) & (tokens:CUST+->0..mx) & (cc:CUST) & (cc:dom(tokens)) & (cc:CUST) & (cc/:dom(tokens))
+4.7421603333333336E7,5.1109990666666664E7,-1.0,7.277166066666667E7:(mx:NAT) & (mx=3) & (tokens:CUST+->0..mx) & (not((cc:CUST) & (cc:dom(tokens))) => (cc:CUST) & (cc/:dom(tokens)))
+4.8015696E7,5.4852017666666664E7,1.1360746366666667E8,1.2490324366666667E8:(mx:NAT) & (mx=3) & (not(tokens:CUST+->0..mx) => not(cc:dom(tokens)&(tokens(cc)<mx => tokens<+{(cc,tokens(cc)+1)}:CUST+->0..mx)))

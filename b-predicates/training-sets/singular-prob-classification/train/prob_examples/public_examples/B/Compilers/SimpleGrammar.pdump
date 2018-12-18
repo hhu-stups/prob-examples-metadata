@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Compilers/SimpleGrammar.mch
+-1.0,-1.0,-1.0,-1.0:(Terminals={a,b}) & (Terminals/\NonTerminals={}) & (Terminals\/NonTerminals=Alphabet) & (Productions={([S],[a,S,b]),([S],[a,b])}) & not((cur:seq(Alphabet))) & ((LHS,RHS):Productions) & (cur=pre^LHS^post)
+-1.0,-1.0,-1.0,-1.0:(Terminals={a,b}) & (Terminals/\NonTerminals={}) & (Terminals\/NonTerminals=Alphabet) & (Productions={([S],[a,S,b]),([S],[a,b])}) & cur:seq(Alphabet) & (LHS,RHS):Productions&cur=pre^LHS^post&pre^RHS^post:seq(Alphabet)

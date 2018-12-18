@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/INCLUDES_USES_SEES/M2.mch
+5.4522855666666664E7,5.3563841333333336E7,8.690779266666667E7,7.6920396E7:not(not((x<9))) => not((y:INTEGER) & (y=x+1))

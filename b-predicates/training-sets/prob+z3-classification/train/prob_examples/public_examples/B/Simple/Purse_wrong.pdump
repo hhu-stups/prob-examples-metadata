@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Simple/Purse_wrong.mch
+-1.0,-1.0,-1.0,-1.0:not((Coins<:NAT1) & (Coins={1,2}) & (purse:Coins-->NAT)) => not((total(purse)=0))
+-1.0,-1.0,-1.0,-1.0:not((Coins<:NAT1) & (Coins={1,2}) & not((purse:Coins-->NAT))) => not((total(purse)=0))
+1.2064583533333333E8,9.6136457E7,1.00880123E8,7.704096533333333E7:(Coins<:NAT1) & (Coins={1,2}) & not((purse:Coins-->NAT)) & not((amount:NAT1))

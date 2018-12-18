@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter14/Colours2.mch
+5.1872378333333336E7,1.2607315466666667E8,6.98089E7,7.146190366666667E7:(cols<:COLOUR) & (not((cols/=COLOUR)) => (cols/=COLOUR))

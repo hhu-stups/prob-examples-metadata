@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/CBTM.bcm
+5.1474329666666664E7,5.4887915666666664E7,7.6206851E7,7.7841835E7:not((T2v:INT) & (T1_timer:NAT) & (T2_timer:NAT) & (BUSwrite:NAT +-> INT) & (BUSread:INT) & (finite(BUSwrite)) & (T1_timer<10) & (T2_timer<20)) & not((T1_timer>0) & (T2_timer>0) & ((BUSwrite=({} oftype POW(INT**INT))&preadprime=BUSread)or(BUSwrite/=({} oftype POW(INT**INT))&preadprime=BUSwrite(max(dom(BUSwrite))))))

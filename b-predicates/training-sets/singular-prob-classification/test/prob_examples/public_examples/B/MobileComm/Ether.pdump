@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/Ether.mch
+5.4389947333333336E7,7.603820766666667E7,-1.0,1.2166954566666667E8:(link:NODES<->NODES) & (link=link~) & (id(NODES)/\link={}) & (link={(n1,n2),(n2,n1),(n2,n3),(n3,n2),(n3,n4),(n4,n3)}) & (not((onAir:NODES*NODES+->PACKETS*TYPE) & (dom(onAir):NODES>+>NODES)) => (from/=to&(from,to):dom(onAir)&dom({(from,to)}<<|onAir):NODES>+>NODES) & (from/=to&(from,to):dom(onAir)&{(from,to)}<<|onAir:NODES*NODES+->PACKETS*TYPE))

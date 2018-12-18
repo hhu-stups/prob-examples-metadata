@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/OpCalls/Double.mch
+5.0112098666666664E7,4.8824574333333336E7,5.4653342E7,6.6644904333333336E7:not((xx:NAT)) & not((vv:1..10) & (xx+vv<=MAXINT))

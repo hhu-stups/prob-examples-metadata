@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/HeapSort_Chapter17/Sortarray.mch
+4.7599372E7,5.0924702333333336E7,6.4829403E7,6.2403862333333336E7:not(not((ii:1..cap) & (nn:NAT))) => (aa:1..cap-->NAT)
+4.896463E7,5.1966617666666664E7,7.378815433333333E7,6.2282617333333336E7:not(not((ii:1..cap))) => not((aa:1..cap-->NAT))

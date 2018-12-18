@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/platoon/Platooning-2D-simplified-BMS.zip_unpacked/Platooning-2D-simplified/platoon.bcm
+5.3623602333333336E7,5.8716033E7,9.2799184E7,4.8009853333333336E7:not((pos:Vehicles --> Plane) & (!v1 oftype Vehicles,v2 oftype Vehicles.v1:Vehicles&v2:Vehicles&v1/=v2=>dist(pos(v1) |-> pos(v2))>dmin)) & (np:Vehicles --> Plane) & (!v1 oftype Vehicles,v2 oftype Vehicles.v1:Vehicles&v2:Vehicles&v1/=v2=>dist(np(v1) |-> np(v2))>dmin)

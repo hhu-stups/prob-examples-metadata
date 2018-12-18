@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/LTL/DerrickSmith/Abstract.mch
+5.1459337666666664E7,4.7882276333333336E7,5.9999599333333336E7,5.6240439E7:not((s:0..4)) => (s:{1,2})

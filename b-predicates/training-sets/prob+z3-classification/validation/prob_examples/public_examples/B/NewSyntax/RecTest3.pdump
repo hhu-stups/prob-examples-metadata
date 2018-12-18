@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/NewSyntax/RecTest3.mch
+5.2356704666666664E7,5.8588409333333336E7,-1.0,9.191972E7:(xx:struct(name:ID,balance:NAT)) & (bank:struct(name:ID)) & (total:struct(money:NAT)) & (allxx:POW(struct(name:ID,balance:NAT))) & (xx'balance>0&total:struct(money:NAT)) & (xx'balance>0&xx:struct(balance:NAT,name:ID)) & (xx'balance>0&allxx:POW(struct(balance:NAT,name:ID))) & (xx'balance>0)

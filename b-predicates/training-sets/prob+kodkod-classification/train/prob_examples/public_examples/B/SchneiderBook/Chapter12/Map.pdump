@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter12/Map.mch
+5.2769932E7,7.0633889E7,-1.0,7.0793337E7:not(not((fun:INDEX+->ITEM))) => (q_par:dom(fun))
+-1.0,-1.0,6.4990923E7,-1.0:(fun:INDEX+->ITEM) & not((ss1:INDEX) & (ss2:ITEM))
+1.7591911233333334E8,7.008465733333333E7,-1.0,6.3301951E7:not((fun:INDEX+->ITEM)) => not((ss1:INDEX) & (ss2:ITEM))
+-1.0,-1.0,1.81255335E8,-1.0:not((fun:INDEX+->ITEM)) & not((ss1:INDEX) & (ss2:ITEM))
+-1.0,-1.0,6.1084257666666664E7,-1.0:not((fun:INDEX+->ITEM)) & not((r_par:INDEX))
+-1.0,-1.0,5.9809002333333336E7,-1.0:(fun:INDEX+->ITEM) & (q_par:dom(fun)) & not((r_par:INDEX))
+-1.0,-1.0,6.1298530666666664E7,-1.0:(fun:INDEX+->ITEM) & (ss1:INDEX) & (ss2:ITEM) & not((r_par:INDEX))
+-1.0,-1.0,6.1245335E7,-1.0:(fun:INDEX+->ITEM) & ((ss1:INDEX) & (ss2:ITEM) => not((r_par:INDEX)))
+5.0912782333333336E7,6.4142956333333336E7,4.1570789E7,1.21380845E8:(not((fun:INDEX+->ITEM)) => not((ss1:INDEX&ss2:ITEM&fun<+{(ss1,ss2)}:INDEX+->ITEM)))
+-1.0,-1.0,6.6016402666666664E7,-1.0:fun:INDEX+->ITEM & not(r_par:INDEX&{r_par}<<|fun:INDEX+->ITEM)
+-1.0,-1.0,6.5571001E7,-1.0:(fun:INDEX+->ITEM) & not((r_par:INDEX&{r_par}<<|fun:INDEX+->ITEM))

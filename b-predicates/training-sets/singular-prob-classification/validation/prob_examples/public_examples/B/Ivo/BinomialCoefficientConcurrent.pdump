@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BinomialCoefficientConcurrent.mch
+7.5241528E7,5.3118533E7,6.5371976666666664E7,6.1353262666666664E7:not((n=20) & (k=6) & not((y1:INTEGER) & (y2:INTEGER) & (y3:INTEGER) & (addr1:0..3) & (addr2:0..4))) => not((addr1=0) & (addr2=0))
+5.2630598666666664E7,7.543049533333333E7,3.3149385826666665E9,7.094964166666667E7:(n=20) & (k=6) & (y1:INTEGER) & (y2:INTEGER) & (y3:INTEGER) & (addr1:0..3) & (addr2:0..4) & (addr1=2) & not((addr2=3) & (y2<=n-y1))
+4.9382746333333336E7,1.416850402E9,2.119475435E9,2.7852179153333335E9:(n=20) & (k=6) & (y1:INTEGER) & (y2:INTEGER) & (y3:INTEGER) & (addr1:0..3) & (addr2:0..4) & (not((addr1=2)) => (addr1=3))
+9.420068933333333E7,1.2943249733333333E8,1.57249349E8,9.0252259E7:(n=20) & (k=6) & (y1:INTEGER) & (y2:INTEGER) & (y3:INTEGER) & (addr1:0..3) & (addr2:0..4) & (not((addr1=2)) => (addr2=4))
+5.1185676E7,3.372599965E9,6.1932759333333336E7,6.7047818666666664E7:(n=20) & (k=6) & addr1:0..3 & addr1=3&1:0..3

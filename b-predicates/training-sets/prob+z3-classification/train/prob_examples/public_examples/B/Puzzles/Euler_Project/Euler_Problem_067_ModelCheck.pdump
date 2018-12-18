@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Euler_Project/Euler_Problem_067_ModelCheck.mch
+1.03631195E8,1.1974059933333333E8,-1.0,4.830301626666667E8:not((TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER))) => n=100
+-1.0,-1.0,-1.0,-1.0:(TriangleC=Triangle) & (n=size(TriangleC)) & Sol:1..n+->seq(INTEGER) & i=row&i>0&Sol<+{(row,%j.(j:1..row|TriangleC(row)(j)+max({Sol(row+1)(j),Sol(row+1)(j+1)})))}:1..n+->seq(INTEGER)

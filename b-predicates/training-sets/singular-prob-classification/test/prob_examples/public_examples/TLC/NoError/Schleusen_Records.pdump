@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLC/NoError/Schleusen_Records.mch
+2.0357004433333334E8,1.1157526866666667E8,-1.0,9.4044641E7:(correct_level(wlevel)) & (dstate:GATES-->GATE_STATE) & (!dd2.(dd2:GATES&dstate(dd2)=opened => wlevel(dd2'left_sect)=wlevel(dd2'right_sect)))

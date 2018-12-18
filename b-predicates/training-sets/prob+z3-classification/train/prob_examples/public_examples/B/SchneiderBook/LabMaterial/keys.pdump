@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/LabMaterial/keys.mch
+5.7799039666666664E7,4.7223347E7,7.2797409E7,6.9227937E7:not(not((kk:KEY))) => (keys<:KEY)
+5.6317287E7,5.8401374333333336E7,8.013824033333333E7,6.798103766666667E7:keys<:KEY & keys<:KEY

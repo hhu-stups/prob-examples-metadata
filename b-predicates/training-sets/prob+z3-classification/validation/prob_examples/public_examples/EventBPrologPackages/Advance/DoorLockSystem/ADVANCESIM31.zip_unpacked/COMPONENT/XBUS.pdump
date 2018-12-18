@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/XBUS.bcm
+5.0599474666666664E7,6.8179061E7,-1.0,1.29098819E8:(T1_timer:NAT) & (T2_timer:NAT) & (BUSwrite:0 .. 5 +-> INT) & (BUSpriority:NAT) & (finite(BUSwrite)) & (BUSwrite/=({} oftype POW(INT**INT))) & (0:dom(BUSwrite)) & (pv:INT) & (ppriority:INT) & (ppriority=3) & (T2_timer=0)
+4.9842046E7,5.7403319333333336E7,-1.0,8.0763017E7:(T1_timer:NAT) & (T2_timer:NAT) & (BUSwrite:0 .. 5 +-> INT) & (BUSpriority:NAT) & (finite(BUSwrite)) & (BUSwrite/=({} oftype POW(INT**INT))) & (0:dom(BUSwrite)) & (ppriority:INT) & (ppriority=4) & (pv:INT) & (ppriority:INT) & (pv=0) & (ppriority=4)

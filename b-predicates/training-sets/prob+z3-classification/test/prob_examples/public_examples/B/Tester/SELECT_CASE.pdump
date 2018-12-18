@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/SELECT_CASE.mch
+6.0248606666666664E7,1.2367119733333333E8,5.5851935333333336E7,6.0846378E7:(col1:POW(COLOURS)) & (xx:COLOURS) & (col:COLOURS) & (col:col1)
+5.4786925E7,6.2685974E7,9.402352533333333E7,6.4820626666666664E7:col1:POW(COLOURS) & xx=red => col1:POW(COLOURS)&(not(xx=red) => xx:{green,blue} => col1:POW(COLOURS)&(not(xx:{green,blue}) => (TRUE:BOOL => col1:POW(COLOURS))))

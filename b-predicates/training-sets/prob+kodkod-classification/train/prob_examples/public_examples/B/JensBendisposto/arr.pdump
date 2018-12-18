@@ -1,0 +1,18 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/arr.mch
+5.5161763666666664E7,4.9818207E7,8.020940833333333E7,7.063526266666667E7:(array:NATURAL1+->TYP) & (card(dom(array))<=n) & not((index:dom(array)))
+5.1934537E7,5.1974044E7,5.3798298666666664E7,7.6824993E7:not(not((array:NATURAL1+->TYP) & (card(dom(array))<=n))) => (index:dom(array))
+4.9276191666666664E7,4.8887781333333336E7,8.0450198E7,5.3647836666666664E7:not(not((array:NATURAL1+->TYP) & (card(dom(array))<=n))) => not((index:dom(array)))
+5.6233687333333336E7,5.3610588666666664E7,4.57842229E8,7.8005753E7:(array:NATURAL1+->TYP) & (card(dom(array))<=n) & (i<j) & (i:dom(array)) & (j:dom(array))
+4.9641461333333336E7,5.2145550666666664E7,4.2000825666666664E7,1.92079151E8:not((i<j) & (i:dom(array)) & (j:dom(array))) => (array:NATURAL1+->TYP) & (card(dom(array))<=n)
+5.2270171E7,5.1928228E7,4.240502E7,9.321939633333333E7:not(not((i<j) & (i:dom(array)) & (j:dom(array)))) => (array:NATURAL1+->TYP) & (card(dom(array))<=n)
+5.2420213333333336E7,5.1962404333333336E7,4.5969881666666664E7,1.01211148E8:not(not((array:NATURAL1+->TYP) & (card(dom(array))<=n))) => (i<j) & (i:dom(array)) & (j:dom(array))
+4.8715808E7,5.1951974E7,-1.0,1.1380625533333333E8:not((array:NATURAL1+->TYP) & (card(dom(array))<=n)) => not((index:NATURAL1) & (card(dom(array)\/{index})<=n) & (value:TYP))
+5.6398699333333336E7,5.0628226E7,-1.0,1.4380439033333334E8:not((array:NATURAL1+->TYP) & (card(dom(array))<=n)) & (index:NATURAL1) & (card(dom(array)\/{index})<=n) & (value:TYP)
+5.1742637E7,5.4799845666666664E7,-1.0,2.4710432833333334E8:not((array:NATURAL1+->TYP) & (card(dom(array))<=n)) & not((index:NATURAL1) & (card(dom(array)\/{index})<=n) & (value:TYP))
+-1.0,-1.0,-1.0,-1.0:(array:NATURAL1+->TYP) & (card(dom(array))<=n) & (index:dom(array)) & (i<j) & (i:dom(array)) & (j:dom(array))
+5.6503018333333336E7,5.4652155E7,8.0832695E7,1.0542911933333333E8:(array:NATURAL1+->TYP) & (card(dom(array))<=n) & (not((index:dom(array))) => (i<j) & (i:dom(array)) & (j:dom(array)))
+-1.0,-1.0,-1.0,-1.0:(array:NATURAL1+->TYP) & (card(dom(array))<=n) & (index:dom(array)) & not((index:NATURAL1) & (card(dom(array)\/{index})<=n) & (value:TYP))
+5.5601157666666664E7,6.809709066666667E7,-1.0,1.2007362566666667E8:(array:NATURAL1+->TYP) & (card(dom(array))<=n) & (i<j) & (i:dom(array)) & (j:dom(array)) & (index:NATURAL1) & (card(dom(array)\/{index})<=n) & (value:TYP)
+4.7702411666666664E7,5.0608181666666664E7,7.2061189E7,6.949975933333333E7:array:NATURAL1+->TYP & index:dom(array)&array:NATURAL1+->TYP
+5.4185801E7,5.8719199333333336E7,-1.0,3.59189228E8:card(dom(array))<=n & i<j&i:dom(array)&j:dom(array)&card(dom(array<+{(i,array(j)),(j,array(i))}))<=n
+5.2012666333333336E7,5.7304005E7,1.47820706E8,3.44544582E8:(not((array:NATURAL1+->TYP) & (card(dom(array))<=n)) => not((index:NATURAL1&card(dom(array)\/{index})<=n&value:TYP&array<+{(index,value)}:NATURAL1+->TYP) & (index:NATURAL1&card(dom(array)\/{index})<=n&value:TYP&card(dom(array<+{(index,value)}))<=n)))

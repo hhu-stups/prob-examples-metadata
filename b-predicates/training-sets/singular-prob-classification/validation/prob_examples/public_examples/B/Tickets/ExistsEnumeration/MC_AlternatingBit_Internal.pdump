@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/ExistsEnumeration/MC_AlternatingBit_Internal.mch
+5.3567356333333336E7,5.705551E7,-1.0,4.7697080333333336E7:(Data=ENUM1) & (msgQLen=2) & (ackQLen=2) & (not(msgQ:INTEGER+->struct(bit:INTEGER,data:ENUM1)) => !ackQ_n,sBit_n,sAck_n,rBit_n,rcvd_n.(d:Data&sAck=sBit&ackQ_n:INTEGER+->INTEGER&sBit_n=1-sBit&ackQ_n=ackQ&sAck_n=sAck&rBit_n=rBit&rcvd_n=rcvd => msgQ<-rec(bit:sBit_n,data:d):INTEGER+->struct(bit:INTEGER,data:ENUM1)))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/ProofDirected/TestInvPreservation.zip_unpacked/TestInvPreservationPOInfo/M2_ko.bcm
+5.2156562666666664E7,1.0226656633333333E8,6.8571173E7,1.05825259E8:(x:{0,1}) & (y>x) & x' = 2 & y' = y & not((x' : {0,1}) & (y' > x'))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/GraphicalAnimation/Jars.mch
+-1.0,-1.0,5.5385395E7,-1.0:not((maxf:Jars-->NATURAL) & (maxf={(j3,3),(j5,5)}) & not((level:Jars-->NATURAL))) => (j:Jars) & (level(j)>0)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/CardTrick.mch
+5.1849610333333336E7,6.0112322333333336E7,3.21510042E8,1.6992372656666667E9:not((initial=all^all^all^all) & (x:seq(SUIT)) & (y:seq(SUIT)) & (dest:seq(SUIT)) & (reversed:BOOL) & (x=[]&y=[] => ok(dest))) => not((x/=[]) & (reversed=TRUE))

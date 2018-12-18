@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Pragmas/AssertionPragmas_internal_saved.mch
+6.836104433333333E7,1.3396929366666667E8,8.295775566666667E7,1.58697345E8:(a:1..10) & (b:1..10) & (c:7..10) & (a+b=c) & (a>b) & not(a=c-b)

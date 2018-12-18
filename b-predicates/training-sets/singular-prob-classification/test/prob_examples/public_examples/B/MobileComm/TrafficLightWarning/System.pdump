@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/TrafficLightWarning/System.mch
+1.88513544E9,7.273576233333333E7,9.921147533333333E7,6.5467543E7:(prevpos:NATURAL) & (not(VIOLATION)) & (not(ORANGE_VIOLATION))
+5.3632239333333336E7,6.6974741E7,-1.0,8.0441607E7:not((maxspeed>2) & (orange_red_time=1) & (red_green_time=3) & (green_orange_time=2) & (TLpos>5) & (prevpos:NATURAL) & (not(VIOLATION)) & (not(ORANGE_VIOLATION))) => not((curpos<=TLpos) & (not(WARN)))
+5.3895890333333336E7,5.5947012333333336E7,6.8047224E7,5.6025071333333336E7:(maxspeed>2) & (orange_red_time=1) & (red_green_time=3) & (green_orange_time=2) & (TLpos>5) & (prevpos:NATURAL) & (not(VIOLATION)) & (not(ORANGE_VIOLATION)) & (ORANGE_VIOLATION)
+5.055452E7,5.8430941E7,6.868871633333333E7,1.1717372266666667E8:(maxspeed>2) & (orange_red_time=1) & (red_green_time=3) & (green_orange_time=2) & (TLpos>5) & not((prevpos:NATURAL) & (not(VIOLATION)) & (not(ORANGE_VIOLATION))) & (ORANGE_VIOLATION)
+6.754283033333333E7,6.8708225E7,-1.0,8.577117233333333E7:(maxspeed>2) & (orange_red_time=1) & (red_green_time=3) & (green_orange_time=2) & (TLpos>5) & (prevpos:NATURAL) & (not(VIOLATION)) & (not(ORANGE_VIOLATION)) & (WARN)
+5.712144E7,5.6760360333333336E7,6.799214233333333E7,8.809595566666667E7:(maxspeed>2) & (orange_red_time=1) & (red_green_time=3) & (green_orange_time=2) & (TLpos>5) & (prevpos:NATURAL) & (not(VIOLATION)) & (not(ORANGE_VIOLATION)) & (JUST_CROSSED_LIGHT)
+-1.0,5.6520595E7,6.7193065E7,-1.0:(maxspeed>2) & (orange_red_time=1) & (red_green_time=3) & (green_orange_time=2) & (TLpos>5) & (prevpos:NATURAL) & (not(VIOLATION)) & (not(ORANGE_VIOLATION)) & (curpos>TLpos) & (speed=0) & (VIOLATION)

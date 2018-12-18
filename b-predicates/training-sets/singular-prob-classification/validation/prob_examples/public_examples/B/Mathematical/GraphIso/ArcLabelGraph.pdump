@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/GraphIso/ArcLabelGraph.mch
+5.2435532E7,5.3425113333333336E7,8.289543433333333E7,6.5016345333333336E7:not((n1:N) & (n2:N) & (c:C)) => (g1:GRAPH) & (g2:GRAPH)
+5.1291113E7,5.8924393E7,7.1010008E7,8.727192166666667E7:not(not((n1:N) & (n2:N) & (c:C))) => not((g1:GRAPH) & (g2:GRAPH))
+-1.0,-1.0,6.5499553666666664E7,-1.0:(not(g2:GRAPH) => #p.(p:N>->>N&!c.(c:C => ((p;g1(c));p)=g2(c))) => g2:C-->(N<->N)&(not(#p.(p:N>->>N&!c.(c:C => ((p;g1(c));p)=g2(c)))) => (TRUE:BOOL => g2:C-->(N<->N))))
+8.982801966666667E7,1.0441302166666667E8,9.946425433333333E7,-1.0:(not((g1:GRAPH) & (g2:GRAPH)) => (#p.(p:N>->>N&!c.(c:C => ((p;g1(c));p)=g2(c))) => g2:C-->(N<->N)&(not(#p.(p:N>->>N&!c.(c:C => ((p;g1(c));p)=g2(c)))) => (TRUE:BOOL => g2:C-->(N<->N)))) & (#p.(p:N>->>N&!c.(c:C => ((p;g1(c));p)=g2(c))) => g1:C-->(N<->N)&(not(#p.(p:N>->>N&!c.(c:C => ((p;g1(c));p)=g2(c)))) => (TRUE:BOOL => g1:C-->(N<->N)))))

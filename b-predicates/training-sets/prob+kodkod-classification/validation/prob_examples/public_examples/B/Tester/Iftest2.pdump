@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tester/Iftest2.mch
+4.7781355333333336E7,4.8010853666666664E7,6.5325136666666664E7,5.2021722666666664E7:(xx:SS) & (yy:SS) & (xx=aa => xx:SS&(not(xx=aa) => xx=bb => xx:SS&(not(xx=bb) => (TRUE:BOOL => xx:SS)))) & (xx=aa => yy:SS&(not(xx=aa) => xx=bb => yy:SS&(not(xx=bb) => (TRUE:BOOL => yy:SS))))
+4.7319332E7,4.7848426666666664E7,6.4031955333333336E7,5.1997277666666664E7:xx:SS & xx=bb => xx:SS&(not(xx=bb) => xx=cc => xx:SS&(not(xx=cc) => (TRUE:BOOL => xx:SS)))
+4.7197319333333336E7,4.7950394666666664E7,6.3997221E7,5.0695599333333336E7:yy:SS & xx=bb => yy:SS&(not(xx=bb) => xx=cc => yy:SS&(not(xx=cc) => (TRUE:BOOL => yy:SS)))

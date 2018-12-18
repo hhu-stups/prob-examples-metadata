@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/NewSyntax/TestRecordOrder.mch
+6.1142947666666664E7,4.8901586333333336E7,6.0008446E7,6.4068668666666664E7:xx:struct(aa:NAT,bb:NAT1) & not(zz:struct(aa:NAT,bb:NAT1))

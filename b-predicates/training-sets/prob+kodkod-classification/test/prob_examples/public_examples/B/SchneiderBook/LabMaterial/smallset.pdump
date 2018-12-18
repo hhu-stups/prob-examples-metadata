@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/LabMaterial/smallset.mch
+6.3644871666666664E7,5.5309338E7,9.249130033333333E7,3.61909686E8:not((maxsize:NAT1) & (numset<:NAT1) & (card(numset)<=maxsize)) => not((numset/={}))
+6.4757234E7,5.9962257333333336E7,1.86219444E8,7.097727533333333E7:not((maxsize:NAT1) & not((numset<:NAT1) & (card(numset)<=maxsize))) => (numset/={})
+5.9338877E7,5.8532513E7,7.2821155E7,3.794641993333333E8:(maxsize:NAT1) & (not(card(numset)<=maxsize) => not(nn:numset&card(numset-{nn})<=maxsize))

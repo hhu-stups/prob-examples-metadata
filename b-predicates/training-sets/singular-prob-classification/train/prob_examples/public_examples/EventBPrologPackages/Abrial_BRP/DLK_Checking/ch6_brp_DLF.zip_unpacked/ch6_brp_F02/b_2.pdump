@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Abrial_BRP/DLK_Checking/ch6_brp_DLF.zip_unpacked/ch6_brp_F02/b_2.bcm
+4.9258708333333336E7,7.638321886666666E8,6.4190751666666664E7,5.2011455666666664E7:not((r_st:STATUS) & (s_st:STATUS) & (s_st=success=>r_st=success)) & (r_st=working) & (s_st=failure)
+3.547929986666667E8,5.6709097333333336E7,-1.0,6.4136019E7:(r_st:STATUS) & (s_st:STATUS) & (s_st=success=>r_st=success) & not((r_st=working))
+4.7457943666666664E7,6.6672421666666664E7,-1.0,5.6218787666666664E7:not(not((s_st=working) & (r_st=success))) => (r_st:STATUS) & (s_st:STATUS) & (s_st=success=>r_st=success)
+4.8755664333333336E7,6.0561844666666664E7,6.4428235E7,5.0932431E7:not((r_st:STATUS) & (s_st:STATUS) & (s_st=success=>r_st=success)) & (s_st=working) & (r_st=success)
+4.7886676666666664E7,5.6109392666666664E7,6.401545E7,5.1877872E7:(r_st:STATUS) & (s_st:STATUS) & (s_st=success=>r_st=success) & (r_st/=working) & (s_st/=working) & (s_st=working) & (r_st=success)

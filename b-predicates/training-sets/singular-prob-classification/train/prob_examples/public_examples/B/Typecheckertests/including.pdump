@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Typecheckertests/including.mch
+5.4072075666666664E7,6.821286433333333E7,1.0328406066666667E8,5.1477123666666664E7:(not(vAa:sA) => not(vAa:sA))

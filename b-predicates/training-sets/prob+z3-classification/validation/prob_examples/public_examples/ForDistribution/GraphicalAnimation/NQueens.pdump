@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/GraphicalAnimation/NQueens.mch
+1.92884747E8,1.2622623543333333E9,-1.0,2.02196243E8:(n=8) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+q2-q1/=queens(q2)&queens(q1)-q2+q1/=queens(q2))) & (yy:1..n)

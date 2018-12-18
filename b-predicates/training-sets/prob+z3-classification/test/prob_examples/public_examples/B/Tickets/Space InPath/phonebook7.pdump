@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Space InPath/phonebook7.mch
+-1.0,-1.0,7.144525866666667E7,-1.0:(db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec) & (nn:Name) & (cc:Code) & (nn/:active) & (nn:Name) & (cc:Code) & (nn:active) & (cc:activec) & (db(nn)=cc)

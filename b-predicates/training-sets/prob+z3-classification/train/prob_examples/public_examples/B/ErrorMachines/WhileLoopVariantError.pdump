@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/ErrorMachines/WhileLoopVariantError.mch
+1.35736418E8,8.932087866666667E7,8.944678E7,5.0908056666666664E7:not((xx:NATURAL)) => (c:1..10) & (xx<=c)
+7.498576933333333E7,7.4827299E7,6.7043209E7,-1.0:(xx:NATURAL) & (c:1..10&xx<=c&(xx<=c&xx:NATURAL&!xx.(xx<=c&xx:NATURAL&xx<c => xx+1<=c&xx+1:NATURAL)&!xx.(xx<=c&xx:NATURAL => xx:NATURAL)&!xx.(xx<=c&xx:NATURAL&xx<c => xx+1<xx)&!xx.(xx<=c&xx:NATURAL&not(xx<c) => xx:NATURAL)))

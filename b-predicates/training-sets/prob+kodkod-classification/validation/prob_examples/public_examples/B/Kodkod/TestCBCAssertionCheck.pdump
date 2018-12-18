@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Kodkod/TestCBCAssertionCheck.mch
+6.1427085E7,8.299027866666667E7,-1.0,6.3651832666666664E7:(r:ID<->ID) & (ran(r)<:dom(r)) & not((dom(r)/=ID or ran(r)/=ID) & (dom(r)/=ID) & (ran(r)/=ID))

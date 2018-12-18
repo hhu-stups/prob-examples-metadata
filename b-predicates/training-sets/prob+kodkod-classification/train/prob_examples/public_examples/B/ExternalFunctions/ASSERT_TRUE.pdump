@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/ASSERT_TRUE.mch
+5.6762083666666664E7,5.1978118E7,-1.0,6.812523633333333E7:not((xx:NATURAL) & (ASSERT_TRUE(bool(xx<10),"xx has reached 10"))) => (xx<20) & (ASSERT_TRUE(bool(xx<11),"xx has reached 11"))

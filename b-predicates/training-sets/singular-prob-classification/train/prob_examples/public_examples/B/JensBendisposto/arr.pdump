@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/arr.mch
+5.1934537E7,5.1974044E7,5.3798298666666664E7,7.6824993E7:not(not((array:NATURAL1+->TYP) & (card(dom(array))<=n))) => (index:dom(array))
+4.9641461333333336E7,5.2145550666666664E7,4.2000825666666664E7,1.92079151E8:not((i<j) & (i:dom(array)) & (j:dom(array))) => (array:NATURAL1+->TYP) & (card(dom(array))<=n)
+4.8715808E7,5.1951974E7,-1.0,1.1380625533333333E8:not((array:NATURAL1+->TYP) & (card(dom(array))<=n)) => not((index:NATURAL1) & (card(dom(array)\/{index})<=n) & (value:TYP))
+5.6503018333333336E7,5.4652155E7,8.0832695E7,1.0542911933333333E8:(array:NATURAL1+->TYP) & (card(dom(array))<=n) & (not((index:dom(array))) => (i<j) & (i:dom(array)) & (j:dom(array)))
+5.0449455333333336E7,5.2033549E7,4.3451195666666664E7,1.0340779633333333E8:(array:NATURAL1+->TYP) & (card(dom(array))<=n) & ((index:dom(array)) => not((i<j) & (i:dom(array)) & (j:dom(array))))
+4.7702411666666664E7,5.0608181666666664E7,7.2061189E7,6.949975933333333E7:array:NATURAL1+->TYP & index:dom(array)&array:NATURAL1+->TYP
+5.2012666333333336E7,5.7304005E7,1.47820706E8,3.44544582E8:(not((array:NATURAL1+->TYP) & (card(dom(array))<=n)) => not((index:NATURAL1&card(dom(array)\/{index})<=n&value:TYP&array<+{(index,value)}:NATURAL1+->TYP) & (index:NATURAL1&card(dom(array)\/{index})<=n&value:TYP&card(dom(array<+{(index,value)}))<=n)))

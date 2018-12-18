@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/VectorClocks/VectorClocks.mch
+6.2150780666666664E7,5.4277433E7,-1.0,5.6411829E7:(clocks:PROC-->(PROC-->NATURAL)) & (ether:PROC<->(PROC-->NATURAL)) & (p:PROC) & ((p,c):ether) & (c:PROC-->NATURAL)
+3.4551646666666664E7,9.224494766666667E7,6.0185609666666664E7,5.0839705666666664E7:not(not((clocks:PROC-->(PROC-->NATURAL)) & (ether:PROC<->(PROC-->NATURAL)))) => (p:PROC)
+5.5241522E7,5.3383068333333336E7,-1.0,7.5936798E7:ether:PROC<->(PROC-->NATURAL) & (p,c):ether&c:PROC-->NATURAL&ether-{(p,c)}:PROC<->(PROC-->NATURAL)
+-1.0,-1.0,6.2710349E7,-1.0:ether:PROC<->(PROC-->NATURAL) & not(ether:PROC<->(PROC-->NATURAL))
+-1.0,-1.0,-1.0,-1.0:(not(clocks:PROC-->(PROC-->NATURAL)) => p/=q&clocks<+{(p,clocks(p)<+{(p,clocks(p)(p)+1)})}:PROC-->(PROC-->NATURAL))

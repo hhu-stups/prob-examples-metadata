@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksEnablingAnalysis/MachineChocolat/cm1.mch
+1.10539522E8,1.0029951E8,1.0945052487E10,5.4858466E7:(credit:0..MaxCredit) & (chocTray:TRAY)
+6.562275994666667E9,5.2497714E7,-1.0,5.570947256666666E8:not((MaxCredit:NAT) & (credit>0) & (chocTray=empty)) => (credit:0..MaxCredit) & (chocTray:TRAY)
+4.8678862333333336E7,9.8724193E7,6.3853976333333336E7,6.6793014333333336E7:(MaxCredit:NAT) & (credit:0..MaxCredit) & (chocTray:TRAY) & not((credit<MaxCredit))
+5.4146411E7,5.2398818666666664E7,6.7298153E7,6.0073421333333336E7:not((MaxCredit:NAT) & not((credit<MaxCredit))) => (credit:0..MaxCredit) & (chocTray:TRAY)
+5.2138240666666664E7,5.1686507666666664E7,6.79406E7,1.2201379266666667E8:not((MaxCredit:NAT) & (credit:0..MaxCredit) & (chocTray:TRAY)) => (credit<MaxCredit-1)
+4.9106896333333336E7,5.2153466333333336E7,6.5709077333333336E7,5.6497384666666664E7:not((MaxCredit:NAT) & (credit<MaxCredit-1)) => (credit:0..MaxCredit) & (chocTray:TRAY)
+4.8593633E7,8.762627336666666E8,5.6444282E7,6.763616133333333E7:(MaxCredit:NAT) & (credit:0..MaxCredit) & (chocTray:TRAY) & not((chocTray=empty or chocTray=full) & (chocTray=empty) & (chocTray=full))
+5.2549536333333336E7,5.190539E7,5.7092269666666664E7,5.2931754333333336E7:(MaxCredit:NAT) & credit:0..MaxCredit & not(credit>0&chocTray=empty => credit-1:0..MaxCredit)
+5.2804107666666664E7,5.1938821333333336E7,-1.0,5.9945635E7:(MaxCredit:NAT) & credit:0..MaxCredit & credit>1&chocTray=empty => credit-2:0..MaxCredit
+4.7851709E7,5.1399506333333336E7,6.5579591666666664E7,6.1776547666666664E7:(MaxCredit:NAT) & (not(credit:0..MaxCredit) => not(credit<MaxCredit => credit+1:0..MaxCredit))
+9.085245166666667E7,9.8458866E7,9.743906666666667E7,5.868209E7:(MaxCredit:NAT) & (not(chocTray:TRAY) => not(chocTray=full => chocTray:TRAY))

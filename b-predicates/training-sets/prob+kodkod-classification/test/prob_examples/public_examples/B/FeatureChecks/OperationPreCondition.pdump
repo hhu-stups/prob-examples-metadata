@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/OperationPreCondition.mch
+6.2382327333333336E7,6.1625877E7,1.16856992E8,5.4694478E7:not((xx:ID)) => not((yy:ID))
+4.9328456333333336E7,5.3070226333333336E7,8.581486966666667E7,6.082198E7:not(not((yy:ID))) => (xx:ID)

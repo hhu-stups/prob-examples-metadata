@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/WarnApp/WarningApp.mch
+4.8236231666666664E7,4.7821863666666664E7,6.4147216666666664E7,5.1918799333333336E7:not((loc:Persons-->Locations) & (nextId:NATURAL) & (reports:seq(Locations)) & (dangers<:Locations)) => (p:Persons) & (newloc:Locations)
+-1.0,-1.0,7.351416666666667E7,-1.0:(loc:Persons-->Locations) & (nextId:NATURAL) & (reports:seq(Locations)) & (dangers<:Locations) & not((p:Persons) & (newloc:Locations))
+-1.0,-1.0,6.955370033333333E7,-1.0:(loc:Persons-->Locations) & (nextId:NATURAL) & (reports:seq(Locations)) & (dangers<:Locations) & (p:Persons) & (newloc:Locations) & not((f<:Locations))
+-1.0,-1.0,7.153828666666667E7,-1.0:(loc:Persons-->Locations) & (nextId:NATURAL) & (reports:seq(Locations)) & (dangers<:Locations) & (f<:Locations) & not((l:Locations))
+-1.0,-1.0,7.201637366666667E7,-1.0:reports:seq(Locations) & not(reports:seq(Locations))
+-1.0,-1.0,-1.0,-1.0:(loc:Persons-->Locations) & (nextId:NATURAL) & (reports:seq(Locations)) & (dangers<:Locations) & not((nextId:NATURAL) & (dangers<:Locations) & (reports:seq(Locations)) & (loc<+{(p,newloc)}:Persons-->Locations))
+-1.0,-1.0,-1.0,-1.0:(loc:Persons-->Locations) & (nextId:NATURAL) & (reports:seq(Locations)) & (dangers<:Locations) & not((nextId:NATURAL) & (dangers<:Locations) & (reports:seq(Locations)) & (loc:Persons-->Locations))
+-1.0,-1.0,6.5364038333333336E7,-1.0:nextId:NATURAL & not(!p.(l=loc(p) => nextId+1:NATURAL))

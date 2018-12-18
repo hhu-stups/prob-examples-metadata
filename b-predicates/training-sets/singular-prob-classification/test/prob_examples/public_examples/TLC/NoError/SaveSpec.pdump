@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLC/NoError/SaveSpec.mch
+4.9022900333333336E7,7.463251233333333E7,-1.0,6.5252431666666664E7:not((empty:CONTENT) & (FILENAME<:ALLFILENAME) & (empty=nix) & (FILENAME={a,b,c}) & (filename:FILENAME) & (filename:dom(disk)) & (filename/:opened)) => (disk:ALLFILENAME+->CONTENT) & (ram:FILENAME+->CONTENT) & (opened<:FILENAME)

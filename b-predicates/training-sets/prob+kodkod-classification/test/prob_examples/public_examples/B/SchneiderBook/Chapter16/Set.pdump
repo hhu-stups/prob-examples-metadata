@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter16/Set.mch
+-1.0,-1.0,5.8528043E7,-1.0:not((set<:ELEM)) & not((ee:ELEM))

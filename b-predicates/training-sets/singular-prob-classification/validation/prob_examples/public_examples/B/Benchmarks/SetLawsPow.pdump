@@ -1,0 +1,18 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/SetLawsPow.mch
+4.843521E7,5.0799453333333336E7,-1.0,6.1472295666666664E7:(not(orderlaw3) => SS/\POW(POW(elements))<:SS&SS/\POW(POW(elements))<:POW(POW(elements)))
+4.8781901333333336E7,5.1397574666666664E7,7.063542533333333E7,1.4156660566666666E8:(not(FIN1(SS)=FIN(SS)-{{}}) => not(FIN1(SS)=FIN(SS)-{{}}))
+4.8872556E7,1.1057060166666667E8,6.4148567E7,5.7246991E7:(not(not(SS/<<:VV&not(SS/<<:VV))) => not(SS/<<:VV&not(SS/<<:VV)))
+4.7936496333333336E7,5.6129717333333336E7,7.5922643E7,7.188344266666667E7:(not(law3) => not(SS\/POW(POW(elements))=POW(POW(elements))\/SS&SS/\POW(POW(elements))=POW(POW(elements))/\SS))
+4.767373E7,4.7872055666666664E7,6.1312452666666664E7,5.2570512E7:SS:POW(setX) & SS:POW(POW(POW(elements)))
+-1.0,-1.0,-1.0,-1.0:setcomprlaw3 & not({xx|xx:SS&(xx:POW(POW(elements)) or xx:VV)}=SS/\(VV\/POW(POW(elements))))
+5.6410059666666664E7,5.3098861E7,-1.0,5.4020137666666664E7:SS/\setX\SS={} & POW(POW(elements))/\POW(POW(elements))-POW(POW(elements))={}
+6.1249921333333336E7,6.4280334333333336E7,7.1579936E7,7.567957233333333E7:SS<<:VV or not(SS<<:VV) & POW(POW(elements))<<:VV or not(POW(POW(elements))<<:VV)
+-1.0,-1.0,-1.0,-1.0:law10 & not(POW(POW(elements))-TT-VV=POW(POW(elements))-(TT\/VV))
+-1.0,-1.0,-1.0,-1.0:otherlaw5 & POW(POW(elements))<<:VV => #xx.(xx:VV&xx/:POW(POW(elements)))
+5.0097478666666664E7,5.1997138333333336E7,1.3565191E8,1.66001882E8:(not(cardlaw4) => not(card(POW(POW(elements))\/VV)<=card(POW(POW(elements)))+card(VV)))
+4.8583878333333336E7,5.1719961333333336E7,7.2828116E7,6.796502066666667E7:(not(setcomprlaw2) => not({xx|xx:POW(POW(elements)) or xx:TT}=POW(POW(elements))\/TT))
+1.0159334266666667E8,1.0061123466666667E8,9.236672733333333E7,5.8257035333333336E7:(not(orderlaw8) => not(el/:SS&(SS\/{el}<:VV or SS\/{el}/<:VV)))
+8.411927936666666E8,5.9235954333333336E7,6.803909933333333E7,6.800583133333333E7:law4 & not(el/:SS&(SS\/{el}\/(TT\/VV)=SS\/{el}\/TT\/VV&SS\/{el}/\(TT/\VV)=SS\/{el}/\TT/\VV))
+6.6086336666666664E7,5.7768193333333336E7,-1.0,4.9398414E7:SS\/setX\SS=setX & el/:SS&SS\/{el}\/POW(POW(elements))-(SS\/{el})=POW(POW(elements))
+5.0059647666666664E7,5.1917565666666664E7,7.670672833333333E7,6.0643093666666664E7:(not(otherlaw5) => not(el/:SS&(SS\/{el}<<:VV => #xx.(xx:VV&xx/:SS\/{el}))))
+4.8200194E7,5.2013318E7,6.8035747E7,6.3975943E7:(not(not(SS:POW(TT)&not(SS:POW(TT)))) => el/:TT&not(SS:POW(TT\/{el})&not(SS:POW(TT\/{el}))))

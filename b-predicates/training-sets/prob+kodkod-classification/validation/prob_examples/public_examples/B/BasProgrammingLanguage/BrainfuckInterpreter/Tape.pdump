@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/BasProgrammingLanguage/BrainfuckInterpreter/Tape.mch
+1.1316550766666667E8,5.7503797666666664E7,-1.0,2.953049873333333E8:(not(data:INTEGER+->INTEGER) => data_pointer:dom(data) => data<+{(data_pointer,data(data_pointer)+1)}:INTEGER+->INTEGER&(not(data_pointer:dom(data)) => (TRUE:BOOL => data<+{(data_pointer,1)}:INTEGER+->INTEGER)))

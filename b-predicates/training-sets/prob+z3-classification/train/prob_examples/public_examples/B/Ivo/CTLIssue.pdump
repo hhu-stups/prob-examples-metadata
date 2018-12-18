@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/CTLIssue.mch
+1.15257278E8,1.06494245E8,1.06533473E8,5.4816980333333336E7:x:INTEGER & not(x=0 => !x.(x:{1,2} => x:INTEGER)&(x:{1,2} => x:INTEGER)&(x=3 => !x.(x:{4} => x:INTEGER)))

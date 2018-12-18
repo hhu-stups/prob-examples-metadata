@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Ivo/PruningActionsTest1.mch
+4.8494970666666664E7,5.1313718666666664E7,3.4383958556666665E9,3.6973230666666664E7:not((z<10)) => not((x:INTEGER) & (y:NAT) & (y<5) & (z:INTEGER))
+4.6901169E7,5.1377855666666664E7,6.4101983E7,8.9155867E7:(not((x:INTEGER) & (y:NAT) & (y<5) & (z:INTEGER)) => not((y>0&x<1&y<5) & (y>0&x<1&y:NAT) & (y>0&x<1) & (y>0&x<1)))

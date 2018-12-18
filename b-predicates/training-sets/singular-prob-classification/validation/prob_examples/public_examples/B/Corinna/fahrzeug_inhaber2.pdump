@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/Corinna/fahrzeug_inhaber2.mch
+-1.0,-1.0,7.403965266666667E7,-1.0:not((person_familie:PERSON-->FAMILIE) & (kfz_marke:KFZ-->MARKE) & (fahrzeug_besitzer:KFZ+->PERSON)) & not((name:PERSON))
+-1.0,-1.0,7.8520041E7,-1.0:not((person_familie:PERSON-->FAMILIE) & (kfz_marke:KFZ-->MARKE) & (fahrzeug_besitzer:KFZ+->PERSON)) & not((familie:FAMILIE) & (marke:MARKE))
+-1.0,-1.0,7.5631359E7,-1.0:(person_familie:PERSON-->FAMILIE) & (kfz_marke:KFZ-->MARKE) & (fahrzeug_besitzer:KFZ+->PERSON) & ((name:PERSON) & (marke:MARKE) => not((familie:FAMILIE) & (marke:MARKE)))
+-1.0,-1.0,-1.0,-1.0:kfz_marke:KFZ-->MARKE & not(name:ran(fahrzeug_besitzer) => kfz_marke:KFZ-->MARKE&(not(name:ran(fahrzeug_besitzer)) => (TRUE:BOOL => kfz_marke:KFZ-->MARKE)))
+-1.0,-1.0,9.5989744E7,-1.0:fahrzeug_besitzer:KFZ+->PERSON & not(ran({name}<|fahrzeug_besitzer~)/\dom(kfz_marke|>{marke})/={} => fahrzeug_besitzer:KFZ+->PERSON&(not(ran({name}<|fahrzeug_besitzer~)/\dom(kfz_marke|>{marke})/={}) => (TRUE:BOOL => fahrzeug_besitzer:KFZ+->PERSON)))
+-1.0,-1.0,-1.0,-1.0:person_familie:PERSON-->FAMILIE & not(ran({name}<|fahrzeug_besitzer~)/\dom(kfz_marke|>{marke})/={} => person_familie:PERSON-->FAMILIE&(not(ran({name}<|fahrzeug_besitzer~)/\dom(kfz_marke|>{marke})/={}) => (TRUE:BOOL => person_familie:PERSON-->FAMILIE)))
+-1.0,-1.0,-1.0,-1.0:kfz_marke:KFZ-->MARKE & not((familie,marke):((person_familie~;fahrzeug_besitzer~);kfz_marke) => kfz_marke:KFZ-->MARKE&(not((familie,marke):((person_familie~;fahrzeug_besitzer~);kfz_marke)) => (TRUE:BOOL => kfz_marke:KFZ-->MARKE)))

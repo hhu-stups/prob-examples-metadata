@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/TransitiveClosure.mch
+2.1477286566666666E8,2.980503316666667E8,-1.0,5.224356163333333E8:(tclos:ID<->ID-->(ID<->ID)) & (!r.(r:ID<->ID => r<:tclos(r))) & (!r.(r:ID<->ID => (r;tclos(r))<:tclos(r))) & (not((rel1:ID<->ID)) => not((rel1:ID<->ID)))

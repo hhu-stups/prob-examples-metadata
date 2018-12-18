@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Doors.mch
+4.7596695333333336E7,4.8006919333333336E7,6.4033701666666664E7,5.1965802333333336E7:not((position:DOOR-->POSITION)) => (dd:DOOR)
+5.6177604666666664E7,5.7129471333333336E7,8.0460255E7,6.5852042666666664E7:not((position:DOOR-->POSITION)) & (dd:DOOR)
+-1.0,-1.0,6.5402916666666664E7,-1.0:(position:DOOR-->POSITION) & not((dd:DOOR))
+4.8080486E7,6.5731170666666664E7,7.4125511E7,6.2713817333333336E7:not(not((dd:DOOR))) => not((position:DOOR-->POSITION))
+-1.0,-1.0,-1.0,-1.0:position:DOOR-->POSITION & not(position<+{(dd,closed)}:DOOR-->POSITION)
+-1.0,-1.0,-1.0,-1.0:(position:DOOR-->POSITION) & not((position<+{(dd,closed)}:DOOR-->POSITION))
+-1.0,-1.0,-1.0,-1.0:position:DOOR-->POSITION & not(position<+{(dd,open)}:DOOR-->POSITION)
+-1.0,-1.0,-1.0,-1.0:(position:DOOR-->POSITION) & not((position<+{(dd,open)}:DOOR-->POSITION))

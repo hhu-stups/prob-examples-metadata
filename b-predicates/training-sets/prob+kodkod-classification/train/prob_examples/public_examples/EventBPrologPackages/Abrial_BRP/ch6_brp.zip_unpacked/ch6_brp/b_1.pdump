@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Abrial_BRP/ch6_brp.zip_unpacked/ch6_brp/b_1.bcm
+4.7934261E7,4.8085165333333336E7,6.4035377333333336E7,5.0538875666666664E7:not((r_st/=working) & (s_st/=working)) => (r_st:STATUS) & (s_st:STATUS)
+4.6021262E7,4.7938265666666664E7,6.1310566666666664E7,4.7953234666666664E7:not((r_st:STATUS) & (s_st:STATUS)) => not((s_st=working) & (r_st=success))

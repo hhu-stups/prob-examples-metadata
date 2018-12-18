@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Rene/Phonebook.mch
+6.1973174333333336E7,1.03336465E8,4.2755553333333336E7,1.1815117466666667E8:(not(book:Persons<->NAT1) => n:ran(book)&p:dom(book)&book[{p}]={n}&book-{(p,n)}:Persons<->NAT1)
+1.1769562333333333E8,9.1543578E7,9.569859833333333E7,5.236015E7:(not(count:NAT) => not(count:NAT))
+1.13813309E8,5.8525342666666664E7,5.9583019666666664E7,6.1305957E7:book:Persons<->NAT1 & book:Persons<->NAT1
+1.22176733E8,7.589677866666667E7,6.774239E7,5.5743448E7:(not(book:Persons<->NAT1) => book:Persons<->NAT1)
+7.415957E7,7.3790389E7,6.3409832333333336E7,6.915332366666667E7:(not(book:Persons<->NAT1) => not(book:Persons<->NAT1))

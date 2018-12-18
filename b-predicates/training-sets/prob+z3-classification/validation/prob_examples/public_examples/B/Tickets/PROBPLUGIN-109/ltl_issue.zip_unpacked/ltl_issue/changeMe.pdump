@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROBPLUGIN-109/ltl_issue.zip_unpacked/ltl_issue/changeMe.bcm
+1.1771457366666667E8,9.461654733333333E7,9.047915033333333E7,5.0083021333333336E7:not((done:{0,1})) => not((done=0))

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/Paperround_simple.mch
+9.595093533333333E7,5.2241839E7,-1.0,6.9957197E7:not((houseset:POW(NAT1)) & (magazine<:houseset)) => (new:NAT1) & (new/:houseset)
+5.7986447666666664E7,5.2956222E7,-1.0,6.6566193E7:houseset:POW(NAT1) & new:NAT1&new/:houseset&houseset\/{new}:POW(NAT1)

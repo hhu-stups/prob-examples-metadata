@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PARSERLIB-32/TestDefOrder.mch
+4.7449539333333336E7,4.8073362E7,6.2599813E7,5.071022E7:not(not((yy:ID) & (DPRED5))) => (xx:ID) & (DPRED5) & (DPRED3)

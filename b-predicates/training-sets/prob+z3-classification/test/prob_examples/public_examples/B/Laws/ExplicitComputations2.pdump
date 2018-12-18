@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Laws/ExplicitComputations2.mch
+7.97706328E8,2.3963154346666665E9,1.5690463566666666E8,2.419859956E9:not((p1=p1) & (p1/=p2) & (not(p1=p2)) & (r={(p1,p2),(p2,p3)}) & (r><r={(p1,(p2,p2)),(p2,(p3,p3))}) & ((r||r)={((p1,p1),(p2,p2)),((p1,p2),(p2,p3)),((p2,p1),(p3,p2)),((p2,p2),(p3,p3))})) => (r||r)={((p1,p1),(p2,p2)),((p1,p2),(p2,p3)),((p2,p1),(p3,p2)),((p2,p2),(p3,p2))}

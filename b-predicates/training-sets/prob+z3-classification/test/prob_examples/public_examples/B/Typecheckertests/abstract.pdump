@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Typecheckertests/abstract.mch
+4.7086132E7,5.0037206E7,-1.0,7.4501001E7:(not(x:POW(P)) => 5>7&e:P&card(x)<p&x\/{e}:POW(P))
+-1.0,-1.0,5.9888458333333336E7,-1.0:x:POW(P) & not(x:POW(P))

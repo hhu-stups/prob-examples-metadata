@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/EventB2Java/linear_search.zip_unpacked/linear_search/s_0.bcm
+8.465548133333333E7,5.0270382666666664E7,6.4080914E7,6.5073312333333336E7:(r:NAT) & (r:1 .. n) & (f(r)=v)
+-1.0,-1.0,6.3897557333333336E7,-1.0:not((r:NAT)) & (r:1 .. n) & (f(r)=v)
+4.8145042333333336E7,5.0540295666666664E7,6.6714559333333336E7,6.780266333333333E7:not((r:NAT)) & not((r:1 .. n) & (f(r)=v))

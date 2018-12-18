@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/SimpleParallel.mch
+5.7198149E7,8.919840033333333E7,6.716363833333333E7,7.114084333333333E7:(MAX=10) & (array:1..MAX+->BOOL) & (ran(array)={TRUE})

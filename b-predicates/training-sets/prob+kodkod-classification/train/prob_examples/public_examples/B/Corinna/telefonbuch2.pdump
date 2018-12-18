@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Corinna/telefonbuch2.mch
+5.3185255E7,5.0814376E7,7.588364866666667E7,6.1287076666666664E7:not((NUMMERN<:NATURAL1) & (NUMMERN={100,101,102,230,240,516}) & (telefonbuch:Namen>+>NUMMERN)) => not((name:Namen) & (name/:dom(telefonbuch)))
+4.7212894E7,4.9522987666666664E7,-1.0,5.9974176666666664E7:not((NUMMERN<:NATURAL1) & (NUMMERN={100,101,102,230,240,516}) & (name:Namen) & (name/:dom(telefonbuch))) => (telefonbuch:Namen>+>NUMMERN)
+1.8323163433333334E8,1.0236217866666667E8,2.19307567E8,8.181789966666667E7:(NUMMERN<:NATURAL1) & (NUMMERN={100,101,102,230,240,516}) & (not((telefonbuch:Namen>+>NUMMERN)) => (name/:dom(telefonbuch)&!num.(num:NUMMERN&num/:ran(telefonbuch) => telefonbuch\/{(name,num)}:Namen>+>NUMMERN)))
+1.9007407766666666E8,1.3759626833333334E8,-1.0,1.60776311E8:(NUMMERN<:NATURAL1) & (NUMMERN={100,101,102,230,240,516}) & (not((telefonbuch:Namen>+>NUMMERN)) => not((name/:dom(telefonbuch)&!num.(num:NUMMERN&num/:ran(telefonbuch) => telefonbuch\/{(name,num)}:Namen>+>NUMMERN))))

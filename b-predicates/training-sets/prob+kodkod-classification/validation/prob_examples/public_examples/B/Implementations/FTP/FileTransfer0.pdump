@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Implementations/FTP/FileTransfer0.mch
+-1.0,-1.0,6.936347666666667E7,-1.0:(empty:DATA) & (sender:DATA) & (receiver:DATA) & (finished:BOOL) & (finished=TRUE => sender=receiver) & not((d:DATA))
+6.0406564333333336E7,7.302781533333333E7,5.4768976E7,9.432430833333333E7:(empty:DATA) & (sender:DATA) & (receiver:DATA) & (finished:BOOL) & (finished=TRUE => sender=receiver) & not((finished=FALSE))
+-1.0,-1.0,9.604771233333333E7,-1.0:(empty:DATA) & not((sender:DATA) & (receiver:DATA) & (finished:BOOL) & (finished=TRUE => sender=receiver)) & (finished=FALSE)

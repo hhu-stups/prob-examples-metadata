@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/227/file_system.mch
+5.3313856333333336E7,6.0416504666666664E7,-1.0,1.29547363E8:(users<:USERS) & (groups<:GROUPS) & (files<:FILES) & (open:files+->users) & (ingroup:users<->groups) & (access:files-->groups) & (!f.(f:dom(open) => access(f):ingroup[{open(f)}])) & (user:users) & not(((user,group):ingroup))

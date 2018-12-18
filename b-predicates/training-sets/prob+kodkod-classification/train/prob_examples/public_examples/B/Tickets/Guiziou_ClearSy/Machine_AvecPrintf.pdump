@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Guiziou_ClearSy/Machine_AvecPrintf.mch
+7.68760166E8,4.8391745E7,-1.0,6.5787928E7:not((IC_Errors:POW(STRING)) & (prop_toto_0:POW(NAT)) & (process:NAT)) & (process=0)
+4.8805158666666664E7,4.8053317333333336E7,6.0004301333333336E7,2.6806060133333334E8:(not(process:NAT) => !toto.(toto:prop_toto_0 => process:NAT))
+5.2459836333333336E7,4.9346359E7,-1.0,6.0007398333333336E7:(not((IC_Errors:POW(STRING)) & (prop_toto_0:POW(NAT)) & (process:NAT)) => not((process=0 => 1:NAT) & (process=0 => IC_Errors:POW(STRING))))

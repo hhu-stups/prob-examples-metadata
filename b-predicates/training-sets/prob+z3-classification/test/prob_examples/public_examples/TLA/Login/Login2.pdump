@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLA/Login/Login2.mch
+4.9371571666666664E7,5.6908889666666664E7,7.725756633333333E7,6.4756489E7:(User=ENUM1) & (x:POW(ENUM1)) & (u:User-x&x/=User => !x_n.(x_n=x\/{u} => x:POW(ENUM1)))

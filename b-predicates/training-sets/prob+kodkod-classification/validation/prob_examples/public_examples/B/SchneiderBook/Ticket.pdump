@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Ticket.mch
+9.664504166666667E7,7.756035166666667E7,9.227344233333333E7,6.2225767E7:(serve:NAT) & (next:NAT) & (serve<=next)
+4.7562938666666664E7,4.8051827333333336E7,6.1302279E7,6.1457885E7:next:NAT & serve<next&next:NAT

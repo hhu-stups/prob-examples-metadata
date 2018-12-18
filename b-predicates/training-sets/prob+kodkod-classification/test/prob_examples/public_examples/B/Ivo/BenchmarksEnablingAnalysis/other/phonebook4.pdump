@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksEnablingAnalysis/other/phonebook4.mch
+-1.0,-1.0,6.857108033333333E7,-1.0:(db:Name+->Code) & not((nn:Name) & (cc:Code))
+-1.0,-1.0,6.2553462333333336E7,-1.0:not((db:Name+->Code)) & not((nn:Name) & (cc:Code))
+7.899503133333333E7,6.5602010666666664E7,6.2609428E7,6.0561845E7:(not((db:Name+->Code)) => not((db:Name+->Code)))
+1.4464884133333334E8,5.7217657666666664E7,-1.0,1.0065137E8:(not((db:Name+->Code)) => (db\/{(nn,cc)}:Name+->Code))

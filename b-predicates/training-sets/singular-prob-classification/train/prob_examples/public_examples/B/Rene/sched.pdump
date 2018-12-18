@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/Rene/sched.mch
+6.0004557666666664E7,8.581268133333333E7,5.3587261333333336E7,1.0619281066666667E8:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (active={} => ready={}) & not((pp:PID) & (pp/:active) & (pp/:ready\/waiting))
+5.0956130666666664E7,1.56020683E9,8.4598947E8,4.6156544333333336E7:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (active={} => ready={}) & (active/={})
+5.3718539333333336E7,4.7061408333333336E7,7.662131266666667E7,8.2842844E7:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (active={} => ready={}) & (rr:waiting)
+4.9006697333333336E7,6.914980833333333E7,7.546013166666667E7,6.3499881333333336E7:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (active={} => ready={}) & (active/={}) & not((pp:waiting))
+-1.0,-1.0,7.349046733333333E7,-1.0:card(active)<=1 & not(card(active)<=1)
+4.4972571666666664E7,4.8047939333333336E7,5.865292E7,4.7913472E7:(not(waiting:POW(PID)) => waiting:POW(PID))
+4.6277206666666664E7,4.7969228333333336E7,5.7417753666666664E7,4.7962454E7:(not(ready:POW(PID)) => ready:POW(PID))
+-1.0,-1.0,6.001231E7,-1.0:active/\(ready\/waiting)={} & not(pp/:active&pp/:ready\/waiting => active/\(ready\/(waiting\/{pp}))={})
+-1.0,-1.0,-1.0,-1.0:card(active)<=1 & not(pp/:active&pp/:ready\/waiting => card(active)<=1)

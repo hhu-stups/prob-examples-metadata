@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/CTLIssue.mch
+5.3113434666666664E7,4.783653E7,6.1522511333333336E7,5.0698462666666664E7:not((x:INTEGER)) => not((x=0))

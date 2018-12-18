@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/Login_with_expire_proof.mch
+-1.0,-1.0,-1.0,-1.0:INV & not(!myperm.(myperm:Session>->>Session => myperm[active]/\myperm[expire]={}&login_enabled=TRUE <=> #s.(s/:myperm[active]&s/:myperm[expire])&logout_enabled=TRUE <=> myperm[active]/={}))

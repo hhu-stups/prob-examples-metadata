@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/assertions_with_labels.mch
+5.1936446E7,6.5659187666666664E7,8.020873333333333E7,7.995215933333333E7:not((a>b) & (b>c) & (a:9..10) & (c:2..3) & (xx:c..a)) => b:3..9

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/LOCKTM.bcm
+4.6678701333333336E7,4.7938079333333336E7,6.2637620666666664E7,4.9347057333333336E7:not((dpos:DoorPosition) & (doorst:DoorState)) => (dpos=OPEN)
+4.7979774333333336E7,6.0045042666666664E7,-1.0,5.5952971666666664E7:(dpos:DoorPosition) & (doorst:DoorState) & ((dpos=CLOSED) & (doorst=UNLOCKED) => not((dpos=OPEN)))

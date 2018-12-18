@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tester/Prj_WD_Errors.mch
+-1.0,-1.0,-1.0,-1.0:not((a=10) & (b=-20) & (ab=(a,b))) => (prj1(NATURAL1,INTEGER)(ab)=10)
+5.2909009333333336E7,5.6654737666666664E7,-1.0,7.4401617E7:not((a=10) & (b=-20) & (ab=(a,b))) => not((prj1(NATURAL1,INTEGER)(ab)=10))
+5.6064625E7,7.415088666666667E7,1.1173217866666667E8,5.6284252E7:not((a=10) & (b=-20) & (ab=(a,b))) => 1=1

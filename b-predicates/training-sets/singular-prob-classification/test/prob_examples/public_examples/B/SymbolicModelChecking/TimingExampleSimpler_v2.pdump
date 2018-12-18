@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/TimingExampleSimpler_v2.mch
+6.1146276666666664E7,1.48347566E8,6.598821E7,1.7537819133333334E8:(mxc:1..10) & (mxe:1..10) & (INV) & (v=timer_e) & (timer_c>=timer_e) & (pc=2)

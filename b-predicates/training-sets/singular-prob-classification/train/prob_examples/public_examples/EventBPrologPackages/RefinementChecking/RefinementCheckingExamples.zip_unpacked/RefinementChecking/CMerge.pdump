@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/RefinementChecking/RefinementCheckingExamples.zip_unpacked/RefinementChecking/CMerge.bcm
+4.8674346333333336E7,3.211954141E9,1.1220591206666667E9,2.5173662066666666E8:not((n>=0&n<1000)) => (x:NAT) & (n:NAT) & (n=x)
+5.1865581E7,5.2051521E7,5.9969008666666664E7,6.4048135333333336E7:not((x:NAT) & (n:NAT) & (n=x)) & (n>=0&n<1000)

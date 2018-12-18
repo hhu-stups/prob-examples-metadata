@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/TLA/Login/Login2.mch
+1.19749818E8,7.9295E7,1.1716650566666667E8,7.4389022E7:(User=ENUM1) & (not(x:POW(ENUM1)) => u:x&x/={} => !x_n.(x_n=x-{u} => x:POW(ENUM1)))
+1.3636692233333334E8,1.2435852833333333E8,1.41271014E8,7.862212566666667E7:(User=ENUM1) & (not(x:POW(ENUM1)) => not(u:x&x/={} => !x_n.(x_n=x-{u} => x:POW(ENUM1))))
+4.9371571666666664E7,5.6908889666666664E7,7.725756633333333E7,6.4756489E7:(User=ENUM1) & (x:POW(ENUM1)) & (u:User-x&x/=User => !x_n.(x_n=x\/{u} => x:POW(ENUM1)))
+4.9024367E7,5.1062475666666664E7,7.4813634E7,6.8555785E7:(User=ENUM1) & (not((x:POW(ENUM1))) => (u:User-x&x/=User => !x_n.(x_n=x\/{u} => x:POW(ENUM1))))
+1.0796345E8,1.0784111133333333E8,1.4451656166666666E8,6.1049127E7:(User=ENUM1) & (not((x:POW(ENUM1))) => not((u:User-x&x/=User => !x_n.(x_n=x\/{u} => x:POW(ENUM1)))))

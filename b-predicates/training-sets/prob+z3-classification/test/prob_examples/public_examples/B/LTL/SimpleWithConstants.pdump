@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/LTL/SimpleWithConstants.mch
+4.8853931333333336E7,6.928609233333333E7,6.812938033333333E7,6.3887314333333336E7:not((iv:ID) & (iv=s1) & not((xx:ID))) => not((xx=iv))

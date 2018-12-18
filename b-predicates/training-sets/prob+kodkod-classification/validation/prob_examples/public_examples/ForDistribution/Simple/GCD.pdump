@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Simple/GCD.mch
+4.9635641666666664E7,4.9514048E7,5.8846403333333336E7,5.5089151333333336E7:(not(x:NAT) => y>0 => y:NAT)

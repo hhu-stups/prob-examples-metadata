@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Jukebox_Chapter13/Jukebox.mch
+7.525859233333333E7,5.2242048333333336E7,6.4115415666666664E7,7.053331733333333E7:(limit:NAT1) & credit:NAT & playset/={}&!tr.(tr:playset => credit:NAT)

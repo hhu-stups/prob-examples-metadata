@@ -1,0 +1,11 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Assignments/Answer1/permit.mch
+-1.0,-1.0,6.3071591333333336E7,-1.0:(reg:PERSON>+>CAR) & not((vv:CAR))
+4.8598032666666664E7,6.817494066666667E7,-1.0,6.388324E7:not(not((reg:PERSON>+>CAR))) => not((pp:PERSON) & (vv:CAR) & (pp/:dom(reg)) & (vv/:ran(reg)))
+-1.0,-1.0,6.3901235666666664E7,-1.0:not((reg:PERSON>+>CAR)) & not((pp:PERSON))
+-1.0,-1.0,6.4044969E7,-1.0:(reg:PERSON>+>CAR) & (vv:CAR) & not((pp:PERSON))
+-1.0,-1.0,6.5765392666666664E7,-1.0:(reg:PERSON>+>CAR) & ((pp:PERSON) => not((pp:PERSON)))
+-1.0,-1.0,6.3930476E7,-1.0:(reg:PERSON>+>CAR) & ((pp:PERSON) => not((pp:PERSON)))
+-1.0,-1.0,6.3873229333333336E7,-1.0:(reg:PERSON>+>CAR) & (ran(reg)/={}) & not((pp:PERSON))
+-1.0,-1.0,7.581723E7,-1.0:reg:PERSON>+>CAR & not({pp}<<|reg:PERSON>+>CAR)
+-1.0,-1.0,7.200617733333333E7,-1.0:reg:PERSON>+>CAR & not(pp:dom(reg) => reg:PERSON>+>CAR&(not(pp:dom(reg)) => (TRUE:BOOL => reg:PERSON>+>CAR)))
+4.8615632666666664E7,6.4003017333333336E7,-1.0,6.7953753E7:(reg:PERSON>+>CAR) & (pp:dom(reg) => reg:PERSON>+>CAR&(not(pp:dom(reg)) => (TRUE:BOOL => reg:PERSON>+>CAR)))

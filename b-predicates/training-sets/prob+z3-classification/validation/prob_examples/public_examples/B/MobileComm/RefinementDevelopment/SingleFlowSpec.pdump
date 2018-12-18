@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/RefinementDevelopment/SingleFlowSpec.mch
+5.2031104333333336E7,5.6075310666666664E7,-1.0,6.5303253333333336E7:not((dest:DEVICES) & (source:DEVICES) & (nrpackets:NATURAL1) & not((messages:NATURAL1+->RPACKETS) & (sent:NATURAL) & (dom(messages)<:1..sent) & (sent<=nrpackets))) => not((p:RPACKETS) & (nr:NATURAL1) & ((nr,p):messages) & (from:DEVICES) & (to:DEVICES) & (from/=to))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/BZTT/DAB.mch
+8.8522337E7,6.5491731666666664E7,8.7948009E7,6.5952916666666664E7:not(not((code1:CODE) & (code2:CODE) & (code3:CODE) & (mont:MONTANT) & (mont:NAT) & (mont/=0) & (tick:TICKET) & (carte:ETAT_CARTE) & (pin:CODE) & (montant_max:0..140) & (etat_dab:ETAT_DAB))) => (rap_transac:ETAT_TRANSACTION) & (ticket:TICKET) & (somme_del:NAT) & (somme_del:MONTANT)

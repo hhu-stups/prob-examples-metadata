@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/LTL/Tests/LTL_4States.mch
+4.8062722666666664E7,4.8975851E7,5.9925753666666664E7,5.5979418E7:not((x:NATURAL)) => not((x<3))

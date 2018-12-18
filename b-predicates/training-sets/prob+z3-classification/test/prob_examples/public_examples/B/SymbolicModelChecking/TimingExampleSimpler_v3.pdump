@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/TimingExampleSimpler_v3.mch
+8.478173066666667E7,6.4715864333333336E7,7.521466233333333E7,1.2817135033333333E8:(mxc:1..10) & (mxe:1..10) & (INV) & (maxcycle:0..5) & (not((pc=0) & (v:1..mxc) & (maxcycle>0)) => (pc=1) & (v:1..mxe))

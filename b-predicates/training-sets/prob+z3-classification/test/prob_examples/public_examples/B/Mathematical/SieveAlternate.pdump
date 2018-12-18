@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/SieveAlternate.mch
+8.4914895E7,7.781643633333333E7,7.819136766666667E7,1.5054512166666666E8:(numbers<:INTEGER) & (cur:NATURAL1) & (limit:NATURAL1) & (cc=cur) & (cur>1) & (cur*cur<=limit)

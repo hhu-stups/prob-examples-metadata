@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/Sets_Simple.mch
+7.529509633333333E7,3.9838218486666665E9,5.7596081E7,5.6169456666666664E7:(xx:POW(AA)) & (ss:POW(AA)) & (ss<:xx)

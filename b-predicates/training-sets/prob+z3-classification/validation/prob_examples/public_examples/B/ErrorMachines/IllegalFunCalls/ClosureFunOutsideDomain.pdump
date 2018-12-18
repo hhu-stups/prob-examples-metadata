@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/ErrorMachines/IllegalFunCalls/ClosureFunOutsideDomain.mch
+4.7503713E7,5.0459582666666664E7,6.966439933333333E7,5.9454651E7:not((f:ID+->ID) & (f={(aa,bb)}) & not((yy:ID) & (state=2))) => not((xx:ID) & (state:{1,2,3,4}))
+4.8294176666666664E7,5.1936143666666664E7,-1.0,6.5387156E7:not((f:ID+->ID) & (f={(aa,bb)}) & (yy:{zz|zz:dom(f)&f(zz)=bb})) => not((xx:ID) & (state:{1,2,3,4}))
+1.7498242366666666E8,9.5593348E7,1.0736854166666667E8,5.3815432666666664E7:not((f:ID+->ID) & (f={(aa,bb)}) & (xx:ID) & (state:{1,2,3,4})) => (state<4)
+1.17374772E8,3.4361892906666665E9,1.0814503666666667E8,7.068545533333333E7:(f:ID+->ID) & (f={(aa,bb)}) & (xx:ID) & (state:{1,2,3,4}) & (yy:{zz|f(zz)=bb}) & (f(zz)=bb) & (f(yy)/=yy) & (state=4)
+1.5647902333333334E8,3.7391135886666665E9,1.1461329433333333E8,7.617844866666667E7:(f:ID+->ID) & (f={(aa,bb)}) & (xx:ID) & (state:{1,2,3,4}) & ((f(yy)/=yy) & (state=4) => not((yy:{zz|zz:dom(f)&f(zz)=bb})))
+4.9895497666666664E7,6.0034775666666664E7,6.9339823E7,6.787534466666667E7:(f:ID+->ID) & (f={(aa,bb)}) & (not(state:{1,2,3,4}) => state=2&state:{1,2,3,4})
+1.075310857E9,6.0031563666666664E7,6.803588633333333E7,2.765217374E9:(f:ID+->ID) & (f={(aa,bb)}) & (not(xx:ID) => yy:dom(f)&f(yy)=bb)

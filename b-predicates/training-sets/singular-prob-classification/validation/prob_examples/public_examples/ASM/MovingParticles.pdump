@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ASM/MovingParticles.mch
+-1.0,-1.0,5.6680229666666664E7,-1.0:(n=2) & (mn=0) & (mx=10) & (not(pos:1..n-->mn..mx) => i:1..n&m:{-1,1}&!pm.(pm=pos(i)+m => (pm:mn..mx => pos<+{(i,pm)}:1..n-->mn..mx)))

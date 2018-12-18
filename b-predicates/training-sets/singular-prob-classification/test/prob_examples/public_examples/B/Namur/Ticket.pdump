@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Namur/Ticket.mch
+5.6156070333333336E7,1.0201537033333333E8,9.8173448E7,2.877954896666667E8:(serve:NAT) & (next:NAT) & (record:NAT) & (limit:NAT1) & (serve<=next) & (next<=limit) & (next:NAT) & (serve<=next) & (serve:NAT) & (record:NAT) & (limit:NAT1) & (next<=limit)
+5.5541047666666664E7,4.9199808666666664E7,1.06859632E8,9.246711233333333E7:(not(limit:NAT1) => not(next<limit&limit:NAT1))

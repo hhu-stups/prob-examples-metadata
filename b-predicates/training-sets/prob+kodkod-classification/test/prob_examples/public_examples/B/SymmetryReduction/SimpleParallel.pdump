@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/SimpleParallel.mch
+6.4076211666666664E7,6.92951806E8,6.4181695E7,8.4851386E7:(MAX=10) & (array:1..MAX+->BOOL) & (i:1..MAX) & (array(i)=FALSE)

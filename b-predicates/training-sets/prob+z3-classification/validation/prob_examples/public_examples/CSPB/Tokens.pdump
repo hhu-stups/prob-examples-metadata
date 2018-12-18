@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/CSPB/Tokens.mch
+3.255173723333333E8,8.5259329E7,1.0412690533333333E8,3.334550196666667E8:(tokens:CUST+->NAT)
+3.70436236E8,4.7999772333333336E7,7.1950374E7,6.7887264E7:(tokens:CUST+->NAT) & not((cc:dom(tokens)) & (pp:OFFICE))

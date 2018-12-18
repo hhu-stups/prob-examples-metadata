@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/SafetyMetroSystem_full_23_08_2012.zip_unpacked/GCDoors/GCDoor_M0.bcm
+-1.0,-1.0,9.1675345E7,-1.0:(generic_door<:DOOR) & (generic_door_state:generic_door --> DOOR_STATE) & (ds<:generic_door) & (ds/=({} oftype POW(DOOR))) & (generic_door_state[ds]={CLOSED}) & (ds=GEN_DOOR_CARRIAGE~[{c}]) & (ds/\generic_door=({} oftype POW(DOOR))) & (ds/=({} oftype POW(DOOR))) & (ds=GEN_DOOR_CARRIAGE~[{c}])

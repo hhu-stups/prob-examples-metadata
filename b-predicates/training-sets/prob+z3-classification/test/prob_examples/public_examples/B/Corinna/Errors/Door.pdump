@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Corinna/Errors/Door.mch
+-1.0,-1.0,1.0218522433333333E8,-1.0:(state:DOORS-->DOOR_STATE) & (dd:DOORS) & (state(dd)=opened) & (dd:DOORS) & (state(dd)=closed)

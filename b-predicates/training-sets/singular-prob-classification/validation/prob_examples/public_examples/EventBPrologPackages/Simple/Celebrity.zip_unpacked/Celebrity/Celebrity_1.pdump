@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Simple/Celebrity.zip_unpacked/Celebrity/Celebrity_1.bcm
+4.8073618E7,4.9340073333333336E7,5.986434E7,5.4389900666666664E7:not((x:Q) & (Q={x})) => (r:P) & (Q<:P) & (c:Q)
+4.9200460666666664E7,5.2136518E7,6.3952476333333336E7,6.796604533333333E7:(r:P) & (Q<:P) & (c:Q) & (not((x:Q) & (y:Q) & (x |-> y:k)) => (x:Q) & (y:Q) & (x |-> y/:k) & (x/=y))

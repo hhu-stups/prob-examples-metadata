@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/ForDistribution/LessSimple/phonebook.mch
+7.011450266666667E7,6.869495533333333E7,5.9197215666666664E7,7.551577166666667E7:(db:Name+->Code) & not((nn:Name) & (cc:Code) & (nn/:dom(db)))
+5.0950357E7,6.6543005666666664E7,-1.0,7.833579966666667E7:not((db:Name+->Code)) & not((nn:Name) & (cc:Code) & (nn:dom(db)))
+-1.0,-1.0,6.6217894333333336E7,-1.0:not((db:Name+->Code)) & (db:Name-->Code)
+5.2754636666666664E7,7.2240797E7,3.959651573333333E8,6.4994391333333336E7:not((db:Name-->Code)) => not((db:Name+->Code))
+1.3419804766666667E8,6.9361637E7,-1.0,6.5367320666666664E7:(db:Name+->Code) & (not((nn:Name) & (cc:Code) & (nn/:dom(db))) => (nn:Name) & (cc:Code) & (nn:dom(db)))

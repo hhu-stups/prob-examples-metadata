@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Demo/Fermat.mch
+1.4951626666666666E8,9.3655555E7,9.337111466666667E7,5.8574883333333336E7:not(not((sols:POW(NAT)))) => (nn:Exp)

@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/predicate_analysis/arithmetic.mch
+-1.0,5.349778138666667E9,-1.0,-1.0:(i1<:1..20) & (sum1=SIGMA(x).(x:i1|x)) & (i2<:-5..10) & (sum2=SIGMA(x).(x:i2|x)) & (sum3=SIGMA(x).(x:i2|x+5)) & not(sum1:0..400)
+-1.0,-1.0,-1.0,-1.0:(i1<:1..20) & (sum1=SIGMA(x).(x:i1|x)) & (i2<:-5..10) & (sum2=SIGMA(x).(x:i2|x)) & (sum3=SIGMA(x).(x:i2|x+5)) & not(sum2:-80..160)
+-1.0,-1.0,-1.0,-1.0:(i1<:1..20) & (sum1=SIGMA(x).(x:i1|x)) & (i2<:-5..10) & (sum2=SIGMA(x).(x:i2|x)) & (sum3=SIGMA(x).(x:i2|x+5)) & not(sum3:0..240)
+-1.0,-1.0,-1.0,-1.0:(i1<:1..20) & (sum1=SIGMA(x).(x:i1|x)) & (i2<:-5..10) & (sum2=SIGMA(x).(x:i2|x)) & (sum3=SIGMA(x).(x:i2|x+5)) & (sum1:0..400) & (sum2:-80..160) & (sum3:0..240)

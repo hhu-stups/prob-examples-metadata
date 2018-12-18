@@ -1,0 +1,35 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/SetRelLaws.mch
+-1.0,-1.0,-1.0,-1.0:not(not((el:setX) & (el/:SS))) => not((SS:POW(setX)) & (TT:POW(setX)) & (VV:POW(setX)) & (law1) & (law2) & (law3) & (law4) & (law5) & (law6) & (law7) & (law8) & (law9) & (law10) & (law11) & (law12) & (law13) & (law14) & (orderlaw1) & (orderlaw2) & (orderlaw3) & (orderlaw4) & (setcomprlaw1) & (setcomprlaw2) & (setcomprlaw3) & (setcomprlaw4) & (setcomprlaw5) & (setcomprlaw6) & (foralllaw1) & (foralllaw2) & (existslaw1) & (existslaw2) & (orderlaw5) & (orderlaw6) & (orderlaw7) & (otherlaw1) & (otherlaw2) & (otherlaw3) & (otherlaw4) & (otherlaw5) & (cardlaw1) & (cardlaw2) & (cardlaw3) & (cardlaw4) & (difflaw1) & (difflaw2) & (SS<<:VV or not(SS<<:VV)) & (not(SS<<:VV&not(SS<<:VV))) & (SS<:VV or not(SS<:VV)) & (not(SS<:VV&not(SS<:VV))) & (UNION(ss).(ss<:SS|ss)=SS) & (INTER(ss).(ss<:SS|ss)={}) & (SS:POW(TT) <=> SS<:TT) & (SS=TT <=> POW(SS)=POW(TT)) & (POW(SS-TT)={xx|xx<:SS&xx/\TT={}}) & (SS/\setX=SS) & (SS\/setX=setX) & (SS\/setX\SS=setX) & (SS/\setX\SS={}) & (setX\(setX\SS)=SS))
+4.814758E7,7.417647133333333E7,7.633133133333333E7,6.3618355666666664E7:(not(orderlaw6) => VV<<:SS&SS<:X*Y => VV<<:X*Y)
+4.5451613333333336E7,6.1805811333333336E7,6.6811452333333336E7,5.2218861E7:not(SS<<:VV&not(SS<<:VV)) & not(not(SS<<:VV&not(SS<<:VV)))
+-1.0,6.4050835333333336E7,-1.0,-1.0:law9 & not(SS-(X*Y-VV)=SS-X*Y\/(SS/\VV))
+5.6329602333333336E7,7.025344033333333E7,-1.0,6.3098922666666664E7:(not(orderlaw7) => not(VV<:X*Y&X*Y<<:TT => VV<<:TT))
+-1.0,5.8678458333333336E7,-1.0,-1.0:(not(setX\(setX\SS)=SS) => not(X*Y-(X*Y-X*Y)=X*Y))
+4.8952966333333336E7,6.784868833333333E7,-1.0,6.6245295333333336E7:SS\/setX=setX & X*Y\/X*Y=X*Y
+5.5407162E7,5.8158257E7,-1.0,6.998953333333333E7:(not(UNION(ss).(ss<:SS|ss)=SS) => union({RANGE_LAMBDA|#ss.(ss<:X*Y&RANGE_LAMBDA=ss)})=X*Y)
+-1.0,6.4322169E7,-1.0,-1.0:law14 & not(X*Y-(TT/\VV)=X*Y-TT\/X*Y-VV)
+-1.0,6.0537749666666664E7,-1.0,-1.0:law11 & not(X*Y\/TT-VV=X*Y\/TT-(VV-X*Y))
+-1.0,-1.0,-1.0,-1.0:POW(SS-TT)={xx|xx<:SS&xx/\TT={}} & not(POW(X*Y-TT)={xx|xx<:X*Y&xx/\TT={}})
+-1.0,6.0039152666666664E7,-1.0,-1.0:law5 & not(X*Y\/(TT/\VV)=X*Y\/TT/\(X*Y\/VV))
+-1.0,6.5411111333333336E7,-1.0,-1.0:existslaw2 & not(#xx.(xx:X*Y&xx/:TT) => not(X*Y\/TT=TT)&not(X*Y-TT={}))
+-1.0,6.1511127333333336E7,-1.0,-1.0:law3 & not(X*Y\/TT=TT\/X*Y&X*Y/\TT=TT/\X*Y)
+-1.0,6.0277916666666664E7,-1.0,-1.0:law9 & not(X*Y-(TT-VV)=X*Y-TT\/(X*Y/\VV))
+4.8025660333333336E7,6.740317133333333E7,6.934906533333333E7,6.2158509333333336E7:(not(existslaw1) => not(X*Y/\TT/\VV/={} => not(X*Y/\TT/\VV={})))
+-1.0,4.8352611E7,9.1492035E7,-1.0:(not(otherlaw5) => X*Y<<:VV => #xx.(xx:VV&xx/:X*Y))
+-1.0,6.3876605333333336E7,-1.0,-1.0:setcomprlaw5 & not({xx|xx:X*Y or xx:TT or xx:VV}=X*Y\/TT\/VV)
+5.0523743E7,6.3370954666666664E7,8.757789666666667E7,6.6024551E7:(not(setcomprlaw5) => not({xx|xx:X*Y or xx:TT or xx:VV}=X*Y\/TT\/VV))
+-1.0,6.1117292333333336E7,-1.0,-1.0:setcomprlaw4 & not({xx|xx:X*Y&not(xx:TT)}=X*Y-TT)
+8.813245966666667E7,7.083142266666667E7,7.094500866666667E7,7.2389652E7:orderlaw4 & not(el/:SS&(VV<:SS\/{el}&VV<:TT => VV<:SS\/{el}/\TT))
+1.8173365533333334E8,4.9872287333333336E7,9.129266133333333E7,9.268420233333333E7:law5 & not(el/:SS&SS\/{el}\/(TT/\VV)=SS\/{el}\/TT/\(SS\/{el}\/VV))
+4.9921595E7,6.5469103333333336E7,-1.0,5.9985794E7:(not(foralllaw1) => not(el/:SS&!xx.(xx:SS\/{el}&xx:TT => xx:SS\/{el}/\TT)))
+7.5178159E7,4.8342437E7,6.4098537E7,5.1984916E7:(not(SS:POW(setX)) => el/:SS)
+4.6971662E7,6.3516759666666664E7,-1.0,7.482851E7:SS:POW(TT) <=> SS<:TT & el/:TT&SS:POW(TT\/{el}) <=> SS<:TT\/{el}
+4.8743605E7,6.0056566666666664E7,-1.0,5.7664921E7:(not(not(SS<:VV&not(SS<:VV))) => el/:VV&not(SS<:VV\/{el}&not(SS<:VV\/{el})))
+4.7828149E7,5.4148436E7,-1.0,7.371256266666667E7:(not(POW(SS-TT)={xx|xx<:SS&xx/\TT={}}) => not(el/:VV&POW(SS-TT)={xx|xx<:SS&xx/\TT={}}))
+9.936398566666667E7,4.02775637E8,-1.0,6.863165566666667E7:difflaw1 & SS/\X*Y={} <=> SS<:X*Y-X*Y
+4.70138E7,4.8176308333333336E7,6.5357333333333336E7,8.256669133333333E7:orderlaw2 & SS<:X*Y&TT<:X*Y => SS<:X*Y&TT<:X*Y
+5.0093731E7,5.1920592333333336E7,-1.0,7.7307852E7:UNION(ss).(ss<:SS|ss)=SS & union({RANGE_LAMBDA|#ss.(ss<:SS&RANGE_LAMBDA=ss)})=SS
+-1.0,6.0619394E7,-1.0,-1.0:law14 & not(SS-(TT/\X*Y)=SS-TT\/SS-X*Y)
+-1.0,6.1651857666666664E7,6.7890873E7,6.2687371E7:foralllaw1 & not(!xx.(xx:SS&xx:TT => xx:SS/\TT))
+4.9521381333333336E7,7.801629933333333E7,-1.0,6.795773366666667E7:(not(setcomprlaw6) => not({xx|xx:SS or (xx/:TT => xx:X*Y&(xx:TT => xx:SS))}=SS\/X*Y-TT))
+5.0176422666666664E7,8.193830633333333E7,6.898817266666667E7,6.1734945333333336E7:(not(setcomprlaw2) => not({xx|xx:SS or xx:TT}=SS\/TT))

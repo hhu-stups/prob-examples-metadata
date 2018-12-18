@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/SleepSetsStudyCase.mch
+4.7670936E7,5.1107337333333336E7,6.3171138E7,6.2649354E7:(BITSET={0,1}) & (not(w:BITSET) => x1:BITSET&x<1&v=0&w:BITSET)

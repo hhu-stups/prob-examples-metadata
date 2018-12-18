@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/RefinementDevelopment/SingleFlowSpec.mch
+4.9522126E7,5.1018871666666664E7,7.020352666666667E7,6.259993E7:not((dest:DEVICES) & (source:DEVICES) & (nrpackets:NATURAL1) & (p:RPACKETS) & (sent<nrpackets)) => (messages:NATURAL1+->RPACKETS) & (sent:NATURAL) & (dom(messages)<:1..sent) & (sent<=nrpackets)
+5.0708845666666664E7,5.1501964E7,-1.0,5.3933045666666664E7:(dest:DEVICES) & (source:DEVICES) & (nrpackets:NATURAL1) & (messages:NATURAL1+->RPACKETS) & (sent:NATURAL) & (dom(messages)<:1..sent) & (sent<=nrpackets) & (not((p:RPACKETS) & (sent<nrpackets)) => (messages/={}))

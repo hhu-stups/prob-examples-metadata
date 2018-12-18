@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter18/rename_Varr.mch
+5.1774647333333336E7,5.1413893333333336E7,6.734534233333333E7,7.639907766666667E7:not((rename_Varr:1..maxidx-->VALUE)) & not((ii:1..maxidx) & (jj:1..maxidx) & (nn:1..maxidx) & (ii<=jj))
+4.7048976E7,4.9941383333333336E7,-1.0,6.1791936E7:not((rename_Varr:1..maxidx-->VALUE)) => not((vv:VALUE) & (ii:1..maxidx))
+5.0288448E7,5.2068469333333336E7,-1.0,6.722500566666667E7:(rename_Varr:1..maxidx-->VALUE) & ((vv:VALUE) & (jj:1..maxidx) & (kk:1..maxidx) => not((ii:1..maxidx) & (jj:1..maxidx)))
+1.0868211666666667E8,5.3421504666666664E7,6.6738445333333336E7,6.820422733333333E7:(rename_Varr:1..maxidx-->VALUE) & ((ii:1..maxidx) & (jj:1..maxidx) & (nn:1..maxidx) & (ii<=jj) => not((ii:1..maxidx)))
+-1.0,-1.0,6.2863999666666664E7,-1.0:(rename_Varr:1..maxidx-->VALUE) & (ii:1..maxidx) & (jj:1..maxidx) & (nn:1..maxidx) & (ii<=jj) & not((vv:VALUE) & (ii:1..maxidx))
+1.790118E8,5.6753306666666664E7,7.220792566666667E7,6.923848366666667E7:(rename_Varr:1..maxidx-->VALUE) & (not((ii:1..maxidx) & (jj:1..maxidx) & (nn:1..maxidx) & (ii<=jj)) => (ii:1..maxidx) & (jj:1..maxidx) & (nn:1..maxidx) & (ii<=jj))
+-1.0,-1.0,6.4024529E7,-1.0:(rename_Varr:1..maxidx-->VALUE) & (ii:1..maxidx) & (jj:1..maxidx) & (nn:1..maxidx) & (ii<=jj) & not((vv:VALUE) & (ii:1..maxidx))
+4.9049160666666664E7,6.3136148E7,-1.0,5.3432911666666664E7:(rename_Varr:1..maxidx-->VALUE) & (vv:VALUE) & (jj:1..maxidx) & (kk:1..maxidx) & (ii:1..maxidx) & (jj:1..maxidx) & (ii<jj)
+1.3099205333333333E8,6.2747364666666664E7,-1.0,5.9283376666666664E7:(rename_Varr:1..maxidx-->VALUE) & (vv:VALUE) & (jj:1..maxidx) & (kk:1..maxidx) & (ii:1..maxidx) & (jj:1..maxidx) & (nn:1..maxidx) & (ii<=jj)
+5.1341398333333336E7,5.2034899E7,-1.0,6.7159937E7:(rename_Varr:1..maxidx-->VALUE) & (not((vv:VALUE) & (ii:1..maxidx)) => (vv:VALUE) & (jj:1..maxidx) & (kk:1..maxidx))
+-1.0,-1.0,7.238085266666667E7,-1.0:(rename_Varr:1..maxidx-->VALUE) & (vv:VALUE) & (jj:1..maxidx) & (kk:1..maxidx) & not((vv:VALUE) & (jj:1..maxidx) & (kk:1..maxidx))

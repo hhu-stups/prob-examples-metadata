@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Beauger1/PredProblem.mch
+1.1630333486666667E9,1.0660932033333333E8,-1.0,6.613567014333333E9:(t_x=1..256) & (f_x=(id(t_x);pred)) & t_x=t_x

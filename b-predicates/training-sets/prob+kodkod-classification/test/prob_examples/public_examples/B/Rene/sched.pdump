@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Rene/sched.mch
+4.9006697333333336E7,6.914980833333333E7,7.546013166666667E7,6.3499881333333336E7:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (active={} => ready={}) & (active/={}) & not((pp:waiting))
+-1.0,-1.0,6.0257965333333336E7,-1.0:ready/\waiting={} & not(ready/\waiting={})
+-1.0,-1.0,-1.0,-1.0:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (active={} => ready={}) & not((active:POW(PID)) & (active/\(ready\/waiting)={}) & (active={} => ready={}) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (active<:PID) & (waiting:POW(PID)) & (ready:POW(PID)) & (ready/\waiting={}))

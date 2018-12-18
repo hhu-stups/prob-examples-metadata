@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/phonebook7_err.mch
+5.3047132666666664E7,6.0281455333333336E7,-1.0,6.808098066666667E7:not((db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec)) => not((nn:Name) & (cc:Code) & (nn/:active))
+5.2096010333333336E7,5.5757323333333336E7,-1.0,6.931598366666667E7:not(not((db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec))) => not((nn:Name) & (cc:Code) & (nn/:active))
+5.4227985E7,7.477221766666667E7,6.9472033E7,6.0588594E7:not((db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec)) & not((nn:Name) & (nn:active))
+-1.0,-1.0,6.3967422333333336E7,-1.0:(db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec) & (nn:Name) & (cc:Code) & (nn/:active) & (nn:Name) & (nn:active)

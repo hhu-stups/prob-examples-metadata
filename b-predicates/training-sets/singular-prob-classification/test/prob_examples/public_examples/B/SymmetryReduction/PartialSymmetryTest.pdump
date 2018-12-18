@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/PartialSymmetryTest.mch
+4.8315920666666664E7,7.417731033333333E7,7.909564966666667E7,6.4398925E7:(r=1) & (x<:ID) & (y<:ID) & (yy:ID) & (yy:x)
+4.8868388666666664E7,5.7584836666666664E7,6.5444821333333336E7,5.9952526333333336E7:(r=1) & (not(x<:ID) => not(yy:y))

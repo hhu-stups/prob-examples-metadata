@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter12/Towns.mch
+-1.0,-1.0,6.6716258333333336E7,-1.0:not(not((roads:TOWN<->TOWN))) => not((tt1:TOWN) & (tt2:TOWN))
+-1.0,-1.0,6.4390124666666664E7,-1.0:not(not((tt1:TOWN) & (tt2:TOWN))) => not((roads:TOWN<->TOWN))

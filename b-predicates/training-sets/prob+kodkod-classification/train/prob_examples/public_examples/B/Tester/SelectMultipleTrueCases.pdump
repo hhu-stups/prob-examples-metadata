@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/SelectMultipleTrueCases.mch
+4.5597977E7,4.440439E7,5.841064E7,4.8539971E7:not((1=1)) => (xx:0..3)

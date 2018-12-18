@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSPB/Refinement/B_Spec.mch
+4.8898513666666664E7,4.8045378333333336E7,5.9995990333333336E7,5.5931158E7:(not(nr_msgs:NATURAL) => nr_msgs>0 => nr_msgs-1:NATURAL)

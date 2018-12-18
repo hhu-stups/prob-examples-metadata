@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Corinna/Marriage/Life.mch
+7.964720966666667E7,7.685341866666667E7,6.611141E7,8.4030681E7:not((male<:PERSON) & (female<:PERSON) & (male/\female={})) & (nn:PERSON) & (nn:male\/female)

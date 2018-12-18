@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/BlocksWorldGeneric6.mch
+5.4510307333333336E7,2.3184326233333334E8,9.3049216E7,7.613170166666667E7:not((on:Objects+->Objects)) => not((obj/:ran(on)) & (obj:dom(on)))
+4.9681899666666664E7,2.4855434933333334E8,-1.0,6.8570987E7:not((obj/:ran(on)) & (obj:dom(on))) => (on:Objects+->Objects)

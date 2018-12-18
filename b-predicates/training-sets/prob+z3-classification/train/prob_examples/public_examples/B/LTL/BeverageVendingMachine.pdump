@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/LTL/BeverageVendingMachine.mch
+6.863742933333333E7,5.4026493E7,6.0704553666666664E7,5.6013687333333336E7:not((nmax:NATURAL) & (nmax=1) & (nsoda:NATURAL) & (nbeer:NATURAL) & (paid:BOOL)) => (paid=FALSE)
+4.8470269666666664E7,5.1953767E7,6.0026767333333336E7,5.2006753333333336E7:(nmax:NATURAL) & (nmax=1) & (nsoda:NATURAL) & (nbeer:NATURAL) & (paid:BOOL) & (paid=FALSE) & (nbeer>0) & (paid=TRUE)
+4.6786489666666664E7,6.0647144E7,6.2640158333333336E7,7.021838E7:(nmax:NATURAL) & (nmax=1) & (nsoda:NATURAL) & (nbeer:NATURAL) & (paid:BOOL) & (paid=FALSE) & not((paid=TRUE) & (nsoda=0) & (nbeer=0))
+4.827206E7,6.2737889666666664E7,6.1282723E7,6.802012566666667E7:(nmax:NATURAL) & (nmax=1) & (nsoda:NATURAL) & (nbeer:NATURAL) & (paid:BOOL) & (not((nsoda>0) & (paid=TRUE)) => (paid=TRUE) & (nsoda=0) & (nbeer=0))
+8.470742033333333E7,5.7644411E7,6.1045844666666664E7,6.7017857E7:(nmax:NATURAL) & (nmax=1) & nsoda:NATURAL & paid=FALSE&nmax:NATURAL
+6.1849042666666664E7,6.0809153E7,5.9843154666666664E7,7.0236376E7:(nmax:NATURAL) & (nmax=1) & nsoda:NATURAL & paid=TRUE&nsoda=0&nbeer=0&nsoda:NATURAL

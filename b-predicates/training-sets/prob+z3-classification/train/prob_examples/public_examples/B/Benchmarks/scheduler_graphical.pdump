@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/scheduler_graphical.mch
+1.38431896E8,1.7694965256666667E9,1.15818499E8,6.3885684666666664E7:(active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={})
+5.0376960333333336E7,7.2899377E7,5.4958711666666664E7,6.3194372E7:not(not((active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}))) => (active/={})
+4.7261201E7,6.795899133333333E7,-1.0,7.5951954E7:not(not((active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}))) => (rr:waiting)
+5.1243923333333336E7,6.6748199E7,4.3864261E7,1.0410367133333333E8:not((active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={})) & not((pp:waiting))
+4.8736225666666664E7,6.733533233333333E7,8.803079433333333E7,7.435170333333333E7:not(not((active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}))) => not((pp:waiting))
+4.7626121333333336E7,4.7878737666666664E7,6.4108781E7,4.7927906E7:waiting<:PID & pp/:active&pp/:ready\/waiting => waiting<:PID

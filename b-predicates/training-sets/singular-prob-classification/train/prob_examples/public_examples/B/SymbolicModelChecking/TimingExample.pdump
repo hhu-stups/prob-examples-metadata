@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/TimingExample.mch
+5.8323687333333336E7,6.3594819E7,6.5566321333333336E7,7.060867633333333E7:not((mxc:1..50) & (mxe:1..50) & (pc=0) & (v:1..mxc)) => not((INV))
+5.8614367333333336E7,1.5150858233333334E8,7.0596477E7,1.6641217666666666E8:(mxc:1..50) & (mxe:1..50) & (INV) & (v=min({timer_c,timer_e})) & (pc=2)
+7.1811017E7,7.8165783E7,7.649040666666667E7,1.5282893133333334E8:(mxc:1..50) & (mxe:1..50) & (INV) & ((pc=0) & (v:1..mxc) => not((pc=1) & (v:1..mxe)))
+-1.0,-1.0,7.4706148E7,1.4538731496666667E9:(mxc:1..50) & (mxe:1..50) & (INV) & not((pc=1&v:1..mxe => timer_c:NATURAL&timer_e+v:NATURAL&timer_c-(timer_e+v)<100&2:0..2))
+-1.0,-1.0,7.364740066666667E7,-1.0:(mxc:1..50) & (mxe:1..50) & INV & not(v=min({timer_c,timer_e})&pc=2 => timer_c-v:NATURAL&timer_e-v:NATURAL&timer_c-v-(timer_e-v)<100&0:0..2)

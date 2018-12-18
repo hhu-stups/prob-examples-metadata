@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Kodkod/SimpleComputation2.mch
+1.0857069666666667E8,1.0692477033333333E8,-1.0,-1.0:(a=1..limit) & (b=limit+2..limit+limit) & (x=a\/b) & (limit=1000) & (card(x)=2*limit-1)

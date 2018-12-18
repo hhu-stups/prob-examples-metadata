@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/DefinitionFileTest.mch
+5.8832877666666664E7,6.5418537666666664E7,6.1535525333333336E7,1.15030922E8:(INV) & (y<x-1&(x:NATURAL&y+1:NATURAL&x>y+1))

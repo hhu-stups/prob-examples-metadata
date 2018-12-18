@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/SafetyMetroSystem_full_23_08_2012.zip_unpacked/GCDoors/Door_M0.bcm
+4.7965852666666664E7,5.7375848666666664E7,6.7985158E7,5.7184134333333336E7:(door<:DOOR) & (door_state:door --> DOOR_STATE) & (not((doors<:DOOR)) => (ds/\door=({} oftype POW(DOOR))) & (ds/=({} oftype POW(DOOR))))

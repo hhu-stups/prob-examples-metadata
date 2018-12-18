@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/B_Day/Parking.mch
+5.0278135E7,4.7847006E7,6.2864233E7,6.3908429333333336E7:(NbPlaces:NAT) & (VehiculesPres:0..NbPlaces) & not((VehiculesPres>0))
+4.8752288666666664E7,4.7965573E7,6.0127990666666664E7,6.2569665333333336E7:(NbPlaces:NAT) & (VehiculesPres:0..NbPlaces) & (VehiculesPres<NbPlaces)
+4.8877142E7,5.0535476666666664E7,6.00578E7,5.5991338333333336E7:not((NbPlaces:NAT) & not((VehiculesPres:0..NbPlaces))) => (VehiculesPres<NbPlaces)
+4.8605505333333336E7,4.7935612E7,6.0087249666666664E7,5.6092701333333336E7:not((NbPlaces:NAT) & (VehiculesPres<NbPlaces)) => not((VehiculesPres:0..NbPlaces))
+5.0001284E7,5.1948854333333336E7,6.1315572333333336E7,6.0090765333333336E7:(NbPlaces:NAT) & (not(VehiculesPres:0..NbPlaces) => not(VehiculesPres>0 => VehiculesPres-1:0..NbPlaces))
+4.8706496333333336E7,5.2078829333333336E7,6.1289055333333336E7,6.3920605333333336E7:(NbPlaces:NAT) & (VehiculesPres:0..NbPlaces) & (VehiculesPres<NbPlaces => VehiculesPres+1:0..NbPlaces)

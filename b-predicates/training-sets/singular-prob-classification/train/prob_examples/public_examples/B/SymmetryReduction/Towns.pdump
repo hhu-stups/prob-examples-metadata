@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/Towns.mch
+-1.0,-1.0,6.5252618333333336E7,-1.0:(roads:TOWN<->TOWN) & not((tt1:TOWN) & (tt2:TOWN))
+-1.0,-1.0,6.3946842E7,-1.0:not((roads:TOWN<->TOWN)) & not((tt1:TOWN) & (tt2:TOWN))
+-1.0,-1.0,6.5412973666666664E7,-1.0:not(not((roads:TOWN<->TOWN))) => not((tt1:TOWN) & (tt2:TOWN))
+-1.0,-1.0,6.6910184666666664E7,-1.0:(roads:TOWN<->TOWN) & not((tt1:TOWN) & (tt2:TOWN))
+4.6733736E7,6.837491933333333E7,-1.0,5.9353683333333336E7:not((tt1:TOWN) & (tt2:TOWN)) => (roads:TOWN<->TOWN)
+-1.0,-1.0,6.5043304E7,-1.0:not((roads:TOWN<->TOWN)) & (tt1:TOWN) & (tt2:TOWN)
+-1.0,-1.0,6.3590861333333336E7,-1.0:not((roads:TOWN<->TOWN)) & not((tt1:TOWN) & (tt2:TOWN))
+-1.0,-1.0,6.3536641E7,-1.0:not(not((tt1:TOWN) & (tt2:TOWN))) => not((roads:TOWN<->TOWN))
+-1.0,-1.0,6.4041570333333336E7,-1.0:(roads:TOWN<->TOWN) & ((tt1:TOWN) & (tt2:TOWN) => not((tt1:TOWN) & (tt2:TOWN)))
+-1.0,-1.0,6.5153048E7,-1.0:roads:TOWN<->TOWN & not(tt1:TOWN&tt2:TOWN&roads\/{(tt1,tt2)}:TOWN<->TOWN)
+-1.0,-1.0,-1.0,-1.0:roads:TOWN<->TOWN & not(tt1:TOWN&tt2:TOWN&((tt1,tt2):closure1(roads\/roads~) or tt1=tt2 => roads:TOWN<->TOWN&(not((tt1,tt2):closure1(roads\/roads~) or tt1=tt2) => (TRUE:BOOL => roads:TOWN<->TOWN))))

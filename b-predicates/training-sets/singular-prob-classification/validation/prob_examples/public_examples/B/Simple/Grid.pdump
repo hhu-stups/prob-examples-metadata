@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Simple/Grid.mch
+4.9840742333333336E7,1.8139518066666666E8,6.3041862333333336E7,6.0820513333333336E7:(limit:NAT) & (limit=3) & xx/=limit or yy/=limit & yy<limit => xx/=limit or yy+1/=limit

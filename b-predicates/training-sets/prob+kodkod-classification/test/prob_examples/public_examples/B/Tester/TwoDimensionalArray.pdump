@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/TwoDimensionalArray.mch
+4.8731802E7,5.1915144333333336E7,6.6639432666666664E7,6.937066933333333E7:not((x:IDX) & (y:IDX) & (ar(x)(y)<MAXINT)) => not((ar:IDX-->(IDX-->NAT)))

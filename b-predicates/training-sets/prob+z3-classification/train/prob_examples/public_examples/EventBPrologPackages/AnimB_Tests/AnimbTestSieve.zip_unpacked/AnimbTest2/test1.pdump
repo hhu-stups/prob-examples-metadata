@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/AnimB_Tests/AnimbTestSieve.zip_unpacked/AnimbTest2/test1.bcm
+1.0329903E8,3.89198515E8,9.254540433333333E7,6.2834736333333336E7:(x:{1,2,3,4}) & (y:{1,2,3,4}) & (x=y*y)
+4.9958983333333336E7,5.3294906E7,-1.0,6.8664225E7:(d={1,2,3,4}) & (g:d <-> d) & (g={1 |-> 1,2 |-> 1}) & (h=g<+{2 |-> 2,4 |-> 4})

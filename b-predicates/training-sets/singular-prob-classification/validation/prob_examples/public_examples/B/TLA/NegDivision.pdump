@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TLA/NegDivision.mch
+-1.0,-1.0,6.3461422E7,-1.0:not(not((xx<100))) => not((xx:-100..100) & (-xx/4=-xx/4) & (-xx/-4=xx/4) & (xx/-4=-xx/4))

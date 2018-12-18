@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tutorial/SimpleCountDefSet.mch
+4.7899247333333336E7,6.6541003666666664E7,-1.0,1.1253837966666667E8:not((card(ID)=5) & (x:s)) => not((s<:ID) & (card(s)<10))

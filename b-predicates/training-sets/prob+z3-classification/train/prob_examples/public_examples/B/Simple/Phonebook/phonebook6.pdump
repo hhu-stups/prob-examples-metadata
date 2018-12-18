@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Simple/Phonebook/phonebook6.mch
+9.733723833333333E7,3.894735496666667E8,1.0039326033333333E8,6.4063453666666664E7:(db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec)
+-1.0,-1.0,6.523851E7,-1.0:(db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec) & not((nn:Name) & (cc:Code))
+-1.0,-1.0,7.8580663E7,-1.0:(db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec) & (nn:Name) & (nn:active) & not((nn:Name) & (cc:Code))

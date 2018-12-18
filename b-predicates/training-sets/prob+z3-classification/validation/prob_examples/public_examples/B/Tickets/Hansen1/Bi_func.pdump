@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Hansen1/Bi_func.mch
+5.5309570666666664E7,5.4471149E7,1.0564884E8,5.0504606666666664E7:(not(xx:POW(INTEGER)) => not(!yy.(yy={t|t:{4,5,6,7}} => xx:POW(INTEGER))))

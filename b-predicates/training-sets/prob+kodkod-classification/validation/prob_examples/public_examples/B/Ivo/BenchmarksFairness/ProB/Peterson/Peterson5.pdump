@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksFairness/ProB/Peterson/Peterson5.mch
+1.81917803E8,1.0807060933333333E8,6.150770150333333E9,1.1130495966666667E8:not((N=5) & (PID=0..N-1) & (counter:NATURAL) & (step:PID-->PID) & (pos:PID-->PID)) => not((j:PID))
+5.381873817333333E9,1.75882259E8,1.5507074366666666E8,1.838207591E9:not((N=5) & (PID=0..N-1) & not((counter:NATURAL) & (step:PID-->PID) & (pos:PID-->PID))) => not((j:PID))

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter13/Booth.mch
+1.8271629866666666E8,1.71919115E8,6.831606633333333E7,1.82996106E8:not((reserved:CUSTOMER-->NAT) & (tickets:SEAT+->CUSTOMER)) => (cc:CUSTOMER) & (reserved(cc)>0)
+1.75664191E8,1.7905989733333334E8,4.7551903E7,2.4438072733333334E8:(not((reserved:CUSTOMER-->NAT) & (tickets:SEAT+->CUSTOMER)) => (nn:NAT1&tickets:SEAT+->CUSTOMER) & (nn:NAT1&reserved<+{(cc,reserved(cc)+nn)}:CUSTOMER-->NAT))

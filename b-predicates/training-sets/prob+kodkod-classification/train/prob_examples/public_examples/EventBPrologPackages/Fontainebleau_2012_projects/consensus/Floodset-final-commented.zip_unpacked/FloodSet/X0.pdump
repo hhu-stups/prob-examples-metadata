@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Fontainebleau_2012_projects/consensus/Floodset-final-commented.zip_unpacked/FloodSet/X0.bcm
+5.3855196E7,5.8479806E7,-1.0,5.4632133333333336E7:not((M:CORR --> (P +-> V))) & (m:CORR --> (P +-> V)) & (!f oftype POW(P**V),g oftype POW(P**V).g:ran(m)&f:ran(m)=>f=g&CORR <| INIT<:f&f<:INIT)
+5.2990700666666664E7,5.7341393333333336E7,5.2698484333333336E7,1.3724294133333334E8:not(not((m:CORR --> (P +-> V)) & (!f oftype POW(P**V),g oftype POW(P**V).g:ran(m)&f:ran(m)=>f=g&CORR <| INIT<:f&f<:INIT))) => not((M:CORR --> (P +-> V)))

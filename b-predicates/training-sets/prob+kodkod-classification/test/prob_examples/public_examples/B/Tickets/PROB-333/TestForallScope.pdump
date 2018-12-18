@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROB-333/TestForallScope.mch
+1.2569098366666667E8,7.505435333333333E7,7.276390833333333E7,5.9915067666666664E7:(BB<:AA) & (rr=xx) & !zz.(zz:BB => zz=rr)

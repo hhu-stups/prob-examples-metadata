@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tester/Sets.mch
+6.5138450666666664E7,1.81196715E8,6.3595890333333336E7,7.406300333333333E7:(funX:setX+->setY) & (valX:POW(setX)) & (valY:POW(setY)) & (xx:setX) & (xx/:dom(funX))
+7.602875566666667E7,1.9970516733333334E8,-1.0,5.749604753333334E8:(funX:setX+->setY) & (valX:POW(setX)) & (valY:POW(setY)) & ((xx:setX) & (xx/:dom(funX)) => not((ss:POW(setX)) & (ss<:setX) & ({xx|xx:setX&xx:ss&xx/:dom(funX)}=ss)))
+5.3591708333333336E7,5.3587540333333336E7,1.1476787666666667E8,6.2584076E7:valX:POW(setX) & valX:POW(setX)

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Mejia1/TestInit.zip_unpacked/Tests/TestInit.bcm
+4.5788527333333336E7,4.7616274333333336E7,5.9114500666666664E7,4.9341935666666664E7:not((vv:NAT <-> NAT)) => (#x oftype INT.x=0 or 2 / x=1)
+8.2936175E7,8.898803866666667E7,6.1304490333333336E7,9.649083166666667E7:not(not((#x oftype INT.x=0 or 2 / x=1))) => not((vv:NAT <-> NAT))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/StateSpaceSimple.mch
+7.369770966666667E7,5.1310715E7,7.631915566666667E7,7.1668797E7:(not(y:0..2) => max({y-x,0}):0..2)

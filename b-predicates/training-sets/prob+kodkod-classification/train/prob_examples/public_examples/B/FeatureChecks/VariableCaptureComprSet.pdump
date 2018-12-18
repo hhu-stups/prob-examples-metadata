@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/VariableCaptureComprSet.mch
+-1.0,-1.0,-1.0,-1.0:({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER) & not({yy|yy:{yy|yy>xx&yy<10}}={zz|zz:{yy|yy>xx&yy<10}})
+5.3051858E7,5.2018370333333336E7,6.1078879666666664E7,5.4325204333333336E7:xx:INTEGER & xx:INTEGER
+-1.0,-1.0,7.712149233333333E7,-1.0:(not({yy|yy>xx&yy<10}={}) => {FRESH____1|FRESH____1>yy&FRESH____1<10}={})
+-1.0,-1.0,1.1588871233333333E8,-1.0:(not(({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER)) => (yy:INTEGER) & (xx:INTEGER) & ({FRESH____1|FRESH____1>yy&FRESH____1<10}={}))

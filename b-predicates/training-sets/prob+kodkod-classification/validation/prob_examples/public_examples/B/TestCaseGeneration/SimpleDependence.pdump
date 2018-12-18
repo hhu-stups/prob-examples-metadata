@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/SimpleDependence.mch
+4.6105956666666664E7,4.8789957E7,7.8325952E7,5.7146000666666664E7:not(not((x=5))) => not((x:INTEGER) & (y:INTEGER))

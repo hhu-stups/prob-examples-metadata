@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/DEFINITIONS/DefinitionScopeOk.mch
+5.3414427333333336E7,5.0270731666666664E7,7.515629866666667E7,6.5998103666666664E7:(not((xx:NATURAL)) => (3+4*2:NATURAL))

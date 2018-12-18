@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/ChannelTC.bcm
+4.7796441E7,4.8005895E7,6.1422452666666664E7,5.5960235E7:not((sum:NAT) & (sum_prime:NAT)) => (pv:INT) & (adder_enabled=TRUE)
+4.8003753333333336E7,4.7930047666666664E7,6.2636270333333336E7,5.6025537E7:not((pv:INT) & (adder_enabled=TRUE)) => not((sum:NAT) & (sum_prime:NAT))
+4.7870286333333336E7,6.0026185666666664E7,5.9968007666666664E7,6.3980039666666664E7:not((sum:NAT) & (sum_prime:NAT)) & not((adder_enabled=TRUE))
+4.7882066666666664E7,4.8005965E7,6.1384226E7,5.5908226666666664E7:not((adder_enabled=TRUE)) => not((sum:NAT) & (sum_prime:NAT))
+4.7856528E7,5.0693154666666664E7,6.4065805666666664E7,5.5892954666666664E7:not(not((sum:NAT) & (sum_prime:NAT))) => not((adder_enabled=FALSE or adder_evaluated=TRUE) & (msg_rcvd_on_sum=FALSE or incrementer_evaluated=TRUE))
+8.592202966666667E7,4.8542089666666664E7,6.837119466666667E7,5.0803364666666664E7:(sum:NAT) & (sum_prime:NAT) & incrementer_evaluated:BOOL
+8.294225133333333E7,4.6413420666666664E7,6.904062333333333E7,6.2875197333333336E7:(sum:NAT) & (sum_prime:NAT) & msg_sent_on_sum:BOOL
+8.2370717E7,4.6352030666666664E7,6.7075079666666664E7,6.2768224E7:(sum:NAT) & (sum_prime:NAT) & (sum_prime:INT) & (incrementer_evaluated:BOOL) & (sum:INT) & (msg_rcvd_on_sum:BOOL) & (msg_sent_on_sum:BOOL) & (adder_evaluated:BOOL) & (adder_enabled:BOOL)

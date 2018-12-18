@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Exam.mch
+-1.0,-1.0,6.2546896666666664E7,-1.0:not((marks:CANDIDATE+->0..100)) & not((marks/={}))

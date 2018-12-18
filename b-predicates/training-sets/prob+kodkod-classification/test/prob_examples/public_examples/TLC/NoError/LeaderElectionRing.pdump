@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/TLC/NoError/LeaderElectionRing.mch
+-1.0,-1.0,1.0817793233333333E8,-1.0:not((N<:NATURAL) & (N={1,2,3,4}) & (n:N>->>N) & (!S.(S<:N&n[S]<:S&S/={} => N<:S)) & not((x:dom(b)) & (b(x)<x))) => not((b:N+->N))
+-1.0,-1.0,9.564400633333333E7,-1.0:not((N<:NATURAL) & (N={1,2,3,4}) & (n:N>->>N) & (!S.(S<:N&n[S]<:S&S/={} => N<:S)) & (x:dom(b)) & (b(x)<x)) => not((b:N+->N))

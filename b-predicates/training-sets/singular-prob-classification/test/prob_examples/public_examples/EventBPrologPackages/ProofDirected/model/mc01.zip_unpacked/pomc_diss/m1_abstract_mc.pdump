@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/ProofDirected/model/mc01.zip_unpacked/pomc_diss/m1_abstract_mc.bcm
+-1.0,-1.0,1.3377664833333333E8,-1.0:(ok<:STATES) & (broken<:STATES) & (unknown<:STATES) & (result:MC_STATE) & (counterexample<:STATES) & (ok<:preserve) & (broken<:violate) & (partition(STATES,ok,broken,unknown)) & (result/=running=>ok=STATES or counterexample/=({} oftype POW(STATES))) & not(unknown=({} oftype POW(STATES))=>ok\/broken=preserve\/violate)

@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Tester/Prj_WD_Errors.mch
+-1.0,-1.0,-1.0,-1.0:not((a=10) & (b=-20) & (ab=(a,b))) => (prj1(NATURAL1,INTEGER)(ab)=10)
+1.0805009933333333E8,1.0081242433333333E8,-1.0,7.665285766666667E7:(a=10) & (b=-20) & (ab=(a,b)) & prj1(INTEGER,INTEGER)(ab)=10
+5.1504059E7,5.116612E7,-1.0,4.6522443333333336E7:(a=10) & (b=-20) & (ab=(a,b)) & not(prj1(INTEGER,INTEGER)(ab)=10)
+5.5553898333333336E7,5.3862948E7,-1.0,7.598601233333333E7:not((a=10) & (b=-20) & (ab=(a,b))) => prj2(INTEGER,INTEGER)(ab)=-20
+2.14025704E8,1.2287880133333333E8,-1.0,1.3228414066666667E8:(a=10) & (b=-20) & (ab=(a,b)) & not((prj1(INTEGER,INTEGER)(ab)=10) & (prj2(INTEGER,INTEGER)(ab)=-20) & (prj1(NATURAL1,NATURAL1)(ab)=10) & (prj2(NATURAL1,NATURAL1)(ab)=-20) & (1=1))

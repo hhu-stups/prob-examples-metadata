@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Kodkod/TestCBCAssertionCheck.mch
+4.7391943666666664E7,6.4559047666666664E7,-1.0,6.877536566666667E7:(r:ID<->ID) & (ran(r)<:dom(r)) & ran(r)/=ID

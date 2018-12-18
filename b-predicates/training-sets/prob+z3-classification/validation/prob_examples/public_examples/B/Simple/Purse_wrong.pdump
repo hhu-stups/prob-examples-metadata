@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Simple/Purse_wrong.mch
+1.1350631033333333E8,5.3568381333333336E7,6.4028416333333336E7,7.4616891E7:not((Coins<:NAT1) & (Coins={1,2}) & (purse:Coins-->NAT)) => (cc:Coins) & (purse(cc)<MAXINT)

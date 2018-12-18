@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Queens/MaxQueensNoCheck_MAXIMIZE_EXPR.mch
+9.788623733333333E7,1.52299814E8,-1.0,9.628673686666666E8:(n=8) & (SOLUTION(nqueens,hasqueen)) & (nqueens=MAXIMIZE_EXPR(nqueens)) & (nqueens:0..64) & not((nqueens=42))

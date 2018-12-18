@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/B_Tutorial/NatEnumTest.mch
+4.6439029333333336E7,4.9824469333333336E7,-1.0,6.5972658666666664E7:(xx:INT) & (ss:POW(NAT))
+4.7403327666666664E7,4.8131656E7,6.2770692E7,5.5904246E7:(not(xx:INT) => not(yy:INT&yy:INT))

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Doors.mch
+4.7711397666666664E7,4.9237453E7,6.4013587E7,5.1891794666666664E7:not((dd:DOOR)) => (position:DOOR-->POSITION)
+4.6996525666666664E7,6.987445833333333E7,6.2755768666666664E7,7.456290333333333E7:not(not((position:DOOR-->POSITION))) => not((dd:DOOR))

@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Club.mch
+5.6544295E7,5.7310314E7,1.7838786166666666E8,1.06931871E8:not((capacity:NAT1) & (capacity<=2) & (card(NAME)>capacity) & (total:NAT1) & (total>2) & (member<:NAME) & (waiting<:NAME) & (member/\waiting={}) & (card(member)<=4096) & (card(waiting)<=total)) => (nn:member)
+4.971859E7,5.1816389E7,4.4363509333333336E7,1.0123361366666667E8:(capacity:NAT1) & (capacity<=2) & (card(NAME)>capacity) & (total:NAT1) & (total>2) & waiting<:NAME & waiting<:NAME
+4.7378650333333336E7,5.1203043333333336E7,8.234610966666667E7,4.7419088666666664E7:(capacity:NAT1) & (capacity<=2) & (card(NAME)>capacity) & (total:NAT1) & (total>2) & (not(waiting<:NAME) => nn/:member&nn/:waiting&card(waiting)<total)
+4.8640403666666664E7,5.1271464333333336E7,4.3829596E7,8.360541733333333E7:(capacity:NAT1) & (capacity<=2) & (card(NAME)>capacity) & (total:NAT1) & (total>2) & (not(waiting<:NAME) => not(nn:waiting&card(member)<capacity))
+-1.0,-1.0,-1.0,-1.0:(capacity:NAT1) & (capacity<=2) & (card(NAME)>capacity) & (total:NAT1) & (total>2) & card(member)<=4096 & not(nn:member => card(member)<=4096&(not(nn:member) => (TRUE:BOOL => card(member)<=4096)))

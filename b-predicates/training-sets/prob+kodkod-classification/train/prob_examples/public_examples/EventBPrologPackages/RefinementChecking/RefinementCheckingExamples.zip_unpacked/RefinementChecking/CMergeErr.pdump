@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/RefinementChecking/RefinementCheckingExamples.zip_unpacked/RefinementChecking/CMergeErr.bcm
+4.357694415333333E9,8.690225233333333E7,9.370523533333333E7,6.4032281333333336E7:not((x:NAT) & (n:NAT) & (n=x)) => (n>=0)

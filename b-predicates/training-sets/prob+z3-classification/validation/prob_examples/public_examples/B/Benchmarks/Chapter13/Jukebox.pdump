@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Chapter13/Jukebox.mch
+7.446000433333333E7,5.155055E7,6.4120933E7,7.0665737E7:(limit:NAT1) & credit:NAT & playset/={}&!tr.(tr:playset => credit:NAT)

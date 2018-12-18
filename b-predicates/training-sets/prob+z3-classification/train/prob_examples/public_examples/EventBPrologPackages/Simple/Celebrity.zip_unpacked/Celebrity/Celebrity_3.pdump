@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Simple/Celebrity.zip_unpacked/Celebrity/Celebrity_3.bcm
+6.935106733333333E7,5.4543412E7,6.6755789E7,6.3845642E7:not(not((r:P) & (Q<:P) & (c:Q) & (R<:P) & (b:P) & (b/:R) & (Q=R\/{b}) & (a:1 .. n+1) & (R=a .. n))) => (a=n+1)
+-1.0,-1.0,6.4397016E7,1.2588219033333333E9:(r:P) & (Q<:P) & (c:Q) & (R<:P) & (b:P) & (b/:R) & (Q=R\/{b}) & (a:1 .. n+1) & (R=a .. n) & (a=n+1) & (a<=n) & (a |-> b:k)

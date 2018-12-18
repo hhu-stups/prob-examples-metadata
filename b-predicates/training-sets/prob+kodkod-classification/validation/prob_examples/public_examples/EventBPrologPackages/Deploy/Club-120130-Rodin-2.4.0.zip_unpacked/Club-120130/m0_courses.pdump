@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Deploy/Club-120130-Rodin-2.4.0.zip_unpacked/Club-120130/m0_courses.bcm
+5.8632037E7,5.3283591333333336E7,-1.0,1.06210573E8:(crs:POW(CRS)) & (card(crs)<=m) & (cs<:crs) & (cs/=({} oftype POW(CRS))) & (card(crs)/=m) & (crs/=CRS)

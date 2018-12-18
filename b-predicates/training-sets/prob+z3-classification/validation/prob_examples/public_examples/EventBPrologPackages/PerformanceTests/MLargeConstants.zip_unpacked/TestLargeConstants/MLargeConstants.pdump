@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/PerformanceTests/MLargeConstants.zip_unpacked/TestLargeConstants/MLargeConstants.bcm
+5.5996762333333336E7,7.085356333333333E7,6.3515665333333336E7,6.6887602333333336E7:(x:1 .. 1000) & x' = x + 1 & f' = f & n' = n & (x' : 1 .. 1000)

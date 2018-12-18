@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/U2B/PLATFORM_CLASS2.mch
+-1.0,-1.0,-1.0,-1.0:(invariant) & (thisPLATFORM:PLATFORM) & (tt:TRAIN) & not((thisPLATFORM:PLATFORM))
+5.675915E7,6.806116866666667E7,-1.0,1.80567026E8:(invariant) & (not((thisPLATFORM:PLATFORM) & (tt:TRAIN)) => (thisPLATFORM:PLATFORM))
+-1.0,-1.0,-1.0,-1.0:(invariant) & (thisPLATFORM:PLATFORM) & (tt:TRAIN) & not((thisPLATFORM:PLATFORM))
+-1.0,-1.0,-1.0,-1.0:(invariant) & (thisPLATFORM:PLATFORM) & not((thisPLATFORM:PLATFORM))
+-1.0,-1.0,-1.0,-1.0:(invariant) & (thisPLATFORM:PLATFORM) & not((thisPLATFORM:PLATFORM))

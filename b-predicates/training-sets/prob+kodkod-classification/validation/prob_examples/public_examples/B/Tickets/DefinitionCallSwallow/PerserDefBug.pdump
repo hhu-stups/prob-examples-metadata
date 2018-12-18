@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/DefinitionCallSwallow/PerserDefBug.mch
+-1.0,-1.0,-1.0,-1.0:not((f=pred) & (g=%x.(x:1..10|D("hello")(x)))) => (g(1)=0)

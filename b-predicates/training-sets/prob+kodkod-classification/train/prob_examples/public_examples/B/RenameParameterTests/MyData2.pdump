@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/RenameParameterTests/MyData2.mch
+5.5685503E7,6.0626750333333336E7,1.0363194E8,4.9102263333333336E7:not((a:Data)) => not((el:Data))
+4.6263029333333336E7,4.7905277666666664E7,6.4032328E7,4.9250234E7:(not(el:Data) => el:Data)

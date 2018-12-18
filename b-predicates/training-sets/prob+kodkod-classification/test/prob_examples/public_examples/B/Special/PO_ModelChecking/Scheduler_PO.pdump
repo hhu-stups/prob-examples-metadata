@@ -1,0 +1,16 @@
+#source:examples/prob_examples/public_examples/B/Special/PO_ModelChecking/Scheduler_PO.mch
+1.3644239733333334E8,6.4829752333333336E7,8.408103666666667E7,7.822926833333333E7:card(active)<=1 & !pp.(pp/:active&pp/:ready\/waiting => card(active)<=1)
+-1.0,-1.0,-1.0,-1.0:card(active)<=1 & not(!pp.(pp/:active&pp/:ready\/waiting => card(active)<=1))
+7.839851733333333E7,4.712314883333333E9,5.8603146E7,5.5788984333333336E7:active/\(ready\/waiting)={} & active/={}&ready={} => {}/\(ready\/(waiting\/active))={}
+-1.0,-1.0,5.9892346E7,-1.0:active/\(ready\/waiting)={} & not(active/={}&ready={} => {}/\(ready\/(waiting\/active))={})
+1.8972258966666666E8,1.50486292E8,3.025208953333333E8,9.654176933333333E7:(not(active/\(ready\/waiting)={}) => not(active/={}&ready={} => {}/\(ready\/(waiting\/active))={}))
+4.5507160666666664E7,4.8077249666666664E7,3.077831429E9,4.9289415E7:(not(ready<:PID) => not(!pp.(active/={}&ready/={}&pp:ready => ready<:PID)))
+4.8900282666666664E7,4.7940104666666664E7,5.9894744E7,4.7941827E7:(not(active<:PID) => !pp.(active/={}&ready/={}&pp:ready => active<:PID))
+-1.0,-1.0,6.0477150333333336E7,-1.0:waiting:POW(PID) & not(!pp.(active/={}&ready/={}&pp:ready => waiting:POW(PID)))
+4.7976864E7,4.7919641333333336E7,6.0138653333333336E7,9.9486557E7:(not(ready<:PID) => not(!pp.(pp:waiting => ready<:PID)))
+-1.0,-1.0,5.9817522666666664E7,-1.0:waiting<:PID & not(!pp.(pp:waiting => waiting<:PID))
+4.6908036666666664E7,6.1969728666666664E7,9.235597166666667E7,5.7212466333333336E7:(not(ready/\waiting={}) => !pp.(pp:waiting => ready/\waiting-{pp}={}))
+-1.0,-1.0,5.9870276333333336E7,-1.0:active<:PID & not(!rr.(rr:waiting&active/={} => active<:PID))
+1.09332083E8,4.7893683333333336E7,5.9876515E7,9.448309523333334E9:(not(active:POW(PID)) => !rr.(rr:waiting&active={} => active:POW(PID)))
+4.7449120666666664E7,1.2631783233333333E8,5.9025429333333336E7,4.7997723333333336E7:(not(waiting<:PID) => not(!rr.(rr:waiting&active={} => waiting<:PID)))
+-1.0,-1.0,5.7780671333333336E7,-1.0:ready:POW(PID) & not(!rr.(rr:waiting&active={} => ready:POW(PID)))

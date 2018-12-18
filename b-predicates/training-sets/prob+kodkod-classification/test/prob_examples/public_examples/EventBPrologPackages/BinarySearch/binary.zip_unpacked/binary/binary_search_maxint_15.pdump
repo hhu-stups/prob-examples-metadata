@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/BinarySearch/binary.zip_unpacked/binary/binary_search_maxint_15.bcm
+4.9942756666666664E7,5.4481276E7,6.5017998E7,6.1940186E7:not(not((pc=7))) => (found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr))
+6.1356708666666664E7,5.5242011E7,8.745949233333333E7,6.3815144666666664E7:not((found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr))) & (pc=3) & (not arr(mid)=goal)
+5.0654207E7,5.4636929E7,6.5276527666666664E7,6.4050672666666664E7:not(not((found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)))) => (pc=2)
+5.1997464E7,5.5876030333333336E7,6.4004508333333336E7,6.4008256E7:not(not((pc=2))) => not((found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)))
+-1.0,-1.0,6.6524125333333336E7,-1.0:(found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)) & (not((pc=8)) => (pc=7))
+-1.0,-1.0,6.6211842E7,-1.0:(found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)) & (not((pc=8)) => (pc=4))
+5.1164932666666664E7,5.6066743E7,6.6316882666666664E7,6.743343566666667E7:(found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)) & ((pc=3) & (arr(mid)=goal) => not((pc=2)))
+-1.0,-1.0,6.6138531333333336E7,-1.0:(found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)) & (not((pc=5) & (not arr(mid)<goal)) => (pc=6))
+4.7935262333333336E7,5.1006276666666664E7,6.3916531333333336E7,5.3754740666666664E7:(found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)) & (pc=7) & (pc=5) & (arr(mid)<goal)
+5.1829589E7,5.6605033666666664E7,6.6900034666666664E7,5.7353289333333336E7:(found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)) & ((pc=3) & (not arr(mid)=goal) => not((pc=1)))
+5.3323610666666664E7,5.7556853333333336E7,6.7637279E7,5.6293983333333336E7:(found:BOOL) & (i:myNAT) & (j:myNAT) & (mid:myNAT) & (pc:NAT) & (pc=0=>j:0 .. sze&i:1 .. sze+1) & (pc=3=>mid:dom(arr)) & ((pc=5) & (arr(mid)<goal) => not((pc=1)))

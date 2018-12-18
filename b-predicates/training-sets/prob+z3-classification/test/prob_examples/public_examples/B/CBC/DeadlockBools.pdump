@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/CBC/DeadlockBools.mch
+5.7982350333333336E7,1.94220415E8,8.587318733333333E7,7.850860966666667E7:not((a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (xx:BOOL)) => (a=TRUE) & (b=FALSE) & (c=FALSE) & (e:S)
+4.7992462333333336E7,5.3248554E7,6.6514626666666664E7,5.3566867666666664E7:(a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (xx:BOOL) & (a=TRUE) & (b=FALSE) & (c=FALSE) & (e:S) & (a=FALSE) & (b=TRUE) & (d=FALSE) & (e:S)

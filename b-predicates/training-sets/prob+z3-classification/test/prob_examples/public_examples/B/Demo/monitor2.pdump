@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Demo/monitor2.mch
+5.2233714333333336E7,6.8106496E7,5.1115531333333336E7,8.271820066666667E7:(in:POW(Staff)) & (out:POW(Staff)) & (users:POW(Staff)) & (in/\out={}) & (in\/out=users) & (card(in)<=max_user) & (ss:users) & (ss:in)
+4.7441415E7,4.8117641E7,6.3952802333333336E7,5.1901339333333336E7:(not(in:POW(Staff)) => not(!ss.(ss/:users => in:POW(Staff))))
+4.7517518333333336E7,6.1310287333333336E7,6.5383384333333336E7,5.6091630333333336E7:users:POW(Staff) & !ss.(ss/:users => users:POW(Staff))

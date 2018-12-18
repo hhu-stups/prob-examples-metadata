@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/CBC/ProcessIDStarvation.mch
+1.25075751E8,3.909653126666667E8,1.04828065E8,6.7091981333333336E7:(free<:ID-{root}) & (used<:ID) & (used/\free={}) & (used/\deleted={}) & (free/\deleted={}) & (used\/free\/deleted=ID) & (running:ID) & (count:NATURAL)
+5.0736386666666664E7,5.5939748333333336E7,-1.0,6.4056097E7:not((root:ID) & not((free<:ID-{root}) & (used<:ID) & (used/\free={}) & (used/\deleted={}) & (free/\deleted={}) & (used\/free\/deleted=ID) & (running:ID) & (count:NATURAL))) => (i:free)
+7.153060466666667E7,5.2590672333333336E7,6.922968366666667E7,6.1335663333333336E7:not((root:ID) & not((free<:ID-{root}) & (used<:ID) & (used/\free={}) & (used/\deleted={}) & (free/\deleted={}) & (used\/free\/deleted=ID) & (running:ID) & (count:NATURAL))) => not((i:free))
+4.928441E7,5.6951259666666664E7,-1.0,7.342488633333333E7:not((root:ID) & (running=root or i=root) & (i:used)) => (free<:ID-{root}) & (used<:ID) & (used/\free={}) & (used/\deleted={}) & (free/\deleted={}) & (used\/free\/deleted=ID) & (running:ID) & (count:NATURAL)
+5.0721534E7,5.5552734333333336E7,-1.0,6.8218894E7:(root:ID) & (free<:ID-{root}) & (used<:ID) & (used/\free={}) & (used/\deleted={}) & (free/\deleted={}) & (used\/free\/deleted=ID) & (running:ID) & (count:NATURAL) & (not((i:free)) => (running=root or i=root) & (i:used))
+4.8831372333333336E7,9.843456133333333E7,7.321343E7,6.1437049E7:(root:ID) & (not(used\/free\/deleted=ID) => not(i:used&used-{i}\/free\/(deleted\/{i})=ID))
+5.3668719333333336E7,7.534791966666667E7,7.984215933333333E7,9.4711113E7:(root:ID) & free<:ID-{root} & not(i:free&free-{i}<:ID-{root})
+5.0370953333333336E7,6.1018210666666664E7,7.0575781E7,6.4124262333333336E7:(root:ID) & free/\deleted={} & i:free&free-{i}/\deleted={}
+5.0803690333333336E7,6.3613722666666664E7,-1.0,6.4189261333333336E7:(root:ID) & running:ID & root:{i,running}&i:used

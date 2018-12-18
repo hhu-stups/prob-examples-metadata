@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Mejia4/SortSet.mch
+-1.0,-1.0,-1.0,-1.0:not((sort:POW(INTEGER)<->POW(INTEGER*INTEGER)) & (sort=REC_LET("sort",%x.(x={}|[])\/%x.(x:POW1(INTEGER)|REC("sort",x-{max(x)})<-max(x))))) => sort({2,3,1,4})=[1,2,3,4]

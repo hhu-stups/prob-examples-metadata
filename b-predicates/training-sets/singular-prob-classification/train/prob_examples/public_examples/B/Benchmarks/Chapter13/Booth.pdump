@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Chapter13/Booth.mch
+4.7955563E7,5.0060392666666664E7,6.4553297E7,6.0870589666666664E7:(not(tickets:SEAT+->CUSTOMER) => nn:NAT1&tickets:SEAT+->CUSTOMER)
+9.2605724E7,5.3356203333333336E7,6.6003528E7,1.75029683E8:(reserved:CUSTOMER-->NAT) & (tickets:SEAT+->CUSTOMER) & not((nn:NAT1&tickets:SEAT+->CUSTOMER) & (nn:NAT1&reserved<+{(cc,reserved(cc)+nn)}:CUSTOMER-->NAT))

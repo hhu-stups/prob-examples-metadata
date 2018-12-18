@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/Constants6.mch
+5.8814346E7,5.5806887E7,7.371368033333333E7,6.7674644E7:not((minnr:NATURAL) & (mxnr:NATURAL1) & (root:IDS) & (pid:PERSONS>->IDS) & (pnr:PERSONS>->minnr..mxnr)) => (p:PERSONS)

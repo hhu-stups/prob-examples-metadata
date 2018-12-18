@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/Z/Daniel/BirthdayBook.mch
+8.900067966666667E7,8.8728555E7,7.768180566666667E7,6.3392628333333336E7:not((turing:NAME) & (June23:DATE) & (INV(known,birthday))) => (name:NAME) & (date:DATE) & (name/:known)
+5.4902349333333336E7,1.5187611033333334E8,1.4378199466666666E8,8.8245044E7:(turing:NAME) & (June23:DATE) & not((INV(known,birthday))) & (name:NAME) & (date:DATE) & (name/:known)
+-1.0,-1.0,7.5598091E7,-1.0:(turing:NAME) & (June23:DATE) & (INV(known,birthday)) & (name:NAME) & (date:DATE) & (name/:known) & not((name:NAME) & (date:DATE) & (name/:known))

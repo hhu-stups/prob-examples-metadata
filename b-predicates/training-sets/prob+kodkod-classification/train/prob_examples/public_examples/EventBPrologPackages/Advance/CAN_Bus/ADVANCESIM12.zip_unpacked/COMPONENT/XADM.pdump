@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/XADM.bcm
+6.3219166E7,5.0098921666666664E7,6.2815227666666664E7,5.5822415E7:not((v:NAT)) => (p:Inputs) & (In1(p):NAT) & (In2(p):NAT)
+4.7926159666666664E7,4.9320657333333336E7,6.1358361E7,5.5952925666666664E7:not((v:NAT)) => not((p:Inputs) & (In1(p):NAT) & (In2(p):NAT))

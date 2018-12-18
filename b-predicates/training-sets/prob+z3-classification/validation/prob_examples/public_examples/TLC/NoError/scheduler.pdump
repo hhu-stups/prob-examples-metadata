@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLC/NoError/scheduler.mch
+6.2464600666666664E7,5.9669808666666664E7,5.8708024333333336E7,4.7954026333333336E7:waiting<:PID & pp/:active&pp/:ready\/waiting => waiting<:PID

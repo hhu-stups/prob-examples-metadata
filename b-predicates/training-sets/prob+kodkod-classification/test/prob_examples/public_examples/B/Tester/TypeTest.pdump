@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/TypeTest.mch
+5.4388131666666664E7,5.1777208E7,-1.0,5.9776107E7:(asa:POW(setA)) & (func:asa-->setB-->setC) & (dd:dom(func)) & (aa:asa-->setB) & (aa:dom(func))
+1.2891083E8,9.789897166666667E7,-1.0,9.6825278E7:(asa:POW(setA)) & (func:asa-->setB-->setC) & (dd:dom(func)) & not((aa:asa-->setB) & (aa:dom(func)))

@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Assignments/Answer3/colours.mch
+4.8713201333333336E7,5.2350046333333336E7,6.6404557E7,6.2525199666666664E7:not(not((cols:1..arrsize-->SPECTRUM))) => not((ii:1..arrsize) & (jj:1..arrsize))
+5.0338524333333336E7,5.1871889E7,6.5329978666666664E7,2.1727709433333334E8:not((ii:1..arrsize) & (jj:1..arrsize)) => not((cols:1..arrsize-->SPECTRUM))
+-1.0,-1.0,8.6126013E7,-1.0:(cols:1..arrsize-->SPECTRUM) & (ii:1..arrsize) & (jj:1..arrsize) & not((ii:1..arrsize))
+4.9261059333333336E7,5.1929718E7,6.7199281E7,1.3070640233333333E8:(not(cols:1..arrsize-->SPECTRUM) => not(ii:1..arrsize&jj:1..arrsize&cols<+{(ii,cols(jj)),(jj,cols(ii))}:1..arrsize-->SPECTRUM))
+4.7222578666666664E7,5.0767303E7,7.0226784E7,6.2839043E7:(not(cols:1..arrsize-->SPECTRUM) => ii:1..arrsize&cols:1..arrsize-->SPECTRUM)

@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/Simple/Phonebook/phonebook3.mch
+1.12893965E8,6.5528164666666664E7,8.8195945E7,7.229857933333333E7:not((db:Name+->Code) & (nm:POW(Name)) & (codes:POW(Code)) & (ran(db)=codes)) & (nn:Name) & (cc:Code)
+5.2526628333333336E7,6.5338034333333336E7,-1.0,6.793226566666667E7:not((nn:Name) & (cc:Code) & (nn:dom(db))) => not((db:Name+->Code) & (nm:POW(Name)) & (codes:POW(Code)) & (ran(db)=codes))
+-1.0,-1.0,6.4185606E7,-1.0:not((db:Name+->Code) & (nm:POW(Name)) & (codes:POW(Code)) & (ran(db)=codes)) & not((nn:Name) & (mm:Name))
+5.1801652666666664E7,6.4333064666666664E7,6.5379147333333336E7,7.149836133333333E7:not((db:Name+->Code) & (nm:POW(Name)) & (codes:POW(Code)) & (ran(db)=codes)) & (nn:Name)
+-1.0,-1.0,6.0703553E7,-1.0:(db:Name+->Code) & (nm:POW(Name)) & (codes:POW(Code)) & (ran(db)=codes) & (nn:Name) & (cc:Code) & not((nn:Name) & (mm:Name))
+-1.0,-1.0,6.4278821333333336E7,-1.0:(db:Name+->Code) & (nm:POW(Name)) & (codes:POW(Code)) & (ran(db)=codes) & (nn:dom(db)) & not((nn:Name) & (mm:Name))
+-1.0,-1.0,6.2772624E7,-1.0:(db:Name+->Code) & (nm:POW(Name)) & (codes:POW(Code)) & (ran(db)=codes) & ((nn:Name) & (mm:Name) => not((nn:Name)))

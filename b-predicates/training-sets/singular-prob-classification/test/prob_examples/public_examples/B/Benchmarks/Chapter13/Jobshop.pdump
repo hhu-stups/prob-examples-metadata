@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Chapter13/Jobshop.mch
+-1.0,-1.0,-1.0,-1.0:not((jobs<:JOB) & (card(jobs)<=limit)) & (jj:JOB) & (jj/:jobs) & (card(jobs)<limit)
+8.443161666666667E7,5.1192799666666664E7,7.255634033333333E7,5.4963321E7:(jobs<:JOB) & (card(jobs)<=limit) & (jobs/={}) & (jj:jobs)

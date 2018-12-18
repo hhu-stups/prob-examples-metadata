@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter18/Pfun.mch
+-1.0,-1.0,7.206186366666667E7,-1.0:(pfun:INDEX+->VALUE) & (ii:INDEX) & (ii/:dom(pfun)) & (vv:VALUE) & (ii:dom(pfun))
+5.3706340666666664E7,6.5764066E7,6.6626256666666664E7,6.946283733333333E7:(pfun:INDEX+->VALUE) & (ii:dom(pfun)&pfun:INDEX+->VALUE)

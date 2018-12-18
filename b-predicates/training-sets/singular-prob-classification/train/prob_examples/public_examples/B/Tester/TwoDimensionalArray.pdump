@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/TwoDimensionalArray.mch
+-1.0,-1.0,-1.0,-1.0:not((ar:IDX-->(IDX-->NAT))) => (x:IDX) & (y:IDX) & (ar(x)(y)<MAXINT)

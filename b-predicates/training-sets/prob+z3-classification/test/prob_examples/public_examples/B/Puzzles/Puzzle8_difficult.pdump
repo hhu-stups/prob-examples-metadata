@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Puzzle8_difficult.mch
+1.0328894966666667E8,7.403089966666667E7,7.9298981E7,1.4786763966666666E8:not((dim:NATURAL1) & (dim=3) & (nmax:NATURAL1) & (nmax=dim*dim-1) & not((INV))) => not((i:2..dim) & (j:1..dim) & (board((i,j))=0) & (x:1..nmax) & (board((i-1,j))=x))

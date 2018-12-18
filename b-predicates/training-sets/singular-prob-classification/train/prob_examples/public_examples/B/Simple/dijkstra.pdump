@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Simple/dijkstra.mch
+4.7856015666666664E7,5.1707134E7,-1.0,6.2198412E7:not(not((x:dom(dist)))) => not((marked:POW(States)) & (dist:States+->NAT) & (dom(dist)=marked) & (trans:States<->States) & (dom(trans)\/ran(trans)=States))
+5.6213922E7,6.1223590666666664E7,1.0460510866666667E8,5.2900325666666664E7:(not(marked:POW(States)) => not(mm:marked&ss/:marked&(ss,mm):trans&!xx.(xx:marked&dist(xx)<dist(mm) => trans~[{xx}]<:marked) => marked:POW(States)))

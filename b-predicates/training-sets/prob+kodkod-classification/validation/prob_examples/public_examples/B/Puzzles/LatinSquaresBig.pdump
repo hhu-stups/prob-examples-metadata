@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/LatinSquaresBig.mch
+6.4391707666666664E7,6.5034294E7,1.02758528E8,1.3907864966666666E8:not((Order:NATURAL1) & (Order:3..6) & (StartSolve=TRUE)) => (LatinSquare:IDX*IDX+->IDX) & (StartSolve:BOOL)
+7.8066003E7,7.442459466666667E7,1.5864717633333334E8,2.68101761E8:(Order:NATURAL1) & (Order:3..6) & (LatinSquare:IDX*IDX+->IDX) & (StartSolve:BOOL) & (i:IDX) & (j:IDX) & (val:IDX) & ((i,j)/:dom(LatinSquare)) & (StartSolve=TRUE)

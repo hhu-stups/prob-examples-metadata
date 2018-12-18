@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/CBC/Enabling/Robot0.mch
+4.7627122333333336E7,7.0540232E7,6.4043642E7,5.5893211E7:not((dt0=occ)) => (dt0:{vid,occ})

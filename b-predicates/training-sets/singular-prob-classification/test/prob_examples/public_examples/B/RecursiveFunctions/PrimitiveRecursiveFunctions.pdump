@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/RecursiveFunctions/PrimitiveRecursiveFunctions.mch
+-1.0,-1.0,9.377428533333333E7,-1.0:not((add=%n,x.(n=0|x)\/%n1,x.(n1>0|succ(add(n1-1,x)))) & (mult=%n,x.(n=0&x:NATURAL|0)\/%n1,x.(n1>0|add(mult(n1-1,x),x))) & (exp=%b,e.(e=0&b:NATURAL|1)\/%b,e1.(e1>0|mult(exp(b,e1-1),b)))) => add(2,3)=2+3

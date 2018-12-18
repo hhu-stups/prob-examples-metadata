@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/ComprehensionTest.mch
+5.0960461E7,4.9295258E7,6.5360685666666664E7,5.6573697666666664E7:(iv:ID) & (not((xx:ID)) => (xx:ID))

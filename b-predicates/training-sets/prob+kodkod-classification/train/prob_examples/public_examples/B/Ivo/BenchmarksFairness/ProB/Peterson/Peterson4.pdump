@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksFairness/ProB/Peterson/Peterson4.mch
+1.78703614E8,1.2091546966666667E8,2.1073222166666666E8,6.4227814E7:(N=4) & (PID=0..N-1) & not((counter:NATURAL) & (step:PID-->PID) & (pos:PID-->PID)) & (j:PID) & (p:PID) & (step(j)/=p or !k.(k:PID\{p} => pos(k)<j))
+5.2397677666666664E7,1.86107046E8,2.5343118E8,1.1403228466666667E8:not((N=4) & (PID=0..N-1) & (j:PID)) => (counter:NATURAL) & (step:PID-->PID) & (pos:PID-->PID)
+9.992678966666667E7,5.4956453E7,1.1403263433333333E8,6.7543599E7:not((N=4) & (PID=0..N-1) & not((j:PID))) => (counter:NATURAL) & (step:PID-->PID) & (pos:PID-->PID)
+2.3434125233333334E8,8.639124633333333E7,-1.0,8.049717543333334E8:not((N=4) & (PID=0..N-1) & (counter:NATURAL) & (step:PID-->PID) & (pos:PID-->PID)) => (j:PID) & (p:PID) & (i:1..2)
+5.3023572E7,5.7315342666666664E7,7.200242933333333E7,7.194066566666667E7:not((N=4) & (PID=0..N-1) & not((j:PID) & (p:PID) & (i:1..2))) => (counter:NATURAL) & (step:PID-->PID) & (pos:PID-->PID)
+4.144448816666667E8,1.52869067E8,-1.0,9.07105785E8:(N=4) & (PID=0..N-1) & (counter:NATURAL) & (step:PID-->PID) & (pos:PID-->PID) & (not((j:PID)) => (j:PID) & (p:PID) & (i:1..2))

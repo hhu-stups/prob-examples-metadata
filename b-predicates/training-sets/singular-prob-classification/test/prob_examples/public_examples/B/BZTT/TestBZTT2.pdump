@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/BZTT/TestBZTT2.mch
+5.2726770333333336E7,5.2185872666666664E7,7.710987566666667E7,5.4467564E7:(not(s:POW(ID)) => fun(z1)=fun(z2)&z1/=z2)

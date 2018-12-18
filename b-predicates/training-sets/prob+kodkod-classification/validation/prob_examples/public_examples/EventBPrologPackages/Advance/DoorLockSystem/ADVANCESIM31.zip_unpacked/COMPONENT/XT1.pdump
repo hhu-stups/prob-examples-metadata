@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/XT1.bcm
+4.8758108666666664E7,5.0942372E7,6.6243293333333336E7,6.728711833333333E7:(p:INT) & (T1_state=T1_CALC) & not((pv:INT) & (ppriority:INT) & (pv=T1_writevalue) & (ppriority=3) & (T1_state=T1_SEND))
+4.9030932333333336E7,5.0479557E7,8.025520066666667E7,5.9355662333333336E7:(not((pv:INT) & (ppriority:INT) & (pv=T1_writevalue) & (ppriority=3) & (T1_state=T1_SEND)) => (T1_state=T1_EN))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/PredAsFunction.mch
+5.8831852666666664E7,6.9389061E7,9.789545633333333E7,1.0583182433333333E8:(not(x:INTEGER+->INTEGER) => not(pred:INTEGER+->INTEGER))

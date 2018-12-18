@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/DesertOilTruck.mch
+6.1400615333333336E7,1.2533534466666667E9,6.0583914333333336E7,6.926188033333333E7:(width=8) & (maxload=5) & dist:0..width & not(load>0&dist>0&dist-1:0..width)

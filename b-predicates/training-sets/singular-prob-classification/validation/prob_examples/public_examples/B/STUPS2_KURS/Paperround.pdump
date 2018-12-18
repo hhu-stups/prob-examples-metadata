@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/Paperround.mch
+5.2823826333333336E7,7.098984633333333E7,-1.0,6.1985396666666664E7:not(not((papers<:HOUSE) & (magazines<:papers))) => not((pp:HOUSE) & (pp/:papers))
+-1.0,-1.0,7.384495866666667E7,-1.0:(papers<:HOUSE) & (magazines<:papers) & not((hh:HOUSE))
+-1.0,-1.0,8.303120633333333E7,-1.0:not((papers<:HOUSE) & (magazines<:papers)) & not((hh:HOUSE))
+-1.0,-1.0,7.4677979E7,-1.0:(papers<:HOUSE) & (magazines<:papers) & not((magazines-{hh}<:papers-{hh}) & (papers<:HOUSE))

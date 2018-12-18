@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Safes_Chapter10/Safes.mch
+5.8711307E7,6.6894936E7,-1.0,7.295441233333333E7:(unlocks:KEY>->>DOOR) & status~[{unlocked}]<:unlocks[keys] & unlocks(kk)=dd&status(dd)=locked&status~[{unlocked}]<:unlocks[keys-{kk}]

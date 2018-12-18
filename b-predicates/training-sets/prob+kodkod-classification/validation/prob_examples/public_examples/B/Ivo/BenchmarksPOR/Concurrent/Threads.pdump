@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksPOR/Concurrent/Threads.mch
+1.5357618666666666E8,1.1200332533333333E8,6.0704064666666664E7,9.560582633333333E7:(n=101) & not((pc1:NATURAL) & (pc2:NATURAL) & (v1:INTEGER) & (v2:INTEGER)) & (pc1=n) & (pc2=n)

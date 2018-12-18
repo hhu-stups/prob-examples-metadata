@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/XADR2sv.bcm
+8.589046166666667E7,5.3557812E7,-1.0,5.9955785666666664E7:not((v:NAT) & (sum:NAT) & (sum_inputs:Inputs) & (sum=In1(sum_inputs)+In2(sum_inputs))) => (pp:Inputs) & (In1(pp):NAT) & (In2(pp):NAT)
+4.8330191333333336E7,5.203029E7,-1.0,6.1565999666666664E7:not(not((pp:Inputs) & (In1(pp):NAT) & (In2(pp):NAT))) => (v:NAT) & (sum:NAT) & (sum_inputs:Inputs) & (sum=In1(sum_inputs)+In2(sum_inputs))

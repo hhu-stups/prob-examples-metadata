@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Rene/Telefonbuch.mch
+4.7349014666666664E7,5.2011967666666664E7,-1.0,9.519988566666667E7:(not(count=card(book)) => not(p/:dom(book)&n/:ran(book)&count+1=card(book\/{(p,n)})))

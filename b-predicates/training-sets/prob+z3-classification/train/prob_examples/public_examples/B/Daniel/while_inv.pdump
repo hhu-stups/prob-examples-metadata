@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Daniel/while_inv.mch
+8.3872956E7,5.1368357666666664E7,5.6870383666666664E7,5.8560076666666664E7:(not(abstract:NAT) => abstract+1:NAT)

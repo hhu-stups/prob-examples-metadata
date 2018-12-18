@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/INCREMENTERTD.bcm
+2.08528566E8,1.3545123333333334E8,1.1618737733333333E8,6.935190566666667E7:(v:NAT) & (i_sum:NAT) & (data_received=FALSE) & (inc_complete=TRUE) & (data_received=TRUE) & (inc_complete=FALSE)

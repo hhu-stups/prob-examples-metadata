@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/AnimB_Tests/AnimbTestSieve.zip_unpacked/AnimbTest2/Sieve.bcm
+1.0376899133333333E8,6.8000826E7,9.281026566666667E7,5.9303002333333336E7:(numbers<:NAT) & (cur:NAT1)
+6.5170857333333336E7,6.967622566666667E7,6.1135614E7,7.233231233333333E7:not((numbers<:NAT) & (cur:NAT1)) & (cur*cur<=mx) & (cur/:numbers)
+9.4576249E7,1.0410593E8,5.9104047333333336E7,1.06285257E8:not((numbers<:NAT) & (cur:NAT1)) & not((cur*cur<=mx) & (cur/:numbers))
+4.7919943666666664E7,4.7949439666666664E7,6.1328935333333336E7,6.4038311E7:(numbers<:NAT) & (cur:NAT1) & not((cur:numbers) & (cur*cur<=mx))
+4.9333694666666664E7,5.161932E7,7.154915933333333E7,5.8309672333333336E7:(numbers<:NAT) & (cur:NAT1) & ((cur*cur<=mx) & (cur/:numbers) => not((cur*cur>mx) & (npr=card(numbers))))

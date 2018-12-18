@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ABCD/Refinements/TravelAgency1.mch
+4.7787851E7,6.1943189333333336E7,6.8341139E7,5.4741412333333336E7:dom(session_user)=dom(session_request) & not(dom(session_user)=dom(session_request))

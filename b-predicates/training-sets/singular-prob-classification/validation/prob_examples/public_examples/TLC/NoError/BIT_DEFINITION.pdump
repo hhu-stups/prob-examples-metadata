@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLC/NoError/BIT_DEFINITION.mch
+6.0589501666666664E7,6.0988552E7,8.336157833333333E7,1.8682859933333334E8:(BIT=0..1) & (bit_not=%bb.(bb:BIT|1-bb)) & (bit_and=%b1,b2.(b1:BIT&b2:BIT&(b1=1&b2=1)|1)\/%b1,b2.(b1:BIT&b2:BIT&not(b1=1&b2=1)|0)) & (bit_or=%b1,b2.(b1:BIT&b2:BIT&(b1=1 or b2=1)|1)\/%b1,b2.(b1:BIT&b2:BIT&not(b1=1 or b2=1)|0)) & (bit_xor=%b1,b2.(b1:BIT&b2:BIT&b1/=b2|1)\/%b1,b2.(b1:BIT&b2:BIT&not(b1/=b2)|0)) & (bool_bit={(TRUE,1),(FALSE,0)}) & not(!b1,b2.(b1:BIT&b2:BIT&bit_or(b1,b2)=0 => bit_or(b2,b1)=0))

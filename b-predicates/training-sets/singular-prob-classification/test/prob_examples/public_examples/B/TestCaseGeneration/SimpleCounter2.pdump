@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/SimpleCounter2.mch
+5.2842404333333336E7,7.2208554E7,6.3908732333333336E7,7.418143066666667E7:(count:1..MAX) & not((count=10/2&count:1..10))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Exam.mch
+6.811273566666667E7,4.8894113E7,6.2672192333333336E7,6.1294805666666664E7:not((marks:CANDIDATE+->0..100)) => (marks/={})

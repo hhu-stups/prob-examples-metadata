@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/MCM_Tests/SimpleTestModel.mch
+5.3786402333333336E7,7.513937366666667E7,6.1324604333333336E7,5.9702122E7:(a=1) & (b:3..4) & not((i:NATURAL) & (j:NATURAL)) & (i=b) & (j=b)
+6.4313276333333336E7,5.3416988E7,6.2730998333333336E7,6.3939905E7:(a=1) & (b:3..4) & (not((i:NATURAL) & (j:NATURAL)) => (i=b&j=b => i:NATURAL) & (i=b&j=b => j:NATURAL))

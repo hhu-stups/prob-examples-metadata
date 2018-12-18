@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/DSP0.mch
+6.329705756666666E8,5.0913038666666664E7,4.3299709666666664E7,6.2873591E7:(threshold:INTEGER) & (not(dspChannels<:cellChannels(current)) => not(dsp_state=idle => dspChannels<:cellChannels(current)))
+4.5730466333333336E7,4.8551099333333336E7,6.6007555666666664E7,4.9397599333333336E7:(threshold:INTEGER) & (not(dspChannels:POW(CHANNEL)) => dsp_state=init&powerlevel(current)>threshold&cellChannels(current)/={} => dspChannels:POW(CHANNEL))
+1.0628870266666667E8,5.1036378333333336E7,-1.0,7.3097703E7:(threshold:INTEGER) & (not(cellChannels:CELL-->POW(CHANNEL)) => not(dsp_state=init&powerlevel(current)>threshold&cellChannels(current)/={} => cellChannels:CELL-->POW(CHANNEL)))
+9.080495966666667E7,5.1074092666666664E7,6.4868467333333336E7,7.241863633333333E7:(threshold:INTEGER) & (not(powerlevel:CELL-->INTEGER) => not(dsp_state=init&powerlevel(current)>threshold&cellChannels(current)/={} => powerlevel:CELL-->INTEGER))
+5.1514488E7,4.9630613E7,-1.0,7.481877933333333E7:(threshold:INTEGER) & union(ran(cellChannels))=CHANNEL & dsp_state=idle => union(ran(cellChannels))=CHANNEL
+5.4102364333333336E7,6.0360981333333336E7,1.0570881E8,5.2583223E7:(threshold:INTEGER) & (not(dsp_state:DSP_STATE) => not(dsp_state=idle => dsp_state:DSP_STATE))

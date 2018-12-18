@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Corinna/PartialOrderEtc/MutexProcesses.mch
+-1.0,-1.0,7.149742966666667E7,-1.0:(pid_state:PID-->STATE) & (card(pid_state~[{critical}])<2) & (p:PID) & (pid_state(p)=work) & (p:PID) & (pid_state(p)=critical)

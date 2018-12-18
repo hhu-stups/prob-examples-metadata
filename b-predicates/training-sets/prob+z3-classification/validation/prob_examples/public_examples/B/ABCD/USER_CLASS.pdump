@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/ABCD/USER_CLASS.mch
+-1.0,-1.0,-1.0,-1.0:(carbookings:USER-->POW(CAR)) & (disjoint(carbookings)) & (roombookings:USER-->POW(ROOM)) & (disjoint(roombookings)) & (user_state:USER-->USER_STATE) & (resp:USER-->BOOL) & ((thisUSER:USER) => not((thisUSER:USER)))
+-1.0,-1.0,-1.0,-1.0:(carbookings:USER-->POW(CAR)) & (disjoint(carbookings)) & (roombookings:USER-->POW(ROOM)) & (disjoint(roombookings)) & (user_state:USER-->USER_STATE) & (resp:USER-->BOOL) & (thisUSER:USER) & not((thisUSER:USER))
+-1.0,-1.0,-1.0,-1.0:(carbookings:USER-->POW(CAR)) & (disjoint(carbookings)) & (roombookings:USER-->POW(ROOM)) & (disjoint(roombookings)) & (user_state:USER-->USER_STATE) & (resp:USER-->BOOL) & ((thisUSER:USER) => not((thisUSER:USER)))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Fontainebleau_2012_projects/election/leaderel2commented.zip_unpacked/leaderel2/elect0.bcm
+6.1100158333333336E7,5.1130268333333336E7,6.2651961333333336E7,6.1193629E7:not((leader:1 .. n)) => (nl:1 .. n)

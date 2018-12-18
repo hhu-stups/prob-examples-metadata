@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ErrorMachines/WhileLoopInvariantError.mch
+4.7678828333333336E7,4.8000238333333336E7,6.0109972E7,5.5880267E7:(not(xx:NATURAL) => not(xx:NATURAL))

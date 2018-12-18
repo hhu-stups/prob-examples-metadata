@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/B4Free/PaperroundIF.mch
+5.5267456333333336E7,5.4701625666666664E7,6.5377401E7,5.6063600333333336E7:not((lasth:HOUSE) & (pap<:HOUSE) & (mag<:pap) & (lasth/:mag)) => (hh:HOUSE)
+-1.0,-1.0,6.6359253E7,-1.0:(lasth:HOUSE) & not((pap<:HOUSE) & (mag<:pap) & (lasth/:mag)) & not((hh:HOUSE))
+-1.0,-1.0,7.566022633333333E7,-1.0:(lasth:HOUSE) & lasth/:mag & not(hh=lasth => lasth/:mag&(not(hh=lasth) => (TRUE:BOOL => lasth/:mag-{hh})))
+1.1178537433333333E8,6.334739913333334E8,7.028756933333333E7,8.698403633333333E7:(lasth:HOUSE) & (pap<:HOUSE) & (mag<:pap) & (lasth/:mag) & (hh=lasth => mag<:pap-{hh}&(not(hh=lasth) => (TRUE:BOOL => mag-{hh}<:pap))) & (hh=lasth => lasth/:mag&(not(hh=lasth) => (TRUE:BOOL => lasth/:mag-{hh}))) & (hh=lasth => pap<:HOUSE&(not(hh=lasth) => (TRUE:BOOL => pap<:HOUSE)))

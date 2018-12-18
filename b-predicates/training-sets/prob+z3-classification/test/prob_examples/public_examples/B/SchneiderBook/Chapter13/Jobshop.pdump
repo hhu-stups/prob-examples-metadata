@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter13/Jobshop.mch
+4.8046077666666664E7,5.2009197666666664E7,4.1853134E7,8.910420766666667E7:not((jobs<:JOB) & (card(jobs)<=limit)) => not((jj:JOB) & (jj/:jobs) & (card(jobs)<limit))
+1.73837912E8,5.2125716333333336E7,4.2612053E7,1.35033163E8:card(jobs)<=limit & jj:jobs&card(jobs-{jj})<=limit
+1.76277793E8,5.1971669666666664E7,1.0491448233333333E8,6.4175595333333336E7:(not((jobs<:JOB) & (card(jobs)<=limit)) => not((jj:jobs&card(jobs-{jj})<=limit) & (jj:jobs&jobs-{jj}<:JOB)))

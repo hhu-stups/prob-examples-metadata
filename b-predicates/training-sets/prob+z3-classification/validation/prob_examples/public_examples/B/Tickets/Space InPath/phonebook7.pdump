@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Space InPath/phonebook7.mch
+7.4940931E7,7.7430563E7,5.9250271666666664E7,7.4038093E7:not((db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec)) & not((nn:Name) & (cc:Code) & (nn/:active))

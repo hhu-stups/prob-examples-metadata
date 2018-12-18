@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/RefinementChecking/RefinementCheckingExamples.zip_unpacked/RefinementChecking/CEnterLeaveErr1.bcm
+7.0277559E7,1.8791037045E10,4.267194406666667E8,7.5777583E7:(s:POW(T)) & (n:NAT) & (l:1 .. n >-> T) & (s=ran(l)) & (n=card(s)) & ((p:T) & (n<maxitems) => not((n |-> p:l)))

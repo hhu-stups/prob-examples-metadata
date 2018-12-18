@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/CardTrick.mch
+5.2011991E7,8.6264205E7,-1.0,9.639848986666666E8:(initial=all^all^all^all) & (x:seq(SUIT)) & (y:seq(SUIT)) & (dest:seq(SUIT)) & (reversed:BOOL) & (x=[]&y=[] => ok(dest)) & (not((reversed=FALSE)) => (x/=[]) & (reversed=TRUE))

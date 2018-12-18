@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/SimpleCycle.mch
+-1.0,-1.0,8.102105733333333E7,-1.0:(r:ID<->ID) & (dom(r)=ID) & (ran(r)=ID) & (card(r)=2) & not((xx:ID)) & (yy:ID) & ((xx,yy):r) & (yy/=xx)

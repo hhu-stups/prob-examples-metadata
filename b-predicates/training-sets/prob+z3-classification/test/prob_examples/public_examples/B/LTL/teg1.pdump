@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/LTL/teg1.mch
+9.604789833333333E7,9.882194766666667E7,9.3127741E7,5.5336855666666664E7:not(not((Sender1:SENDER) & (Cstatus1:CARD_STATE))) => (Sender1=reader) & (Cstatus1=in)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/XADSR1pure.bcm
+4.7962966E7,6.4075885333333336E7,6.3835445333333336E7,6.0039478333333336E7:(v:NAT) & (msg_rcvd_on_purechannel:BOOL) & (msg_sent_on_purechannel:BOOL) & (adder_evaluated:BOOL) & (incrementer_evaluated:BOOL) & (trigger_sent:BOOL) & (trigger_received:BOOL) & not((adder_evaluated=FALSE) & (trigger_sent=TRUE))

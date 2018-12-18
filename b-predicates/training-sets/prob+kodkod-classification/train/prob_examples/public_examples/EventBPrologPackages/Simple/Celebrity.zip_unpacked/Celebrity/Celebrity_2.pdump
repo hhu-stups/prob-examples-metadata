@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Simple/Celebrity.zip_unpacked/Celebrity/Celebrity_2.bcm
+1.5415358833333334E8,7.111851766666667E7,1.0014169166666667E8,6.4130431666666664E7:(r:P) & (Q<:P) & (c:Q) & (R<:P) & (b:P) & (b/:R) & (Q=R\/{b})
+4.8705472E7,5.2111724666666664E7,6.3947424333333336E7,6.0088437E7:not((r:P) & (Q<:P) & (c:Q) & (R<:P) & (b:P) & (b/:R) & (Q=R\/{b})) => (x:R) & (x |-> b:k)
+-1.0,-1.0,6.6995693666666664E7,-1.0:(r:P) & (Q<:P) & (c:Q) & (R<:P) & (b:P) & (b/:R) & (Q=R\/{b}) & (not((x:R) & (x |-> b:k)) => (x:R) & (x |-> b/:k))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/InclusionChecks/LightSwitchSees.mch
+7.7117232E7,6.2681598E7,-1.0,7.595425833333333E7:light=TRUE <=> curStatus=on & not(#curStatus.(bool(light=FALSE)=TRUE <=> curStatus=on))

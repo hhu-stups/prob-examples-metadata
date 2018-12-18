@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/ForAllSet.mch
+5.3742960666666664E7,5.9560809666666664E7,-1.0,9.491977566666667E7:(f:ID-->POW(ID)) & (f={(aa,{bb}),(bb,{cc}),(cc,{aa,cc})}) & (xx:ID) & (!y.(y:f(y) => y=cc)) & (!z.(z:ran(f) => card(z)<=2)) & (!v,w.((v,{w}):f => v/=cc)) & not((v,w):f)

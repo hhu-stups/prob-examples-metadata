@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/EventBTrans/TestPastLTL.mch
+3.7106168553333335E9,1.7231278033333333E9,5.7303260333333336E7,5.0904541666666664E7:(xx:ID) & (xx=bb or xx=cc) & (xx=bb) & (xx=cc)
+8.3376664E7,6.2754744666666664E7,6.7056059666666664E7,6.0699315333333336E7:(xx:ID) & not((xx=aa or xx=bb) & (xx=aa) & (xx=bb))
+4.7086923E7,4.7385867666666664E7,6.5543227666666664E7,4.9986501E7:not((xx=aa or xx=bb) & (xx=aa) & (xx=bb)) => (xx:ID)
+4.6363857E7,5.9862314333333336E7,6.905959666666667E7,6.1085445E7:(xx:ID) & not((xx:{bb,cc}))

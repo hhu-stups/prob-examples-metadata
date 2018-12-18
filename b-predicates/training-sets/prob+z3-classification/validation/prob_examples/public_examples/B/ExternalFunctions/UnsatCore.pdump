@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/UnsatCore.mch
+-1.0,-1.0,-1.0,-1.0:not((f=%x.(x:POW(INTEGER)|bool(x/\1..2={}))) & (g=%x.(x:POW(ID)|bool(x/\{aa}={}))) & (xx<:ID)) => MAX_SAT(g,ID)={bb}

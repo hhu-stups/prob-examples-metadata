@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/Any.mch
+7.693115133333333E7,7.0083982E7,7.0963307E7,5.9509080666666664E7:(col1:POW(COLOURS)) & (col2:POW(COLOURS)) & (!cc.(cc:col1 => cc/:col2)) & (!cc2.(cc2:col2 => cc2/:col1)) & (b:BOOL) & not((!v.(v=TRUE => col1=col2 => col2:POW(COLOURS))) & (!v.(v=TRUE => col1=col2 => col1:POW(COLOURS))) & (!v.(v=TRUE => col1=col2 => b:BOOL)) & (!v.(v=TRUE => col1=col2 => !cc2.(cc2:col2 => cc2/:col1))) & (!v.(v=TRUE => col1=col2 => !cc.(cc:col1 => cc/:col2))))
+6.984454266666667E7,7.278427866666667E7,6.4052558666666664E7,6.3788791666666664E7:!cc2.(cc2:col2 => cc2/:col1) & not(!cc2.(cc2:col1 => cc2/:col2))
+1.59643835E8,4.842393063333333E9,6.4657430666666664E7,6.3277180333333336E7:!cc2.(cc2:col2 => cc2/:col1) & !cc2.(cc2:col2-{x} => cc2/:col1-{x})

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tickets/Ticket_DefSetCst.mch
+2.6759967133333334E8,5.418643623333333E9,1.6930875066666666E8,1.7786503E8:(PHASE={p1,p2}) & (card(PHASE)=2) & p1/=p2

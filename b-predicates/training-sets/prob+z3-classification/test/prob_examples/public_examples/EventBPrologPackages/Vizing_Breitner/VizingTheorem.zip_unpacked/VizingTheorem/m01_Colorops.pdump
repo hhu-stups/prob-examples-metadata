@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Vizing_Breitner/VizingTheorem.zip_unpacked/VizingTheorem/m01_Colorops.bcm
+5.3390541333333336E7,5.6010660666666664E7,4.8552589E7,2.2124664E8:(coloring:graph +-> C) & (coloring:valid) & (coloring2:valid) & not((x |-> y:graph) & (x |-> y/:dom(coloring2)) & (!z oftype V.x |-> z |-> d/:coloring2) & (!z oftype V.y |-> z |-> d/:coloring2))

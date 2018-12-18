@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/ExecuteOperation/SchedulerOtherInit.mch
+5.6528021666666664E7,7.574955333333333E7,6.3025426333333336E7,1.4999868366666666E8:(active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & not((active/={}))

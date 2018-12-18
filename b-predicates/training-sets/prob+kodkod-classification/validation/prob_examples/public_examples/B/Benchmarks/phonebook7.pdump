@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/phonebook7.mch
+7.040709133333333E7,6.6684224666666664E7,7.308850733333333E7,6.2640833666666664E7:not((db:Name+->Code) & (active:POW(Name)) & (activec:POW(Code)) & (dom(db)=active) & (ran(db)=activec)) => (nn:Name) & (cc:Code) & (nn/:active)

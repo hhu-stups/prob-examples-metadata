@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/LabMaterial/smallset.mch
+6.1129025E7,7.339548333333333E7,1.8883467433333334E8,3.920781176666667E8:(maxsize:NAT1) & (numset<:NAT1) & (card(numset)<=maxsize) & (not((nn:NAT1) & (card(numset)<maxsize)) => (numset/={}))

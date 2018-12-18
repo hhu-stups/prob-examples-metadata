@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Abrial_BRP/ch6_brp.zip_unpacked/ch6_brp/b_3.bcm
+5.4688006333333336E7,5.2109396666666664E7,7.207515733333333E7,7.723896533333333E7:not((r_st:STATUS) & (s_st:STATUS) & (s_st=success=>r_st=success) & (r:0 .. n) & (g=1 .. r <| f) & (r_st=success<=>r=n)) & (r_st/=working) & (s_st/=working)
+-1.0,-1.0,6.7848479E7,-1.0:(r_st:STATUS) & (s_st:STATUS) & (s_st=success=>r_st=success) & (r:0 .. n) & (g=1 .. r <| f) & (r_st=success<=>r=n) & (r_st/=working) & (s_st/=working) & (r_st=working) & (s_st=failure)
+-1.0,-1.0,6.800646E7,-1.0:(r_st:STATUS) & (s_st:STATUS) & (s_st=success=>r_st=success) & (r:0 .. n) & (g=1 .. r <| f) & (r_st=success<=>r=n) & (r_st=working) & (s_st=failure) & (s_st=working) & (r_st=success)
+-1.0,-1.0,6.994199466666667E7,-1.0:(r_st:STATUS) & (s_st:STATUS) & (s_st=success=>r_st=success) & (r:0 .. n) & (g=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=working) & (r_st=success) & (r_st=working) & (r+1<n)

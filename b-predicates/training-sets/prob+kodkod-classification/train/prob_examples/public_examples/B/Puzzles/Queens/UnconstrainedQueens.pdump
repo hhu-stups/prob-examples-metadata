@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Queens/UnconstrainedQueens.mch
+4.8995895E7,5.4443771666666664E7,6.6611427E7,6.277281E7:not(not((n:NATURAL1) & (q:1..n<->1..n))) => (dim:NATURAL) & (queens:1..dim<->1..dim)

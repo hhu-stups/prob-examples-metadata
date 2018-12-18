@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROB-335/ExtremaFinding.mch
+6.0309857333333336E7,6.9278409E7,5.1764869666666664E7,3.605911756666667E8:not((N=4) & (m:{11,13,17}) & (card(Agents)=4) & (pos:Agents>->>1..N) & (pid:Agents-->NATURAL) & (!p.(p:Agents => pid(p)=pos(p)*113 mod m)) & (mode:Agents-->Status) & (notified:Agents-->BOOL) & (isLargest:Agents-->BOOL)) => not((self:Agents))
+5.6395323333333336E7,6.0098750333333336E7,5.4152882333333336E7,2.895193816666667E8:not((N=4) & (m:{11,13,17}) & (card(Agents)=4) & (pos:Agents>->>1..N) & (pid:Agents-->NATURAL) & (!p.(p:Agents => pid(p)=pos(p)*113 mod m)) & not((mode:Agents-->Status) & (notified:Agents-->BOOL) & (isLargest:Agents-->BOOL))) => not((self:Agents))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/LTL/teg1.mch
+7.379835066666667E7,2.3202827233333334E8,6.905163466666667E7,6.866494666666667E7:(Sender1:SENDER) & (Cstatus1:CARD_STATE) & (Sender1=tcard) & (Cstatus1=in)

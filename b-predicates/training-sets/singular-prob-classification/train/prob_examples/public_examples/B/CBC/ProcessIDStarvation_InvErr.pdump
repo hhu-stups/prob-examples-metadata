@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/B/CBC/ProcessIDStarvation_InvErr.mch
+4.8901842333333336E7,7.111251133333333E7,7.461786866666667E7,6.0076797E7:not((root:ID) & (running=root or i=root) & (i:used)) => (free<:ID-{root}) & (used<:ID) & (used/\free={}) & (used/\deleted={}) & (free/\deleted={}) & (used\/free\/deleted=ID) & (running:used)
+4.9575648E7,6.7892339E7,-1.0,6.2703108666666664E7:not((root:ID) & not((running=root or i=root) & (i:used))) => not((free<:ID-{root}) & (used<:ID) & (used/\free={}) & (used/\deleted={}) & (free/\deleted={}) & (used\/free\/deleted=ID) & (running:used))
+4.7994976333333336E7,6.713339733333333E7,7.372224766666667E7,6.671861E7:(root:ID) & (free<:ID-{root}) & (used<:ID) & (used/\free={}) & (used/\deleted={}) & (free/\deleted={}) & (used\/free\/deleted=ID) & (running:used) & ((i:used) => not((running=root or i=root) & (i:used)))
+-1.0,-1.0,6.860416166666667E7,-1.0:(root:ID) & (free<:ID-{root}) & (used<:ID) & (used/\free={}) & (used/\deleted={}) & (free/\deleted={}) & (used\/free\/deleted=ID) & (running:used) & (i:free) & (running=root or i=root) & (i:used)
+4.8754780333333336E7,6.1274039666666664E7,6.933758866666667E7,6.5250755666666664E7:(root:ID) & used/\deleted={} & not(i:used&used-{i}/\(deleted\/{i})={})
+4.7871683333333336E7,8.0196255E7,-1.0,6.87573E7:(root:ID) & (not((free<:ID-{root}) & (used<:ID) & (used/\free={}) & (used/\deleted={}) & (free/\deleted={}) & (used\/free\/deleted=ID) & (running:used)) => not((i:free&used\/{i}/\free-{i}={}) & (i:free&running:used\/{i}) & (i:free&free-{i}<:ID-{root}) & (i:free&free-{i}/\deleted={}) & (i:free&used\/{i}\/free-{i}\/deleted=ID) & (i:free) & (i:free&used\/{i}/\deleted={})))
+4.8776454E7,6.6030673666666664E7,-1.0,6.6568381E7:(root:ID) & free/\deleted={} & root:{i,running}&i:used&free/\deleted={}
+4.8737878E7,6.6777881666666664E7,-1.0,6.5439676333333336E7:(root:ID) & used/\deleted={} & not(root:{i,running}&i:used&used/\deleted={})

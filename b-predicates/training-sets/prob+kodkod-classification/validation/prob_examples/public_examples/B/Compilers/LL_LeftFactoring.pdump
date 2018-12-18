@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Compilers/LL_LeftFactoring.mch
+-1.0,-1.0,-1.0,-1.0:(NonTerminals={E,T,F,E2,T2,F2}) & (Terminals=Symbols-NonTerminals) & (Rules:Symbols<->seq(Symbols)) & ((X,RHS1):Rules) & ((X,RHS2):Rules) & (RHS1/=RHS2) & (RHS1=Prefix^Rest1) & (RHS2=Prefix^Rest2) & (Prefix/=[])
+-1.0,-1.0,-1.0,-1.0:not((NonTerminals={E,T,F,E2,T2,F2}) & (Terminals=Symbols-NonTerminals) & not((Rules:Symbols<->seq(Symbols)))) => ((X,RHS1):Rules) & ((X,RHS2):Rules) & (RHS1/=RHS2) & (RHS1=Prefix^Rest1) & (RHS2=Prefix^Rest2) & (Prefix/=[])
+-1.0,-1.0,4.75660278E8,-1.0:not((NonTerminals={E,T,F,E2,T2,F2}) & (Terminals=Symbols-NonTerminals) & not(((X,RHS1):Rules) & ((X,RHS2):Rules) & (RHS1/=RHS2) & (RHS1=Prefix^Rest1) & (RHS2=Prefix^Rest2) & (Prefix/=[]))) => not((Rules:Symbols<->seq(Symbols)))
+-1.0,-1.0,-1.0,-1.0:(NonTerminals={E,T,F,E2,T2,F2}) & (Terminals=Symbols-NonTerminals) & (Rules:Symbols<->seq(Symbols)) & (not(((X,RHS1):Rules) & ((X,RHS2):Rules) & (RHS1/=RHS2) & (RHS1=Prefix^Rest1) & (RHS2=Prefix^Rest2) & (Prefix/=[])) => ((X,RHS):Rules) & (RHS/=[]) & (first(RHS)=X) & (X2:NonTerminals) & (X2/:dom(Rules)))

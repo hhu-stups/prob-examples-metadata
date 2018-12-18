@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksEnablingAnalysis/MachineChocolat/cm1.mch
+5.4146411E7,5.2398818666666664E7,6.7298153E7,6.0073421333333336E7:not((MaxCredit:NAT) & not((credit<MaxCredit))) => (credit:0..MaxCredit) & (chocTray:TRAY)
+2.75650859E8,6.5717668E7,6.838546533333333E7,6.831466933333333E7:(MaxCredit:NAT) & (credit:0..MaxCredit) & (chocTray:TRAY) & not(chocTray=empty)
+9.085245166666667E7,9.8458866E7,9.743906666666667E7,5.868209E7:(MaxCredit:NAT) & (not(chocTray:TRAY) => not(chocTray=full => chocTray:TRAY))
+5.4032709E7,5.1634615666666664E7,6.713018466666667E7,5.2926213666666664E7:(MaxCredit:NAT) & (credit:0..MaxCredit) & (chocTray:TRAY) & not((chocTray=full => credit:0..MaxCredit) & (chocTray=full => chocTray:TRAY))

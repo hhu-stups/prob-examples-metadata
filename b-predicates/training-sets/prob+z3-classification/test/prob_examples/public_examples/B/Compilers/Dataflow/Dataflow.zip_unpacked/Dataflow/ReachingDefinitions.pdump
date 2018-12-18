@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Compilers/Dataflow/Dataflow.zip_unpacked/Dataflow/ReachingDefinitions.bcm
+7.0004805E7,5.4034478333333336E7,6.1635631333333336E7,6.6723661666666664E7:not((in:Blocks --> POW(Domain)) & (out:Blocks --> POW(Domain)) & (BlocksToTreat<:Blocks) & (change:BOOL) & (lastBlockTreated:Blocks)) => (BlocksToTreat=({} oftype POW(Blocks))&change=FALSE)

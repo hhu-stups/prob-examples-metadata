@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tests/UseBKeywords.zip_unpacked/TestTLC/UseBKeywords.bcm
+5.1844837666666664E7,5.1927855666666664E7,6.0066903E7,6.4059030666666664E7:not((first:INT) & (SIGMA:NAT) & (PI:NAT1) & (END:NAT) & (BEGIN:NAT1) & (WHILE:NAT1) & (MACHINE:POW(BOOL))) & (SIGMA<END)

@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/VectorClocks/VectorClocks.mch
+4.7580771E7,5.2201051E7,6.928048166666667E7,6.6587424333333336E7:not(not((clocks:PROC-->(PROC-->NATURAL)) & (ether:PROC<->(PROC-->NATURAL)))) => not((p:PROC) & ((p,c):ether) & (c:PROC-->NATURAL))
+4.8431275666666664E7,5.1906391E7,-1.0,6.7981108E7:not(not((p:PROC) & ((p,c):ether) & (c:PROC-->NATURAL))) => not((clocks:PROC-->(PROC-->NATURAL)) & (ether:PROC<->(PROC-->NATURAL)))
+1.49939458E8,9.2974463E7,-1.0,4.8353308666666664E7:(clocks:PROC-->(PROC-->NATURAL)) & (ether:PROC<->(PROC-->NATURAL)) & ((p:PROC) & ((p,c):ether) & (c:PROC-->NATURAL) => not((p:PROC)))
+5.8815090666666664E7,5.535094E7,-1.0,6.994958433333333E7:(clocks:PROC-->(PROC-->NATURAL)) & (ether:PROC<->(PROC-->NATURAL)) & (p:PROC) & ((p,c):ether) & (c:PROC-->NATURAL) & (p:PROC) & (q:PROC) & (p/=q)
+5.3328429666666664E7,5.3884156666666664E7,-1.0,7.0946429E7:(clocks:PROC-->(PROC-->NATURAL)) & (ether:PROC<->(PROC-->NATURAL)) & (p:PROC) & ((p,c):ether) & (c:PROC-->NATURAL) & not((p:PROC) & (q:PROC) & (p/=q))
+-1.0,-1.0,-1.0,-1.0:(not(clocks:PROC-->(PROC-->NATURAL)) => (p,c):ether&c:PROC-->NATURAL&clocks<+{(p,{q,m|m:NATURAL&m=max({c(q),clocks(p)(q)})})}:PROC-->(PROC-->NATURAL))
+4.8604132333333336E7,5.6321058666666664E7,-1.0,2.0416130663333333E9:clocks:PROC-->(PROC-->NATURAL) & not((p,c):ether&c:PROC-->NATURAL&clocks<+{(p,{q,m|m:NATURAL&m=max({c(q),clocks(p)(q)})})}:PROC-->(PROC-->NATURAL))
+-1.0,-1.0,-1.0,-1.0:(not((clocks:PROC-->(PROC-->NATURAL)) & (ether:PROC<->(PROC-->NATURAL))) => ((p,c):ether&c:PROC-->NATURAL&ether-{(p,c)}:PROC<->(PROC-->NATURAL)) & ((p,c):ether&c:PROC-->NATURAL&clocks<+{(p,{q,m|m:NATURAL&m=max({c(q),clocks(p)(q)})})}:PROC-->(PROC-->NATURAL)))
+1.573285774E9,4.9509089E7,5.6441698E7,7.129710166666667E7:ether:PROC<->(PROC-->NATURAL) & ether:PROC<->(PROC-->NATURAL)
+-1.0,-1.0,1.7156453033333334E8,-1.0:(not(clocks:PROC-->(PROC-->NATURAL)) => not(clocks<+{(p,clocks(p)<+{(p,clocks(p)(p)+1)})}:PROC-->(PROC-->NATURAL)))
+-1.0,-1.0,-1.0,-1.0:(not((clocks:PROC-->(PROC-->NATURAL)) & (ether:PROC<->(PROC-->NATURAL))) => (p/=q&ether\/{(q,clocks(p))}:PROC<->(PROC-->NATURAL)) & (p/=q&clocks<+{(p,clocks(p)<+{(p,clocks(p)(p)+1)})}:PROC-->(PROC-->NATURAL)))

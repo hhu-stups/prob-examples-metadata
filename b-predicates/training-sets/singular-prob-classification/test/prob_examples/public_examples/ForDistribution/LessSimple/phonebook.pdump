@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/LessSimple/phonebook.mch
+5.0950357E7,6.6543005666666664E7,-1.0,7.833579966666667E7:not((db:Name+->Code)) & not((nn:Name) & (cc:Code) & (nn:dom(db)))
+5.1341584666666664E7,6.2519775333333336E7,6.4100493E7,6.4064175333333336E7:(not((db:Name+->Code)) => (db:Name-->Code&{}:Name+->Code))

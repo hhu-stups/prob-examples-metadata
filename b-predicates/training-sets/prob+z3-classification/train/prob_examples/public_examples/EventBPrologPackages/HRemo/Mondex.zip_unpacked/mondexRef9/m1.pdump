@@ -1,0 +1,11 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/HRemo/Mondex.zip_unpacked/mondexRef9/m1.bcm
+1.7039727366666666E8,7.741289366666667E7,3.402276226666667E8,7.140651966666667E7:(purse<:PURSE) & (abal:purse --> NAT) & (lost:purse --> NAT)
+9.220022566666667E7,5.175884E7,7.328823033333333E7,6.2517843333333336E7:not((purse<:PURSE) & (abal:purse --> NAT) & (lost:purse --> NAT)) => (p:PURSE \ purse) & (a:NAT) & (a>0)
+1.76961982E8,5.555602196666666E8,1.3666616833333334E8,6.6469928666666664E7:not((purse<:PURSE) & (abal:purse --> NAT) & (lost:purse --> NAT)) & not((p:PURSE \ purse) & (a:NAT) & (a>0))
+9.8716999E7,5.3254747333333336E7,7.175975366666667E7,3.753313413333333E8:not((purse<:PURSE) & (abal:purse --> NAT) & (lost:purse --> NAT)) => (p1:purse) & (a:NAT) & (abal(p1)>=a)
+4.9763032E7,5.1367612E7,-1.0,6.2468791333333336E7:not(not((p1:purse) & (a:NAT) & (abal(p1)>=a))) => (purse<:PURSE) & (abal:purse --> NAT) & (lost:purse --> NAT)
+5.5700984333333336E7,5.1040871666666664E7,-1.0,7.297285E7:(purse<:PURSE) & (abal:purse --> NAT) & (lost:purse --> NAT) & not((p1:purse) & (p2:purse) & (p1/=p2) & (a:NAT) & (abal(p1)>=a))
+5.7050946333333336E7,5.2051009333333336E7,4.5785454666666664E7,9.934922566666667E7:not((purse<:PURSE) & (abal:purse --> NAT) & (lost:purse --> NAT)) & (p1:purse) & (p2:purse) & (p1/=p2) & (a:NAT) & (abal(p1)>=a)
+6.434047003333334E8,6.1171419666666664E7,8.346363966666667E7,5.4401168666666664E7:not((purse<:PURSE) & (abal:purse --> NAT) & (lost:purse --> NAT)) & (p1:purse) & (a:NAT) & (lost(p1)>=a)
+5.1160463E7,5.1954605E7,5.454912716666666E8,6.3450992333333336E7:not(not((purse<:PURSE) & (abal:purse --> NAT) & (lost:purse --> NAT))) => (p1:purse) & (a:NAT) & (lost(p1)>=a)
+4.6675209333333336E7,5.1817646E7,-1.0,7.049255333333333E7:(purse<:PURSE) & (abal:purse --> NAT) & (lost:purse --> NAT) & ((p:PURSE \ purse) & (a:NAT) & (a>0) => not((p1:purse) & (a:NAT) & (lost(p1)>=a)))

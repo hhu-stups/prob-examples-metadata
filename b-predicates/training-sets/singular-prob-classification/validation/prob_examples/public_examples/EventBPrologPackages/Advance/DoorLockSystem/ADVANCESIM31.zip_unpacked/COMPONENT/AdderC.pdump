@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/AdderC.bcm
+5.3326823E7,5.7294669E7,9.981681366666667E7,4.9503362E7:not((o_sum:NAT)) => data_ready:BOOL

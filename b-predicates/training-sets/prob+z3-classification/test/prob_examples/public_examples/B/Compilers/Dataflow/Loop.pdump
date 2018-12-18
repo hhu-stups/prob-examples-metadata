@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Compilers/Dataflow/Loop.mch
+4.7578280333333336E7,7.4366859E7,1.4225645166666666E8,5.4912244E7:not((succs:Blocks<->Blocks) & (succs={(entry,b1),(b1,b2),(b2,b3),(b3,b3),(b3,b4),(b4,b2),(b4,b5),(b5,b6),(b6,b6),(b6,exit)}) & not((L={b2,b3,b4,entry}) & (l:L))) => not((cur:Blocks))

@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Pitesti/BankMixed.zip_unpacked/Examples/NumSetMixed/NumSet.bcm
+1.21337916E8,1.5729016473333333E9,1.1670261966666667E8,9.6494836E7:(setA:POW(A)) & (setB:POW(B)) & (value:NAT) & (sizeA:NAT) & (sizeB:NAT) & (sizeA=card(setA)) & (sizeB=card(setB)) & (found:BOOL&full:BOOL)
+4.9735351666666664E7,5.2042302E7,-1.0,1.18912398E8:not(not((s1<:setB&card(s1)=2&{b1,b2}<:setB) & (s1:POW(B)))) => (setA:POW(A)) & (setB:POW(B)) & (value:NAT) & (sizeA:NAT) & (sizeB:NAT) & (sizeA=card(setA)) & (sizeB=card(setB)) & (found:BOOL&full:BOOL)
+5.0686124666666664E7,5.3405348E7,6.827188E7,1.7158790433333334E8:not(not((setA:POW(A)) & (setB:POW(B)) & (value:NAT) & (sizeA:NAT) & (sizeB:NAT) & (sizeA=card(setA)) & (sizeB=card(setB)) & (found:BOOL&full:BOOL))) => not((s1<:setA&card(s1)=2&a1:s1) & (s1:POW(A)))
+-1.0,-1.0,-1.0,-1.0:(setA:POW(A)) & (setB:POW(B)) & (value:NAT) & (sizeA:NAT) & (sizeB:NAT) & (sizeA=card(setA)) & (sizeB=card(setB)) & (found:BOOL&full:BOOL) & (not((sizeA=card(A)&sizeB=card(B)&value>=100)) => (s1<:setB&card(s1)=2&{b1,b2}<:setB) & (s1:POW(B)))

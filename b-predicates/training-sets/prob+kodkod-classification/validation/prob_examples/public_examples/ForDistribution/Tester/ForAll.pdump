@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/ForAll.mch
+7.889702066666667E7,7.016297266666667E7,-1.0,9.0522196E7:not((!x.(x:COLOURS => x:col1 or x:col2)) & (x:COLOURS => x:col1 or x:col2) & (x:COLOURS) & (x:col1 or x:col2) & (x:col1) & (x:col2)) => (col1:POW(COLOURS)) & (col2:POW(COLOURS)) & (!cc.(cc:col1 => cc/:col2)) & (!cc2.(cc2:col2 => cc2/:col1))
+4.7937008333333336E7,6.4850426E7,6.74321225E8,5.4015039E7:(col1:POW(COLOURS)) & (col2:POW(COLOURS)) & (!cc.(cc:col1 => cc/:col2)) & (!cc2.(cc2:col2 => cc2/:col1)) & (x:COLOURS) & (x/:col1) & (!x.(x:COLOURS => x:col1 or x:col2)) & (x:COLOURS => x:col1 or x:col2) & (x:COLOURS) & (x:col1 or x:col2) & (x:col1) & (x:col2)
+4.4185251333333336E7,4.6941676666666664E7,6.4434265E7,5.0664403333333336E7:(not(col2:POW(COLOURS)) => col2:POW(COLOURS))

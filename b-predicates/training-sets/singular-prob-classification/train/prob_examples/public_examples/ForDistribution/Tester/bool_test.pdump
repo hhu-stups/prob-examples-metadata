@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/bool_test.mch
+5.3065453666666664E7,5.9739394E7,9.5330139E7,4.8818754666666664E7:not((n:Name)) => not((nm:POW(Name)))
+4.7519311E7,4.6717300333333336E7,5.9990473333333336E7,4.8129211333333336E7:nm:POW(Name) & nm:POW(Name)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/B_Tutorial/NormalisationTest.mch
+4.7279569E7,4.7803704666666664E7,6.4023574333333336E7,5.07396E7:(not(uu:POW(UID)) => not(xx:{ub,uc}&yy:{ub,uc}&xx/=yy))

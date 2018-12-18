@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Tester/Functions.mch
+5.0631275666666664E7,6.2736772E7,-1.0,9.302970733333333E7:not((ff:setX<->setY) & (gg:setX<->setY) & (gg:dom(ff)<->ran(ff) <=> (dom(gg)<:dom(ff)&ran(gg)<:ran(ff))) & (gg:dom(ff)-->setY => dom(gg)=dom(ff)) & (dom(gg)=dom(ff)&gg:setX+->setY => gg:dom(ff)-->setY)) => not((yy:setY))
+1.4960270666666666E8,6.1680446E7,-1.0,2.741123016666667E8:not(not((ff:setX<->setY) & (gg:setX<->setY) & (gg:dom(ff)<->ran(ff) <=> (dom(gg)<:dom(ff)&ran(gg)<:ran(ff))) & (gg:dom(ff)-->setY => dom(gg)=dom(ff)) & (dom(gg)=dom(ff)&gg:setX+->setY => gg:dom(ff)-->setY))) => not((yy:setY))
+6.6388796333333336E7,1.4640232333333334E8,-1.0,1.6765639933333334E8:(ff:setX<->setY) & (gg:setX<->setY) & (gg:dom(ff)<->ran(ff) <=> (dom(gg)<:dom(ff)&ran(gg)<:ran(ff))) & (gg:dom(ff)-->setY => dom(gg)=dom(ff)) & (dom(gg)=dom(ff)&gg:setX+->setY => gg:dom(ff)-->setY) & (xx:setX) & (yy:setY) & ((xx,yy)/:gg) & (yy:setY)
+5.1258985333333336E7,1.0820782433333333E8,-1.0,1.2807706433333333E8:dom(gg)=dom(ff)&gg:setX+->setY => gg:dom(ff)-->setY & not(gg:dom(ff)<->ran(ff)&(dom(gg)=dom(ff)&gg:setX+->setY => gg:dom(ff)-->setY))

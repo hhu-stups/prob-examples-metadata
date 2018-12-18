@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/EventB/ETH_Elevator/elevator0.mch
+8.945788893333334E8,2.4458230806666665E9,9.540626633333333E7,5.96638418E9:(N:NATURAL1) & (phyElevatorFloor:0..N) & (phyElevatorFloor:INTEGER) & (!floor.(floor:0..N => phyElevatorFloor:INTEGER)) & (!floor.(floor:0..N => floor:0..N))

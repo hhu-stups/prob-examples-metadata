@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/Paperround.mch
+8.0116077E7,6.5777917666666664E7,-1.0,6.8439196E7:(not(magazines<:papers) => pp/:papers&magazines<:papers\/{pp})

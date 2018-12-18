@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Oliveira2/Shop.mch
+4.7505156333333336E7,4.8003031333333336E7,-1.0,5.5875844333333336E7:not(not((gg:GOODS) & (takings+price(gg)<=2147483647))) => (takings:NAT)
+1.3294225466666667E8,4.9273747E7,6.4015706E7,6.3988095333333336E7:not((takings:NAT)) & not((gg:GOODS) & (takings+price(gg)<=2147483647))
+4.8832909333333336E7,4.9235963E7,-1.0,5.5879149666666664E7:not(not((gg:GOODS) & (takings+price(gg)<=2147483647))) => not((takings:NAT))
+4.8781878333333336E7,4.8068705666666664E7,1.31229351E8,5.5575828666666664E7:not((gg:GOODS) & (takings+price(gg)<=2147483647)) => not((takings:NAT))

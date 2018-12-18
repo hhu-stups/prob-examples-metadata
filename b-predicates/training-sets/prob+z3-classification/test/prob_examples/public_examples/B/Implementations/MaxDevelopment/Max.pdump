@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Implementations/MaxDevelopment/Max.mch
+1.2333493433333333E8,1.13934065E8,1.1976446166666667E8,7.188947233333333E7:(values<:NAT)
+6.9262439E7,6.6987988E7,9.612630666666667E7,1.1504233E8:(values<:NAT) & (values/={}) & not((n:NAT))

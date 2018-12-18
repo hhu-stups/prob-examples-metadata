@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/ABCD/Refinements/TravelAgency1.mch
+5.3627652666666664E7,2.703843836666667E8,1.09215937E8,6.2847424E7:(not(ss1:dom(session_user)&session_card(ss1)/=valid => session_response(ss1)=undef) => not(ss1:dom(session_user)&session_card(ss1)/=valid => session_response(ss1)=undef))
+5.2749445333333336E7,5.7399757666666664E7,-1.0,1.3239400066666667E8:msg_hotel_request:HOTEL-->FIN(SESSION*USER*REQUEST) & msg_hotel_request:HOTEL-->FIN(SESSION*USER*REQUEST)
+4.7787851E7,6.1943189333333336E7,6.8341139E7,5.4741412333333336E7:dom(session_user)=dom(session_request) & not(dom(session_user)=dom(session_request))
+7.927770266666667E7,7.2324816E7,8.196789566666667E7,2.4395734966666666E8:ss2:dom(session_user)&session_card(ss2)/=valid => session_response(ss2)=undef & ss2:dom(session_user)&session_card(ss2)/=valid => session_response(ss2)=undef
+4.9609567666666664E7,7.1930958E7,7.1909633E7,7.4544861E7:(not(ss2:dom(session_user)&session_card(ss2)/=valid => session_response(ss2)=undef) => ss2:dom(session_user)&session_card(ss2)/=valid => session_response(ss2)=undef)
+4.7822817666666664E7,5.9351006666666664E7,7.576117066666667E7,5.5049621333333336E7:agency_hotel_bookings:ROOM+->USER & not(agency_hotel_bookings:ROOM+->USER)
+4.6521698E7,6.4413522E7,7.7296119E7,7.4637308E7:session_user:SESSION+->USER & not(session_user:SESSION+->USER)

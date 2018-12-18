@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/RenameParameterTests/Set.mch
+-1.0,-1.0,6.3973032666666664E7,-1.0:(maxel:NATURAL1) & (set<:ELEM) & not((e:ELEM))
+-1.0,-1.0,5.9836170333333336E7,-1.0:(maxel:NATURAL1) & not((set<:ELEM)) & not((e:ELEM))

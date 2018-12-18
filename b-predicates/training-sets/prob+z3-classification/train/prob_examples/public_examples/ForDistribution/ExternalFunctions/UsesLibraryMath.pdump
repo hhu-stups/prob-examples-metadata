@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/ExternalFunctions/UsesLibraryMath.mch
+6.4073558E7,5.0214928E7,6.0114860666666664E7,5.3274279E7:(not(xx:NATURAL) => xx+10:NATURAL)

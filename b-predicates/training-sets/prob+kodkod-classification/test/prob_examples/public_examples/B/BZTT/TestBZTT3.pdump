@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/B/BZTT/TestBZTT3.mch
+6.2238850333333336E7,1.1459380866666667E8,-1.0,1.3242005166666667E8:(fun:ID-->ID) & (x:ID) & (s:POW(ID)) & not((ff:ID-->ID) & (ff(a)/=ff(b)) & (ff(b)/=ff(c)) & (ff(c)/=ff(d)) & (ff(d)/=ff(e)) & (ff(e)/=ff(g)) & (ff(g)=a) & (ran(ff)={a,b}))
+4.9706158E7,1.02745142E8,-1.0,9.0675311E7:not((fun:ID-->ID) & (x:ID) & (s:POW(ID))) & not((z:ID) & (z=fun(z)))
+-1.0,1.4225067766666666E8,-1.0,-1.0:(fun:ID-->ID) & (x:ID) & (s:POW(ID)) & (not((ff:ID-->ID) & (ff(a)/=ff(b)) & (ff(b)/=ff(c)) & (ff(c)/=ff(d)) & (ff(d)/=ff(e)) & (ff(e)/=ff(g)) & (ff(g)=a) & (ran(ff)={a,b})) => (ff:ID-->ID) & (ff(a)/=ff(b)) & (ff(b)/=ff(c)) & (ff(c)/=ff(d)) & (ff(d)/=ff(e)) & (ff(e)/=ff(g)) & (ff(g)=a) & (ff(a)=a) & (ran(ff)={a,b}))
+4.8418471E7,8.741714466666667E7,1.1925161733333333E8,5.7873956333333336E7:(not(x:ID) => not(x:ID))
+1.08977336E8,5.859146846666666E8,-1.0,8.339354266666667E7:(fun:ID-->ID) & (x:ID) & (s:POW(ID)) & (s:POW(ID)) & (fun:ID-->ID) & (x:ID)
+4.7676593E7,4.9472003E7,7.602533333333333E7,5.7208695E7:s:POW(ID) & s:POW(ID)
+5.4780406666666664E7,5.3555762666666664E7,8.039111233333333E7,5.4919903E7:x:ID & x:ID
+8.522780733333333E7,1.99176888E8,-1.0,1.1580592766666667E8:(fun:ID-->ID) & (x:ID) & (s:POW(ID)) & (fun(T)=x) & (fun(T)=x&fun:ID-->ID) & (fun(T)=x)

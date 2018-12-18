@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/TrafficLightWarning/System.mch
+5.055452E7,5.8430941E7,6.868871633333333E7,1.1717372266666667E8:(maxspeed>2) & (orange_red_time=1) & (red_green_time=3) & (green_orange_time=2) & (TLpos>5) & not((prevpos:NATURAL) & (not(VIOLATION)) & (not(ORANGE_VIOLATION))) & (ORANGE_VIOLATION)
+5.1686368E7,5.7153846333333336E7,6.828161133333333E7,6.4066573E7:not((maxspeed>2) & (orange_red_time=1) & (red_green_time=3) & (green_orange_time=2) & (TLpos>5) & not((speed>0) & (TLpos>=curpos))) => not((prevpos:NATURAL) & (not(VIOLATION)) & (not(ORANGE_VIOLATION)))
+5.4374512E7,6.4057936666666664E7,5.676420633333334E8,6.879331466666667E7:not((maxspeed>2) & (orange_red_time=1) & (red_green_time=3) & (green_orange_time=2) & (TLpos>5) & (curpos<=TLpos) & (not(WARN))) => (prevpos:NATURAL) & (not(VIOLATION)) & (not(ORANGE_VIOLATION))

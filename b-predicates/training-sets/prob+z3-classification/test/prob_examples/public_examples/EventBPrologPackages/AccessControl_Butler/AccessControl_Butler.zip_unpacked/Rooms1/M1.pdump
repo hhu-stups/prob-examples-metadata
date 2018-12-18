@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/AccessControl_Butler/AccessControl_Butler.zip_unpacked/Rooms1/M1.bcm
+1.5939736466666666E8,3.049691813333333E8,1.2536931766666667E8,2.6307919433333334E8:not((authorised:User <-> Activity) & (takeplace:Room <-> Activity) & (location:User +-> Room) & (!u oftype User,r oftype Room.u:dom(location)&location(u)=r=>takeplace[{r}]<:authorised[{u}])) => (u |-> a:authorised) & (u:dom(location)=>location(u) |-> a/:takeplace)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Simple/UpCounter.mch
+5.0110609E7,4.9182069E7,6.0177648E7,5.7305029E7:(mx=MAXINT) & c:NATURAL & c<mx => c+1:NATURAL

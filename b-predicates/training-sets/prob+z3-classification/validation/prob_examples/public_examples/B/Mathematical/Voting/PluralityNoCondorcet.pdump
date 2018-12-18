@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Voting/PluralityNoCondorcet.mch
+-1.0,-1.0,-1.0,-1.0:not((prefs:VOTERS-->perm(CHOICES)) & (EVotes=PVotes(E)) & (!B.(B:CHOICES&B/=E => prefered(E,B))) & (#B.(B:CHOICES&B/=E&PVotes(B)>EVotes))) => (A:CHOICES) & (B:CHOICES) & (prefered(A,B))
+-1.0,-1.0,-1.0,-1.0:not((prefs:VOTERS-->perm(CHOICES)) & (EVotes=PVotes(E)) & (!B.(B:CHOICES&B/=E => prefered(E,B))) & (#B.(B:CHOICES&B/=E&PVotes(B)>EVotes))) => (A:CHOICES) & (!B.(B:CHOICES&B/=A => prefered(A,B)))

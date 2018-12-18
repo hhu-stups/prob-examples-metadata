@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ErrorMachines/PreCondViolated.mch
+5.5560534E7,6.0418879666666664E7,1.0298229933333333E8,5.2505094E7:not((iv:ID) & (yy:ID)) => not((xx:ID))

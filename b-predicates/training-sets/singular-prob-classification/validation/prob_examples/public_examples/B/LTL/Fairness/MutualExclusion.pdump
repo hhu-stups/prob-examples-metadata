@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/LTL/Fairness/MutualExclusion.mch
+4.7887560666666664E7,6.810712433333333E7,7.231138366666667E7,1.0725577133333333E8:(p1:PHASE1) & (p2:PHASE2) & (y:0..1) & not((p1=noncrit1))
+4.8239514333333336E7,5.1502708666666664E7,6.912655133333333E7,9.962298E7:(not((p1:PHASE1) & (p2:PHASE2) & (y:0..1)) => not((p2=wait2&y>0&y-1:0..1) & (p2=wait2&y>0) & (p2=wait2&y>0)))

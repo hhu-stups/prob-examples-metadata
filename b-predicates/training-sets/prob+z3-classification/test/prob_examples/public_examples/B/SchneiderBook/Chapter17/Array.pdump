@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter17/Array.mch
+5.3323494E7,6.1105885333333336E7,7.547673E7,9.909283866666667E7:(array:1..cap-->NAT) & not((ii:1..cap))

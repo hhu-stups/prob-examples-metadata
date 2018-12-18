@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/CSPB/Tokens.mch
+4.7475986E7,3.21958912E8,7.541131233333333E7,6.802263933333333E7:not((tokens:CUST+->NAT)) & (cc:dom(tokens)) & (pp:OFFICE)
+4.7701107666666664E7,4.811522E7,7.186856666666667E7,6.787508833333333E7:(tokens:CUST+->NAT) & not((cc:dom(tokens)))
+5.1636221333333336E7,5.2374747E7,-1.0,7.262390033333333E7:(not((tokens:CUST+->NAT)) => not((cc:dom(tokens)&{cc}<<|tokens:CUST+->NAT)))

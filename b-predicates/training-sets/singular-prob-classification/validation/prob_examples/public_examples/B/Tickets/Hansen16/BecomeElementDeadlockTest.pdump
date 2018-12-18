@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Hansen16/BecomeElementDeadlockTest.mch
+4.7276193666666664E7,4.8252830333333336E7,6.5244726333333336E7,5.1674331666666664E7:(iv:ID) & (not((xx:ID)) => not((!xx.(xx:ID-({xx}\/{iv}) => xx:ID))))

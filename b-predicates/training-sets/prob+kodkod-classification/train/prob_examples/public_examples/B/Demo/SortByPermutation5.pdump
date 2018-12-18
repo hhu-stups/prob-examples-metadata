@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Demo/SortByPermutation5.mch
+5.3191517333333336E7,5.0441866E7,6.5972379333333336E7,6.6380066333333336E7:not((sz:NATURAL) & (sz=5) & not((i:1..sz))) => not((a:1..sz-->INTEGER))
+-1.0,-1.0,-1.0,-1.0:(sz:NATURAL) & (sz=5) & a:1..sz-->INTEGER & not(!p.(p:perm(dom(a))&!i,j.(i:1..sz-1&j:2..sz&i<j => a(p(i))<=a(p(j))) => (p;a):1..sz-->INTEGER))

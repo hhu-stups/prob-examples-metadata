@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter11/Life.mch
+8.959186266666667E7,6.800366863333334E8,9.628901366666667E7,5.9070244666666664E7:(male<:PERSON) & (female<:PERSON) & (male/\female={})
+3.040897866666667E8,1.4398877166666666E8,-1.0,5.6361357E7:not((male<:PERSON) & (female<:PERSON) & (male/\female={})) => (nn:PERSON) & (nn:male\/female)
+-1.0,-1.0,7.2372402E7,-1.0:(male<:PERSON) & (female<:PERSON) & (male/\female={}) & (nn:PERSON) & (nn:male\/female) & (nn:PERSON) & (nn/:male\/female) & (ss:SEX)
+4.8159196666666664E7,7.049280966666667E7,6.764635866666667E7,5.6395579333333336E7:female<:PERSON & nn/:male\/female&(ss=boy => female<:PERSON&(not(ss=boy) => (TRUE:BOOL => female<:PERSON)))

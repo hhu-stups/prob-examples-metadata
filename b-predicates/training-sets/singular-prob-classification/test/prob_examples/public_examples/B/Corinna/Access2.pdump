@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/Corinna/Access2.mch
+5.2878977333333336E7,6.8292716E7,1.2068604066666667E8,5.8896269666666664E7:(access:USER<->PRINTER)
+-1.0,-1.0,8.4706442E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & not((uu:USER) & (oo:OPTION))
+-1.0,-1.0,6.3813119666666664E7,-1.0:not((options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & not((access:USER<->PRINTER))) => not((uu:USER) & (oo:OPTION))
+-1.0,-1.0,9.4281496E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & not((pp:PRINTER))
+6.5967583333333336E7,6.967620166666667E7,9.8742422E7,9.876714566666667E7:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & (uu:USER) & (oo:OPTION) & (u1:USER) & (u2:USER)
+-1.0,-1.0,7.5060709E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & ((uu:USER) & (oo:OPTION) => not((u1:USER) & (u2:USER)))
+-1.0,-1.0,7.2256954E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & access:USER<->PRINTER & not(access:USER<->PRINTER)
+-1.0,-1.0,9.113528533333333E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & access:USER<->PRINTER & not(access:USER<->PRINTER)
+-1.0,-1.0,8.4201024E7,-1.0:(options:PRINTER<->OPTION) & (dom(options)=PRINTER) & (ran(options)=OPTION) & (access:USER<->PRINTER) & not((access:USER<->PRINTER))

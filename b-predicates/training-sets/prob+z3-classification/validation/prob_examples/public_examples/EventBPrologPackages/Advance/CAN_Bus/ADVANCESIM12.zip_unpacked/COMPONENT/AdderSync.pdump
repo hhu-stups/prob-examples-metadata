@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/AdderSync.bcm
+4.6827206666666664E7,4.9844048E7,-1.0,5.8840047666666664E7:not(not((p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE))) => not((o_sum:NAT))
+5.2172742666666664E7,5.2349417666666664E7,6.819065466666667E7,7.596561933333333E7:(o_sum:NAT) & (p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE) & not((pv:INT) & (pv=o_sum) & (data_ready=TRUE))

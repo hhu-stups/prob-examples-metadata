@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/SSF/InfiniteSets.zip_unpacked/InfiniteSets/TestMachine.bcm
+-1.0,-1.0,-1.0,-1.0:(y:BOOL ** INT >->> INT)

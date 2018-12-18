@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/RefinementDevelopment/SingleFlowSeqSpec.mch
+5.4976451E7,3.445321966666667E8,-1.0,7.503698633333333E7:(emptyp:PACKETS) & (RPACKETS=PACKETS-{emptyp}) & (dest:DEVICES) & (source:DEVICES) & (messages:iseq(RPACKETS)) & (p:PACKETS) & (p/=emptyp) & (i:NATURAL1)

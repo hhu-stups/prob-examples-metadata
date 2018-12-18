@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Special/PO_ModelChecking/Simple_PO_Check.mch
+4.8621429666666664E7,5.2028799333333336E7,6.0050676333333336E7,5.5958466E7:(not((xx:NATURAL) & (yy:NATURAL)) => not((xx<5&xx+1:NATURAL) & (xx<5&yy:NATURAL)))

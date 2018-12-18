@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/CHANNELTD.bcm
+5.2020535333333336E7,5.9173376666666664E7,1.0470654133333333E8,4.9356183333333336E7:not((sum:NAT) & (sum_prime:NAT)) => sum:INT

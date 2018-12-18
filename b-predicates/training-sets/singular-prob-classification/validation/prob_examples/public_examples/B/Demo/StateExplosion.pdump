@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Demo/StateExplosion.mch
+-1.0,-1.0,4.2552059E7,-1.0:(mx:NAT) & (mx=3) & not((vrel:-mx..mx<->-mx..mx)) & (rr:-mx..mx<->-mx..mx) & (dom(rr)={0}) & (card(rr)=1)
+-1.0,-1.0,6.2762171E7,-1.0:(mx:NAT) & (mx=3) & (vrel:-mx..mx<->-mx..mx) & not((vrel~:-mx..mx<->-mx..mx))

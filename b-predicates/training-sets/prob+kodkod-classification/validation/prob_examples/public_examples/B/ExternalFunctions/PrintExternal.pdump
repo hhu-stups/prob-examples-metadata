@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/PrintExternal.mch
+4.8978784333333336E7,4.8007082666666664E7,6.0054517666666664E7,5.2039508666666664E7:not((xx:NATURAL)) & not((xx<1000))

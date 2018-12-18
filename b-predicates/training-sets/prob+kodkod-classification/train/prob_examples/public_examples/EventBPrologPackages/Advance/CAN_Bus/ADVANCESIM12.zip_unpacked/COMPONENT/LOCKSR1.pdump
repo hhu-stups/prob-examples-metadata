@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/LOCKSR1.bcm
+6.3194628666666664E7,9.442010766666667E7,9.8113408E7,1.36157654E8:(dpos:DoorPosition) & (doorst:DoorState) & (doorst=LOCKED=>dpos=CLOSED) & (drumst:DrumState) & (drumst/=EMPTY=>doorst=LOCKED) & (doorst=LOCKED) & (drumst=EMPTY)
+5.7245222333333336E7,1.25520198E8,-1.0,8.2823987E7:not(not((dpos:DoorPosition) & (doorst:DoorState) & (doorst=LOCKED=>dpos=CLOSED) & (drumst:DrumState) & (drumst/=EMPTY=>doorst=LOCKED))) => not((drumst=FILLED))
+4.8275296E7,1.4183363233333334E8,-1.0,7.131540033333333E7:not((dpos:DoorPosition) & (doorst:DoorState) & (doorst=LOCKED=>dpos=CLOSED) & (drumst:DrumState) & (drumst/=EMPTY=>doorst=LOCKED)) => (dpos=CLOSED) & (doorst=UNLOCKED)
+4.8431694666666664E7,5.7481541333333336E7,-1.0,7.2980347E7:not(not((drumst=FILLING))) => (dpos:DoorPosition) & (doorst:DoorState) & (doorst=LOCKED=>dpos=CLOSED) & (drumst:DrumState) & (drumst/=EMPTY=>doorst=LOCKED)
+9.8633609E7,6.9307021E7,-1.0,6.2691142666666664E7:not((doorst=UNLOCKED) & (dpos=CLOSED)) => (dpos:DoorPosition) & (doorst:DoorState) & (doorst=LOCKED=>dpos=CLOSED) & (drumst:DrumState) & (drumst/=EMPTY=>doorst=LOCKED)
+5.0139034E7,6.0138793E7,7.466356833333333E7,7.060395066666667E7:(dpos:DoorPosition) & (doorst:DoorState) & (doorst=LOCKED=>dpos=CLOSED) & (drumst:DrumState) & (drumst/=EMPTY=>doorst=LOCKED) & ((drumst=FILLED) => not((drumst=EMPTYING)))
+4.8512058E7,5.207571E7,7.050351866666667E7,5.8216271666666664E7:(dpos:DoorPosition) & (doorst:DoorState) & (doorst=LOCKED=>dpos=CLOSED) & (drumst:DrumState) & (drumst/=EMPTY=>doorst=LOCKED) & (drumst=FILLING) & (doorst=LOCKED) & (drumst=EMPTY)
+6.2354810333333336E7,6.0007561333333336E7,6.919560133333333E7,5.2142943333333336E7:(dpos:DoorPosition) & (doorst:DoorState) & (doorst=LOCKED=>dpos=CLOSED) & (drumst:DrumState) & (drumst/=EMPTY=>doorst=LOCKED) & (doorst=UNLOCKED) & (dpos=CLOSED) & (drumst=EMPTYING)

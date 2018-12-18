@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/PartialFunOverRel.mch
+4.8619916E7,4.8055995E7,6.4075070666666664E7,5.2028450666666664E7:not((f:ID-->ID+->>ID) & (card(f)=3) & (dom(f)={{(aa,aa),(bb,aa),(cc,aa)},{(aa,aa),(bb,aa),(cc,bb)},{(aa,aa),(bb,aa),(cc,cc)}})) => (x:ID) & (y:ID)

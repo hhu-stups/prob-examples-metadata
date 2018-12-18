@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/composedMachine_Buffer_HeatingController.zip_unpacked/Buffer/Cons1.bcm
+2.6593358466666666E8,3.21896497E8,2.4187347233333334E8,1.2038812133333333E8:not(not((c:INT) & (yc:INT) & (init:BOOL) & (Get:BOOL))) => (Get=TRUE)
+2.3047805166666666E8,1.5983916903333333E9,2.5811413166666666E8,1.1504852233333333E8:not(not((c:INT) & (yc:INT) & (init:BOOL) & (Get:BOOL))) => not((Get=TRUE))

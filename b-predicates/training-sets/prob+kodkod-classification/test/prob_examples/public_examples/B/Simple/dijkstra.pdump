@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Simple/dijkstra.mch
+1.48704687E8,4.170860696666667E8,1.3498579213333333E9,7.250801E7:(marked:POW(States)) & (dist:States+->NAT) & (dom(dist)=marked) & (trans:States<->States) & (dom(trans)\/ran(trans)=States)
+8.592347333333333E7,8.586143066666667E7,9.139402466666667E7,6.940025933333333E7:(not(dom(trans)\/ran(trans)=States) => not(marked=States => dom(trans)\/ran(trans)=States))
+1.5015673433333334E8,4.9107990666666664E7,7.248892E7,6.0832479666666664E7:(not(dom(dist)=marked) => marked=States => dom(dist)=marked)
+9.141807333333333E7,8.343339866666667E7,-1.0,1.5495278166666666E8:dist:States+->NAT & not(mm:marked&ss/:marked&(ss,mm):trans&!xx.(xx:marked&dist(xx)<dist(mm) => trans~[{xx}]<:marked) => dist\/{(ss,dist(mm)+1)}:States+->NAT)

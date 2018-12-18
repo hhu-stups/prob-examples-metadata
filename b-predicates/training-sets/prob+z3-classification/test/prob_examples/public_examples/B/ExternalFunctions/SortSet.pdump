@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/SortSet.mch
+2.4782893133333334E8,6.2202323E7,-1.0,1.1051903533333333E8:(sort:POW(INTEGER)<->POW(INTEGER*INTEGER)) & (sort=REC_LET("sort",%x.(x={}|[])\/%x.(x:POW1(INTEGER)|REC("sort",x-{max(x)})<-max(x)))) & sort({2,3,1,4})=[1,2,3,4]
+-1.0,-1.0,-1.0,-1.0:not((sort:POW(INTEGER)<->POW(INTEGER*INTEGER)) & (sort=REC_LET("sort",%x.(x={}|[])\/%x.(x:POW1(INTEGER)|REC("sort",x-{max(x)})<-max(x))))) => sort(1..100)=%i.(i:1..100|i)

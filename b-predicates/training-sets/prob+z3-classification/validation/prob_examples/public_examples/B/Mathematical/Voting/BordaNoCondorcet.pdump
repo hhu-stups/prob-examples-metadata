@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Voting/BordaNoCondorcet.mch
+7.630244033333333E7,1.23625404E8,-1.0,9.094810173333334E8:(prefs:VOTERS-->perm(CHOICES)) & (EScore=BordaScore(E)) & (!B.(B:CHOICES&B/=E => prefered(E,B))) & (#B.(B:CHOICES&B/=E&BordaScore(B)<EScore)) & (not((V:VOTERS) & (A:CHOICES) & (B:CHOICES) & (prefers(V,A,B))) => (A:CHOICES) & (!B.(B:CHOICES&B/=A => prefered(A,B))))

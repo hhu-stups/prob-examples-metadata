@@ -1,0 +1,23 @@
+#source:examples/prob_examples/public_examples/B/BZTT/TestBZTT3.mch
+5.8013802333333336E7,1.5496179166666666E8,-1.0,4.499130323333333E8:not((fun:ID-->ID) & (x:ID) & (s:POW(ID))) & (ff:ID-->ID) & ((ff;ff)=ff) & (ran(ff)={a})
+-1.0,8.618076866666667E7,-1.0,-1.0:not((fun:ID-->ID) & (x:ID) & (s:POW(ID))) => (ff:ID-->ID) & (ff(a)/=ff(b)) & (ff(b)/=ff(c)) & (ff(c)/=ff(d)) & (ff(d)/=ff(e)) & (ff(e)/=ff(g)) & (ff(g)=a) & (ran(ff)={a,b})
+5.549309E7,1.1288341933333333E8,1.24587398E8,8.154002433333333E7:not(not((ff:ID-->ID) & (ff(a)/=ff(b)) & (ff(b)/=ff(c)) & (ff(c)/=ff(d)) & (ff(d)/=ff(e)) & (ff(e)/=ff(g)) & (ff(g)=a) & (ran(ff)={a,b}))) => not((fun:ID-->ID) & (x:ID) & (s:POW(ID)))
+-1.0,8.1723963E7,-1.0,-1.0:not((fun:ID-->ID) & (x:ID) & (s:POW(ID))) => (ff:ID-->ID) & (ff(a)/=ff(b)) & (ff(b)/=ff(c)) & (ff(c)/=ff(d)) & (ff(d)/=ff(e)) & (ff(e)/=ff(g)) & (ff(g)=a) & (ff(a)=a) & (ran(ff)={a,b})
+4.9495237333333336E7,9.078053833333333E7,8.273335633333333E7,9.637070466666667E7:not((fun:ID-->ID) & (x:ID) & (s:POW(ID))) => (z:ID) & (z=fun(z))
+-1.0,8.2257481E7,-1.0,-1.0:not((fun:ID-->ID) & (x:ID) & (s:POW(ID))) => not((z:ID) & (z=fun(z)))
+6.0989157E7,5.8823774333333336E7,-1.0,1.8858229133333334E8:(fun:ID-->ID) & (x:ID) & (s:POW(ID)) & (ff:ID-->ID) & (ff(a)/=ff(b)) & (ff(b)/=ff(c)) & (ff(c)/=ff(d)) & (ff(d)/=ff(e)) & (ff(e)/=ff(g)) & (ff(g)=a) & (ran(ff)={a,b}) & (T:ID) & (fun(T)=x)
+5.8611131333333336E7,6.3336266666666664E7,-1.0,2.0191669166666666E8:(fun:ID-->ID) & (x:ID) & (s:POW(ID)) & ((T:ID) & (fun(T)=x) => not((ff:ID-->ID) & (ff(a)/=ff(b)) & (ff(b)/=ff(c)) & (ff(c)/=ff(d)) & (ff(d)/=ff(e)) & (ff(e)/=ff(g)) & (ff(g)=a) & (ff(a)=a) & (ran(ff)={a,b})))
+5.4546322E7,5.4214738666666664E7,7.879672866666667E7,5.7437634666666664E7:(not(s:POW(ID)) => s:POW(ID))
+3.194027673333333E8,7.5403583E7,7.5073234E7,6.2641997666666664E7:fun:ID-->ID & not(fun:ID-->ID)
+5.1624861E7,1.3477051333333334E8,-1.0,5.9762744E7:(not(fun:ID-->ID) => ff:ID-->ID&(ff;ff)=ff&ran(ff)={a}&ff:ID-->ID)
+6.899764733333333E7,6.4999513333333336E7,-1.0,1.4877157266666666E8:s:POW(ID) & ff:ID-->ID&ff(a)/=ff(b)&ff(b)/=ff(c)&ff(c)/=ff(d)&ff(d)/=ff(e)&ff(e)/=ff(g)&ff(g)=a&ran(ff)={a,b}
+5.4479436666666664E7,5.3357646333333336E7,6.937371933333333E7,5.4730190666666664E7:(not(s:POW(ID)) => not(ff:ID-->ID&ff(a)/=ff(b)&ff(b)/=ff(c)&ff(c)/=ff(d)&ff(d)/=ff(e)&ff(e)/=ff(g)&ff(g)=a&ran(ff)={a,b}))
+6.0808408E7,1.3330968933333333E8,1.18373409E8,1.92669077E8:(not(fun:ID-->ID) => not(ff:ID-->ID&ff(a)/=ff(b)&ff(b)/=ff(c)&ff(c)/=ff(d)&ff(d)/=ff(e)&ff(e)/=ff(g)&ff(g)=a&ran(ff)={a,b}&ff:ID-->ID))
+-1.0,9.7541454E7,-1.0,-1.0:(not((fun:ID-->ID) & (x:ID) & (s:POW(ID))) => (ff:ID-->ID&ff(a)/=ff(b)&ff(b)/=ff(c)&ff(c)/=ff(d)&ff(d)/=ff(e)&ff(e)/=ff(g)&ff(g)=a&ran(ff)={a,b}) & (ff:ID-->ID&ff(a)/=ff(b)&ff(b)/=ff(c)&ff(c)/=ff(d)&ff(d)/=ff(e)&ff(e)/=ff(g)&ff(g)=a&ran(ff)={a,b}&ff:ID-->ID) & (ff:ID-->ID&ff(a)/=ff(b)&ff(b)/=ff(c)&ff(c)/=ff(d)&ff(d)/=ff(e)&ff(e)/=ff(g)&ff(g)=a&ran(ff)={a,b}))
+-1.0,2.69195475E8,-1.0,-1.0:(not((fun:ID-->ID) & (x:ID) & (s:POW(ID))) => (s:POW(ID)) & ((fun;fun):ID-->ID) & (x:ID))
+5.0135309333333336E7,5.6898366666666664E7,7.783548E7,5.8207332E7:(not(s:POW(ID)) => not(fun(T)=x))
+1.0594794666666667E8,6.579594376666666E8,1.1046306933333333E8,7.077727333333333E7:x:ID & fun(T)=x
+-1.0,1.78813358E8,-1.0,-1.0:(not((fun:ID-->ID) & (x:ID) & (s:POW(ID))) => (fun(T)=x) & (fun(T)=x&fun:ID-->ID) & (fun(T)=x))
+-1.0,1.0575474233333333E8,-1.0,-1.0:(not((fun:ID-->ID) & (x:ID) & (s:POW(ID))) => (ff:ID-->ID&ff(a)/=ff(b)&ff(b)/=ff(c)&ff(c)/=ff(d)&ff(d)/=ff(e)&ff(e)/=ff(g)&ff(g)=a&ff(a)=a&ran(ff)={a,b}) & (ff:ID-->ID&ff(a)/=ff(b)&ff(b)/=ff(c)&ff(c)/=ff(d)&ff(d)/=ff(e)&ff(e)/=ff(g)&ff(g)=a&ff(a)=a&ran(ff)={a,b}&ff:ID-->ID) & (ff:ID-->ID&ff(a)/=ff(b)&ff(b)/=ff(c)&ff(c)/=ff(d)&ff(d)/=ff(e)&ff(e)/=ff(g)&ff(g)=a&ff(a)=a&ran(ff)={a,b}))
+1.20940659E8,6.44761111E8,1.05194127E8,7.477324266666667E7:x:ID & z=fun(z)
+5.9878750666666664E7,5.0756803666666664E7,8.139715233333333E7,5.6910682E7:(not(x:ID) => not(z=fun(z)))

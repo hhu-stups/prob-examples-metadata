@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Demo/TrainTorchPuzzle.mch
+5.2787788333333336E7,5.8688631333333336E7,4.9407958666666664E7,8.588438533333333E7:not((speed:Persons-->NATURAL1) & (speed(aa)=1) & (speed(bb)=2) & (speed(cc)=5) & (speed(dd)=8) & (traindeparts=16) & (PP<:Pleft) & (card(PP)<3) & (PP/={}) & (torchLeft=TRUE) & (time<traindeparts)) => not((torchLeft:BOOL) & (Pleft<:Persons) & (time:NATURAL))

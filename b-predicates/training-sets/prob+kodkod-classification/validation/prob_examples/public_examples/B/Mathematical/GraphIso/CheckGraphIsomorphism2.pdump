@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/GraphIso/CheckGraphIsomorphism2.mch
+4.8762299666666664E7,4.7887840666666664E7,6.925124133333333E7,5.2027030333333336E7:(not(graph1:Nodes<->Nodes) => not(p:dom(graph1)\/dom(graph2)\/ran(graph1)\/ran(graph2)>->>dom(graph1)\/dom(graph2)\/ran(graph1)\/ran(graph2)&!x,y.(x:dom(graph1)\/dom(graph2)\/ran(graph1)\/ran(graph2)&y:dom(graph1)\/dom(graph2)\/ran(graph1)\/ran(graph2) => (x,y):graph1 <=> (p(x),p(y)):graph2)))

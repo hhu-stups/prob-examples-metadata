@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/B/RecursiveFunctions/TransitiveClosureFunction.mch
+-1.0,-1.0,-1.0,-1.0:(graph={(a,b),(b,c),(b,d),(d,b),(f,g),(g,f)}) & (trclos=%i,x.(i=0&x:Nodes|{x})\/%i,x.(i>0&x:Nodes|graph[trclos(i-1,x)])) & (n:Nodes)
+-1.0,-1.0,-1.0,-1.0:(graph={(a,b),(b,c),(b,d),(d,b),(f,g),(g,f)}) & (trclos=%i,x.(i=0&x:Nodes|{x})\/%i,x.(i>0&x:Nodes|graph[trclos(i-1,x)])) & trclos(0,e)={e}
+-1.0,-1.0,7.6182313E7,-1.0:not((graph={(a,b),(b,c),(b,d),(d,b),(f,g),(g,f)}) & (trclos=%i,x.(i=0&x:Nodes|{x})\/%i,x.(i>0&x:Nodes|graph[trclos(i-1,x)]))) => trclos(0,e)={e}
+-1.0,-1.0,6.5880002666666664E7,-1.0:not((graph={(a,b),(b,c),(b,d),(d,b),(f,g),(g,f)}) & (trclos=%i,x.(i=0&x:Nodes|{x})\/%i,x.(i>0&x:Nodes|graph[trclos(i-1,x)]))) => trclos(1,a)={b}
+-1.0,-1.0,-1.0,-1.0:(graph={(a,b),(b,c),(b,d),(d,b),(f,g),(g,f)}) & (trclos=%i,x.(i=0&x:Nodes|{x})\/%i,x.(i>0&x:Nodes|graph[trclos(i-1,x)])) & not(!i.(i:1..10 => trclos(i,a)=iterate(graph,i)[{a}]))
+-1.0,-1.0,-1.0,-1.0:(graph={(a,b),(b,c),(b,d),(d,b),(f,g),(g,f)}) & (trclos=%i,x.(i=0&x:Nodes|{x})\/%i,x.(i>0&x:Nodes|graph[trclos(i-1,x)])) & not(i:1..10 => trclos(i,a)=iterate(graph,i)[{a}])
+-1.0,-1.0,-1.0,-1.0:not((graph={(a,b),(b,c),(b,d),(d,b),(f,g),(g,f)}) & (trclos=%i,x.(i=0&x:Nodes|{x})\/%i,x.(i>0&x:Nodes|graph[trclos(i-1,x)]))) => (trclos(0,e)={e}) & (trclos(1,e)={}) & (trclos(1,a)={b}) & (trclos(2,a)={c,d}) & (!i.(i:1..10 => trclos(i,a)=iterate(graph,i)[{a}])) & (i:1..10 => trclos(i,a)=iterate(graph,i)[{a}]) & (i:1..10) & (trclos(i,a)=iterate(graph,i)[{a}])
+-1.0,-1.0,-1.0,-1.0:(graph={(a,b),(b,c),(b,d),(d,b),(f,g),(g,f)}) & (trclos=%i,x.(i=0&x:Nodes|{x})\/%i,x.(i>0&x:Nodes|graph[trclos(i-1,x)])) & (n:Nodes) & not((i:3..5) & (n:Nodes))
+-1.0,-1.0,-1.0,-1.0:(graph={(a,b),(b,c),(b,d),(d,b),(f,g),(g,f)}) & (trclos=%i,x.(i=0&x:Nodes|{x})\/%i,x.(i>0&x:Nodes|graph[trclos(i-1,x)])) & (i:3..5) & (n:Nodes) & (n:Nodes)
+-1.0,-1.0,-1.0,-1.0:(graph={(a,b),(b,c),(b,d),(d,b),(f,g),(g,f)}) & (trclos=%i,x.(i=0&x:Nodes|{x})\/%i,x.(i>0&x:Nodes|graph[trclos(i-1,x)])) & (n:Nodes) & (n:Nodes)
+-1.0,-1.0,-1.0,-1.0:(graph={(a,b),(b,c),(b,d),(d,b),(f,g),(g,f)}) & (trclos=%i,x.(i=0&x:Nodes|{x})\/%i,x.(i>0&x:Nodes|graph[trclos(i-1,x)])) & (not((n:Nodes)) => (n:Nodes))

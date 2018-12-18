@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Namur/Test2.mch
+1.0600784036666666E9,7.49362751E8,5.601342413333334E8,2.714929485E9:not((xx:NATURAL) & (pc:0..2)) => (pc=1)
+4.8766886E7,5.0778500666666664E7,8.418866166666667E7,8.3163229E7:pc:0..2 & pc=0 => 1:0..2

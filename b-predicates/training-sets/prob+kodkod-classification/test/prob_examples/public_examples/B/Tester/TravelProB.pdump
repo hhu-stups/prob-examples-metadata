@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/TravelProB.mch
+4.7536771E7,5.7134057666666664E7,1.22423319E8,8.284743E7:(flights:CLIENT+->POW(FLIGHT)) & (cars:CLIENT+->POW(CAR)) & (hotels:CLIENT+->POW(HOTEL)) & (creditCard:CLIENT+->CARD) & (accepted:CLIENT+->BOOL) & (dom(flights)=dom(cars)) & (dom(flights)=dom(hotels)) & (dom(flights)=dom(creditCard)) & (dom(flights)=dom(accepted)) & (not((client:CLIENT)) => (client:CLIENT) & (cc:CARD))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/DefMchSameName/DefMchSameName.mch
+8.989367033333333E7,5.2304765666666664E7,2.6451636533333334E8,5.8008377333333336E7:not((a=1) & (b=2) & (c=3) & (d=4)) => a+a=b

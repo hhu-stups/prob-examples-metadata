@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/ProofDirected/TestInvPreservation.zip_unpacked/TestInvPreservationPOInfo/M0_ok.bcm
+6.3209970666666664E7,8.208806866666667E7,6.1466313E7,5.8512328666666664E7:(x:{0,1}) & (true => !x'.(x' : {0,1} => x' : {0,1}))

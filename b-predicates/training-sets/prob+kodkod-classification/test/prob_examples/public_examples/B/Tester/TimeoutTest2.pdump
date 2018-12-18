@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Tester/TimeoutTest2.mch
+1.0880496733333333E8,6.0936729333333336E7,-1.0,6.979435E7:(xx:ID) & (yy:ID) & (!x.(x<:POW(ID) => {yy}:x))
+1.1391087733333333E8,5.7250576E7,8.193844566666667E7,6.1083745333333336E7:(xx:ID) & (yy:{aa,bb}) & (yy=bb => !x.(x<:POW(ID) => {yy}:x))
+4.9728553666666664E7,4.8101927E7,6.7905283E7,5.2110351E7:not((xx:ID)) => (yy:{aa,bb}) & (yy=bb => !x.(x<:POW(ID) => {yy}:x))
+1.0877840466666667E8,8.857637066666667E7,9.510771766666667E7,5.1724967333333336E7:not(not((xx:ID))) => (yy:INTEGER) & (yy mod 100=1)

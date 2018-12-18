@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BeverageVendingMachine.mch
+5.0102809666666664E7,6.0007910333333336E7,6.3799477E7,6.5742112333333336E7:(nmax:NATURAL) & (nmax=1) & (not(nbeer:NATURAL) => not(paid=TRUE&nsoda=0&nbeer=0&nbeer:NATURAL))

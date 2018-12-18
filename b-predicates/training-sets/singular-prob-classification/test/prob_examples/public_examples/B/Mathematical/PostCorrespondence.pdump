@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/PostCorrespondence.mch
+6.2891913333333336E7,6.7853601E7,-1.0,1.7042970333333334E8:(K={([1],[1,0,1]),([1,0],[0,0]),([0,1,1],[1,1])}) & (not(x:seq(Alphabet)) => x=y&x/=[] => x:seq({0,1})&(not(x=y&x/=[]) => (TRUE:BOOL => x:seq({0,1}))))

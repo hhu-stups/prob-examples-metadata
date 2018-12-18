@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Treharne1/Marriage.mch
+8.453966133333333E7,1.1409674833333333E8,7.121855366666667E7,8.365670433333333E7:(married:male>+>female) & (mm:male) & (ff:female) & ((mm,ff):married)
+1.9120161866666666E8,6.87119058E8,1.15787117E8,1.1943450833333333E8:(married:male>+>female) & (mm:BirthandDeath__male&ff:BirthandDeath__female&(mm,ff):married&#male,female.(married-{(mm,ff)}:male>+>female))

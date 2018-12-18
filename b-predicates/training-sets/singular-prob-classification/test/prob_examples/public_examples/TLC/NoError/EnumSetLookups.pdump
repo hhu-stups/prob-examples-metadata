@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLC/NoError/EnumSetLookups.mch
+4.7642976666666664E7,5.8780007333333336E7,1.6011856933333334E8,6.2353832333333336E7:(card(D)=6) & (not(v:D) => not(x:{a1,a2,a3,a4,a5} => !x.(x:{a6,a7,a8,a9} => v:D)&(not(x:{a1,a2,a3,a4,a5}) => (TRUE:BOOL => !x.(x:{a2,a3,a4,a5} => v:D)))))

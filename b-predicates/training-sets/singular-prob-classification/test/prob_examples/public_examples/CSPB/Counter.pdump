@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/CSPB/Counter.mch
+4.5547738333333336E7,4.9554532333333336E7,5.9699281333333336E7,5.6925325333333336E7:(offset=1) & (not((count:NATURAL)) => not((0:NATURAL)))
+4.6503283666666664E7,4.953954E7,5.9362274E7,5.7256303E7:(offset=1) & (not((count:NATURAL)) => not((count mod 2=1 => count:NATURAL)))

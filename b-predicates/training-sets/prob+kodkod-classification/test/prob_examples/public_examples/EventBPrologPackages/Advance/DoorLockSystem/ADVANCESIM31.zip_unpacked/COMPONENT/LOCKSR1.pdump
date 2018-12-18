@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/LOCKSR1.bcm
+4.6310800666666664E7,5.7782627333333336E7,6.895355433333333E7,6.941783566666667E7:(dpos:DoorPosition) & (doorst:DoorState) & (doorst=LOCKED=>dpos=CLOSED) & (drumst:DrumState) & (drumst/=EMPTY=>doorst=LOCKED) & (doorst=UNLOCKED) & (dpos=CLOSED)
+4.7911446333333336E7,6.0141982333333336E7,7.054574933333333E7,6.3958483E7:(dpos:DoorPosition) & (doorst:DoorState) & (doorst=LOCKED=>dpos=CLOSED) & (drumst:DrumState) & (drumst/=EMPTY=>doorst=LOCKED) & (not((doorst=LOCKED) & (drumst=EMPTY)) => (doorst=UNLOCKED) & (dpos=CLOSED))
+8.444528266666667E7,5.7565514E7,6.822736833333333E7,7.4332497E7:(dpos:DoorPosition) & (doorst:DoorState) & (doorst=LOCKED=>dpos=CLOSED) & (drumst:DrumState) & (drumst/=EMPTY=>doorst=LOCKED) & (drumst=FILLING) & (drumst=FILLING)
+4.8011529333333336E7,5.596843E7,6.805863133333333E7,6.793100766666667E7:(dpos:DoorPosition) & (doorst:DoorState) & (doorst=LOCKED=>dpos=CLOSED) & (drumst:DrumState) & (drumst/=EMPTY=>doorst=LOCKED) & (not((drumst=FILLING)) => (drumst=FILLING))
+4.7756725E7,5.6763666E7,6.870824866666667E7,5.2063464E7:(dpos:DoorPosition) & (doorst:DoorState) & (doorst=LOCKED=>dpos=CLOSED) & (drumst:DrumState) & (drumst/=EMPTY=>doorst=LOCKED) & (drumst=FILLING) & (doorst=UNLOCKED) & (dpos=CLOSED)

@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Alloy/Hotel/Hotel.mch
+-1.0,-1.0,-1.0,-1.0:(desk:Desk) & (locks:map(Room,Key)) & (guests:map(Guest,set_of(Card))) & (subset(dom(desk'prev),dom(locks))) & (!x.(x:ran(guests) => !c.(c:x => c'fst:desk'issued&c'snd:desk'issued))) & (g:Guest) & (r:Room) & (r:dom(desk'prev)) & (r:Room) & (k:Key) & (k:desk'issued) & (r/:dom(locks))
+6.0410615E7,6.6463666333333336E7,-1.0,6.874489166666667E7:(desk:Desk) & (locks:map(Room,Key)) & (guests:map(Guest,set_of(Card))) & (subset(dom(desk'prev),dom(locks))) & (!x.(x:ran(guests) => !c.(c:x => c'fst:desk'issued&c'snd:desk'issued))) & (not((g:Guest) & (r:Room) & (r:dom(desk'prev))) => (r:Room) & (k:Key) & (k:desk'issued) & (r/:dom(locks)))
+-1.0,-1.0,-1.0,-1.0:subset(dom(desk'prev),dom(locks)) & not(!k.(k/:desk'issued => dom(rec(issued:desk'issued\/{k},prev:desk'prev)'prev)<:dom(locks)))
+-1.0,-1.0,6.3909104666666664E7,-1.0:locks:map(Room,Key) & not(!k.(k/:desk'issued => locks:Room+->Key))
+-1.0,-1.0,-1.0,-1.0:guests:map(Guest,set_of(Card)) & not(!k.(k/:desk'issued => guests:Guest+->POW(struct(fst:Key,snd:Key))))

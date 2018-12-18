@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/permtest.mch
+-1.0,-1.0,-1.0,-1.0:ff:seq(BOOKS) & not(!rr.(rr:BOOKS-->BOOKS => ff:seq(BOOKS)))

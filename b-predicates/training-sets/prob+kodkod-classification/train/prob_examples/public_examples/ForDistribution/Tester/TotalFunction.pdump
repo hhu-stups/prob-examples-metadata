@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/TotalFunction.mch
+5.0003007E7,4.8100646333333336E7,6.6667322666666664E7,5.1998534666666664E7:cube:FACE & !rot.(rot={(fbot,fbot)} => (rot:FACE+->FACE => cube:FACE))

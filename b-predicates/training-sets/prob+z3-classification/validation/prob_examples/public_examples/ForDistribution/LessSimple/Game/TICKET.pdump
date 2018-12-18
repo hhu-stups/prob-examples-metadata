@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/LessSimple/Game/TICKET.mch
+5.4323900666666664E7,7.0884596E7,5.9848555666666664E7,5.9929385333333336E7:(TICKETinstances<:TICKETSET) & not((TICKETinstances/=TICKETSET))

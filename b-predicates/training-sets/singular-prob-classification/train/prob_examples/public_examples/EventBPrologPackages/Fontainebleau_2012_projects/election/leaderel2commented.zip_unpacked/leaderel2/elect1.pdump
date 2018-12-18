@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Fontainebleau_2012_projects/election/leaderel2commented.zip_unpacked/leaderel2/elect1.bcm
+6.5882586E7,6.2182721E7,-1.0,1.88088909E8:not((leader:1 .. n) & (decision:1 .. n +-> 0 .. n) & (card(decision)>=1=>decision~[1 .. n]/=({} oftype POW(INT))) & (!i oftype INT.i:dom(decision)=>decision(i):{0,i})) => not((dom(decision)=1 .. n) & (nl=max(ran(decision))))
+-1.0,-1.0,-1.0,-1.0:(leader:1 .. n) & (decision:1 .. n +-> 0 .. n) & (card(decision)>=1=>decision~[1 .. n]/=({} oftype POW(INT))) & (!i oftype INT.i:dom(decision)=>decision(i):{0,i}) & (idx:1 .. n) & (d:{idx,0}) & (idx/:dom(decision)) & (decision/=({} oftype POW(INT**INT))) & (dom(decision)=1 .. n) & (nl=max(ran(decision)))

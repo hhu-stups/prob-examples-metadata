@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/School/CoinsSum.mch
+1.1352360733333333E8,5.8360959666666664E7,-1.0,9.378944066666667E7:(coins={1,2,5,10,20}) & (target:1..200) & (n:1..30) & (c:1..n-->coins) & (!i.(i:2..n => c(i-1)<=c(i))) & (SIGMA(i).(i:1..n|c(i))=target)

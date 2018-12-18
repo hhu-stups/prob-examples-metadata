@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Demo/scheduler_err.mch
+4.9714981E7,8.9532824E7,-1.0,1.3832424733333334E8:not(not((pp:PID) & (pp/:active) & (pp/:ready\/waiting))) => (active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={})
+1.53297264E8,4.623787773333333E9,8.0714291E7,6.745492333333333E7:ready/\waiting={} & pp/:active&pp/:ready\/waiting => ready/\(waiting\/{pp})={}

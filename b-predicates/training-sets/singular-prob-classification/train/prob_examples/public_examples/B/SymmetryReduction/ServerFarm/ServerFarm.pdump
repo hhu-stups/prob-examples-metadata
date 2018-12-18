@@ -1,0 +1,13 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/ServerFarm/ServerFarm.mch
+-1.0,-1.0,6.3558990333333336E7,-1.0:(active<:SERVER) & (serving:active>+>USERS) & not((u:USERS))
+-1.0,-1.0,6.0576581E7,-1.0:not((active<:SERVER) & (serving:active>+>USERS)) & not((u:USERS))
+4.8581201666666664E7,6.1911248666666664E7,6.3659957333333336E7,9.4641039E7:not(not((active<:SERVER) & (serving:active>+>USERS))) => (s:SERVER) & (s/:active)
+-1.0,-1.0,5.9972407666666664E7,-1.0:(active<:SERVER) & (serving:active>+>USERS) & (u:USERS) & (u:ran(serving)) & not((u:USERS))
+-1.0,-1.0,6.5153001333333336E7,-1.0:(active<:SERVER) & (serving:active>+>USERS) & (s:SERVER) & (s:active) & not((u:USERS))
+-1.0,-1.0,5.9501141666666664E7,-1.0:(active<:SERVER) & (serving:active>+>USERS) & (s:SERVER) & (s:active) & (s:SERVER) & (s/:active)
+4.9067762333333336E7,7.616597066666667E7,6.779041733333333E7,5.7293668666666664E7:active<:SERVER & u:ran(serving)
+5.1268693666666664E7,1.58222052E8,6.8986729E7,7.676972566666667E7:serving:active>+>USERS & not(u:ran(serving)&serving|>>{u}:active>+>USERS)
+5.5692976E7,7.889006E7,7.993944866666667E7,1.10395626E8:(not((active<:SERVER) & (serving:active>+>USERS)) => not((u:ran(serving)) & (u:ran(serving)&serving|>>{u}:active>+>USERS)))
+4.8232832666666664E7,1.0001793266666667E8,6.7710426E7,9.3011269E7:(active<:SERVER) & (serving:active>+>USERS) & (s:active) & (s:active&{s}<<|serving:active-{s}>+>USERS)
+-1.0,-1.0,6.3067098333333336E7,-1.0:active<:SERVER & not(u:ran(serving) => active<:SERVER&(not(u:ran(serving)) => (TRUE:BOOL => !us.(us:active&us/:dom(serving) => active<:SERVER))))
+-1.0,-1.0,-1.0,-1.0:(active<:SERVER) & (serving:active>+>USERS) & not((u:ran(serving) => active<:SERVER&(not(u:ran(serving)) => (TRUE:BOOL => !us.(us:active&us/:dom(serving) => active<:SERVER)))) & (u:ran(serving) => serving:active>+>USERS&(not(u:ran(serving)) => (TRUE:BOOL => !us.(us:active&us/:dom(serving) => serving<+{(us,u)}:active>+>USERS)))))

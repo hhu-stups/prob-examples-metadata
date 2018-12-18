@@ -1,0 +1,11 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Jukebox_Chapter13/Jukebox.mch
+4.7332974E7,4.8095478333333336E7,5.9837683666666664E7,6.5375259333333336E7:(limit:NAT1) & (credit:NAT) & (credit<=limit) & (playset<:TRACK) & (credit>0)
+4.8283863666666664E7,4.9242644333333336E7,6.1763045E7,5.6570532E7:not((limit:NAT1) & (credit>0)) => (credit:NAT) & (credit<=limit) & (playset<:TRACK)
+4.8750845666666664E7,5.0818613E7,6.5392137666666664E7,6.3702002E7:not((limit:NAT1) & (cc:NAT1)) => (credit:NAT) & (credit<=limit) & (playset<:TRACK)
+5.2786833333333336E7,5.1820859E7,6.250881E7,6.5648152666666664E7:(limit:NAT1) & not((credit:NAT) & (credit<=limit) & (playset<:TRACK)) & (cc:NAT1)
+4.8717019E7,5.2026448666666664E7,6.1359199333333336E7,6.1299625E7:(limit:NAT1) & (not(credit<=limit) => not(playset/={}&!tr.(tr:playset => credit<=limit)))
+4.9712583333333336E7,5.4236808666666664E7,6.3083068666666664E7,7.315290133333333E7:(limit:NAT1) & (credit:NAT) & (credit<=limit) & (playset<:TRACK) & (credit>0&(credit-1:NAT&credit:NAT)) & (credit>0&(credit-1<=limit&credit<=limit)) & (credit>0)
+-1.0,-1.0,5.9999063666666664E7,-1.0:(limit:NAT1) & credit:NAT & not(credit>0 => credit-1:NAT&(playset/={} => !pp.(pp:playset => credit:NAT))&(not(credit>0)&not(playset/={}) => credit:NAT))
+-1.0,-1.0,6.2636969E7,-1.0:(limit:NAT1) & credit<=limit & not(credit>0 => credit-1<=limit&(playset/={} => !pp.(pp:playset => credit<=limit))&(not(credit>0)&not(playset/={}) => credit<=limit))
+5.0025705333333336E7,5.3245039E7,6.7189666E7,6.903045E7:(limit:NAT1) & (not(credit:NAT) => cc:NAT1&min({credit+cc,limit}):NAT)
+4.8521696E7,5.2046981666666664E7,6.4081449666666664E7,6.5327767333333336E7:(limit:NAT1) & (not(credit<=limit) => not(cc:NAT1&min({credit+cc,limit})<=limit))

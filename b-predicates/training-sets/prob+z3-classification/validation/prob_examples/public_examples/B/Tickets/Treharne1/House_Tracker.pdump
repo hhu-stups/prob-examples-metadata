@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Treharne1/House_Tracker.mch
+-1.0,-1.0,7.190697933333333E7,-1.0:(houseset<:HOUSES) & (card(houseset)<17) & not((new:HOUSES))
+4.6408136E7,7.225585966666667E7,8.122406266666667E7,5.7186089333333336E7:not((houseset<:HOUSES) & (card(houseset)<17)) => (new:HOUSES) & (new:houseset)
+-1.0,-1.0,7.272989533333333E7,-1.0:(houseset<:HOUSES) & (card(houseset)<17) & (new:HOUSES) & (new/:houseset) & (card(houseset)<16) & not((new:HOUSES) & (new/:houseset))
+-1.0,-1.0,1.0301896633333333E8,-1.0:(houseset<:HOUSES) & (card(houseset)<17) & (new:HOUSES) & (new/:houseset) & (card(houseset)<16) & (new:HOUSES) & (new:houseset)
+-1.0,-1.0,7.660566833333333E7,-1.0:(houseset<:HOUSES) & (card(houseset)<17) & (new:HOUSES) & (new/:houseset) & (new:HOUSES) & (new:houseset)
+6.3365157333333336E7,1.6958234266666666E8,6.2145635333333336E7,7.385617933333333E7:houseset<:HOUSES & not(new/:houseset)

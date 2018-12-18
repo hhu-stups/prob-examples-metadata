@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/NewSyntax/RecTest3_Simple.mch
+5.501393946666666E8,5.294800176666667E8,-1.0,1.115398846E9:allxx:POW(struct(name:ID,balance:NAT)) & not(!xx.(xx:allxx => allxx:POW(struct(balance:NAT,name:ID))))

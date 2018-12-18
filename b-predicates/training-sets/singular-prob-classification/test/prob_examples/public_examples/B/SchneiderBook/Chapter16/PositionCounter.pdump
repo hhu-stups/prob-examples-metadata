@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter16/PositionCounter.mch
+4.8998200333333336E7,4.8021563E7,5.9911878666666664E7,6.3981763E7:pos:NAT1 & not(pos mod maximum+1:NAT1)

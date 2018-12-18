@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/NestedAnys.mch
+7.327051433333333E7,7.159518433333333E7,1.44659108E8,5.5035652666666664E7:(not(y:INTEGER) => not(!xx,yy.(xx=x&yy=y => (xx/=yy => !zz.(zz=z => (zz<1 => y:INTEGER))))))
+4.8801317666666664E7,4.8218119333333336E7,7.0059561E7,5.7087031666666664E7:(not(z:INTEGER) => !xx,yy.(xx=x&yy=y => (xx/=yy => !zz.(zz=z => (zz<1 => z:INTEGER)))))
+5.2666916333333336E7,5.1159834333333336E7,5.7087659666666664E7,6.0701295E7:(not(y:INTEGER) => not(!xx,yy.(xx=x&yy=y&xx/=yy&x>0 => !zz.(zz=z => !vv.(zz>0&zz<3&vv:{10,11} => y:INTEGER)))))

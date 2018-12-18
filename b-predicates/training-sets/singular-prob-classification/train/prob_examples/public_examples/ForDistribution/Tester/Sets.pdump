@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/Sets.mch
+5.834918E7,6.103488E7,1.06227335E8,5.2553354333333336E7:(not(valY:POW(setY)) => not(!ss.(ss={xx|xx/:dom(funX)} => valY:POW(setY))))

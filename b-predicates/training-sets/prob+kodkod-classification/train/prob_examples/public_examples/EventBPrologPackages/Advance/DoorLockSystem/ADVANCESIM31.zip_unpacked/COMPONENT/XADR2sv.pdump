@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/XADR2sv.bcm
+5.3569125666666664E7,5.212113E7,7.318684366666667E7,5.5496908666666664E7:(v:NAT) & (sum:NAT) & (sum_inputs:Inputs) & (sum=In1(sum_inputs)+In2(sum_inputs)) & not((pp:Inputs) & (In1(pp):NAT) & (In2(pp):NAT))
+4.8711944E7,5.2312797666666664E7,-1.0,6.737434966666667E7:not((pp:Inputs) & (In1(pp):NAT) & (In2(pp):NAT)) => (v:NAT) & (sum:NAT) & (sum_inputs:Inputs) & (sum=In1(sum_inputs)+In2(sum_inputs))

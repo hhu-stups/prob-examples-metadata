@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Demo/scheduler.mch
+4.9513046666666664E7,6.5408946333333336E7,4.0968128333333336E7,8.637041066666667E7:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & (rr:waiting) & (pp:waiting)
+1.0229163933333333E8,3.1140052096666665E9,7.544502233333333E7,9.5956476E7:card(active)<=1 & card(active)<=1
+-1.0,-1.0,7.360693966666667E7,-1.0:card(active)<=1 & not(card(active)<=1)
+1.05744057E8,4.2072552333333336E7,5.6011685666666664E7,2.0224727333333334E8:active<:PID & active<:PID
+-1.0,-1.0,6.7078269E7,-1.0:ready/\waiting={} & not(ready/\waiting={})
+1.1773699266666667E8,2.4783465366666665E9,7.051904633333333E7,9.2352014E7:card(active)<=1 & pp/:active&pp/:ready\/waiting => card(active)<=1

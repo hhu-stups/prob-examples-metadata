@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Assignments/Answer1/club.mch
+5.6111954E7,6.3909500666666664E7,7.345631466666667E7,6.0966575E7:(bound:NAT1) & (bound=500) & (member<:NAMES) & (waiting<:NAMES) & (card(member)<=bound) & (member/\waiting={}) & (nn:NAMES) & (nn/:waiting) & (nn/:member)
+4.9517005E7,5.2012177E7,4.0794247333333336E7,1.2927651833333333E8:not((bound:NAT1) & (bound=500) & not((member<:NAMES) & (waiting<:NAMES) & (card(member)<=bound) & (member/\waiting={}))) => not((nn:waiting) & (card(member)<bound))
+4.9221668666666664E7,5.1946317E7,-1.0,1.1107401766666667E8:not((bound:NAT1) & (bound=500) & not((nn:member))) => (member<:NAMES) & (waiting<:NAMES) & (card(member)<=bound) & (member/\waiting={})
+4.9518983666666664E7,5.2005519333333336E7,-1.0,1.5129142233333334E8:(bound:NAT1) & (bound=500) & (member<:NAMES) & (waiting<:NAMES) & (card(member)<=bound) & (member/\waiting={}) & ((nn:NAMES) & (nn/:waiting) & (nn/:member) & (card(member)<bound) => not((nn:waiting) & (card(member)<bound)))
+5.0546604666666664E7,5.5867997666666664E7,4.7269419E7,9.744525933333333E7:(bound:NAT1) & (bound=500) & (not((member<:NAMES) & (waiting<:NAMES) & (card(member)<=bound) & (member/\waiting={})) => not((nn/:waiting&nn/:member&member/\(waiting\/{nn})={}) & (nn/:waiting&nn/:member) & (nn/:waiting&nn/:member&card(member)<=bound) & (nn/:waiting&nn/:member)))
+7.3631058E7,9.244059633333333E7,8.6458876E7,5.2418816666666664E7:(bound:NAT1) & (bound=500) & (not(waiting<:NAMES) => not(waiting<:NAMES))
+-1.0,-1.0,9.305887766666667E7,-1.0:(bound:NAT1) & (bound=500) & card(member)<=bound & not(card(member)<=bound)
+4.9111063333333336E7,5.2005286666666664E7,4.2362602666666664E7,9.6404578E7:(bound:NAT1) & (bound=500) & (not(card(member)<=bound) => not(nn:member&card(member-{nn})<=bound))

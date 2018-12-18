@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/EventB/toy.mch
+4.7556792333333336E7,4.7984337333333336E7,2.2096391123333335E9,6.939160233666667E9:(not(aa:NAT) => !xx.(xx:NAT => xx:NAT))

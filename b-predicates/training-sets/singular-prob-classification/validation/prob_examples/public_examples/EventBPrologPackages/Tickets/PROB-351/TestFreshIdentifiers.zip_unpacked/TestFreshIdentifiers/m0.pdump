@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tickets/PROB-351/TestFreshIdentifiers.zip_unpacked/TestFreshIdentifiers/m0.bcm
+1.5205469446666667E9,9.162775966666667E7,8.602783216666666E8,7.7785171E7:(r<:INT) & (cc=card(r))

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter14/Colours.mch
+7.920399666666667E7,1.11348354E8,5.862108813333334E8,6.2210215E7:not((cols<:COLOUR)) => not((cc:COLOUR))
+1.9959041833333334E8,1.2150188E9,1.05432169E8,8.755277666666667E7:(cols<:COLOUR) & (cols/={})

@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/CSPB/Tokens.mch
+5.6915850333333336E7,5.0798312666666664E7,-1.0,1.535202836E9:not((tokens:CUST+->NAT)) & not((cc:dom(tokens)))
+4.7475986E7,3.21958912E8,7.541131233333333E7,6.802263933333333E7:not((tokens:CUST+->NAT)) & (cc:dom(tokens)) & (pp:OFFICE)
+4.7340331E7,4.9476868666666664E7,-1.0,6.6668837E7:(tokens:CUST+->NAT) & (not((cc:dom(tokens))) => (cc:CUST) & (cc/:dom(tokens)))
+1.8596198566666666E8,9.024373833333333E7,-1.0,1.62650572E8:(not((tokens:CUST+->NAT)) => (cc:dom(tokens)&{cc}<<|tokens:CUST+->NAT))
+5.1636221333333336E7,5.2374747E7,-1.0,7.262390033333333E7:(not((tokens:CUST+->NAT)) => not((cc:dom(tokens)&{cc}<<|tokens:CUST+->NAT)))
+6.7535287E7,5.8729652E7,-1.0,2.2602678733333334E8:tokens:CUST+->NAT & cc:dom(tokens)&(tokens(cc)=0 => tokens:CUST+->NAT&(not(tokens(cc)=0) => (TRUE:BOOL => !nn.(nn:NATURAL&1<=nn&nn<=tokens(cc) => tokens<+{(cc,tokens(cc)-nn)}:CUST+->NAT))))

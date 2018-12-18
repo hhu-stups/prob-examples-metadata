@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Demo/DiningCryptographers.mch
+9.5908309E7,5.965177415666667E9,9.3054524E7,5.7559996333333336E7:(say0:BOOL) & (say1:BOOL) & (say2:BOOL) & (xor(say0,say1,say2) <=> NSApaid=FALSE)
+4.6469875666666664E7,6.921906766666667E7,6.753095733333333E7,7.38691E7:(coin0:BOOL) & (coin1:BOOL) & (coin2:BOOL) & (paid0:BOOL) & (paid1:BOOL) & (paid2:BOOL) & (NSApaid:BOOL) & (not(paid0=TRUE&paid1=TRUE)) & (not(paid0=TRUE&paid2=TRUE)) & (not(paid1=TRUE&paid2=TRUE)) & (NSApaid=TRUE <=> not(paid0=TRUE or paid1=TRUE or paid2=TRUE)) & (not(say2:BOOL) => not(say2:BOOL))

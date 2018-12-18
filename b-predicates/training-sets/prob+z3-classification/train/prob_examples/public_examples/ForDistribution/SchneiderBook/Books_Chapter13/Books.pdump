@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Books_Chapter13/Books.mch
+-1.0,-1.0,5.9899284E7,-1.0:not((read<:BOOK)) & (read/=BOOK)
+-1.0,-1.0,6.5385619E7,-1.0:not((read<:BOOK)) & not((read/=BOOK))
+1.0094184E8,6.0613969666666664E7,6.773980533333333E7,6.5468777E7:read<:BOOK & read/=BOOK&!tt.(tt:BOOK-read => read\/{tt}<:BOOK)

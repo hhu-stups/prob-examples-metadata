@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/Abrial_Hybrid/FLIGHT.zip_unpacked/hybrid_flight/f_m0.bcm
+4.9287413333333336E7,5.0522066666666664E7,6.0009190666666664E7,5.2058971E7:(rho>0) & (r>0) & (2*rho*sin_phi_d_2>=p) & (phase/=0=>2*r*sin_phi_d_2>=p) & (phase=1=>rhoi - sqrt3*r:NAT) & (phase=2) & (phase=1)
+4.7931025333333336E7,4.9761588333333336E7,5.8843633333333336E7,5.3177781333333336E7:(rho>0) & (r>0) & (2*rho*sin_phi_d_2>=p) & (phase/=0=>2*r*sin_phi_d_2>=p) & (phase=1=>rhoi - sqrt3*r:NAT) & (phase=3) & (phase=4)

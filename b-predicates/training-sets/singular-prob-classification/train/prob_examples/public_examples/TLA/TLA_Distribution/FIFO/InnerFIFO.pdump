@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLA/TLA_Distribution/FIFO/InnerFIFO.mch
+5.1294861E7,5.0835258333333336E7,6.9546879E7,7.251236333333333E7:(Message=ENUM1) & (not(q:POW(INTEGER*ENUM1)) => msg:Message&in'rdy=in'ack => !in_n.(in_n=rec(ack:in'ack,rdy:1-in'rdy,val:msg) => q:POW(INTEGER*ENUM1)))

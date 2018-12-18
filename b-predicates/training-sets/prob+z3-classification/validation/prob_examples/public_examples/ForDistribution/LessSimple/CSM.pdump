@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/ForDistribution/LessSimple/CSM.mch
+8.1389284E7,6.1636446333333336E7,6.758655066666667E7,6.5282510333333336E7:not((x9>=1)) => not((x0:NAT) & (x1:NAT) & (x2:NAT) & (x3:NAT) & (x4:NAT) & (x5:NAT) & (x6:NAT) & (x7:NAT) & (x8:NAT) & (x9:NAT) & (x10:NAT) & (x11:NAT) & (x12:NAT) & (x13:NAT) & (x9<2))
+5.7252182333333336E7,6.1553218333333336E7,6.6070017666666664E7,9.436181366666667E7:(x0:NAT) & (x1:NAT) & (x2:NAT) & (x3:NAT) & (x4:NAT) & (x5:NAT) & (x6:NAT) & (x7:NAT) & (x8:NAT) & (x9:NAT) & (x10:NAT) & (x11:NAT) & (x12:NAT) & (x13:NAT) & (x9<2) & (not((x1>=1) & (x2>=1)) => (x10>=1))
+5.3221106666666664E7,6.2602258E7,6.5914853E7,1.0053908866666667E8:(x0:NAT) & (x1:NAT) & (x2:NAT) & (x3:NAT) & (x4:NAT) & (x5:NAT) & (x6:NAT) & (x7:NAT) & (x8:NAT) & (x9:NAT) & (x10:NAT) & (x11:NAT) & (x12:NAT) & (x13:NAT) & (x9<2) & (x1>=1) & (x2>=1) & not((x4>=1) & (x6>=1))
+6.3664497333333336E7,2.1352575633333334E8,7.1861233E7,1.1064826533333333E8:(x0:NAT) & (x1:NAT) & (x2:NAT) & (x3:NAT) & (x4:NAT) & (x5:NAT) & (x6:NAT) & (x7:NAT) & (x8:NAT) & (x9:NAT) & (x10:NAT) & (x11:NAT) & (x12:NAT) & (x13:NAT) & (x9<2) & (x10>=1) & not((x11>=1))

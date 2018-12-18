@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Demo/Bakery1err.mch
+5.0651715666666664E7,7.0589168E7,6.4926436E7,7.9390333E7:(p1:0..2) & (p2:0..2) & (y1:NATURAL) & (y2:NATURAL) & (p1=2 => p2<2) & (p2=2 => p1<2) & (y1<8) & not((p1=0 => y2+1<8) & (p1=0 => 1:0..2) & (p1=0 => y2:NATURAL) & (p1=0 => (p2=2 => 1<2)) & (p1=0 => y2+1:NATURAL) & (p1=0 => (1=2 => p2<2)) & (p1=0 => p2:0..2))

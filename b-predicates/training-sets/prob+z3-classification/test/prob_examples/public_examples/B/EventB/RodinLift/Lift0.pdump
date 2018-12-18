@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/EventB/RodinLift/Lift0.mch
+9.4324029E7,5.9937766333333336E7,7.152019833333333E7,6.2619741E7:not((topf:INTEGER) & (groundf:INTEGER) & (groundf=-1) & (topf=2) & (groundf<topf) & (direction_up=TRUE) & (door_open=FALSE) & (#cd.(cd:INTEGER&(cd:INTEGER&cd<cur_floor&cd:call_buttons))) & (!u.(u:INTEGER => (u:INTEGER&u>=cur_floor&u<=topf => u/:call_buttons)))) => not((cur_floor:groundf..topf) & (door_open:BOOL) & (call_buttons:POW(groundf..topf)) & (direction_up:BOOL) & (door_open=TRUE => cur_floor:call_buttons))

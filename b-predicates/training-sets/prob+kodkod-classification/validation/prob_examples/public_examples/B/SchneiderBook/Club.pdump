@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Club.mch
+1.3696911733333334E8,1.0427589966666667E8,2.4458657266666666E8,1.41368978E8:(capacity:NAT1) & (capacity<=2) & (card(NAME)>capacity) & (total:NAT1) & (total>2) & (member<:NAME) & (waiting<:NAME) & (member/\waiting={}) & (card(member)<=4096) & (card(waiting)<=total) & ((nn:waiting) & (card(member)<capacity) => not((nn:NAME)))
+4.9177273333333336E7,5.3421551333333336E7,2.0703973533333334E8,1.5571533233333334E8:(capacity:NAT1) & (capacity<=2) & (card(NAME)>capacity) & (total:NAT1) & (total>2) & (member<:NAME) & (waiting<:NAME) & (member/\waiting={}) & (card(member)<=4096) & (card(waiting)<=total) & (nn:NAME) & not((nn:member))
+5.0248289E7,5.5170959E7,1.0420840966666667E8,1.4049349433333334E8:(capacity:NAT1) & (capacity<=2) & (card(NAME)>capacity) & (total:NAT1) & (total>2) & member/\waiting={} & nn:waiting&card(member)<capacity&member\/{nn}/\waiting-{nn}={}
+-1.0,-1.0,7.451282766666667E7,-1.0:(capacity:NAT1) & (capacity<=2) & (card(NAME)>capacity) & (total:NAT1) & (total>2) & member/\waiting={} & not(nn:member => member/\waiting={}&(not(nn:member) => (TRUE:BOOL => member/\waiting={})))

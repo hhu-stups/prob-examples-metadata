@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/FuzzySets.mch
+4.8114568333333336E7,7.060301933333333E7,7.3375299E7,7.339604166666667E7:A:FuzzySet & ms:0..4&A(el)/=ms&A:El-->0..4
+-1.0,-1.0,6.2518146E7,-1.0:A:FuzzySet & not(A:El-->0..4)

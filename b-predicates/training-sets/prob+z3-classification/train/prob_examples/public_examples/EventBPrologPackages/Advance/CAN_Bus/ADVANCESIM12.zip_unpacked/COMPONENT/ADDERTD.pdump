@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/ADDERTD.bcm
+7.776747733333333E7,5.2768861666666664E7,7.2070501E7,5.5893420333333336E7:not((o_sum:NAT)) => (p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (adder_state=A_ADD)
+4.7986176666666664E7,4.8019933333333336E7,6.803339533333333E7,5.9913880666666664E7:(o_sum:NAT) & (adder_state=A_EN)
+4.7105292E7,4.9386284666666664E7,-1.0,5.7544841E7:not(not((adder_state=A_EN))) => not((o_sum:NAT))
+7.969020833333333E7,4.9933561333333336E7,6.725922766666667E7,5.6698201666666664E7:not(not((o_sum:NAT))) => (pv:INT) & (pv=o_sum) & (adder_state=A_SEND)

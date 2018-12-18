@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Pragmas/AssertionPragmas_internal_saved.mch
+6.4769875333333336E7,9.847809566666667E7,9.946292733333333E7,8.483918733333333E7:not((a:1..10) & (b:1..10) & (c:7..10) & (a+b=c) & (a>b)) => c mod 2=1 => a/=b

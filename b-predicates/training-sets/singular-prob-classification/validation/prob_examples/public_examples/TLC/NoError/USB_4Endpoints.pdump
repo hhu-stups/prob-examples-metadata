@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/TLC/NoError/USB_4Endpoints.mch
+5.0149161E7,6.8509969E7,6.9355025E7,6.984167933333333E7:(ENDPOINTS=0..4) & !tr.(tr:transfers => tr:dom(transfer_type)&tr:dom(transfer_endpoint)&tr:dom(transfer_completed)) & !tr.(tr:transfers => tr:dom(transfer_type)&tr:dom(transfer_endpoint)&tr:dom(transfer_completed))
+-1.0,-1.0,9.849278566666667E7,-1.0:(ENDPOINTS=0..4) & transfer_type~[{CONTROL_TRANSFER}]=transfer_endpoint~[{0}] & not(transfer_type~[{CONTROL_TRANSFER}]=transfer_endpoint~[{0}])
+-1.0,-1.0,6.6169750666666664E7,-1.0:(ENDPOINTS=0..4) & transfer_endpoint:transfers+->ENDPOINTS & not(transfer_endpoint:transfers+->ENDPOINTS)

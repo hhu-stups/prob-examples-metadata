@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/CXCC.mch
+1.5956221366666666E8,8.535694366666667E7,-1.0,6.1553591E7:(in_queue:Flow*Nodes+->Packets) & (out_queue:Flow*Nodes+->Packets) & (used_packets:Flow-->POW(Packets)) & (!f,i.(f:Flow&i:NATURAL1&i:1..size(route(f))-1&(f,route(f)(i+1)):dom(in_queue) => (f,route(f)(i)):dom(out_queue)&in_queue((f,route(f)(i+1)))=out_queue((f,route(f)(i)))))

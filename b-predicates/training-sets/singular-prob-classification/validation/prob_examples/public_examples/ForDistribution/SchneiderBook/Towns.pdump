@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Towns.mch
+-1.0,-1.0,6.5427244666666664E7,-1.0:not((roads:TOWN<->TOWN)) & not((tt1:TOWN) & (tt2:TOWN))
+-1.0,-1.0,6.3962975666666664E7,-1.0:not(not((tt1:TOWN) & (tt2:TOWN))) => not((roads:TOWN<->TOWN))
+-1.0,-1.0,6.3931407333333336E7,-1.0:(roads:TOWN<->TOWN) & (tt1:TOWN) & (tt2:TOWN) & not((tt1:TOWN) & (tt2:TOWN))
+-1.0,-1.0,6.4062895E7,-1.0:(roads:TOWN<->TOWN) & ((tt1:TOWN) & (tt2:TOWN) => not((tt1:TOWN) & (tt2:TOWN)))
+-1.0,-1.0,6.796918766666667E7,-1.0:(roads:TOWN<->TOWN) & not((tt1:TOWN&tt2:TOWN&roads\/{(tt1,tt2)}:TOWN<->TOWN))

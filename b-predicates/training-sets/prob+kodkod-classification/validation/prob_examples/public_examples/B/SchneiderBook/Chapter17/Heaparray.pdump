@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter17/Heaparray.mch
+6.2264063E7,5.3368541666666664E7,-1.0,1.0082906966666667E8:(heaparray:seq(NAT)) & not((nn:NAT))
+5.3146935333333336E7,5.2698857E7,-1.0,1.20075535E8:not((nn:NAT)) => (heaparray:seq(NAT))
+5.8999891E7,5.8033916333333336E7,-1.0,1.8271005933333334E8:(heaparray:seq(NAT)) & not((heaparray/=[]&heaparray:seq(NAT)))

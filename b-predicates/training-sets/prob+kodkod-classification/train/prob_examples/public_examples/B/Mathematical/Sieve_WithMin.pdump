@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Sieve_WithMin.mch
+8.31846E7,6.979474566666667E7,8.6205166E7,1.7061948533333334E8:(numbers<:INTEGER) & (limit:NATURAL1)
+4.8712852E7,4.8000540666666664E7,6.0169639333333336E7,5.5942333E7:not(not((lim=MINLIM))) => (numbers<:INTEGER) & (limit:NATURAL1)
+5.3559674E7,4.9671167333333336E7,6.491291E7,6.7659954E7:(numbers<:INTEGER) & (limit:NATURAL1) & not((numbers/={}) & (cur=min(numbers)) & (cur>1) & (cur*cur<=limit))
+4.8992171E7,4.9668280666666664E7,6.1116082333333336E7,5.1788452666666664E7:not((numbers<:INTEGER) & (limit:NATURAL1)) & (numbers/={}) & (cur=min(numbers)) & (cur>1) & (cur*cur<=limit)
+4.8597264333333336E7,5.0564065E7,6.4045202E7,5.867045E7:not(not((numbers/={}) & (cur=min(numbers)) & (cur*cur>limit))) => (numbers<:INTEGER) & (limit:NATURAL1)
+5.0080088E7,4.8140782333333336E7,6.1356638666666664E7,5.7297323333333336E7:(not(limit:NATURAL1) => not(lim=MAXINT-1&lim:NATURAL1))
+4.8679747333333336E7,4.9325266666666664E7,6.3866035666666664E7,6.8096997E7:numbers<:INTEGER & numbers/={}&cur=min(numbers)&cur>1&cur*cur<=limit
+4.4416262333333336E7,4.7566244E7,5.8227818666666664E7,4.8341785666666664E7:(not(numbers<:INTEGER) => not(numbers/={}&cur=min(numbers)&cur*cur>limit))
+4.7702109E7,5.0696414E7,6.3950474E7,6.8046735E7:limit:NATURAL1 & not(numbers/={}&cur=min(numbers)&cur*cur>limit&limit:NATURAL1)
+4.9581956666666664E7,5.2893946666666664E7,6.5641331333333336E7,6.7197628E7:(numbers<:INTEGER) & (limit:NATURAL1) & (numbers/={}&cur=min(numbers)&cur*cur>limit) & (numbers/={}&cur=min(numbers)&cur*cur>limit&limit:NATURAL1)
+4.9941918666666664E7,5.2156097E7,6.4663995666666664E7,6.4179041333333336E7:(not((numbers<:INTEGER) & (limit:NATURAL1)) => (numbers/={}&cur=min(numbers)&cur*cur>limit) & (numbers/={}&cur=min(numbers)&cur*cur>limit&limit:NATURAL1))

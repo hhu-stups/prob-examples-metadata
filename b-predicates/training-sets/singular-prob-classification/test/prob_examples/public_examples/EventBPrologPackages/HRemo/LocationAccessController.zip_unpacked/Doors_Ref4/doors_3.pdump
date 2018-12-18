@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/HRemo/LocationAccessController.zip_unpacked/Doors_Ref4/doors_3.bcm
+-1.0,-1.0,5.9093874E7,-1.0:(sit:P --> L) & (sit<:aut) & (dap:P >+> D) & (red<:D) & (dap;org<:sit) & (dap;dst<:aut) & (red/\ran(dap)=({} oftype POW(D))) & (mCard:D +-> P) & (mAckn<:D) & (BLR<:D) & (partition(BLR,dom(mCard),ran(dap),red,mAckn)) & (d:ran(dap)) & not((d:ran(dap)))
+-1.0,-1.0,5.8509256333333336E7,-1.0:(sit:P --> L) & (sit<:aut) & (dap:P >+> D) & (red<:D) & (dap;org<:sit) & (dap;dst<:aut) & (red/\ran(dap)=({} oftype POW(D))) & (mCard:D +-> P) & (mAckn<:D) & (BLR<:D) & (partition(BLR,dom(mCard),ran(dap),red,mAckn)) & (d:mAckn) & (d:red)
+-1.0,-1.0,6.25939E7,-1.0:(sit:P --> L) & (sit<:aut) & (dap:P >+> D) & (red<:D) & (dap;org<:sit) & (dap;dst<:aut) & (red/\ran(dap)=({} oftype POW(D))) & (mCard:D +-> P) & (mAckn<:D) & (BLR<:D) & (partition(BLR,dom(mCard),ran(dap),red,mAckn)) & (p:P) & (d:D \ BLR) & (d:ran(dap))

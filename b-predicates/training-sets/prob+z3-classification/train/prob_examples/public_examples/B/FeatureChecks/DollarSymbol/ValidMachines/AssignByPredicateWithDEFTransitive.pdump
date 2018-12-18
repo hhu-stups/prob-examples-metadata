@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/DollarSymbol/ValidMachines/AssignByPredicateWithDEFTransitive.mch
+4.7774557333333336E7,5.1990736E7,7.098970733333333E7,5.5643179333333336E7:xx:NATURAL & not(xx:NATURAL)
+4.9342377666666664E7,7.2510315E7,2.0095057733333334E8,6.9200932E7:(xx:NATURAL) & (xx<39) & (xx<39) & (xx:NATURAL)

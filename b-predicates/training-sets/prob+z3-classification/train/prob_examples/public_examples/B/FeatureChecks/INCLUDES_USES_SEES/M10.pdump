@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/INCLUDES_USES_SEES/M10.mch
+1.7006850733333334E8,1.1947080266666667E8,1.52292085E8,8.44904E7:(x:INTEGER) & (x<10)

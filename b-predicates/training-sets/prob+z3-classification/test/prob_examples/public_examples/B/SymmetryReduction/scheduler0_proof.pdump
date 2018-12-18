@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/scheduler0_proof.mch
+-1.0,-1.0,-1.0,-1.0:INV & not(!myperm.(myperm:PROC>->>PROC => (myperm;pst):myperm[proc]-->STATE&card((myperm;pst)~[{active}])<=1&!p.(p:PROC => p:myperm[new_enabled] <=> p:PROC-myperm[proc])&!p.(p:PROC => p:myperm[del_ready_enabled] <=> (myperm;pst)(p)=idle)&!p.(p:PROC => p:myperm[enter_enabled] <=> (myperm;pst)(p)=ready)&!p.(p:PROC => p:myperm[leave_enabled] <=> (myperm;pst)(p)=active)))

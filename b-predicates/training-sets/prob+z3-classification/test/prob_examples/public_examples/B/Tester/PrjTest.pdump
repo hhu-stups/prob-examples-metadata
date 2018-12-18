@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/PrjTest.mch
+4.6637378333333336E7,4.9748667666666664E7,-1.0,6.6202110333333336E7:not(not((x:S) & (y:T))) => not((p1:S*T-->S))

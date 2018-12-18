@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/LabMaterial/records.mch
+6.4737119666666664E7,5.7333780666666664E7,7.900243466666667E7,6.1824063E7:not((nn:PERSON) & (ss:SEX)) => (male<:PERSON) & (female<:PERSON) & (male/\female={}) & (married:male>+>female)
+-1.0,-1.0,9.621728666666667E7,-1.0:not((male<:PERSON) & (female<:PERSON) & (male/\female={}) & (married:male>+>female)) & not((nn:PERSON))
+-1.0,-1.0,8.2284649E7,-1.0:(male<:PERSON) & (female<:PERSON) & (male/\female={}) & (married:male>+>female) & (nn:male\/female) & not((nn:PERSON) & (ss:SEX))
+-1.0,-1.0,8.141491566666667E7,-1.0:(male<:PERSON) & (female<:PERSON) & (male/\female={}) & (married:male>+>female) & ((nn:PERSON) & (ss:SEX) => not((nn:PERSON)))
+2.5943517933333334E8,8.263327106666666E8,1.0584576866666667E8,1.29132878E8:(male<:PERSON) & (female<:PERSON) & (male/\female={}) & (married:male>+>female) & (nn:male => female<:PERSON&(not(nn:male) => (TRUE:BOOL => female<:PERSON))) & (nn:male => male-{nn}/\female={}&(not(nn:male) => (TRUE:BOOL => male/\female-{nn}={}))) & (nn:male => married:male-{nn}>+>female&(not(nn:male) => (TRUE:BOOL => married:male>+>female-{nn}))) & (nn:male => male<:PERSON&(not(nn:male) => (TRUE:BOOL => male<:PERSON)))
+4.7103731666666664E7,1.1956397066666667E8,-1.0,7.464233633333333E7:(not(male/\female={}) => nn:male&mm:female&(nn,mm):married&male/\female={})
+5.5169655333333336E7,8.172945733333333E7,1.2446925E8,2.5302132833333334E8:(male<:PERSON) & (female<:PERSON) & (male/\female={}) & (married:male>+>female) & (nn:male&mm:female&(nn,mm):married) & (nn:male&mm:female&(nn,mm):married&male/\female={}) & (nn:male&mm:female&(nn,mm):married&married-{(nn,mm)}:male>+>female) & (nn:male&mm:female&(nn,mm):married)

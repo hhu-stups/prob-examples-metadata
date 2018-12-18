@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/SetRelation.mch
+-1.0,-1.0,-1.0,-1.0:not((r:POW(ID)+->POW(ID))) & not((yy:ID) & (zz:ID) & (card(dom(r))<2))
+7.249304066666667E7,5.7704288333333336E7,1.27577117E8,1.30182383E8:not(not((r:POW(ID)+->POW(ID)))) => not((yy:ID) & (zz:ID) & (card(dom(r))<2))
+-1.0,-1.0,-1.0,-1.0:not((r:POW(ID)+->POW(ID))) & ({x}:dom(r)) & (r({x})={y}) & ({z}:dom(r)) & (z/=x) & (y/=x) & (z/=y)
+-1.0,-1.0,8.417420533333333E7,-1.0:(r:POW(ID)+->POW(ID)) & (yy:ID) & (zz:ID) & (card(dom(r))<2) & ({x}:dom(r)) & (r({x})={y}) & ({z}:dom(r)) & (z/=x) & (y/=x) & (z/=y)

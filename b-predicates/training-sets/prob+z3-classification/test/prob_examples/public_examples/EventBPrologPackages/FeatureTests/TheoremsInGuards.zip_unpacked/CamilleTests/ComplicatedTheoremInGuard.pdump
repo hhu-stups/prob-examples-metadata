@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/FeatureTests/TheoremsInGuards.zip_unpacked/CamilleTests/ComplicatedTheoremInGuard.bcm
+9.5042999E7,3.4605845246666665E9,5.9522141E7,6.0100682666666664E7:not((delta:1 .. 300) & (delta>=1&delta<100)) => not((x:INT))
+5.346122506333333E9,9.23209648E8,1.01950255E8,6.092237243333334E8:(x:INT) & ((x>1) & (!y oftype INT.y:3 .. 9999=>x<y) => not((delta:1 .. 300) & (delta>=1&delta<100)))

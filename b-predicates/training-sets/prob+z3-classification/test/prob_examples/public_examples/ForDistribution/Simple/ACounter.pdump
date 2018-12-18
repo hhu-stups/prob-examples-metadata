@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Simple/ACounter.mch
+6.888422533333333E7,5.231324E7,5.9910947666666664E7,5.4945627666666664E7:not((ii:0..10) & (jj:0..10) & (ii<11) & (jj>=0)) & not((jj>0))
+5.0125787666666664E7,4.9563728E7,5.9899097333333336E7,5.5953787E7:jj:0..10 & jj>0 => jj-1:0..10

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Demo/Simpson/Simpson_Four_Slot_CSP.mch
+5.2793701666666664E7,5.4547416E7,7.596946066666667E7,5.4860863666666664E7:(neg:INDEX>->>INDEX) & (neg(p0)=p1) & (neg(p1)=p0) & (neg(s0)=s1) & (neg(s1)=s0) & (neg[pairIndex]=pairIndex) & (neg[slotIndex]=slotIndex) & (pairIndex={p0,p1}) & (slotIndex={s0,s1}) & writepair:pairIndex & not(writepair:pairIndex)
+4.8764371666666664E7,5.6093702333333336E7,6.6670838333333336E7,5.5762933666666664E7:(neg:INDEX>->>INDEX) & (neg(p0)=p1) & (neg(p1)=p0) & (neg(s0)=s1) & (neg(s1)=s0) & (neg[pairIndex]=pairIndex) & (neg[slotIndex]=slotIndex) & (pairIndex={p0,p1}) & (slotIndex={s0,s1}) & lastwriteatstart<=lastwrite & not(lastwriteatstart<=lastwrite)

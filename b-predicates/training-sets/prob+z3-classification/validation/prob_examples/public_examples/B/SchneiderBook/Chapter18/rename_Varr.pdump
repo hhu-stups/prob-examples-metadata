@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter18/rename_Varr.mch
+5.2961879333333336E7,5.2244236666666664E7,-1.0,6.851704633333333E7:(rename_Varr:1..maxidx-->VALUE) & ((vv:VALUE) & (jj:1..maxidx) & (kk:1..maxidx) => not((ii:NAT)))
+-1.0,-1.0,6.2630823E7,-1.0:(rename_Varr:1..maxidx-->VALUE) & (vv:VALUE) & (ii:1..maxidx) & not((vv:VALUE) & (ii:1..maxidx))
+5.7927617333333336E7,7.369959533333333E7,-1.0,1.28188787E8:(rename_Varr:1..maxidx-->VALUE) & (vv:VALUE) & (ii:1..maxidx) & (ii:NAT)

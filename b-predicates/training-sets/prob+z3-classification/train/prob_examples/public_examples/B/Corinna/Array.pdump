@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Corinna/Array.mch
+4.9335161333333336E7,5.7197985666666664E7,9.852612333333333E7,2.2706560666666666E8:(arr:1..maxindex+->TYPE) & not((ix:dom(arr)&jx:dom(arr)&arr<+{(ix,arr(jx)),(jx,arr(ix))}:1..maxindex+->TYPE))

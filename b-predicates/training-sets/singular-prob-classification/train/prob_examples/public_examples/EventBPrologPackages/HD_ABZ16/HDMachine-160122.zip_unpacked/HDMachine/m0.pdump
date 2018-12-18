@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/HD_ABZ16/HDMachine-160122.zip_unpacked/HDMachine/m0.bcm
+4.5258339E7,4.7904578666666664E7,6.5505141333333336E7,5.0533986666666664E7:not((CS_TopLevel=ENDING)) => (CS_TopLevel:CS_TopLevel_STATES)

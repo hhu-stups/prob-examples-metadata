@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Ivo/Tickets/Test2.mch
+5.2029591E7,6.5489612666666664E7,6.0868634666666664E7,6.3939578666666664E7:not((c=4) & not((addr=3) & (p:INT) & (p=1))) => not((addr:INTEGER))
+4.5630593E7,4.9117094E7,5.9900517333333336E7,5.4258482666666664E7:(c=4) & (addr:INTEGER) & (addr>4 => addr:INTEGER)

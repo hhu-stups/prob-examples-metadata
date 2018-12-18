@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/Z/Daniel/tests/scope_b.mch
+-1.0,-1.0,-1.0,-1.0:s:seq(Token) & not(s^[t]:seq(Token))
+-1.0,-1.0,-1.0,-1.0:(s:seq(Token)) & not((s^[t]:seq(Token)))

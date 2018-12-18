@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLA/TLA_Distribution/AlternatingBit/ABCorrectness.mch
+1.03145961E8,1.22825722E8,1.0240927533333333E8,6.964621666666667E7:(Data={d1,d2}) & (not(sent:ENUM) => not(d:Data&sAck=sBit => !sent_n,sBit_n.(sent_n=d&sBit_n=1-sBit => sent:ENUM)))

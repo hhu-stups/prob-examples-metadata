@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ErrorMachines/OneInvariantViolation.mch
+1.0069988666666667E8,2.736568596E9,9.3493523E7,6.3236742666666664E7:(xx:1..100) & (not(xx=20))

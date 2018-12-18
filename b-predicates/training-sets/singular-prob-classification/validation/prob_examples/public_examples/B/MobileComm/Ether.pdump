@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/Ether.mch
+-1.0,-1.0,-1.0,-1.0:(link:NODES<->NODES) & (link=link~) & (id(NODES)/\link={}) & (link={(n1,n2),(n2,n1),(n2,n3),(n3,n2),(n3,n4),(n4,n3)}) & (onAir:NODES*NODES+->PACKETS*TYPE) & (dom(onAir):NODES>+>NODES) & not(dom(onAir)~:NODES>+>NODES)

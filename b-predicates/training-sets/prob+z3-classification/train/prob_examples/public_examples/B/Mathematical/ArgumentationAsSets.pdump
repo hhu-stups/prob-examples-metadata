@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/ArgumentationAsSets.mch
+8.1032767E7,1.8308871533333334E8,7.454504733333333E7,1.3340881766666667E8:not((attacks:ARGUMENTS<->ARGUMENTS) & (ARGUMENTS=in\/out\/undec) & (in/\out={}) & (in/\undec={}) & (out/\undec={}) & (attacks~[in]<:out) & (attacks[in]<:out) & (!y.(y:out => #x.((x,y):attacks&x:in))) & (!y.(y:undec => #x.((x,y):attacks&x:undec))) & (attacks={(B,A),(C,B),(D,C),(E,B),(E,D)})) => (in={A,C,E}) & (out={B,D}) & (undec={})

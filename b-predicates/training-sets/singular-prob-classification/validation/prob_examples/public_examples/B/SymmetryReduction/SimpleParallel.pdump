@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/SimpleParallel.mch
+5.0752962666666664E7,5.2571140666666664E7,6.277728E7,7.063808E7:not((MAX=10) & not((ran(array)={TRUE}))) => not((array:1..MAX+->BOOL))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/DEFINITIONS/DEFAA12.mch
+4.8675556666666664E7,5.3265944666666664E7,6.931675233333333E7,5.7296508666666664E7:(AA=3) & (xx:NAT) & (xx=aa or xx=bb or xx=AA) & not((xx:{aa,bb} or xx=AA) & (xx:NAT))

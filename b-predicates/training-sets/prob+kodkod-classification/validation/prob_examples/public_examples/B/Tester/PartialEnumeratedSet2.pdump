@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/PartialEnumeratedSet2.mch
+4.7819581666666664E7,6.0477476333333336E7,-1.0,4.6233812333333336E7:(iv:ID) & (iw:ID) & (iv/=iw) & (card(ID)=3) & (xx:ID) & (xx=iv)
+4.5672777E7,5.9309963E7,-1.0,4.6599315E7:(iv:ID) & (iw:ID) & (iv/=iw) & (card(ID)=3) & (xx:ID) & ((yy:ID) => not((xx/=iv)))

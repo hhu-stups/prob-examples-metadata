@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/ABZ_Landing_Gear/LandingGear.zip_unpacked/LandingGearFinal/Mch0_GearDoor.bcm
+4.7983033333333336E7,4.7918384333333336E7,6.8155408E7,5.1861809333333336E7:(gear:GEAR_STATE) & (door:DOOR_STATE) & (gear=retracted) & (gear=extended)

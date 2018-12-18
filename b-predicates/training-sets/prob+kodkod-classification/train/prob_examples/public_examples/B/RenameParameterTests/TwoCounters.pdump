@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/RenameParameterTests/TwoCounters.mch
+5.0803038666666664E7,4.9292185333333336E7,6.1885476666666664E7,4.9270697333333336E7:c1cnt>=c2cnt & not(#c1cnt,c2cnt.(c1cnt>=c2cnt))

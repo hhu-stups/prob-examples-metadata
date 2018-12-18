@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/HRemo/FlashFileFL.zip_unpacked/FlashFileSystemFL_Ref5/FMCH07_FL.bcm
+4.9223740666666664E7,6.4204463333333336E7,-1.0,6.1396774E7:not((flash:RowAddr --> PDATA) & (programmed_pages<:RowAddr) & (obsolete_pages<:programmed_pages)) => (new_r:RowAddr \ programmed_pages) & (pdata:PDATA)

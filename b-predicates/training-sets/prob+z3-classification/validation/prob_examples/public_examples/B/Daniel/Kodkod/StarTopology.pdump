@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Daniel/Kodkod/StarTopology.mch
+1.0188106533333333E8,3.57539321E8,9.5700601E7,1.8378240233333334E8:not((root=1) & (nxt:NODES-->NODES) & (nxt(root)=root) & (!x.(x:NODES-{root} => nxt(x)=root or nxt(nxt(x))=root)) & (!x.(x:NODES-{Mx}&nxt(x)/=root => !y.(y:NODES&y>x => nxt(y)/=root&nxt(x)<nxt(y)))) & (card(nxt~[{root}])=1+card(NODES-{Mx})/2)) => !y.(y:NODES&y>x => nxt(y)/=root&nxt(x)/=nxt(y))

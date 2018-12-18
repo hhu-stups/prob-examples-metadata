@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/DESYNC/DESYNC.zip_unpacked/DESYNC/Desync_Modulo.bcm
+6.6863484E7,5.5727897E7,7.7779211E7,6.3992448666666664E7:not((curTime:TIME) & (sendTime:Nodes +-> TIME) & (prevTime:TIME) & (prevprevTime:TIME) & (prevNode:Nodes)) => (n/:dom(sendTime)) & (delay:1 .. cycleTime - curTime) & (!m oftype Nodes.m:dom(sendTime)&sendTime(m)>curTime=>sendTime(m)>delay)

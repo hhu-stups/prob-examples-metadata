@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/B/NewSyntax/RecTest3.mch
+5.0354610666666664E7,5.2646639E7,-1.0,6.5054944E7:not((xx:struct(name:ID,balance:NAT)) & (bank:struct(name:ID)) & (total:struct(money:NAT)) & (allxx:POW(struct(name:ID,balance:NAT)))) & not((xx'balance>0))
+4.8895020666666664E7,5.1977582666666664E7,-1.0,4.808882E7:(xx:struct(name:ID,balance:NAT)) & (bank:struct(name:ID)) & (total:struct(money:NAT)) & (allxx:POW(struct(name:ID,balance:NAT))) & (amt:NAT1) & (xx'balance>=amt) & not((amt:NAT1) & (xx'balance>=amt))
+5.3769593666666664E7,5.1609030333333336E7,-1.0,6.3947633666666664E7:xx:struct(name:ID,balance:NAT) & amt:NAT1&xx'balance>=amt&rec(balance:xx'balance-amt,name:xx'name):struct(balance:NAT,name:ID)
+4.9785776333333336E7,5.1339792333333336E7,-1.0,5.7467852333333336E7:allxx:POW(struct(name:ID,balance:NAT)) & not(amt:NAT1&xx'balance>=amt&allxx:POW(struct(balance:NAT,name:ID)))
+4.7669981666666664E7,4.8104441E7,6.2585589333333336E7,5.0561015666666664E7:(not(bank:struct(name:ID)) => xx'balance>0)
+7.3408078E7,4.7525503333333336E7,6.267324E7,4.9331156333333336E7:(not(bank:struct(name:ID)) => not(xx'balance>0))
+4.8155774666666664E7,5.1958795666666664E7,-1.0,7.4620709E7:(not(allxx:POW(struct(name:ID,balance:NAT))) => not(amt:NAT1&xx'balance>=amt&allxx:POW(struct(balance:NAT,name:ID))))
+4.7603911666666664E7,4.8038115E7,6.800233933333333E7,6.1187389666666664E7:bank:struct(name:ID) & amt:NAT1&xx'balance>=amt
+5.2053547E7,5.6266466E7,-1.0,5.6195740333333336E7:(not((xx:struct(name:ID,balance:NAT)) & (bank:struct(name:ID)) & (total:struct(money:NAT)) & (allxx:POW(struct(name:ID,balance:NAT)))) => not((amt:NAT1&xx'balance>=amt&total:struct(money:NAT)) & (amt:NAT1&xx'balance>=amt&xx:struct(balance:NAT,name:ID)) & (amt:NAT1&xx'balance>=amt&allxx:POW(struct(balance:NAT,name:ID))) & (amt:NAT1&xx'balance>=amt)))
+2.13412334E8,4.9894357E7,7.211047333333333E7,5.4487934333333336E7:(not(xx:struct(name:ID,balance:NAT)) => !xx.(xx:allxx => xx:struct(balance:NAT,name:ID)))
+4.7412337666666664E7,4.7877736333333336E7,6.4160277E7,5.5944940333333336E7:bank:struct(name:ID) & !xx.(xx:allxx => bank:struct(name:ID))

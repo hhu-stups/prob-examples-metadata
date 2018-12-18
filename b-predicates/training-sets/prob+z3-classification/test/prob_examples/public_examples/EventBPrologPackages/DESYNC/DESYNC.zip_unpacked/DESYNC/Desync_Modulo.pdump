@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/DESYNC/DESYNC.zip_unpacked/DESYNC/Desync_Modulo.bcm
+1.0756793866666667E8,7.104111033333333E7,1.8164414166666666E8,8.598844866666667E7:(curTime:TIME) & (sendTime:Nodes +-> TIME) & (prevTime:TIME) & (prevprevTime:TIME) & (prevNode:Nodes)

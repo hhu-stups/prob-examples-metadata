@@ -1,0 +1,11 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Disprover/EnumWarningTests/ExistentialQuantifier_EnumWarning.mch
+7.976659133333333E7,5.1816947333333336E7,7.482608866666667E7,6.929854666666667E7:(iv:ID) & not(!x.(x:NATURAL1 => x*x+x/=30*x-x))
+2.4288028066666666E8,9.668350066666667E7,2.0247393166666666E8,1.20333971E8:not((iv:ID)) => x:NATURAL1 => x*x+x/=30*x-x
+-1.0,-1.0,-1.0,-1.0:(iv:ID) & !x.(x:NATURAL1 => x**2+1-(1+x*x)+x<100)
+-1.0,-1.0,-1.0,-1.0:(iv:ID) & not(!x.(x:NATURAL1 => x**2+1-(1+x*x)+x<100))
+7.116282033333333E7,5.452665E7,1.577714689E9,6.5184406666666664E7:(iv:ID) & not(x:NATURAL1)
+-1.0,-1.0,-1.0,-1.0:(iv:ID) & not(#x.(x:NATURAL1&x**2+1-(1+x*x)+x>100))
+-1.0,-1.0,-1.0,-1.0:(iv:ID) & not(not(#x.(x:NATURAL1&x**2+1-(1+x*x)+x>100)))
+1.20318652E8,4.8295876E7,6.1786884333333336E7,4.9014589666666664E7:not((iv:ID)) => #x.(x:NATURAL1&x**2+1-(1+x*x)+x>100)
+5.7854983E7,5.1217476666666664E7,-1.0,7.874988833333333E7:(iv:ID) & #x.(x:NATURAL1&x>200&x**2+1-(1+x*x)+x>100)
+-1.0,-1.0,1.2660087566666667E8,-1.0:(iv:ID) & (!x.(x:NATURAL1 => x*x+x/=30*x-x)) & (x:NATURAL1 => x*x+x/=30*x-x) & (x:NATURAL1) & (x*x+x/=30*x-x) & (!x.(x:NATURAL1 => x**2+1-(1+x*x)+x<100)) & (x:NATURAL1 => x**2+1-(1+x*x)+x<100) & (x:NATURAL1) & (x**2+1-(1+x*x)+x<100) & (#x.(x:NATURAL1&x**2+1-(1+x*x)+x<100)) & (not(#x.(x:NATURAL1&x**2+1-(1+x*x)+x>100))) & (#x.(x:NATURAL1&x**2+1-(1+x*x)+x>100)) & (not(#x.(x:NATURAL1&x>200&x**2+1-(1+x*x)+x>100))) & (#x.(x:NATURAL1&x>200&x**2+1-(1+x*x)+x>100))

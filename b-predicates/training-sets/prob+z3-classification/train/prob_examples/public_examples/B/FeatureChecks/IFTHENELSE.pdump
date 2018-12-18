@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/IFTHENELSE.mch
+5.347356E7,8.2285417E7,1.1294176E8,5.1645557333333336E7:not((xx:ID) & (c:INTEGER)) => not((yy:ID))

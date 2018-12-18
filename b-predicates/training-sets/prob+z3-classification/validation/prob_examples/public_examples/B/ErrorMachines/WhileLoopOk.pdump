@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ErrorMachines/WhileLoopOk.mch
+5.2950471666666664E7,4.792879E7,5.9935252333333336E7,6.4025251E7:not((xx:NATURAL)) & (c:1..10) & (xx<=c)

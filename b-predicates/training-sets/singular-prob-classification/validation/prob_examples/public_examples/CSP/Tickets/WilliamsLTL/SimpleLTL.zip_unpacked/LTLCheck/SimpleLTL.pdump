@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSP/Tickets/WilliamsLTL/SimpleLTL.zip_unpacked/LTLCheck/SimpleLTL.bcm
+5.3259519666666664E7,5.9284517666666664E7,7.0106331E7,7.8711732E7:(pc:NAT) & (not((pc<2)) => (pc=2))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SMT-LIB Translation/BitVectorArithmetic.mch
+-1.0,-1.0,4.6972267333333336E7,-1.0:(not((x:bvtype) & (y:bvtype)) => (x:0..3-1-->{0,1}) & (y:0..3-1-->{0,1}))

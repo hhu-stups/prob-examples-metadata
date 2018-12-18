@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/Pairs.mch
+8.330472733333333E7,5.091048496333333E9,6.3209621E7,5.6182470333333336E7:(pairs:POW(setB*setC)) & (bb:setB) & (cc:setC) & (pairs/={})

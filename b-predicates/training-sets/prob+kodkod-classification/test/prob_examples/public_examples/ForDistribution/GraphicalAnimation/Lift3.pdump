@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/GraphicalAnimation/Lift3.mch
+1.5615069966666666E8,9.9182398E7,1.02543324E8,6.9674619E7:not((topf:INTEGER) & (groundf:INTEGER) & (groundf=-1) & (topf=2) & (groundf<topf) & (cur_floor:groundf..topf) & (door_open:BOOL) & (call_buttons:POW(groundf..topf)) & (direction_up:BOOL) & (door_open=TRUE => cur_floor:call_buttons) & (do_count:0..3)) => (door_open=FALSE) & (cur_floor<topf) & (direction_up=TRUE) & (#c.(c:INTEGER&(c:INTEGER&c>cur_floor&c:call_buttons))) & (cur_floor/:call_buttons)

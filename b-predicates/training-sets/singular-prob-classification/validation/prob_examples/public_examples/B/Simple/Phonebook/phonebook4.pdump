@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Simple/Phonebook/phonebook4.mch
+9.435466633333333E7,6.5741973E7,6.4354901666666664E7,5.9880101E7:(not(db:Name+->Code) => db:Name+->Code)

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Demo/RussianPostalPuzzle2.mch
+-1.0,-1.0,-1.0,-1.0:not((keysforsale:POW(KeyIDs)) & (hasbox:PERSONS) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains:CONTENTS) & (not(padlocks={}&box_contains=gem&hasbox=natasha))) => (keyid:KeyIDs) & (person:PERSONS) & (person=hasbox) & (keyid:padlocks) & (keyid:has_keys(person))
+7.491711533333333E7,4.9043923E7,-1.0,6.1726168333333336E7:padlocks<:KeyIDs & not(person=hasbox&keyid:has_keys(person))
+4.6613702333333336E7,5.1644486666666664E7,-1.0,5.9984001E7:(not(not(padlocks={}&box_contains=gem&hasbox=natasha)) => not(person=hasbox&keyid:has_keys(person)&not(padlocks\/{keyid}={}&box_contains=gem&hasbox=natasha)))

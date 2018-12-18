@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/BZTT/TestBZTT3.mch
+-1.0,8.618076866666667E7,-1.0,-1.0:not((fun:ID-->ID) & (x:ID) & (s:POW(ID))) => (ff:ID-->ID) & (ff(a)/=ff(b)) & (ff(b)/=ff(c)) & (ff(c)/=ff(d)) & (ff(d)/=ff(e)) & (ff(e)/=ff(g)) & (ff(g)=a) & (ran(ff)={a,b})
+2.20280479E8,2.0168281666666666E8,1.3503351266666666E8,2.4991103966666666E8:not((fun:ID-->ID) & (x:ID) & (s:POW(ID))) => not((ff:ID-->ID) & (ff(a)/=ff(b)) & (ff(b)/=ff(c)) & (ff(c)/=ff(d)) & (ff(d)/=ff(e)) & (ff(e)/=ff(g)) & (ff(g)=a) & (ff(a)=a) & (ran(ff)={a,b}))
+5.4546322E7,5.4214738666666664E7,7.879672866666667E7,5.7437634666666664E7:(not(s:POW(ID)) => s:POW(ID))
+-1.0,9.7541454E7,-1.0,-1.0:(not((fun:ID-->ID) & (x:ID) & (s:POW(ID))) => (ff:ID-->ID&ff(a)/=ff(b)&ff(b)/=ff(c)&ff(c)/=ff(d)&ff(d)/=ff(e)&ff(e)/=ff(g)&ff(g)=a&ran(ff)={a,b}) & (ff:ID-->ID&ff(a)/=ff(b)&ff(b)/=ff(c)&ff(c)/=ff(d)&ff(d)/=ff(e)&ff(e)/=ff(g)&ff(g)=a&ran(ff)={a,b}&ff:ID-->ID) & (ff:ID-->ID&ff(a)/=ff(b)&ff(b)/=ff(c)&ff(c)/=ff(d)&ff(d)/=ff(e)&ff(e)/=ff(g)&ff(g)=a&ran(ff)={a,b}))
+-1.0,5.467119346666666E8,-1.0,-1.0:fun:ID-->ID & not((fun;fun):ID-->ID)
+-1.0,1.78813358E8,-1.0,-1.0:(not((fun:ID-->ID) & (x:ID) & (s:POW(ID))) => (fun(T)=x) & (fun(T)=x&fun:ID-->ID) & (fun(T)=x))
+-1.0,1.58784275E8,-1.0,-1.0:(not((fun:ID-->ID) & (x:ID) & (s:POW(ID))) => (z=fun(z)) & (z=fun(z)&fun:ID-->ID) & (z=fun(z)))

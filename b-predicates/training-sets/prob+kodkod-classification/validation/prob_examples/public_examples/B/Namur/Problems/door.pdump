@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Namur/Problems/door.mch
+-1.0,-1.0,9.634165066666667E7,-1.0:not((position:DOOR-->POSITION)) & not((dd:DOOR))
+2.1800621433333334E8,1.8608634966666666E8,-1.0,3.977127726666667E8:(not(position:DOOR-->POSITION) => position<+{(dd,closed)}:DOOR-->POSITION)
+-1.0,-1.0,-1.0,-1.0:position:DOOR-->POSITION & not(position<+{(dd,closed)}:DOOR-->POSITION)
+7.6170557E7,2.18469984E8,-1.0,2.95662086E8:(not((position:DOOR-->POSITION)) => (position<+{(dd,closed)}:DOOR-->POSITION))

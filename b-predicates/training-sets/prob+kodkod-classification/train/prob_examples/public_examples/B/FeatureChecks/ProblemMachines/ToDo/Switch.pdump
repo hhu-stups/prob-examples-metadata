@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/ProblemMachines/ToDo/Switch.mch
+5.1985545E7,4.8090472666666664E7,6.6651003666666664E7,5.4476619666666664E7:not((curStatus:Status)) => (s:Status)
+5.8355861E7,5.3176920333333336E7,8.040303166666667E7,5.4458065333333336E7:not(not((s:Status))) => (curStatus:Status)
+5.2787997666666664E7,5.1170543666666664E7,7.146902766666667E7,5.2633834666666664E7:(not((curStatus:Status)) => (curStatus:Status))
+5.6411899333333336E7,4.7125080333333336E7,6.4979888E7,5.8698805333333336E7:(not(curStatus:Status) => curStatus=on => curStatus:Status&(not(curStatus=on) => (TRUE:BOOL => curStatus:Status)))
+5.1328407666666664E7,5.1223692666666664E7,6.6607562666666664E7,5.1295955E7:(curStatus:Status) & (curStatus=on => curStatus:Status&(not(curStatus=on) => (TRUE:BOOL => curStatus:Status)))
+5.9464847666666664E7,7.842035366666667E7,1.1663445433333333E8,5.3170704333333336E7:(not(curStatus:Status) => not(curStatus:Status))

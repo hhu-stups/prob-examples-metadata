@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Compilers/Dataflow/Dataflow.zip_unpacked/Dataflow/ReachingDefinitions.bcm
+4.7865793333333336E7,5.0817728666666664E7,-1.0,7.046342966666667E7:not((B=lastBlockTreated) & (lastBlockTreated:BlocksToTreat)) => not((in:Blocks --> POW(Domain)) & (out:Blocks --> POW(Domain)) & (BlocksToTreat<:Blocks) & (change:BOOL) & (lastBlockTreated:Blocks))
+5.1195569666666664E7,7.474588766666667E7,-1.0,7.491234266666667E7:(in:Blocks --> POW(Domain)) & (out:Blocks --> POW(Domain)) & (BlocksToTreat<:Blocks) & (change:BOOL) & (lastBlockTreated:Blocks) & (not((BlocksToTreat=({} oftype POW(Blocks))&change=FALSE)) => (B=lastBlockTreated) & (lastBlockTreated:BlocksToTreat))

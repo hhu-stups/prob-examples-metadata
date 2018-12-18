@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/SieveAlternate.mch
+5.8599327666666664E7,6.3036298E7,8.245303633333333E7,8.548433433333333E7:not(not((cur*cur>limit))) => (numbers<:INTEGER) & (cur:NATURAL1) & (limit:NATURAL1)

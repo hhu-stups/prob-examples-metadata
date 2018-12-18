@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSP/Tickets/WilliamsLTL/SimpleLTL.mch
+5.1169775333333336E7,5.4103737666666664E7,8.643426866666667E7,6.923366466666667E7:pc:NATURAL & not(pc<2&2:NATURAL)

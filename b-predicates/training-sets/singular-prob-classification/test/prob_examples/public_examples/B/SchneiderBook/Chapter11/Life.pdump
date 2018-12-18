@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter11/Life.mch
+5.1408585666666664E7,5.9619825E7,6.4698008666666664E7,6.1836611333333336E7:(male<:PERSON) & (female<:PERSON) & (male/\female={}) & not((nn:PERSON) & (nn:male\/female))
+4.8159196666666664E7,7.049280966666667E7,6.764635866666667E7,5.6395579333333336E7:female<:PERSON & nn/:male\/female&(ss=boy => female<:PERSON&(not(ss=boy) => (TRUE:BOOL => female<:PERSON)))

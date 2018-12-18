@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/DEFINITIONS/SETPREF.mch
+-1.0,-1.0,7.0060632E7,-1.0:(iv:ID) & (xx:ID) & (yy:ID) & (xx/=yy)
+-1.0,-1.0,1.0876923166666667E8,-1.0:not((iv:ID) & not((xx:ID))) => (yy:ID) & (xx/=yy)

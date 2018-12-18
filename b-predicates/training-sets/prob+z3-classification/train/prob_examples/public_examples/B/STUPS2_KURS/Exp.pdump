@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/Exp.mch
+4.9372153666666664E7,5.1882272666666664E7,-1.0,1.0268954866666667E8:(x:INTEGER) & (y:NATURAL) & (res:INTEGER) & (remy:NATURAL) & (x**y=res*x**remy) & not((remy>0))
+5.2488913666666664E7,4.9704947E7,7.704096566666667E7,6.2905322666666664E7:(x:INTEGER) & (y:NATURAL) & res:INTEGER & not(remy>0)
+-1.0,-1.0,-1.0,-1.0:(x:INTEGER) & (y:NATURAL) & x**y=res*x**remy & remy>0&x**y=res*x*x**remy-1
+1.3816226233333334E8,1.1047263766666667E8,-1.0,7.901034966666667E7:(x:INTEGER) & (y:NATURAL) & (not(x**y=res*x**remy) => not(remy>0&x**y=res*x*x**remy-1))
+-1.0,-1.0,-1.0,-1.0:(x:INTEGER) & (y:NATURAL) & (res:INTEGER) & (remy:NATURAL) & (x**y=res*x**remy) & (remy>0) & (remy>0&x**y=res*x*x**remy-1) & (remy>0&remy-1:NATURAL)

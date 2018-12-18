@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter16/Set.mch
+-1.0,-1.0,5.9815730666666664E7,-1.0:(set<:ELEM) & not((ee:ELEM))
+4.7223999E7,5.5683873666666664E7,-1.0,5.6003839666666664E7:not((set<:ELEM)) => not((ee:ELEM))
+-1.0,-1.0,5.9845087E7,-1.0:not((set<:ELEM)) & (ee:ELEM)
+-1.0,-1.0,6.0025743333333336E7,-1.0:not(not((set<:ELEM))) => not((ee:ELEM))
+-1.0,-1.0,5.8684999666666664E7,-1.0:not(not((ee:ELEM))) => not((set<:ELEM))
+5.3879966333333336E7,6.2725900333333336E7,5.9972011666666664E7,5.602719E7:(set<:ELEM) & (set/={})
+-1.0,-1.0,5.999634E7,-1.0:not((set<:ELEM)) & (set/={})
+-1.0,-1.0,6.0027256333333336E7,-1.0:not((set<:ELEM)) & not((set/={}))
+-1.0,-1.0,5.838126E7,-1.0:set<:ELEM & not(ee:ELEM&set\/{ee}<:ELEM)

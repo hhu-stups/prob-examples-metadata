@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Daniel/rel_fnc.mch
+5.2199259E7,8.5883128E7,-1.0,6.801328133333333E7:not((startrel={(aa,kk),(aa,ll),(bb,mm)}) & (x:dom(rr))) => (phase:PHASE) & (rr:S1<->S2) & (ff:S1+->POW(S2)) & (phase/=init => dom(ff)=dom(startrel)) & (phase=steprel => startrel=rr) & (c:NATURAL)
+5.1056469666666664E7,5.6254686333333336E7,-1.0,7.380859433333333E7:(startrel={(aa,kk),(aa,ll),(bb,mm)}) & (not(c:NATURAL) => not(x:dom(ff)&c+1:NATURAL))
+4.8669783E7,5.3188374E7,7.600510266666667E7,6.2627680333333336E7:(startrel={(aa,kk),(aa,ll),(bb,mm)}) & (not(rr:S1<->S2) => x:dom(ff))
+5.2042232333333336E7,1.23376187E8,5.2417792E7,7.5931327E7:(startrel={(aa,kk),(aa,ll),(bb,mm)}) & rr:S1<->S2 & not(x:dom(rr))
+5.1591593333333336E7,5.3347868666666664E7,-1.0,7.676178666666667E7:(startrel={(aa,kk),(aa,ll),(bb,mm)}) & phase/=init => dom(ff)=dom(startrel) & phase=stepfunc => (steprel/=init => dom(ff)=dom(startrel))

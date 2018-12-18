@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/SetGame.mch
+-1.0,1.5911518266666666E8,-1.0,-1.0:(KARTEN=FARBE*FORM*ANZAHL*FUELLUNG) & rest/\tisch={} & x<:rest&card(x)=12&rest-x/\x={}

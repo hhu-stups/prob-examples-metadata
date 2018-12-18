@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Library/UsesLibraryMath.mch
+4.7679713E7,4.7867819E7,6.0122333666666664E7,5.4630806666666664E7:(not((xx:NATURAL)) => not((xx+10:NATURAL)))

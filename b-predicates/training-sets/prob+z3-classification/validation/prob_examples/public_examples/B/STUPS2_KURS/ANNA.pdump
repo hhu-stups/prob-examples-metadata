@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/ANNA.mch
+6.899897433333333E7,3.03262307E8,7.048231066666667E7,2.14886544E8:(x:0..9) & (y:0..9) & (x>=y) & (delta:0..9) & (x=y+delta) & (x*1000+y*100+y*10+x*1-(y*1000+x*100+x*10+y*1)=891*delta) & not((x<9&delta+1:0..9) & (x<9&x+1>=y) & (x<9&x+1:0..9) & (x<9&y:0..9) & (x<9&x+1*1000+y*100+y*10+x+1*1-(y*1000+x+1*100+x+1*10+y*1)=891*delta+1) & (x<9&x+1=y+(delta+1)))

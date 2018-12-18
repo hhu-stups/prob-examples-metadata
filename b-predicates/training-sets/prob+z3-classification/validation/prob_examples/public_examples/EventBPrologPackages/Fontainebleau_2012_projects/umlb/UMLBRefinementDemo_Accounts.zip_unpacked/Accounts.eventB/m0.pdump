@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Fontainebleau_2012_projects/umlb/UMLBRefinementDemo_Accounts.zip_unpacked/Accounts.eventB/m0.bcm
+5.0092799333333336E7,5.2150929E7,6.6169960333333336E7,1.0086399066666667E8:not((Account:POW(Account_SET)) & (balance:Account --> INT)) & not((amount:NAT1) & (thisAccount:Account))

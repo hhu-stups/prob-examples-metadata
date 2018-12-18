@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/Lotto.mch
+5.7390095666666664E7,5.3048086666666664E7,4.6576709333333336E7,9.437133466666667E7:(not((drawn<:1..49)) => (card(drawn)<6&!nr.(nr:1..49&nr/:drawn => drawn\/{nr}<:1..49)))

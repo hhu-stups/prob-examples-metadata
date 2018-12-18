@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Rene/Telefonbuch.mch
+4.699038E7,4.9377461666666664E7,-1.0,8.307732433333333E7:(not(count:NAT) => not(p/:dom(book)&n/:ran(book)&count+1:NAT))
+4.7349014666666664E7,5.2011967666666664E7,-1.0,9.519988566666667E7:(not(count=card(book)) => not(p/:dom(book)&n/:ran(book)&count+1=card(book\/{(p,n)})))
+5.5607420666666664E7,5.8615973666666664E7,-1.0,1.65208392E8:(book:Persons+->NAT1) & (count:NAT) & (count=card(book)) & (p/:dom(book)&n/:ran(book)&count+1:NAT) & (p/:dom(book)&n/:ran(book)&book\/{(p,n)}:Persons+->NAT1) & (p/:dom(book)&n/:ran(book)&count+1=card(book\/{(p,n)}))

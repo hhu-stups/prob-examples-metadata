@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/SetGame2.mch
+6.0326735666666664E7,6.0227770666666664E7,-1.0,1.3086578033333333E8:not((KARTEN=FARBE*FORM*ANZAHL*FUELLUNG) & (tisch<:KARTEN) & (rest<:KARTEN) & (nr=card(rest))) => (x:rest)
+5.0088818E7,4.5378489666666664E7,-1.0,1.2477173266666667E8:(KARTEN=FARBE*FORM*ANZAHL*FUELLUNG) & (not(nr=card(rest)) => not(x:rest&nr-1=card(rest-{x})))

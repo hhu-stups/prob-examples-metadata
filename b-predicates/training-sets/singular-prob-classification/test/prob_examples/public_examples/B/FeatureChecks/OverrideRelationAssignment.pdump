@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/OverrideRelationAssignment.mch
+-1.0,-1.0,1.9387244266666666E8,-1.0:(r:NATURAL<->NATURAL) & (d:dom(r)) & (card(r[{d}])>1) & (d:dom(r)) & (card(r[{d}])=1)

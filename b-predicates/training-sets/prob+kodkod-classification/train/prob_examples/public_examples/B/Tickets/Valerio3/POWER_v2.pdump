@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Valerio3/POWER_v2.mch
+1.4653569666666666E8,9.0247091E7,-1.0,6.994844333333333E7:nn:NAT1&pp:NAT => pp=0 => nn**pp=1&(pp=1 => nn**pp=nn)&(pp>1 => nn**pp=nn*nn**pp-1)

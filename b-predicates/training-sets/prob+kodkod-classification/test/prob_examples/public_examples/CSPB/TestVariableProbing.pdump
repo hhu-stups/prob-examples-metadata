@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSPB/TestVariableProbing.mch
+5.3380717333333336E7,5.1978397666666664E7,-1.0,1.56962232E8:(maxage=120) & (not(nrpersons=card(dom(age))) => (p,q)/:likes&p:dom(age)&q:dom(age)&nrpersons=card(dom(age)))

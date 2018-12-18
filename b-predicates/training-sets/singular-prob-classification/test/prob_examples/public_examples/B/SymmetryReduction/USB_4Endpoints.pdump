@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/USB_4Endpoints.mch
+-1.0,-1.0,7.1770882E7,-1.0:(ENDPOINTS=0..4) & !tr.(tr:transfers => tr:dom(transfer_type)&tr:dom(transfer_endpoint)&tr:dom(transfer_completed)) & not(!tr.(tr:transfers => tr:dom(transfer_type)&tr:dom(transfer_endpoint)&tr:dom(transfer_completed)))
+4.7595344666666664E7,5.7335200666666664E7,6.6701754666666664E7,5.7150866333333336E7:(ENDPOINTS=0..4) & (not(transfers<:TRANSFERS) => not(transfers<:TRANSFERS))

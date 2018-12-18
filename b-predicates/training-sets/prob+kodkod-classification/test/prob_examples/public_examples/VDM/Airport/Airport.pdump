@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/VDM/Airport/Airport.mch
+6.6754136E7,4.9948553333333336E7,8.250811766666667E7,6.780897233333333E7:not(not((a:Airport) & (Airport_inv(a)))) => (ac:Aircraft) & (ac/:a'permission)

@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/ForDistribution/CSP/Counter.mch
+5.8903161E7,5.3478262E7,6.0163377E7,6.9098056E7:(offset=1) & (count:NATURAL) & not((count mod 2=0))
+1.44957982E8,8.879143566666667E7,9.168500633333333E7,6.2939219E7:not((offset=1) & not((count:NATURAL))) => not((count mod 2=0))
+1.2750674033333333E8,8.9589372E7,9.4319769E7,5.8701482333333336E7:not((offset=1) & not((count:NATURAL))) => not((count mod 2=1))
+5.4420165E7,5.1437430666666664E7,6.5057947333333336E7,5.9169209666666664E7:not((offset=1) & (count mod 2=1)) => not((count:NATURAL))
+-1.0,-1.0,6.04687E7,8.267278033333333E7:(offset=1) & (count:NATURAL) & (count mod 2=0) & (count mod 2=1)
+4.8840382E7,5.2093379333333336E7,6.3580478333333336E7,6.4030931333333336E7:(offset=1) & (count:NATURAL) & (not((count mod 2=0)) => (count mod 2=1))
+4.9792947666666664E7,5.1108291333333336E7,6.4686019E7,6.1761927666666664E7:(offset=1) & (not((count:NATURAL)) => not((count mod 2=0 => count:NATURAL)))
+4.6355615333333336E7,5.0133028E7,6.2132621666666664E7,5.9263658E7:(offset=1) & (not((count:NATURAL)) => not((count mod 2=1 => count:NATURAL)))
+4.8179357666666664E7,4.9236987333333336E7,6.0600979E7,5.9771637333333336E7:(offset=1) & (not((count:NATURAL)) => (count+1:NATURAL))

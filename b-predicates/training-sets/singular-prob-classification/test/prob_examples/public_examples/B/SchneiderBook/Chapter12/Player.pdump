@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter12/Player.mch
+-1.0,-1.0,7.061060866666667E7,-1.0:(card(PLAYER)>11) & team<:PLAYER & not(pp:team => team<:PLAYER&(not(pp:team) => (TRUE:BOOL => team<:PLAYER)))

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/arr.mch
+5.0449455333333336E7,5.2033549E7,4.3451195666666664E7,1.0340779633333333E8:(array:NATURAL1+->TYP) & (card(dom(array))<=n) & ((index:dom(array)) => not((i<j) & (i:dom(array)) & (j:dom(array))))
+5.5646484666666664E7,5.4630574333333336E7,-1.0,9.352162233333333E7:array:NATURAL1+->TYP & i<j&i:dom(array)&j:dom(array)&array<+{(i,array(j)),(j,array(i))}:NATURAL1+->TYP
+4.9141608E7,5.186593E7,-1.0,1.1227100366666667E8:(not(array:NATURAL1+->TYP) => index:NATURAL1&card(dom(array)\/{index})<=n&value:TYP&array<+{(index,value)}:NATURAL1+->TYP)

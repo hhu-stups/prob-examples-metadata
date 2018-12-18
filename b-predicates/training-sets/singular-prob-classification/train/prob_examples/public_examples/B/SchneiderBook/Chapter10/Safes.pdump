@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter10/Safes.mch
+1.4709179633333334E8,7.913641333333333E7,4.5356466E7,2.0474361066666666E8:not((unlocks:KEY>->>DOOR) & not((status~[{unlocked}]<:unlocks[keys]))) => (kk:KEY) & (dd:DOOR) & (unlocks(kk)=dd)
+-1.0,6.5581989333333336E7,6.0052446E7,-1.0:not((unlocks:KEY>->>DOOR) & (status~[{unlocked}]<:unlocks[keys])) => (dd:DOOR) & (position(dd)=closed)
+5.3620808666666664E7,7.763145033333333E7,-1.0,7.991670366666667E7:(unlocks:KEY>->>DOOR) & (status~[{unlocked}]<:unlocks[keys]) & not((dd:DOOR) & (position(dd)=closed))
+5.0978526333333336E7,9.274394033333333E7,-1.0,6.5631809666666664E7:(unlocks:KEY>->>DOOR) & (status~[{unlocked}]<:unlocks[keys]) & (not((kk:KEY) & (dd:DOOR) & (unlocks(kk)=dd) & (status(dd)=locked)) => (dd:DOOR) & (unlocks~(dd):keys))
+-1.0,-1.0,6.989056833333333E7,-1.0:(unlocks:KEY>->>DOOR) & (status~[{unlocked}]<:unlocks[keys]) & (kk:KEY) & (dd:DOOR) & (unlocks(kk)=dd) & (status(dd)=locked) & not((kk:KEY) & (dd:DOOR) & (unlocks(kk)=dd))
+5.2370556666666664E7,9.116962433333333E7,-1.0,9.1152862E7:(unlocks:KEY>->>DOOR) & (status~[{unlocked}]<:unlocks[keys]) & (dd:DOOR) & (unlocks~(dd):keys) & not((kk:KEY) & (dd:DOOR) & (unlocks(kk)=dd))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSPB/NeilEvans/store.mch
+4.7687326E7,4.7884790666666664E7,6.0008702E7,4.8446733333333336E7:not(not((zz:INTEGER))) => (xx:INTEGER) & (yy:INTEGER)

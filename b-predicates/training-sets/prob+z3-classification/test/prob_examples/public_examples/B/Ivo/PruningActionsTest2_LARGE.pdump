@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/PruningActionsTest2_LARGE.mch
+2.03581475E8,2.3234754693333335E9,6.5342527333333336E7,1.5724217933333334E8:not(not((yy<3000))) => not((xx:INTEGER) & (yy:NATURAL) & (yy<10000) & (zz:INTEGER))

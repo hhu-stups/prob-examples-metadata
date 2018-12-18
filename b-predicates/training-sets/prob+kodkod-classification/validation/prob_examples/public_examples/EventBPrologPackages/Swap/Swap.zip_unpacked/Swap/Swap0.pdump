@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Swap/Swap.zip_unpacked/Swap/Swap0.bcm
+7.7418318E7,4.7967249333333336E7,6.083071E7,6.3046495E7:(x:NAT&y:NAT) & (true => y : NAT & x : NAT)

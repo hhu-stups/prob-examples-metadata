@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/PartialSets.mch
+-1.0,-1.0,3.5084561616666665E9,-1.0:(pset(x)) & (pset(y)) & (pset(r)) & (g:POW(POW(Els))) & not((g:POW(POW(Els))) & (r'def/\r'maybe={}))

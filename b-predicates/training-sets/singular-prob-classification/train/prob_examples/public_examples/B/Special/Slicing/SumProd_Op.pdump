@@ -1,0 +1,11 @@
+#source:examples/prob_examples/public_examples/B/Special/Slicing/SumProd_Op.mch
+-1.0,-1.0,-1.0,-1.0:not((arr:seq(INTEGER)) & (sumv:INTEGER) & (prod:INTEGER) & (cur:0..size(arr)) & (sumv=SIGMA(z).(z:1..cur|arr(z))) & (prod=PI(z).(z:1..cur|arr(z)))) & (cur<size(arr))
+-1.0,-1.0,-1.0,-1.0:not((arr:seq(INTEGER)) & (sumv:INTEGER) & (prod:INTEGER) & (cur:0..size(arr)) & (sumv=SIGMA(z).(z:1..cur|arr(z))) & (prod=PI(z).(z:1..cur|arr(z)))) & not((cur=size(arr)))
+4.8955108333333336E7,5.2937644E7,-1.0,1.0703244233333333E8:not(not((cur=size(arr)))) => not((arr:seq(INTEGER)) & (sumv:INTEGER) & (prod:INTEGER) & (cur:0..size(arr)) & (sumv=SIGMA(z).(z:1..cur|arr(z))) & (prod=PI(z).(z:1..cur|arr(z))))
+-1.0,-1.0,-1.0,9.575074733333333E7:(arr:seq(INTEGER)) & (sumv:INTEGER) & (prod:INTEGER) & (cur:0..size(arr)) & (sumv=SIGMA(z).(z:1..cur|arr(z))) & (prod=PI(z).(z:1..cur|arr(z))) & (cur<size(arr)) & (cur=size(arr))
+4.7990274333333336E7,4.7965340666666664E7,6.4190844333333336E7,5.9864130333333336E7:prod:INTEGER & cur<size(arr)
+4.8800968666666664E7,4.9383327666666664E7,-1.0,1.01678293E8:arr:seq(INTEGER) & cur<size(arr)&arr:seq(INTEGER)
+-1.0,-1.0,-1.0,-1.0:(not((arr:seq(INTEGER)) & (sumv:INTEGER) & (prod:INTEGER) & (cur:0..size(arr)) & (sumv=SIGMA(z).(z:1..cur|arr(z))) & (prod=PI(z).(z:1..cur|arr(z)))) => (cur<size(arr)&cur+1:0..size(arr)) & (cur<size(arr)&prod*arr(cur+1)=PI(z).(z:1..cur+1|arr(z))) & (cur<size(arr)) & (cur<size(arr)&sumv+arr(cur+1)=SIGMA(z).(z:1..cur+1|arr(z))) & (cur<size(arr)) & (cur<size(arr)&arr:seq(INTEGER)))
+4.9680782E7,5.1054118333333336E7,7.200377933333333E7,6.6982679666666664E7:cur:0..size(arr) & not(cur=size(arr)&cur:0..size(arr))
+4.7746574333333336E7,5.0497459666666664E7,5.8739662333333336E7,4.7920735333333336E7:(not(sumv:INTEGER) => not(cur=size(arr)))
+-1.0,-1.0,-1.0,-1.0:(not((arr:seq(INTEGER)) & (sumv:INTEGER) & (prod:INTEGER) & (cur:0..size(arr)) & (sumv=SIGMA(z).(z:1..cur|arr(z))) & (prod=PI(z).(z:1..cur|arr(z)))) => (cur=size(arr)&cur:0..size(arr)) & (cur=size(arr)&prod=PI(z).(z:1..cur|arr(z))) & (cur=size(arr)) & (cur=size(arr)&sumv=SIGMA(z).(z:1..cur|arr(z))) & (cur=size(arr)) & (cur=size(arr)&arr:seq(INTEGER)))

@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/AbrialAccessControl/AccessControl_ProB.zip_unpacked/AccessControl/mac2.bcm
+-1.0,-1.0,7.5777141E7,-1.0:(sit:P --> L) & (sit<:aut) & (dap:P >+> D) & (dap;org<:sit) & (dap;dst<:aut) & (red<:D) & (grn=ran(dap)) & (grn/\red=({} oftype POW(D))) & (p:P) & (d:D) & (d/:grn\/red) & (not(sit(p)=org(d)&p |-> dst(d):aut&p/:dom(dap))) & (d:grn)
+-1.0,-1.0,7.213948066666667E7,-1.0:(sit:P --> L) & (sit<:aut) & (dap:P >+> D) & (dap;org<:sit) & (dap;dst<:aut) & (red<:D) & (grn=ran(dap)) & (grn/\red=({} oftype POW(D))) & (d:grn) & (d:red)
+-1.0,-1.0,7.6113008E7,-1.0:(sit:P --> L) & (sit<:aut) & (dap:P >+> D) & (dap;org<:sit) & (dap;dst<:aut) & (red<:D) & (grn=ran(dap)) & (grn/\red=({} oftype POW(D))) & (d:grn) & (p:P) & (d:D) & (d/:grn\/red) & (sit(p)=org(d)) & (p |-> dst(d):aut) & (p/:dom(dap))
+-1.0,-1.0,7.190246233333333E7,-1.0:(sit:P --> L) & (sit<:aut) & (dap:P >+> D) & (dap;org<:sit) & (dap;dst<:aut) & (red<:D) & (grn=ran(dap)) & (grn/\red=({} oftype POW(D))) & (d:red) & (d:grn)

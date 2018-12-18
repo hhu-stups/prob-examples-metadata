@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/Proof.mch
+-1.0,-1.0,7.5472051E7,-1.0:(AllHypotheses) & (not(Goal)) & not((Hypotheses) & (not(Goal)))

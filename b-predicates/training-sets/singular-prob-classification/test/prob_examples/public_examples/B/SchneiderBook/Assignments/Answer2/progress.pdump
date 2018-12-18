@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Assignments/Answer2/progress.mch
+-1.0,-1.0,5.9951199E7,-1.0:(trainee<:NAME) & (sales<:NAME) & (manager<:NAME) & (trainee/\sales={}) & (trainee/\manager={}) & (sales/\manager={}) & (ee:sales) & not((ee:employee))
+-1.0,-1.0,5.9893906E7,-1.0:(trainee<:NAME) & (sales<:NAME) & (manager<:NAME) & (trainee/\sales={}) & (trainee/\manager={}) & (sales/\manager={}) & (ee:employee) & (ee:NAME) & (ee/:employee)
+4.7137628333333336E7,6.0039315333333336E7,6.2784939E7,6.0097656333333336E7:sales/\manager={} & ee:sales&sales-{ee}/\(manager\/{ee})={}
+4.7858111E7,9.807255033333333E7,6.6149310333333336E7,5.9801925E7:(trainee<:NAME) & (sales<:NAME) & (manager<:NAME) & (trainee/\sales={}) & (trainee/\manager={}) & (sales/\manager={}) & (ee:trainee&trainee-{ee}/\(sales\/{ee})={}) & (ee:trainee) & (ee:trainee&trainee-{ee}/\manager={}) & (ee:trainee&sales\/{ee}/\manager={}) & (ee:trainee) & (ee:trainee)
+6.737402366666667E7,6.1197587E7,6.2648469666666664E7,6.4038892666666664E7:trainee/\manager={} & not(ee/:trainee\/sales\/manager&trainee\/{ee}/\manager={})

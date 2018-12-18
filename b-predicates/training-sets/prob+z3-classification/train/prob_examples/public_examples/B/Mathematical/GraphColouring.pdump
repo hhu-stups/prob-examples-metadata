@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/GraphColouring.mch
+7.819034333333333E7,3.53531572E8,-1.0,2.46122592E8:not((maxncol:1..3) & (edge=EDG\/EDG~) & (colour:NODES-->1..maxncol) & (!x,y.((x,y):EDG => colour(x)/=colour(y))) & (colour(n1)=1) & (colour(n2)=2)) => not((yy:NODES))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/scheduler_eventb.mch
+5.3200480333333336E7,6.5583386666666664E7,7.550438766666667E7,1.0374578133333333E8:(active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & not((active/={}))

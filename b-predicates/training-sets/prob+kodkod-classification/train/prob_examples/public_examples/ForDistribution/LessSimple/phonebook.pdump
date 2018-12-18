@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/ForDistribution/LessSimple/phonebook.mch
+5.8792532E7,1.0388634866666667E8,-1.0,6.6526523E7:not((db:Name+->Code)) => not((nn:Name) & (cc:Code) & (nn/:dom(db)))
+5.1251419666666664E7,7.1878647E7,6.807271633333333E7,6.2758050333333336E7:not(not((nn:dom(db)) & (nn:Name))) => (db:Name+->Code)
+5.1046575E7,6.949193766666667E7,7.061631233333333E7,6.5330444666666664E7:not((nn:Name) & (cc:Code) & (nn:dom(db))) => not((db:Name+->Code))
+7.20959E7,6.7078455333333336E7,-1.0,4.003939333333333E8:(db:Name+->Code) & (not((nn:Name) & (cc:Code) & (nn/:dom(db))) => (nn:dom(db)) & (nn:Name))
+-1.0,-1.0,1.2603432556666667E9,-1.0:(db:Name+->Code) & (nn:Name) & (cc:Code) & (nn/:dom(db)) & (nn:Name) & (cc:Code) & (nn:dom(db))
+-1.0,-1.0,6.2578231666666664E7,-1.0:(db:Name+->Code) & (nn:dom(db)) & (nn:Name) & not((nn:Name) & (cc:Code) & (nn:dom(db)))
+4.9780282333333336E7,6.5337312333333336E7,6.5187619E7,5.6602030333333336E7:(db:Name+->Code) & ((nn:dom(db)) & (nn:Name) => not((nn:Name) & (cc:Code) & (nn:dom(db))))
+5.2416907666666664E7,6.948358E7,6.820899966666667E7,6.9957965E7:db:Name+->Code & nn/:dom(db)&db\/{(nn,cc)}:Name+->Code
+5.2929961666666664E7,5.6394345333333336E7,-1.0,6.2011982333333336E7:(not(db:Name+->Code) => not(nn:dom(db)&db:Name+->Code))

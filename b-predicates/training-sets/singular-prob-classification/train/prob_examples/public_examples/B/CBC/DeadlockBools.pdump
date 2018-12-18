@@ -1,0 +1,11 @@
+#source:examples/prob_examples/public_examples/B/CBC/DeadlockBools.mch
+6.4755558E7,2.25328631E8,7.738286166666667E7,1.04598916E8:not((a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & not((a=FALSE) & (b=FALSE) & (d=FALSE) & (e:S))) => not((xx:BOOL))
+6.0617531666666664E7,1.4225926866666666E8,8.568591933333333E7,1.0050095566666667E8:not((a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & not((a=FALSE) & (b=FALSE) & (d=TRUE) & (#x.(x=TRUE)) & (e:S))) => not((xx:BOOL))
+5.7982350333333336E7,1.94220415E8,8.587318733333333E7,7.850860966666667E7:not((a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (xx:BOOL)) => (a=TRUE) & (b=FALSE) & (c=FALSE) & (e:S)
+5.5319395E7,5.2060321E7,6.5915854333333336E7,5.7601808333333336E7:not((a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (a=TRUE) & (b=FALSE) & (c=FALSE) & (e:S)) => (xx:BOOL)
+5.2294499333333336E7,1.6856119266666666E8,8.194657033333333E7,9.289509966666667E7:(a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (xx:BOOL) & ((a=FALSE) & (b=FALSE) & (d=FALSE) & (e:S) => not((a=TRUE) & (b=FALSE) & (c=TRUE) & (e:S)))
+5.6828572E7,2.53496388E8,6.5194975666666664E7,7.5048021E7:(a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (xx:BOOL) & ((a=FALSE) & (b=FALSE) & (d=TRUE) & (#x.(x=TRUE)) & (e:S) => not((a=TRUE) & (b=FALSE) & (c=TRUE) & (e:S)))
+4.8556966333333336E7,6.3427851666666664E7,6.7037365333333336E7,8.096767533333333E7:(a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (xx:BOOL) & (a=TRUE) & (b=FALSE) & (c=FALSE) & (e:S) & not((a=TRUE) & (b=TRUE) & (e:S))
+4.7992462333333336E7,5.3248554E7,6.6514626666666664E7,5.3566867666666664E7:(a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (xx:BOOL) & (a=TRUE) & (b=FALSE) & (c=FALSE) & (e:S) & (a=FALSE) & (b=TRUE) & (d=FALSE) & (e:S)
+4.9547548666666664E7,6.2616505666666664E7,6.6766195E7,6.3945282333333336E7:(a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & xx:BOOL & not(a=FALSE&b=FALSE&d=FALSE&e:S)
+4.8307003666666664E7,6.3719019666666664E7,6.75148E7,6.4694935666666664E7:(a:BOOL) & (b:BOOL) & (c:BOOL) & (d:BOOL) & (e:BOOL) & (S<:BOOL) & (e:S) & (xx:BOOL) & not((a=TRUE&b=FALSE&c=FALSE&e:S))

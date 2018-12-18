@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/ABZ_Landing_Gear/LandingGear.zip_unpacked/LandingGearFinal/Mch0_GearDoor.bcm
+5.3570452666666664E7,5.2394092666666664E7,8.870776533333333E7,5.8636111E7:not(not((door=open))) => (gear:GEAR_STATE) & (door:DOOR_STATE)
+5.063968E7,4.9397249666666664E7,6.8014794E7,5.7162879E7:not((gear=retracted)) => not((gear:GEAR_STATE) & (door:DOOR_STATE))
+4.7933283666666664E7,4.8029734E7,6.897127066666667E7,5.1016264333333336E7:not((gear:GEAR_STATE) & (door:DOOR_STATE)) => not((door=door_moving))
+4.7914077E7,4.8111844666666664E7,6.9343455E7,6.0005954666666664E7:(gear:GEAR_STATE) & (door:DOOR_STATE) & (gear=gear_moving) & (door=door_moving)
+4.7193874333333336E7,4.9992437333333336E7,6.928688333333333E7,6.0384867E7:(gear:GEAR_STATE) & (door:DOOR_STATE) & (door=door_moving) & (gear=gear_moving)
+4.7840092333333336E7,5.6058688333333336E7,6.786505433333333E7,6.4136531E7:(gear:GEAR_STATE) & (door:DOOR_STATE) & (door=door_moving) & not((door=closed))
+4.8021749666666664E7,5.7403668666666664E7,7.0740956E7,5.6931704666666664E7:(gear:GEAR_STATE) & (door:DOOR_STATE) & ((gear=extended) => not((gear=gear_moving)))

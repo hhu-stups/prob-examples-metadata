@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Daniel/ABZ-Lift.mch
+4.7485554E7,4.9695658666666664E7,6.3744721666666664E7,5.8845029333333336E7:not((highest:NATURAL) & (lowest:INTEGER) & (lowest<highest) & (floor:INTEGER) & (floor:lowest..highest)) => (floor>lowest)

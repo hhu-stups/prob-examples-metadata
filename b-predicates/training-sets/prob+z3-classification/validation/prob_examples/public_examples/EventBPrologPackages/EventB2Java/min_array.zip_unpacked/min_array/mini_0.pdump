@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/EventB2Java/min_array.zip_unpacked/min_array/mini_0.bcm
+1.1910378666666667E8,8.923972333333333E7,1.0119927466666667E8,6.2922666333333336E7:(not((m:NAT)) => not((true => min(ran(f)) : NAT)))

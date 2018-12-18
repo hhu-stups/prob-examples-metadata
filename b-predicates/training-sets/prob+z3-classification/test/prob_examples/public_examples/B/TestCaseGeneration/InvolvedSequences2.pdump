@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/InvolvedSequences2.mch
+8.094972566666667E7,5.2443214666666664E7,6.4081612666666664E7,6.936121733333333E7:(mx:INTEGER) & (x:INT) & (y:INT) & (z:INT) & (s<:INT) & (s={x,y,z})
+5.3212423E7,5.5810705E7,6.4297818E7,1.0034316033333333E8:(mx:INTEGER) & s<:INT & not(y<x-1 => s\/{y}<:INT&(not(y<x-1) => (TRUE:BOOL => {y}<:INT)))

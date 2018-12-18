@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Treharne1/BirthandDeath.mch
+5.8165799666666664E7,6.6052603333333336E7,6.5120036E7,6.1072663666666664E7:(male<:PERSON) & (female<:PERSON) & (male/\female={}) & not((nn:PERSON) & (ss:SEX) & (nn/:male\/female))
+4.7097679666666664E7,6.021925E7,6.4502034333333336E7,6.3896300333333336E7:(male<:PERSON) & (female<:PERSON) & (male/\female={}) & (nn:PERSON) & (ss:SEX) & (nn/:male\/female) & not((nn:PERSON) & (nn:male\/female))

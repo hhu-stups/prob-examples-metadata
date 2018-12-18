@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/DSP0.mch
+4.5196832E7,4.7306807E7,6.751999233333333E7,5.0495201333333336E7:(threshold:INTEGER) & dsp_state:DSP_STATE & dsp_state=traffic => dsp_state:DSP_STATE

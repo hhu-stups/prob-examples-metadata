@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/Iftest2.mch
+4.7823213666666664E7,4.8087353E7,6.5316871666666664E7,5.1917845E7:(xx:SS) & (yy:SS) & (xx=bb => xx:SS&(not(xx=bb) => xx=cc => xx:SS&(not(xx=cc) => (TRUE:BOOL => xx:SS)))) & (xx=bb => yy:SS&(not(xx=bb) => xx=cc => yy:SS&(not(xx=cc) => (TRUE:BOOL => yy:SS))))

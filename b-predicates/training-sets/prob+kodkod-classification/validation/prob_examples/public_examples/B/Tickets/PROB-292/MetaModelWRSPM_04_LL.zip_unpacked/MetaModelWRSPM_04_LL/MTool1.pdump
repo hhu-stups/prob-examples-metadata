@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROB-292/MetaModelWRSPM_04_LL.zip_unpacked/MetaModelWRSPM_04_LL/MTool1.bcm
+4.8003078E7,6.841868633333333E7,8.247552533333333E7,6.4217779666666664E7:not(not((p:phmn) & (c:PhC))) => (to_check<:CR) & (phmn<:Ph) & (phmn_class:phmn +-> PhC) & (phmn_unclassified<:Ph) & (C1/:to_check=>phmn_unclassified=phmn \ dom(phmn_class))
+4.9785125333333336E7,7.440382833333333E7,9.4078467E7,9.480109133333333E7:(to_check<:CR) & (phmn<:Ph) & (phmn_class:phmn +-> PhC) & (phmn_unclassified<:Ph) & (C1/:to_check=>phmn_unclassified=phmn \ dom(phmn_class)) & (to_check/=({} oftype POW(CR)))

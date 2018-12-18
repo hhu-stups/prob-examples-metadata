@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Daniel/deadlock.mch
+4.7795719333333336E7,5.6151251333333336E7,6.1594867666666664E7,6.1919792333333336E7:not((m:NAT) & not((c:0..m))) => (c<m)

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/SieveLarge.mch
+5.0230899E7,6.3758526666666664E7,7.7319376E7,7.712542733333333E7:not((numbers<:INTEGER) & (cur:NATURAL1) & (limit:NATURAL1)) => not((cur=1) & (lim>MINLIM))
+5.4006798E7,6.7026400333333336E7,2.918737083333333E8,6.5564017E7:not(not((cur*cur>limit))) => not((numbers<:INTEGER) & (cur:NATURAL1) & (limit:NATURAL1))

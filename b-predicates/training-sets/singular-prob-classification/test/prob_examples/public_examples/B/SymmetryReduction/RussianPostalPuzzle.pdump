@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/RussianPostalPuzzle.mch
+4.9691444333333336E7,7.700776733333333E7,-1.0,6.5718902333333336E7:(keysforsale:POW(KeyIDs)) & (hasbox:PERSONS) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains_gem:BOOL) & ((from:PERSONS) & (from=hasbox) & (to:PERSONS) & (to/=hasbox) => not((keyid:keysforsale) & (person:PERSONS) & (person=hasbox)))

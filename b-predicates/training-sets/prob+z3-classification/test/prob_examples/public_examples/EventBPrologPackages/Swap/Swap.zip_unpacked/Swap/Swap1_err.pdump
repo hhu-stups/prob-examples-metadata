@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Swap/Swap.zip_unpacked/Swap/Swap1_err.bcm
+5.1610823E7,5.6246561333333336E7,6.3807741666666664E7,6.4112505666666664E7:not((c=0)) => not((x:NAT&y:NAT) & (c:0 .. 4) & (a:NAT&b:NAT) & (c=1=>a=x&b=y) & (c=2=>a=x+y&b=y) & (c=4=>a=y&b=x))
+9.390067466666667E7,5.6924487E7,6.3297923666666664E7,6.6041102666666664E7:(x:NAT&y:NAT) & (c:0 .. 4) & (a:NAT&b:NAT) & (c=1=>a=x&b=y) & (c=2=>a=x+y&b=y) & (c=4=>a=y&b=x) & (c=4) & not((c=2))

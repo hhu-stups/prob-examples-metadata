@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/BasProgrammingLanguage/BrainfuckInterpreter/BFInterpreter.mch
+4.25952886E8,7.845858066666667E7,-1.0,2.44042109E9:(pc:NATURAL) & (loop_positions:seq(INTEGER)) & (bf_prog:seq(valid_commands)) & (cur_status:STATUS) & (error:BOOL)

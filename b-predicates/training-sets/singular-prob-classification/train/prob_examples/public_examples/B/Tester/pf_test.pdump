@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Tester/pf_test.mch
+-1.0,-1.0,9.998203433333333E7,-1.0:(nm:POW(Name)) & (f:Name+->Name) & not((n:Name))
+-1.0,-1.0,1.42758121E8,-1.0:not((nm:POW(Name)) & (f:Name+->Name)) & (f:Name-->Name)
+5.2628969E7,4.9255798333333336E7,8.696136133333333E7,5.3222247333333336E7:not((nm:POW(Name)) & (f:Name+->Name)) => (n:POW(Name))
+5.4391763E7,5.5067873333333336E7,1.2765710866666667E8,7.590969966666667E7:not(not((nm:POW(Name)) & (f:Name+->Name))) => (n:POW(Name))
+-1.0,-1.0,9.624680666666667E7,-1.0:not((nm:POW(Name)) & (f:Name+->Name)) & not((n:POW(Name)))
+7.914882233333333E7,2.0109305366666666E8,1.15730196E8,1.29137232E8:(nm:POW(Name)) & (f:Name+->Name) & ((n:Name) => not((nn=nn~) & (nn:Name-->Name)))

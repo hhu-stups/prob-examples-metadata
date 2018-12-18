@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Alexei/ttrain.zip_unpacked/ttrain/ttrain.bcm
+8.005487333333333E7,5.5910880666666664E7,7.863588433333333E7,2.2091882866666666E8:not((train:1 .. n --> POSITION) & (card(train~[{BRIDGE}])<=1) & (ts:NAT) & (tc:BOOL) & (l_train:1 .. n --> POSITION) & (l_event:1 .. n ** POSITION +-> NAT)) & not((t:dom(train)) & (train(t)=EXIT) & (tc=FALSE))

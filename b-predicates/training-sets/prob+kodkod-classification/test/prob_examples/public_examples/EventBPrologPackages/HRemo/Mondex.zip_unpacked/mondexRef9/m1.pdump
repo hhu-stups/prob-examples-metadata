@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/HRemo/Mondex.zip_unpacked/mondexRef9/m1.bcm
+4.9033888666666664E7,5.1015985E7,-1.0,6.5801524E7:not(not((p1:purse) & (p2:purse) & (p1/=p2) & (a:NAT) & (abal(p1)>=a))) => not((purse<:PURSE) & (abal:purse --> NAT) & (lost:purse --> NAT))
+5.1160463E7,5.1954605E7,5.454912716666666E8,6.3450992333333336E7:not(not((purse<:PURSE) & (abal:purse --> NAT) & (lost:purse --> NAT))) => (p1:purse) & (a:NAT) & (lost(p1)>=a)
+5.2684632E7,5.3575830666666664E7,-1.0,7.234046133333333E7:(purse<:PURSE) & (abal:purse --> NAT) & (lost:purse --> NAT) & (not((p1:purse) & (a:NAT) & (abal(p1)>=a)) => (p1:purse) & (p2:purse) & (p1/=p2) & (a:NAT) & (abal(p1)>=a))

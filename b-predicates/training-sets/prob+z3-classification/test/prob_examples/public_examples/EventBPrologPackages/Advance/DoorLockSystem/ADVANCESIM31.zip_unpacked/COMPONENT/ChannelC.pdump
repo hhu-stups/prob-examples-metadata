@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/ChannelC.bcm
+8.162136633333333E7,4.6479280666666664E7,6.771752666666667E7,6.2771041333333336E7:(sum:NAT) & (sum_prime:NAT) & msg_rcvd_on_sum:BOOL

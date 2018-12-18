@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/RecursiveFunctions/Tests/RecursiveIntegerEquation.mch
+7.8171393E7,5.3148588333333336E7,6.1454672333333336E7,5.5938538E7:not((x:1..10) & (x=x*x-y) & (y:1..2)) => (a=x) & (b=y)

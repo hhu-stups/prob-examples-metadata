@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Corinna/PartialOrderEtc/PO_Simple2.mch
+5.5315553666666664E7,5.7392587E7,7.7883112E7,6.927643033333333E7:not(not((yy=aa))) => not((xx:ID) & (yy:ID) & (zz:ID) & (xx=aa or yy=aa or zz=aa))
+4.8969402333333336E7,6.4968503666666664E7,8.531918266666667E7,6.5804038333333336E7:xx=aa or yy=aa or zz=aa & not(yy=aa&(aa:{xx,bb} or zz=aa))

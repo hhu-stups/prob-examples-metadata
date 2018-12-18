@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/SELECT_CASE.mch
+5.0279741E7,5.3267155666666664E7,6.0568177E7,5.7103165E7:not((col1:POW(COLOURS))) => not((col1={}))
+4.6860660666666664E7,1.34502276E8,7.119927766666667E7,7.2935299E7:(col1:POW(COLOURS)) & ((col:COLOURS) & (col/:col1) => not((xx:COLOURS)))

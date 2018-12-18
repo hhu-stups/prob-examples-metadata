@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/arr.mch
+-1.0,-1.0,-1.0,-1.0:(array:NATURAL1+->TYP) & (card(dom(array))<=n) & (index:dom(array)) & (i<j) & (i:dom(array)) & (j:dom(array))
+-1.0,-1.0,-1.0,-1.0:(array:NATURAL1+->TYP) & (card(dom(array))<=n) & (index:dom(array)) & not((index:NATURAL1) & (card(dom(array)\/{index})<=n) & (value:TYP))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter17/Counter.mch
+6.6633054E7,6.0238922E7,8.328193566666667E7,1.0390366933333333E8:(counter:NAT) & (counter>0&counter-1:NAT)

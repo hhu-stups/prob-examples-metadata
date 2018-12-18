@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Puzzles/Puzzles.zip_unpacked/Puzzles/CopyPastAsEvent.bcm
+5.861704666666666E8,2.3390746866666666E8,4.328443113333333E8,1.4785721E8:not(not((c:NAT))) => not((C:1 .. 9&O:0 .. 9&P:1 .. 9&Y:0 .. 9&A:0 .. 9&S:1 .. 9&T:1 .. 9&E:0 .. 9&V:0 .. 9&L:0 .. 9) & (card({C,O,P,Y,A,S,T,E,V,L})=10) & (C*1000+O*100+P*10+Y+P*10000+A*1000+S*100+T*10+E+S*1000+A*100+V*10+E=T*10000+O*1000+O*100+L*10+S))

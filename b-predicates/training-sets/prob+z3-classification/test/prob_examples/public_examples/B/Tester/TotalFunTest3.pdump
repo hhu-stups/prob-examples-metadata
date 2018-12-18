@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tester/TotalFunTest3.mch
+-1.0,-1.0,1.2375821933333333E8,-1.0:not((f:POW(ID)-->>ID) & (!yy.(yy:ID => f({yy})=yy)) & (xx:ID)) => (yy:POW(ID)) & (yy:dom(f)) & (card(yy)=1)
+-1.0,-1.0,-1.0,-1.0:(f:POW(ID)-->>ID) & (!yy.(yy:ID => f({yy})=yy)) & (xx:ID) & not((yy:POW(ID)) & (yy:dom(f)) & (card(yy)=1))
+1.6071731833333334E8,1.46173849E8,1.0610508966666667E8,1.5797392966666666E8:not((f:POW(ID)-->>ID) & (!yy.(yy:ID => f({yy})=yy)) & not((xx:ID))) => not((yy:POW(ID)) & (yy:dom(f)))

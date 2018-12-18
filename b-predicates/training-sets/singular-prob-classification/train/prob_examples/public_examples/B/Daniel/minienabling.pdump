@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Daniel/minienabling.mch
+4.5764408666666664E7,5.664421246666667E9,1.6358232433333334E8,5.9893929333333336E7:(a=5) & (b=6) & not((x:NATURAL)) & (x=a)
+-1.0,-1.0,6.5263839E7,-1.0:(a=5) & (b=6) & (x:NATURAL) & (not((x=b)) => (x=a))
+5.1085197E7,8.048469966666667E7,6.0454289333333336E7,6.1114428666666664E7:(a=5) & (b=6) & x:NATURAL & x=a&x+1:NATURAL

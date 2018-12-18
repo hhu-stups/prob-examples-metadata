@@ -1,0 +1,13 @@
+#source:examples/prob_examples/public_examples/B/NewSyntax/RecTest2.mch
+4.9810081666666664E7,5.2043070666666664E7,6.7966511E7,6.0019131E7:not((xx:struct(name:ID,balance:NAT)) & (bank:struct(name:ID)) & (total:struct(money:NAT))) => not((amt:NAT1) & (xx'balance>=amt))
+5.2353328666666664E7,5.2030755333333336E7,6.7973774E7,6.2699989E7:not(not((xx:struct(name:ID,balance:NAT)) & (bank:struct(name:ID)) & (total:struct(money:NAT)))) => (amt:NAT1) & (xx'balance>=amt)
+4.9783402666666664E7,5.2052638666666664E7,6.810204933333333E7,6.1206316666666664E7:not(not((amt:NAT1) & (xx'balance>=amt))) => (xx:struct(name:ID,balance:NAT)) & (bank:struct(name:ID)) & (total:struct(money:NAT))
+5.1054490333333336E7,5.3395267666666664E7,6.7973751E7,6.9437415E7:not((xx:struct(name:ID,balance:NAT)) & (bank:struct(name:ID)) & (total:struct(money:NAT))) & not((amt:NAT1) & (xx'balance>=amt))
+4.9402720666666664E7,5.1904458666666664E7,6.9301224E7,6.1492526666666664E7:not(not((xx:struct(name:ID,balance:NAT)) & (bank:struct(name:ID)) & (total:struct(money:NAT)))) => not((amt:NAT1) & (xx'balance>=amt))
+5.1153595333333336E7,5.1878408333333336E7,-1.0,5.9936206666666664E7:not(not((amt:NAT1) & (xx'balance>=amt))) => not((xx:struct(name:ID,balance:NAT)) & (bank:struct(name:ID)) & (total:struct(money:NAT)))
+4.9201974E7,5.0272314666666664E7,6.7022908333333336E7,7.0981582E7:total:struct(money:NAT) & amt:NAT1&xx'balance>=amt&total:struct(money:NAT)
+5.2111142333333336E7,5.1897894333333336E7,-1.0,7.484304623333334E8:(not(xx:struct(name:ID,balance:NAT)) => amt:NAT1&xx'balance>=amt&rec(balance:xx'balance-amt,name:xx'name):struct(balance:NAT,name:ID))
+4.7625679E7,4.7892496333333336E7,3.861878666666667E8,6.076227221666667E9:bank:struct(name:ID) & amt:NAT1&xx'balance>=amt
+5.631719509E9,5.1781771E7,6.785131933333333E7,9.060093E7:total:struct(money:NAT) & not(amt:NAT1&xx'balance>=amt&total:struct(money:NAT))
+4.8883287666666664E7,5.1976209E7,-1.0,7.600084266666667E7:xx:struct(name:ID,balance:NAT) & rec(balance:xx'balance-1,name:xx'name):struct(balance:NAT,name:ID)
+7.426302833333333E7,5.2814654E7,-1.0,7.3218738E7:(not((xx:struct(name:ID,balance:NAT)) & (bank:struct(name:ID)) & (total:struct(money:NAT))) => (total:struct(money:NAT)) & (rec(balance:xx'balance-1,name:xx'name):struct(balance:NAT,name:ID)) & (bank:struct(name:ID)))

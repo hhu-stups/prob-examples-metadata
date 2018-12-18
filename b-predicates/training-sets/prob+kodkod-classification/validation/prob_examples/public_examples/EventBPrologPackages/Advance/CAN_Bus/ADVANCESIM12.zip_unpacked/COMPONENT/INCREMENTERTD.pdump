@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/INCREMENTERTD.bcm
+5.5154616333333336E7,5.6812858E7,1.22230883E8,8.0195743E7:not((pv:INT) & (data_received=FALSE) & (inc_complete=FALSE)) => not((v:NAT) & (i_sum:NAT))
+2.08528566E8,1.3545123333333334E8,1.1618737733333333E8,6.935190566666667E7:(v:NAT) & (i_sum:NAT) & (data_received=FALSE) & (inc_complete=TRUE) & (data_received=TRUE) & (inc_complete=FALSE)

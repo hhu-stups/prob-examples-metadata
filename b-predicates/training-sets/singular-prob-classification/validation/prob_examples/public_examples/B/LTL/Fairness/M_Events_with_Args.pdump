@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/LTL/Fairness/M_Events_with_Args.mch
+4.7738333666666664E7,4.7004348E7,5.9183736666666664E7,5.0431273333333336E7:(not(y:INTEGER) => not(x=3&y=3&a:{1,2}&y<10))

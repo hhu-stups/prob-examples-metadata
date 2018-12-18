@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter18/Marks.mch
+7.2930527E7,7.511537133333333E7,6.0382422666666664E7,7.1279339E7:not((marks<:0..100)) & (marks/={})

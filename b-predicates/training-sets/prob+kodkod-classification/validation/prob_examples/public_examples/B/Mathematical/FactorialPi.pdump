@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/FactorialPi.mch
+-1.0,-1.0,-1.0,-1.0:res:NATURAL1 & not(PI(x).(x:1..xx|x):NATURAL1)

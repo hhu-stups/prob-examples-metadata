@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/ProofDirected/TestInvPreservation.zip_unpacked/TestInvPreservationPOInfo/M1_ko.bcm
+8.559282133333333E7,4.9371152666666664E7,5.9974945E7,5.3444575666666664E7:x:{0,1} & true => 2 : {0,1}
+8.8011844E7,4.4978205666666664E7,7.543300933333333E7,4.589734E7:(not((x:{0,1})) => (true => 2 : {0,1}))
+7.5824028E7,6.886296966666667E7,5.8593577666666664E7,6.6920753666666664E7:(x:{0,1}) & not((true => 2 : {0,1}))

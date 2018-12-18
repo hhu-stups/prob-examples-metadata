@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Simple/Celebrity.zip_unpacked/Celebrity/Celebrity_3.bcm
+-1.0,-1.0,6.44788E7,1.2504630416666667E9:(r:P) & (Q<:P) & (c:Q) & (R<:P) & (b:P) & (b/:R) & (Q=R\/{b}) & (a:1 .. n+1) & (R=a .. n) & (a=n+1) & (a<=n) & (a |-> b/:k)

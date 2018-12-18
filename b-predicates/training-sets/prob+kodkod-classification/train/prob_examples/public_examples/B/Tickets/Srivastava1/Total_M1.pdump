@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Srivastava1/Total_M1.mch
+-1.0,-1.0,-1.0,-1.0:not((groupcounter:NATURAL) & (groupid:POW(SITE)<->NATURAL) & (mastergroup:POW(SITE)) & (partitionedgroup:POW(mastergroup)) & (messagecounter:NATURAL) & (messageseqno:MESSAGE<->NATURAL) & (connectionstatus:POW(SITE)<->{POW(SITE)<->BOOL}) & (sender:MESSAGE<->SITE) & (totalorder:MESSAGE<->MESSAGE) & (tdeliver:SITE<->MESSAGE)) & (ss:SITE)
+7.767098033333333E7,4.9882833333333336E7,6.6726106E7,5.5967755E7:(not(groupcounter:NATURAL) => groupcounter:NATURAL)
+4.5598908666666664E7,5.0242422333333336E7,7.097406266666667E7,5.9787631E7:(not(groupid:POW(SITE)<->NATURAL) => groupid:POW(SITE)<->NATURAL)

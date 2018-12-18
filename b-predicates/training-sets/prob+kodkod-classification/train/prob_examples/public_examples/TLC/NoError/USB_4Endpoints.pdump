@@ -1,0 +1,16 @@
+#source:examples/prob_examples/public_examples/TLC/NoError/USB_4Endpoints.mch
+-1.0,-1.0,8.128368366666667E7,-1.0:(ENDPOINTS=0..4) & transfer_completed:transfers+->BOOL & not(transfer_completed:transfers+->BOOL)
+-1.0,-1.0,7.021204766666667E7,-1.0:(ENDPOINTS=0..4) & transfer_type~[{CONTROL_TRANSFER}]=transfer_endpoint~[{0}] & not(transfer_type~[{CONTROL_TRANSFER}]=transfer_endpoint~[{0}])
+-1.0,-1.0,6.784144866666667E7,-1.0:(ENDPOINTS=0..4) & transfer_type:transfers+->USB_TRANSFER_TYPE & not(transfer_type:transfers+->USB_TRANSFER_TYPE)
+-1.0,-1.0,6.7987719E7,-1.0:(ENDPOINTS=0..4) & transfer_type~[{CONTROL_TRANSFER}]=transfer_endpoint~[{0}] & not(transfer_type~[{CONTROL_TRANSFER}]=transfer_endpoint~[{0}])
+-1.0,-1.0,7.182447333333333E7,-1.0:(ENDPOINTS=0..4) & transfer_type:transfers+->USB_TRANSFER_TYPE & not(transfer_type:transfers+->USB_TRANSFER_TYPE)
+5.3921172333333336E7,5.5504567666666664E7,6.6993831E7,5.9306983333333336E7:(ENDPOINTS=0..4) & transfers<:TRANSFERS & transfers<:TRANSFERS
+-1.0,-1.0,6.7989954E7,-1.0:(ENDPOINTS=0..4) & transfer_endpoint:transfers+->ENDPOINTS & not(transfer_endpoint:transfers+->ENDPOINTS)
+-1.0,-1.0,6.800801966666667E7,-1.0:(ENDPOINTS=0..4) & transfer_completed:transfers+->BOOL & not(transfer_completed:transfers+->BOOL)
+4.7695311333333336E7,1.00643874E8,8.364660033333333E7,6.2571644333333336E7:(ENDPOINTS=0..4) & transfer_type~[{CONTROL_TRANSFER}]=transfer_endpoint~[{0}] & transfer_type~[{CONTROL_TRANSFER}]=transfer_endpoint~[{0}]
+-1.0,-1.0,9.849278566666667E7,-1.0:(ENDPOINTS=0..4) & transfer_type~[{CONTROL_TRANSFER}]=transfer_endpoint~[{0}] & not(transfer_type~[{CONTROL_TRANSFER}]=transfer_endpoint~[{0}])
+-1.0,-1.0,7.288792366666667E7,-1.0:(ENDPOINTS=0..4) & !tr.(tr:transfers => tr:dom(transfer_type)&tr:dom(transfer_endpoint)&tr:dom(transfer_completed)) & not(!tr.(tr:transfers => tr:dom(transfer_type)&tr:dom(transfer_endpoint)&tr:dom(transfer_completed)))
+-1.0,-1.0,6.6169750666666664E7,-1.0:(ENDPOINTS=0..4) & transfer_endpoint:transfers+->ENDPOINTS & not(transfer_endpoint:transfers+->ENDPOINTS)
+-1.0,-1.0,-1.0,-1.0:(ENDPOINTS=0..4) & (transfers<:TRANSFERS) & (transfer_type:transfers+->USB_TRANSFER_TYPE) & (transfer_endpoint:transfers+->ENDPOINTS) & (transfer_completed:transfers+->BOOL) & (!tr.(tr:transfers => tr:dom(transfer_type)&tr:dom(transfer_endpoint)&tr:dom(transfer_completed))) & (transfer_type~[{CONTROL_TRANSFER}]=transfer_endpoint~[{0}]) & not((transfer_completed:transfers+->BOOL) & (transfer_type~[{CONTROL_TRANSFER}]=transfer_endpoint~[{0}]) & (transfer_type:transfers+->USB_TRANSFER_TYPE) & (!tr.(tr:transfers => tr:dom(transfer_type)&tr:dom(transfer_endpoint)&tr:dom(transfer_completed))) & (transfers<:TRANSFERS) & (transfer_endpoint:transfers+->ENDPOINTS))
+-1.0,-1.0,7.142982366666667E7,-1.0:(ENDPOINTS=0..4) & transfer_completed:transfers+->BOOL & not(!tr,ep.(tr:TRANSFERS-transfers&ep:ENDPOINTS-{0}&transfer_endpoint~[{ep}]/\transfer_completed~[{FALSE}]={} => transfer_completed<+{(tr,FALSE)}:transfers\/{tr}+->BOOL))
+5.8390642E7,1.1334011133333333E8,7.502464766666667E7,1.3512037133333334E8:(ENDPOINTS=0..4) & (not(transfer_completed:transfers+->BOOL) => not(!tr,ep.(tr:TRANSFERS-transfers&ep:ENDPOINTS-{0}&transfer_endpoint~[{ep}]/\transfer_completed~[{FALSE}]={} => transfer_completed<+{(tr,FALSE)}:transfers\/{tr}+->BOOL)))

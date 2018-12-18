@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Simple/VerySimpleDFA.mch
+4.7596462E7,4.9358465E7,1.8410381166666666E8,5.5761141333333336E7:(not(s:0..3) => s<3 => s+1:0..3)

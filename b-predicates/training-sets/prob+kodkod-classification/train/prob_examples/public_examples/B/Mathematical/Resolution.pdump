@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Resolution.mch
+3.470795876666667E8,1.4806726966666666E8,-1.0,4.02514919E8:(PosLiterals={A,B,C}) & (neg:Literals-->Literals) & (neg(A)=nA) & (neg(B)=nB) & (neg(C)=nC) & (!x.(x:Literals => neg(neg(x))=x)) & (Clauses={{nA,nB,nC},{B,A},{C,A},{nB,A},{nA,B},{nA,nB,C}}) & (cl<:POW(Literals)) & (a:cl) & (b:cl) & (lit:PosLiterals) & (lit:a) & (neg(lit):b) & (newclause=a\{lit}\/b\{neg(lit)}) & (newclause/:cl) & (!x.(x:newclause => neg(x)/:newclause))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/CB3FSMM0.bcm
+4.7590456E7,4.8896465E7,6.4246601E7,5.9082373333333336E7:not(not((ppriority=3) & (pvalue:INT) & (mode=COLLECT))) => not((T2v:INT) & (mode:Mode))

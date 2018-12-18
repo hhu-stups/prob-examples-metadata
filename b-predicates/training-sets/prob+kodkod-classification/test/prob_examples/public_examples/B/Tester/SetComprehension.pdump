@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/Tester/SetComprehension.mch
+4.7219412666666664E7,4.799202E7,6.3729775666666664E7,5.1301123666666664E7:(not(col1:POW(COLOURS)) => not(x/:col1))
+5.1747316333333336E7,7.145671266666667E7,1.0568406366666667E8,4.9227675E7:(not(col1:POW(COLOURS)) => not(col1:POW(COLOURS)))
+5.3754322E7,9.7388339E7,7.212143866666667E7,6.2328992333333336E7:(col1:POW(COLOURS)) & (col2:POW(COLOURS)) & (col1/=col2) & (col1/={}) & (col2/=col1) & (col2:POW(COLOURS)) & (col1:POW(COLOURS)) & (col2/={})
+5.3469159666666664E7,1.0429836566666667E8,6.4420925E7,9.847490633333333E7:(col1:POW(COLOURS)) & (col2:POW(COLOURS)) & (col1/=col2) & (col1/={}) & ({xx|xx:col2}/={xx|xx:col1}) & (col2:POW(COLOURS)) & (col1:POW(COLOURS)) & ({xx|xx:col2}/={})
+4.9865139666666664E7,5.2679348E7,8.949306066666667E7,5.6172063666666664E7:(not(col1:POW(COLOURS)) => col1:POW(COLOURS))
+5.5807329666666664E7,1.2538947866666667E8,-1.0,6.626087E7:(not(col1/={}) => {xx|xx:col1&xx/=x}/={})
+6.1617426E7,1.02654255E8,-1.0,6.6544822E7:(not((col1:POW(COLOURS)) & (col2:POW(COLOURS)) & (col1/=col2) & (col1/={})) => ({xx|xx:col1&xx/=x}/={xx|xx:col2&xx/=x}) & (col2:POW(COLOURS)) & (col1:POW(COLOURS)) & ({xx|xx:col1&xx/=x}/={}))

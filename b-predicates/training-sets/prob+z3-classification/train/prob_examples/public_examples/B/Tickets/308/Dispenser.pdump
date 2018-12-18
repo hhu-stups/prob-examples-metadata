@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/308/Dispenser.mch
+4.6376055666666664E7,4.9641740666666664E7,6.6802885333333336E7,5.7158851333333336E7:(not(given<=lifetime) => not(dstate=stocked => given<=lifetime&(not(dstate=stocked) => (TRUE:BOOL => given<=lifetime))))
+5.4945325E7,4.8548888E7,6.3949868666666664E7,5.5295136666666664E7:(not(given<=lifetime) => given<=lifetime)

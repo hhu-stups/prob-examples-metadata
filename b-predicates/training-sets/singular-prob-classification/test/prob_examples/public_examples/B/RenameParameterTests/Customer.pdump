@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/RenameParameterTests/Customer.mch
+5.0767675666666664E7,5.1439246E7,-1.0,1.52812519E8:not((Articles<:ITEMS) & (card(Articles)>0) & (card(Articles)<=maxel) & (maxel>1) & not((i:set))) => not((card(set)=cnt))

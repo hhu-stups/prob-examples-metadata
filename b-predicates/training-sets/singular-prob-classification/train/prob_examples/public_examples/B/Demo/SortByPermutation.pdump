@@ -1,0 +1,13 @@
+#source:examples/prob_examples/public_examples/B/Demo/SortByPermutation.mch
+6.755060566666667E7,6.3098410333333336E7,7.635470466666667E7,1.2193370833333333E8:(sz:NATURAL) & (sz=4) & (a:1..sz-->INTEGER) & (!i.(i:dom(a) => !j.(j:dom(a)&i<j => a(i)<=a(j)))) & (i:dom(a) => !j.(j:dom(a)&i<j => a(i)<=a(j))) & (i:dom(a)) & (!j.(j:dom(a)&i<j => a(i)<=a(j))) & (j:dom(a)&i<j => a(i)<=a(j)) & (a(i)<=a(j)) & not((4:1..sz) & (val:INTEGER))
+5.4405033E7,6.1412115666666664E7,1.45036181E8,1.28193676E8:(sz:NATURAL) & (sz=4) & (a:1..sz-->INTEGER) & (not((!i.(i:dom(a) => !j.(j:dom(a)&i<j => a(i)<=a(j)))) & (i:dom(a) => !j.(j:dom(a)&i<j => a(i)<=a(j))) & (i:dom(a)) & (!j.(j:dom(a)&i<j => a(i)<=a(j))) & (j:dom(a)&i<j => a(i)<=a(j)) & (a(i)<=a(j))) => (3:1..sz) & (val:INTEGER))
+4.8803435666666664E7,5.1985707666666664E7,6.3984323666666664E7,6.794274133333333E7:(sz:NATURAL) & (sz=4) & (a:1..sz-->INTEGER) & ((i:1..sz) & (val:INTEGER) => not((4:1..sz) & (val:INTEGER)))
+4.8684333333333336E7,5.1876778333333336E7,1.1885415066666667E8,6.9161728E7:(sz:NATURAL) & (sz=4) & (a:1..sz-->INTEGER) & (not((4:1..sz) & (val:INTEGER)) => (i:1..sz))
+4.840725E7,5.2075104333333336E7,1.1930942233333333E8,6.874347166666667E7:(sz:NATURAL) & (sz=4) & (a:1..sz-->INTEGER) & (not((4:1..sz) & (val:INTEGER)) => (2:1..sz) & (val:INTEGER))
+-1.0,-1.0,8.924614933333333E7,-1.0:(sz:NATURAL) & (sz=4) & (not(a:1..sz-->INTEGER) => !i.(i:dom(a) => !j.(j:dom(a)&i<j => a(i)<=a(j)))&a:1..sz-->INTEGER)
+-1.0,-1.0,-1.0,-1.0:(sz:NATURAL) & (sz=4) & (not(a:1..sz-->INTEGER) => 4:1..sz&a<+{(4,val)}:1..sz-->INTEGER)
+-1.0,-1.0,-1.0,-1.0:(sz:NATURAL) & (sz=4) & (not((a:1..sz-->INTEGER)) => (4:1..sz&a<+{(4,val)}:1..sz-->INTEGER))
+-1.0,-1.0,-1.0,-1.0:(sz:NATURAL) & (sz=4) & (not(a:1..sz-->INTEGER) => 3:1..sz&a<+{(3,val)}:1..sz-->INTEGER)
+4.8437607333333336E7,5.1591989E7,-1.0,7.440610933333333E7:(sz:NATURAL) & (sz=4) & (not(a:1..sz-->INTEGER) => not(2:1..sz&a<+{(2,val)}:1..sz-->INTEGER))
+-1.0,-1.0,-1.0,-1.0:(sz:NATURAL) & (sz=4) & (not((a:1..sz-->INTEGER)) => (2:1..sz&a<+{(2,val)}:1..sz-->INTEGER))
+-1.0,-1.0,-1.0,-1.0:(sz:NATURAL) & (sz=4) & a:1..sz-->INTEGER & not(!p.(p:perm(dom(a))&!i,j.(i:1..sz-1&j:2..sz&i<j => a(p(i))<=a(p(j))) => (p;a):1..sz-->INTEGER))

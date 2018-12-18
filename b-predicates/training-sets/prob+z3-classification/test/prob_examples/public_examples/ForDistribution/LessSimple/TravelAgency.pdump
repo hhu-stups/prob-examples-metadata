@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/ForDistribution/LessSimple/TravelAgency.mch
+3.839223316666667E8,2.2623989633333334E8,1.2159246433333333E8,3.26849967E8:(AGENCY_USER<:USER) & (AGENCY_USER/={}) & (not(rooms_hotel:ROOM-->HOTEL) => not(sid:dom(session)&session_state(sid)=s1&session_request(sid)=none => rooms_hotel:ROOM-->HOTEL))
+-1.0,7.712233066666667E7,-1.0,-1.0:(AGENCY_USER<:USER) & (AGENCY_USER/={}) & dom(session)=dom(session_state) & not(sid:dom(session)&session_state(sid)=s1&session_request(sid)=none => dom(session)=dom(session_state<+{(sid,s5)}))
+3.466675476666667E8,6.737050833333333E7,-1.0,4.420250416666667E8:(AGENCY_USER<:USER) & (AGENCY_USER/={}) & ran(session)<:dom(user_hotel_bookings) & not(sid:dom(session)&session_state(sid):{s6,s7} => ran({sid}<<|session)<:dom(user_hotel_bookings))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/CTASK1.bcm
+4.6440589E7,4.9812456E7,7.278064766666667E7,6.4108431666666664E7:(p:INT) & (T1_state=T1_CALC) & not((pv:INT) & (ppriority:INT) & (pv=T1_write) & (ppriority=3) & (T1_state=T1_SEND))

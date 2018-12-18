@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/HeapSort_Chapter17/Heaparray.mch
+4.9815227E7,5.0544858666666664E7,7.191896833333333E7,7.603406366666667E7:not(not((ii:2..size(heaparray)))) => (heaparray:seq(NAT))
+4.7040269333333336E7,4.9405607666666664E7,-1.0,6.2008025E7:not(not((heaparray:seq(NAT)))) => not((ii:2..size(heaparray)))
+5.8168756E7,5.0960065333333336E7,-1.0,6.859477966666667E7:(heaparray:seq(NAT)) & not((nn:NAT))
+5.0080088E7,5.050016E7,-1.0,5.0892202666666664E7:(heaparray:seq(NAT)) & (ii:2..size(heaparray)) & not((nn:NAT))
+4.9359908333333336E7,4.9251258E7,-1.0,6.0900971333333336E7:heaparray:seq(NAT) & heaparray/=[]&heaparray:seq(NAT)

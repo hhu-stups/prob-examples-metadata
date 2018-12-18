@@ -1,0 +1,14 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BeverageVendingMachine.mch
+1.4841596333333334E8,9.5399026E7,1.21008195E8,6.4375178333333336E7:not((nmax:NATURAL) & (nmax=1) & (nsoda:NATURAL) & (nbeer:NATURAL) & (paid:BOOL)) => (paid=FALSE) & (nsoda+nbeer=0)
+1.0540823666666667E8,7.668151566666667E7,6.3553402666666664E7,7.324274066666667E7:(nmax:NATURAL) & (nmax=1) & not((nsoda:NATURAL) & (nbeer:NATURAL) & (paid:BOOL)) & not((paid=FALSE) & (nsoda+nbeer=0))
+9.742277066666667E7,1.0578631066666667E8,6.536313E7,6.1457699E7:not((nmax:NATURAL) & (nmax=1) & not((nsoda:NATURAL) & (nbeer:NATURAL) & (paid:BOOL))) => not((paid=TRUE) & (nsoda=0) & (nbeer=0))
+8.7376521E7,5.3282660666666664E7,6.522552E7,5.9932435E7:not((nmax:NATURAL) & (nmax=1) & (nsoda:NATURAL) & (nbeer:NATURAL) & (paid:BOOL)) => not((nbeer>0) & (paid=TRUE))
+4.8829464E7,6.804156666666667E7,6.3988351E7,6.932997566666667E7:(nmax:NATURAL) & (nmax=1) & (nsoda:NATURAL) & (nbeer:NATURAL) & (paid:BOOL) & (not((paid=FALSE) & (nsoda+nbeer=0)) => (paid=FALSE))
+1.96016872E8,1.01757959E8,9.5722275E7,6.913649233333333E7:(nmax:NATURAL) & (nmax=1) & nbeer:NATURAL & not(paid=FALSE&nsoda+nbeer=0&nmax:NATURAL)
+4.8299880333333336E7,6.899531933333333E7,6.3221191333333336E7,6.4849587E7:(nmax:NATURAL) & (nmax=1) & paid:BOOL & not(paid=FALSE&nsoda+nbeer=0)
+1.0947304633333333E8,6.3972404E7,6.4030093E7,6.998927733333333E7:(nmax:NATURAL) & (nmax=1) & nbeer:NATURAL & nsoda>0&paid=TRUE&nbeer:NATURAL
+4.8830441666666664E7,6.5313613E7,6.4219526E7,6.9071377E7:(nmax:NATURAL) & (nmax=1) & nbeer:NATURAL & not(nsoda>0&paid=TRUE&nbeer:NATURAL)
+1.00736134E8,5.6893710333333336E7,6.8869908E7,6.5219327E7:(nmax:NATURAL) & (nmax=1) & (not(nbeer:NATURAL) => not(nsoda>0&paid=TRUE&nbeer:NATURAL))
+4.9567686E7,9.765233833333333E7,6.3912224333333336E7,6.5758641333333336E7:(nmax:NATURAL) & (nmax=1) & paid:BOOL & not(nsoda>0&paid=TRUE)
+1.00020424E8,7.073276066666667E7,6.758536366666667E7,7.577544166666667E7:(nmax:NATURAL) & (nmax=1) & (nsoda:NATURAL) & (nbeer:NATURAL) & (paid:BOOL) & (nbeer>0&paid=TRUE&nbeer-1:NATURAL) & (nbeer>0&paid=TRUE&nsoda:NATURAL) & (nbeer>0&paid=TRUE)
+1.3319552233333333E8,7.667793033333333E7,6.884550966666667E7,1.0074339766666667E8:(nmax:NATURAL) & (nmax=1) & (not((nsoda:NATURAL) & (nbeer:NATURAL) & (paid:BOOL)) => (nbeer>0&paid=TRUE&nbeer-1:NATURAL) & (nbeer>0&paid=TRUE&nsoda:NATURAL) & (nbeer>0&paid=TRUE))

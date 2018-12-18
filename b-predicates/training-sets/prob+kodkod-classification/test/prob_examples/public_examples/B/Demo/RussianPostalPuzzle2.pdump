@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Demo/RussianPostalPuzzle2.mch
+5.0608065333333336E7,1.07825513E8,-1.0,8.2625474E7:(keysforsale:POW(KeyIDs)) & (hasbox:PERSONS) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains:CONTENTS) & (not(padlocks={}&box_contains=gem&hasbox=natasha)) & (from:PERSONS) & (from=hasbox) & (to:PERSONS) & (to/=hasbox)
+5.2412623333333336E7,5.1761773333333336E7,-1.0,6.3543090333333336E7:not(not((keyid:keysforsale) & (person:PERSONS) & (person=hasbox))) => not((keysforsale:POW(KeyIDs)) & (hasbox:PERSONS) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains:CONTENTS) & (not(padlocks={}&box_contains=gem&hasbox=natasha)))
+5.1019104333333336E7,5.8032472666666664E7,-1.0,7.6016324E7:(keysforsale:POW(KeyIDs)) & (hasbox:PERSONS) & (padlocks<:KeyIDs) & (has_keys:PERSONS-->POW(KeyIDs)) & (box_contains:CONTENTS) & (not(padlocks={}&box_contains=gem&hasbox=natasha)) & ((hasbox=jewelry) & (box_contains=money) & (padlocks={}) => not((keyid:keysforsale) & (person:PERSONS) & (person=hasbox)))
+5.1098979E7,4.7841116E7,6.748604933333333E7,5.1598251333333336E7:(not(hasbox:PERSONS) => person=hasbox&keyid:has_keys(person))
+4.7374553333333336E7,4.9514001333333336E7,-1.0,6.0420672E7:box_contains:CONTENTS & not(person=hasbox&keyid:has_keys(person))
+6.3812816666666664E7,5.3800836E7,-1.0,7.293371633333333E7:not(padlocks={}&box_contains=gem&hasbox=natasha) & person=hasbox&keyid:has_keys(person)&not(padlocks\/{keyid}={}&box_contains=gem&hasbox=natasha)

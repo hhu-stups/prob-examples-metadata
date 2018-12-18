@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/FMI/waterTankCtrl_v2.mch
+4.8844409666666664E7,5.5822368666666664E7,-1.0,6.2319540333333336E7:not((High=7000) & (Low=4000) & (ReadDelay=20) & (WriteDelay=20) & (ComputeDelay=100) & not((pc=write))) => (time:0..12000) & (pump:BOOL) & (ctrl_pump:BOOL) & (ctrl_level:0..20000) & (fmiLevel:NATURAL) & (pc:PC)
+5.88131447E8,5.6193901E7,-1.0,6.0038547333333336E7:not((High=7000) & (Low=4000) & (ReadDelay=20) & (WriteDelay=20) & (ComputeDelay=100) & not((pc=compute))) => (time:0..12000) & (pump:BOOL) & (ctrl_pump:BOOL) & (ctrl_level:0..20000) & (fmiLevel:NATURAL) & (pc:PC)

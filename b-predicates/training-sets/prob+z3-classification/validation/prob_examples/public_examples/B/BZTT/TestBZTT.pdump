@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/BZTT/TestBZTT.mch
+-1.0,2.2793184766666666E8,-1.0,-1.0:not((fun:ID-->ID) & (x:ID) & (s:POW(ID))) => (ff:ID-->ID) & (!y.(y:ID => ff(y)/=y))

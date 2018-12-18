@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter18/Time.mch
+4.4969336333333336E7,4.4000404333333336E7,5.5916445E7,5.1404092666666664E7:not(not((tt:TIME))) => (time:TIME)

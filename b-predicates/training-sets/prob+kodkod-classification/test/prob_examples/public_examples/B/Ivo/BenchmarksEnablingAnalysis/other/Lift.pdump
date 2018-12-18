@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksEnablingAnalysis/other/Lift.mch
+5.515648812333333E9,9.052331333333333E7,9.122703433333333E7,1.45267984E8:not((floor:0..99)) => (floor<99)
+1.4140152433333334E8,1.4106484266666666E8,1.4147354913333333E9,1.5517832233333334E8:not((floor:0..99)) => floor>=0
+6.876393533333333E7,5.2299667666666664E7,6.3490359666666664E7,5.5940889333333336E7:(not(floor:0..99) => floor=0 => floor:0..99&(not(floor=0) => (TRUE:BOOL => floor:0..99)))

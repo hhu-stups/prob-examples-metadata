@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSPB/Simple.mch
+8.2433737E7,5.3205206333333336E7,6.6174569666666664E7,5.8892056E7:on:1..Lim & on<2 => on+1:1..2&(not(on<2) => (TRUE:BOOL => 1:1..2))

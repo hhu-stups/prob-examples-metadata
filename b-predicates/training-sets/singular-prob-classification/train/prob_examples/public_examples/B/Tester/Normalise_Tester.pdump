@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Tester/Normalise_Tester.mch
+4.8349654E7,8.356325666666667E7,5.3561955333333336E7,6.2111343333333336E7:not(not((fun:setB+->setC))) => (A:POW(setB)) & (B:POW(setB)) & (A=B)
+5.0752729333333336E7,6.5412996666666664E7,6.5731054E7,6.6091365333333336E7:not((fun:setB+->setC)) => (A:POW(setB)) & (A={b1,b2})
+4.9139605666666664E7,6.7461326E7,7.2743701E7,6.0929024E7:not((A:POW(setB)) & (A={b1,b2})) => (fun:setB+->setC)
+4.7298961666666664E7,6.0399836E7,7.200519933333333E7,5.2948563E7:(fun:setB+->setC) & (A:POW(setB)) & (B:POW(setB)) & (A=B) & not(({b1,b2}={b2,b1}))
+4.7925530666666664E7,7.114764133333333E7,4.8943468E7,8.444372266666667E7:(fun:setB+->setC) & (not((A:POW(setB)) & (B:POW(setB)) & (b3:A) & (b2:B) & (A<:B) & (card(A)=2)) => ({b1,b2}={b2,b1}))
+4.9151874333333336E7,6.4909674333333336E7,7.511360266666667E7,6.4715468666666664E7:(fun:setB+->setC) & (not(({b1,b2}={b2,b1})) => (A:POW(setB)) & (A={b2,b1}))

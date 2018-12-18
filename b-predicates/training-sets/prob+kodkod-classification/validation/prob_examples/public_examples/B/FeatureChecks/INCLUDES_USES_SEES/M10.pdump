@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/INCLUDES_USES_SEES/M10.mch
+5.8131671E7,5.3398876333333336E7,8.358216033333333E7,5.8430894666666664E7:not((x:INTEGER) & (x<10)) & (x<9)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/CBC/ProcessIDStarvation.mch
+5.2295686666666664E7,7.280818766666667E7,-1.0,7.347261133333333E7:(root:ID) & (free<:ID-{root}) & (used<:ID) & (used/\free={}) & (used/\deleted={}) & (free/\deleted={}) & (used\/free\/deleted=ID) & (running:ID) & (count:NATURAL) & (running=root or i=root) & (i:used)

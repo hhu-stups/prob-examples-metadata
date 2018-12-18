@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/UndefinedFunction.mch
+2.1287104066666666E8,7.608376733333333E7,6.716301E7,6.4500730333333336E7:not((iv:ID) & not((yy:ID) & (f(yy)=iv))) => not((f:ID<->ID))

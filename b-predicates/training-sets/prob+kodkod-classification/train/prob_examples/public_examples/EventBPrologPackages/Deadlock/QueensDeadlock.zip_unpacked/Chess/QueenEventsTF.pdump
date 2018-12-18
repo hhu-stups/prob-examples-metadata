@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Deadlock/QueensDeadlock.zip_unpacked/Chess/QueenEventsTF.bcm
+2.3464638933333334E8,9.1361082E7,1.7028750666666666E8,3.651521143333333E8:not((i:1 .. n&j:1 .. n&i>j) & (board(i)=board(j))) => (n:3 .. 100) & (board:1 .. n --> 1 .. n)
+8.156709933333333E7,6.2609637666666664E7,1.3626896503333333E9,6.659671107666667E9:not(not((i:1 .. n&j:1 .. n&i>j) & (board(i)+(j - i)=board(j)))) => (n:3 .. 100) & (board:1 .. n --> 1 .. n)
+6.0399300666666664E7,5.5362882666666664E7,1.7103404033333334E8,8.8724248E7:not(not((i:1 .. n&j:1 .. n&i>j) & (board(i)+(j - i)=board(j)))) => not((n:3 .. 100) & (board:1 .. n --> 1 .. n))
+2.5802978633333334E8,1.99558501E8,1.2849615833333333E8,1.27092977E8:not(not((n:3 .. 100) & (board:1 .. n --> 1 .. n))) => not((i:1 .. n&j:1 .. n&i>j) & (board(i) - (j - i)=board(j)))
+4.500577203333333E8,2.927840423333333E8,6.59867967E8,1.5755520733333334E8:(n:3 .. 100) & (board:1 .. n --> 1 .. n) & ((i:1 .. n&j:1 .. n&i>j) & (board(i)=board(j)) => not((i:1 .. n&j:1 .. n&i>j) & (board(i)+(j - i)=board(j))))

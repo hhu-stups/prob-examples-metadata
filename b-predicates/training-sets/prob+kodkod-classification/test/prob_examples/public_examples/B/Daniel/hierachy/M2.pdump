@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Daniel/hierachy/M2.mch
+4.7330716E7,4.7946134E7,6.1381571666666664E7,4.9554532E7:(i2:ENUM2) & (not((yy:ENUM2)) => (yy:ENUM2))

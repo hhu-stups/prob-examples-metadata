@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter12/Team.mch
+-1.0,-1.0,-1.0,-1.0:(team<:1..22) & (card(team)=11) & (pp:team&rr:1..22&rr/:team&card(team\/{rr}-{pp})=11) & (pp:team&rr:1..22&rr/:team&team\/{rr}-{pp}<:1..22)

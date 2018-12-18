@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/VectorClocks/VectorClocks.mch
+4.8431275666666664E7,5.1906391E7,-1.0,6.7981108E7:not(not((p:PROC) & ((p,c):ether) & (c:PROC-->NATURAL))) => not((clocks:PROC-->(PROC-->NATURAL)) & (ether:PROC<->(PROC-->NATURAL)))
+5.3328429666666664E7,5.3884156666666664E7,-1.0,7.0946429E7:(clocks:PROC-->(PROC-->NATURAL)) & (ether:PROC<->(PROC-->NATURAL)) & (p:PROC) & ((p,c):ether) & (c:PROC-->NATURAL) & not((p:PROC) & (q:PROC) & (p/=q))
+4.8588883666666664E7,5.1956304333333336E7,-1.0,6.789215266666667E7:(not(ether:PROC<->(PROC-->NATURAL)) => (p,c):ether&c:PROC-->NATURAL&ether-{(p,c)}:PROC<->(PROC-->NATURAL))
+-1.0,-1.0,-1.0,-1.0:(not(clocks:PROC-->(PROC-->NATURAL)) => (p,c):ether&c:PROC-->NATURAL&clocks<+{(p,{q,m|m:NATURAL&m=max({c(q),clocks(p)(q)})})}:PROC-->(PROC-->NATURAL))
+4.8604132333333336E7,5.6321058666666664E7,-1.0,2.0416130663333333E9:clocks:PROC-->(PROC-->NATURAL) & not((p,c):ether&c:PROC-->NATURAL&clocks<+{(p,{q,m|m:NATURAL&m=max({c(q),clocks(p)(q)})})}:PROC-->(PROC-->NATURAL))
+-1.0,-1.0,6.2710349E7,-1.0:ether:PROC<->(PROC-->NATURAL) & not(ether:PROC<->(PROC-->NATURAL))
+-1.0,-1.0,1.7156453033333334E8,-1.0:(not(clocks:PROC-->(PROC-->NATURAL)) => not(clocks<+{(p,clocks(p)<+{(p,clocks(p)(p)+1)})}:PROC-->(PROC-->NATURAL)))
+-1.0,-1.0,-1.0,-1.0:(not(clocks:PROC-->(PROC-->NATURAL)) => p/=q&clocks<+{(p,clocks(p)<+{(p,clocks(p)(p)+1)})}:PROC-->(PROC-->NATURAL))

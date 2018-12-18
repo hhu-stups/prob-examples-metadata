@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tutorial/DoubleCounter.mch
+6.1864943333333336E7,6.0403351666666664E7,6.4133714E7,8.660642766666667E7:not(not((counter<100))) => not((counter:NATURAL) & (counter<=128))

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/Partition_internal_saved.mch
+5.41446111E8,5.17162087E8,-1.0,2.035269499E9:(A:POW(ID)) & (B:POW(ID)) & (C:POW(ID)) & (ID=A\/B\/C) & (A/\B={}) & (A/\C={}) & (B/\C={}) & (aa:A) & (bb:B) & (card(C)>card(A)) & card({A,B,C|ID=A\/B\/C&A/\B={}&A/\C={}&B/\C={}&A:POW1(ID)&B:POW1(ID)&C:POW1(ID)&card(A)<=card(B)&card(B)<=card(C)})=12
+4.816376906666667E8,4.790311676666667E8,-1.0,7.42584212E8:not((A:POW(ID)) & (B:POW(ID)) & (C:POW(ID)) & (ID=A\/B\/C) & (A/\B={}) & (A/\C={}) & (B/\C={}) & (aa:A) & (bb:B) & (card(C)>card(A))) => card({A,B,C|ID=A\/B\/C&A/\B={}&A/\C={}&B/\C={}&A:POW1(ID)&B:POW1(ID)&C:POW1(ID)&A<:B})=0

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Simple/Phonebook/phonebook_seq2.mch
+4.7949882666666664E7,5.2006566666666664E7,-1.0,7.614208466666667E7:not((db:Name+->Code) & (history:seq(Name))) => not((nn:Name) & (nn:dom(db)))
+4.7906604333333336E7,6.841021233333333E7,-1.0,5.8850337666666664E7:(db:Name+->Code) & (history:seq(Name)) & ((nn:Name) & (cc:Code) & (nn/:dom(db)) => not((nn:Name) & (cc:Code) & (nn:dom(db))))
+-1.0,-1.0,6.785648733333333E7,-1.0:(db:Name+->Code) & (history:seq(Name)) & (history/=[]) & not((history/=[]))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/TASK2.bcm
+5.0394467333333336E7,5.0040115666666664E7,6.4712442333333336E7,4.9451307E7:(pr:INT) & (T2_state=T2_RCV) & (T2_state=T2_WAIT)

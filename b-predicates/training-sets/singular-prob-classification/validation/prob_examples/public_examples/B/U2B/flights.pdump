@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/U2B/flights.mch
+-1.0,-1.0,-1.0,-1.0:(ROUTESEG:POW(AIRPORT*AIRPORT)) & (card(ROUTESEG)=3) & (!aa.(aa:AIRPORT => (aa,aa)/:ROUTESEG)) & (operator:ROUTESEG-->OPERATOR) & invariant & not(!thisFLIGHT.(thisFLIGHT:FLIGHT => (flight_state(thisFLIGHT)=pre_book => flight_state<+{(thisFLIGHT,booking)}:FLIGHT-->FLIGHT_STATE&sched:FLIGHT-->POW(ROUTESEG))))

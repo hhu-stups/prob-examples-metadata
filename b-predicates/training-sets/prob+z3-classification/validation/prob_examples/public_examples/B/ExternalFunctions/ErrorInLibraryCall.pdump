@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/ErrorInLibraryCall.mch
+8.732858633333333E7,5.3475399E7,-1.0,8.214848166666667E7:(sinx:NATURAL1*INTEGER-->INTEGER) & (sinx=%m,x.(x:INTEGER&m:NATURAL1|SINx(m,x))) & xx:NATURAL & xx:NATURAL

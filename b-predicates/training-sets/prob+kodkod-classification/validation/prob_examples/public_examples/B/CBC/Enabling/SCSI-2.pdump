@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/CBC/Enabling/SCSI-2.mch
+-1.0,-1.0,-1.0,-1.0:(maxi=3) & (SIZE=0..maxi) & (buf:DSK-->SIZE) & not((buf(jj)>0 => buf<+{(jj,buf(jj)-1)}:DSK-->SIZE))
+4.9867794E7,5.4698925333333336E7,7.265977466666667E7,1.7595230966666666E8:(maxi=3) & (SIZE=0..maxi) & (buf:DSK-->SIZE) & (buf(jj)<maxi => buf<+{(jj,buf(jj)+1)}:DSK-->SIZE)

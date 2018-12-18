@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/SimpleTest.mch
+5.3627769E7,5.3473466666666664E7,7.160375133333333E7,5.5443224E7:(root:PROC) & (not((x:PROC)) => (x=root))

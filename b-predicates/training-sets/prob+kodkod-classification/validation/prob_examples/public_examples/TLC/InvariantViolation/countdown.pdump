@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLC/InvariantViolation/countdown.mch
+4.7459759666666664E7,4.9652356666666664E7,7.160852466666667E7,7.457850133333333E7:not((card(nums)<2)) => not((nums:POW(NATURAL)) & (1234/:nums))

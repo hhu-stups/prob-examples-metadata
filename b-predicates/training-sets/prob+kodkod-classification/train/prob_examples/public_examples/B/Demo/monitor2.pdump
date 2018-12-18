@@ -1,0 +1,11 @@
+#source:examples/prob_examples/public_examples/B/Demo/monitor2.mch
+4.9552064666666664E7,5.5286453333333336E7,-1.0,1.10418883E8:not((ss:users)) => (in:POW(Staff)) & (out:POW(Staff)) & (users:POW(Staff)) & (in/\out={}) & (in\/out=users) & (card(in)<=max_user)
+6.994460233333333E7,6.3966211666666664E7,8.2745532E7,5.8635272666666664E7:not((in:POW(Staff)) & (out:POW(Staff)) & (users:POW(Staff)) & (in/\out={}) & (in\/out=users) & (card(in)<=max_user)) & (ss:users)
+4.9869307E7,6.943990566666667E7,6.6014703E7,6.7404777E7:(in:POW(Staff)) & (out:POW(Staff)) & (users:POW(Staff)) & (in/\out={}) & (in\/out=users) & (card(in)<=max_user) & (ss:in)
+5.2574632666666664E7,6.871646666666667E7,1.1324210033333333E8,6.2701548666666664E7:not((in:POW(Staff)) & (out:POW(Staff)) & (users:POW(Staff)) & (in/\out={}) & (in\/out=users) & (card(in)<=max_user)) & not((ss:in))
+4.8130655E7,7.059650033333333E7,-1.0,1.41188066E8:not((ss:out) & (card(in)<max_user)) => (in:POW(Staff)) & (out:POW(Staff)) & (users:POW(Staff)) & (in/\out={}) & (in\/out=users) & (card(in)<=max_user)
+1.2516696433333333E8,5.9387999333333336E7,-1.0,2.25033109E8:card(in)<=max_user & not(!ss.(ss/:users => card(in)<=3))
+4.7645258E7,9.2482431E7,-1.0,9.1298575E7:(not(card(in)<=max_user) => not(!ss.(ss/:users => card(in)<=3)))
+4.7441415E7,4.8117641E7,6.3952802333333336E7,5.1901339333333336E7:(not(in:POW(Staff)) => not(!ss.(ss/:users => in:POW(Staff))))
+4.7517518333333336E7,6.1310287333333336E7,6.5383384333333336E7,5.6091630333333336E7:users:POW(Staff) & !ss.(ss/:users => users:POW(Staff))
+1.4807293583333333E9,6.898433133333333E7,-1.0,1.5551659656666667E9:(in:POW(Staff)) & (out:POW(Staff)) & (users:POW(Staff)) & (in/\out={}) & (in\/out=users) & (card(in)<=max_user) & not((!ss.(ss/:users => in\/(out\/{ss})=users\/{ss})) & (!ss.(ss/:users => card(in)<=3)) & (!ss.(ss/:users => in:POW(Staff))) & (!ss.(ss/:users => in/\(out\/{ss})={})) & (!ss.(ss/:users => out:POW(Staff))) & (!ss.(ss/:users => users:POW(Staff))))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/Normalise_Tester.mch
+4.9139605666666664E7,6.7461326E7,7.2743701E7,6.0929024E7:not((A:POW(setB)) & (A={b1,b2})) => (fun:setB+->setC)

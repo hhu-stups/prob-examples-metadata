@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter16/RobustFifo.mch
+-1.0,-1.0,1.12516217E8,-1.0:(queue:seq(ELEM)) & (size(queue)<=cap) & not((ee:ELEM))
+4.7229608666666664E7,4.7881856666666664E7,6.800494666666667E7,6.0053656666666664E7:(not(size(queue)<=cap) => size(queue)<=cap)
+-1.0,-1.0,9.1156704E7,-1.0:(queue:seq(ELEM)) & (size(queue)<=cap) & not((queue:seq(ELEM)) & (size(queue)<=cap))

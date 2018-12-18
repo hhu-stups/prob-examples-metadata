@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/SimpleCounter.mch
+4.8972056E7,5.4735521666666664E7,6.1226058666666664E7,5.5942845E7:(not(count:1..MAX) => not(count=100/2&count:1..100))

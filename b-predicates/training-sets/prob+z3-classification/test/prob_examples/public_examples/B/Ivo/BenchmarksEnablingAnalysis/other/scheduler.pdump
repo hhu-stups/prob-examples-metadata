@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksEnablingAnalysis/other/scheduler.mch
+1.8971651366666666E8,1.05354226E8,7.731655866666667E7,2.4003967266666666E8:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & (active/={}) & (rr:waiting)
+5.6004212333333336E7,7.479629E7,4.5855948E7,2.07869474E8:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & (rr:waiting) & not((pp:waiting))
+7.3412455E7,1.2593871066666667E8,5.2630389E7,7.970992666666667E7:waiting<:PID & waiting<:PID
+-1.0,-1.0,6.5449710666666664E7,-1.0:ready/\waiting={} & not(ready/\waiting={})
+-1.0,-1.0,-1.0,-1.0:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & not((active:POW(PID)) & (active/\(ready\/waiting)={}) & (active={} => ready={}) & (ready<:PID) & (waiting<:PID) & (card(active)<=1) & (active<:PID) & (waiting:POW(PID)) & (ready:POW(PID)) & (ready/\waiting={}))
+-1.0,-1.0,2.5516950666666666E8,-1.0:active/\(ready\/waiting)={} & not(pp/:active&pp/:ready\/waiting => active/\(ready\/(waiting\/{pp}))={})

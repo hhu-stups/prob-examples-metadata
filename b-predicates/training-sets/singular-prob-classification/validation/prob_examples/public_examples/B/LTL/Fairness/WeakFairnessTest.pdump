@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/LTL/Fairness/WeakFairnessTest.mch
+4.7649588666666664E7,4.8015486666666664E7,5.993595E7,4.8040722666666664E7:(not(addr:INTEGER) => addr=0)
+4.7788595333333336E7,4.7874035E7,6.0057031666666664E7,4.9308156E7:(not((addr:INTEGER)) => not((addr=3)))

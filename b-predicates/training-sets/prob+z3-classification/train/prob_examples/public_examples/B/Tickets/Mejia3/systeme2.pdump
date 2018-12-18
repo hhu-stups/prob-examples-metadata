@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Mejia3/systeme2.mch
+9.699778626666666E8,5.1857293E7,2.3477217266666666E8,6.0085294333333336E7:not((xx:0..10) & (yy:0..10)) => not((xxp:0..10) & (yyp:0..10))
+9.77205621E8,5.2647500333333336E7,6.2045786E7,6.24698248E8:not(not((xx:0..10) & (yy:0..10))) => (xxp:0..10) & (yyp:0..10)

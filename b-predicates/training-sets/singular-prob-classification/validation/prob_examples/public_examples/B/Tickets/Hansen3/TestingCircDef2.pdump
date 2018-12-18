@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Hansen3/TestingCircDef2.mch
+-1.0,-1.0,6.3938298666666664E7,-1.0:not((k:INTEGER) & (k=IF_THEN_ELSE(bool(1=1),11,foo)) & (l:INTEGER) & (l=IF_THEN_ELSE(bool(1=2),11,foo))) => k=11

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/RefinementDevelopment/Old/ProtocolSpec.mch
+4.9057425666666664E7,6.5041324666666664E7,6.936347566666667E7,5.8059897333333336E7:(orig:Devices) & (dest:Devices) & (orig/=dest) & (msg_size:NATURAL1) & not((sent_orig:NATURAL) & (received_dest:NATURAL) & (received_dest<=sent_orig) & (Ether:POW(NATURAL)) & (Ether={i|i:1..sent_orig})) & not((received_dest=msg_size))
+7.913692566666667E7,1.2076863966666667E8,7.036672266666667E7,9.246646033333333E7:not((orig:Devices) & (dest:Devices) & (orig/=dest) & (msg_size:NATURAL1) & (nr:Ether) & (nr=received_dest+1)) => not((sent_orig:NATURAL) & (received_dest:NATURAL) & (received_dest<=sent_orig) & (Ether:POW(NATURAL)) & (Ether={i|i:1..sent_orig}))

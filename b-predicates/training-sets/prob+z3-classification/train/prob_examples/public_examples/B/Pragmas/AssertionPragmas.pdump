@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Pragmas/AssertionPragmas.mch
+5.2911407333333336E7,5.5459031333333336E7,9.103357333333333E7,6.0813297E7:not((a:1..10) & (b:1..10) & (c:7..10) & (a+b=c) & (a>b)) => b=c-a

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Ivo/CycleDetections.mch
+4.7537795666666664E7,4.8086608E7,5.9924333666666664E7,6.0046974666666664E7:yy<1 & xx=2&yy<1
+8.1863739E7,4.5704811333333336E7,5.9214932E7,7.5334417E7:(not(xx:INTEGER) => not(xx=0))

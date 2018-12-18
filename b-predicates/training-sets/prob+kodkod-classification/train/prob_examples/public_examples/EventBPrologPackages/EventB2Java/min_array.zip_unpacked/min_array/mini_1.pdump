@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/EventB2Java/min_array.zip_unpacked/min_array/mini_1.bcm
+4.7880180666666664E7,5.1851495666666664E7,1.0406539833333333E8,7.2155987E7:not((p<q) & (f(p)<=f(q))) => not((m:NAT) & (p:1 .. n) & (q:1 .. n) & (p<=q) & (min(ran(f)):f[p .. q]))
+4.9368941E7,5.2037576666666664E7,6.789327066666667E7,8.2167339E7:not(not((p=q))) => not((m:NAT) & (p:1 .. n) & (q:1 .. n) & (p<=q) & (min(ran(f)):f[p .. q]))
+-1.0,-1.0,-1.0,-1.0:(m:NAT) & (p:1 .. n) & (q:1 .. n) & (p<=q) & (min(ran(f)):f[p .. q]) & (p<q) & (f(p)>f(q))
+-1.0,-1.0,-1.0,-1.0:(m:NAT) & (p:1 .. n) & (q:1 .. n) & (p<=q) & (min(ran(f)):f[p .. q]) & not(!x oftype INT.x:1 .. n=>f(x)>=min(ran(f)))
+-1.0,-1.0,-1.0,-1.0:(m:NAT) & (p:1 .. n) & (q:1 .. n) & (p<=q) & (min(ran(f)):f[p .. q]) & not((!x oftype INT.x:1 .. n=>f(x)>=min(ran(f))))
+6.758629466666667E7,6.0413013E7,-1.0,6.413702E7:(m:NAT) & (p:1 .. n) & (q:1 .. n) & (p<=q) & (min(ran(f)):f[p .. q]) & (not((p<q) & (f(p)<=f(q))) => (p=q))

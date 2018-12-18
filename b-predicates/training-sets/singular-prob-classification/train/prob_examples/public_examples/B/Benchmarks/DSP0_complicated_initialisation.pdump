@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/DSP0_complicated_initialisation.mch
+4.7782845E7,5.0558082E7,-1.0,7.2148118E7:not(not((cellChannels:CELL-->POW(CHANNEL)))) => (union(ran(cellChannels))=CHANNEL)
+4.6612375666666664E7,5.0740320666666664E7,-1.0,7.854152866666667E7:(not(cellChannels:CELL-->POW(CHANNEL)) => not(union(ran(cellChannels))=CHANNEL&cellChannels:CELL-->POW(CHANNEL)))

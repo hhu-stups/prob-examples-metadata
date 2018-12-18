@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PrjMemCheck/PrjTestsOK_For_AtelierB.mch
+2.3433752293333335E9,1.19187873E9,-1.0,3.774876447E9:(p1:INTEGER*INTEGER+->INTEGER) & (p1=prj1({1},{2})) & (empty<:BOOL) & (empty={}) & {xx,yy|xx:BOOL*BOOL&yy:BOOL*BOOL&prj1(BOOL,BOOL)(xx)=prj2(BOOL,BOOL)(yy)&prj2(BOOL,BOOL)(xx)=prj1(BOOL,BOOL)(yy)}={((FALSE,FALSE),(FALSE,FALSE)),((FALSE,TRUE),(TRUE,FALSE)),((TRUE,FALSE),(FALSE,TRUE)),((TRUE,TRUE),(TRUE,TRUE))}

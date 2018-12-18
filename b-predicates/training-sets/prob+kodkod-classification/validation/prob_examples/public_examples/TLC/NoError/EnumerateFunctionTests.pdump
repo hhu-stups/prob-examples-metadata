@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/TLC/NoError/EnumerateFunctionTests.mch
+5.4613486E7,7.292000366666667E7,1.1055733166666667E8,5.2122992333333336E7:(not((funs<:ID<->ID)) => not((funs<:ID<->ID)))
+4.6317808E7,4.8007152333333336E7,6.4057494333333336E7,4.9212054E7:funs<:ID<->ID & funs<:ID<->ID
+4.8266496E7,4.8089169333333336E7,6.5330631E7,5.2031337333333336E7:(not((funs<:ID<->ID)) => (%x.(x:ID|x):funs => funs<:ID<->ID&(not(%x.(x:ID|x):funs) => (TRUE:BOOL => funs<:ID<->ID))))

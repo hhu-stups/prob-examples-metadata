@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Exam.mch
+4.8654837E7,5.1984218E7,4.4017422333333336E7,9.281254766666667E7:(not(marks:CANDIDATE+->0..100) => not(cc/:dom(marks)&nn:0..100&marks<+{(cc,nn)}:CANDIDATE+->0..100))
+4.9548991666666664E7,5.4754681666666664E7,4.7704133666666664E7,1.3007694633333333E8:(marks:CANDIDATE+->0..100) & not((cc/:dom(marks)&nn:0..100&marks<+{(cc,nn)}:CANDIDATE+->0..100))

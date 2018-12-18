@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/ForDistribution/GraphicalAnimation/Jars.mch
+4.7222019666666664E7,5.2242584E7,-1.0,9.412945133333333E7:not((maxf:Jars-->NATURAL) & (maxf={(j3,3),(j5,5)}) & (level:Jars-->NATURAL)) => not((j1:Jars) & (j2:Jars) & (j1/=j2) & (amount>0) & (amount=min({level(j1),maxf(j2)-level(j2)})))
+8.1625068E7,6.4138556333333336E7,-1.0,7.106553133333333E7:not((maxf:Jars-->NATURAL) & (maxf={(j3,3),(j5,5)}) & (j:Jars) & (level(j)<maxf(j))) => (level:Jars-->NATURAL)
+4.15326581E8,4.029777343333333E8,6.5492499333333336E7,4.35820435E8:not((maxf:Jars-->NATURAL) & (maxf={(j3,3),(j5,5)}) & (level:Jars-->NATURAL)) => (j:Jars) & (level(j)>0)
+4.4067047E8,4.14767851E8,-1.0,4.111663916666667E8:not((maxf:Jars-->NATURAL) & (maxf={(j3,3),(j5,5)}) & (j:Jars) & (level(j)>0)) => (level:Jars-->NATURAL)
+5.2509005E7,5.0018837666666664E7,-1.0,5.1339466E7:(maxf:Jars-->NATURAL) & (maxf={(j3,3),(j5,5)}) & not((level:Jars-->NATURAL)) & (j:Jars) & (level(j)>0)
+6.0030143E7,6.3106977333333336E7,-1.0,1.3018545633333333E8:(maxf:Jars-->NATURAL) & (maxf={(j3,3),(j5,5)}) & (level:Jars-->NATURAL) & (j1:Jars) & (j2:Jars) & (j1/=j2) & (amount>0) & (amount=min({level(j1),maxf(j2)-level(j2)})) & not((j:Jars) & (level(j)<maxf(j)))
+6.5946654E7,6.0043971666666664E7,-1.0,2.03170925E8:(maxf:Jars-->NATURAL) & (maxf={(j3,3),(j5,5)}) & level:Jars-->NATURAL & j1/=j2&amount>0&amount=min({level(j1),maxf(j2)-level(j2)})&level<+{(j1,level(j1)-amount),(j2,level(j2)+amount)}:Jars-->NATURAL
+2.75274903E8,2.2436202733333334E8,-1.0,3.31851208E8:(maxf:Jars-->NATURAL) & (maxf={(j3,3),(j5,5)}) & (not((level:Jars-->NATURAL)) => (j1/=j2&amount>0&amount=min({level(j1),maxf(j2)-level(j2)})&level<+{(j1,level(j1)-amount),(j2,level(j2)+amount)}:Jars-->NATURAL))

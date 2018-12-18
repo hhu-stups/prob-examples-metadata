@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/CBC/ZB2002/DbAbstr.mch
+5.7682381666666664E7,7.235617533333333E7,7.080742133333333E7,6.7688705E7:(abstDb:STUDENTS+->GRADES) & (st:STUDENTS) & (gr:GRADES) & (st/:dom(abstDb))
+4.7663137E7,6.6566635E7,6.6467158E7,7.153905566666667E7:(abstDb:STUDENTS+->GRADES) & (st/:dom(abstDb)&abstDb\/{(st,gr)}:STUDENTS+->GRADES)

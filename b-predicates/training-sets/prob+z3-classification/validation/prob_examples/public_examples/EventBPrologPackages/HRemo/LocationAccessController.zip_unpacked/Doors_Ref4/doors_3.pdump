@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/HRemo/LocationAccessController.zip_unpacked/Doors_Ref4/doors_3.bcm
+1.3683376433333334E8,1.0146511433333333E8,6.8227298E7,1.33457707E8:not((sit:P --> L) & (sit<:aut) & (dap:P >+> D) & (red<:D) & (dap;org<:sit) & (dap;dst<:aut) & (red/\ran(dap)=({} oftype POW(D))) & (mCard:D +-> P) & (mAckn<:D) & (BLR<:D) & (partition(BLR,dom(mCard),ran(dap),red,mAckn))) & not((d:mAckn))
+5.3905295333333336E7,8.991939566666667E7,4.8473063666666664E7,7.6805414E7:not(not((d:red))) => (sit:P --> L) & (sit<:aut) & (dap:P >+> D) & (red<:D) & (dap;org<:sit) & (dap;dst<:aut) & (red/\ran(dap)=({} oftype POW(D))) & (mCard:D +-> P) & (mAckn<:D) & (BLR<:D) & (partition(BLR,dom(mCard),ran(dap),red,mAckn))

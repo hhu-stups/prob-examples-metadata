@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/ABZ_Landing_Gear/LandingGear.zip_unpacked/LandingGearFinal/Mch0_GearDoor.bcm
+4.8740765333333336E7,4.7984034666666664E7,7.593125733333333E7,5.1031536333333336E7:not(not((gear=gear_moving))) => (gear:GEAR_STATE) & (door:DOOR_STATE)
+1.2543690133333333E8,1.1277902933333333E8,1.47308793E8,6.750665233333333E7:not(not((gear:GEAR_STATE) & (door:DOOR_STATE))) => (gear=retracted)
+5.0456183666666664E7,4.9540517333333336E7,7.051394833333333E7,6.2751764666666664E7:(gear:GEAR_STATE) & (door:DOOR_STATE) & (door=closed) & (gear=gear_moving)

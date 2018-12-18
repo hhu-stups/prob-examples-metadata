@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/MobileComm/WarnApp/WarningApp.mch
+-1.0,-1.0,7.1851665E7,-1.0:(loc:Persons-->Locations) & (nextId:NATURAL) & (reports:seq(Locations)) & (dangers<:Locations) & ((p:Persons) & (newloc:Locations) => not((l:Locations)))
+-1.0,-1.0,7.206044366666667E7,-1.0:(loc:Persons-->Locations) & (nextId:NATURAL) & (reports:seq(Locations)) & (dangers<:Locations) & (i:dom(reports)) & not((l:Locations))
+-1.0,-1.0,-1.0,-1.0:(loc:Persons-->Locations) & (nextId:NATURAL) & (reports:seq(Locations)) & (dangers<:Locations) & not((nextId:NATURAL) & (dangers<:Locations) & (reports:seq(Locations)) & (loc<+{(p,newloc)}:Persons-->Locations))
+-1.0,-1.0,6.5364038333333336E7,-1.0:nextId:NATURAL & not(!p.(l=loc(p) => nextId+1:NATURAL))

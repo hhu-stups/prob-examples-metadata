@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSPB/NeilEvans/test.mch
+7.4135824E7,3.70683637E8,1.34349254E8,1.3036005933333333E8:custObj<:CUST & not(cc:custObj&!xx.((cc,xx):assoc => custObj<:CUST))

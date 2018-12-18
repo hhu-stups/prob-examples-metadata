@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Puzzles/Hanoi.mch
+-1.0,-1.0,-1.0,-1.0:(orig:Stakes) & (dest:Stakes) & (orig/=dest) & (nrdiscs=5) & (on:Stakes-->seq(INTEGER)) & (from:Stakes) & (on(from)/=[]) & (to:Stakes) & (to/=from) & (disc:NATURAL1) & (disc=first(on(from))) & (on(to)/=[] => first(on(to))>disc)
+1.7589548233333334E8,3.94654213E8,-1.0,1.2065135333333333E8:(orig:Stakes) & (dest:Stakes) & (orig/=dest) & (nrdiscs=5) & not((on:Stakes-->seq(INTEGER))) & (from:Stakes) & (on(from)/=[]) & (to:Stakes) & (to/=from) & (disc:NATURAL1) & (disc=first(on(from))) & (on(to)/=[] => first(on(to))>disc)

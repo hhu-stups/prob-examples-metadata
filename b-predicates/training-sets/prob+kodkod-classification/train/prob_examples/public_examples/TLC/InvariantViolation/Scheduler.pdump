@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/TLC/InvariantViolation/Scheduler.mch
+7.373814766666667E7,5.3829796333333336E7,-1.0,1.28079672E8:(state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3) & not((p:dom(state)) & (state(p)=idle))
+5.5430838666666664E7,5.6497897E7,7.535276166666667E7,1.49480694E8:not((state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3)) & (p:dom(state)) & (state(p)=idle)
+4.9952069666666664E7,5.5701287666666664E7,-1.0,1.82797477E8:not((p:dom(state)) & (state(p)=idle)) => not((state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3))
+-1.0,-1.0,5.8474521333333336E7,-1.0:(state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3) & (p:PROCESSES) & (p/:dom(state)) & (p:dom(state)) & (state(p)=idle)
+5.1118092666666664E7,5.5788635E7,-1.0,1.6741130266666666E8:(state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3) & (p:PROCESSES) & (p/:dom(state)) & not((p:dom(state)) & (state(p)=idle))
+-1.0,-1.0,6.2665883666666664E7,-1.0:(state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3) & (p:PROCESSES) & (p/:dom(state)) & (p:dom(state)) & (state(p)=active)
+4.8464286333333336E7,5.3261801E7,-1.0,1.0871219533333333E8:(state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3) & (not((p:PROCESSES) & (p/:dom(state))) => (p:dom(state)) & (state(p)=idle))
+8.117056433333333E7,5.5313412E7,-1.0,1.4656170066666666E8:(state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3) & (p:dom(state)) & (state(p)=idle) & not((queue/=[]) & (state~[{active}]={}))
+-1.0,-1.0,7.026573266666667E7,-1.0:(state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3) & (p:dom(state)) & (state(p)=active) & (p:dom(state)) & (state(p)=idle)
+-1.0,-1.0,-1.0,-1.0:(state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3) & (p:dom(state)) & (state(p)=active) & (queue/=[]) & (state~[{active}]={})
+8.131681166666667E7,5.6408733E7,-1.0,1.47270241E8:(state:PROCESSES+->STATE) & (queue:iseq(PROCESSES)) & (!x.(x:ran(queue) => state(x)=ready)) & (card(queue)<3) & (p:dom(state)) & (state(p)=active) & not((queue/=[]) & (state~[{active}]={}))

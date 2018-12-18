@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/HeapSort_Chapter17/Counter.mch
+7.4856912E7,5.0116289E7,6.0042342666666664E7,5.5917888666666664E7:not((counter:NAT)) => (counter>0)

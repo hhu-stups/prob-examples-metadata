@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Abrial_Teaching/ch4_brp_bms.zip_unpacked/ch4_brp/brp_1_superposition.bcm
+6.884357766666667E7,5.6394415E7,7.6014811E7,7.070012166666667E7:not((i:0 .. n) & (g:1 .. i --> D) & (r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success)) => (s_st/=working) & (r_st/=working)
+5.2468171E7,5.6615137E7,5.6227075666666664E7,6.9990767E7:not((s_st/=working) & (r_st/=working)) => (i:0 .. n) & (g:1 .. i --> D) & (r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success)
+5.1795273666666664E7,5.6166709333333336E7,-1.0,7.6697742E7:not((i:0 .. n) & (g:1 .. i --> D) & (r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success)) & not((s_st/=working) & (r_st/=working))
+-1.0,-1.0,6.6431655333333336E7,-1.0:(i:0 .. n) & (g:1 .. i --> D) & (r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & (s_st/=working) & (r_st/=working) & (s_st=working) & (r_st=success)
+-1.0,-1.0,7.211010133333333E7,-1.0:(i:0 .. n) & (g:1 .. i --> D) & (r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & (r_st=working) & (s_st=failure) & (s_st=working) & (r_st=success)
+-1.0,-1.0,6.828203066666667E7,-1.0:(i:0 .. n) & (g:1 .. i --> D) & (r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & (r_st=working) & (r+1=n) & (r_st=working) & (r+1<n)
+-1.0,-1.0,6.797926866666667E7,-1.0:(i:0 .. n) & (g:1 .. i --> D) & (r:0 .. n) & (h=1 .. r <| f) & (r_st=success<=>r=n) & (s_st=success=>r_st=success) & (s_st=working) & (r_st=success) & not((s_st=working))

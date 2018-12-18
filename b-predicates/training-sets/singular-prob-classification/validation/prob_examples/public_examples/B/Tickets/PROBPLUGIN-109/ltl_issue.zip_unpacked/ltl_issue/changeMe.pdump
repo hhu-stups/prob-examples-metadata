@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROBPLUGIN-109/ltl_issue.zip_unpacked/ltl_issue/changeMe.bcm
+4.5725391333333336E7,4.5794673E7,5.8976936333333336E7,4.8925449E7:(done:{0,1}) & (done=0) & (done=1)

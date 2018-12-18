@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tutorial/SimpleCounterForMC.mch
+6.9382892E7,7.3106387E7,1.53927558E8,1.0132333633333333E8:not(not((y:1..MAX-count))) => (count:1..MAX)
+8.085083066666667E7,6.2626981666666664E7,8.334598033333333E7,9.2706575E7:not(not((y:1..MAX-count))) => not((count:1..MAX))
+6.1654860666666664E7,5.4528722E7,1.0604877433333333E8,1.8780321166666666E8:not((y:1..MAX-count)) => not((count:1..MAX))
+6.6945827E7,6.932615766666667E7,8.686328066666667E7,7.579962966666667E7:(not(count:1..MAX) => not(!count.(count:1..6 => count:1..6)))

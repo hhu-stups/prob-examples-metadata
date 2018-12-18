@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Records/RecordsTest.zip_unpacked/RecordsTest/SampleRecordMachine.bcm
+4.8914204333333336E7,7.0220312E7,-1.0,6.1630299666666664E7:not((f1=fld1(x))) => not((x:rec1))
+5.3203669666666664E7,9.817454166666667E7,-1.0,6.4810150333333336E7:not((x:rec1)) => not((f2=fld2(x)))
+5.0363155E7,6.795710533333333E7,-1.0,6.4687905E7:not((f2=fld2(x))) => not((x:rec1))

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Voting/Condorcet.mch
+-1.0,-1.0,-1.0,-1.0:not((prefs:VOTERS-->perm(CHOICES)) & (prefs(Anna)=[H,F,E,G]) & (prefs(Belle)=[F,H,E,G]) & (prefs(Chris)=[E,G,H,F]) & (prefs(David)=[G,E,H,F]) & (prefs(Edgar)=[G,E,F,H])) => (A:CHOICES) & (B:CHOICES) & (prefered(A,B))
+7.6452739E7,6.4032211333333336E7,-1.0,2.4310956933333334E8:(prefs:VOTERS-->perm(CHOICES)) & (prefs(Anna)=[H,F,E,G]) & (prefs(Belle)=[F,H,E,G]) & (prefs(Chris)=[E,G,H,F]) & (prefs(David)=[G,E,H,F]) & (prefs(Edgar)=[G,E,F,H]) & (A:CHOICES) & not((V:VOTERS) & (A:CHOICES) & (B:CHOICES) & (prefers(V,A,B)))

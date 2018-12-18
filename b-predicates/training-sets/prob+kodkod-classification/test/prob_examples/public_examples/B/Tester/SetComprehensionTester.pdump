@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/SetComprehensionTester.mch
+4.8495552333333336E7,7.211741133333333E7,6.7983296E7,5.8515797666666664E7:(iv:POW(ID)) & (iv={xx|xx:ID&xx/:{yy|yy:ID&yy/=aa&yy/=bb}}) & not((xx:ID)) & not((yy:ID))

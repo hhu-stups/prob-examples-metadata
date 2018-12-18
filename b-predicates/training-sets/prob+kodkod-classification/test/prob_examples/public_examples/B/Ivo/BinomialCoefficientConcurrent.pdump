@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BinomialCoefficientConcurrent.mch
+2.1052046266666666E8,5.5374406666666664E7,6.9551838E7,5.8388174666666664E7:not((n=20) & (k=6) & (y1:INTEGER) & (y2:INTEGER) & (y3:INTEGER) & (addr1:0..3) & (addr2:0..4)) => (addr1=2)
+5.1433681666666664E7,7.917731733333333E7,6.746463133333333E7,9.465307433333333E7:(n=20) & (k=6) & (y1:INTEGER) & (y2:INTEGER) & (y3:INTEGER) & (addr1:0..3) & (addr2:0..4) & not((addr1=1))
+4.9382746333333336E7,1.416850402E9,2.119475435E9,2.7852179153333335E9:(n=20) & (k=6) & (y1:INTEGER) & (y2:INTEGER) & (y3:INTEGER) & (addr1:0..3) & (addr2:0..4) & (not((addr1=2)) => (addr1=3))
+4.8028337333333336E7,6.4083452E7,8.330572866666667E7,7.816450233333333E7:(n=20) & (k=6) & (y1:INTEGER) & (y2:INTEGER) & (y3:INTEGER) & (addr1:0..3) & (addr2:0..4) & (addr2=3) & (y2<=n-y1) & not((addr2=4))
+4.7432335333333336E7,5.1029789666666664E7,6.739674566666667E7,6.417804E7:(n=20) & (k=6) & y3:INTEGER & addr2=3&y2<=n-y1
+4.8683518666666664E7,5.1535300666666664E7,6.0070790333333336E7,2.23858432E9:(n=20) & (k=6) & y1:INTEGER & not(addr1=1&(y1=n-k => y1:INTEGER&(not(y1=n-k) => (TRUE:BOOL => y1:INTEGER))))
+8.013244366666667E7,7.6300764E7,4.068446366666667E8,1.3885615866666666E8:(n=20) & (k=6) & (y1:INTEGER) & (y2:INTEGER) & (y3:INTEGER) & (addr1:0..3) & (addr2:0..4) & (addr1=1&(y1=n-k => y3:INTEGER&(not(y1=n-k) => (TRUE:BOOL => y3:INTEGER)))) & (addr1=1&(y1=n-k => y2:INTEGER&(not(y1=n-k) => (TRUE:BOOL => y2:INTEGER)))) & (addr1=1&(y1=n-k => y1:INTEGER&(not(y1=n-k) => (TRUE:BOOL => y1:INTEGER)))) & (addr1=1&(y1=n-k => addr2:0..4&(not(y1=n-k) => (TRUE:BOOL => addr2:0..4)))) & (addr1=1&(y1=n-k => 0:0..3&(not(y1=n-k) => (TRUE:BOOL => 2:0..3))))
+7.92603864E8,5.3386794E7,6.1786278666666664E7,7.3288277E7:(n=20) & (k=6) & addr1:0..3 & not(addr2=1&(y2=k => addr1:0..3&(not(y2=k) => (TRUE:BOOL => addr1:0..3))))
+5.8847311E7,4.8465777E7,1.4802862153333333E9,6.5650504E7:(n=20) & (k=6) & (not(y2:INTEGER) => addr2=2)
+5.9641243666666664E7,5.8040248666666664E7,6.1206317E7,6.4333879333333336E7:(n=20) & (k=6) & y2:INTEGER & not(addr2=2)
+9.470783033333333E7,6.0322662E7,1.1470252833333333E8,5.057049131E9:(n=20) & (k=6) & (not(y1:INTEGER) => not(addr2=2))

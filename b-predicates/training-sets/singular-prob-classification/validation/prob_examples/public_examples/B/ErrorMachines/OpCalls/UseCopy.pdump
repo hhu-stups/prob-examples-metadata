@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/ErrorMachines/OpCalls/UseCopy.mch
+8.3278048E7,5.4956127333333336E7,6.2572296E7,5.9902659E7:(not(ww:0..10) => zz:INT&zz:INT&ww:INT&zz:0..10)

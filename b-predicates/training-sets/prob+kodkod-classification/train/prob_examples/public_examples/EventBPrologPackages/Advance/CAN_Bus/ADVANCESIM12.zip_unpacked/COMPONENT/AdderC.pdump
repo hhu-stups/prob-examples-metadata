@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/AdderC.bcm
+8.768817566666667E7,6.6454074333333336E7,9.310927966666667E7,4.8095804666666664E7:(o_sum:NAT)
+6.5475062666666664E7,5.3028158333333336E7,7.3578444E7,6.2953979E7:(o_sum:NAT) & (p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE)
+4.9260011666666664E7,5.1951252333333336E7,6.8077279E7,5.9987842666666664E7:not(not((p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE))) => (o_sum:NAT)
+7.4526423E7,5.2029917E7,7.5498218E7,6.844324766666667E7:not((o_sum:NAT)) & not((p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE))
+4.8119014666666664E7,4.7873616E7,6.2667815333333336E7,5.9940629666666664E7:(o_sum:NAT) & not((pv:INT) & (pv=o_sum) & (data_ready=TRUE))
+4.7945948E7,4.7936729333333336E7,6.2710302333333336E7,5.5993596333333336E7:not((o_sum:NAT)) => not((pv:INT) & (pv=o_sum) & (data_ready=TRUE))
+4.8023005666666664E7,4.7925438333333336E7,6.3983857666666664E7,6.3933177E7:not((o_sum:NAT)) & (pv:INT) & (pv=o_sum) & (data_ready=TRUE)
+8.137084533333333E7,4.6212208E7,6.6565797E7,5.9108913333333336E7:(o_sum:NAT) & data_ready:BOOL
+9.973803166666667E7,5.3226182E7,-1.0,6.6595200333333336E7:(o_sum:NAT) & (not((p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE)) => (pv:INT) & (pv=o_sum) & (data_ready=TRUE))

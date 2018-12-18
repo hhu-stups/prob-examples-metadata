@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BeverageVendingMachine.mch
+9.742277066666667E7,1.0578631066666667E8,6.536313E7,6.1457699E7:not((nmax:NATURAL) & (nmax=1) & not((nsoda:NATURAL) & (nbeer:NATURAL) & (paid:BOOL))) => not((paid=TRUE) & (nsoda=0) & (nbeer=0))
+8.7376521E7,5.3282660666666664E7,6.522552E7,5.9932435E7:not((nmax:NATURAL) & (nmax=1) & (nsoda:NATURAL) & (nbeer:NATURAL) & (paid:BOOL)) => not((nbeer>0) & (paid=TRUE))
+1.0947304633333333E8,6.3972404E7,6.4030093E7,6.998927733333333E7:(nmax:NATURAL) & (nmax=1) & nbeer:NATURAL & nsoda>0&paid=TRUE&nbeer:NATURAL
+4.7933888666666664E7,5.8886515333333336E7,6.3825644E7,7.392227266666667E7:(nmax:NATURAL) & (nmax=1) & nbeer:NATURAL & paid=TRUE&nsoda=0&nbeer=0&nbeer:NATURAL
+1.4666588066666666E8,6.4712442333333336E7,6.3766419E7,5.9635958666666664E7:(nmax:NATURAL) & (nmax=1) & (not(nsoda:NATURAL) => not(nbeer>0&paid=TRUE&nsoda:NATURAL))

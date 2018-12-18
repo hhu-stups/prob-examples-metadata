@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Ticket_ThmGuard/PB_ParseError.zip_unpacked/PB_ParseError/M1.bcm
+5.8354278E7,5.2095614333333336E7,1.37989894E8,4.8862964333333336E7:(not((true) & true) => true)

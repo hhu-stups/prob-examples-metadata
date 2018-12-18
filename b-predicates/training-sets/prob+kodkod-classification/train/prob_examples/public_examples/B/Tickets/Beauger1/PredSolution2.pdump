@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Beauger1/PredSolution2.mch
+9.050843733333333E7,5.1774298333333336E7,1.8000762033333334E8,7.799250633333333E7:not((t_x=1..256) & (f_x=%x.(x:dom(id(t_x))|pred(id(t_x)(x))))) => f_x(256)=255
+1.71423545E8,1.3161673733333333E8,-1.0,3.996824294E9:(t_x=1..256) & (f_x=%x.(x:dom(id(t_x))|pred(id(t_x)(x)))) & not(ran(f_x)=0..255)
+-1.0,-1.0,-1.0,-1.0:not((t_x=1..256) & (f_x=%x.(x:dom(id(t_x))|pred(id(t_x)(x))))) => card(closure1(f_x))=32896

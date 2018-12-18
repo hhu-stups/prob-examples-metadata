@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/TLA/TLA_Distribution/AlternatingBit/ABCorrectness.mch
+1.0718034266666667E8,5.2952590666666664E7,-1.0,7.0817036E7:(Data={d1,d2}) & TypeInv & d:Data&sAck=sBit => !sent_n,sBit_n.(sent_n=d&sBit_n=1-sBit => sBit_n:{0,1}&sAck:{0,1}&rBit:{0,1}&sent_n:Data&rcvd:Data)
+6.3509076666666664E7,5.36058275E8,7.845716066666667E7,6.5659024333333336E7:(Data={d1,d2}) & TypeInv & not(d:Data&sAck=sBit => !sent_n,sBit_n.(sent_n=d&sBit_n=1-sBit => sBit_n:{0,1}&sAck:{0,1}&rBit:{0,1}&sent_n:Data&rcvd:Data))
+6.4381441333333336E7,5.9508149333333336E7,7.369051633333333E7,5.3594199E7:(Data={d1,d2}) & rcvd:ENUM & d:Data&sAck=sBit => !sent_n,sBit_n.(sent_n=d&sBit_n=1-sBit => rcvd:ENUM)
+6.2640600666666664E7,5.8189476E7,7.174022166666667E7,7.7795624E7:(Data={d1,d2}) & (not(TypeInv) => rBit/=sAck => !sAck_n.(sAck_n=rBit => sBit:{0,1}&sAck_n:{0,1}&rBit:{0,1}&sent:Data&rcvd:Data))

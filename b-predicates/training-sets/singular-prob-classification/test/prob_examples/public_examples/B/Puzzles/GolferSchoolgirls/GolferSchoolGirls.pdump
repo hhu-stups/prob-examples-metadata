@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/GolferSchoolgirls/GolferSchoolGirls.mch
+-1.0,-1.0,-1.0,-1.0:(group_size=3) & (groups=5) & (card(Girls)=group_size*groups) & (card(Days)=5) & (walk:Days-->POW(POW(Girls))) & (!d.(d:Days => card(walk(d))=groups&!a.(a:walk(d) => card(a)=group_size))) & (!d.(d:Days => !g1.(g1:walk(d) => !g2.(g2:walk(d)&g1/=g2 => g1/\g2={})))) & (!d1,d2.(d1:Days&d2:Days&d1/=d2 => walk(d1)/\walk(d2)={})) & not(!d,g1,g2.(d:Days&g1:walk(d)&g2:walk(d)&g1/=g2 => g1/\g2={}))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/OLSR/Rodin_model.zip_unpacked/OLSR/M0.bcm
+1.4281748633333334E8,1.03692399E8,-1.0,7.1938012E7:(sent_packet<:MSG) & (lost_packet<:sent_packet) & (got_packet<:sent_packet) & (got_packet/\lost_packet=({} oftype POW(MSG))) & (links:NODES <-> NODES) & (NODES <| (id oftype POW(NODES**NODES))/\links=({} oftype POW(NODES**NODES))) & ((msg:MSG&msg/:sent_packet) & (source(msg)=s&destination(msg)=d) & (s/=d) & (s |-> d:closure(links)) => not((msg:sent_packet \ (got_packet\/lost_packet))))

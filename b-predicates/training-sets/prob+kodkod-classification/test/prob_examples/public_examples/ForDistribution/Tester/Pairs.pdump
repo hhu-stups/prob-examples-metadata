@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/Pairs.mch
+4.7766781666666664E7,6.3923096E7,-1.0,4.7905509666666664E7:(pairs:POW(setB*setC)) & not((!xx.(xx:pairs&prj1(setB,setC)(xx)=bb => pairs:POW(setB*setC))))

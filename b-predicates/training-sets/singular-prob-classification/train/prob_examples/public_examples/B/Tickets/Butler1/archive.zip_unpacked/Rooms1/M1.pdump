@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Butler1/archive.zip_unpacked/Rooms1/M1.bcm
+4.8544255E7,4.7870542666666664E7,6.1226361333333336E7,5.2153047E7:not(not((authorised:User <-> Activity) & (takeplace:Room <-> Activity) & (location:User +-> Room) & (!u oftype User,r oftype Room.u:dom(location)&location(u)=r=>takeplace[{r}]<:authorised[{u}]))) => (u:User) & (a:Activity)

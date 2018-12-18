@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/SimpleDependence.mch
+7.302923566666667E7,6.4219339666666664E7,5.6861211333333336E7,6.2779212E7:(x:INTEGER) & (y:INTEGER) & (x=5)

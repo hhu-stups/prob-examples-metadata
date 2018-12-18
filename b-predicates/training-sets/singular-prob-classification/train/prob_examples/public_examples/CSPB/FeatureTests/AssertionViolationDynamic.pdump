@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSPB/FeatureTests/AssertionViolationDynamic.mch
+1.24816501E8,9.216411733333333E7,9.317816633333333E7,6.5911687E7:(a:2..3) & (xx:NATURAL) & not(xx<=a+2)

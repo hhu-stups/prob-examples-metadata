@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tester/PartialFunNATURAL.mch
+-1.0,-1.0,-1.0,-1.0:(f:INTEGER+->ID) & not((f<+{(1,yy)}:INTEGER+->ID))
+-1.0,-1.0,-1.0,-1.0:(f:INTEGER+->ID) & not((f<+{(0,yy)}:INTEGER+->ID))
+5.2753542666666664E7,5.3582116E7,9.6892512E7,6.4808683333333336E7:f:INTEGER+->ID & {}:INTEGER+->ID

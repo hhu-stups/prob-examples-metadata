@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Reading.mch
+-1.0,-1.0,7.196143233333333E7,-1.0:(copyof:COPY-->>BOOK) & (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={}) & not((rr:READER) & (bb:BOOK))
+-1.0,-1.0,7.0466736E7,-1.0:(copyof:COPY-->>BOOK) & (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={}) & not((rr:READER))
+4.9685904E7,7.118600766666667E7,9.576068766666667E7,5.869259E7:(copyof:COPY-->>BOOK) & (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={}) & (rr:READER) & (cc:COPY) & (cc=reading(rr)) & (rr:READER)
+8.472867466666667E7,8.276099E7,5.3156480666666664E7,8.809367466666667E7:(copyof:COPY-->>BOOK) & hasread:READER<->BOOK & not(copyof(cc)/:hasread[{rr}]&rr/:dom(reading)&cc/:ran(reading))
+-1.0,-1.0,-1.0,-1.0:(copyof:COPY-->>BOOK) & (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={}) & not((rr:dom(reading) => (reading;copyof)/\hasread={}&(not(rr:dom(reading)) => (TRUE:BOOL => (reading;copyof)/\hasread={}))) & (rr:dom(reading) => hasread:READER<->BOOK&(not(rr:dom(reading)) => (TRUE:BOOL => hasread:READER<->BOOK))) & (rr:dom(reading) => reading:READER>+>COPY&(not(rr:dom(reading)) => (TRUE:BOOL => reading:READER>+>COPY))))

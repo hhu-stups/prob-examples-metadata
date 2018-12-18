@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tutorial/Propagation2.mch
+4.043492543333333E8,5.070300909333333E9,2.954884136666667E8,7.4982184E7:(f:low..up-->0..1) & (invert:0..1-->0..1) & (fi=(f;invert)) & (invert={(0,1),(1,0)}) & (low=0) & (up=100) & xx:low..up & not(xx:low..up)

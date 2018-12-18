@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tester/PrjTest.mch
+5.5674142E7,5.3422063666666664E7,-1.0,7.197384033333333E7:not((p1:S*T-->S)) & (x:S) & (y:T)
+-1.0,-1.0,7.1891335E7,-1.0:(p1:S*T-->S) & not((p1:S*T-->S))
+-1.0,-1.0,6.6698239666666664E7,-1.0:p1:S*T-->S & not(p1:S*T-->S)

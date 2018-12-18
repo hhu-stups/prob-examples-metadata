@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/TestCaseGeneration/EnableTest.mch
+6.1715296333333336E7,1.21328441E8,1.04636095E8,1.2228817666666667E8:(iv:ID) & (xx:ID) & (zz:0..10) & (zz>0) & not((zz>8))
+4.8938090333333336E7,7.057831833333333E7,6.3745512666666664E7,6.4036542E7:(iv:ID) & (xx:ID) & (zz:0..10) & not((zz>8) & (zz>8&zz:0..10))
+5.2716899E7,5.6697503666666664E7,6.7165617E7,5.7568819666666664E7:(iv:ID) & (not((xx:ID) & (zz:0..10)) => not((zz>8) & (zz>8&zz:0..10)))

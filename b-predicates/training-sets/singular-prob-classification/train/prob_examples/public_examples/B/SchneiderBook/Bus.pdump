@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Bus.mch
+2.34504378E8,7.3633409E7,1.16620743E8,9.942302466666667E7:not((tickets:NAT) & (passengers:NAT) & (tickets<=passengers)) => (mm:NAT) & (tickets+mm<=passengers)
+1.4777267866666666E8,6.4366635E7,6.4097536E7,8.404020333333333E7:tickets<=passengers & 2*tickets<=2*passengers
+-1.0,-1.0,9.443249266666667E7,8.1095904E7:tickets<=passengers & not(2*tickets<=2*passengers)
+6.1103603333333336E7,6.784156466666667E7,6.975901033333333E7,8.221892866666667E7:(not(passengers:NAT) => 2*passengers:NAT)

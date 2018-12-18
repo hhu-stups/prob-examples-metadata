@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Demo/phonebook4.mch
+-1.0,-1.0,5.9934600333333336E7,-1.0:(db:Name+->Code) & (nn:Name) & not((nn:Name) & (cc:Code))

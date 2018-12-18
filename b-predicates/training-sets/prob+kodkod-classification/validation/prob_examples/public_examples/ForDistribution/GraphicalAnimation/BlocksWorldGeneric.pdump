@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/GraphicalAnimation/BlocksWorldGeneric.mch
+5.3163580666666664E7,6.6926061666666664E7,-1.0,7.307451633333333E7:not((obj/:ran(on)) & (obj:dom(on))) => not((on:Objects+->Objects))
+8.1659337E7,7.2992103E7,-1.0,6.2285131666666664E7:not((obj/:ran(on)) & (onobj/:ran(on)) & (obj/=onobj)) => (on:Objects+->Objects)

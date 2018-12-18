@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/TLC/others/TautologiesPL.mch
+4.7337817E7,6.6599577E7,6.5656999E7,5.9864246333333336E7:(p:BOOL) & (q:BOOL) & (r:BOOL) & not(P&Q <=> not(P => not(Q)))
+4.7247302333333336E7,8.3438869E7,6.183717E7,6.0145148666666664E7:(p:BOOL) & (q:BOOL) & (r:BOOL) & not(P <=> Q <=> (P => Q&(Q => P)))
+4.729235E7,6.1434604666666664E7,6.2681225333333336E7,5.6023162666666664E7:not((p:BOOL) & (q:BOOL) & (r:BOOL)) => P <=> Q => (Q <=> R => P <=> R)

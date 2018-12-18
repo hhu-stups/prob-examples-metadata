@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Hansen6/PerfectNumber_v2.mch
+-1.0,-1.0,-1.0,-1.0:not((perfect=%n.(n:NATURAL|bool(SIGMA(x).(x:1..n-1&#p.(p:1..n&x*p=n)|x)=n))) & (perfectNumberGreater7=min({x|x:NATURAL&x>7&x<100&perfect(x)=TRUE&not(#y.(y>7&y<x&perfect(y)=TRUE))}))) => not((x:1..100) & (perfect(x)=TRUE))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter11/Price.mch
+5.0404128666666664E7,4.7861673E7,6.5335985666666664E7,6.797465866666667E7:(price:GOODS-->NAT1) & not((gg:GOODS) & (pp:NAT1))

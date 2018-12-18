@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Corinna/Weighted_Graph2.mch
+6.6171286666666664E7,7.33411E7,-1.0,1.7969245066666666E8:(n:NAT1) & (n=2) & (Edges:Nodes<->Nodes) & (weight:Edges-->NAT) & (Edges/\Edges~={}) & (closure1(All_Edges)=Nodes*Nodes) & (not(Read:POW(Edges)) => Read:POW(Edges))
+5.6089395333333336E7,6.6683317E7,-1.0,1.6416561533333334E8:(n:NAT1) & (n=2) & (Edges:Nodes<->Nodes) & (weight:Edges-->NAT) & (Edges/\Edges~={}) & (closure1(All_Edges)=Nodes*Nodes) & (not((Read:POW(Edges))) => not((Read:POW(Edges))))
+6.3825644E7,6.896424033333333E7,-1.0,1.3107597933333333E8:(n:NAT1) & (n=2) & (Edges:Nodes<->Nodes) & (weight:Edges-->NAT) & (Edges/\Edges~={}) & (closure1(All_Edges)=Nodes*Nodes) & (not((Read:POW(Edges))) => (Read/=Edges&!i,j.(i:1..n&j:1..n&(i,j):Edges-Read => Read\/{(i,j)}:POW(Edges))))

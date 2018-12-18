@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/Sets_Simple.mch
+4.6128631333333336E7,5.018648E7,6.6242805E7,5.1588380666666664E7:(not((xx:POW(AA))) => not((!yy.(yy:AA => xx:POW(AA)))))

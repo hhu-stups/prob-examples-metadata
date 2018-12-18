@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Compilers/Dataflow/RelTest.mch
+7.7698079E7,8.516644E7,4.4931295333333336E7,3.9390807076666665E9:(rels:{cc,ee}<->ID) & (ran(rels)={bb}) & not(((x,y):rels))
+5.7989031333333336E7,1.1149076033333333E8,4.4868439E7,6.3442215333333336E7:not((rels:{cc,ee}<->ID) & (ran(rels)={bb})) => not(((x,y):rels))

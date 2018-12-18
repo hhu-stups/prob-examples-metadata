@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/CSPB/Dining/Dining.mch
+9.063024E7,2.0472528866666666E8,-1.0,3.189696586666667E8:not((lFork:Phil>->>Forks) & (rFork:Phil>->>Forks) & (!pp.(pp:Phil => lFork(pp)/=rFork(pp))) & not((taken:Forks+->Phil) & (!xx.(xx:dom(taken) => lFork(taken(xx))=xx or rFork(taken(xx))=xx)))) => not((p:Phil) & (f:Forks) & (f:dom(taken)) & (taken(f)=p))

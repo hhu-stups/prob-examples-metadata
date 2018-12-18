@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/leuschel4/SetBecomeElementOf.mch
+1.3183040533333333E8,3.072834355E9,7.104967733333333E7,6.984116733333333E7:f:ID+->ID & !xx.(xx:{i|i/=bb} => f:ID+->ID)

@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/Baskets.mch
+4.9738284666666664E7,5.3869629333333336E7,6.9486327E7,6.5352421333333336E7:not((price:GOODS-->NAT1) & (baskets:CUSTOMER+->POW(GOODS))) => not((cu:dom(baskets)) & (gg:GOODS))
+-1.0,-1.0,6.6121514E7,-1.0:(price:GOODS-->NAT1) & (baskets:CUSTOMER+->POW(GOODS)) & (cu:dom(baskets)) & (gg:GOODS) & (cu:CUSTOMER) & (cu/:dom(baskets))
+-1.0,-1.0,6.4603746E7,-1.0:(price:GOODS-->NAT1) & (baskets:CUSTOMER+->POW(GOODS)) & (cu:dom(baskets)) & (gg:GOODS) & not((cu:dom(baskets)))
+4.9098445333333336E7,5.17868E7,-1.0,6.1630323666666664E7:(price:GOODS-->NAT1) & baskets:CUSTOMER+->POW(GOODS) & cu:dom(baskets)&{cu}<<|baskets:CUSTOMER+->POW(GOODS)
+4.9932443666666664E7,5.3340744666666664E7,-1.0,1.0056807266666667E8:(price:GOODS-->NAT1) & baskets:CUSTOMER+->POW(GOODS) & not(cu:dom(baskets)&{cu}<<|baskets:CUSTOMER+->POW(GOODS))

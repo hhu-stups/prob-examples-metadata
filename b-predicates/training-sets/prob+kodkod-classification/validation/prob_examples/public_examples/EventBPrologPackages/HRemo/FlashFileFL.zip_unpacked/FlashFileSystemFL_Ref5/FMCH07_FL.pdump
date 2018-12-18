@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/HRemo/FlashFileFL.zip_unpacked/FlashFileSystemFL_Ref5/FMCH07_FL.bcm
+1.4264053133333334E8,6.624573837333333E9,1.0981869033333333E8,5.3334156666666664E7:not((flash:RowAddr --> PDATA) & (programmed_pages<:RowAddr) & (obsolete_pages<:programmed_pages)) => (rows<:RowAddr) & (rows/\(programmed_pages \ obsolete_pages)=({} oftype POW(RowAddr)))
+6.4473328666666664E7,6.3177214666666664E7,-1.0,6.734585433333333E7:(flash:RowAddr --> PDATA) & (programmed_pages<:RowAddr) & (obsolete_pages<:programmed_pages) & not((rows<:RowAddr) & (rows/\(programmed_pages \ obsolete_pages)=({} oftype POW(RowAddr))))

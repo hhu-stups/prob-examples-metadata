@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tester/NastySetComprehensions.mch
+4.8333218333333336E7,7.1966903E7,7.2310755E7,5.9695464E7:not((f:COLOURS-->ID) & (g:ID-->COLOURS) & (!x.(x:COLOURS => g(f(x))=x)) & (f(red)=ia) & (f(green)=ib) & not((cc:COLOURS) & (ii:ID))) => not((yy:ID))
+4.9284316666666664E7,7.220301266666667E7,7.174823E7,5.3427790666666664E7:not((f:COLOURS-->ID) & (g:ID-->COLOURS) & (!x.(x:COLOURS => g(f(x))=x)) & (f(red)=ia) & (f(green)=ib) & not((yy:ID))) => not((cc:COLOURS) & (ii:ID))
+5.6166453666666664E7,6.5588298333333336E7,7.221218566666667E7,5.4308977666666664E7:(f:COLOURS-->ID) & (g:ID-->COLOURS) & (!x.(x:COLOURS => g(f(x))=x)) & (f(red)=ia) & (f(green)=ib) & cc:COLOURS & not(cc:COLOURS)

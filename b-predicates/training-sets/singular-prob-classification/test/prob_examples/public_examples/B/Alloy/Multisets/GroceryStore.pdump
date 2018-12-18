@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Alloy/Multisets/GroceryStore.mch
+-1.0,-1.0,-1.0,-1.0:not((drop=%bag.(bag:multiset(Item)|bag~[NATURAL1])) & (Dairy={Butter,Milk}) & (Bakery={Bread}) & (Category={Dairy,Bakery}) & (belongsto={p,c|c:Category&p:c}) & (b:finmultiset(Item)) & (count(Dairy<|b)>=2) & (card(belongsto[drop(b)])>=2)) => b(Bread)>0
+-1.0,-1.0,-1.0,-1.0:not((drop=%bag.(bag:multiset(Item)|bag~[NATURAL1])) & (Dairy={Butter,Milk}) & (Bakery={Bread}) & (Category={Dairy,Bakery}) & (belongsto={p,c|c:Category&p:c}) & (b:finmultiset(Item)) & (count(Dairy<|b)>=2) & (card(belongsto[drop(b)])>=2)) => (b(Bread)>0)

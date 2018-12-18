@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/RecursiveFunctions/Factorial_ClearSy/factorial_v2.mch
+-1.0,-1.0,6.5293382333333336E7,-1.0:not((fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn))) => not((nn:NAT))
+-1.0,-1.0,6.4166143666666664E7,-1.0:(fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn)) & not(fact(0)=1)
+-1.0,-1.0,6.3207758333333336E7,-1.0:not((fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn))) => fact(0)=1
+-1.0,-1.0,1.21128788E8,-1.0:not((fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn))) => nn:NATURAL1
+-1.0,-1.0,-1.0,-1.0:(fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn)) & not(fact(nn)=fact(nn-1)*nn)
+-1.0,-1.0,-1.0,-1.0:(fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn)) & not((fact(0)=1) & (fact:NATURAL-->NATURAL) & (!nn.(nn:NATURAL1 => fact(nn)=fact(nn-1)*nn)) & (nn:NATURAL1 => fact(nn)=fact(nn-1)*nn) & (nn:NATURAL1) & (fact(nn)=fact(nn-1)*nn))
+-1.0,-1.0,-1.0,-1.0:not((fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn))) => (fact(0)=1) & (fact:NATURAL-->NATURAL) & (!nn.(nn:NATURAL1 => fact(nn)=fact(nn-1)*nn)) & (nn:NATURAL1 => fact(nn)=fact(nn-1)*nn) & (nn:NATURAL1) & (fact(nn)=fact(nn-1)*nn)

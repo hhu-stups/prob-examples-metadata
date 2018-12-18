@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/Contrived/RelationOverSetSet.mch
+4.5348807E7,4.6841151666666664E7,5.9244102333333336E7,4.7281222E7:not((ssi:POW(POW(ID))<->POW(POW(ID)))) => not((x:POW(POW(ID))) & (y:POW(POW(ID))) & ((x,y)/:ssi) & (card(ssi)<3))
+4.5215666333333336E7,4.6787351E7,5.999918E7,4.9421601333333336E7:(not((ssi:POW(POW(ID))<->POW(POW(ID)))) => ((x,y)/:ssi&card(ssi)<3))

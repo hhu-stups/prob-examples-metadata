@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter11/Shop.mch
+4.4951223666666664E7,4.3922671333333336E7,5.5987613333333336E7,4.8050570333333336E7:not((takings:NAT)) => (gg:GOODS)

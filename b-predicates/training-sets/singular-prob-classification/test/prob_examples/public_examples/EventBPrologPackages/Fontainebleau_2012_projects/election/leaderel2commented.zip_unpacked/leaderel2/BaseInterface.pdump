@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Fontainebleau_2012_projects/election/leaderel2commented.zip_unpacked/leaderel2/BaseInterface.bcm
+-1.0,-1.0,6.770041533333333E7,-1.0:(ol:NAT) & (il:NAT) & (r:NAT) & (ih:1 .. il --> INPUT) & (oh:1 .. ol --> OUTPUT) & (ol - r<=QUEUE_LENGTH) & (ol>=r) & ((m:INPUT) & receive_void' : VOID & ih' = ih \/ {il + 1 |-> m} & il' = il + 1 & oh' = oh & ol' = ol & r' = r & deliver_m' = deliver_m & QUEUE_LENGTH' = QUEUE_LENGTH & not(#m'.(m' : INPUT)))

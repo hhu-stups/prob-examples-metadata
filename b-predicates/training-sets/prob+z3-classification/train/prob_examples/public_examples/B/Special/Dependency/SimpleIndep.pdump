@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Special/Dependency/SimpleIndep.mch
+5.3385513E7,7.243921633333333E7,9.929812566666667E7,4.9693935666666664E7:not((iv:ID) & (yy:ID)) => not((xx:ID) & (zz:ID))
+4.7430053666666664E7,4.8021563E7,6.0072815666666664E7,4.9034075666666664E7:(iv:ID) & (xx:ID) & (zz:ID) & (not((yy:ID)) => (yy:ID))

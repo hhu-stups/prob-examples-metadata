@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/SharedEventComposition/SimpleHeater/SimpleHeater.zip_unpacked/Composition/CombinedCtlEnv_M0.bcm
+4.5530603333333336E7,4.5235920333333336E7,5.786504E7,4.7573484666666664E7:not(not((sensor_temp<18))) => (heater_on:BOOL) & (temp:INT) & (sensor_temp:INT)
+9.5989767E7,8.2473686E7,8.8048883E7,5.0234437333333336E7:not(not((heater_on:BOOL) & (temp:INT) & (sensor_temp:INT))) => (t:INT) & (t=temp)
+1.0232460433333333E8,8.523155533333333E7,8.872133833333333E7,5.3887555666666664E7:not(not((heater_on:BOOL) & (temp:INT) & (sensor_temp:INT))) => not((t:INT) & (t=temp))
+5.0482746333333336E7,4.9074047666666664E7,6.0801447333333336E7,5.5918423666666664E7:(heater_on:BOOL) & (temp:INT) & (sensor_temp:INT) & (not((sensor_temp>19)) => (t:INT) & (heater_on=TRUE=>t>=temp) & (heater_on=FALSE=>t<=temp))

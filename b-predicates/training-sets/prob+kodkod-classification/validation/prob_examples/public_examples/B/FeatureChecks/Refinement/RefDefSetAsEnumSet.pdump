@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/Refinement/RefDefSetAsEnumSet.mch
+5.2752867666666664E7,6.788156033333333E7,4.63213769E8,1.3339766666666667E8:(SIGNALS={s1,s2}) & (s1/=s2) & (TRAINS={t1,t2,t3,t4,t5,t6}) & (6=card({t1,t2,t3,t4,t5,t6})) & t1/=t3

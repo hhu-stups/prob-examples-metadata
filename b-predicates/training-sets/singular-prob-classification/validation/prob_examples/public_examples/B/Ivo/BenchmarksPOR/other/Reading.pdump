@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksPOR/other/Reading.mch
+-1.0,-1.0,7.3285367E7,-1.0:(copyof:COPY-->>BOOK) & (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={}) & not((rr:READER))
+-1.0,-1.0,7.326017733333333E7,-1.0:(copyof:COPY-->>BOOK) & (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={}) & (rr:READER) & (rr:dom(reading)) & (rr:READER) & (cc:COPY) & (copyof(cc)/:hasread[{rr}]) & (rr/:dom(reading)) & (cc/:ran(reading))
+-1.0,-1.0,7.694607433333333E7,-1.0:(copyof:COPY-->>BOOK) & (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={}) & (rr:READER) & (cc:COPY) & (copyof(cc)/:hasread[{rr}]) & (rr/:dom(reading)) & (cc/:ran(reading)) & not((rr:READER))
+-1.0,-1.0,6.748041533333333E7,-1.0:(copyof:COPY-->>BOOK) & (hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={}) & (rr:READER) & (bb:BOOK) & not((rr:READER))
+5.2267563666666664E7,6.4137229333333336E7,6.9933265E7,6.9753516E7:(copyof:COPY-->>BOOK) & (not(hasread:READER<->BOOK) => (rr,bb):hasread => hasread:READER<->BOOK&(not((rr,bb):hasread) => (TRUE:BOOL => hasread:READER<->BOOK)))
+5.1471280333333336E7,7.504650766666667E7,1.3783922266666666E8,7.579413566666667E7:(copyof:COPY-->>BOOK) & (not((hasread:READER<->BOOK) & (reading:READER>+>COPY) & ((reading;copyof)/\hasread={})) => (cc=reading(rr)&({rr}<<|reading;copyof)/\(hasread\/{(rr,copyof(cc))})={}) & (cc=reading(rr)) & (cc=reading(rr)&{rr}<<|reading:READER>+>COPY))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/SquareRootFunction.mch
+-1.0,-1.0,8.054434433333333E7,-1.0:not((sqrt=%xx.(xx:NATURAL|max({yy|yy:INTEGER&yy*yy<=xx}))) & (xx:NATURAL)) => not((pp:95..105))

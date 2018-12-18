@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/Exp.mch
+1.2127715433333333E8,1.01543849E8,-1.0,6.785045766666667E7:(res:INTEGER) & (remy:NATURAL) & (x**y=res*x**remy)
+5.6493356666666664E7,5.2813559333333336E7,-1.0,6.4978374333333336E7:(x:INTEGER) & (y:NATURAL) & (res:INTEGER) & (remy:NATURAL) & (x**y=res*x**remy) & (remy<=0)
+6.2201345E7,5.6072237333333336E7,-1.0,8.607598333333333E7:(x:INTEGER) & (y:NATURAL) & (res:INTEGER) & (remy:NATURAL) & (x**y=res*x**remy) & (remy>0)
+4.9372153666666664E7,5.1882272666666664E7,-1.0,1.0268954866666667E8:(x:INTEGER) & (y:NATURAL) & (res:INTEGER) & (remy:NATURAL) & (x**y=res*x**remy) & not((remy>0))
+5.8543245666666664E7,6.6444110666666664E7,-1.0,1.58735735E8:(x:INTEGER) & (y:NATURAL) & (res:INTEGER) & (remy:NATURAL) & (x**y=res*x**remy) & not((remy<=0) & (remy<=0&x**y=res*x**remy) & (remy<=0&remy:NATURAL))
+5.2758012666666664E7,5.5484802666666664E7,-1.0,8.4555119E7:(x:INTEGER) & (y:NATURAL) & (not((res:INTEGER) & (remy:NATURAL) & (x**y=res*x**remy)) => not((remy<=0) & (remy<=0&x**y=res*x**remy) & (remy<=0&remy:NATURAL)))
+-1.0,-1.0,-1.0,-1.0:(x:INTEGER) & (y:NATURAL) & x**y=res*x**remy & remy>0&x**y=res*x*x**remy-1
+1.3816226233333334E8,1.1047263766666667E8,-1.0,7.901034966666667E7:(x:INTEGER) & (y:NATURAL) & (not(x**y=res*x**remy) => not(remy>0&x**y=res*x*x**remy-1))

@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/USB_4Endpoints.mch
+-1.0,-1.0,7.0742539E7,-1.0:(ENDPOINTS=0..4) & transfer_type:transfers+->USB_TRANSFER_TYPE & not(transfer_type:transfers+->USB_TRANSFER_TYPE)
+-1.0,-1.0,7.445076166666667E7,-1.0:(ENDPOINTS=0..4) & transfer_type:transfers+->USB_TRANSFER_TYPE & not(transfer_type:transfers+->USB_TRANSFER_TYPE)
+-1.0,-1.0,7.1770882E7,-1.0:(ENDPOINTS=0..4) & !tr.(tr:transfers => tr:dom(transfer_type)&tr:dom(transfer_endpoint)&tr:dom(transfer_completed)) & not(!tr.(tr:transfers => tr:dom(transfer_type)&tr:dom(transfer_endpoint)&tr:dom(transfer_completed)))
+-1.0,-1.0,-1.0,-1.0:(ENDPOINTS=0..4) & (transfers<:TRANSFERS) & (transfer_type:transfers+->USB_TRANSFER_TYPE) & (transfer_endpoint:transfers+->ENDPOINTS) & (transfer_completed:transfers+->BOOL) & (!tr.(tr:transfers => tr:dom(transfer_type)&tr:dom(transfer_endpoint)&tr:dom(transfer_completed))) & (transfer_type~[{CONTROL_TRANSFER}]=transfer_endpoint~[{0}]) & not((transfer_completed:transfers+->BOOL) & (transfer_type~[{CONTROL_TRANSFER}]=transfer_endpoint~[{0}]) & (transfer_type:transfers+->USB_TRANSFER_TYPE) & (!tr.(tr:transfers => tr:dom(transfer_type)&tr:dom(transfer_endpoint)&tr:dom(transfer_completed))) & (transfers<:TRANSFERS) & (transfer_endpoint:transfers+->ENDPOINTS))
+-1.0,-1.0,6.868508466666667E7,-1.0:(ENDPOINTS=0..4) & transfer_completed:transfers+->BOOL & not(transfer_completed:transfers+->BOOL)
+-1.0,-1.0,7.9553785E7,-1.0:(ENDPOINTS=0..4) & transfer_type~[{CONTROL_TRANSFER}]=transfer_endpoint~[{0}] & not(transfer_type~[{CONTROL_TRANSFER}]=transfer_endpoint~[{0}])
+4.7595344666666664E7,5.7335200666666664E7,6.6701754666666664E7,5.7150866333333336E7:(ENDPOINTS=0..4) & (not(transfers<:TRANSFERS) => not(transfers<:TRANSFERS))

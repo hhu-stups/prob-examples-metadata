@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/CBC/Enabling/SCSI-2.mch
+8.203657266666667E7,5.6090302666666664E7,5.9959952333333336E7,8.996265E7:(maxi=3) & (SIZE=0..maxi) & not((buf:DSK-->SIZE)) & (jj:DSK) & (buf(jj)>0)
+-1.0,-1.0,-1.0,-1.0:(maxi=3) & (SIZE=0..maxi) & buf:DSK-->SIZE & not(buf(jj)>0 => buf<+{(jj,buf(jj)-1)}:DSK-->SIZE)
+4.9994323E7,5.2072427333333336E7,2.0539576E7,1.13620454E8:(maxi=3) & (SIZE=0..maxi) & buf:DSK-->SIZE & buf(jj)<maxi => buf<+{(jj,buf(jj)+1)}:DSK-->SIZE
+-1.0,-1.0,-1.0,-1.0:(maxi=3) & (SIZE=0..maxi) & buf:DSK-->SIZE & not(buf(jj)<maxi => buf<+{(jj,buf(jj)+1)}:DSK-->SIZE)
+4.9867794E7,5.4698925333333336E7,7.265977466666667E7,1.7595230966666666E8:(maxi=3) & (SIZE=0..maxi) & (buf:DSK-->SIZE) & (buf(jj)<maxi => buf<+{(jj,buf(jj)+1)}:DSK-->SIZE)
+-1.0,-1.0,-1.0,-1.0:(maxi=3) & (SIZE=0..maxi) & (buf:DSK-->SIZE) & not((buf(jj)<maxi => buf<+{(jj,buf(jj)+1)}:DSK-->SIZE))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/SudokuMikeSmall2.mch
+2.769630833333333E8,1.6697004533333334E8,1.1032043033333333E8,3.062628523333333E8:not((Squares:SDSet) & (UNION(col,mincol).(col:INDEX&mincol:INDEX|{Squares(1,col)(1,mincol)})=RANGE) & (UNION(col,mincol).(col:INDEX&mincol:INDEX|{Squares(1,col)(2,mincol)})=RANGE)) => (row:INDEX) & (minrow:INDEX)

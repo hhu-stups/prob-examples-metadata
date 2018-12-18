@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/FuzzySets.mch
+4.393276776666667E8,5.496529273333334E8,6.731971066666667E7,5.536366112333333E9:not((A:FuzzySet) & (B:FuzzySet)) => (el:El) & (ms:0..One) & (A(el)/=ms)
+5.3694654E7,6.0255777E7,7.231978733333333E7,9.576713633333333E7:(A:FuzzySet) & (B:FuzzySet) & (!x.(x:El => A(x)<=B(x))) & (x:El => A(x)<=B(x)) & (x:El) & (A(x)<=B(x)) & not((el:El) & (ms:0..One) & (A(el)/=ms))
+-1.0,-1.0,6.4560234666666664E7,-1.0:(A:FuzzySet) & (B:FuzzySet) & (el:El) & (ms:0..One) & (A(el)/=ms) & not((el:El) & (ms:0..One) & (A(el)/=ms))
+4.7638879E7,6.5473200333333336E7,6.786039833333333E7,2.07986551E8:B:FuzzySet & B:El-->0..4
+8.3562139E7,5.3421341666666664E7,6.816912033333333E7,6.5352235E7:(not(A:FuzzySet) => A:El-->0..4)
+-1.0,-1.0,6.1640217333333336E7,-1.0:B:FuzzySet & not(B:El-->0..4)
+1.9448073666666666E8,1.66351764E8,7.350958033333333E7,1.9286495866666666E8:(not((A:FuzzySet) & (B:FuzzySet)) => (A:El-->0..4) & (B:El-->0..4))
+7.1333023E7,5.7649137E7,7.0640361E7,6.797393733333333E7:(not(A:FuzzySet) => !x.(x:El => B(x)<=A(x)) => A:El-->0..4)

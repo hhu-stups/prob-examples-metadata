@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/counter.mch
+9.535560833333333E7,5.3014655666666664E7,6.3770120666666664E7,5.570145E7:not((n:0..10) & (n/=2)) => (n<10)

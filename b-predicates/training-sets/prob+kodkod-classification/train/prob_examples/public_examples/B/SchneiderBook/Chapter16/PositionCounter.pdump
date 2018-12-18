@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter16/PositionCounter.mch
+6.917998E7,5.9890646666666664E7,6.5339524E7,5.4607945333333336E7:(not(pos<=maximum) => pos<=maximum)
+5.1134691666666664E7,5.0511567E7,5.9619475666666664E7,5.7869416666666664E7:pos<=maximum & pos mod maximum+1<=maximum

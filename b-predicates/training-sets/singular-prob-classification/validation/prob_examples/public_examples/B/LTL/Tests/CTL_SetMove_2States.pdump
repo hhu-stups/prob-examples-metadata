@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/LTL/Tests/CTL_SetMove_2States.mch
+5.4270029666666664E7,6.2540332E7,9.6871956E7,4.9929114333333336E7:not((iv:ID) & (xx:ID)) => not((yy:ID))
+4.5628475E7,4.9218782E7,6.4027322666666664E7,5.4580963E7:(iv:ID) & (xx:ID) & (xx=aa)

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Typecheckertests/abstract.mch
+-1.0,-1.0,6.8844858E7,-1.0:(x:POW(P)) & (cnt:NATURAL) & (5>7) & (e:P) & (card(x)<p)
+-1.0,-1.0,6.943951E7,-1.0:not((x:POW(P)) & (cnt:NATURAL)) & (5>7) & (e:P) & (card(x)<p)
+-1.0,-1.0,5.5860642E7,-1.0:(x:POW(P)) & (cnt:NATURAL) & (5>7&e:P&card(x)<p&x\/{e}:POW(P)) & (5>7&e:P&card(x)<p&cnt:NATURAL)

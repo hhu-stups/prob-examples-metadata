@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Corinna/Array.mch
+7.045774933333333E7,5.8215712666666664E7,-1.0,7.967661266666667E7:not((arr:1..maxindex+->TYPE)) => not((ix:1..maxindex) & (tt:TYPE))
+5.1194079666666664E7,5.0737387333333336E7,7.808937633333333E7,6.2042479666666664E7:not((arr:1..maxindex+->TYPE)) => (ix:dom(arr))
+8.024409633333333E7,6.0184864666666664E7,5.0647711333333336E7,1.09980443E8:(not(arr:1..maxindex+->TYPE) => not(ix:1..maxindex&tt:TYPE&arr<+{(ix,tt)}:1..maxindex+->TYPE))

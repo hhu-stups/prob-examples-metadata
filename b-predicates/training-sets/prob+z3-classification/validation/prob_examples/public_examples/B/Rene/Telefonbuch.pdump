@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Rene/Telefonbuch.mch
+5.9468572333333336E7,5.7278512666666664E7,4.3280434E7,1.19360942E8:not((book:Persons+->NAT1) & (count:NAT) & (count=card(book))) & (p/:dom(book)) & (n/:ran(book))

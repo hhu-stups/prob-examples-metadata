@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Laws/SubstitutionLaws.mch
+1.6666623062666666E10,9.478011566666667E7,1.4093946583333333E9,6.702205660333333E9:(xx:ID) & (cnt:INT) & ((1=2) => not((1=2)))

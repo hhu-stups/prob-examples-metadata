@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Valerio8/Z80_9_Michael/MEMORY.mch
+4.8994940666666664E7,5.0860378666666664E7,-1.0,7.400303233333333E7:(PROGRAM_R_ADR=USHORT) & (DATA_R_ADR=USHORT) & (STACK_R_ADR=USHORT) & (mem:BV16-->BYTE) & (address:BV16) & (value:BYTE)
+-1.0,-1.0,6.751214666666667E7,-1.0:not((PROGRAM_R_ADR=USHORT) & (DATA_R_ADR=USHORT) & (STACK_R_ADR=USHORT) & not((mem:BV16-->BYTE))) => not((NewValues:BV16+->BYTE))
+-1.0,-1.0,6.6338859666666664E7,-1.0:not((PROGRAM_R_ADR=USHORT) & (DATA_R_ADR=USHORT) & (STACK_R_ADR=USHORT) & not((NewValues:BV16+->BYTE))) => not((mem:BV16-->BYTE))
+-1.0,-1.0,-1.0,-1.0:(PROGRAM_R_ADR=USHORT) & (DATA_R_ADR=USHORT) & (STACK_R_ADR=USHORT) & (mem:BV16-->BYTE) & not(ran(mem)<:BYTE)
+-1.0,-1.0,-1.0,-1.0:(PROGRAM_R_ADR=USHORT) & (DATA_R_ADR=USHORT) & (STACK_R_ADR=USHORT) & (mem:BV16-->BYTE) & not(!address,value.(address:BV16&value:BYTE => mem<+{(address,value)}:BV16-->BYTE))
+4.9291883E7,5.4746998666666664E7,1.1365842466666667E8,8.215758466666667E7:(PROGRAM_R_ADR=USHORT) & (DATA_R_ADR=USHORT) & (STACK_R_ADR=USHORT) & (mem:BV16-->BYTE) & (ran(mem)<:BYTE) & (dom(mem)=BV16) & (!address,value.(address:BV16&value:BYTE => mem<+{(address,value)}:BV16-->BYTE))

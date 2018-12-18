@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/SchneiderBook/Jukebox_Chapter13/Jukebox.mch
+4.8624572666666664E7,5.2096987666666664E7,6.2695519333333336E7,5.5920635666666664E7:not((limit:NAT1) & not((credit>0) & (tt:TRACK))) => (credit:NAT) & (credit<=limit) & (playset<:TRACK)
+4.7252703333333336E7,4.8076877333333336E7,6.1389999666666664E7,6.789047666666667E7:(limit:NAT1) & (credit:NAT) & (credit<=limit) & (playset<:TRACK) & (credit>0) & (tt:TRACK) & (credit>0)

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/scheduler.mch
+4.8408041E7,6.4485062666666664E7,7.973979566666667E7,5.6233780333333336E7:not((active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={})) & (pp:waiting)
+1.4918882733333334E8,6.0826101333333336E7,6.4062802333333336E7,1.4697658133333334E8:ready/\waiting={} & not(pp/:active&pp/:ready\/waiting => ready/\(waiting\/{pp})={})

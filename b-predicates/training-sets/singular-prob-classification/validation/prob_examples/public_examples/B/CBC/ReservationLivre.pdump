@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/CBC/ReservationLivre.mch
+5.3585561333333336E7,1.3882733733333334E8,6.6498354333333336E7,7.331614366666667E7:(emprunt:LIVRES+->UTIL) & (reservation:LIVRES<->UTIL) & (emprunt/\reservation={}) & not((reservation:LIVRES<->UTIL) & (emprunt/\(reservation\/{(livre,lec)})={}) & (emprunt:LIVRES+->UTIL))

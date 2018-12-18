@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/RenameParameterTests/Decomposition/CompMain0.mch
+4.8855026E7,4.9385330333333336E7,5.9967681333333336E7,5.5905409666666664E7:not((n>0)) => (x:NATURAL) & (y:NATURAL) & (x=y-1)
+9.774851E7,5.0584901E7,6.2082801666666664E7,8.397054766666667E7:(x:NATURAL) & (y:NATURAL) & (x=y-1) & ((y mod 2=0) => not((x mod 2=0)))
+-1.0,-1.0,6.0056752666666664E7,6.800706566666667E7:(x:NATURAL) & (y:NATURAL) & (x=y-1) & not((n>0 => x+n=y+n-1) & (n>0 => x+n:NATURAL) & (n>0 => y+n:NATURAL))

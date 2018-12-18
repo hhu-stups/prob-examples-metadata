@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tickets/PROB-323/PrintersFull.zip_unpacked/Printers/SinglePrinter.bcm
+5.1079586666666664E7,1.1618609733333333E8,-1.0,2.1947425466666666E8:not(not((job<:JOB) & (position:job >-> POSITION) & (document:job --> DOCUMENT) & (finite(ran(position))))) => not((j:JOB \ job) & (d:DOCUMENT) & (p:POSITION) & (p/:ran(position)) & (position/=({} oftype POW(JOB**INT))=>p>max(ran(position))))
+6.6463875333333336E7,5.4301202333333336E7,-1.0,3.285371E8:not((j:job) & (position(j)=min(ran(position)))) => not((job<:JOB) & (position:job >-> POSITION) & (document:job --> DOCUMENT) & (finite(ran(position))))
+-1.0,-1.0,1.4126158533333334E8,-1.0:(job<:JOB) & (position:job >-> POSITION) & (document:job --> DOCUMENT) & (finite(ran(position))) & (j:JOB \ job) & (d:DOCUMENT) & (p:POSITION) & (p/:ran(position)) & (position/=({} oftype POW(JOB**INT))=>p>max(ran(position))) & (j:job) & (position(j)=min(ran(position)))

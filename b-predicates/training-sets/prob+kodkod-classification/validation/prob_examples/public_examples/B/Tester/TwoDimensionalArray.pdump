@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tester/TwoDimensionalArray.mch
+4.9973370666666664E7,7.628162733333333E7,6.9110232E7,5.5206787333333336E7:not((ar:IDX-->(IDX-->NAT))) & (x:IDX) & (y:IDX)
+-1.0,-1.0,-1.0,-1.0:not((ar:IDX-->(IDX-->NAT))) => (x:IDX) & (y:IDX) & (ar(x)(y)<MAXINT)
+6.794581433333333E7,5.6809971333333336E7,1.23779963E8,6.0193735E7:not((ar:IDX-->(IDX-->NAT))) & (x:IDX) & (y:IDX) & (ar(x)(y)<MAXINT)

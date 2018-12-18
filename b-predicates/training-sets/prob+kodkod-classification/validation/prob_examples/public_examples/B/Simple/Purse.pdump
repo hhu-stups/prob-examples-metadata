@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Simple/Purse.mch
+-1.0,-1.0,-1.0,-1.0:not((Coins<:NAT1) & (Coins={1,2}) & (purse:Coins-->NAT)) => not((total(purse)=0))
+1.08226425E8,5.3723172666666664E7,6.5386201E7,1.8518888933333334E8:not((Coins<:NAT1) & (Coins={1,2}) & (purse:Coins-->NAT)) => (amount:NAT1)
+7.7817531E7,5.7610980666666664E7,6.4889769E7,1.5197079166666666E8:(Coins<:NAT1) & (Coins={1,2}) & purse:Coins-->NAT & not(cc:Coins&purse(cc)<MAXINT&purse<+{(cc,purse(cc)+1)}:Coins-->NAT)
+-1.0,-1.0,1.4116520433333334E8,-1.0:(Coins<:NAT1) & (Coins={1,2}) & (not((purse:Coins-->NAT)) => (cc:Coins&purse(cc)<MAXINT&purse<+{(cc,purse(cc)+1)}:Coins-->NAT))

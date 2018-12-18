@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter16/RobustFifo.mch
+4.7229608666666664E7,4.7881856666666664E7,6.800494666666667E7,6.0053656666666664E7:(not(size(queue)<=cap) => size(queue)<=cap)

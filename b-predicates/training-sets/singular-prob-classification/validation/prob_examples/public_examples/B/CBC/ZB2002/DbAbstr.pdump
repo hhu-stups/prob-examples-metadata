@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/CBC/ZB2002/DbAbstr.mch
+5.3859502333333336E7,7.058530266666667E7,6.4231212333333336E7,6.895360066666667E7:abstDb:STUDENTS+->GRADES & st/:dom(abstDb)&abstDb\/{(st,gr)}:STUDENTS+->GRADES

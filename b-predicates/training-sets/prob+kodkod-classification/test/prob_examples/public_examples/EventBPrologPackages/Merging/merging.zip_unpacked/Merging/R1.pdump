@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Merging/merging.zip_unpacked/Merging/R1.bcm
+-1.0,-1.0,5.933626476E9,-1.0:(c:NAT) & (d:NAT) & (c:{d*2,d*2 - 1}) & not((c mod 2=0))
+-1.0,-1.0,2.4710779666666666E8,-1.0:(c:NAT) & (d:NAT) & (c:{d*2,d*2 - 1}) & (c mod 2=1)
+-1.0,-1.0,1.5666840033333333E9,-1.0:(c:NAT) & (d:NAT) & (c:{d*2,d*2 - 1}) & not((c mod 2=1))
+-1.0,-1.0,8.590220633E9,-1.0:not((c mod 2=1)) => (c:NAT) & (d:NAT) & (c:{d*2,d*2 - 1})
+-1.0,-1.0,1.8778095199E10,-1.0:not(not((c mod 2=1))) => (c:NAT) & (d:NAT) & (c:{d*2,d*2 - 1})

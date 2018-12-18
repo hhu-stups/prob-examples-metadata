@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Simple/Phonebook/phonebook5.mch
+4.9248953666666664E7,6.6042709333333336E7,6.5451852E7,7.048226366666667E7:(db:Name+->Code) & (active:POW(Name)) & (dom(db)=active) & (nn:Name) & (nn:active)
+4.8557618E7,6.4086757666666664E7,6.3944817E7,7.198464266666667E7:(db:Name+->Code) & (active:POW(Name)) & (dom(db)=active) & not((nn:Name) & (nn:active))

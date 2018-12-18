@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Pitesti/BankMixed.zip_unpacked/Examples/BankAccount/Account.bcm
+4.8362178666666664E7,5.0311635333333336E7,6.6492371E7,5.7012161333333336E7:(state:STATES) & (balance:INT) & (transaction:BOOL) & (not((fee>0&fee<50) & (fee:NAT1) & (transaction=TRUE)) => (balance<0&balance>-100))

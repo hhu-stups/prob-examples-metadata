@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLC/GOAL/GardnerSwitchingPuzzle_v2.mch
+2.52907813E8,8.5595731E7,-1.0,1.4167981833333334E8:(occ:TRACKS-->iseq(TRAINS)) & (!t1,t2.(t1:TRACKS&t1/=t2 => ran(occ(t1))/\ran(occ(t2))={})) & (UNION(t).(t:TRACKS|ran(occ(t)))=TRAINS)

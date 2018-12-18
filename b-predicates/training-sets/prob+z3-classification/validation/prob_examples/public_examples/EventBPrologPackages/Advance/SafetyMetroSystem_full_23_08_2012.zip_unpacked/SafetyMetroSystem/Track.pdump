@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/SafetyMetroSystem_full_23_08_2012.zip_unpacked/SafetyMetroSystem/Track.bcm
+5.124269E7,1.29871962E8,-1.0,6.4751669666666664E7:(next<:net) & (next:CDV >+> CDV) & (finite(occp~)) & (ac:CDV) & (ac:div_aig_cdv) & (c1:CDV) & (c2:CDV) & (ac |-> c1:next) & (ac |-> c2:net) & (c2/:ran(next)) & (c1/=c2) & (ac/:dom(occp)) & (t:TRAIN) & (oc:CDV) & (oc/:dom(occp))

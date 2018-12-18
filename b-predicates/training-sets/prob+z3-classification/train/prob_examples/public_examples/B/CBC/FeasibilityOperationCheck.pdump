@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/CBC/FeasibilityOperationCheck.mch
+7.899172566666667E7,8.005899366666667E7,-1.0,1.4093710333333334E8:not((mx:1..2**10) & (mxn:NATURAL1) & (mxn>mx) & (ii:ID) & (xx:0..mx) & (yy:0..mxn)) => (yy>xx) & (xx>=mx)

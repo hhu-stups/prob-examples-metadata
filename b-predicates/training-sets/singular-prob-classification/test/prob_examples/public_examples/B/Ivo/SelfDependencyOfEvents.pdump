@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/SelfDependencyOfEvents.mch
+4.8743186333333336E7,4.8819779333333336E7,6.1679398666666664E7,6.6853846E7:not((y:INTEGER) & (y<10)) & not((x:0..2))

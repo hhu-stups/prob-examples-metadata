@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/Any.mch
+4.7785033666666664E7,5.8744900666666664E7,6.3858050333333336E7,5.1933536E7:b:BOOL & not(!x.(x/:col1 => b:BOOL))
+5.0107908E7,7.015009866666667E7,6.780408266666667E7,6.3434091333333336E7:!cc.(cc:col1 => cc/:col2) & !cc.(cc:col1-{x} => cc/:col2-{x})

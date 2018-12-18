@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter13/Books.mch
+8.521111533333333E7,5.946238E7,6.6541981333333336E7,6.3626340333333336E7:read<:BOOK & read/=BOOK&!tt.(tt:BOOK-read => read\/{tt}<:BOOK)

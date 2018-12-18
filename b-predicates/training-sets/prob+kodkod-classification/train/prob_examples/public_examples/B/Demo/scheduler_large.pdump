@@ -1,0 +1,14 @@
+#source:examples/prob_examples/public_examples/B/Demo/scheduler_large.mch
+5.0148323E7,6.935735333333333E7,7.727267566666667E7,1.3474262333333334E8:not((active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={})) => not((active/={}))
+4.8422591666666664E7,1.7098402203333333E9,7.346478933333333E7,8.6160142E7:not((active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={})) & not((active/={}))
+5.0628924E7,6.921618066666667E7,-1.0,7.608765533333333E7:not((pp:waiting)) => not((active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}))
+5.1015216333333336E7,7.683600466666667E7,7.8536733E7,6.773240266666667E7:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & (pp:PID) & (pp/:active) & (pp/:ready\/waiting) & (active/={})
+-1.0,-1.0,7.185166466666667E7,-1.0:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & (pp:PID) & (pp/:active) & (pp/:ready\/waiting) & (pp:waiting)
+9.35757659E8,6.886962833333333E7,7.5910794E7,9.986064103333334E8:(active:POW(PID)) & (ready:POW(PID)) & (waiting:POW(PID)) & (active<:PID) & (ready<:PID) & (waiting<:PID) & (ready/\waiting={}) & (active/\(ready\/waiting)={}) & (card(active)<=1) & (active={} => ready={}) & (active/={}) & (pp:waiting)
+-1.0,-1.0,5.9926777666666664E7,-1.0:active/\(ready\/waiting)={} & not(active/\(ready\/waiting)={})
+4.6907315333333336E7,4.8010318333333336E7,5.9969520666666664E7,5.2059576666666664E7:ready<:PID & ready<:PID
+-1.0,-1.0,5.9058534333333336E7,-1.0:ready/\waiting={} & not(ready/\waiting={})
+4.6490478666666664E7,4.8232553666666664E7,7.0821436E7,4.8193535E7:active<:PID & pp/:active&pp/:ready\/waiting => active<:PID
+4.7442066333333336E7,4.8004312E7,6.0135417E7,4.9203230666666664E7:(not(ready:POW(PID)) => pp/:active&pp/:ready\/waiting => ready:POW(PID))
+5.4134281333333336E7,6.1532196333333336E7,9.739089933333333E7,3.078424056666667E8:(not(ready:POW(PID)) => not(pp/:active&pp/:ready\/waiting => ready:POW(PID)))
+-1.0,-1.0,8.6142961E7,-1.0:ready/\waiting={} & not(pp/:active&pp/:ready\/waiting => ready/\(waiting\/{pp})={})

@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Simple/TwoPurses.mch
+-1.0,-1.0,-1.0,-1.0:not((Coins<:NAT1) & (Coins={1,2}) & (purse:Coins-->NAT) & (other:Coins-->NAT)) => not((total(purse)=0))
+4.8498835E7,5.2095917333333336E7,-1.0,7.4559784E7:not((Coins<:NAT1) & (Coins={1,2}) & not((total(purse)=0))) => (purse:Coins-->NAT) & (other:Coins-->NAT)
+-1.0,-1.0,-1.0,-1.0:not((Coins<:NAT1) & (Coins={1,2}) & not((purse:Coins-->NAT) & (other:Coins-->NAT))) => not((total(purse)=0))
+1.0729187966666667E8,5.3006740333333336E7,6.662174E7,6.4095464666666664E7:not((Coins<:NAT1) & (Coins={1,2}) & (purse:Coins-->NAT) & (other:Coins-->NAT)) => (amount:INT) & (amount/=0)
+6.4350082333333336E7,5.2341781666666664E7,6.6714419333333336E7,6.3849833E7:not((Coins<:NAT1) & (Coins={1,2}) & not((purse:Coins-->NAT) & (other:Coins-->NAT))) => not((amount:NAT1))

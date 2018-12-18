@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Tester/TotalFunTest.mch
+6.0578048E7,8.362869766666667E7,-1.0,9.196139166666667E7:(el:ID) & (f:ID-->ID) & (!yy.(yy:ID => f(yy)/=yy)) & (g:ID-->(ID-->ID)) & (!zz.(zz:ID&zz/=el => g(zz)(zz)/=zz)) & (el=aa) & (xx:ID) & (yy:ID)
+3.3570004666666664E7,9.701107966666667E7,-1.0,1.04113845E8:(el:ID) & (f:ID-->ID) & (!yy.(yy:ID => f(yy)/=yy)) & (g:ID-->(ID-->ID)) & (!zz.(zz:ID&zz/=el => g(zz)(zz)/=zz)) & (el=aa) & (xx:ID) & !zz.(zz:ID => g(zz)(zz)=aa)
+5.3190842333333336E7,8.581808266666667E7,-1.0,1.1281246033333333E8:(el:ID) & (f:ID-->ID) & (!yy.(yy:ID => f(yy)/=yy)) & (g:ID-->(ID-->ID)) & (!zz.(zz:ID&zz/=el => g(zz)(zz)/=zz)) & (el=aa) & (xx:ID) & not(#zz.(zz:ID&g(zz)(zz)=zz))
+-1.0,-1.0,-1.0,-1.0:not((el:ID) & (f:ID-->ID) & (!yy.(yy:ID => f(yy)/=yy)) & (g:ID-->(ID-->ID)) & (!zz.(zz:ID&zz/=el => g(zz)(zz)/=zz)) & (el=aa) & (xx:ID)) => (!zz.(zz:ID => g(zz)(zz)=zz)) & (!zz.(zz:ID => g(zz)(zz)/=zz)) & (!zz.(zz:ID => g(zz)(zz)=aa)) & (!zz.(zz:ID => g(zz)(zz)/=aa)) & (#zz.(zz:ID&g(zz)(zz)=zz)) & (g(aa)(aa)=aa) & (g(bb)(bb)=aa)

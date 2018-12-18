@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/ErrorMachines/UndefinedArithmetic/PowerOfNegativeNumber.mch
+5.2373769E7,6.4809103333333336E7,9.615875933333333E7,4.9530879666666664E7:(not((xx:INTEGER)) => not((xx:INTEGER)))
+4.5004280333333336E7,4.3970163333333336E7,5.604472E7,4.798485E7:(xx:INTEGER) & (xx:INTEGER)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Corinna/Errors/Door.mch
+5.3324448666666664E7,6.5471803666666664E7,6.0829267E7,1.7469502666666666E8:state:DOORS-->DOOR_STATE & not(state(dd)=opened&state<+{(dd,closed)}:DOORS-->DOOR_STATE)

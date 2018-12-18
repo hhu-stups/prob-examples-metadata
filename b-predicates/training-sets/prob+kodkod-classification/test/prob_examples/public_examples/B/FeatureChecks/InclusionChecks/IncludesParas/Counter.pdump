@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/InclusionChecks/IncludesParas/Counter.mch
+4.9846143E7,5.0604014E7,6.756508633333333E7,7.2907851E7:(iiv:NATURAL) & (not((cnt:NATURAL)) => not((cnt+1:NATURAL)))

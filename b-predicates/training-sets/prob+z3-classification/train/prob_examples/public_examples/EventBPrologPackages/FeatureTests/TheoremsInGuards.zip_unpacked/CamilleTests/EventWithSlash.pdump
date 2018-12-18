@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/FeatureTests/TheoremsInGuards.zip_unpacked/CamilleTests/EventWithSlash.bcm
+8.5043077E7,1.19894622E8,1.263159E8,9.906650866666667E7:(not(x:NAT) => not(true => x - 1 : NAT))
+1.5542099766666666E8,1.6912849066666666E8,6.5727072666666664E7,1.2547705966666667E8:(not((x:NAT) & (y:NAT)) => (true => y - 1 : NAT) & (true => x + 1 : NAT))
+1.2408342333333333E8,1.6490719033333334E8,1.2243726466666667E8,1.6775829733333334E8:(x:NAT) & (y:NAT) & not((true => y - 1 : NAT) & (true => x + 1 : NAT))
+2.812693106666667E8,3.251346416666667E8,1.47723743E8,1.5789424033333334E8:(y:NAT) & (x:NAT) & y' = y - 1 & x' = x + 1 & (y' : NAT) & (x' : NAT)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Berkani1/CartesianProductOverrideAssertion.mch
+1.0487604633333333E8,-1.0,1.3422833566666666E8,7.239912733333333E7:(a:S<->T) & (dom(a)=b) & (c<:T) & (c={}) & a<+b*c=b*c

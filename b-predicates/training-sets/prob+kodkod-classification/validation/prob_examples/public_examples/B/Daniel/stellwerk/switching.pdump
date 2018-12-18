@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Daniel/stellwerk/switching.mch
+1.3315077766666667E8,3.849552214E9,1.5426912833333334E8,7.332741133333333E7:(switches_left<:switches) & (switches_right<:switches) & (switches_left/\switches_right={}) & (switches_left\/switches_right=switches) & (connected:SECTION-end_tracks-->SECTION) & (connected=track_next\/(switches_left<|switch_next_left)\/(switches_right<|switch_next_right))

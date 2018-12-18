@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Compilers/Dataflow/ImageTestSimple.mch
+1.3020687433333333E8,8.492651196666666E8,1.09064311E8,7.095602E7:(rels:{cc,ee}<->ID) & (rels[ID]={bb}) & ((x,y):rels)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/FeatureTests/TheoremsInGuards.zip_unpacked/CamilleTests/SimpleVariant.bcm
+1.71551238E8,7.9027112E7,6.0290371666666664E7,5.6004840666666664E7:not((x>1)) => (x:NAT)

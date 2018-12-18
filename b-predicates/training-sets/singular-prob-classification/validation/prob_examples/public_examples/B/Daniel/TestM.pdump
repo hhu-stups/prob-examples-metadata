@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Daniel/TestM.mch
+4.7708162E7,4.8528494E7,6.829350766666667E7,5.3216008333333336E7:not(not((state=s21))) => (state:STATE)
+4.6763278666666664E7,4.8259908333333336E7,5.5540978E7,5.2239184666666664E7:not((state=s05)) => (state:STATE)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/Constants6.mch
+2.4007924966666666E8,1.0184195213333334E9,-1.0,1.41266451E8:(minnr:NATURAL) & (mxnr:NATURAL1) & (root:IDS) & (pid:PERSONS>->IDS) & (pnr:PERSONS>->minnr..mxnr) & (p:PERSONS)

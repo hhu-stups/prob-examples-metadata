@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymbolicModelChecking/Counters/CounterArticle64.mch
+5.8501131E7,7.0496837E7,6.2737005E7,1.0240718E8:(m:{127,255}) & c<=m & not(i:1..64&c+i<=m)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/U2B/RouteIsSet.mch
+4.4836521E7,4.8100507E7,6.3963604333333336E7,5.0677626666666664E7:not(not((TheRouteElement:ROUTEELEMENT))) => (Route:POW(ROUTEELEMENT))

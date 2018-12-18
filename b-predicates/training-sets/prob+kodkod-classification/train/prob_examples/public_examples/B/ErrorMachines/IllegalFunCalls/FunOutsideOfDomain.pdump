@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/ErrorMachines/IllegalFunCalls/FunOutsideOfDomain.mch
+7.4753244E7,7.247558033333333E7,8.6631361E7,5.1607237666666664E7:(xx:ID)
+6.5274920666666664E7,8.195758233333333E7,1.12369457E8,7.4242332E7:not((iv:ID) & (iv=aa) & (f:ID+->ID) & (ran(f)={iv}) & (f(iv)=iv) & (xx:ID)) => not((yy:ID))
+4.8553171333333336E7,7.075995266666667E7,6.3936738E7,5.1913515333333336E7:(iv:ID) & (iv=aa) & (f:ID+->ID) & (ran(f)={iv}) & (f(iv)=iv) & not((xx:ID)) & (yy:ID)

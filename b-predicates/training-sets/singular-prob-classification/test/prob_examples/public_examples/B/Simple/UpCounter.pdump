@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Simple/UpCounter.mch
+4.8729124666666664E7,4.9302871E7,6.0100729E7,5.6031054666666664E7:not((mx=MAXINT) & not((c<mx))) => not((c:NATURAL))

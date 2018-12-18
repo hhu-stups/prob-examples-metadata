@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Eigenvalue.mch
+1.21142989E8,7.699284466666667E7,1.01347269E8,6.5690942E7:(m:matrix) & (found:BOOL)
+4.8139455E7,5.1603582666666664E7,6.991398866666667E7,6.9567808E7:(dim:NATURAL1) & (dim=2) & not((m:matrix) & (found:BOOL)) & not((vec:vector) & (lambda:INTEGER))
+-1.0,-1.0,-1.0,-1.0:(dim:NATURAL1) & (dim=2) & (m:matrix) & (found:BOOL) & (not((vec:vector)) => (eval:INTEGER) & (evect:vector) & (evect/=zerovect) & (res:vector) & (res=mulvect(eval,evect)) & (res=mulmatvect(m,evect)))
+-1.0,-1.0,-1.0,-1.0:(dim:NATURAL1) & (dim=2) & (not(m:matrix) => vec:1..dim-->INTEGER&m:1..dim-->(1..dim-->INTEGER))
+-1.0,-1.0,-1.0,-1.0:(dim:NATURAL1) & (dim=2) & (not((m:matrix) & (found:BOOL)) => (vec:1..dim-->INTEGER&m:1..dim-->(1..dim-->INTEGER)) & (vec:1..dim-->INTEGER))
+-1.0,-1.0,-1.0,-1.0:(dim:NATURAL1) & (dim=2) & (not(m:matrix) => evect:1..dim-->INTEGER&evect/=%z.(z:1..dim|0)&res:1..dim-->INTEGER&res=(evect;%z.(z:INTEGER|z*eval))&res=%i.(i:1..dim|SIGMA(j).(j:1..dim|m(i)(j)*evect(j)))&m:1..dim-->(1..dim-->INTEGER))
+-1.0,-1.0,-1.0,-1.0:(dim:NATURAL1) & (dim=2) & (not((m:matrix) & (found:BOOL)) => (evect:1..dim-->INTEGER&evect/=%z.(z:1..dim|0)&res:1..dim-->INTEGER&res=(evect;%z.(z:INTEGER|z*eval))&res=%i.(i:1..dim|SIGMA(j).(j:1..dim|m(i)(j)*evect(j)))&m:1..dim-->(1..dim-->INTEGER)) & (evect:1..dim-->INTEGER&evect/=%z.(z:1..dim|0)&res:1..dim-->INTEGER&res=(evect;%z.(z:INTEGER|z*eval))&res=%i.(i:1..dim|SIGMA(j).(j:1..dim|m(i)(j)*evect(j)))))
+-1.0,-1.0,-1.0,-1.0:(dim:NATURAL1) & (dim=2) & (not(m:matrix) => vec:1..dim-->INTEGER&m:1..dim-->(1..dim-->INTEGER))
+4.7903484333333336E7,5.2733894333333336E7,7.354589766666667E7,7.834141033333333E7:(dim:NATURAL1) & (dim=2) & (not(m:matrix) => not(vec:1..dim-->INTEGER&m:1..dim-->(1..dim-->INTEGER)))

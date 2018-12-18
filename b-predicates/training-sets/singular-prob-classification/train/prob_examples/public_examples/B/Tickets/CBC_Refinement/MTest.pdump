@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tickets/CBC_Refinement/MTest.mch
+5.2708588333333336E7,7.6313545E7,9.528385766666667E7,6.5454157E7:(takeplace=ROOM*ACTIVITY) & (room:TOKEN-->ROOM) & (holder:TOKEN-->USER) & location:USER+->ROOM & (u,a):authorised&(u:dom(location) => (location(u),a)/:takeplace) => location:USER+->ROOM
+-1.0,-1.0,6.0915544666666664E7,-1.0:(takeplace=ROOM*ACTIVITY) & (room:TOKEN-->ROOM) & (holder:TOKEN-->USER) & location:USER+->ROOM & not((u,a):authorised&(u:dom(location) => (location(u),a)/:takeplace) => location:USER+->ROOM)
+5.3092365666666664E7,8.7610489E7,-1.0,8.085111E7:(takeplace=ROOM*ACTIVITY) & (room:TOKEN-->ROOM) & (holder:TOKEN-->USER) & (not(location:USER+->ROOM) => not((u,a):authorised&(u:dom(location) => (location(u),a)/:takeplace) => location:USER+->ROOM))
