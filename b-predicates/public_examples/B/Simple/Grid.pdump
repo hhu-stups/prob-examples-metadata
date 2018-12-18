@@ -1,0 +1,66 @@
+#source:examples/prob_examples/public_examples/B/Simple/Grid.mch
+1.29653103E8,7.068554766666667E7,9.328725833333333E7,6.4370988333333336E7:(xx:NAT) & (yy:NAT) & (xx/=limit or yy/=limit)
+4.8939370666666664E7,5.3414707333333336E7,6.1307540333333336E7,5.644647E7:(limit:NAT) & (limit=3) & xx/=limit or yy/=limit & xx>0 => xx-1/=limit or yy/=limit
+5.3146749E7,5.1135599666666664E7,6.1634257666666664E7,6.1782693666666664E7:(limit:NAT) & (limit=3) & (not(xx/=limit or yy/=limit) => xx>0 => xx-1/=limit or yy/=limit)
+5.1321238E7,5.1272255666666664E7,5.9252902666666664E7,6.6140394E7:(limit:NAT) & (limit=3) & xx/=limit or yy/=limit & not(xx>0 => xx-1/=limit or yy/=limit)
+4.7866748E7,4.9802888E7,6.2214639E7,6.2073466333333336E7:(limit:NAT) & (limit=3) & (not(xx/=limit or yy/=limit) => not(xx>0 => xx-1/=limit or yy/=limit))
+4.6946193666666664E7,1.8402389033333334E8,6.0864490333333336E7,5.6867613333333336E7:(limit:NAT) & (limit=3) & yy:NAT & xx>0 => yy:NAT
+4.6005804E7,5.8605148E7,6.0370689333333336E7,6.0515004333333336E7:(limit:NAT) & (limit=3) & (not(yy:NAT) => xx>0 => yy:NAT)
+4.8442752333333336E7,4.9281569666666664E7,5.7918445333333336E7,5.4208057333333336E7:(limit:NAT) & (limit=3) & yy:NAT & not(xx>0 => yy:NAT)
+4.657054E7,5.0623430333333336E7,6.0575137666666664E7,6.0693868E7:(limit:NAT) & (limit=3) & (not(yy:NAT) => not(xx>0 => yy:NAT))
+4.979893E7,5.1513766666666664E7,6.1975409E7,5.7633493E7:(limit:NAT) & (limit=3) & xx:NAT & xx>0 => xx-1:NAT
+7.732638333333333E7,5.9908526E7,6.1306841333333336E7,6.2832477666666664E7:(limit:NAT) & (limit=3) & (not(xx:NAT) => xx>0 => xx-1:NAT)
+5.2871923666666664E7,5.0638934333333336E7,6.1353728666666664E7,5.7217518E7:(limit:NAT) & (limit=3) & xx:NAT & not(xx>0 => xx-1:NAT)
+4.8798360666666664E7,5.1905227E7,6.0084619333333336E7,6.2623140333333336E7:(limit:NAT) & (limit=3) & (not(xx:NAT) => not(xx>0 => xx-1:NAT))
+5.0325254333333336E7,5.5791940666666664E7,6.4473306E7,5.6375395333333336E7:(limit:NAT) & (limit=3) & (xx:NAT) & (yy:NAT) & (xx/=limit or yy/=limit) & (xx>0 => xx-1/=limit or yy/=limit) & (xx>0 => yy:NAT) & (xx>0 => xx-1:NAT)
+5.0187597333333336E7,5.6016085E7,6.4533392666666664E7,6.817508033333333E7:(limit:NAT) & (limit=3) & (not((xx:NAT) & (yy:NAT) & (xx/=limit or yy/=limit)) => (xx>0 => xx-1/=limit or yy/=limit) & (xx>0 => yy:NAT) & (xx>0 => xx-1:NAT))
+4.9464949666666664E7,5.4645613E7,6.2988270666666664E7,6.1008060666666664E7:(limit:NAT) & (limit=3) & (xx:NAT) & (yy:NAT) & (xx/=limit or yy/=limit) & not((xx>0 => xx-1/=limit or yy/=limit) & (xx>0 => yy:NAT) & (xx>0 => xx-1:NAT))
+4.9620881666666664E7,5.5654400333333336E7,6.4150499333333336E7,6.876582133333333E7:(limit:NAT) & (limit=3) & (not((xx:NAT) & (yy:NAT) & (xx/=limit or yy/=limit)) => not((xx>0 => xx-1/=limit or yy/=limit) & (xx>0 => yy:NAT) & (xx>0 => xx-1:NAT)))
+5.0745326333333336E7,5.1302636333333336E7,6.2057053333333336E7,6.0764454666666664E7:(limit:NAT) & (limit=3) & xx/=limit or yy/=limit & yy>0 => xx/=limit or yy-1/=limit
+4.7153971E7,5.0147461666666664E7,6.2905299E7,6.4022410666666664E7:(limit:NAT) & (limit=3) & (not(xx/=limit or yy/=limit) => yy>0 => xx/=limit or yy-1/=limit)
+4.9480244333333336E7,4.9831849E7,6.2301288666666664E7,7.6535477E7:(limit:NAT) & (limit=3) & xx/=limit or yy/=limit & not(yy>0 => xx/=limit or yy-1/=limit)
+4.7934284666666664E7,4.9781400333333336E7,6.2207887333333336E7,6.1851883333333336E7:(limit:NAT) & (limit=3) & (not(xx/=limit or yy/=limit) => not(yy>0 => xx/=limit or yy-1/=limit))
+4.7805869333333336E7,2.0076519533333334E8,6.2282082E7,5.5753435E7:(limit:NAT) & (limit=3) & yy:NAT & yy>0 => yy-1:NAT
+4.8533871666666664E7,5.0876348666666664E7,6.1004988E7,6.3456114E7:(limit:NAT) & (limit=3) & (not(yy:NAT) => yy>0 => yy-1:NAT)
+4.5928885666666664E7,5.0305139333333336E7,5.8663396E7,5.7881196333333336E7:(limit:NAT) & (limit=3) & yy:NAT & not(yy>0 => yy-1:NAT)
+4.7076074666666664E7,5.1366727666666664E7,6.3294361333333336E7,6.3126603333333336E7:(limit:NAT) & (limit=3) & (not(yy:NAT) => not(yy>0 => yy-1:NAT))
+4.8152329E7,5.0130909E7,7.125007566666667E7,6.3347837E7:(limit:NAT) & (limit=3) & xx:NAT & yy>0 => xx:NAT
+4.7503247E7,4.9351061333333336E7,5.9997782666666664E7,5.9925055E7:(limit:NAT) & (limit=3) & (not(xx:NAT) => yy>0 => xx:NAT)
+4.7492422E7,4.7974862333333336E7,6.0061641E7,5.1904831333333336E7:(limit:NAT) & (limit=3) & xx:NAT & not(yy>0 => xx:NAT)
+5.0078598333333336E7,4.9455288E7,5.9926685333333336E7,6.1289381666666664E7:(limit:NAT) & (limit=3) & (not(xx:NAT) => not(yy>0 => xx:NAT))
+8.5008133E7,5.5699006E7,6.4028952E7,6.2655220666666664E7:(limit:NAT) & (limit=3) & (xx:NAT) & (yy:NAT) & (xx/=limit or yy/=limit) & (yy>0 => xx/=limit or yy-1/=limit) & (yy>0 => yy-1:NAT) & (yy>0 => xx:NAT)
+4.8704378E7,5.4500412666666664E7,6.2652636666666664E7,6.6696912333333336E7:(limit:NAT) & (limit=3) & (not((xx:NAT) & (yy:NAT) & (xx/=limit or yy/=limit)) => (yy>0 => xx/=limit or yy-1/=limit) & (yy>0 => yy-1:NAT) & (yy>0 => xx:NAT))
+4.8143133666666664E7,5.4657835E7,6.2135043E7,5.9761533666666664E7:(limit:NAT) & (limit=3) & (xx:NAT) & (yy:NAT) & (xx/=limit or yy/=limit) & not((yy>0 => xx/=limit or yy-1/=limit) & (yy>0 => yy-1:NAT) & (yy>0 => xx:NAT))
+5.0599847E7,5.6917340666666664E7,6.2279405E7,6.744130433333333E7:(limit:NAT) & (limit=3) & (not((xx:NAT) & (yy:NAT) & (xx/=limit or yy/=limit)) => not((yy>0 => xx/=limit or yy-1/=limit) & (yy>0 => yy-1:NAT) & (yy>0 => xx:NAT)))
+4.9840742333333336E7,1.8139518066666666E8,6.3041862333333336E7,6.0820513333333336E7:(limit:NAT) & (limit=3) & xx/=limit or yy/=limit & yy<limit => xx/=limit or yy+1/=limit
+4.9320191666666664E7,4.9948996333333336E7,6.3161244333333336E7,6.6096068666666664E7:(limit:NAT) & (limit=3) & (not(xx/=limit or yy/=limit) => yy<limit => xx/=limit or yy+1/=limit)
+4.9057146333333336E7,4.9704714333333336E7,6.4139208333333336E7,7.358019033333333E7:(limit:NAT) & (limit=3) & xx/=limit or yy/=limit & not(yy<limit => xx/=limit or yy+1/=limit)
+4.9195734666666664E7,4.9573040333333336E7,6.2685043333333336E7,6.4320050666666664E7:(limit:NAT) & (limit=3) & (not(xx/=limit or yy/=limit) => not(yy<limit => xx/=limit or yy+1/=limit))
+4.8416003E7,4.9924970666666664E7,6.1990913333333336E7,5.7367653666666664E7:(limit:NAT) & (limit=3) & yy:NAT & yy<limit => yy+1:NAT
+4.7362983E7,5.0057808666666664E7,2.09943178E8,6.1438073E7:(limit:NAT) & (limit=3) & (not(yy:NAT) => yy<limit => yy+1:NAT)
+5.2116986E7,5.0461677333333336E7,6.0528507333333336E7,6.4555206333333336E7:(limit:NAT) & (limit=3) & yy:NAT & not(yy<limit => yy+1:NAT)
+4.8280022E7,5.4439651E7,6.1844643E7,6.1436281E7:(limit:NAT) & (limit=3) & (not(yy:NAT) => not(yy<limit => yy+1:NAT))
+4.8061791666666664E7,4.9501593E7,6.1566511333333336E7,5.5350963333333336E7:(limit:NAT) & (limit=3) & xx:NAT & yy<limit => xx:NAT
+4.7545897333333336E7,5.0310425333333336E7,6.2519635666666664E7,6.1950452666666664E7:(limit:NAT) & (limit=3) & (not(xx:NAT) => yy<limit => xx:NAT)
+4.7286064333333336E7,4.9746759E7,5.8686839E7,5.105484E7:(limit:NAT) & (limit=3) & xx:NAT & not(yy<limit => xx:NAT)
+4.7425537E7,4.9793250333333336E7,6.1611768333333336E7,6.0368501E7:(limit:NAT) & (limit=3) & (not(xx:NAT) => not(yy<limit => xx:NAT))
+5.0394024666666664E7,5.5863296E7,6.4422577666666664E7,7.025527933333333E7:(limit:NAT) & (limit=3) & (xx:NAT) & (yy:NAT) & (xx/=limit or yy/=limit) & (yy<limit => xx/=limit or yy+1/=limit) & (yy<limit => yy+1:NAT) & (yy<limit => xx:NAT)
+5.2880327666666664E7,5.5948548666666664E7,6.3922677333333336E7,6.793608333333333E7:(limit:NAT) & (limit=3) & (not((xx:NAT) & (yy:NAT) & (xx/=limit or yy/=limit)) => (yy<limit => xx/=limit or yy+1/=limit) & (yy<limit => yy+1:NAT) & (yy<limit => xx:NAT))
+5.3001828333333336E7,5.6124083E7,6.3763555333333336E7,9.463943233333333E7:(limit:NAT) & (limit=3) & (xx:NAT) & (yy:NAT) & (xx/=limit or yy/=limit) & not((yy<limit => xx/=limit or yy+1/=limit) & (yy<limit => yy+1:NAT) & (yy<limit => xx:NAT))
+5.2647267333333336E7,5.4991490333333336E7,6.3874836E7,6.9238856E7:(limit:NAT) & (limit=3) & (not((xx:NAT) & (yy:NAT) & (xx/=limit or yy/=limit)) => not((yy<limit => xx/=limit or yy+1/=limit) & (yy<limit => yy+1:NAT) & (yy<limit => xx:NAT)))
+4.9919895666666664E7,5.1910488333333336E7,6.1401057666666664E7,6.0072978666666664E7:(limit:NAT) & (limit=3) & xx/=limit or yy/=limit & xx<limit => xx+1/=limit or yy/=limit
+4.9598555666666664E7,5.2054850333333336E7,6.3993659E7,6.3967259666666664E7:(limit:NAT) & (limit=3) & (not(xx/=limit or yy/=limit) => xx<limit => xx+1/=limit or yy/=limit)
+5.5842133666666664E7,6.1340086E7,8.282186766666667E7,1.1403002666666667E8:(limit:NAT) & (limit=3) & xx/=limit or yy/=limit & not(xx<limit => xx+1/=limit or yy/=limit)
+5.9162016E7,6.028241E7,2.921159413333333E8,1.0384658566666667E8:(limit:NAT) & (limit=3) & (not(xx/=limit or yy/=limit) => not(xx<limit => xx+1/=limit or yy/=limit))
+5.0160754666666664E7,5.3266317666666664E7,6.6769152E7,6.5361268E7:(limit:NAT) & (limit=3) & yy:NAT & xx<limit => yy:NAT
+4.6095037666666664E7,4.9928625666666664E7,6.1216187666666664E7,6.1006175E7:(limit:NAT) & (limit=3) & (not(yy:NAT) => xx<limit => yy:NAT)
+4.8246359E7,4.9723478666666664E7,5.8163984E7,5.144474E7:(limit:NAT) & (limit=3) & yy:NAT & not(xx<limit => yy:NAT)
+4.8578011666666664E7,5.1150056666666664E7,6.4258659666666664E7,6.1472016E7:(limit:NAT) & (limit=3) & (not(yy:NAT) => not(xx<limit => yy:NAT))
+4.7302477E7,4.9956399333333336E7,6.2701153E7,5.5190468333333336E7:(limit:NAT) & (limit=3) & xx:NAT & xx<limit => xx+1:NAT
+4.8149744666666664E7,5.0065840666666664E7,6.3740298333333336E7,6.3062279333333336E7:(limit:NAT) & (limit=3) & (not(xx:NAT) => xx<limit => xx+1:NAT)
+4.7609662333333336E7,5.0493153E7,5.7868066666666664E7,5.8627939666666664E7:(limit:NAT) & (limit=3) & xx:NAT & not(xx<limit => xx+1:NAT)
+4.8313942E7,5.0479906333333336E7,6.3006499333333336E7,6.1396937E7:(limit:NAT) & (limit=3) & (not(xx:NAT) => not(xx<limit => xx+1:NAT))
+5.0396259666666664E7,5.6216855333333336E7,6.4225881666666664E7,6.8885203E7:(limit:NAT) & (limit=3) & (xx:NAT) & (yy:NAT) & (xx/=limit or yy/=limit) & (xx<limit => xx+1/=limit or yy/=limit) & (xx<limit => yy:NAT) & (xx<limit => xx+1:NAT)
+5.128059E7,5.6017109E7,6.4101121666666664E7,6.7954172E7:(limit:NAT) & (limit=3) & (not((xx:NAT) & (yy:NAT) & (xx/=limit or yy/=limit)) => (xx<limit => xx+1/=limit or yy/=limit) & (xx<limit => yy:NAT) & (xx<limit => xx+1:NAT))
+5.2773307666666664E7,5.5525706E7,6.2643673666666664E7,6.788032633333333E7:(limit:NAT) & (limit=3) & (xx:NAT) & (yy:NAT) & (xx/=limit or yy/=limit) & not((xx<limit => xx+1/=limit or yy/=limit) & (xx<limit => yy:NAT) & (xx<limit => xx+1:NAT))
+5.0870505666666664E7,9.858476633333333E7,6.3872089E7,6.806147133333333E7:(limit:NAT) & (limit=3) & (not((xx:NAT) & (yy:NAT) & (xx/=limit or yy/=limit)) => not((xx<limit => xx+1/=limit or yy/=limit) & (xx<limit => yy:NAT) & (xx<limit => xx+1:NAT)))

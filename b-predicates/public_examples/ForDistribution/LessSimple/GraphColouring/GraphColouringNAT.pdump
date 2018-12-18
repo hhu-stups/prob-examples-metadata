@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/ForDistribution/LessSimple/GraphColouring/GraphColouringNAT.mch
+2.5011316033333334E8,2.9226025876666665E9,-1.0,2.1001637166666666E8:(Vertexes=Vtx) & (Edges=Edge) & (Edges:Vertexes<->Vertexes) & (maxnocol:1..6) & (colour:Vertexes-->1..maxnocol) & (!x,y.((x,y):Edges => colour(x)/=colour(y))) & (colour(1)=1) & (yy:Vertexes)
+1.0125635866666667E8,6.2820348666666664E7,2.3808064766666666E8,8.518033866666667E7:not((Vertexes=Vtx) & (Edges=Edge) & (Edges:Vertexes<->Vertexes) & (maxnocol:1..6) & (colour:Vertexes-->1..maxnocol) & (!x,y.((x,y):Edges => colour(x)/=colour(y))) & (colour(1)=1)) => (yy:Vertexes)
+8.938548233333333E7,1.09103818E8,-1.0,2.2665601066666666E8:(Vertexes=Vtx) & (Edges=Edge) & (Edges:Vertexes<->Vertexes) & (maxnocol:1..6) & (colour:Vertexes-->1..maxnocol) & (!x,y.((x,y):Edges => colour(x)/=colour(y))) & (colour(1)=1) & not((yy:Vertexes))
+5.5256957E7,6.000649E7,8.944230966666667E7,9.7463744E7:not((Vertexes=Vtx) & (Edges=Edge) & (Edges:Vertexes<->Vertexes) & (maxnocol:1..6) & (colour:Vertexes-->1..maxnocol) & (!x,y.((x,y):Edges => colour(x)/=colour(y))) & (colour(1)=1)) => not((yy:Vertexes))

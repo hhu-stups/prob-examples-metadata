@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Daniel/SigmaProblem.mch
+2.848143606666667E8,1.2555132433333333E8,-1.0,3.0364379666666665E9:(function:0..10-->NATURAL) & (function=%p1.(p1:0..10|SIGMA(idx1).(idx1:p1..10|idx1))) & (not(tmp:0..100) => !v1.(v1=function(5) => (v1:NATURAL => v1:0..100)))
+2.79382478E8,1.2452507633333333E8,-1.0,1.27198298E8:(function:0..10-->NATURAL) & (function=%p1.(p1:0..10|SIGMA(idx1).(idx1:p1..10|idx1))) & (not(tmp:0..100) => not(!v1.(v1=function(5) => (v1:NATURAL => v1:0..100))))
+6.1351074333333336E7,3.4968879303333335E9,-1.0,6.6428722333333336E7:(function:0..10-->NATURAL) & (function=%p1.(p1:0..10|SIGMA(idx1).(idx1:p1..10|idx1))) & (tmp:0..100) & (!v1.(v1=function(5) => (v1:NATURAL => v1:0..100)))
+5.1426488666666664E7,1.3173025233333333E8,-1.0,1.02075527E8:(function:0..10-->NATURAL) & (function=%p1.(p1:0..10|SIGMA(idx1).(idx1:p1..10|idx1))) & (not((tmp:0..100)) => (!v1.(v1=function(5) => (v1:NATURAL => v1:0..100))))
+1.18470279E8,6.2727343333333336E7,-1.0,7.814327066666667E7:(function:0..10-->NATURAL) & (function=%p1.(p1:0..10|SIGMA(idx1).(idx1:p1..10|idx1))) & (tmp:0..100) & not((!v1.(v1=function(5) => (v1:NATURAL => v1:0..100))))
+5.2204892666666664E7,1.0005369166666667E8,-1.0,9.417484833333333E7:(function:0..10-->NATURAL) & (function=%p1.(p1:0..10|SIGMA(idx1).(idx1:p1..10|idx1))) & (not((tmp:0..100)) => not((!v1.(v1=function(5) => (v1:NATURAL => v1:0..100)))))

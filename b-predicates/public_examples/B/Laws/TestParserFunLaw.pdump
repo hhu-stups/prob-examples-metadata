@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Laws/TestParserFunLaw.mch
+1.14152668E8,1.01955004E8,-1.0,8.010739366666667E7:(ff:INT+->INT) & (gg:INT+->INT) & (dom(dom(gg)<<|ff)=dom(ff)-dom(gg))

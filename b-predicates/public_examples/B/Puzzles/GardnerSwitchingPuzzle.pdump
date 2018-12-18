@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/GardnerSwitchingPuzzle.mch
+4.936614956666667E8,2.0022183E8,-1.0,4.635770603333333E8:(occ:TRACKS-->iseq(TRAINS)) & (!t1,t2.(t1:TRACKS&t1/=t2 => ran(occ(t1))/\ran(occ(t2))={})) & (UNION(t).(t:TRACKS|ran(occ(t)))=TRAINS)

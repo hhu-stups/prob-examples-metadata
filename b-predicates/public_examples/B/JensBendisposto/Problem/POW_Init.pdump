@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/Problem/POW_Init.mch
+9.149864666666667E7,4.455702083333333E8,1.01828871E8,6.4855803333333336E7:(V<:Vertices) & (E<:Vertices*Vertices) & (E/={}) & (V/={})

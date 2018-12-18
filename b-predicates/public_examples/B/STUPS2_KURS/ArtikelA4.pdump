@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/ArtikelA4.mch
+7.0842784E7,8.773410833333333E7,1.3990952833333334E8,6.782103166666667E7:not((al:NAT1+->iseq1(Autoren))) => (ha:Autoren)
+5.8314119333333336E7,6.6021384666666664E7,1.1362012833333333E8,6.025147E7:not((ha:Autoren)) => (al:NAT1+->iseq1(Autoren))

@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter11/Customer.mch
+5.1126753E7,5.7845577333333336E7,9.153377666666667E7,4.9256008E7:(purchases<:GOODS)
+1.1613900066666667E8,5.3252885E7,9.266089866666667E7,6.804170666666667E7:(limit:GOODS-->NAT1) & (purchases<:GOODS) & (gg:GOODS) & (price(gg)<=limit(gg))
+7.401767566666667E7,5.0734198333333336E7,-1.0,6.5245145333333336E7:not((limit:GOODS-->NAT1) & (purchases<:GOODS)) => (gg:GOODS) & (price(gg)<=limit(gg))
+5.1415779333333336E7,5.0662308333333336E7,7.189857533333333E7,6.942498266666667E7:(limit:GOODS-->NAT1) & (purchases<:GOODS) & not((gg:GOODS) & (price(gg)<=limit(gg)))
+4.8570608333333336E7,4.9451330333333336E7,6.3943443333333336E7,6.1372073333333336E7:not((limit:GOODS-->NAT1) & (purchases<:GOODS)) => not((gg:GOODS) & (price(gg)<=limit(gg)))
+4.5512934E7,4.5533420333333336E7,5.6376722E7,4.7336419666666664E7:not((limit:GOODS-->NAT1) & (gg:GOODS) & (price(gg)<=limit(gg))) => (purchases<:GOODS)
+5.2459138333333336E7,5.2169553E7,7.307188533333333E7,5.96107E7:not((limit:GOODS-->NAT1) & not((gg:GOODS) & (price(gg)<=limit(gg)))) => (purchases<:GOODS)
+1.5258623333333334E8,8.756548833333333E7,2.5507761866666666E8,5.6228053333333336E7:not((limit:GOODS-->NAT1) & not((purchases<:GOODS))) => (gg:GOODS) & (price(gg)<=limit(gg))
+1.5901135166666666E8,9.147990566666667E7,1.0569263066666667E8,6.4033585E7:not((limit:GOODS-->NAT1) & not((purchases<:GOODS))) => not((gg:GOODS) & (price(gg)<=limit(gg)))
+5.4855765E7,5.0544067E7,8.4362101E7,8.854950533333333E7:not((limit:GOODS-->NAT1) & not((gg:GOODS) & (price(gg)<=limit(gg)))) => not((purchases<:GOODS))
+5.7298138666666664E7,5.8605148333333336E7,1.1451107E8,7.0928503E7:not((limit:GOODS-->NAT1) & (gg:GOODS) & (price(gg)<=limit(gg))) => not((purchases<:GOODS))

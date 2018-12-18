@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/TLA/TLA_Distribution/FIFO/MCInnerFIFO.mch
+5.3223388333333336E7,8.8300102E7,1.2615782566666667E8,5.7396498333333336E7:(Message={m1,m2,m3}) & (qLen=3) & out:struct(val:ENUM,rdy:INTEGER,ack:INTEGER) & msg:Message&in'rdy=in'ack => !in_n.(in_n=rec(ack:in'ack,rdy:1-in'rdy,val:msg) => out:struct(ack:INTEGER,rdy:INTEGER,val:ENUM))
+1.1051330833333333E8,7.8954826E7,5.9987632666666664E7,8.7607137E7:(Message={m1,m2,m3}) & (qLen=3) & (not(out:struct(val:ENUM,rdy:INTEGER,ack:INTEGER)) => msg:Message&in'rdy=in'ack => !in_n.(in_n=rec(ack:in'ack,rdy:1-in'rdy,val:msg) => out:struct(ack:INTEGER,rdy:INTEGER,val:ENUM)))
+9.154544066666667E7,1.37131661E8,1.10609969E8,6.1737110333333336E7:(Message={m1,m2,m3}) & (qLen=3) & (not(out:struct(val:ENUM,rdy:INTEGER,ack:INTEGER)) => not(msg:Message&in'rdy=in'ack => !in_n.(in_n=rec(ack:in'ack,rdy:1-in'rdy,val:msg) => out:struct(ack:INTEGER,rdy:INTEGER,val:ENUM))))

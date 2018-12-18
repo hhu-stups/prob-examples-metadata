@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/NQueens.mch
+1.98964873E8,1.931394395E9,-1.0,4.03595434E8:(n=8) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+(q2-q1)/=queens(q2)&queens(q1)+(q1-q2)/=queens(q2))) & (yy:1..n)
+1.29804123E8,1.1251693833333333E8,1.4660684166666666E8,1.49494569E8:not((n=8) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+(q2-q1)/=queens(q2)&queens(q1)+(q1-q2)/=queens(q2)))) => (yy:1..n)
+9.167031633333333E7,9.404620033333333E7,-1.0,3.917397596666667E8:(n=8) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+(q2-q1)/=queens(q2)&queens(q1)+(q1-q2)/=queens(q2))) & not((yy:1..n))
+6.5196349666666664E7,7.657880233333333E7,7.0898355E7,1.48199432E8:not((n=8) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+(q2-q1)/=queens(q2)&queens(q1)+(q1-q2)/=queens(q2)))) => not((yy:1..n))

@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Parser1/Leerzeichen.mch
+7.9244458E7,8.321698366666667E7,-1.0,4.4397498333333336E7:(empty="") & (leer=" ") & not(empty/=leer)
+4.1904499633333335E9,5.2486609333333336E7,1.8192746203333333E9,3.6710744E7:not((empty="") & (leer=" ")) => " abc "/="abc"
+7.671171066666667E7,8.125190533333333E7,-1.0,4.5811784666666664E7:(empty="") & (leer=" ") & not((empty/=leer) & (" abc "/="abc"))

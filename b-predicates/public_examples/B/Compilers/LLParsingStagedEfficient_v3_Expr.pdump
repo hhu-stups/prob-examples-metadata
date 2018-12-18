@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Compilers/LLParsingStagedEfficient_v3_Expr.mch
+1.12323618E8,4.593459149E9,-1.0,6.780901833333333E7:(Nullable<:NonTerminals) & (First:Symbols-->POW(Terminals)) & (Follow:NonTerminals-->POW(Terminals)) & (Stage:1..3)

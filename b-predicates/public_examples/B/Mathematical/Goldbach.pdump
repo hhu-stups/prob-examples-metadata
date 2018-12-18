@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/Goldbach.mch
+2.0292368633333334E8,1.1751464166666667E8,1.0044084533333333E8,1.4328900833333334E8:(x:NATURAL) & (x mod 2=0) & (x>2) & (p1<x) & (p2<x) & (p1<=p2) & (prime(p1)) & (prime(p2)) & (x=p1+p2)
+-1.0,-1.0,-1.0,-1.0:(x:NATURAL) & (x mod 2=0) & (x>2) & (!p1,p2.(p1<x&p2<x&p1<=p2&prime(p1)&prime(p2) => x/=p1+p2))
+-1.0,-1.0,-1.0,-1.0:(x:NATURAL) & (x mod 2=0) & (x>2) & (p1<x) & (p2<x) & (p1<=p2) & (prime(p1)) & (prime(p2)) & (x=p1+p2) & (x:NATURAL) & (x mod 2=0) & (x>2) & (!p1,p2.(p1<x&p2<x&p1<=p2&prime(p1)&prime(p2) => x/=p1+p2))
+-1.0,-1.0,-1.0,-1.0:(not((x:NATURAL) & (x mod 2=0) & (x>2) & (p1<x) & (p2<x) & (p1<=p2) & (prime(p1)) & (prime(p2)) & (x=p1+p2)) => (x:NATURAL) & (x mod 2=0) & (x>2) & (!p1,p2.(p1<x&p2<x&p1<=p2&prime(p1)&prime(p2) => x/=p1+p2)))
+7.0386069E7,7.478197233333333E7,-1.0,3.829419466666667E8:(x:NATURAL) & (x mod 2=0) & (x>2) & (p1<x) & (p2<x) & (p1<=p2) & (prime(p1)) & (prime(p2)) & (x=p1+p2) & not((x:NATURAL) & (x mod 2=0) & (x>2) & (!p1,p2.(p1<x&p2<x&p1<=p2&prime(p1)&prime(p2) => x/=p1+p2)))
+6.6494815E7,7.194779E7,6.6184929666666664E7,3.897639266666667E8:((x:NATURAL) & (x mod 2=0) & (x>2) & (p1<x) & (p2<x) & (p1<=p2) & (prime(p1)) & (prime(p2)) & (x=p1+p2) => not((x:NATURAL) & (x mod 2=0) & (x>2) & (!p1,p2.(p1<x&p2<x&p1<=p2&prime(p1)&prime(p2) => x/=p1+p2))))

@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Bracknell1/C0.mch
+1.4257746533333334E8,2.7992353173333335E9,1.11498955E8,6.752436933333333E7:not((Affinity=Affinity~) & (Affinity={(P1,P3),(P3,P1)})) => Affinity(P1)=P3
+5.3156387333333336E7,7.164947466666667E7,7.545661566666667E7,6.813971733333333E7:(Affinity=Affinity~) & (Affinity={(P1,P3),(P3,P1)}) & (Affinity(P1)=P3)
+5.0956386666666664E7,6.6522565333333336E7,6.916561566666667E7,5.1914959E7:(Affinity=Affinity~) & (Affinity={(P1,P3),(P3,P1)}) & not((Affinity(P1)=P3))
+4.7373971E7,7.9370708E7,5.2559686666666664E7,6.7838538E7:not((Affinity=Affinity~) & (Affinity={(P1,P3),(P3,P1)})) => (Affinity(P1)=P3)

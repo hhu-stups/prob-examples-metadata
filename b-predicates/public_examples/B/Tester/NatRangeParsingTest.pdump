@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tester/NatRangeParsingTest.mch
+1.9545171633333334E8,1.2057285133333333E8,-1.0,5.1512323333333336E7:(x:seq(ID)) & (i:0..size(x))

@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/SimpleConstants.mch
+8.005368566666667E7,6.6573316666666664E7,8.5362787E7,6.0032773666666664E7:(nn:mynumbers)
+8.458440633333333E7,4.9177668666666664E7,-1.0,7.1231497E7:(mynumbers:FIN1(INT)) & (mynumbers={xx|xx:NAT&xx>0&xx<5}) & nn:mynumbers & nn:mynumbers
+7.961030966666667E7,5.1922268333333336E7,-1.0,5.4955475333333336E7:(mynumbers:FIN1(INT)) & (mynumbers={xx|xx:NAT&xx>0&xx<5}) & (not(nn:mynumbers) => nn:mynumbers)
+4.9262828666666664E7,5.0291265E7,6.7147226E7,5.0315849E7:(mynumbers:FIN1(INT)) & (mynumbers={xx|xx:NAT&xx>0&xx<5}) & nn:mynumbers & not(nn:mynumbers)
+5.0050102666666664E7,5.1295210333333336E7,-1.0,7.672698233333333E7:(mynumbers:FIN1(INT)) & (mynumbers={xx|xx:NAT&xx>0&xx<5}) & (not(nn:mynumbers) => not(nn:mynumbers))
+4.8934434666666664E7,5.1152175E7,-1.0,6.0730674333333336E7:(mynumbers:FIN1(INT)) & (mynumbers={xx|xx:NAT&xx>0&xx<5}) & (nn:mynumbers) & (nn:mynumbers)
+4.8212718333333336E7,5.1134831E7,-1.0,6.0314560333333336E7:(mynumbers:FIN1(INT)) & (mynumbers={xx|xx:NAT&xx>0&xx<5}) & (not((nn:mynumbers)) => (nn:mynumbers))
+4.7001274666666664E7,5.0942954E7,6.965729833333333E7,5.0256228333333336E7:(mynumbers:FIN1(INT)) & (mynumbers={xx|xx:NAT&xx>0&xx<5}) & (nn:mynumbers) & not((nn:mynumbers))
+4.7707114333333336E7,5.0835095666666664E7,-1.0,5.7545678666666664E7:(mynumbers:FIN1(INT)) & (mynumbers={xx|xx:NAT&xx>0&xx<5}) & (not((nn:mynumbers)) => not((nn:mynumbers)))

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Valerio9/Michael_12/Test_inv.mch
+2.0753155833333334E8,1.2644145166666667E8,1.04849809E8,6.785977E7:not((func:0..1-->0..1) & (func=%elem.(elem:0..1|elem+1)) & (func_inv:0..1-->0..1) & (func_inv=%elem.(elem:0..1|elem-1))) => func(0)=1
+2.0232810333333334E8,1.0636611E8,1.4633939566666666E8,5.1733185E7:not((func:0..1-->0..1) & (func=%elem.(elem:0..1|elem+1)) & (func_inv:0..1-->0..1) & (func_inv=%elem.(elem:0..1|elem-1))) => !xx.(xx:0..10 => func(xx)=xx+1)

@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/ASSERT_TRUE.mch
+1.3783205266666666E8,6.9027935E7,-1.0,1.1295976486666667E9:(xx:NATURAL) & (ASSERT_TRUE(bool(xx<10),"xx has reached 10"))
+4.9967945666666664E7,5.3378529333333336E7,-1.0,7.5975397E7:(xx:NATURAL) & (ASSERT_TRUE(bool(xx<10),"xx has reached 10")) & (xx<20) & (ASSERT_TRUE(bool(xx<11),"xx has reached 11"))
+5.6762083666666664E7,5.1978118E7,-1.0,6.812523633333333E7:not((xx:NATURAL) & (ASSERT_TRUE(bool(xx<10),"xx has reached 10"))) => (xx<20) & (ASSERT_TRUE(bool(xx<11),"xx has reached 11"))
+6.268545046666666E8,9.441780233333333E7,-1.0,1.7555472633333334E8:not((xx:NATURAL) & (ASSERT_TRUE(bool(xx<10),"xx has reached 10"))) => not((xx<20) & (ASSERT_TRUE(bool(xx<11),"xx has reached 11")))
+4.9953349333333336E7,4.9399671E7,-1.0,6.785606833333333E7:not((xx<20) & (ASSERT_TRUE(bool(xx<11),"xx has reached 11"))) => (xx:NATURAL) & (ASSERT_TRUE(bool(xx<10),"xx has reached 10"))
+4.8667292333333336E7,5.1933070333333336E7,-1.0,6.8055558E7:not(not((xx<20) & (ASSERT_TRUE(bool(xx<11),"xx has reached 11")))) => (xx:NATURAL) & (ASSERT_TRUE(bool(xx<10),"xx has reached 10"))
+5.6654527333333336E7,5.0762554E7,-1.0,7.599097166666667E7:not((xx:NATURAL) & (ASSERT_TRUE(bool(xx<10),"xx has reached 10"))) & (xx<20) & (ASSERT_TRUE(bool(xx<11),"xx has reached 11"))
+4.9198714333333336E7,5.1897568333333336E7,-1.0,6.523995940666667E9:not(not((xx:NATURAL) & (ASSERT_TRUE(bool(xx<10),"xx has reached 10")))) => (xx<20) & (ASSERT_TRUE(bool(xx<11),"xx has reached 11"))
+1.56308727E8,9.298088766666667E7,-1.0,6.4048601E7:not(not((xx:NATURAL) & (ASSERT_TRUE(bool(xx<10),"xx has reached 10")))) => not((xx<20) & (ASSERT_TRUE(bool(xx<11),"xx has reached 11")))
+4.9514094E7,4.9325429333333336E7,-1.0,6.6732578E7:not(not((xx<20) & (ASSERT_TRUE(bool(xx<11),"xx has reached 11")))) => not((xx:NATURAL) & (ASSERT_TRUE(bool(xx<10),"xx has reached 10")))
+4.7104453666666664E7,5.0590744666666664E7,-1.0,6.6328779666666664E7:not((xx<20) & (ASSERT_TRUE(bool(xx<11),"xx has reached 11"))) => not((xx:NATURAL) & (ASSERT_TRUE(bool(xx<10),"xx has reached 10")))

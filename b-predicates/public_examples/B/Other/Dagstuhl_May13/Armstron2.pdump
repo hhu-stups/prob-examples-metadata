@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Other/Dagstuhl_May13/Armstron2.mch
+1.0035221666666667E8,4.60083297E8,9.020525566666667E7,7.340772866666667E7:(A&B => C) & (C => A) & (B&C => D) & (C&D => B) & (B&E => C) & (C&E => F) & (C&F => B) & (D => E&F)

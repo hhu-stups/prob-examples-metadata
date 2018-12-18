@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/Login_with_expire.mch
+4.9942361E7,5.7541604333333336E7,7.7071812E7,4.9436664E7:(active<:Session) & (expire<:Session)
+8.027568766666667E7,3.824266106666667E8,5.8965017E7,5.4430245666666664E7:(active<:Session) & (expire<:Session) & (s:active) & (e:BOOL)
+4.4789145333333336E7,4.5855086333333336E7,6.0155834E7,4.8856724666666664E7:not((active<:Session) & (expire<:Session)) => (s:active) & (e:BOOL)
+5.2021349666666664E7,7.9485876E7,6.0407146E7,5.7387721E7:(active<:Session) & (expire<:Session) & not((s:active) & (e:BOOL))
+4.7397112333333336E7,4.8879283666666664E7,5.9175239E7,4.9234287E7:not((active<:Session) & (expire<:Session)) => not((s:active) & (e:BOOL))
+4.7827963333333336E7,4.7676733E7,5.8703810333333336E7,4.8119713666666664E7:not((s:active) & (e:BOOL)) => (active<:Session) & (expire<:Session)
+6.6078584333333336E7,5.3227462666666664E7,6.1260373666666664E7,5.0673040666666664E7:not(not((s:active) & (e:BOOL))) => (active<:Session) & (expire<:Session)
+9.033208766666667E7,4.086420253333333E8,9.263405633333333E7,5.4367924E7:not(not((active<:Session) & (expire<:Session))) => (s:active) & (e:BOOL)
+9.811960033333333E7,4.175152906666667E8,9.400178166666667E7,5.7932529666666664E7:not(not((active<:Session) & (expire<:Session))) => not((s:active) & (e:BOOL))
+4.6460633333333336E7,7.593146666666667E7,5.9356384333333336E7,5.6214271E7:not(not((s:active) & (e:BOOL))) => not((active<:Session) & (expire<:Session))
+5.5602624666666664E7,7.057217266666667E7,6.2666791666666664E7,5.3209862666666664E7:not((s:active) & (e:BOOL)) => not((active<:Session) & (expire<:Session))

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/CBC/DominoPlacing.mch
+1.3983754533333334E8,7.819474333333333E7,8.804322633333333E7,1.0825014833333333E8:(cov:1..n<->1..n) & (card(cov/\even)=card(cov/\odd))

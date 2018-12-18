@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/ForDistribution/GraphicalAnimation/NQueensBig.mch
+1.63017285E8,9.973028033333333E7,9.780163633333333E7,8.657281066666667E7:not((n=32) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+q2-q1/=queens(q2)&queens(q1)-q2+q1/=queens(q2)))) => (yy:1..n)
+2.817667433333333E8,2.3494426233333334E8,-1.0,6.372275017666667E9:(n=32) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+q2-q1/=queens(q2)&queens(q1)-q2+q1/=queens(q2))) & not((yy:1..n))
+5.3435170333333336E7,5.7006388E7,7.046862133333333E7,6.9380075E7:not((n=32) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+q2-q1/=queens(q2)&queens(q1)-q2+q1/=queens(q2)))) => not((yy:1..n))

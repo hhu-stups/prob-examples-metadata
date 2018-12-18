@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/NewSyntax/RecTest3_Simple.mch
+1.9917025233333334E8,7.2226107E7,-1.0,6.836819166666667E7:(allxx:POW(struct(name:ID,balance:NAT)))
+9.771694166666667E7,5.0504420333333336E7,-1.0,6.2973185E7:allxx:POW(struct(name:ID,balance:NAT)) & !xx.(xx:allxx => allxx:POW(struct(balance:NAT,name:ID)))
+6.1118503333333336E7,4.9079262666666664E7,-1.0,7.219840366666667E7:(not(allxx:POW(struct(name:ID,balance:NAT))) => !xx.(xx:allxx => allxx:POW(struct(balance:NAT,name:ID))))
+5.501393946666666E8,5.294800176666667E8,-1.0,1.115398846E9:allxx:POW(struct(name:ID,balance:NAT)) & not(!xx.(xx:allxx => allxx:POW(struct(balance:NAT,name:ID))))
+4.7964712333333336E7,5.0820313E7,-1.0,7.177921633333333E7:(not(allxx:POW(struct(name:ID,balance:NAT))) => not(!xx.(xx:allxx => allxx:POW(struct(balance:NAT,name:ID)))))
+4.8401593E7,5.2110606666666664E7,-1.0,7.621348566666667E7:(allxx:POW(struct(name:ID,balance:NAT))) & (!xx.(xx:allxx => allxx:POW(struct(balance:NAT,name:ID))))
+4.8404060333333336E7,5.2801337333333336E7,-1.0,7.198035933333333E7:(not((allxx:POW(struct(name:ID,balance:NAT)))) => (!xx.(xx:allxx => allxx:POW(struct(balance:NAT,name:ID)))))
+5.10162407E8,5.126525056666667E8,-1.0,1.0784332753333333E9:(allxx:POW(struct(name:ID,balance:NAT))) & not((!xx.(xx:allxx => allxx:POW(struct(balance:NAT,name:ID)))))
+4.7902972333333336E7,4.9299519E7,-1.0,7.213163566666667E7:(not((allxx:POW(struct(name:ID,balance:NAT)))) => not((!xx.(xx:allxx => allxx:POW(struct(balance:NAT,name:ID))))))

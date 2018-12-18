@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/PartialSets.mch
+3.67179257E8,5.01120941E8,7.80193766E8,1.11947755E8:(pset(r)) & (g:POW(POW(Els)))
+7.6635839E7,6.5272709333333336E7,2.77110821E8,1.1236682633333333E8:(pset(x)) & (pset(y)) & g:POW(POW(Els)) & g:POW(POW(Els))
+8.405396133333333E7,7.869268866666667E7,2.9111749E8,1.2615247133333333E8:(pset(x)) & (pset(y)) & (not(g:POW(POW(Els))) => g:POW(POW(Els)))
+8.31757656E8,4.321089293333333E8,1.031819898E9,1.41887829E8:(pset(x)) & (pset(y)) & (not(g:POW(POW(Els))) => not(g:POW(POW(Els))))
+7.4867621E7,9.564570533333333E7,6.242964976666666E8,1.72678895E8:(pset(x)) & (pset(y)) & pset(r) & r'def/\r'maybe={}
+9.252245E7,9.074356933333333E7,6.164779286666666E8,8.42095772E8:(pset(x)) & (pset(y)) & (not(pset(r)) => r'def/\r'maybe={})
+-1.0,-1.0,1.6327455733333334E8,-1.0:(pset(x)) & (pset(y)) & pset(r) & not(r'def/\r'maybe={})
+9.103622766666667E7,9.4210118E7,3.372458416666667E8,1.9022190866666666E8:(pset(x)) & (pset(y)) & (not(pset(r)) => not(r'def/\r'maybe={}))
+6.5753171E7,8.269952966666667E7,6.89219395E8,4.939629776666667E8:(pset(x)) & (pset(y)) & (pset(r)) & (g:POW(POW(Els))) & (g:POW(POW(Els))) & (r'def/\r'maybe={})
+-1.0,-1.0,3.5084561616666665E9,-1.0:(pset(x)) & (pset(y)) & (pset(r)) & (g:POW(POW(Els))) & not((g:POW(POW(Els))) & (r'def/\r'maybe={}))
+3.5320828623333335E9,1.3146661783333333E9,1.8177809016666667E9,1.937162959E9:(pset(x)) & (pset(y)) & (not((pset(r)) & (g:POW(POW(Els)))) => not((g:POW(POW(Els))) & (r'def/\r'maybe={})))

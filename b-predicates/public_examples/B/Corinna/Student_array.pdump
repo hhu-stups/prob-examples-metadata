@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Corinna/Student_array.mch
+1.8394962566666666E8,5.63053025E8,-1.0,6.8624951E7:(lim:1..maxsize) & (st:STUDENT) & (1..lim<:dom(arr))

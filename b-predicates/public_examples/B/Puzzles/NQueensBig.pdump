@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/NQueensBig.mch
+3.27724822E8,1.0881763899E10,2.077809894E9,1.0464537426666666E9:(n=14) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q2)-queens(q1)/=q2-q1&queens(q1)-queens(q2)/=q2-q1)) & (yy:1..n)
+1.1025177633333333E8,7.277736433333333E7,1.2519774066666667E8,1.1396165233333333E8:not((n=14) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q2)-queens(q1)/=q2-q1&queens(q1)-queens(q2)/=q2-q1))) => (yy:1..n)
+1.1496701733333333E8,1.5704096666666666E8,5.127598255666667E9,1.2678453733333333E9:(n=14) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q2)-queens(q1)/=q2-q1&queens(q1)-queens(q2)/=q2-q1)) & not((yy:1..n))
+7.3126734E7,7.621236866666667E7,7.857672866666667E7,1.5316780133333334E8:not((n=14) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q2)-queens(q1)/=q2-q1&queens(q1)-queens(q2)/=q2-q1))) => not((yy:1..n))

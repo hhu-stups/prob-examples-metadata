@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Compilers/Dataflow/ImageTestSimple.mch
+1.3020687433333333E8,8.492651196666666E8,1.09064311E8,7.095602E7:(rels:{cc,ee}<->ID) & (rels[ID]={bb}) & ((x,y):rels)
+9.584668533333333E7,1.3911652666666666E8,-1.0,6.1205059666666664E7:not((rels:{cc,ee}<->ID) & (rels[ID]={bb})) => ((x,y):rels)
+5.5014258666666664E7,1.16961172E8,2.811371706666667E8,6.2824236666666664E7:(rels:{cc,ee}<->ID) & (rels[ID]={bb}) & not(((x,y):rels))
+4.8690828666666664E7,1.2181188233333333E8,4.1686935E7,6.1860171E7:not((rels:{cc,ee}<->ID) & (rels[ID]={bb})) => not(((x,y):rels))

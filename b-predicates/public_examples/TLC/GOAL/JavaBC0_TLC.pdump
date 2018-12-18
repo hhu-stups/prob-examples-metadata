@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLC/GOAL/JavaBC0_TLC.mch
+1.2609012666666667E8,7.271690533333333E7,-1.0,9.706336733333333E7:(PC:1..PSIZE) & (Stack:seq(INTEGER)) & (Vars:VARS+->INTEGER) & (Finished:BOOL) & (size(Stack)=StackLayout(PC))

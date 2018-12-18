@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/Z/Daniel/tests/scope_b.mch
+9.7378747E7,8.025322233333333E7,-1.0,7.245940033333333E7:(s:seq(Token))
+6.0359910333333336E7,5.3200247333333336E7,-1.0,7.906708433333333E7:s:seq(Token) & s^[t]:seq(Token)
+7.816187166666667E7,5.1449164E7,-1.0,9.6538743E7:(not(s:seq(Token)) => s^[t]:seq(Token))
+-1.0,-1.0,-1.0,-1.0:s:seq(Token) & not(s^[t]:seq(Token))
+4.8227641333333336E7,4.9401883E7,-1.0,1.1394726466666667E8:(not(s:seq(Token)) => not(s^[t]:seq(Token)))
+4.9024577E7,5.1957701333333336E7,-1.0,7.279543E7:(s:seq(Token)) & (s^[t]:seq(Token))
+4.8241144E7,5.4302273E7,-1.0,6.726160233333333E7:(not((s:seq(Token))) => (s^[t]:seq(Token)))
+-1.0,-1.0,-1.0,-1.0:(s:seq(Token)) & not((s^[t]:seq(Token)))
+6.2727506666666664E7,5.5860734666666664E7,-1.0,1.10687586E8:(not((s:seq(Token))) => not((s^[t]:seq(Token))))

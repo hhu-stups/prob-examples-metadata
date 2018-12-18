@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Daniel/Kodkod/LargerSet.mch
+1.59490137E8,1.61567659E8,-1.0,7.6766489E7:(set2={x|x:0..2**n&x mod 2=1})

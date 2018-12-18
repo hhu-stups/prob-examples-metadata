@@ -1,0 +1,330 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/NatRangeLaws.mch
+2.24743384E8,8.423757433333333E7,-1.0,2.99246829E8:(xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)
+5.9054553333333336E7,6.8008416E7,-1.0,2.987789623333333E8:(xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) & (yy:NAT)
+5.640261E7,6.715753933333333E7,-1.0,2.0033078233333334E8:not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)) => (yy:NAT)
+5.5478330666666664E7,9.1303091E7,-1.0,2.709222076666667E8:(xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) & not((yy:NAT))
+5.9179336666666664E7,7.598366166666667E7,-1.0,1.69428063E8:not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)) => not((yy:NAT))
+6.2090600333333336E7,5.3649466333333336E7,-1.0,1.9936206066666666E8:not((yy:NAT)) => (xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)
+6.0204932666666664E7,7.604058233333333E7,-1.0,2.09684742E8:not(not((yy:NAT))) => (xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)
+6.2969506666666664E7,8.536516166666667E7,-1.0,3.82842306E8:not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)) & (yy:NAT)
+6.2489953E7,9.093153533333333E7,-1.0,1.8611498466666666E8:not(not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT))) => (yy:NAT)
+6.1368349E7,5.2418071333333336E7,-1.0,3.75384025E8:not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)) & not((yy:NAT))
+6.1499417666666664E7,6.6854637333333336E7,-1.0,2.1092291133333334E8:not(not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT))) => not((yy:NAT))
+6.1096782666666664E7,4.0780605E7,-1.0,2.4873791566666666E8:not(not((yy:NAT))) => not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT))
+6.1769680333333336E7,5.4003702E7,-1.0,2.0799821466666666E8:not((yy:NAT)) => not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT))
+6.2145752E7,7.203634833333333E7,-1.0,3.70406507E8:(xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) & (yy:INT)
+6.4195174666666664E7,8.7949219E7,-1.0,2.0434474733333334E8:not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)) => (yy:INT)
+6.1415584666666664E7,6.939911833333333E7,-1.0,2.692163576666667E8:(xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) & not((yy:INT))
+6.1670831E7,7.6070614E7,-1.0,1.7341911966666666E8:not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)) => not((yy:INT))
+6.0715263E7,5.5699052333333336E7,-1.0,1.94723039E8:not((yy:INT)) => (xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)
+6.1975339333333336E7,5.4634461666666664E7,-1.0,2.96170926E8:not(not((yy:INT))) => (xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)
+6.2116279E7,4.3234641666666664E7,-1.0,3.492514423333333E8:not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)) & (yy:INT)
+6.0379605333333336E7,7.6142667E7,-1.0,2.48297008E8:not(not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT))) => (yy:INT)
+6.0512281E7,6.5668825666666664E7,-1.0,3.73123566E8:not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)) & not((yy:INT))
+6.2237011333333336E7,4.0985938E7,-1.0,2.13194243E8:not(not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT))) => not((yy:INT))
+6.2685834E7,5.3776461666666664E7,-1.0,1.8579266733333334E8:not(not((yy:INT))) => not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT))
+6.1305677666666664E7,6.5713640666666664E7,-1.0,1.92629477E8:not((yy:INT)) => not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT))
+6.2714236666666664E7,7.194332033333333E7,-1.0,3.278656453333333E8:(xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) & (yy:NAT) & (yy:INT)
+6.2391290333333336E7,6.9406149E7,-1.0,2.6087102333333334E8:(xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) & (not((yy:NAT)) => (yy:INT))
+6.11639E7,6.916903766666667E7,-1.0,3.013914456666667E8:(xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) & (yy:NAT) & not((yy:INT))
+6.3866175333333336E7,7.068780666666667E7,-1.0,2.6451482866666666E8:(xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) & ((yy:NAT) => not((yy:INT)))
+4.8309565333333336E7,5.2067142E7,6.4059985333333336E7,6.118264E7:xx<=zz <=> xx:0..zz & yy:NAT&yy<=zz <=> yy:0..zz
+4.8242005333333336E7,5.2130255666666664E7,6.1331100333333336E7,8.972318833333333E7:(not(xx<=zz <=> xx:0..zz) => yy:NAT&yy<=zz <=> yy:0..zz)
+5.005718E7,5.1996044E7,6.0019527E7,6.4002226333333336E7:xx<=zz <=> xx:0..zz & not(yy:NAT&yy<=zz <=> yy:0..zz)
+4.8635584333333336E7,5.2155841E7,5.9908596333333336E7,5.600363E7:(not(xx<=zz <=> xx:0..zz) => not(yy:NAT&yy<=zz <=> yy:0..zz))
+4.7613573333333336E7,4.9365472E7,-1.0,7.474942633333333E7:NAT=0..MAXINT & yy:NAT&NAT=0..MAXINT
+4.8903844666666664E7,4.8002193666666664E7,-1.0,6.803847033333333E7:(not(NAT=0..MAXINT) => yy:NAT&NAT=0..MAXINT)
+4.8883427666666664E7,5.0665032333333336E7,-1.0,7.6065958E7:NAT=0..MAXINT & not(yy:NAT&NAT=0..MAXINT)
+4.7292466333333336E7,4.8106303333333336E7,-1.0,6.813503733333333E7:(not(NAT=0..MAXINT) => not(yy:NAT&NAT=0..MAXINT))
+4.7480223E7,5.1944174666666664E7,-1.0,1.0951827966666667E8:card(xx..xx)=1 & yy:NAT&card(yy..yy)=1
+4.9807823666666664E7,5.2019580333333336E7,4.9101751333333336E7,1.0468193366666667E8:(not(card(xx..xx)=1) => yy:NAT&card(yy..yy)=1)
+4.9544777666666664E7,5.2038018666666664E7,9.463899033333333E7,1.2356887933333333E8:card(xx..xx)=1 & not(yy:NAT&card(yy..yy)=1)
+4.6983022666666664E7,5.2010315333333336E7,4.1115005E7,1.0471790233333333E8:(not(card(xx..xx)=1) => not(yy:NAT&card(yy..yy)=1))
+4.8256719E7,4.9325918333333336E7,-1.0,7.4729219E7:INT=MININT..MAXINT & yy:NAT&INT=MININT..MAXINT
+4.7493888333333336E7,4.8073292333333336E7,-1.0,6.800001133333333E7:(not(INT=MININT..MAXINT) => yy:NAT&INT=MININT..MAXINT)
+4.7447584E7,4.7997653666666664E7,-1.0,7.339490133333333E7:INT=MININT..MAXINT & not(yy:NAT&INT=MININT..MAXINT)
+4.7455312666666664E7,4.8164365E7,-1.0,6.801905466666667E7:(not(INT=MININT..MAXINT) => not(yy:NAT&INT=MININT..MAXINT))
+4.7548295E7,5.2050078E7,6.5277971E7,6.7948515E7:{}:1..0-->INTEGER & yy:NAT&{}:1..0-->INTEGER
+4.754173E7,5.1986732E7,6.397876E7,6.4012423E7:(not({}:1..0-->INTEGER) => yy:NAT&{}:1..0-->INTEGER)
+4.7548574333333336E7,5.2078643E7,6.3912783E7,7.1972723E7:{}:1..0-->INTEGER & not(yy:NAT&{}:1..0-->INTEGER)
+4.7466255E7,5.2127555E7,6.3977875333333336E7,6.3927635333333336E7:(not({}:1..0-->INTEGER) => not(yy:NAT&{}:1..0-->INTEGER))
+4.8818102666666664E7,4.8063817E7,9.621135E7,1.0312689433333333E8:card(xx..xx-1)=0 & yy:NAT&card(yy..yy-1)=0
+4.9217967E7,5.2079015666666664E7,1.0397124056666666E9,9.5665308E7:(not(card(xx..xx-1)=0) => yy:NAT&card(yy..yy-1)=0)
+4.8447897333333336E7,5.1952695666666664E7,4.5102779333333336E7,1.4669947433333334E8:card(xx..xx-1)=0 & not(yy:NAT&card(yy..yy-1)=0)
+5.0476321E7,5.1941637666666664E7,4.3565060333333336E7,1.5647879033333334E8:(not(card(xx..xx-1)=0) => not(yy:NAT&card(yy..yy-1)=0))
+5.2078503333333336E7,5.6081014333333336E7,6.936631633333333E7,7.195498333333333E7:xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT & yy:NAT&(yy>=zz => zz..MAXINT=zz..yy\/yy+1..MAXINT)
+5.1289878666666664E7,5.6005120333333336E7,7.2058046E7,7.1908818E7:(not(xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) => yy:NAT&(yy>=zz => zz..MAXINT=zz..yy\/yy+1..MAXINT))
+5.1259754333333336E7,5.5999952E7,6.936813233333333E7,7.191640766666667E7:xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT & not(yy:NAT&(yy>=zz => zz..MAXINT=zz..yy\/yy+1..MAXINT))
+5.1102750666666664E7,5.6038294666666664E7,-1.0,7.4546002E7:(not(xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) => not(yy:NAT&(yy>=zz => zz..MAXINT=zz..yy\/yy+1..MAXINT)))
+4.8788071E7,5.2003540666666664E7,2.9168839E7,9.4413426E7:card(xx..xx+1)=2 & yy:NAT&card(yy..yy+1)=2
+5.0245239333333336E7,5.2676111666666664E7,5.8842026333333336E7,1.5784116133333334E8:(not(card(xx..xx+1)=2) => yy:NAT&card(yy..yy+1)=2)
+4.9736981333333336E7,5.1910721333333336E7,5.7571054666666664E7,1.4177820166666666E8:card(xx..xx+1)=2 & not(yy:NAT&card(yy..yy+1)=2)
+4.9686789E7,5.4567018E7,4.3475826666666664E7,1.07770525E8:(not(card(xx..xx+1)=2) => not(yy:NAT&card(yy..yy+1)=2))
+4.7279453E7,5.0596122E7,6.392596E7,6.6638362E7:NAT<<:INT & yy:NAT&NAT<<:INT
+4.7745271333333336E7,4.8275179666666664E7,6.3723373333333336E7,5.9951804E7:(not(NAT<<:INT) => yy:NAT&NAT<<:INT)
+4.7694705666666664E7,4.8013950333333336E7,6.4024645666666664E7,7.185520333333333E7:NAT<<:INT & not(yy:NAT&NAT<<:INT)
+4.7653523333333336E7,6.4984962666666664E7,6.3025775E7,5.9916348333333336E7:(not(NAT<<:INT) => not(yy:NAT&NAT<<:INT))
+5.0436581666666664E7,5.1999815666666664E7,4.2235887666666664E7,9.429627866666667E7:xx<=zz => card(xx..zz)=zz-xx+1 & yy:NAT&(yy<=zz => card(yy..zz)=zz-yy+1)
+5.1192636333333336E7,5.3264082E7,4.3244745333333336E7,9.817728966666667E7:(not(xx<=zz => card(xx..zz)=zz-xx+1) => yy:NAT&(yy<=zz => card(yy..zz)=zz-yy+1))
+5.0459349666666664E7,5.1914562666666664E7,4.5966459666666664E7,9.583490566666667E7:xx<=zz => card(xx..zz)=zz-xx+1 & not(yy:NAT&(yy<=zz => card(yy..zz)=zz-yy+1))
+4.9549923E7,5.3348427333333336E7,4.6018352E7,1.6214571233333334E8:(not(xx<=zz => card(xx..zz)=zz-xx+1) => not(yy:NAT&(yy<=zz => card(yy..zz)=zz-yy+1)))
+4.7120959666666664E7,4.8018000666666664E7,-1.0,6.788945233333333E7:NAT-NAT1={0} & yy:NAT&NAT-NAT1={0}
+4.7395599333333336E7,4.8089518333333336E7,-1.0,6.4060939333333336E7:(not(NAT-NAT1={0}) => yy:NAT&NAT-NAT1={0})
+4.7518146666666664E7,4.9384468666666664E7,-1.0,7.213133233333333E7:NAT-NAT1={0} & not(yy:NAT&NAT-NAT1={0})
+4.7481783E7,4.7922108333333336E7,-1.0,6.3997733E7:(not(NAT-NAT1={0}) => not(yy:NAT&NAT-NAT1={0}))
+4.8862591333333336E7,5.1962031E7,5.9982464333333336E7,6.3985487666666664E7:xx<zz <=> xx:0..zz-1 & yy:NAT&yy<zz <=> yy:0..zz-1
+4.8725842333333336E7,5.2105322666666664E7,5.9953783E7,7.2167976E7:(not(xx<zz <=> xx:0..zz-1) => yy:NAT&yy<zz <=> yy:0..zz-1)
+4.938547E7,5.0622987666666664E7,6.1147533666666664E7,6.2214755333333336E7:xx<zz <=> xx:0..zz-1 & not(yy:NAT&yy<zz <=> yy:0..zz-1)
+4.7567897333333336E7,5.0399519E7,6.2278217333333336E7,5.7307287666666664E7:(not(xx<zz <=> xx:0..zz-1) => not(yy:NAT&yy<zz <=> yy:0..zz-1))
+4.6069615666666664E7,5.0175515E7,6.1855840333333336E7,6.1546979666666664E7:xx:xx-1..xx & yy:NAT&yy:yy-1..yy
+4.8948543E7,5.0010503E7,6.1578244666666664E7,5.5808586666666664E7:(not(xx:xx-1..xx) => yy:NAT&yy:yy-1..yy)
+4.8885057E7,5.0016579333333336E7,6.1268941E7,6.3037462666666664E7:xx:xx-1..xx & not(yy:NAT&yy:yy-1..yy)
+4.7976236E7,5.0018045666666664E7,5.8719780666666664E7,5.6087253E7:(not(xx:xx-1..xx) => not(yy:NAT&yy:yy-1..yy))
+4.6825973333333336E7,4.9566451666666664E7,5.8853154333333336E7,6.0265019E7:zz:INT & yy:NAT&zz:INT
+4.795107E7,4.9209260333333336E7,5.8967298E7,5.5341744E7:(not(zz:INT) => yy:NAT&zz:INT)
+4.6424804666666664E7,4.9392081666666664E7,5.9203175666666664E7,6.127255E7:zz:INT & not(yy:NAT&zz:INT)
+4.7495657666666664E7,4.9036194E7,5.908228E7,5.5270878666666664E7:(not(zz:INT) => not(yy:NAT&zz:INT))
+4.7321636666666664E7,5.0490592E7,-1.0,7.0678145E7:NAT1-NAT={} & yy:NAT&NAT1-NAT={}
+4.6122089666666664E7,4.9967643666666664E7,-1.0,6.4053280333333336E7:(not(NAT1-NAT={}) => yy:NAT&NAT1-NAT={})
+4.5805149666666664E7,4.9672820333333336E7,-1.0,6.8818365E7:NAT1-NAT={} & not(yy:NAT&NAT1-NAT={})
+4.6346489666666664E7,4.9666977E7,-1.0,9.4072903E7:(not(NAT1-NAT={}) => not(yy:NAT&NAT1-NAT={}))
+4.7957658333333336E7,5.2108093E7,7.320176666666667E7,7.203362466666667E7:xx..zz={nn|nn:INT&nn>=xx&nn<=zz} & yy:NAT&yy..zz={nn|nn:INT&nn>=yy&nn<=zz}
+4.8565068E7,5.3199945333333336E7,6.939020233333333E7,6.6614337E7:(not(xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) => yy:NAT&yy..zz={nn|nn:INT&nn>=yy&nn<=zz})
+4.9307899333333336E7,5.3451583E7,7.2160829E7,5.8151575666666664E7:xx..zz={nn|nn:INT&nn>=xx&nn<=zz} & not(yy:NAT&yy..zz={nn|nn:INT&nn>=yy&nn<=zz})
+4.9113205333333336E7,5.2168342333333336E7,6.5997894333333336E7,6.606017E7:(not(xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) => not(yy:NAT&yy..zz={nn|nn:INT&nn>=yy&nn<=zz}))
+4.6206434333333336E7,5.0353377E7,6.1546746666666664E7,6.592207E7:NAT\/NAT1=NAT & yy:NAT&NAT\/NAT1=NAT
+4.6128258666666664E7,4.9686392666666664E7,6.3175841333333336E7,5.8386777333333336E7:(not(NAT\/NAT1=NAT) => yy:NAT&NAT\/NAT1=NAT)
+4.8207014666666664E7,4.9783006666666664E7,6.1625108666666664E7,6.8287315E7:NAT\/NAT1=NAT & not(yy:NAT&NAT\/NAT1=NAT)
+4.7385239333333336E7,5.0104695666666664E7,6.2692819E7,5.9405831666666664E7:(not(NAT\/NAT1=NAT) => not(yy:NAT&NAT\/NAT1=NAT))
+5.0069751666666664E7,5.2494058666666664E7,-1.0,1.0549307066666667E8:xx>zz <=> card(xx..zz)=0 & yy:NAT&yy>zz <=> card(yy..zz)=0
+4.7449888666666664E7,5.1987034666666664E7,-1.0,1.4061317933333334E8:(not(xx>zz <=> card(xx..zz)=0) => yy:NAT&yy>zz <=> card(yy..zz)=0)
+5.0866710666666664E7,5.2073754E7,-1.0,1.4178181E8:xx>zz <=> card(xx..zz)=0 & not(yy:NAT&yy>zz <=> card(yy..zz)=0)
+4.8337152333333336E7,5.203476E7,-1.0,1.0987691466666667E8:(not(xx>zz <=> card(xx..zz)=0) => not(yy:NAT&yy>zz <=> card(yy..zz)=0))
+4.8682657333333336E7,5.1879456E7,-1.0,7.4828207E7:NAT1=1..MAXINT & yy:NAT&NAT1=1..MAXINT
+4.7514957666666664E7,4.9252329E7,-1.0,6.798574066666667E7:(not(NAT1=1..MAXINT) => yy:NAT&NAT1=1..MAXINT)
+4.7677361333333336E7,5.1935073E7,-1.0,9.667858833333333E7:NAT1=1..MAXINT & not(yy:NAT&NAT1=1..MAXINT)
+4.8059928666666664E7,4.8095571666666664E7,-1.0,6.804869066666667E7:(not(NAT1=1..MAXINT) => not(yy:NAT&NAT1=1..MAXINT))
+4.7725505666666664E7,4.7811294E7,6.4047506666666664E7,6.4035192E7:NAT1<<:NAT & yy:NAT&NAT1<<:NAT
+4.7630265E7,4.7868587333333336E7,6.5021653E7,6.0388894666666664E7:(not(NAT1<<:NAT) => yy:NAT&NAT1<<:NAT)
+4.7690841333333336E7,5.3814268666666664E7,6.3472969E7,6.801197766666667E7:NAT1<<:NAT & not(yy:NAT&NAT1<<:NAT)
+4.7562496E7,4.7919595E7,6.3987978666666664E7,6.0080079666666664E7:(not(NAT1<<:NAT) => not(yy:NAT&NAT1<<:NAT))
+4.8740555666666664E7,5.1996254333333336E7,6.8067571E7,6.5308211666666664E7:xx<1 => {}:1..xx-->INTEGER & yy:NAT&(yy<1 => {}:1..yy-->INTEGER)
+4.8653766333333336E7,5.2008429E7,6.801055733333333E7,6.5281276333333336E7:(not(xx<1 => {}:1..xx-->INTEGER) => yy:NAT&(yy<1 => {}:1..yy-->INTEGER))
+4.8630485666666664E7,5.2026704333333336E7,6.802734266666667E7,6.803965766666667E7:xx<1 => {}:1..xx-->INTEGER & not(yy:NAT&(yy<1 => {}:1..yy-->INTEGER))
+4.8489941666666664E7,5.2028054333333336E7,6.6651469333333336E7,6.4058309E7:(not(xx<1 => {}:1..xx-->INTEGER) => not(yy:NAT&(yy<1 => {}:1..yy-->INTEGER)))
+4.8832653E7,4.9288250666666664E7,6.0080102666666664E7,6.1355195E7:xx:xx..xx+1 & yy:NAT&yy:yy..yy+1
+4.757686E7,4.9250326666666664E7,6.0074678333333336E7,5.5954368666666664E7:(not(xx:xx..xx+1) => yy:NAT&yy:yy..yy+1)
+4.7631080333333336E7,5.1952160333333336E7,6.0060849666666664E7,6.2665836333333336E7:xx:xx..xx+1 & not(yy:NAT&yy:yy..yy+1)
+4.8963558666666664E7,4.9199599E7,6.0099356E7,5.9673300333333336E7:(not(xx:xx..xx+1) => not(yy:NAT&yy:yy..yy+1))
+6.2185748E7,5.3605909E7,7.333819E7,6.4092531333333336E7:xx:xx..xx & yy:NAT&yy:yy..yy
+4.7448608E7,4.9431262666666664E7,5.9949080666666664E7,5.6121173E7:(not(xx:xx..xx) => yy:NAT&yy:yy..yy)
+4.8488824333333336E7,5.0737341333333336E7,6.0115931333333336E7,8.947292333333333E7:xx:xx..xx & not(yy:NAT&yy:yy..yy)
+4.7685999E7,5.0590558E7,5.9987027333333336E7,5.5917236666666664E7:(not(xx:xx..xx) => not(yy:NAT&yy:yy..yy))
+4.7616274E7,4.9429283666666664E7,6.0014312666666664E7,6.4018057333333336E7:xx:NAT & yy:NAT&yy:NAT
+4.8986024E7,4.7868354333333336E7,6.0023391333333336E7,5.5906806666666664E7:(not(xx:NAT) => yy:NAT&yy:NAT)
+4.7719802E7,4.9168100666666664E7,6.0066344333333336E7,6.1325512333333336E7:xx:NAT & not(yy:NAT&yy:NAT)
+4.7509207E7,4.7948509E7,6.0045182333333336E7,5.6092724E7:(not(xx:NAT) => not(yy:NAT&yy:NAT))
+7.789519433333333E7,1.2466718033333333E8,-1.0,6.487762633333334E8:(xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) & (yy:NAT&yy<=zz <=> yy:0..zz) & (yy:NAT&NAT=0..MAXINT) & (yy:NAT&card(yy..yy)=1) & (yy:NAT&INT=MININT..MAXINT) & (yy:NAT&{}:1..0-->INTEGER) & (yy:NAT&card(yy..yy-1)=0) & (yy:NAT&(yy>=zz => zz..MAXINT=zz..yy\/yy+1..MAXINT)) & (yy:NAT&card(yy..yy+1)=2) & (yy:NAT&NAT<<:INT) & (yy:NAT&(yy<=zz => card(yy..zz)=zz-yy+1)) & (yy:NAT&NAT-NAT1={0}) & (yy:NAT&yy<zz <=> yy:0..zz-1) & (yy:NAT&yy:yy-1..yy) & (yy:NAT&zz:INT) & (yy:NAT&NAT1-NAT={}) & (yy:NAT&yy..zz={nn|nn:INT&nn>=yy&nn<=zz}) & (yy:NAT&NAT\/NAT1=NAT) & (yy:NAT&yy>zz <=> card(yy..zz)=0) & (yy:NAT&NAT1=1..MAXINT) & (yy:NAT&NAT1<<:NAT) & (yy:NAT&(yy<1 => {}:1..yy-->INTEGER)) & (yy:NAT&yy:yy..yy+1) & (yy:NAT&yy:yy..yy) & (yy:NAT&yy:NAT)
+7.446277466666667E7,1.5322507166666666E8,-1.0,3.994646246666667E8:(not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)) => (yy:NAT&yy<=zz <=> yy:0..zz) & (yy:NAT&NAT=0..MAXINT) & (yy:NAT&card(yy..yy)=1) & (yy:NAT&INT=MININT..MAXINT) & (yy:NAT&{}:1..0-->INTEGER) & (yy:NAT&card(yy..yy-1)=0) & (yy:NAT&(yy>=zz => zz..MAXINT=zz..yy\/yy+1..MAXINT)) & (yy:NAT&card(yy..yy+1)=2) & (yy:NAT&NAT<<:INT) & (yy:NAT&(yy<=zz => card(yy..zz)=zz-yy+1)) & (yy:NAT&NAT-NAT1={0}) & (yy:NAT&yy<zz <=> yy:0..zz-1) & (yy:NAT&yy:yy-1..yy) & (yy:NAT&zz:INT) & (yy:NAT&NAT1-NAT={}) & (yy:NAT&yy..zz={nn|nn:INT&nn>=yy&nn<=zz}) & (yy:NAT&NAT\/NAT1=NAT) & (yy:NAT&yy>zz <=> card(yy..zz)=0) & (yy:NAT&NAT1=1..MAXINT) & (yy:NAT&NAT1<<:NAT) & (yy:NAT&(yy<1 => {}:1..yy-->INTEGER)) & (yy:NAT&yy:yy..yy+1) & (yy:NAT&yy:yy..yy) & (yy:NAT&yy:NAT))
+7.874977233333333E7,9.6415426E7,-1.0,7.092118576666666E8:(xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) & not((yy:NAT&yy<=zz <=> yy:0..zz) & (yy:NAT&NAT=0..MAXINT) & (yy:NAT&card(yy..yy)=1) & (yy:NAT&INT=MININT..MAXINT) & (yy:NAT&{}:1..0-->INTEGER) & (yy:NAT&card(yy..yy-1)=0) & (yy:NAT&(yy>=zz => zz..MAXINT=zz..yy\/yy+1..MAXINT)) & (yy:NAT&card(yy..yy+1)=2) & (yy:NAT&NAT<<:INT) & (yy:NAT&(yy<=zz => card(yy..zz)=zz-yy+1)) & (yy:NAT&NAT-NAT1={0}) & (yy:NAT&yy<zz <=> yy:0..zz-1) & (yy:NAT&yy:yy-1..yy) & (yy:NAT&zz:INT) & (yy:NAT&NAT1-NAT={}) & (yy:NAT&yy..zz={nn|nn:INT&nn>=yy&nn<=zz}) & (yy:NAT&NAT\/NAT1=NAT) & (yy:NAT&yy>zz <=> card(yy..zz)=0) & (yy:NAT&NAT1=1..MAXINT) & (yy:NAT&NAT1<<:NAT) & (yy:NAT&(yy<1 => {}:1..yy-->INTEGER)) & (yy:NAT&yy:yy..yy+1) & (yy:NAT&yy:yy..yy) & (yy:NAT&yy:NAT))
+7.626765933333333E7,1.20925224E8,-1.0,4.306600023333333E8:(not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)) => not((yy:NAT&yy<=zz <=> yy:0..zz) & (yy:NAT&NAT=0..MAXINT) & (yy:NAT&card(yy..yy)=1) & (yy:NAT&INT=MININT..MAXINT) & (yy:NAT&{}:1..0-->INTEGER) & (yy:NAT&card(yy..yy-1)=0) & (yy:NAT&(yy>=zz => zz..MAXINT=zz..yy\/yy+1..MAXINT)) & (yy:NAT&card(yy..yy+1)=2) & (yy:NAT&NAT<<:INT) & (yy:NAT&(yy<=zz => card(yy..zz)=zz-yy+1)) & (yy:NAT&NAT-NAT1={0}) & (yy:NAT&yy<zz <=> yy:0..zz-1) & (yy:NAT&yy:yy-1..yy) & (yy:NAT&zz:INT) & (yy:NAT&NAT1-NAT={}) & (yy:NAT&yy..zz={nn|nn:INT&nn>=yy&nn<=zz}) & (yy:NAT&NAT\/NAT1=NAT) & (yy:NAT&yy>zz <=> card(yy..zz)=0) & (yy:NAT&NAT1=1..MAXINT) & (yy:NAT&NAT1<<:NAT) & (yy:NAT&(yy<1 => {}:1..yy-->INTEGER)) & (yy:NAT&yy:yy..yy+1) & (yy:NAT&yy:yy..yy) & (yy:NAT&yy:NAT)))
+4.8187482666666664E7,5.2038670666666664E7,6.0120797E7,6.3947564E7:xx<=zz <=> xx:0..zz & yy:INT&xx<=yy <=> xx:0..yy
+4.8652811333333336E7,4.9420856666666664E7,6.0039804333333336E7,5.6048794333333336E7:(not(xx<=zz <=> xx:0..zz) => yy:INT&xx<=yy <=> xx:0..yy)
+5.1479311666666664E7,5.2014901333333336E7,6.2657386E7,6.3900584E7:xx<=zz <=> xx:0..zz & not(yy:INT&xx<=yy <=> xx:0..yy)
+4.8711688E7,5.1997347666666664E7,6.0069184666666664E7,5.7281329333333336E7:(not(xx<=zz <=> xx:0..zz) => not(yy:INT&xx<=yy <=> xx:0..yy))
+4.7539751333333336E7,4.7993137333333336E7,-1.0,7.212793333333333E7:NAT=0..MAXINT & yy:INT&NAT=0..MAXINT
+4.7631476E7,4.7882043333333336E7,-1.0,6.8019567E7:(not(NAT=0..MAXINT) => yy:INT&NAT=0..MAXINT)
+4.7584868666666664E7,4.7924250666666664E7,-1.0,7.465672366666667E7:NAT=0..MAXINT & not(yy:INT&NAT=0..MAXINT)
+4.7185679E7,4.8022494E7,-1.0,6.830093433333333E7:(not(NAT=0..MAXINT) => not(yy:INT&NAT=0..MAXINT))
+4.6696627E7,5.1563330666666664E7,1.0772831733333333E8,8.873933433333333E7:card(xx..xx)=1 & yy:INT&card(xx..xx)=1
+4.7690794666666664E7,5.1607819333333336E7,9.1596308E7,7.156340666666667E7:(not(card(xx..xx)=1) => yy:INT&card(xx..xx)=1)
+4.7231052333333336E7,5.1266645E7,6.2043248333333336E7,1.2550217933333333E8:card(xx..xx)=1 & not(yy:INT&card(xx..xx)=1)
+4.8278858E7,5.2109187333333336E7,8.993804333333333E7,9.751244666666667E7:(not(card(xx..xx)=1) => not(yy:INT&card(xx..xx)=1))
+4.7542149E7,5.0275969666666664E7,-1.0,7.3500641E7:INT=MININT..MAXINT & yy:INT&INT=MININT..MAXINT
+4.7527412333333336E7,4.9825935333333336E7,-1.0,6.6465854666666664E7:(not(INT=MININT..MAXINT) => yy:INT&INT=MININT..MAXINT)
+4.6907338333333336E7,5.0378822666666664E7,-1.0,8.362576466666667E7:INT=MININT..MAXINT & not(yy:INT&INT=MININT..MAXINT)
+4.7928883333333336E7,4.8057624333333336E7,-1.0,6.8062985E7:(not(INT=MININT..MAXINT) => not(yy:INT&INT=MININT..MAXINT))
+4.7539797666666664E7,4.8058765E7,6.4005881333333336E7,6.793140433333333E7:{}:1..0-->INTEGER & yy:INT&{}:1..0-->INTEGER
+4.7681179666666664E7,5.0643567333333336E7,6.4042339E7,5.9857239333333336E7:(not({}:1..0-->INTEGER) => yy:INT&{}:1..0-->INTEGER)
+4.7489698E7,5.1981005E7,6.4149894E7,7.184870833333333E7:{}:1..0-->INTEGER & not(yy:INT&{}:1..0-->INTEGER)
+4.7408193333333336E7,5.0648829E7,6.4102635E7,6.1458444E7:(not({}:1..0-->INTEGER) => not(yy:INT&{}:1..0-->INTEGER))
+4.9495888666666664E7,5.2121781666666664E7,4.0782677E7,1.10452989E8:card(xx..xx-1)=0 & yy:INT&card(xx..xx-1)=0
+4.9389218333333336E7,5.2050916333333336E7,4.1672012666666664E7,1.44554416E8:(not(card(xx..xx-1)=0) => yy:INT&card(xx..xx-1)=0)
+4.7943271E7,5.2038693666666664E7,4.3995516E7,1.4282528533333334E8:card(xx..xx-1)=0 & not(yy:INT&card(xx..xx-1)=0)
+4.8671296333333336E7,5.1972787333333336E7,4.3236806333333336E7,1.0876767233333333E8:(not(card(xx..xx-1)=0) => not(yy:INT&card(xx..xx-1)=0))
+5.1672259666666664E7,5.5964449E7,6.804410433333333E7,7.1889216E7:xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT & yy:INT&(xx>=yy => yy..MAXINT=yy..xx\/xx+1..MAXINT)
+5.1177714E7,5.4766112E7,9.976620166666667E7,7.088427E7:(not(xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) => yy:INT&(xx>=yy => yy..MAXINT=yy..xx\/xx+1..MAXINT))
+5.1165840666666664E7,5.6044836333333336E7,6.796590566666667E7,7.1994141E7:xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT & not(yy:INT&(xx>=yy => yy..MAXINT=yy..xx\/xx+1..MAXINT))
+5.1242270666666664E7,5.5958512333333336E7,-1.0,7.327330766666667E7:(not(xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) => not(yy:INT&(xx>=yy => yy..MAXINT=yy..xx\/xx+1..MAXINT)))
+4.8891832E7,5.2137728666666664E7,6.3142014333333336E7,1.1535519533333333E8:card(xx..xx+1)=2 & yy:INT&card(xx..xx+1)=2
+4.9137184E7,5.1983449666666664E7,5.7581693666666664E7,1.4871264933333334E8:(not(card(xx..xx+1)=2) => yy:INT&card(xx..xx+1)=2)
+4.8964001333333336E7,5.2092797333333336E7,5.7998180666666664E7,1.8692682E8:card(xx..xx+1)=2 & not(yy:INT&card(xx..xx+1)=2)
+4.8606390333333336E7,5.1905762666666664E7,4.3542408666666664E7,1.1041508833333333E8:(not(card(xx..xx+1)=2) => not(yy:INT&card(xx..xx+1)=2))
+4.7364985E7,4.9226604333333336E7,6.4361373666666664E7,6.7828947E7:NAT<<:INT & yy:INT&NAT<<:INT
+4.7635759333333336E7,4.7994022333333336E7,6.4026414333333336E7,5.9888249333333336E7:(not(NAT<<:INT) => yy:INT&NAT<<:INT)
+4.7541078333333336E7,4.9425931666666664E7,6.3959111333333336E7,7.202880533333333E7:NAT<<:INT & not(yy:INT&NAT<<:INT)
+4.7562868666666664E7,4.8023379E7,6.4036332333333336E7,5.9935554333333336E7:(not(NAT<<:INT) => not(yy:INT&NAT<<:INT))
+4.9820092666666664E7,1.2104313933333333E8,9.672775666666667E7,7.0955019E7:xx<=zz => card(xx..zz)=zz-xx+1 & yy:INT&(xx<=yy => card(xx..yy)=yy-xx+1)
+4.9945364333333336E7,5.2111538333333336E7,7.874858466666667E7,6.987296833333333E7:(not(xx<=zz => card(xx..zz)=zz-xx+1) => yy:INT&(xx<=yy => card(xx..yy)=yy-xx+1))
+5.050321E7,5.6073797333333336E7,4.7193478E7,9.942283866666667E7:xx<=zz => card(xx..zz)=zz-xx+1 & not(yy:INT&(xx<=yy => card(xx..yy)=yy-xx+1))
+5.0979621E7,5.2014808E7,4.5406821666666664E7,1.3926286766666666E8:(not(xx<=zz => card(xx..zz)=zz-xx+1) => not(yy:INT&(xx<=yy => card(xx..yy)=yy-xx+1)))
+4.7900877E7,5.0531822E7,-1.0,7.2117481E7:NAT-NAT1={0} & yy:INT&NAT-NAT1={0}
+4.7568828E7,4.7962826333333336E7,-1.0,6.4074815E7:(not(NAT-NAT1={0}) => yy:INT&NAT-NAT1={0})
+4.9010189666666664E7,5.1924270666666664E7,-1.0,7.200450066666667E7:NAT-NAT1={0} & not(yy:INT&NAT-NAT1={0})
+4.7564708E7,4.9447302666666664E7,-1.0,6.4034656333333336E7:(not(NAT-NAT1={0}) => not(yy:INT&NAT-NAT1={0}))
+5.0343646E7,5.1740169E7,5.9998644666666664E7,6.4013005333333336E7:xx<zz <=> xx:0..zz-1 & yy:INT&xx<yy <=> xx:0..yy-1
+4.8636375666666664E7,5.1975929666666664E7,6.0069230666666664E7,5.6037363666666664E7:(not(xx<zz <=> xx:0..zz-1) => yy:INT&xx<yy <=> xx:0..yy-1)
+5.0059578E7,5.2038275E7,5.9963630666666664E7,6.4084173333333336E7:xx<zz <=> xx:0..zz-1 & not(yy:INT&xx<yy <=> xx:0..yy-1)
+4.8629950333333336E7,5.2060135333333336E7,5.9936998E7,5.5995202333333336E7:(not(xx<zz <=> xx:0..zz-1) => not(yy:INT&xx<yy <=> xx:0..yy-1))
+4.7698686666666664E7,5.0534335666666664E7,6.0034263666666664E7,5.9897886666666664E7:xx:xx-1..xx & yy:INT&xx:xx-1..xx
+4.7603888333333336E7,4.9262991333333336E7,6.0085527333333336E7,5.5921636666666664E7:(not(xx:xx-1..xx) => yy:INT&xx:xx-1..xx)
+4.7523059333333336E7,5.0650598666666664E7,6.0015662333333336E7,6.0054937E7:xx:xx-1..xx & not(yy:INT&xx:xx-1..xx)
+4.7404561666666664E7,4.9398041666666664E7,5.9918211E7,5.604323E7:(not(xx:xx-1..xx) => not(yy:INT&xx:xx-1..xx))
+4.7635689666666664E7,4.7911190333333336E7,6.0142168333333336E7,5.9987307E7:zz:INT & yy:INT&yy:INT
+4.7816369E7,4.7816159666666664E7,6.0074865E7,5.5852377333333336E7:(not(zz:INT) => yy:INT&yy:INT)
+4.7668562E7,4.9267810666666664E7,6.0028978666666664E7,5.9956553333333336E7:zz:INT & not(yy:INT&yy:INT)
+4.7681924333333336E7,4.9269114666666664E7,6.0005791666666664E7,5.6003071666666664E7:(not(zz:INT) => not(yy:INT&yy:INT))
+4.7606775E7,4.9349874666666664E7,-1.0,6.787010666666667E7:NAT1-NAT={} & yy:INT&NAT1-NAT={}
+4.7489721666666664E7,4.7967808E7,-1.0,6.4095929666666664E7:(not(NAT1-NAT={}) => yy:INT&NAT1-NAT={})
+4.7870636E7,4.9965524666666664E7,-1.0,6.897215566666667E7:NAT1-NAT={} & not(yy:INT&NAT1-NAT={})
+4.6601550333333336E7,9.2453074E7,-1.0,6.4131549333333336E7:(not(NAT1-NAT={}) => not(yy:INT&NAT1-NAT={}))
+4.8842081666666664E7,5.1803863666666664E7,5.6701205E7,7.191424233333333E7:xx..zz={nn|nn:INT&nn>=xx&nn<=zz} & yy:INT&xx..yy={nn|nn:INT&nn>=xx&nn<=yy}
+4.8071825333333336E7,5.1156528666666664E7,6.8636824E7,6.8066966E7:(not(xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) => yy:INT&xx..yy={nn|nn:INT&nn>=xx&nn<=yy})
+4.9128617E7,5.1547523666666664E7,6.807425266666667E7,6.7843846E7:xx..zz={nn|nn:INT&nn>=xx&nn<=zz} & not(yy:INT&xx..yy={nn|nn:INT&nn>=xx&nn<=yy})
+5.1999559333333336E7,5.1878641E7,6.796276233333333E7,6.816285833333333E7:(not(xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) => not(yy:INT&xx..yy={nn|nn:INT&nn>=xx&nn<=yy}))
+4.7606729333333336E7,5.1882552E7,6.4061126E7,6.795000433333333E7:NAT\/NAT1=NAT & yy:INT&NAT\/NAT1=NAT
+4.7655967333333336E7,4.8048545E7,6.3960647333333336E7,5.9970126E7:(not(NAT\/NAT1=NAT) => yy:INT&NAT\/NAT1=NAT)
+4.7563636666666664E7,5.0664287333333336E7,6.4065572333333336E7,6.781514133333333E7:NAT\/NAT1=NAT & not(yy:INT&NAT\/NAT1=NAT)
+4.7501734E7,4.8104394666666664E7,6.3965420333333336E7,5.9981254333333336E7:(not(NAT\/NAT1=NAT) => not(yy:INT&NAT\/NAT1=NAT))
+5.0238534666666664E7,5.1811756333333336E7,-1.0,1.0339399066666667E8:xx>zz <=> card(xx..zz)=0 & yy:INT&xx>yy <=> card(xx..yy)=0
+4.7578769333333336E7,5.0177563E7,-1.0,7.085409866666667E7:(not(xx>zz <=> card(xx..zz)=0) => yy:INT&xx>yy <=> card(xx..yy)=0)
+4.8390534333333336E7,5.3104378666666664E7,-1.0,1.33685948E8:xx>zz <=> card(xx..zz)=0 & not(yy:INT&xx>yy <=> card(xx..yy)=0)
+5.0355216333333336E7,9.717543933333333E7,-1.0,1.5365755166666666E8:(not(xx>zz <=> card(xx..zz)=0) => not(yy:INT&xx>yy <=> card(xx..yy)=0))
+4.737879E7,4.7956866666666664E7,-1.0,7.198224433333333E7:NAT1=1..MAXINT & yy:INT&NAT1=1..MAXINT
+4.7648075E7,4.8078856E7,-1.0,6.7972657E7:(not(NAT1=1..MAXINT) => yy:INT&NAT1=1..MAXINT)
+4.7613667E7,4.7947927E7,-1.0,7.6028965E7:NAT1=1..MAXINT & not(yy:INT&NAT1=1..MAXINT)
+4.8250037E7,4.8391349333333336E7,-1.0,6.808717333333333E7:(not(NAT1=1..MAXINT) => not(yy:INT&NAT1=1..MAXINT))
+4.7689653666666664E7,5.112212E7,6.3592049E7,6.790586566666667E7:NAT1<<:NAT & yy:INT&NAT1<<:NAT
+4.7656269666666664E7,4.8031271E7,6.3866711E7,6.1478395E7:(not(NAT1<<:NAT) => yy:INT&NAT1<<:NAT)
+4.7590525333333336E7,4.9249862E7,6.3989608333333336E7,7.062597333333333E7:NAT1<<:NAT & not(yy:INT&NAT1<<:NAT)
+4.7447793666666664E7,4.8023588E7,6.3972567333333336E7,6.0071465666666664E7:(not(NAT1<<:NAT) => not(yy:INT&NAT1<<:NAT))
+4.8698371333333336E7,5.207408E7,6.796367066666667E7,6.533545E7:xx<1 => {}:1..xx-->INTEGER & yy:INT&(xx<1 => {}:1..xx-->INTEGER)
+4.9157042E7,5.1354971E7,6.3989236E7,6.4127731E7:(not(xx<1 => {}:1..xx-->INTEGER) => yy:INT&(xx<1 => {}:1..xx-->INTEGER))
+4.8819150333333336E7,5.1909091666666664E7,6.809955833333333E7,6.3880656333333336E7:xx<1 => {}:1..xx-->INTEGER & not(yy:INT&(xx<1 => {}:1..xx-->INTEGER))
+4.8706124E7,5.2101271333333336E7,6.795494033333333E7,6.3907917666666664E7:(not(xx<1 => {}:1..xx-->INTEGER) => not(yy:INT&(xx<1 => {}:1..xx-->INTEGER)))
+4.7521709E7,4.7982405333333336E7,6.0044204E7,6.1387369E7:xx:xx..xx+1 & yy:INT&xx:xx..xx+1
+8.5050294E7,5.0500486E7,5.9967635333333336E7,5.5971317E7:(not(xx:xx..xx+1) => yy:INT&xx:xx..xx+1)
+4.8902540333333336E7,5.1913980666666664E7,6.0063084333333336E7,6.2667140666666664E7:xx:xx..xx+1 & not(yy:INT&xx:xx..xx+1)
+4.8588162E7,5.0578103E7,6.012387E7,6.0163400333333336E7:(not(xx:xx..xx+1) => not(yy:INT&xx:xx..xx+1))
+4.7402978666666664E7,4.7945901666666664E7,6.009002E7,6.0048208666666664E7:xx:xx..xx & yy:INT&xx:xx..xx
+4.7589059E7,4.7979751333333336E7,5.9937231E7,5.6057035333333336E7:(not(xx:xx..xx) => yy:INT&xx:xx..xx)
+4.7679130666666664E7,4.8070149666666664E7,5.9846297E7,5.9983629E7:xx:xx..xx & not(yy:INT&xx:xx..xx)
+4.7597696E7,4.7951256E7,6.0003603666666664E7,5.6033103E7:(not(xx:xx..xx) => not(yy:INT&xx:xx..xx))
+5.3030323333333336E7,4.9203696666666664E7,5.9890088333333336E7,6.0030515333333336E7:xx:NAT & yy:INT&xx:NAT
+4.7677641333333336E7,4.8191416666666664E7,5.9986492666666664E7,5.5825511333333336E7:(not(xx:NAT) => yy:INT&xx:NAT)
+4.7657666666666664E7,4.8054877666666664E7,5.9919002333333336E7,6.1247779E7:xx:NAT & not(yy:INT&xx:NAT)
+4.7706136333333336E7,4.7892752E7,5.9969684E7,5.6040995333333336E7:(not(xx:NAT) => not(yy:INT&xx:NAT))
+7.518921666666667E7,1.1063532133333333E8,-1.0,6.941945856666666E8:(xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) & (yy:INT&xx<=yy <=> xx:0..yy) & (yy:INT&NAT=0..MAXINT) & (yy:INT&card(xx..xx)=1) & (yy:INT&INT=MININT..MAXINT) & (yy:INT&{}:1..0-->INTEGER) & (yy:INT&card(xx..xx-1)=0) & (yy:INT&(xx>=yy => yy..MAXINT=yy..xx\/xx+1..MAXINT)) & (yy:INT&card(xx..xx+1)=2) & (yy:INT&NAT<<:INT) & (yy:INT&(xx<=yy => card(xx..yy)=yy-xx+1)) & (yy:INT&NAT-NAT1={0}) & (yy:INT&xx<yy <=> xx:0..yy-1) & (yy:INT&xx:xx-1..xx) & (yy:INT&yy:INT) & (yy:INT&NAT1-NAT={}) & (yy:INT&xx..yy={nn|nn:INT&nn>=xx&nn<=yy}) & (yy:INT&NAT\/NAT1=NAT) & (yy:INT&xx>yy <=> card(xx..yy)=0) & (yy:INT&NAT1=1..MAXINT) & (yy:INT&NAT1<<:NAT) & (yy:INT&(xx<1 => {}:1..xx-->INTEGER)) & (yy:INT&xx:xx..xx+1) & (yy:INT&xx:xx..xx) & (yy:INT&xx:NAT)
+7.506741366666667E7,1.1826147733333333E8,-1.0,4.42986593E8:(not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)) => (yy:INT&xx<=yy <=> xx:0..yy) & (yy:INT&NAT=0..MAXINT) & (yy:INT&card(xx..xx)=1) & (yy:INT&INT=MININT..MAXINT) & (yy:INT&{}:1..0-->INTEGER) & (yy:INT&card(xx..xx-1)=0) & (yy:INT&(xx>=yy => yy..MAXINT=yy..xx\/xx+1..MAXINT)) & (yy:INT&card(xx..xx+1)=2) & (yy:INT&NAT<<:INT) & (yy:INT&(xx<=yy => card(xx..yy)=yy-xx+1)) & (yy:INT&NAT-NAT1={0}) & (yy:INT&xx<yy <=> xx:0..yy-1) & (yy:INT&xx:xx-1..xx) & (yy:INT&yy:INT) & (yy:INT&NAT1-NAT={}) & (yy:INT&xx..yy={nn|nn:INT&nn>=xx&nn<=yy}) & (yy:INT&NAT\/NAT1=NAT) & (yy:INT&xx>yy <=> card(xx..yy)=0) & (yy:INT&NAT1=1..MAXINT) & (yy:INT&NAT1<<:NAT) & (yy:INT&(xx<1 => {}:1..xx-->INTEGER)) & (yy:INT&xx:xx..xx+1) & (yy:INT&xx:xx..xx) & (yy:INT&xx:NAT))
+7.604796166666667E7,9.977909866666667E7,-1.0,6.344704633333334E8:(xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) & not((yy:INT&xx<=yy <=> xx:0..yy) & (yy:INT&NAT=0..MAXINT) & (yy:INT&card(xx..xx)=1) & (yy:INT&INT=MININT..MAXINT) & (yy:INT&{}:1..0-->INTEGER) & (yy:INT&card(xx..xx-1)=0) & (yy:INT&(xx>=yy => yy..MAXINT=yy..xx\/xx+1..MAXINT)) & (yy:INT&card(xx..xx+1)=2) & (yy:INT&NAT<<:INT) & (yy:INT&(xx<=yy => card(xx..yy)=yy-xx+1)) & (yy:INT&NAT-NAT1={0}) & (yy:INT&xx<yy <=> xx:0..yy-1) & (yy:INT&xx:xx-1..xx) & (yy:INT&yy:INT) & (yy:INT&NAT1-NAT={}) & (yy:INT&xx..yy={nn|nn:INT&nn>=xx&nn<=yy}) & (yy:INT&NAT\/NAT1=NAT) & (yy:INT&xx>yy <=> card(xx..yy)=0) & (yy:INT&NAT1=1..MAXINT) & (yy:INT&NAT1<<:NAT) & (yy:INT&(xx<1 => {}:1..xx-->INTEGER)) & (yy:INT&xx:xx..xx+1) & (yy:INT&xx:xx..xx) & (yy:INT&xx:NAT))
+7.1777354E7,1.6288079166666666E8,-1.0,4.061973703333333E8:(not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)) => not((yy:INT&xx<=yy <=> xx:0..yy) & (yy:INT&NAT=0..MAXINT) & (yy:INT&card(xx..xx)=1) & (yy:INT&INT=MININT..MAXINT) & (yy:INT&{}:1..0-->INTEGER) & (yy:INT&card(xx..xx-1)=0) & (yy:INT&(xx>=yy => yy..MAXINT=yy..xx\/xx+1..MAXINT)) & (yy:INT&card(xx..xx+1)=2) & (yy:INT&NAT<<:INT) & (yy:INT&(xx<=yy => card(xx..yy)=yy-xx+1)) & (yy:INT&NAT-NAT1={0}) & (yy:INT&xx<yy <=> xx:0..yy-1) & (yy:INT&xx:xx-1..xx) & (yy:INT&yy:INT) & (yy:INT&NAT1-NAT={}) & (yy:INT&xx..yy={nn|nn:INT&nn>=xx&nn<=yy}) & (yy:INT&NAT\/NAT1=NAT) & (yy:INT&xx>yy <=> card(xx..yy)=0) & (yy:INT&NAT1=1..MAXINT) & (yy:INT&NAT1<<:NAT) & (yy:INT&(xx<1 => {}:1..xx-->INTEGER)) & (yy:INT&xx:xx..xx+1) & (yy:INT&xx:xx..xx) & (yy:INT&xx:NAT)))
+4.7446373333333336E7,4.9592759E7,5.9867482333333336E7,5.8704392666666664E7:xx<=zz <=> xx:0..zz & xx<=zz <=> xx:0..zz
+4.884576E7,5.1966664E7,6.0061641666666664E7,5.5899264E7:(not(xx<=zz <=> xx:0..zz) => xx<=zz <=> xx:0..zz)
+4.7678292666666664E7,4.9151269E7,6.0120517666666664E7,5.1972181666666664E7:xx<=zz <=> xx:0..zz & not(xx<=zz <=> xx:0..zz)
+4.8808697333333336E7,5.1994531E7,6.0049303E7,5.6005073666666664E7:(not(xx<=zz <=> xx:0..zz) => not(xx<=zz <=> xx:0..zz))
+4.7759588666666664E7,4.8014113333333336E7,-1.0,6.941739333333333E7:NAT=0..MAXINT & NAT=0..MAXINT
+4.7558585E7,4.8130213E7,-1.0,6.6633030666666664E7:(not(NAT=0..MAXINT) => NAT=0..MAXINT)
+5.0231294333333336E7,4.7998073E7,-1.0,6.3995987333333336E7:NAT=0..MAXINT & not(NAT=0..MAXINT)
+4.7608521666666664E7,4.7956703666666664E7,-1.0,6.812730866666667E7:(not(NAT=0..MAXINT) => not(NAT=0..MAXINT))
+4.7789643333333336E7,5.1922501333333336E7,4.8460259E7,1.1355454733333333E8:card(xx..xx)=1 & card(xx..xx)=1
+4.8806509333333336E7,5.1939938333333336E7,4.8107886666666664E7,1.6610717966666666E8:(not(card(xx..xx)=1) => card(xx..xx)=1)
+4.7429774E7,4.7971603E7,7.601078333333333E7,5.1986615666666664E7:card(xx..xx)=1 & not(card(xx..xx)=1)
+4.7314396333333336E7,4.9992973E7,7.517725066666667E7,7.725731033333333E7:(not(card(xx..xx)=1) => not(card(xx..xx)=1))
+4.5707721666666664E7,4.9507273333333336E7,-1.0,6.7034246E7:INT=MININT..MAXINT & INT=MININT..MAXINT
+4.5450193E7,4.9031793333333336E7,-1.0,6.5220723666666664E7:(not(INT=MININT..MAXINT) => INT=MININT..MAXINT)
+4.5807524333333336E7,4.9232424666666664E7,-1.0,6.4737282666666664E7:INT=MININT..MAXINT & not(INT=MININT..MAXINT)
+4.6488104666666664E7,4.9206210666666664E7,-1.0,6.6251092E7:(not(INT=MININT..MAXINT) => not(INT=MININT..MAXINT))
+4.6872371E7,4.8577127E7,6.3746491E7,6.3246031333333336E7:{}:1..0-->INTEGER & {}:1..0-->INTEGER
+4.7074701333333336E7,5.0665078666666664E7,6.2525222333333336E7,6.2746573E7:(not({}:1..0-->INTEGER) => {}:1..0-->INTEGER)
+4.8933014666666664E7,5.1300052333333336E7,6.0875338666666664E7,5.9034346E7:{}:1..0-->INTEGER & not({}:1..0-->INTEGER)
+4.6146976333333336E7,1.0383843733333333E8,6.0878737666666664E7,6.026325E7:(not({}:1..0-->INTEGER) => not({}:1..0-->INTEGER))
+4.7491397666666664E7,5.1338581333333336E7,8.991534433333333E7,9.682213533333333E7:card(xx..xx-1)=0 & card(xx..xx-1)=0
+4.8771518E7,4.9966852333333336E7,6.4654450666666664E7,9.703713033333333E7:(not(card(xx..xx-1)=0) => card(xx..xx-1)=0)
+4.8851254E7,4.9274562E7,7.4706637E7,2.2637841466666666E8:card(xx..xx-1)=0 & not(card(xx..xx-1)=0)
+4.7998701E7,5.1513883E7,7.4924891E7,1.2949065233333333E8:(not(card(xx..xx-1)=0) => not(card(xx..xx-1)=0))
+4.8296831E7,5.1971134E7,-1.0,6.7955499E7:xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT & xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT
+5.1079633333333336E7,5.2067491666666664E7,7.200820233333333E7,7.081906166666667E7:(not(xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) => xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)
+4.9896219666666664E7,5.4664935666666664E7,6.801574866666667E7,7.207485433333333E7:xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT & not(xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)
+4.8487031666666664E7,5.2085651E7,6.3898628333333336E7,6.8001664E7:(not(xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) => not(xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT))
+4.7600140666666664E7,5.2023910666666664E7,5.6331488333333336E7,1.1531461766666667E8:card(xx..xx+1)=2 & card(xx..xx+1)=2
+4.7513537E7,5.0373631333333336E7,1.27307995E8,8.276071033333333E7:(not(card(xx..xx+1)=2) => card(xx..xx+1)=2)
+4.7813598666666664E7,5.0383129666666664E7,7.505339866666667E7,5.1517049333333336E7:card(xx..xx+1)=2 & not(card(xx..xx+1)=2)
+4.8297063333333336E7,5.1109478666666664E7,7.727817E7,9.212391266666667E7:(not(card(xx..xx+1)=2) => not(card(xx..xx+1)=2))
+4.7763522333333336E7,4.7756864333333336E7,6.4037356333333336E7,6.2749273666666664E7:NAT<<:INT & NAT<<:INT
+4.7662672E7,4.8087912333333336E7,6.4096860666666664E7,5.8465908E7:(not(NAT<<:INT) => NAT<<:INT)
+4.896719E7,4.8152725E7,5.9839569666666664E7,6.0116280333333336E7:NAT<<:INT & not(NAT<<:INT)
+4.7679085E7,4.8023541666666664E7,5.9968100666666664E7,5.7311617666666664E7:(not(NAT<<:INT) => not(NAT<<:INT))
+4.9006324333333336E7,5.1974160333333336E7,7.6068705E7,1.4871537333333334E8:xx<=zz => card(xx..zz)=zz-xx+1 & xx<=zz => card(xx..zz)=zz-xx+1
+4.9990202333333336E7,5.1985497666666664E7,4.2219102666666664E7,9.206117133333333E7:(not(xx<=zz => card(xx..zz)=zz-xx+1) => xx<=zz => card(xx..zz)=zz-xx+1)
+4.8832793E7,5.2048401666666664E7,4.2850630666666664E7,9.335914866666667E7:xx<=zz => card(xx..zz)=zz-xx+1 & not(xx<=zz => card(xx..zz)=zz-xx+1)
+4.8929080666666664E7,5.1499123333333336E7,7.590017766666667E7,6.4489462333333336E7:(not(xx<=zz => card(xx..zz)=zz-xx+1) => not(xx<=zz => card(xx..zz)=zz-xx+1))
+4.6146115333333336E7,9.871434533333333E7,-1.0,6.4249813666666664E7:NAT-NAT1={0} & NAT-NAT1={0}
+4.8242797E7,4.8630346333333336E7,-1.0,6.4073999666666664E7:(not(NAT-NAT1={0}) => NAT-NAT1={0})
+4.7619393333333336E7,4.8111006333333336E7,-1.0,4.7942456333333336E7:NAT-NAT1={0} & not(NAT-NAT1={0})
+4.7418064E7,4.7960614666666664E7,-1.0,6.4210120666666664E7:(not(NAT-NAT1={0}) => not(NAT-NAT1={0}))
+4.8847505666666664E7,4.9228746E7,5.99742E7,5.6002908666666664E7:xx<zz <=> xx:0..zz-1 & xx<zz <=> xx:0..zz-1
+4.7514538333333336E7,4.9288344333333336E7,6.0041923E7,5.6004980333333336E7:(not(xx<zz <=> xx:0..zz-1) => xx<zz <=> xx:0..zz-1)
+4.7506879333333336E7,4.8004219333333336E7,5.9925008333333336E7,5.0671527333333336E7:xx<zz <=> xx:0..zz-1 & not(xx<zz <=> xx:0..zz-1)
+4.8955294E7,5.1879292666666664E7,6.0072443666666664E7,5.5880686333333336E7:(not(xx<zz <=> xx:0..zz-1) => not(xx<zz <=> xx:0..zz-1))
+4.7687209E7,4.7946460666666664E7,6.0090905E7,5.5854775333333336E7:xx:xx-1..xx & xx:xx-1..xx
+8.762871733333333E7,4.8065563E7,5.9758856333333336E7,5.6235456333333336E7:(not(xx:xx-1..xx) => xx:xx-1..xx)
+4.7412011666666664E7,4.8086864666666664E7,5.9963211666666664E7,5.2010687666666664E7:xx:xx-1..xx & not(xx:xx-1..xx)
+4.7723386666666664E7,4.7913914E7,5.9986725E7,5.5972178333333336E7:(not(xx:xx-1..xx) => not(xx:xx-1..xx))
+4.7747017E7,4.7873685333333336E7,5.9959533666666664E7,5.7453465333333336E7:zz:INT & zz:INT
+4.7566058E7,4.8080834666666664E7,5.9868320666666664E7,5.6092072666666664E7:(not(zz:INT) => zz:INT)
+4.7561355333333336E7,4.7980938333333336E7,5.8708420333333336E7,5.0770957666666664E7:zz:INT & not(zz:INT)
+4.7475171333333336E7,4.8104231333333336E7,5.9977436333333336E7,5.4745136666666664E7:(not(zz:INT) => not(zz:INT))
+4.7587871333333336E7,4.7947833666666664E7,-1.0,6.6726828E7:NAT1-NAT={} & NAT1-NAT={}
+4.766046E7,4.8051152666666664E7,-1.0,6.4012795666666664E7:(not(NAT1-NAT={}) => NAT1-NAT={})
+4.7683833666666664E7,4.8013345E7,-1.0,4.8022983E7:NAT1-NAT={} & not(NAT1-NAT={})
+4.7555511666666664E7,4.8022238333333336E7,-1.0,6.3986838333333336E7:(not(NAT1-NAT={}) => not(NAT1-NAT={}))
+4.7193454666666664E7,5.2068446333333336E7,6.924577066666667E7,6.9450638E7:xx..zz={nn|nn:INT&nn>=xx&nn<=zz} & xx..zz={nn|nn:INT&nn>=xx&nn<=zz}
+4.8405270666666664E7,5.2044071666666664E7,6.936124133333333E7,1.07174988E8:(not(xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) => xx..zz={nn|nn:INT&nn>=xx&nn<=zz})
+4.7142959666666664E7,5.2073474666666664E7,6.3912759666666664E7,5.2070541333333336E7:xx..zz={nn|nn:INT&nn>=xx&nn<=zz} & not(xx..zz={nn|nn:INT&nn>=xx&nn<=zz})
+4.8425292E7,5.1943616666666664E7,6.5485725333333336E7,6.3910222333333336E7:(not(xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) => not(xx..zz={nn|nn:INT&nn>=xx&nn<=zz}))
+4.7680132333333336E7,4.8089984333333336E7,6.3893180666666664E7,6.4029557666666664E7:NAT\/NAT1=NAT & NAT\/NAT1=NAT
+4.7665349E7,4.9324964333333336E7,6.4118325666666664E7,5.9911645333333336E7:(not(NAT\/NAT1=NAT) => NAT\/NAT1=NAT)
+4.7586568333333336E7,4.7999935666666664E7,6.0018084E7,5.8630174333333336E7:NAT\/NAT1=NAT & not(NAT\/NAT1=NAT)
+4.757984E7,4.8049429333333336E7,5.9949849E7,5.7380341666666664E7:(not(NAT\/NAT1=NAT) => not(NAT\/NAT1=NAT))
+5.0721626666666664E7,5.2039601666666664E7,-1.0,1.1281485766666667E8:xx>zz <=> card(xx..zz)=0 & xx>zz <=> card(xx..zz)=0
+4.9693796333333336E7,5.1504640666666664E7,-1.0,1.6867629166666666E8:(not(xx>zz <=> card(xx..zz)=0) => xx>zz <=> card(xx..zz)=0)
+4.9489487E7,5.0901212E7,-1.0,5.1350477666666664E7:xx>zz <=> card(xx..zz)=0 & not(xx>zz <=> card(xx..zz)=0)
+4.8934575E7,5.029513E7,-1.0,7.277075266666667E7:(not(xx>zz <=> card(xx..zz)=0) => not(xx>zz <=> card(xx..zz)=0))
+4.5911913666666664E7,4.9545151E7,-1.0,6.6843323E7:NAT1=1..MAXINT & NAT1=1..MAXINT
+4.5315632333333336E7,4.6528891333333336E7,-1.0,6.4548595E7:(not(NAT1=1..MAXINT) => NAT1=1..MAXINT)
+4.5425655333333336E7,4.9401952666666664E7,-1.0,6.3775661333333336E7:NAT1=1..MAXINT & not(NAT1=1..MAXINT)
+4.4685338333333336E7,4.790693E7,-1.0,6.4700592333333336E7:(not(NAT1=1..MAXINT) => not(NAT1=1..MAXINT))
+4.5680366333333336E7,4.9100261666666664E7,6.3486169E7,6.3280486666666664E7:NAT1<<:NAT & NAT1<<:NAT
+4.5841676666666664E7,4.7532813666666664E7,6.3424731666666664E7,5.7391399333333336E7:(not(NAT1<<:NAT) => NAT1<<:NAT)
+4.704744E7,4.9033795666666664E7,6.0148314666666664E7,5.8083154666666664E7:NAT1<<:NAT & not(NAT1<<:NAT)
+4.7149454666666664E7,4.9234287E7,6.0764081666666664E7,5.6384847666666664E7:(not(NAT1<<:NAT) => not(NAT1<<:NAT))
+4.7085736E7,5.060718E7,6.6689672666666664E7,6.088365E7:xx<1 => {}:1..xx-->INTEGER & xx<1 => {}:1..xx-->INTEGER
+1.05302171E8,5.1856105666666664E7,6.5391625333333336E7,1.05232935E8:(not(xx<1 => {}:1..xx-->INTEGER) => xx<1 => {}:1..xx-->INTEGER)
+4.7434151E7,5.2096918333333336E7,6.5319782E7,6.3954757666666664E7:xx<1 => {}:1..xx-->INTEGER & not(xx<1 => {}:1..xx-->INTEGER)
+4.7503131E7,5.2009081666666664E7,6.4019966E7,6.3987327E7:(not(xx<1 => {}:1..xx-->INTEGER) => not(xx<1 => {}:1..xx-->INTEGER))
+4.7569596666666664E7,4.7942921E7,6.0139026E7,5.5934696666666664E7:xx:xx..xx+1 & xx:xx..xx+1
+4.7462902333333336E7,4.8029036E7,6.0123846666666664E7,5.6035454666666664E7:(not(xx:xx..xx+1) => xx:xx..xx+1)
+4.7378906666666664E7,4.8079089E7,6.0066157666666664E7,5.2050915666666664E7:xx:xx..xx+1 & not(xx:xx..xx+1)
+4.7454870333333336E7,4.8020654666666664E7,6.0067624666666664E7,5.5938771E7:(not(xx:xx..xx+1) => not(xx:xx..xx+1))
+4.7768621E7,4.7942712E7,6.0005582E7,5.5914978333333336E7:xx:xx..xx & xx:xx..xx
+4.7671844333333336E7,4.8034553333333336E7,6.0013869666666664E7,5.5891581E7:(not(xx:xx..xx) => xx:xx..xx)
+4.7645258E7,4.7956191E7,6.0051863666666664E7,5.1983309333333336E7:xx:xx..xx & not(xx:xx..xx)
+4.7590711666666664E7,4.9432334E7,5.9973874E7,5.4544808666666664E7:(not(xx:xx..xx) => not(xx:xx..xx))
+4.7768691E7,4.7926299333333336E7,6.0094792666666664E7,5.5915839333333336E7:xx:NAT & xx:NAT
+4.7544314333333336E7,4.8058322333333336E7,5.9936649E7,5.6116260333333336E7:(not(xx:NAT) => xx:NAT)
+4.7714028333333336E7,4.7938312E7,5.8714636E7,4.9326570666666664E7:xx:NAT & not(xx:NAT)
+4.7555512E7,4.8089867333333336E7,6.0053912333333336E7,5.4680464E7:(not(xx:NAT) => not(xx:NAT))
+7.026633733333333E7,1.1631353433333333E8,-1.0,5.758129813333334E8:(xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) & (xx<=zz <=> xx:0..zz) & (NAT=0..MAXINT) & (card(xx..xx)=1) & (INT=MININT..MAXINT) & ({}:1..0-->INTEGER) & (card(xx..xx-1)=0) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) & (card(xx..xx+1)=2) & (NAT<<:INT) & (xx<=zz => card(xx..zz)=zz-xx+1) & (NAT-NAT1={0}) & (xx<zz <=> xx:0..zz-1) & (xx:xx-1..xx) & (zz:INT) & (NAT1-NAT={}) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT\/NAT1=NAT) & (xx>zz <=> card(xx..zz)=0) & (NAT1=1..MAXINT) & (NAT1<<:NAT) & (xx<1 => {}:1..xx-->INTEGER) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:NAT)
+6.6305102666666664E7,6.4473678E7,-1.0,4.286062493333333E8:(not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)) => (xx<=zz <=> xx:0..zz) & (NAT=0..MAXINT) & (card(xx..xx)=1) & (INT=MININT..MAXINT) & ({}:1..0-->INTEGER) & (card(xx..xx-1)=0) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) & (card(xx..xx+1)=2) & (NAT<<:INT) & (xx<=zz => card(xx..zz)=zz-xx+1) & (NAT-NAT1={0}) & (xx<zz <=> xx:0..zz-1) & (xx:xx-1..xx) & (zz:INT) & (NAT1-NAT={}) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT\/NAT1=NAT) & (xx>zz <=> card(xx..zz)=0) & (NAT1=1..MAXINT) & (NAT1<<:NAT) & (xx<1 => {}:1..xx-->INTEGER) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:NAT))
+7.261954666666667E7,5.6971048333333336E7,-1.0,5.778605413333334E8:(xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) & not((xx<=zz <=> xx:0..zz) & (NAT=0..MAXINT) & (card(xx..xx)=1) & (INT=MININT..MAXINT) & ({}:1..0-->INTEGER) & (card(xx..xx-1)=0) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) & (card(xx..xx+1)=2) & (NAT<<:INT) & (xx<=zz => card(xx..zz)=zz-xx+1) & (NAT-NAT1={0}) & (xx<zz <=> xx:0..zz-1) & (xx:xx-1..xx) & (zz:INT) & (NAT1-NAT={}) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT\/NAT1=NAT) & (xx>zz <=> card(xx..zz)=0) & (NAT1=1..MAXINT) & (NAT1<<:NAT) & (xx<1 => {}:1..xx-->INTEGER) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:NAT))
+6.5793073333333336E7,6.4386516E7,-1.0,3.81726871E8:(not((xx:NAT) & (zz:INT) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:xx-1..xx) & (xx<zz <=> xx:0..zz-1) & (xx<=zz <=> xx:0..zz) & (card(xx..xx)=1) & (card(xx..xx-1)=0) & (card(xx..xx+1)=2) & (xx>zz <=> card(xx..zz)=0) & (xx<=zz => card(xx..zz)=zz-xx+1) & (xx<1 => {}:1..xx-->INTEGER) & ({}:1..0-->INTEGER) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT1=1..MAXINT) & (NAT=0..MAXINT) & (INT=MININT..MAXINT) & (NAT-NAT1={0}) & (NAT1-NAT={}) & (NAT\/NAT1=NAT) & (NAT1<<:NAT) & (NAT<<:INT) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT)) => not((xx<=zz <=> xx:0..zz) & (NAT=0..MAXINT) & (card(xx..xx)=1) & (INT=MININT..MAXINT) & ({}:1..0-->INTEGER) & (card(xx..xx-1)=0) & (xx>=zz => zz..MAXINT=zz..xx\/xx+1..MAXINT) & (card(xx..xx+1)=2) & (NAT<<:INT) & (xx<=zz => card(xx..zz)=zz-xx+1) & (NAT-NAT1={0}) & (xx<zz <=> xx:0..zz-1) & (xx:xx-1..xx) & (zz:INT) & (NAT1-NAT={}) & (xx..zz={nn|nn:INT&nn>=xx&nn<=zz}) & (NAT\/NAT1=NAT) & (xx>zz <=> card(xx..zz)=0) & (NAT1=1..MAXINT) & (NAT1<<:NAT) & (xx<1 => {}:1..xx-->INTEGER) & (xx:xx..xx+1) & (xx:xx..xx) & (xx:NAT)))

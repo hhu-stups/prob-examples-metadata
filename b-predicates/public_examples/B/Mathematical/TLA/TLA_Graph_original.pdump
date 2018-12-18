@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/TLA/TLA_Graph_original.mch
+-1.0,-1.0,-1.0,-1.0:(edges:NODES<->NODES) & (edges~=edges) & (dom(edges)=NODES) & (id(NODES)/\edges={}) & (not(#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))) & (n:NODES)
+4.8138290666666664E7,4.8856655E7,6.0803518666666664E7,5.3924478666666664E7:not((edges:NODES<->NODES) & (edges~=edges) & (dom(edges)=NODES) & (id(NODES)/\edges={}) & (not(#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))))) => (n:NODES)
+-1.0,-1.0,-1.0,-1.0:not((edges:NODES<->NODES) & (edges~=edges) & (dom(edges)=NODES) & (id(NODES)/\edges={}) & (not(#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))))) => not((n:NODES))
+-1.0,-1.0,-1.0,-1.0:(edges:NODES<->NODES) & (edges~=edges) & (dom(edges)=NODES) & (id(NODES)/\edges={}) & (not(#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))) & #x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))
+-1.0,-1.0,-1.0,-1.0:(edges:NODES<->NODES) & (edges~=edges) & (dom(edges)=NODES) & (id(NODES)/\edges={}) & (not(#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))) & not(#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))
+5.2424147666666664E7,5.9078695333333336E7,-1.0,2.2592169933333334E8:not((edges:NODES<->NODES) & (edges~=edges) & (dom(edges)=NODES) & (id(NODES)/\edges={}) & (not(#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))))) => #x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))
+-1.0,-1.0,-1.0,-1.0:(edges:NODES<->NODES) & (edges~=edges) & (dom(edges)=NODES) & (id(NODES)/\edges={}) & (not(#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))
+-1.0,-1.0,-1.0,-1.0:(edges:NODES<->NODES) & (edges~=edges) & (dom(edges)=NODES) & (id(NODES)/\edges={}) & (not(#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))) & not((#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))))
+5.4615418E7,5.9956949E7,-1.0,2.51398007E8:not((edges:NODES<->NODES) & (edges~=edges) & (dom(edges)=NODES) & (id(NODES)/\edges={}) & (not(#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))))) => (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))

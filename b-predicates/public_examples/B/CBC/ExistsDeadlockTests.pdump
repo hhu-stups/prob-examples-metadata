@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/CBC/ExistsDeadlockTests.mch
+6.2654336333333336E7,6.4542169333333336E7,1.0332549966666667E8,5.8880671666666664E7:(xx<:ID)
+5.8138748E7,1.1004052966666667E8,1.6889056433333334E8,5.6762292666666664E7:not((xx<:ID)) => (x:BOOL) & (y:STRING) & (z:NATURAL) & (u:[aa,bb]) & (v:NAT1) & (w:1..100) & (i:ID) & (j:{bb}) & (k:xx) & (l>card(ID)*100)
+6.1707451333333336E7,1.1986980533333333E8,1.43550005E8,6.933023166666667E7:not((xx<:ID)) => not((x:BOOL) & (y:STRING) & (z:NATURAL) & (u:[aa,bb]) & (v:NAT1) & (w:1..100) & (i:ID) & (j:{bb}) & (k:xx) & (l>card(ID)*100))
+4.4908876666666664E7,5.8604263666666664E7,6.8670627E7,5.2436463E7:not((x:BOOL) & (y:STRING) & (z:NATURAL) & (u:[aa,bb]) & (v:NAT1) & (w:1..100) & (i:ID) & (j:{bb}) & (k:xx) & (l>card(ID)*100)) => (xx<:ID)
+4.8184781666666664E7,4.9614247E7,7.032800733333333E7,5.1556906E7:not(not((x:BOOL) & (y:STRING) & (z:NATURAL) & (u:[aa,bb]) & (v:NAT1) & (w:1..100) & (i:ID) & (j:{bb}) & (k:xx) & (l>card(ID)*100))) => (xx<:ID)

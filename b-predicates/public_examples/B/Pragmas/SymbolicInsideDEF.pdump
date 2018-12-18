@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Pragmas/SymbolicInsideDEF.mch
+1.9441478333333334E8,9.533568E7,-1.0,1.87082403E8:(divisors=infdiv) & (yy:1..100) & ((100,yy):infdiv)
+3.559462413333333E8,9.5796167E7,-1.0,1.03054795E8:(divisors=infdiv) & not((yy:1..100) & ((100,yy):infdiv))

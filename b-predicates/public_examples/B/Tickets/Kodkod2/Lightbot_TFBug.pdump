@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Kodkod2/Lightbot_TFBug.mch
+1.31043527E8,3.8634320746666665E9,2.2601132866666666E8,6.3330283666666664E7:(mx=4) & (my=4) & (blocked={(2,1),(3,1),(2,2),(3,2)}) & (mxpc=11) & (PRG:1..mxpc-->INSTR) & (subpc:2..mxpc) & (PRG(mxpc)=stop) & PRG(mxpc)=stop
+5.0554286666666664E7,8.029275266666667E7,7.107924366666667E7,5.4434785E7:(mx=4) & (my=4) & (blocked={(2,1),(3,1),(2,2),(3,2)}) & (mxpc=11) & (PRG:1..mxpc-->INSTR) & (subpc:2..mxpc) & (PRG(mxpc)=stop) & not(PRG(mxpc)=stop)
+9.8719095E7,5.6380307E7,6.817501033333333E7,7.1494939E7:not((mx=4) & (my=4) & (blocked={(2,1),(3,1),(2,2),(3,2)}) & (mxpc=11) & (PRG:1..mxpc-->INSTR) & (subpc:2..mxpc) & (PRG(mxpc)=stop)) => PRG(mxpc)=stop
+5.1676636666666664E7,1.45977502E8,1.7732673933333334E8,5.5333084E7:(mx=4) & (my=4) & (blocked={(2,1),(3,1),(2,2),(3,2)}) & (mxpc=11) & (PRG:1..mxpc-->INSTR) & (subpc:2..mxpc) & (PRG(mxpc)=stop) & (PRG(mxpc)=stop)
+4.6439285666666664E7,8.288281666666667E7,7.111286033333333E7,5.4735569E7:(mx=4) & (my=4) & (blocked={(2,1),(3,1),(2,2),(3,2)}) & (mxpc=11) & (PRG:1..mxpc-->INSTR) & (subpc:2..mxpc) & (PRG(mxpc)=stop) & not((PRG(mxpc)=stop))
+5.2051917E7,5.7541488666666664E7,6.8951483E7,7.090850466666667E7:not((mx=4) & (my=4) & (blocked={(2,1),(3,1),(2,2),(3,2)}) & (mxpc=11) & (PRG:1..mxpc-->INSTR) & (subpc:2..mxpc) & (PRG(mxpc)=stop)) => (PRG(mxpc)=stop)

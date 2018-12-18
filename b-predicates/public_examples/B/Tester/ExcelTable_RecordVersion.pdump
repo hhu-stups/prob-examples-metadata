@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/Tester/ExcelTable_RecordVersion.mch
+1.4587851333333334E8,1.4657261933333334E8,-1.0,6.4637922E7:(Excel:POW(struct(fID:STRING,fWEIGHT:INTEGER))) & (Excel={rec(fID:"a",fWEIGHT:22),rec(fID:"b",fWEIGHT:33)}) & (ID=%x1.(x1:struct(fID:STRING,fWEIGHT:INTEGER)|x1'fID)) & (WEIGHT=%x2.(x2:struct(fID:STRING,fWEIGHT:INTEGER)|x2'fWEIGHT)) & not(ID[Excel]={"a","b"})
+1.5608709733333334E8,1.3035477466666667E8,-1.0,6.0518962333333336E7:(Excel:POW(struct(fID:STRING,fWEIGHT:INTEGER))) & (Excel={rec(fID:"a",fWEIGHT:22),rec(fID:"b",fWEIGHT:33)}) & (ID=%x1.(x1:struct(fID:STRING,fWEIGHT:INTEGER)|x1'fID)) & (WEIGHT=%x2.(x2:struct(fID:STRING,fWEIGHT:INTEGER)|x2'fWEIGHT)) & not((ID[Excel]={"a","b"}))

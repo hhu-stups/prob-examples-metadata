@@ -1,0 +1,41 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Euler_Project/Euler_Problem_067_ModelCheck.mch
+1.2182429066666667E8,7.437933733333333E7,1.0870367433333333E8,8.898377833333333E7:(row:0..n-1) & (Sol:1..n+->seq(INTEGER))
+5.294101063333333E8,5.625428343333334E8,-1.0,1.6257370673333333E9:(TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER)) & (i=row) & (i>0)
+5.879699973333334E8,5.48419972E8,-1.0,8.87204674E8:not((TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER))) => (i=row) & (i>0)
+5.254711513333333E8,5.791938116666666E8,-1.0,1.8079820533333333E9:(TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER)) & not((i=row) & (i>0))
+1.0727472166666667E8,1.1649728666666667E8,-1.0,4.49927629E8:not((TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER))) => not((i=row) & (i>0))
+5.0702140666666664E7,2.40343133E8,-1.0,4.15333309E8:not((TriangleC=Triangle) & (n=size(TriangleC)) & (i=row) & (i>0)) => (row:0..n-1) & (Sol:1..n+->seq(INTEGER))
+6.6400064E7,1.2297038633333333E8,-1.0,5.07543499E8:not((TriangleC=Triangle) & (n=size(TriangleC)) & not((i=row) & (i>0))) => (row:0..n-1) & (Sol:1..n+->seq(INTEGER))
+4.760521103333333E8,6.545044823333334E8,-1.0,1.6428532333333333E9:(TriangleC=Triangle) & (n=size(TriangleC)) & not((row:0..n-1) & (Sol:1..n+->seq(INTEGER))) & (i=row) & (i>0)
+4.986295626666667E8,7.421211636666666E8,-1.0,9.512844943333334E8:not((TriangleC=Triangle) & (n=size(TriangleC)) & not((row:0..n-1) & (Sol:1..n+->seq(INTEGER)))) => (i=row) & (i>0)
+5.15426112E8,7.02401518E8,-1.0,1.6837611826666667E9:(TriangleC=Triangle) & (n=size(TriangleC)) & not((row:0..n-1) & (Sol:1..n+->seq(INTEGER))) & not((i=row) & (i>0))
+4.753016E7,1.3019081133333333E8,-1.0,5.656692563333334E8:not((TriangleC=Triangle) & (n=size(TriangleC)) & not((row:0..n-1) & (Sol:1..n+->seq(INTEGER)))) => not((i=row) & (i>0))
+9.847949266666667E7,1.7397326366666666E8,-1.0,3.91204589E8:not((TriangleC=Triangle) & (n=size(TriangleC)) & not((i=row) & (i>0))) => not((row:0..n-1) & (Sol:1..n+->seq(INTEGER)))
+4.9170429E7,1.3110407866666667E8,-1.0,5.285689146666667E8:not((TriangleC=Triangle) & (n=size(TriangleC)) & (i=row) & (i>0)) => not((row:0..n-1) & (Sol:1..n+->seq(INTEGER)))
+1.0227697233333333E8,1.2404275266666667E8,-1.0,4.781709323333333E8:(TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER)) & 1:dom(Sol) => Sol(1)(1)=7273
+6.375316303333334E8,5.771621053333334E8,-1.0,1.824852541E9:(TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER)) & not(1:dom(Sol) => Sol(1)(1)=7273)
+4.8255811E7,1.3345051266666667E8,-1.0,5.18164426E8:not((TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER))) => 1:dom(Sol) => Sol(1)(1)=7273
+6.188674083333334E8,5.901777736666666E8,-1.0,1.7061877536666667E9:(TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER)) & 1:dom(Sol)
+4.915960796666667E8,6.105493116666666E8,-1.0,1.7244140473333333E9:(TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER)) & not(1:dom(Sol))
+4.8535711E7,1.79622446E8,-1.0,3.925202363333333E8:not((TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER))) => 1:dom(Sol)
+5.882353243333334E8,6.03473016E8,-1.0,1.5721555333333333E9:(TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER)) & Sol(1)(1)=7273
+4.919858873333333E8,6.450455046666666E8,-1.0,1.7250541893333333E9:(TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER)) & not(Sol(1)(1)=7273)
+1.07595689E8,1.0454395066666667E8,-1.0,5.506406226666666E8:not((TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER))) => Sol(1)(1)=7273
+6.32152711E8,5.951129916666666E8,-1.0,1.6420474046666667E9:(TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER)) & n=100
+6.218342E7,1.1800620733333333E8,9.021665396666666E8,1.71883333E8:(TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER)) & not(n=100)
+1.03631195E8,1.1974059933333333E8,-1.0,4.830301626666667E8:not((TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER))) => n=100
+6.05296595E8,5.53543948E8,-1.0,1.924806639E9:(TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER)) & (1:dom(Sol) => Sol(1)(1)=7273) & (1:dom(Sol)) & (Sol(1)(1)=7273) & (n=100)
+5.945459263333334E8,5.48364914E8,-1.0,1.744149588E9:(TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER)) & not((1:dom(Sol) => Sol(1)(1)=7273) & (1:dom(Sol)) & (Sol(1)(1)=7273) & (n=100))
+-1.0,-1.0,-1.0,-1.0:not((TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER))) => (1:dom(Sol) => Sol(1)(1)=7273) & (1:dom(Sol)) & (Sol(1)(1)=7273) & (n=100)
+-1.0,-1.0,-1.0,-1.0:(TriangleC=Triangle) & (n=size(TriangleC)) & Sol:1..n+->seq(INTEGER) & i=row&i>0&Sol<+{(row,%j.(j:1..row|TriangleC(row)(j)+max({Sol(row+1)(j),Sol(row+1)(j+1)})))}:1..n+->seq(INTEGER)
+4.98003156E8,5.642911016666666E8,-1.0,-1.0:(TriangleC=Triangle) & (n=size(TriangleC)) & (not(Sol:1..n+->seq(INTEGER)) => i=row&i>0&Sol<+{(row,%j.(j:1..row|TriangleC(row)(j)+max({Sol(row+1)(j),Sol(row+1)(j+1)})))}:1..n+->seq(INTEGER))
+5.107163416666667E8,6.06958748E8,-1.0,-1.0:(TriangleC=Triangle) & (n=size(TriangleC)) & Sol:1..n+->seq(INTEGER) & not(i=row&i>0&Sol<+{(row,%j.(j:1..row|TriangleC(row)(j)+max({Sol(row+1)(j),Sol(row+1)(j+1)})))}:1..n+->seq(INTEGER))
+5.13098442E8,5.763031036666666E8,-1.0,-1.0:(TriangleC=Triangle) & (n=size(TriangleC)) & (not(Sol:1..n+->seq(INTEGER)) => not(i=row&i>0&Sol<+{(row,%j.(j:1..row|TriangleC(row)(j)+max({Sol(row+1)(j),Sol(row+1)(j+1)})))}:1..n+->seq(INTEGER)))
+5.886004776666666E8,5.621735836666666E8,-1.0,1.492800027E9:(TriangleC=Triangle) & (n=size(TriangleC)) & row:0..n-1 & i=row&i>0&row-1:0..n-1
+6.054119263333334E8,5.450395613333334E8,-1.0,1.516508419E9:(TriangleC=Triangle) & (n=size(TriangleC)) & (not(row:0..n-1) => i=row&i>0&row-1:0..n-1)
+5.346391233333333E8,5.719255913333334E8,-1.0,1.588860171E9:(TriangleC=Triangle) & (n=size(TriangleC)) & row:0..n-1 & not(i=row&i>0&row-1:0..n-1)
+6.2900238E8,5.42270261E8,-1.0,1.373795206E9:(TriangleC=Triangle) & (n=size(TriangleC)) & (not(row:0..n-1) => not(i=row&i>0&row-1:0..n-1))
+5.135512456666667E8,5.484728186666666E8,-1.0,-1.0:(TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER)) & (i=row&i>0&Sol<+{(row,%j.(j:1..row|TriangleC(row)(j)+max({Sol(row+1)(j),Sol(row+1)(j+1)})))}:1..n+->seq(INTEGER)) & (i=row&i>0&row-1:0..n-1)
+4.835452426666667E8,5.85031914E8,-1.0,-1.0:(TriangleC=Triangle) & (n=size(TriangleC)) & (not((row:0..n-1) & (Sol:1..n+->seq(INTEGER))) => (i=row&i>0&Sol<+{(row,%j.(j:1..row|TriangleC(row)(j)+max({Sol(row+1)(j),Sol(row+1)(j+1)})))}:1..n+->seq(INTEGER)) & (i=row&i>0&row-1:0..n-1))
+4.87891815E8,5.49406387E8,-1.0,-1.0:(TriangleC=Triangle) & (n=size(TriangleC)) & (row:0..n-1) & (Sol:1..n+->seq(INTEGER)) & not((i=row&i>0&Sol<+{(row,%j.(j:1..row|TriangleC(row)(j)+max({Sol(row+1)(j),Sol(row+1)(j+1)})))}:1..n+->seq(INTEGER)) & (i=row&i>0&row-1:0..n-1))
+5.092075136666667E8,5.577452503333334E8,-1.0,-1.0:(TriangleC=Triangle) & (n=size(TriangleC)) & (not((row:0..n-1) & (Sol:1..n+->seq(INTEGER))) => not((i=row&i>0&Sol<+{(row,%j.(j:1..row|TriangleC(row)(j)+max({Sol(row+1)(j),Sol(row+1)(j+1)})))}:1..n+->seq(INTEGER)) & (i=row&i>0&row-1:0..n-1)))

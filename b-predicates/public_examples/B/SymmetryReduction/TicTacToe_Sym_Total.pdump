@@ -1,0 +1,13 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/TicTacToe_Sym_Total.mch
+5.949675116666666E8,3.0459098416666665E9,-1.0,2.756417323333333E8:(turn:{O,X}) & (board:RowCol*Pos*Pos-->NC)
+3.222996213333333E8,3.68861478E8,-1.0,8.66710541E8:(middle:Pos) & (card(Pos)=3) & (card(RowCol)=2) & (turn:{O,X}) & (board:RowCol*Pos*Pos-->NC) & (turn=nc) & (board(rc,r,c)=empty) & (rc2/=rc)
+-1.0,-1.0,-1.0,-1.0:not((middle:Pos) & (card(Pos)=3) & (card(RowCol)=2) & (turn:{O,X}) & (board:RowCol*Pos*Pos-->NC)) => (turn=nc) & (board(rc,r,c)=empty) & (rc2/=rc)
+6.3976827333333336E7,1.45605597E8,-1.0,4.8385429E8:(middle:Pos) & (card(Pos)=3) & (card(RowCol)=2) & (turn:{O,X}) & (board:RowCol*Pos*Pos-->NC) & not((turn=nc) & (board(rc,r,c)=empty) & (rc2/=rc))
+5.549887783333334E8,3.01716161E8,-1.0,3.2789598E8:not((middle:Pos) & (card(Pos)=3) & (card(RowCol)=2) & (turn=nc) & (board(rc,r,c)=empty) & (rc2/=rc)) => (turn:{O,X}) & (board:RowCol*Pos*Pos-->NC)
+8.101397966666667E7,6.815303333333333E7,-1.0,2.23646806E8:not((middle:Pos) & (card(Pos)=3) & (card(RowCol)=2) & not((turn=nc) & (board(rc,r,c)=empty) & (rc2/=rc))) => (turn:{O,X}) & (board:RowCol*Pos*Pos-->NC)
+9.373377766666667E7,1.4026160266666667E9,-1.0,5.697413053333334E8:(middle:Pos) & (card(Pos)=3) & (card(RowCol)=2) & not((turn:{O,X}) & (board:RowCol*Pos*Pos-->NC)) & (turn=nc) & (board(rc,r,c)=empty) & (rc2/=rc)
+6.742994333333333E7,7.2717231E7,-1.0,2.72330162E8:not((middle:Pos) & (card(Pos)=3) & (card(RowCol)=2) & not((turn:{O,X}) & (board:RowCol*Pos*Pos-->NC))) => (turn=nc) & (board(rc,r,c)=empty) & (rc2/=rc)
+7.157306833333333E7,1.06438209E8,-1.0,4.497390343333333E8:(middle:Pos) & (card(Pos)=3) & (card(RowCol)=2) & not((turn:{O,X}) & (board:RowCol*Pos*Pos-->NC)) & not((turn=nc) & (board(rc,r,c)=empty) & (rc2/=rc))
+6.8671093E7,8.028416166666667E7,-1.0,2.791106793333333E8:not((middle:Pos) & (card(Pos)=3) & (card(RowCol)=2) & not((turn:{O,X}) & (board:RowCol*Pos*Pos-->NC))) => not((turn=nc) & (board(rc,r,c)=empty) & (rc2/=rc))
+7.4605204E7,2.17684502E8,-1.0,2.86096088E8:not((middle:Pos) & (card(Pos)=3) & (card(RowCol)=2) & not((turn=nc) & (board(rc,r,c)=empty) & (rc2/=rc))) => not((turn:{O,X}) & (board:RowCol*Pos*Pos-->NC))
+7.362069833333333E7,7.644978266666667E7,-1.0,2.908187793333333E8:not((middle:Pos) & (card(Pos)=3) & (card(RowCol)=2) & (turn=nc) & (board(rc,r,c)=empty) & (rc2/=rc)) => not((turn:{O,X}) & (board:RowCol*Pos*Pos-->NC))

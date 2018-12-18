@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLA/ErrorTests/GraphIso_tla.mch
+5.9524469E7,5.5596898E7,1.1134970433333333E8,5.1615619E7:(p:POW(INTEGER*INTEGER)) & (solved:INTEGER)

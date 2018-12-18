@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Vizing_Breitner/VizingTheorem.zip_unpacked/VizingTheorem/m00_Spec.bcm
+5.082977940333333E9,9.8450322E7,-1.0,5.476084470666667E9:(coloring:graph +-> C) & (coloring:valid) & (#c oftype POW(V**V**C).c:graph --> C&c:valid)
+5.3866766E7,6.0547969666666664E7,-1.0,7.9924037E7:not((coloring:graph +-> C) & (coloring:valid)) => (#c oftype POW(V**V**C).c:graph --> C&c:valid)
+1.8603329366666666E8,1.2659472933333333E8,-1.0,9.614725933333333E7:not((coloring:graph +-> C) & (coloring:valid)) => not((#c oftype POW(V**V**C).c:graph --> C&c:valid))
+9.643428366666667E7,5.9174401333333336E7,-1.0,1.02836471E8:not((#c oftype POW(V**V**C).c:graph --> C&c:valid)) => (coloring:graph +-> C) & (coloring:valid)
+8.837262033333333E7,3.8280117886666665E9,-1.0,1.1953785E8:not(not((#c oftype POW(V**V**C).c:graph --> C&c:valid))) => (coloring:graph +-> C) & (coloring:valid)
+1.4964228366666666E8,2.3577928433333334E8,-1.0,2.1035989733333334E8:not((coloring:graph +-> C) & (coloring:valid)) & (#c oftype POW(V**V**C).c:graph --> C&c:valid)
+1.32436511E8,6.4024529333333336E7,-1.0,1.2700921433333333E8:not(not((coloring:graph +-> C) & (coloring:valid))) => (#c oftype POW(V**V**C).c:graph --> C&c:valid)
+7.705416566666667E7,1.2210535566666667E8,-1.0,1.9509494433333334E8:not((coloring:graph +-> C) & (coloring:valid)) & not((#c oftype POW(V**V**C).c:graph --> C&c:valid))
+2.6135364933333334E8,1.3184667766666667E8,-1.0,1.2070054433333333E8:not(not((coloring:graph +-> C) & (coloring:valid))) => not((#c oftype POW(V**V**C).c:graph --> C&c:valid))
+1.3244470533333333E8,1.24195542E8,-1.0,1.25154603E8:not(not((#c oftype POW(V**V**C).c:graph --> C&c:valid))) => not((coloring:graph +-> C) & (coloring:valid))
+9.4706922E7,1.60493198E8,-1.0,6.099596186666666E8:not((#c oftype POW(V**V**C).c:graph --> C&c:valid)) => not((coloring:graph +-> C) & (coloring:valid))

@@ -1,0 +1,18 @@
+#source:examples/prob_examples/public_examples/B/RecursiveFunctions/Factorial_ClearSy/factorial_v2.mch
+1.8994214733333334E8,9.894556666666667E7,1.0260131566666667E8,6.4677498E7:not((fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn))) => (nn:NAT)
+-1.0,-1.0,-1.0,-1.0:(fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn)) & not((nn:NAT))
+-1.0,-1.0,6.5293382333333336E7,-1.0:not((fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn))) => not((nn:NAT))
+-1.0,-1.0,-1.0,-1.0:(fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn)) & fact(0)=1
+-1.0,-1.0,6.4166143666666664E7,-1.0:(fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn)) & not(fact(0)=1)
+-1.0,-1.0,6.3207758333333336E7,-1.0:not((fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn))) => fact(0)=1
+-1.0,-1.0,-1.0,-1.0:not((fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn))) => fact:NATURAL-->NATURAL
+2.0960661266666666E8,1.02667292E8,-1.0,1.5193065633333334E8:not((fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn))) => !nn.(nn:NATURAL1 => fact(nn)=fact(nn-1)*nn)
+5.3674213666666664E7,5.4576842333333336E7,6.799107133333333E7,6.5412135666666664E7:(fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn)) & nn:NATURAL1 => fact(nn)=fact(nn-1)*nn
+1.8102055133333334E8,9.8331871E7,1.06762669E8,7.119601866666667E7:not((fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn))) => nn:NATURAL1 => fact(nn)=fact(nn-1)*nn
+-1.0,-1.0,1.21128788E8,-1.0:not((fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn))) => nn:NATURAL1
+-1.0,-1.0,-1.0,-1.0:(fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn)) & fact(nn)=fact(nn-1)*nn
+-1.0,-1.0,-1.0,-1.0:(fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn)) & not(fact(nn)=fact(nn-1)*nn)
+-1.0,-1.0,6.930937233333333E7,-1.0:not((fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn))) => fact(nn)=fact(nn-1)*nn
+-1.0,-1.0,-1.0,-1.0:(fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn)) & (fact(0)=1) & (fact:NATURAL-->NATURAL) & (!nn.(nn:NATURAL1 => fact(nn)=fact(nn-1)*nn)) & (nn:NATURAL1 => fact(nn)=fact(nn-1)*nn) & (nn:NATURAL1) & (fact(nn)=fact(nn-1)*nn)
+-1.0,-1.0,-1.0,-1.0:(fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn)) & not((fact(0)=1) & (fact:NATURAL-->NATURAL) & (!nn.(nn:NATURAL1 => fact(nn)=fact(nn-1)*nn)) & (nn:NATURAL1 => fact(nn)=fact(nn-1)*nn) & (nn:NATURAL1) & (fact(nn)=fact(nn-1)*nn))
+-1.0,-1.0,-1.0,-1.0:not((fact:INTEGER<->INTEGER) & (fact={(0,1)}\/%nn.(nn:NATURAL1|fact(nn-1)*nn))) => (fact(0)=1) & (fact:NATURAL-->NATURAL) & (!nn.(nn:NATURAL1 => fact(nn)=fact(nn-1)*nn)) & (nn:NATURAL1 => fact(nn)=fact(nn-1)*nn) & (nn:NATURAL1) & (fact(nn)=fact(nn-1)*nn)

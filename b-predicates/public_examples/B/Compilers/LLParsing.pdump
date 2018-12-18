@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Compilers/LLParsing.mch
+1.0452751466666667E8,7.957841566666667E7,-1.0,6.1884406E7:(Nullable<:NonTerminals) & (First:Symbols-->POW(Terminals)) & (Follow:NonTerminals-->POW(Terminals))

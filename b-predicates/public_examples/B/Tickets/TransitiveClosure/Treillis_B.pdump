@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/Tickets/TransitiveClosure/Treillis_B.mch
+5.3033396333333336E7,6.1494621666666664E7,9.135766033333333E7,4.9770552E7:(vv:SS)
+9.486234233333333E7,1.03029047E8,9.506714E7,6.0834109666666664E7:(RR:SS<->SS) & (RR={(Obj,UObj)}) & (not(vv:SS) => !vv.(vv:dom(closure(RR)\/id(SS)|>{vv}) => vv:SS))
+1.07764169E8,9.7096961E7,9.309598633333333E7,6.0056753E7:(RR:SS<->SS) & (RR={(Obj,UObj)}) & (not(vv:SS) => not(!vv.(vv:dom(closure(RR)\/id(SS)|>{vv}) => vv:SS)))
+1.09770593E8,1.0224973433333333E8,9.5858931E7,6.0837881E7:(RR:SS<->SS) & (RR={(Obj,UObj)}) & (not((vv:SS)) => (!vv.(vv:dom(closure(RR)\/id(SS)|>{vv}) => vv:SS)))
+9.6421223E7,1.0078683866666667E8,9.612006733333333E7,6.0369176333333336E7:(RR:SS<->SS) & (RR={(Obj,UObj)}) & (not((vv:SS)) => not((!vv.(vv:dom(closure(RR)\/id(SS)|>{vv}) => vv:SS))))

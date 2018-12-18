@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Tester/Constants6.mch
+2.4007924966666666E8,1.0184195213333334E9,-1.0,1.41266451E8:(minnr:NATURAL) & (mxnr:NATURAL1) & (root:IDS) & (pid:PERSONS>->IDS) & (pnr:PERSONS>->minnr..mxnr) & (p:PERSONS)
+5.8814346E7,5.5806887E7,7.371368033333333E7,6.7674644E7:not((minnr:NATURAL) & (mxnr:NATURAL1) & (root:IDS) & (pid:PERSONS>->IDS) & (pnr:PERSONS>->minnr..mxnr)) => (p:PERSONS)
+5.9232113E7,1.2461985133333333E8,7.4183246E7,6.5217208333333336E7:(minnr:NATURAL) & (mxnr:NATURAL1) & (root:IDS) & (pid:PERSONS>->IDS) & (pnr:PERSONS>->minnr..mxnr) & not((p:PERSONS))
+6.0428262E7,1.68947229E8,-1.0,1.24521328E8:not((minnr:NATURAL) & (mxnr:NATURAL1) & (root:IDS) & (pid:PERSONS>->IDS) & (pnr:PERSONS>->minnr..mxnr)) => not((p:PERSONS))

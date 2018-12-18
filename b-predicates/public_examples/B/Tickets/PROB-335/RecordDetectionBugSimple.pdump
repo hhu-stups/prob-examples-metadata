@@ -1,0 +1,16 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PROB-335/RecordDetectionBugSimple.mch
+-1.0,-1.0,-1.0,-1.0:(pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)}) & !xx.(xx/=self => (xx,FALSE):main)
+-1.0,-1.0,-1.0,-1.0:(pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)}) & not(!xx.(xx/=self => (xx,FALSE):main))
+-1.0,-1.0,-1.0,-1.0:not((pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)})) => !xx.(xx/=self => (xx,FALSE):main)
+5.2956920333333336E7,5.1910162333333336E7,8.520259433333333E7,8.2985064E7:(pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)}) & xx/=self => (xx,FALSE):main
+-1.0,-1.0,-1.0,-1.0:(pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)}) & not(xx/=self => (xx,FALSE):main)
+4.9875616333333336E7,5.2021885666666664E7,4.8712083333333336E7,1.0890097566666667E8:not((pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)})) => xx/=self => (xx,FALSE):main
+-1.0,-1.0,-1.0,-1.0:(pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)}) & xx/=self
+8.190873986666666E8,8.544050183333334E8,-1.0,-1.0:(pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)}) & not(xx/=self)
+1.2690162856666667E9,1.3312600716666667E9,4.7370386E7,1.454111867E9:not((pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)})) => xx/=self
+-1.0,-1.0,-1.0,-1.0:(pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)}) & (xx,FALSE):main
+-1.0,-1.0,-1.0,-1.0:(pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)}) & not((xx,FALSE):main)
+5.0459396E7,5.3381671666666664E7,5.3178014333333336E7,1.10160773E8:not((pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)})) => (xx,FALSE):main
+-1.0,-1.0,-1.0,-1.0:(pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)}) & (!xx.(xx/=self => (xx,FALSE):main)) & (xx/=self => (xx,FALSE):main) & (xx/=self) & ((xx,FALSE):main)
+-1.0,-1.0,-1.0,-1.0:(pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)}) & not((!xx.(xx/=self => (xx,FALSE):main)) & (xx/=self => (xx,FALSE):main) & (xx/=self) & ((xx,FALSE):main))
+-1.0,-1.0,-1.0,-1.0:not((pos:Agents>->>1..4) & (card(Agents)=4) & (self:Agents) & (main:Agents-->BOOL) & (main=Agents*{FALSE}<+{(self,TRUE)})) => (!xx.(xx/=self => (xx,FALSE):main)) & (xx/=self => (xx,FALSE):main) & (xx/=self) & ((xx,FALSE):main)

@@ -1,0 +1,21 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/ChannelPure.bcm
+8.750351533333333E7,8.358122933333333E7,9.332345966666667E7,5.5252161333333336E7:(msg_rcvd_on_purechannel=TRUE) & (incrementer_evaluated=FALSE)
+4.5377535E7,4.4995386666666664E7,6.1489034E7,5.2516385333333336E7:(adder_evaluated=FALSE)
+6.0012543E7,3.216433923333333E8,6.3174630333333336E7,5.5816385666666664E7:(adder_evaluated=TRUE) & (msg_rcvd_on_purechannel=FALSE or incrementer_evaluated=TRUE)
+4.3875621333333336E7,4.5345896333333336E7,5.9985421666666664E7,4.8052945E7:incrementer_evaluated:BOOL
+4.3901835333333336E7,4.8029361666666664E7,6.0049023666666664E7,4.7940896E7:msg_sent_on_purechannel:BOOL
+4.3894827666666664E7,4.8036648333333336E7,6.0053260666666664E7,4.7992439333333336E7:msg_rcvd_on_purechannel:BOOL
+4.3904349333333336E7,4.7978261E7,6.0071116666666664E7,4.7985688E7:adder_evaluated:BOOL
+5.3388609666666664E7,4.7829895E7,6.0072769666666664E7,4.7993556333333336E7:(incrementer_evaluated:BOOL) & (msg_sent_on_purechannel:BOOL) & (msg_rcvd_on_purechannel:BOOL) & (adder_evaluated:BOOL)
+4.7920666E7,4.9288506666666664E7,6.0136627666666664E7,5.9894860333333336E7:(msg_rcvd_on_purechannel=TRUE) & (incrementer_evaluated=FALSE) & (adder_evaluated=FALSE)
+4.8322160333333336E7,7.614736966666667E7,6.1560598333333336E7,5.2203169666666664E7:(not((msg_rcvd_on_purechannel=TRUE) & (incrementer_evaluated=FALSE)) => (adder_evaluated=FALSE))
+4.8672693333333336E7,6.758243E7,6.2050046E7,6.1672996333333336E7:(msg_rcvd_on_purechannel=TRUE) & (incrementer_evaluated=FALSE) & not((adder_evaluated=FALSE))
+4.5196902666666664E7,7.555381133333333E7,6.3349722666666664E7,5.4384639E7:((msg_rcvd_on_purechannel=TRUE) & (incrementer_evaluated=FALSE) => not((adder_evaluated=FALSE)))
+4.9889398666666664E7,6.3119758333333336E7,6.0707161333333336E7,4.9157089E7:(msg_rcvd_on_purechannel=TRUE) & (incrementer_evaluated=FALSE) & (adder_evaluated=TRUE) & (msg_rcvd_on_purechannel=FALSE or incrementer_evaluated=TRUE)
+4.8703190666666664E7,6.7648989E7,6.3389788333333336E7,5.6138936E7:(not((msg_rcvd_on_purechannel=TRUE) & (incrementer_evaluated=FALSE)) => (adder_evaluated=TRUE) & (msg_rcvd_on_purechannel=FALSE or incrementer_evaluated=TRUE))
+4.6430183E7,6.2307387666666664E7,6.2939986666666664E7,8.440519333333333E7:(msg_rcvd_on_purechannel=TRUE) & (incrementer_evaluated=FALSE) & not((adder_evaluated=TRUE) & (msg_rcvd_on_purechannel=FALSE or incrementer_evaluated=TRUE))
+4.7805450666666664E7,6.6832800333333336E7,6.3864825666666664E7,5.6056104E7:((msg_rcvd_on_purechannel=TRUE) & (incrementer_evaluated=FALSE) => not((adder_evaluated=TRUE) & (msg_rcvd_on_purechannel=FALSE or incrementer_evaluated=TRUE)))
+4.7846331E7,4.8132913333333336E7,5.9929548333333336E7,5.1973951E7:(adder_evaluated=FALSE) & (adder_evaluated=TRUE) & (msg_rcvd_on_purechannel=FALSE or incrementer_evaluated=TRUE)
+4.7932212666666664E7,6.4103356666666664E7,6.3943536333333336E7,5.4650199E7:(not((adder_evaluated=FALSE)) => (adder_evaluated=TRUE) & (msg_rcvd_on_purechannel=FALSE or incrementer_evaluated=TRUE))
+4.7810548666666664E7,6.1444056666666664E7,6.3923748333333336E7,6.0001508E7:(adder_evaluated=FALSE) & not((adder_evaluated=TRUE) & (msg_rcvd_on_purechannel=FALSE or incrementer_evaluated=TRUE))
+4.7857156333333336E7,6.4159741666666664E7,6.1317527333333336E7,5.4612927333333336E7:((adder_evaluated=FALSE) => not((adder_evaluated=TRUE) & (msg_rcvd_on_purechannel=FALSE or incrementer_evaluated=TRUE)))

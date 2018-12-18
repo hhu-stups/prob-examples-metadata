@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PrjMemCheck/PrjTestsKO1.mch
+1.4453709533333334E8,1.1750620383E10,-1.0,9.044122633333333E7:(p1=prj1({1},{2})) & not(prj1(NAT1,{2})((1,3))=1)

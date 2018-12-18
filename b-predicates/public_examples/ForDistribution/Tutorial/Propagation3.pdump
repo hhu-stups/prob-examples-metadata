@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tutorial/Propagation3.mch
+3.863535073333333E8,1.9473365533333334E8,3.005204086666667E8,1.1010348033333333E8:(xx:low..up)
+4.067075383333333E8,6.653265312E9,4.772489576666667E8,9.443081666666667E7:(f:low..up-->0..1) & (invert:0..1-->0..1) & (fi=(f;invert)) & (invert={(0,1),(1,0)}) & (low=0) & (up=100) & (!x.(#y.((x,y):f) => f(x)=x mod 2)) & xx:low..up & not(xx:low..up)

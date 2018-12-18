@@ -1,0 +1,10 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/HappyNumbers.mch
+8.424888866666667E7,7.2732969E7,9.009043666666667E7,5.1920918333333336E7:(cur:NATURAL)
+1.1519907666666667E8,1.8068533953333333E9,-1.0,1.0261249E8:(start_numbers=1..1000) & (maxdigit=3) & cur:NATURAL & SIGMA(d).(d:0..maxdigit|(cur/10**d mod 10)**2):NATURAL
+4.6297693666666664E7,1.2383187136666667E9,-1.0,1.1179873766666667E8:(start_numbers=1..1000) & (maxdigit=3) & (not(cur:NATURAL) => SIGMA(d).(d:0..maxdigit|(cur/10**d mod 10)**2):NATURAL)
+5.6583103E7,1.1368928503333333E9,-1.0,1.05084825E8:(start_numbers=1..1000) & (maxdigit=3) & cur:NATURAL & not(SIGMA(d).(d:0..maxdigit|(cur/10**d mod 10)**2):NATURAL)
+4.8624992E7,1.1710978516666667E9,-1.0,8.733990033333333E7:(start_numbers=1..1000) & (maxdigit=3) & (not(cur:NATURAL) => not(SIGMA(d).(d:0..maxdigit|(cur/10**d mod 10)**2):NATURAL))
+5.3650863333333336E7,1.1727734603333333E9,-1.0,1.05702059E8:(start_numbers=1..1000) & (maxdigit=3) & (cur:NATURAL) & (SIGMA(d).(d:0..maxdigit|(cur/10**d mod 10)**2):NATURAL)
+4.9243715333333336E7,1.1708345033333333E9,-1.0,8.584229433333333E7:(start_numbers=1..1000) & (maxdigit=3) & (not((cur:NATURAL)) => (SIGMA(d).(d:0..maxdigit|(cur/10**d mod 10)**2):NATURAL))
+5.2690522666666664E7,1.148286664E9,-1.0,8.543646933333333E7:(start_numbers=1..1000) & (maxdigit=3) & (cur:NATURAL) & not((SIGMA(d).(d:0..maxdigit|(cur/10**d mod 10)**2):NATURAL))
+5.4621656666666664E7,1.1982209233333333E9,-1.0,1.19274944E8:(start_numbers=1..1000) & (maxdigit=3) & (not((cur:NATURAL)) => not((SIGMA(d).(d:0..maxdigit|(cur/10**d mod 10)**2):NATURAL)))

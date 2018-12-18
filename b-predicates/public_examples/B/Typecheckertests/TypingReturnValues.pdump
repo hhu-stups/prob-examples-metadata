@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/Typecheckertests/TypingReturnValues.mch
+1.1455611733333333E8,7.671059266666667E7,-1.0,5.1853428333333336E7:(tab:1..50-->NAT)
+1.0366262366666667E8,6.3711896666666664E7,-1.0,7.865709266666667E7:(partition=%ee,nn.(ee:POW(NATURAL)&nn:NATURAL|({uu|uu:ee&uu<=nn},{vv|vv:ee&nn<vv}))) & (tab:1..50-->NAT) & (xx:POW(NAT)) & (yy:POW(NAT))
+2.26587147E8,1.0983500966666667E8,-1.0,9.0444509E7:(partition=%ee,nn.(ee:POW(NATURAL)&nn:NATURAL|({uu|uu:ee&uu<=nn},{vv|vv:ee&nn<vv}))) & (tab:1..50-->NAT) & not((xx:POW(NAT)) & (yy:POW(NAT)))
+7.829026333333333E7,4.4314736666666664E7,-1.0,7.989714833333333E7:not((partition=%ee,nn.(ee:POW(NATURAL)&nn:NATURAL|({uu|uu:ee&uu<=nn},{vv|vv:ee&nn<vv}))) & (tab:1..50-->NAT)) => not((xx:POW(NAT)) & (yy:POW(NAT)))
+1.5493448333333334E8,9.514794666666667E7,-1.0,9.871080666666667E7:(partition=%ee,nn.(ee:POW(NATURAL)&nn:NATURAL|({uu|uu:ee&uu<=nn},{vv|vv:ee&nn<vv}))) & not((tab:1..50-->NAT)) & (xx:POW(NAT)) & (yy:POW(NAT))
+2.10403944E8,8.6303037E7,-1.0,9.192363066666667E7:(partition=%ee,nn.(ee:POW(NATURAL)&nn:NATURAL|({uu|uu:ee&uu<=nn},{vv|vv:ee&nn<vv}))) & not((tab:1..50-->NAT)) & not((xx:POW(NAT)) & (yy:POW(NAT)))
+4.9503152333333336E7,5.5372590666666664E7,-1.0,8.146995066666667E7:not((partition=%ee,nn.(ee:POW(NATURAL)&nn:NATURAL|({uu|uu:ee&uu<=nn},{vv|vv:ee&nn<vv}))) & not((tab:1..50-->NAT))) => not((xx:POW(NAT)) & (yy:POW(NAT)))

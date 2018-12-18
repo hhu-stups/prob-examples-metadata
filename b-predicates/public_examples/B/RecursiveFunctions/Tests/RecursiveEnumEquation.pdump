@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/RecursiveFunctions/Tests/RecursiveEnumEquation.mch
+1.0943847433333333E8,4.66331042E8,1.26272668E8,7.3930444E7:(nxt={(aa,bb),(bb,cc),(cc,dd),(dd,ee),(ee,ff),(ff,aa)}) & (root={(aa,ff),(bb,dd),(cc,dd),(dd,ff),(ee,ff),(ff,dd)}) & (x:ID) & (x=root(nxt(x))) & x=ff
+5.9099973666666664E7,7.740833033333333E7,1.1631148533333333E8,5.9114407333333336E7:(nxt={(aa,bb),(bb,cc),(cc,dd),(dd,ee),(ee,ff),(ff,aa)}) & (root={(aa,ff),(bb,dd),(cc,dd),(dd,ff),(ee,ff),(ff,dd)}) & (x:ID) & (x=root(nxt(x))) & not(x=ff)
+7.555534833333333E7,1.2943496533333333E8,1.1908334633333333E8,7.2928315E7:not((nxt={(aa,bb),(bb,cc),(cc,dd),(dd,ee),(ee,ff),(ff,aa)}) & (root={(aa,ff),(bb,dd),(cc,dd),(dd,ff),(ee,ff),(ff,dd)}) & (x:ID) & (x=root(nxt(x)))) => x=ff
+4.9638993666666664E7,7.4653977E7,6.990528133333333E7,8.819433866666667E7:(nxt={(aa,bb),(bb,cc),(cc,dd),(dd,ee),(ee,ff),(ff,aa)}) & (root={(aa,ff),(bb,dd),(cc,dd),(dd,ff),(ee,ff),(ff,dd)}) & (x:ID) & (x=root(nxt(x))) & (x=ff)
+4.9786475333333336E7,6.9879603E7,1.2949183933333333E8,6.7876881E7:(nxt={(aa,bb),(bb,cc),(cc,dd),(dd,ee),(ee,ff),(ff,aa)}) & (root={(aa,ff),(bb,dd),(cc,dd),(dd,ff),(ee,ff),(ff,dd)}) & (x:ID) & (x=root(nxt(x))) & not((x=ff))
+4.7316236E7,1.3094679633333333E8,1.2022283E8,7.4589001E7:not((nxt={(aa,bb),(bb,cc),(cc,dd),(dd,ee),(ee,ff),(ff,aa)}) & (root={(aa,ff),(bb,dd),(cc,dd),(dd,ff),(ee,ff),(ff,dd)}) & (x:ID) & (x=root(nxt(x)))) => (x=ff)

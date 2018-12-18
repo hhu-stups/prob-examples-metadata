@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Tester/ForAllExpansionEnumWarning.mch
+-1.0,-1.0,-1.0,-1.0:!x.(x:NATURAL&x>=0 => card(1..x)=x)
+6.8195404E7,4.9714958E7,6.3618262333333336E7,8.0146342E7:x:NATURAL&x>=0 => card(1..x)=x
+4.8891226E7,4.9259592666666664E7,7.276279066666667E7,5.5871629666666664E7:card(1..x)=x
+-1.0,-1.0,-1.0,-1.0:(!x.(x:NATURAL&x>=0 => card(1..x)=x)) & (x:NATURAL&x>=0 => card(1..x)=x) & (card(1..x)=x)

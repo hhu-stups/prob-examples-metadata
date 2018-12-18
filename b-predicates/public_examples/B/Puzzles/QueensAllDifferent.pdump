@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/QueensAllDifferent.mch
+5.800564446666666E8,4.410995746666667E8,-1.0,6.189971036666666E8:(n=4) & (queens:1..n-->1..n) & (%i.(i:1..n|queens(i)):INTEGER>+>INTEGER) & (%i.(i:1..n|queens(i)-i):INTEGER>+>INTEGER) & (%i.(i:1..n|queens(i)+i):INTEGER>+>INTEGER) & (yy:1..n)
+3.27930505E8,1.2387809033333333E8,-1.0,5.46016478E8:not((n=4) & (queens:1..n-->1..n) & (%i.(i:1..n|queens(i)):INTEGER>+>INTEGER) & (%i.(i:1..n|queens(i)-i):INTEGER>+>INTEGER) & (%i.(i:1..n|queens(i)+i):INTEGER>+>INTEGER)) => (yy:1..n)
+8.211405033333333E7,1.0932586733333333E8,-1.0,5.29956568E8:(n=4) & (queens:1..n-->1..n) & (%i.(i:1..n|queens(i)):INTEGER>+>INTEGER) & (%i.(i:1..n|queens(i)-i):INTEGER>+>INTEGER) & (%i.(i:1..n|queens(i)+i):INTEGER>+>INTEGER) & not((yy:1..n))
+7.053953333333333E7,8.242272533333333E7,3.272026653333333E8,6.361466776666666E8:not((n=4) & (queens:1..n-->1..n) & (%i.(i:1..n|queens(i)):INTEGER>+>INTEGER) & (%i.(i:1..n|queens(i)-i):INTEGER>+>INTEGER) & (%i.(i:1..n|queens(i)+i):INTEGER>+>INTEGER)) => not((yy:1..n))

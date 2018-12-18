@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/SubsetSum2.mch
+1.7990683933333334E8,1.6696909166666666E8,-1.0,1.8552384833333334E8:(coins={16,17,23,24,39,40}) & (stolen:coins-->NATURAL) & (SIGMA(x).(x:coins|stolen(x)*x)=100) & (x:coins)
+1.64554329E8,7.124262566666667E7,-1.0,1.0079033066666667E8:not((coins={16,17,23,24,39,40}) & (stolen:coins-->NATURAL) & (SIGMA(x).(x:coins|stolen(x)*x)=100)) => (x:coins)
+9.1066329E7,1.1195788233333333E8,-1.0,1.8613640266666666E8:(coins={16,17,23,24,39,40}) & (stolen:coins-->NATURAL) & (SIGMA(x).(x:coins|stolen(x)*x)=100) & not((x:coins))
+5.6193738333333336E7,6.4347359E7,-1.0,1.0702599366666667E8:not((coins={16,17,23,24,39,40}) & (stolen:coins-->NATURAL) & (SIGMA(x).(x:coins|stolen(x)*x)=100)) => not((x:coins))

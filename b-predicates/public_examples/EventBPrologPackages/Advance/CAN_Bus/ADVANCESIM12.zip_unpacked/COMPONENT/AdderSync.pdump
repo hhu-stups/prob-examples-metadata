@@ -1,0 +1,43 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/CAN_Bus/ADVANCESIM12.zip_unpacked/COMPONENT/AdderSync.bcm
+8.853732966666667E7,6.740736133333333E7,9.353773266666667E7,5.9752197666666664E7:(o_sum:NAT)
+5.5144745333333336E7,6.718792E7,6.0820164666666664E7,7.546150433333333E7:(o_sum:NAT) & (p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE)
+6.2532533E7,5.0671155E7,-1.0,5.9947427333333336E7:not((o_sum:NAT)) => (p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE)
+5.4651316333333336E7,5.2022374333333336E7,6.7978221E7,6.6582628666666664E7:(o_sum:NAT) & not((p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE))
+4.7993160666666664E7,4.7936705666666664E7,6.8031486E7,5.9974666E7:not((o_sum:NAT)) => not((p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE))
+4.9255821666666664E7,5.1934863333333336E7,6.805206566666667E7,5.9957345333333336E7:not((p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE)) => (o_sum:NAT)
+4.9278822666666664E7,5.1890025E7,6.8073205E7,6.0110763E7:not(not((p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE))) => (o_sum:NAT)
+5.3270833333333336E7,5.1877290666666664E7,6.809080533333333E7,7.188139366666667E7:not((o_sum:NAT)) & (p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE)
+4.9341959E7,5.1972764E7,-1.0,6.1355241666666664E7:not(not((o_sum:NAT))) => (p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE)
+5.6923369666666664E7,5.1228209333333336E7,6.777789266666667E7,6.877294466666667E7:not((o_sum:NAT)) & not((p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE))
+4.6728987E7,5.0677277666666664E7,6.7076919E7,7.4223731E7:not(not((o_sum:NAT))) => not((p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE))
+4.6827206666666664E7,4.9844048E7,-1.0,5.8840047666666664E7:not(not((p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE))) => not((o_sum:NAT))
+4.8270826333333336E7,5.0518924E7,-1.0,5.7841759333333336E7:not((p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE)) => not((o_sum:NAT))
+4.6784440666666664E7,4.9876617333333336E7,6.144089E7,6.1572727666666664E7:(o_sum:NAT) & (pv:INT) & (pv=o_sum) & (data_ready=TRUE)
+4.9855362333333336E7,4.9547665E7,6.1447898E7,5.5924174E7:not((o_sum:NAT)) => (pv:INT) & (pv=o_sum) & (data_ready=TRUE)
+4.8543160666666664E7,4.9044784333333336E7,6.1445383666666664E7,6.1041770666666664E7:(o_sum:NAT) & not((pv:INT) & (pv=o_sum) & (data_ready=TRUE))
+4.7418856E7,4.9913424E7,6.0516797333333336E7,5.5248529E7:not((o_sum:NAT)) => not((pv:INT) & (pv=o_sum) & (data_ready=TRUE))
+4.7191801666666664E7,5.0297760333333336E7,6.090856E7,5.4854880666666664E7:not((pv:INT) & (pv=o_sum) & (data_ready=TRUE)) => (o_sum:NAT)
+4.7267975333333336E7,5.0091169666666664E7,6.1099110666666664E7,5.4379796666666664E7:not(not((pv:INT) & (pv=o_sum) & (data_ready=TRUE))) => (o_sum:NAT)
+4.7655338666666664E7,4.9878642333333336E7,6.0885629E7,6.5545905E7:not((o_sum:NAT)) & (pv:INT) & (pv=o_sum) & (data_ready=TRUE)
+4.7784079E7,4.9755582333333336E7,6.0912238333333336E7,5.5173357E7:not(not((o_sum:NAT))) => (pv:INT) & (pv=o_sum) & (data_ready=TRUE)
+4.8722094333333336E7,4.8421893E7,6.2640042E7,6.3926355333333336E7:not((o_sum:NAT)) & not((pv:INT) & (pv=o_sum) & (data_ready=TRUE))
+4.7824145E7,4.9414198333333336E7,6.1597451333333336E7,5.7036675666666664E7:not(not((o_sum:NAT))) => not((pv:INT) & (pv=o_sum) & (data_ready=TRUE))
+4.8667362E7,4.8659749E7,6.2135718E7,5.6436599666666664E7:not(not((pv:INT) & (pv=o_sum) & (data_ready=TRUE))) => not((o_sum:NAT))
+4.7719382666666664E7,5.0086629666666664E7,6.0676827E7,5.4654553E7:not((pv:INT) & (pv=o_sum) & (data_ready=TRUE)) => not((o_sum:NAT))
+4.7829406E7,4.7970579E7,6.0904998E7,5.3343934333333336E7:(o_sum:NAT) & o_sum:INT
+5.3350173333333336E7,5.8803287666666664E7,9.746260333333333E7,4.9011586666666664E7:not((o_sum:NAT)) => o_sum:INT
+7.871822733333333E7,4.5887702E7,6.8572477E7,5.8754422E7:(o_sum:NAT) & data_ready:BOOL
+5.3345820333333336E7,5.7765097E7,9.9908375E7,4.892198E7:not((o_sum:NAT)) => data_ready:BOOL
+8.807889166666667E7,5.3962379E7,7.865341433333333E7,5.3224645E7:(o_sum:NAT) & In1:Parameters +-> INT
+8.9988282E7,5.0629250333333336E7,-1.0,6.798334233333333E7:(o_sum:NAT) & not(In1:Parameters +-> INT)
+6.7437649E7,4.8449248E7,6.5336846333333336E7,5.7359575333333336E7:not((o_sum:NAT)) => In1:Parameters +-> INT
+4.7925391E7,4.7943969333333336E7,6.4147147E7,5.9852117666666664E7:(o_sum:NAT) & In2:Parameters +-> INT
+4.7935797333333336E7,4.8024287E7,-1.0,6.3898908E7:(o_sum:NAT) & not(In2:Parameters +-> INT)
+4.7885348666666664E7,4.810223E7,6.5312285333333336E7,5.7287895333333336E7:not((o_sum:NAT)) => In2:Parameters +-> INT
+4.7948811333333336E7,4.7955702666666664E7,6.811473733333333E7,6.6529060666666664E7:(o_sum:NAT) & (o_sum:INT) & (data_ready:BOOL) & (In1:Parameters +-> INT) & (In2:Parameters +-> INT)
+5.2432342333333336E7,5.0403965666666664E7,6.1132564333333336E7,7.6531729E7:(o_sum:NAT) & not((o_sum:INT) & (data_ready:BOOL) & (In1:Parameters +-> INT) & (In2:Parameters +-> INT))
+4.6838288666666664E7,4.9466113666666664E7,6.6671630333333336E7,8.090959066666667E7:not((o_sum:NAT)) => (o_sum:INT) & (data_ready:BOOL) & (In1:Parameters +-> INT) & (In2:Parameters +-> INT)
+-1.0,-1.0,6.3486076E7,-1.0:(o_sum:NAT) & (p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE) & (pv:INT) & (pv=o_sum) & (data_ready=TRUE)
+5.093008E7,5.0029011E7,-1.0,6.0320008E7:(o_sum:NAT) & (not((p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE)) => (pv:INT) & (pv=o_sum) & (data_ready=TRUE))
+5.2172742666666664E7,5.2349417666666664E7,6.819065466666667E7,7.596561933333333E7:(o_sum:NAT) & (p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE) & not((pv:INT) & (pv=o_sum) & (data_ready=TRUE))
+4.7699268333333336E7,5.0955269333333336E7,-1.0,6.0793438333333336E7:(o_sum:NAT) & ((p:Parameters) & (p:Inputs) & (In1(p):NAT) & (In2(p):NAT) & (data_ready=FALSE) => not((pv:INT) & (pv=o_sum) & (data_ready=TRUE)))

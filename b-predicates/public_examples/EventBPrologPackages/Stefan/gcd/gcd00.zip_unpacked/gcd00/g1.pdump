@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Stefan/gcd/gcd00.zip_unpacked/gcd00/g1.bcm
+5.3508504E7,5.5175731333333336E7,2.9194708813333335E9,5.2998662333333336E7:(a:INT) & (b:INT) & (d:INT) & (u:INT) & (v:INT)
+5.6050051333333336E7,5.5088429666666664E7,1.1069315E8,5.2804270666666664E7:not((a:INT) & (b:INT) & (d:INT) & (u:INT) & (v:INT)) => (x=a*y+b*z) & (x |-> a:dv) & (x |-> b:dv)
+1.2971516833333333E8,8.089445833333333E7,5.512475294333333E9,1.762062247E9:(a:INT) & (b:INT) & (d:INT) & (u:INT) & (v:INT) & not((x=a*y+b*z) & (x |-> a:dv) & (x |-> b:dv))
+9.547201E7,5.4977103E7,1.1044565533333333E8,5.3240057333333336E7:not((x=a*y+b*z) & (x |-> a:dv) & (x |-> b:dv)) => (a:INT) & (b:INT) & (d:INT) & (u:INT) & (v:INT)
+4.7817276666666664E7,4.8199518333333336E7,5.9865829666666664E7,5.2118010333333336E7:not(not((x=a*y+b*z) & (x |-> a:dv) & (x |-> b:dv))) => (a:INT) & (b:INT) & (d:INT) & (u:INT) & (v:INT)
+2.1781324283333335E9,8.760124666666667E7,3.3689521783333335E9,4.349144536666667E8:not(not((a:INT) & (b:INT) & (d:INT) & (u:INT) & (v:INT))) => not((x=a*y+b*z) & (x |-> a:dv) & (x |-> b:dv))
+5.0794727333333336E7,5.1970366E7,8.403008506666666E8,6.3200402333333336E7:not(not((x=a*y+b*z) & (x |-> a:dv) & (x |-> b:dv))) => not((a:INT) & (b:INT) & (d:INT) & (u:INT) & (v:INT))
+5.6052868E7,5.0412044E7,2.4944952866666666E8,6.2311276E7:not((x=a*y+b*z) & (x |-> a:dv) & (x |-> b:dv)) => not((a:INT) & (b:INT) & (d:INT) & (u:INT) & (v:INT))

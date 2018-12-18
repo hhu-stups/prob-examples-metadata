@@ -1,0 +1,22 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/EvaluationView/QuantifiersExplanations.mch
+1.83263179E8,6.343044043333334E8,-1.0,6.288444E7:(r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa}) & r:ID-->ID
+4.1758452333333336E7,1.3736779433333334E8,-1.0,1.12443372E8:(r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa}) & not(r:ID-->ID)
+5.8745156666666664E7,2.790132043333333E8,-1.0,1.1848043E8:not((r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa})) => r:ID-->ID
+9.2889303E7,7.218180466666667E7,-1.0,7.015691966666667E7:(r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa}) & f:ID-->ID
+5.7451486666666664E7,6.6894167666666664E7,-1.0,1.0601352766666667E8:(r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa}) & not(f:ID-->ID)
+-1.0,1.2969174866666667E8,-1.0,-1.0:not((r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa})) => f:ID-->ID
+5.2184266666666664E7,8.115275466666667E7,-1.0,7.290214766666667E7:(r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa}) & g:ID-->ID
+5.2076897E7,9.069584433333333E7,-1.0,6.4184372333333336E7:(r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa}) & not(g:ID-->ID)
+5.8612668E7,1.7724344233333334E8,-1.0,1.0859860966666667E8:not((r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa})) => g:ID-->ID
+4.993696E7,7.1218554E7,8.760017566666667E7,7.019246866666667E7:(r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa}) & g:ID-->{bb,cc,dd,ee,ff}
+3.9145201666666664E7,7.583962533333333E7,-1.0,1.1798949233333333E8:(r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa}) & not(g:ID-->{bb,cc,dd,ee,ff})
+7.3246605E7,1.60530912E8,-1.0,1.0975732333333333E8:not((r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa})) => g:ID-->{bb,cc,dd,ee,ff}
+5.9921493333333336E7,8.001485366666667E7,-1.0,6.716992466666667E7:(r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa}) & !x.(x:ID => x:dom(f))
+4.9117372333333336E7,9.6618036E7,-1.0,8.747976966666667E7:(r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa}) & not(!x.(x:ID => x:dom(f)))
+1.1256224233333333E8,1.0463772466666667E8,-1.0,1.86104928E8:not((r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa})) => !x.(x:ID => x:dom(f))
+3.2008260333333332E7,8.5989985E7,-1.0,7.587906233333333E7:(r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa}) & #y.(y:ID&y:ran(g))
+5.2355400666666664E7,7.236662766666667E7,8.4272192E7,5.9979997E7:(r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa}) & not(#y.(y:ID&y:ran(g)))
+6.884835E7,8.2948048E7,-1.0,7.5149547E7:not((r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa})) => #y.(y:ID&y:ran(g))
+5.3321328666666664E7,6.822303733333333E7,9.8443361E7,5.9618521666666664E7:(r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa}) & (r:ID-->ID) & (f:ID-->ID) & (g:ID-->ID) & (g:ID-->{bb,cc,dd,ee,ff}) & (!x.(x:ID => x:dom(f))) & (#y.(y:ID&y:ran(g)))
+4.8340016E7,6.749894666666667E7,-1.0,1.31517004E8:(r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa}) & not((r:ID-->ID) & (f:ID-->ID) & (g:ID-->ID) & (g:ID-->{bb,cc,dd,ee,ff}) & (!x.(x:ID => x:dom(f))) & (#y.(y:ID&y:ran(g))))
+-1.0,1.0368110833333333E8,-1.0,-1.0:not((r=ID*{ff}\/{ff}*ID) & (f=id({aa,bb,dd,ee,ff})) & (g=ID*{aa})) => (r:ID-->ID) & (f:ID-->ID) & (g:ID-->ID) & (g:ID-->{bb,cc,dd,ee,ff}) & (!x.(x:ID => x:dom(f))) & (#y.(y:ID&y:ran(g)))

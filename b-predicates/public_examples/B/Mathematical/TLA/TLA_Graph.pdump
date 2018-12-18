@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/TLA/TLA_Graph.mch
+2.37570108E8,1.65651768E8,-1.0,1.7691302333333334E8:(edges:NODES<->NODES) & (edges~=edges) & (dom(edges)=NODES) & (!x,y.(x:NODES&y:NODES&x/=y => degree(x)/=degree(y))) & (n:NODES)
+4.7880227666666664E7,4.7991415E7,6.4115625333333336E7,5.1894006333333336E7:not((edges:NODES<->NODES) & (edges~=edges) & (dom(edges)=NODES) & (!x,y.(x:NODES&y:NODES&x/=y => degree(x)/=degree(y)))) => (n:NODES)
+2.5454994433333334E8,2.6827608466666666E8,-1.0,1.883686E8:not((edges:NODES<->NODES) & (edges~=edges) & (dom(edges)=NODES) & (!x,y.(x:NODES&y:NODES&x/=y => degree(x)/=degree(y)))) => not((n:NODES))

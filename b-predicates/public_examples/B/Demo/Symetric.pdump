@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/Demo/Symetric.mch
+4.8945795666666664E7,6.941529866666667E7,8.4722552E7,4.871085E7:(dummy:Name)
+5.4255921666666664E7,6.0956867333333336E7,1.0058690666666667E8,5.0308818333333336E7:(not(dummy:Name) => !nn.(nn=nn~&nn:Name+->Name => dummy:Name))
+1.2000983733333333E8,3.506295598E9,5.9724354333333336E7,5.5093226E7:dummy:Name & not(!nn.(nn=nn~&nn:Name+->Name => dummy:Name))
+4.7432684E7,4.8170837333333336E7,6.4203136333333336E7,5.1451026333333336E7:(not(dummy:Name) => not(!nn.(nn=nn~&nn:Name+->Name => dummy:Name)))
+5.5541117666666664E7,6.0708860333333336E7,1.02870996E8,5.2268122333333336E7:(not((dummy:Name)) => (!nn.(nn=nn~&nn:Name+->Name => dummy:Name)))
+1.2017927233333333E8,2.991666282E9,5.9765468E7,5.4732123E7:(dummy:Name) & not((!nn.(nn=nn~&nn:Name+->Name => dummy:Name)))
+4.6526424E7,4.8285516666666664E7,6.3022399666666664E7,5.0482303666666664E7:(not((dummy:Name)) => not((!nn.(nn=nn~&nn:Name+->Name => dummy:Name))))

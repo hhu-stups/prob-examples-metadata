@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLC/NoError/safecap2549260349036854403.mch
+1.1796772466666667E8,5.004385453333333E8,-1.0,1.0477307666666667E8:(occ:AMBIT+->TRAIN) & (locked:AMBIT+->TRAIN) & (tl:TRAIN+->AMBIT) & (hd:TRAIN+->AMBIT) & (line:TRAIN+->LINE) & (tlr:TRAIN+->ROUTE) & (hdr:TRAIN+->ROUTE) & (collision=FALSE) & (signal:ROUTE-->ASPECT)

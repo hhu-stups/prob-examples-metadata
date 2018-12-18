@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/TotalFunSuperSimple.mch
+1.4346514733333334E8,1.1431025333333333E8,-1.0,9.430770966666667E7:(f:ID-->(ID>->>ID)) & (yy:ID)
+5.8282761E7,5.1297352E7,8.163279666666667E7,5.9721165E7:not((f:ID-->(ID>->>ID))) => (yy:ID)
+1.25159957E8,1.06878116E8,-1.0,9.0930767E7:not((f:ID-->(ID>->>ID))) => not((yy:ID))

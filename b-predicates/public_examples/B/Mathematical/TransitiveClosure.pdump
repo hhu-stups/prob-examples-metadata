@@ -1,0 +1,21 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/TransitiveClosure.mch
+5.6609922666666664E7,1.0946734233333333E8,1.37790194E8,7.406398066666667E7:(rel1:ID<->ID)
+4.146582703333333E8,1.6559459133333334E8,-1.0,8.304664766666666E8:(tclos:ID<->ID-->(ID<->ID)) & (!r.(r:ID<->ID => r<:tclos(r))) & (!r.(r:ID<->ID => (r;tclos(r))<:tclos(r))) & (rel1:ID<->ID) & (x:ID) & (y:ID)
+5.5001617E7,5.9053808666666664E7,7.287656233333333E7,6.1874628333333336E7:not((tclos:ID<->ID-->(ID<->ID)) & (!r.(r:ID<->ID => r<:tclos(r))) & (!r.(r:ID<->ID => (r;tclos(r))<:tclos(r))) & (rel1:ID<->ID)) => (x:ID) & (y:ID)
+2.997197246666667E8,1.9240244633333334E8,-1.0,7.840745666666666E8:not((tclos:ID<->ID-->(ID<->ID)) & (!r.(r:ID<->ID => r<:tclos(r))) & (!r.(r:ID<->ID => (r;tclos(r))<:tclos(r))) & (rel1:ID<->ID)) => not((x:ID) & (y:ID))
+6.0561588666666664E7,6.0991997333333336E7,9.437908766666667E7,7.760975266666667E7:not((tclos:ID<->ID-->(ID<->ID)) & (!r.(r:ID<->ID => r<:tclos(r))) & (!r.(r:ID<->ID => (r;tclos(r))<:tclos(r))) & (x:ID) & (y:ID)) => (rel1:ID<->ID)
+6.5128277333333336E7,6.1133239666666664E7,9.154581233333333E7,5.6374115333333336E7:not((tclos:ID<->ID-->(ID<->ID)) & (!r.(r:ID<->ID => r<:tclos(r))) & (!r.(r:ID<->ID => (r;tclos(r))<:tclos(r))) & not((x:ID) & (y:ID))) => (rel1:ID<->ID)
+7.709511566666667E7,1.0210958633333333E8,1.5751397833333334E8,6.3434114666666664E7:not((tclos:ID<->ID-->(ID<->ID)) & (!r.(r:ID<->ID => r<:tclos(r))) & (!r.(r:ID<->ID => (r;tclos(r))<:tclos(r))) & not((rel1:ID<->ID))) => (x:ID) & (y:ID)
+3.27380388E8,1.7047619433333334E8,-1.0,5.248362476666667E8:not((tclos:ID<->ID-->(ID<->ID)) & (!r.(r:ID<->ID => r<:tclos(r))) & (!r.(r:ID<->ID => (r;tclos(r))<:tclos(r))) & (x:ID) & (y:ID)) => not((rel1:ID<->ID))
+7.7708602E7,1.2154599633333333E8,-1.0,5.74902251E8:(tclos:ID<->ID-->(ID<->ID)) & (!r.(r:ID<->ID => r<:tclos(r))) & (!r.(r:ID<->ID => (r;tclos(r))<:tclos(r))) & rel1:ID<->ID & rel1:ID<->ID
+2.78157439E8,1.5876725666666666E8,-1.0,6.960552966666666E8:(tclos:ID<->ID-->(ID<->ID)) & (!r.(r:ID<->ID => r<:tclos(r))) & (!r.(r:ID<->ID => (r;tclos(r))<:tclos(r))) & (not(rel1:ID<->ID) => rel1:ID<->ID)
+3.130266076666667E8,2.2749224366666666E8,-1.0,7.89573148E8:(tclos:ID<->ID-->(ID<->ID)) & (!r.(r:ID<->ID => r<:tclos(r))) & (!r.(r:ID<->ID => (r;tclos(r))<:tclos(r))) & (not(rel1:ID<->ID) => not(rel1:ID<->ID))
+8.8409823E7,9.383250966666667E7,-1.0,5.67543261E8:(tclos:ID<->ID-->(ID<->ID)) & (!r.(r:ID<->ID => r<:tclos(r))) & (!r.(r:ID<->ID => (r;tclos(r))<:tclos(r))) & (rel1:ID<->ID) & (rel1:ID<->ID)
+7.5926019E7,1.3075731666666667E8,-1.0,6.76489866E8:(tclos:ID<->ID-->(ID<->ID)) & (!r.(r:ID<->ID => r<:tclos(r))) & (!r.(r:ID<->ID => (r;tclos(r))<:tclos(r))) & (not((rel1:ID<->ID)) => (rel1:ID<->ID))
+3.032149313333333E8,1.57864139E8,-1.0,7.23237734E8:(tclos:ID<->ID-->(ID<->ID)) & (!r.(r:ID<->ID => r<:tclos(r))) & (!r.(r:ID<->ID => (r;tclos(r))<:tclos(r))) & (not((rel1:ID<->ID)) => not((rel1:ID<->ID)))
+8.7195376E7,2.1525237266666666E8,-1.0,5.7228858E8:(tclos:ID<->ID-->(ID<->ID)) & (!r.(r:ID<->ID => r<:tclos(r))) & (!r.(r:ID<->ID => (r;tclos(r))<:tclos(r))) & rel1:ID<->ID & rel1:ID<->ID
+5.7264544333333336E7,1.1129802166666667E8,-1.0,5.330126593333333E8:(tclos:ID<->ID-->(ID<->ID)) & (!r.(r:ID<->ID => r<:tclos(r))) & (!r.(r:ID<->ID => (r;tclos(r))<:tclos(r))) & (not(rel1:ID<->ID) => rel1:ID<->ID)
+3.10285733E8,1.3776661133333334E8,-1.0,4.8365182E8:(tclos:ID<->ID-->(ID<->ID)) & (!r.(r:ID<->ID => r<:tclos(r))) & (!r.(r:ID<->ID => (r;tclos(r))<:tclos(r))) & (not(rel1:ID<->ID) => not(rel1:ID<->ID))
+6.6677264333333336E7,3.344744003333333E8,-1.0,6.387085956666666E8:(tclos:ID<->ID-->(ID<->ID)) & (!r.(r:ID<->ID => r<:tclos(r))) & (!r.(r:ID<->ID => (r;tclos(r))<:tclos(r))) & (rel1:ID<->ID) & (rel1:ID<->ID)
+4.9206536666666664E7,1.0690216533333333E8,-1.0,4.76157524E8:(tclos:ID<->ID-->(ID<->ID)) & (!r.(r:ID<->ID => r<:tclos(r))) & (!r.(r:ID<->ID => (r;tclos(r))<:tclos(r))) & (not((rel1:ID<->ID)) => (rel1:ID<->ID))
+2.1477286566666666E8,2.980503316666667E8,-1.0,5.224356163333333E8:(tclos:ID<->ID-->(ID<->ID)) & (!r.(r:ID<->ID => r<:tclos(r))) & (!r.(r:ID<->ID => (r;tclos(r))<:tclos(r))) & (not((rel1:ID<->ID)) => not((rel1:ID<->ID)))

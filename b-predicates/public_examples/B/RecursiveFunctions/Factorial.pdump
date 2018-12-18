@@ -1,0 +1,19 @@
+#source:examples/prob_examples/public_examples/B/RecursiveFunctions/Factorial.mch
+-1.0,-1.0,-1.0,-1.0:(fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1))) & (x:2..10)
+-1.0,-1.0,6.2316746333333336E7,-1.0:not((fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1)))) => (x:2..10)
+-1.0,-1.0,-1.0,-1.0:(fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1))) & not((x:2..10))
+5.393542E7,5.3269390666666664E7,6.7959736E7,6.6689346666666664E7:not((fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1)))) => not((x:2..10))
+-1.0,-1.0,-1.0,-1.0:(fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1))) & fac(4)=24
+-1.0,-1.0,1.054559382E9,-1.0:(fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1))) & not(fac(4)=24)
+-1.0,-1.0,6.3484702E7,-1.0:not((fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1)))) => fac(4)=24
+-1.0,-1.0,-1.0,-1.0:(fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1))) & not(fac(20)=2432902008176640000)
+-1.0,-1.0,6.5963043666666664E7,-1.0:not((fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1)))) => fac(20)=2432902008176640000
+1.96859764E8,1.03017756E8,-1.0,1.15964048E8:not((fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1)))) => !x.(x:2..20 => fac(x)=x*fac(x-1))
+5.5768358E7,5.6021486E7,6.2819440666666664E7,6.841526433333333E7:(fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1))) & x:2..20 => fac(x)=x*fac(x-1)
+1.9432066066666666E8,1.0010588633333333E8,1.0448698366666667E8,7.364653966666667E7:not((fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1)))) => x:2..20 => fac(x)=x*fac(x-1)
+-1.0,-1.0,-1.0,-1.0:(fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1))) & x:2..20
+-1.0,-1.0,-1.0,-1.0:(fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1))) & not(x:2..20)
+-1.0,-1.0,6.969995046666666E8,-1.0:not((fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1)))) => x:2..20
+-1.0,-1.0,-1.0,-1.0:not((fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1)))) => fac(x)=x*fac(x-1)
+4.44284756E8,1.0459491166666667E8,-1.0,1.1047978466666667E8:(fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1))) & not((fac(4)=24) & (fac(20)=2432902008176640000) & (!x.(x:2..20 => fac(x)=x*fac(x-1))) & (x:2..20 => fac(x)=x*fac(x-1)) & (x:2..20) & (fac(x)=x*fac(x-1)))
+-1.0,-1.0,-1.0,-1.0:not((fac:INTEGER<->INTEGER) & (fac=%xb.(xb=1|1)\/%x.(x>1|x*fac(x-1)))) => (fac(4)=24) & (fac(20)=2432902008176640000) & (!x.(x:2..20 => fac(x)=x*fac(x-1))) & (x:2..20 => fac(x)=x*fac(x-1)) & (x:2..20) & (fac(x)=x*fac(x-1))

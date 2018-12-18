@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/TotalFunction.mch
+4.8842803E7,6.9210291E7,8.451302833333333E7,4.9226744333333336E7:(cube:FACE)
+5.0003007E7,4.8100646333333336E7,6.6667322666666664E7,5.1998534666666664E7:cube:FACE & !rot.(rot={(fbot,fbot)} => (rot:FACE+->FACE => cube:FACE))
+4.7297402E7,4.8145554333333336E7,6.3937972333333336E7,5.0659165666666664E7:(not(cube:FACE) => !rot.(rot={(fbot,fbot)} => (rot:FACE+->FACE => cube:FACE)))
+7.921887233333333E7,6.1423174E7,1.02815146E8,5.0520135E7:(not(cube:FACE) => not(!rot.(rot={(fbot,fbot)} => (rot:FACE+->FACE => cube:FACE))))
+4.7281245666666664E7,4.6848019666666664E7,6.2657711666666664E7,5.0566276333333336E7:(cube:FACE) & (!rot.(rot={(fbot,fbot)} => (rot:FACE+->FACE => cube:FACE)))
+4.7374716333333336E7,4.8158428333333336E7,6.670257E7,5.0434579E7:(not((cube:FACE)) => (!rot.(rot={(fbot,fbot)} => (rot:FACE+->FACE => cube:FACE))))
+5.6594068333333336E7,5.9616939E7,1.0229059166666667E8,5.2830810333333336E7:(not((cube:FACE)) => not((!rot.(rot={(fbot,fbot)} => (rot:FACE+->FACE => cube:FACE)))))

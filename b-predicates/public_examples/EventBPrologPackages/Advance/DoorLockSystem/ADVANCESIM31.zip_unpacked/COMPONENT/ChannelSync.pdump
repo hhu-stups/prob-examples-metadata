@@ -1,0 +1,67 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Advance/DoorLockSystem/ADVANCESIM31.zip_unpacked/COMPONENT/ChannelSync.bcm
+8.873409566666667E7,7.0588748E7,9.526444233333333E7,5.1163512666666664E7:(sum:NAT) & (sum_prime:NAT)
+5.2977826E7,6.1784509666666664E7,6.3238279333333336E7,6.1388835333333336E7:(sum:NAT) & (sum_prime:NAT) & (pv:INT) & (adder_evaluated=FALSE)
+6.846443233333333E7,5.0161523E7,6.4006044333333336E7,5.5957534666666664E7:not((sum:NAT) & (sum_prime:NAT)) => (pv:INT) & (adder_evaluated=FALSE)
+5.0570467333333336E7,3.09377354E8,6.3822524333333336E7,6.4123308E7:(sum:NAT) & (sum_prime:NAT) & not((pv:INT) & (adder_evaluated=FALSE))
+4.8259814333333336E7,4.8952547333333336E7,6.1747563666666664E7,5.4350743E7:not((sum:NAT) & (sum_prime:NAT)) => not((pv:INT) & (adder_evaluated=FALSE))
+4.8373051E7,4.9492303666666664E7,6.1346302E7,5.4044162666666664E7:not((pv:INT) & (adder_evaluated=FALSE)) => (sum:NAT) & (sum_prime:NAT)
+4.7995721666666664E7,4.9460246666666664E7,6.1689386E7,5.6816256333333336E7:not(not((pv:INT) & (adder_evaluated=FALSE))) => (sum:NAT) & (sum_prime:NAT)
+5.1420994333333336E7,4.9839880666666664E7,6.1414583666666664E7,6.0372365333333336E7:not((sum:NAT) & (sum_prime:NAT)) & (pv:INT) & (adder_evaluated=FALSE)
+4.8247173666666664E7,4.8873463666666664E7,6.1191463666666664E7,5.5203086E7:not(not((sum:NAT) & (sum_prime:NAT))) => (pv:INT) & (adder_evaluated=FALSE)
+4.7860508666666664E7,7.0450509E7,6.1149396E7,6.5159868666666664E7:not((sum:NAT) & (sum_prime:NAT)) & not((pv:INT) & (adder_evaluated=FALSE))
+4.8059672666666664E7,4.9462505E7,6.1848949666666664E7,5.6239554E7:not(not((sum:NAT) & (sum_prime:NAT))) => not((pv:INT) & (adder_evaluated=FALSE))
+4.8540274333333336E7,4.9385306666666664E7,8.2405288E7,5.5633262E7:not(not((pv:INT) & (adder_evaluated=FALSE))) => not((sum:NAT) & (sum_prime:NAT))
+4.7830803333333336E7,4.8072314E7,6.3960484333333336E7,5.6017947666666664E7:not((pv:INT) & (adder_evaluated=FALSE)) => not((sum:NAT) & (sum_prime:NAT))
+4.8039954666666664E7,4.7972068666666664E7,6.3992518E7,6.3958156666666664E7:(sum:NAT) & (sum_prime:NAT) & (adder_evaluated=TRUE) & (incrementer_evaluated=TRUE)
+4.7924018E7,4.7952839E7,6.4007511E7,5.5970059666666664E7:not((sum:NAT) & (sum_prime:NAT)) => (adder_evaluated=TRUE) & (incrementer_evaluated=TRUE)
+4.8374028E7,6.4141001333333336E7,6.2369267333333336E7,6.3634279333333336E7:(sum:NAT) & (sum_prime:NAT) & not((adder_evaluated=TRUE) & (incrementer_evaluated=TRUE))
+4.8247499333333336E7,4.9310553666666664E7,6.1758109666666664E7,5.7116504666666664E7:not((sum:NAT) & (sum_prime:NAT)) => not((adder_evaluated=TRUE) & (incrementer_evaluated=TRUE))
+4.8099133E7,4.924041E7,6.1686056333333336E7,5.6506604E7:not((adder_evaluated=TRUE) & (incrementer_evaluated=TRUE)) => (sum:NAT) & (sum_prime:NAT)
+4.7934028333333336E7,4.9539772666666664E7,6.1473296666666664E7,5.7146326666666664E7:not(not((adder_evaluated=TRUE) & (incrementer_evaluated=TRUE))) => (sum:NAT) & (sum_prime:NAT)
+4.8294921333333336E7,5.012034E7,6.0640556E7,6.4850821333333336E7:not((sum:NAT) & (sum_prime:NAT)) & (adder_evaluated=TRUE) & (incrementer_evaluated=TRUE)
+4.8300323E7,4.9581048666666664E7,6.1653533666666664E7,5.6263253333333336E7:not(not((sum:NAT) & (sum_prime:NAT))) => (adder_evaluated=TRUE) & (incrementer_evaluated=TRUE)
+4.8265355666666664E7,6.983865266666667E7,6.2340981333333336E7,6.4941033E7:not((sum:NAT) & (sum_prime:NAT)) & not((adder_evaluated=TRUE) & (incrementer_evaluated=TRUE))
+4.7874849333333336E7,4.9683087333333336E7,6.1208900666666664E7,5.7243708666666664E7:not(not((sum:NAT) & (sum_prime:NAT))) => not((adder_evaluated=TRUE) & (incrementer_evaluated=TRUE))
+4.8025311333333336E7,4.9493398333333336E7,6.1297901666666664E7,5.7041564666666664E7:not(not((adder_evaluated=TRUE) & (incrementer_evaluated=TRUE))) => not((sum:NAT) & (sum_prime:NAT))
+4.7534722666666664E7,4.9742661666666664E7,6.1612467E7,5.6983014333333336E7:not((adder_evaluated=TRUE) & (incrementer_evaluated=TRUE)) => not((sum:NAT) & (sum_prime:NAT))
+4.9490604333333336E7,4.9768060666666664E7,6.1075434333333336E7,6.4715352666666664E7:(sum:NAT) & (sum_prime:NAT) & (pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE)
+5.0470687333333336E7,5.0204801333333336E7,6.2080217333333336E7,5.7391982E7:not((sum:NAT) & (sum_prime:NAT)) => (pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE)
+4.822217E7,4.9069345333333336E7,6.1086469333333336E7,6.5685866666666664E7:(sum:NAT) & (sum_prime:NAT) & not((pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE))
+4.7787757333333336E7,4.9531717333333336E7,6.1500861E7,5.6902347666666664E7:not((sum:NAT) & (sum_prime:NAT)) => not((pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE))
+4.8004522E7,4.9297842333333336E7,6.1300858333333336E7,5.7650092E7:not((pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE)) => (sum:NAT) & (sum_prime:NAT)
+4.7651893E7,4.9528807333333336E7,6.1544791E7,5.6822053666666664E7:not(not((pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE))) => (sum:NAT) & (sum_prime:NAT)
+4.8173165333333336E7,5.0738971E7,6.1514805666666664E7,6.4755534333333336E7:not((sum:NAT) & (sum_prime:NAT)) & (pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE)
+4.8235021333333336E7,4.9401533666666664E7,6.1118572666666664E7,5.7385672666666664E7:not(not((sum:NAT) & (sum_prime:NAT))) => (pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE)
+4.8032993E7,4.9368894333333336E7,6.1315222666666664E7,6.5161824666666664E7:not((sum:NAT) & (sum_prime:NAT)) & not((pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE))
+4.7899457E7,4.9634384666666664E7,6.1318179333333336E7,8.997061233333333E7:not(not((sum:NAT) & (sum_prime:NAT))) => not((pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE))
+4.7872195666666664E7,4.8042585E7,6.3999502666666664E7,5.5957790666666664E7:not(not((pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE))) => not((sum:NAT) & (sum_prime:NAT))
+4.7854689E7,4.9358627666666664E7,6.416044E7,5.5880360333333336E7:not((pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE)) => not((sum:NAT) & (sum_prime:NAT))
+4.7880832666666664E7,4.7978727E7,6.0078892E7,5.5926618666666664E7:(sum:NAT) & (sum_prime:NAT) & sum_prime:INT
+7.582086166666667E7,6.0495751666666664E7,9.999099733333333E7,4.8936809666666664E7:not((sum:NAT) & (sum_prime:NAT)) => sum_prime:INT
+8.459250766666667E7,4.8173049E7,6.903252133333333E7,5.0877046666666664E7:(sum:NAT) & (sum_prime:NAT) & incrementer_evaluated:BOOL
+5.4603173E7,6.1867480666666664E7,1.0348350366666667E8,4.9304873E7:not((sum:NAT) & (sum_prime:NAT)) => incrementer_evaluated:BOOL
+8.264507633333333E7,4.7518589333333336E7,6.976157166666667E7,5.1304452333333336E7:(sum:NAT) & (sum_prime:NAT) & sum:INT
+5.3127054E7,5.8938500333333336E7,1.0051909066666667E8,4.8531450666666664E7:not((sum:NAT) & (sum_prime:NAT)) => sum:INT
+8.324585166666667E7,4.7288392333333336E7,6.9717548E7,4.9512278333333336E7:(sum:NAT) & (sum_prime:NAT) & adder_evaluated:BOOL
+5.2034759666666664E7,5.6771698E7,9.919911366666667E7,4.9257357666666664E7:not((sum:NAT) & (sum_prime:NAT)) => adder_evaluated:BOOL
+8.9202149E7,5.4566366E7,7.850162633333333E7,5.4544343E7:(sum:NAT) & (sum_prime:NAT) & In1:Parameters +-> INT
+8.6294354E7,5.1370568666666664E7,7.0745379E7,6.9280249E7:(sum:NAT) & (sum_prime:NAT) & not(In1:Parameters +-> INT)
+6.6192565333333336E7,4.8425595E7,6.6638990666666664E7,5.8712634333333336E7:not((sum:NAT) & (sum_prime:NAT)) => In1:Parameters +-> INT
+4.7909351E7,4.8032318333333336E7,6.3964209333333336E7,6.3960066E7:(sum:NAT) & (sum_prime:NAT) & In2:Parameters +-> INT
+4.8045332333333336E7,5.0595447E7,7.7305245E7,6.93002E7:(sum:NAT) & (sum_prime:NAT) & not(In2:Parameters +-> INT)
+4.7912400666666664E7,4.8033715666666664E7,6.3971076666666664E7,6.003459E7:not((sum:NAT) & (sum_prime:NAT)) => In2:Parameters +-> INT
+4.7940291E7,5.1983821666666664E7,6.7992957E7,7.1945462E7:(sum:NAT) & (sum_prime:NAT) & (sum_prime:INT) & (incrementer_evaluated:BOOL) & (sum:INT) & (adder_evaluated:BOOL) & (In1:Parameters +-> INT) & (In2:Parameters +-> INT)
+5.1880527E7,5.1168425E7,7.203676733333333E7,7.777208766666667E7:(sum:NAT) & (sum_prime:NAT) & not((sum_prime:INT) & (incrementer_evaluated:BOOL) & (sum:INT) & (adder_evaluated:BOOL) & (In1:Parameters +-> INT) & (In2:Parameters +-> INT))
+4.8222449666666664E7,5.2005333E7,6.801321133333333E7,6.1458863E7:not((sum:NAT) & (sum_prime:NAT)) => (sum_prime:INT) & (incrementer_evaluated:BOOL) & (sum:INT) & (adder_evaluated:BOOL) & (In1:Parameters +-> INT) & (In2:Parameters +-> INT)
+5.4890685666666664E7,5.1961472666666664E7,5.9831328333333336E7,4.8950661666666664E7:(sum:NAT) & (sum_prime:NAT) & (pv:INT) & (adder_evaluated=FALSE) & (adder_evaluated=TRUE) & (incrementer_evaluated=TRUE)
+4.6916161666666664E7,3.31260351E8,6.3420029666666664E7,6.1100553666666664E7:(sum:NAT) & (sum_prime:NAT) & (not((pv:INT) & (adder_evaluated=FALSE)) => (adder_evaluated=TRUE) & (incrementer_evaluated=TRUE))
+4.7898409333333336E7,7.077289666666667E7,6.4043386666666664E7,6.6563166666666664E7:(sum:NAT) & (sum_prime:NAT) & (pv:INT) & (adder_evaluated=FALSE) & not((adder_evaluated=TRUE) & (incrementer_evaluated=TRUE))
+4.8063467333333336E7,7.059333466666667E7,6.4050743E7,5.9905802E7:(sum:NAT) & (sum_prime:NAT) & ((pv:INT) & (adder_evaluated=FALSE) => not((adder_evaluated=TRUE) & (incrementer_evaluated=TRUE)))
+4.9270627666666664E7,5.0650296E7,6.3991005E7,6.6635103E7:(sum:NAT) & (sum_prime:NAT) & (pv:INT) & (adder_evaluated=FALSE) & (pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE)
+4.7937520666666664E7,4.9246229666666664E7,6.4202461333333336E7,6.1238979333333336E7:(sum:NAT) & (sum_prime:NAT) & (not((pv:INT) & (adder_evaluated=FALSE)) => (pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE))
+4.7872987666666664E7,5.1977769E7,6.3996848333333336E7,6.798583366666667E7:(sum:NAT) & (sum_prime:NAT) & (pv:INT) & (adder_evaluated=FALSE) & not((pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE))
+4.7975374333333336E7,4.933423E7,6.4087362333333336E7,5.9892183333333336E7:(sum:NAT) & (sum_prime:NAT) & ((pv:INT) & (adder_evaluated=FALSE) => not((pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE)))
+4.7835133E7,5.0758596666666664E7,6.1180824666666664E7,5.2060298333333336E7:(sum:NAT) & (sum_prime:NAT) & (adder_evaluated=TRUE) & (incrementer_evaluated=TRUE) & (pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE)
+4.9363679666666664E7,5.0606598333333336E7,6.4007184666666664E7,6.2591013333333336E7:(sum:NAT) & (sum_prime:NAT) & (not((adder_evaluated=TRUE) & (incrementer_evaluated=TRUE)) => (pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE))
+4.7981380666666664E7,5.0629855333333336E7,6.4060032E7,6.923187166666667E7:(sum:NAT) & (sum_prime:NAT) & (adder_evaluated=TRUE) & (incrementer_evaluated=TRUE) & not((pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE))
+4.7956098333333336E7,5.1917356333333336E7,6.4059752333333336E7,6.2673775E7:(sum:NAT) & (sum_prime:NAT) & ((adder_evaluated=TRUE) & (incrementer_evaluated=TRUE) => not((pv:INT) & (pv=sum) & (incrementer_evaluated=FALSE)))

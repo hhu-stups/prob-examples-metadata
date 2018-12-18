@@ -1,0 +1,13 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/InclusionChecks/LightSwitchSees.mch
+1.04795426E8,5.000581896666667E8,1.0028167666666667E8,6.4947365333333336E7:(light:BOOL) & (light=TRUE <=> curStatus=on)
+5.9575057E7,8.777538433333333E7,6.978724966666667E7,6.6206929E7:light=TRUE <=> curStatus=on & #curStatus.(bool(light=FALSE)=TRUE <=> curStatus=on)
+5.2883284666666664E7,7.254535166666667E7,6.6813362E7,5.5254721666666664E7:(not(light=TRUE <=> curStatus=on) => #curStatus.(bool(light=FALSE)=TRUE <=> curStatus=on))
+7.7117232E7,6.2681598E7,-1.0,7.595425833333333E7:light=TRUE <=> curStatus=on & not(#curStatus.(bool(light=FALSE)=TRUE <=> curStatus=on))
+5.3458311333333336E7,6.3389741333333336E7,8.486102433333333E7,5.6348483E7:(not(light=TRUE <=> curStatus=on) => not(#curStatus.(bool(light=FALSE)=TRUE <=> curStatus=on)))
+4.9086898666666664E7,4.8670435E7,7.742884033333333E7,5.5286453E7:light:BOOL & light:BOOL
+4.7507903333333336E7,5.2010082333333336E7,7.739163866666667E7,5.7519861333333336E7:(not(light:BOOL) => light:BOOL)
+5.5966078666666664E7,7.160587E7,1.0790001066666667E8,5.1523498333333336E7:(not(light:BOOL) => not(light:BOOL))
+1.18883437E8,4.571073133333333E8,6.3314289666666664E7,6.1841313666666664E7:(light:BOOL) & (light=TRUE <=> curStatus=on) & (#curStatus.(bool(light=FALSE)=TRUE <=> curStatus=on)) & (light:BOOL)
+5.4947001333333336E7,7.7385958E7,7.143569E7,5.4023606E7:(not((light:BOOL) & (light=TRUE <=> curStatus=on)) => (#curStatus.(bool(light=FALSE)=TRUE <=> curStatus=on)) & (light:BOOL))
+6.805136766666667E7,1.26411769E8,-1.0,6.6260497666666664E7:(light:BOOL) & (light=TRUE <=> curStatus=on) & not((#curStatus.(bool(light=FALSE)=TRUE <=> curStatus=on)) & (light:BOOL))
+5.5555924333333336E7,7.701356433333333E7,7.517226866666667E7,6.1984046E7:(not((light:BOOL) & (light=TRUE <=> curStatus=on)) => not((#curStatus.(bool(light=FALSE)=TRUE <=> curStatus=on)) & (light:BOOL)))

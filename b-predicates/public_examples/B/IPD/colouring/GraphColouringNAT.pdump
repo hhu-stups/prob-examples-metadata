@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/IPD/colouring/GraphColouringNAT.mch
+6.581339243333334E8,3.973194963333333E8,1.4119979226666667E9,4.609048166666667E8:not((Vertexes=Vtx) & (Edges=Edge) & (Edges:Vertexes<->Vertexes) & (maxnocol:1..6) & (colour:Vertexes-->1..maxnocol) & (!x,y.((x,y):Edges => colour(x)/=colour(y))) & (colour(1)=1)) => (yy:Vertexes)
+5.04304586E8,3.2360421E8,-1.0,8.667032076666666E8:(Vertexes=Vtx) & (Edges=Edge) & (Edges:Vertexes<->Vertexes) & (maxnocol:1..6) & (colour:Vertexes-->1..maxnocol) & (!x,y.((x,y):Edges => colour(x)/=colour(y))) & (colour(1)=1) & not((yy:Vertexes))
+7.352373533333333E7,1.1268018066666667E8,3.77030324E8,3.40520025E8:not((Vertexes=Vtx) & (Edges=Edge) & (Edges:Vertexes<->Vertexes) & (maxnocol:1..6) & (colour:Vertexes-->1..maxnocol) & (!x,y.((x,y):Edges => colour(x)/=colour(y))) & (colour(1)=1)) => not((yy:Vertexes))

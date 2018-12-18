@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Implementations/Division/Division.mch
+3.144104196666667E8,1.6657679266666666E8,1.1054573833333333E8,6.3687963666666664E7:(!a,b,v.(a:NAT&b:NAT1&v:NAT => a*b+v mod b=v mod b)) & (!a,b.(a:NAT&b:NAT1 => (a<b => a=a mod b))) & (a:NAT) & (b:NAT1)
+7.5591922E7,7.355134566666667E7,1.0164421066666667E8,1.3860638266666666E8:not((!a,b,v.(a:NAT&b:NAT1&v:NAT => a*b+v mod b=v mod b)) & (!a,b.(a:NAT&b:NAT1 => (a<b => a=a mod b)))) => (a:NAT) & (b:NAT1)
+7.451478266666667E7,7.7772343E7,9.4109151E7,7.066049866666667E7:(!a,b,v.(a:NAT&b:NAT1&v:NAT => a*b+v mod b=v mod b)) & (!a,b.(a:NAT&b:NAT1 => (a<b => a=a mod b))) & not((a:NAT) & (b:NAT1))
+5.7366280333333336E7,6.4729902666666664E7,9.505086733333333E7,3.106558683333333E8:not((!a,b,v.(a:NAT&b:NAT1&v:NAT => a*b+v mod b=v mod b)) & (!a,b.(a:NAT&b:NAT1 => (a<b => a=a mod b)))) => not((a:NAT) & (b:NAT1))

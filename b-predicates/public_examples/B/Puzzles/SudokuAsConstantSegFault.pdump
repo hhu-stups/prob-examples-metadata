@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/SudokuAsConstantSegFault.mch
+-1.0,-1.0,-1.0,-1.0:(Board:DOM-->(DOM>->DOM)) & (!y.(y:DOM => !x1,x2.(x1:DOM&x1<x2&y:DOM => Board(x1)(y)/=Board(x2)(y)))) & (x:DOM) & (y:DOM)
+5.8732259666666664E7,7.452733133333333E7,-1.0,1.37435447E8:not((Board:DOM-->(DOM>->DOM)) & (!y.(y:DOM => !x1,x2.(x1:DOM&x1<x2&y:DOM => Board(x1)(y)/=Board(x2)(y))))) => (x:DOM) & (y:DOM)
+-1.0,-1.0,-1.0,-1.0:(Board:DOM-->(DOM>->DOM)) & (!y.(y:DOM => !x1,x2.(x1:DOM&x1<x2&y:DOM => Board(x1)(y)/=Board(x2)(y)))) & not((x:DOM) & (y:DOM))
+7.233978566666667E7,7.065067466666667E7,9.930410833333333E7,1.1666558033333333E8:not((Board:DOM-->(DOM>->DOM)) & (!y.(y:DOM => !x1,x2.(x1:DOM&x1<x2&y:DOM => Board(x1)(y)/=Board(x2)(y))))) => not((x:DOM) & (y:DOM))

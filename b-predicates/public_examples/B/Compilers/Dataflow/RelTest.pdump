@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Compilers/Dataflow/RelTest.mch
+1.4287436033333334E8,1.7076281606666667E9,1.09037492E8,6.9635415E7:(rels:{cc,ee}<->ID) & (ran(rels)={bb}) & ((x,y):rels)
+8.5122277E7,1.8971409703333333E9,-1.0,3.373723243333333E8:not((rels:{cc,ee}<->ID) & (ran(rels)={bb})) => ((x,y):rels)
+7.7698079E7,8.516644E7,4.4931295333333336E7,3.9390807076666665E9:(rels:{cc,ee}<->ID) & (ran(rels)={bb}) & not(((x,y):rels))
+5.7989031333333336E7,1.1149076033333333E8,4.4868439E7,6.3442215333333336E7:not((rels:{cc,ee}<->ID) & (ran(rels)={bb})) => not(((x,y):rels))

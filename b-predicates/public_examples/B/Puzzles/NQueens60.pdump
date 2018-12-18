@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/NQueens60.mch
+1.6677376833333334E8,9.862969733333333E7,1.2064031833333333E8,8.461255233333333E7:not((n=60) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+q2-q1/=queens(q2)&queens(q1)-q2+q1/=queens(q2)))) => (yy:1..n)
+9.459011283333334E8,1.0893396196666667E9,-1.0,-1.0:(n=60) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+q2-q1/=queens(q2)&queens(q1)-q2+q1/=queens(q2))) & not((yy:1..n))
+5.2458347E7,5.5996599666666664E7,6.831453E7,6.839570866666667E7:not((n=60) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+q2-q1/=queens(q2)&queens(q1)-q2+q1/=queens(q2)))) => not((yy:1..n))

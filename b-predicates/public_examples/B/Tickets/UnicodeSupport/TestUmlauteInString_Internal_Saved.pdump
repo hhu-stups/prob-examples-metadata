@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tickets/UnicodeSupport/TestUmlauteInString_Internal_Saved.mch
+7.690847666666667E7,8.2362359E7,-1.0,4.5970021666666664E7:(a:STRING) & (b:STRING) & (c:STRING) & (a="ä") & (b="ae") & (c="a") & not(a/=b)
+7.899465933333333E7,8.432450333333333E7,-1.0,4.5023043666666664E7:(a:STRING) & (b:STRING) & (c:STRING) & (a="ä") & (b="ae") & (c="a") & not(b/=c)
+2.4784693636666665E9,8.6209101E7,-1.0,4.4954040666666664E7:(a:STRING) & (b:STRING) & (c:STRING) & (a="ä") & (b="ae") & (c="a") & not(a/=c)

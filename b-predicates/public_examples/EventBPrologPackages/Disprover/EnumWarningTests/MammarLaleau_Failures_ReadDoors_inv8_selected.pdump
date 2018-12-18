@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Disprover/EnumWarningTests/MammarLaleau_Failures_ReadDoors_inv8_selected.mch
+1.5173070263E10,9.700958966666667E7,1.49105972E8,6.774352055666667E9:(currentTime:INTEGER) & (nextInputReadForDoorOpeningClosing:NATURAL) & {(TRUE,0),(FALSE,nextInputReadForDoorOpeningClosing)}(bool(currentTime=nextInputReadForDoorOpeningClosing)):NATURAL
+5.2523043E7,5.1333110666666664E7,3.252154505E9,1.8389030942333332E10:(currentTime:INTEGER) & (nextInputReadForDoorOpeningClosing:NATURAL) & not({(TRUE,0),(FALSE,nextInputReadForDoorOpeningClosing)}(bool(currentTime=nextInputReadForDoorOpeningClosing)):NATURAL)
+1.6484377186666667E9,6.919215533333333E7,8.607991766666667E7,7.942830333333333E7:not((currentTime:INTEGER) & (nextInputReadForDoorOpeningClosing:NATURAL)) => {(TRUE,0),(FALSE,nextInputReadForDoorOpeningClosing)}(bool(currentTime=nextInputReadForDoorOpeningClosing)):NATURAL
+7.8178028E7,5.590223446666666E8,7.0424668E7,6.1138547666666664E7:(currentTime:INTEGER) & (nextInputReadForDoorOpeningClosing:NATURAL) & currentTime=nextInputReadForDoorOpeningClosing
+1.2087072433333333E8,1.6059798084E10,2.9511877403333335E9,4.166298405E9:(currentTime:INTEGER) & (nextInputReadForDoorOpeningClosing:NATURAL) & not(currentTime=nextInputReadForDoorOpeningClosing)
+5.6794908666666664E7,5.8343522333333336E7,4.891045618666667E9,9.53318924E8:not((currentTime:INTEGER) & (nextInputReadForDoorOpeningClosing:NATURAL)) => currentTime=nextInputReadForDoorOpeningClosing

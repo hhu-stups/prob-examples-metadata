@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/ProofDirected/TestProofDirectedMC.zip_unpacked/TestProofDirectedMC/TestProofDirected_WD_Inv2.bcm
+1.2424571133333333E8,1.04689291E8,8.709987723333334E8,2.9933096706666665E9:(x:NAT1&y:NAT1) & (100 / x=100 / y)

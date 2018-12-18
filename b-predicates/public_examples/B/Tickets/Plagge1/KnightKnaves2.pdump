@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Plagge1/KnightKnaves2.mch
+1.1790801066666667E8,2.919957582E9,9.169750766666667E7,5.8215619666666664E7:(alice:PERSON) & (bob:PERSON) & (sam:PERSON) & (alice=Knight <=> Knight:{alice,bob,sam}) & (bob=Knight <=> Knave:{alice,sam}) & alice=Knave
+4.8256672E7,7.797127433333333E7,6.952471666666667E7,6.796474133333333E7:(alice:PERSON) & (bob:PERSON) & (sam:PERSON) & (alice=Knight <=> Knight:{alice,bob,sam}) & (bob=Knight <=> Knave:{alice,sam}) & not(alice=Knave)
+5.5056209666666664E7,6.4318141333333336E7,6.777018666666667E7,6.0738170666666664E7:not((alice:PERSON) & (bob:PERSON) & (sam:PERSON) & (alice=Knight <=> Knight:{alice,bob,sam}) & (bob=Knight <=> Knave:{alice,sam})) => alice=Knave
+4.6112149E7,6.623014E7,6.5373210666666664E7,6.1406947666666664E7:(alice:PERSON) & (bob:PERSON) & (sam:PERSON) & (alice=Knight <=> Knight:{alice,bob,sam}) & (bob=Knight <=> Knave:{alice,sam}) & (alice=Knave)
+4.5961245E7,7.034479266666667E7,6.7022163333333336E7,7.039891966666667E7:(alice:PERSON) & (bob:PERSON) & (sam:PERSON) & (alice=Knight <=> Knight:{alice,bob,sam}) & (bob=Knight <=> Knave:{alice,sam}) & not((alice=Knave))
+4.6421057E7,6.959839866666667E7,6.727152033333333E7,6.1065097333333336E7:not((alice:PERSON) & (bob:PERSON) & (sam:PERSON) & (alice=Knight <=> Knight:{alice,bob,sam}) & (bob=Knight <=> Knave:{alice,sam})) => (alice=Knave)

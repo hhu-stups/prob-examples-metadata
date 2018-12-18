@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/DefSetWithConstantsTest3.mch
+1.5735001366666666E8,6.913846376666666E8,3.23609215E8,3.393733003333333E8:(aa:ID) & (bb:ID) & (cc:ID) & (dd:ID) & (card(ID)=20) & (s1={aa,bb}) & (s2={cc,dd}) & (card(s1)=card(s2)) & not(card({aa,cc})>card({bb,dd})&s1/\s2={})
+6.2026952E7,1.8763387E8,3.42575989E8,6.2297936E7:(aa:ID) & (bb:ID) & (cc:ID) & (dd:ID) & (card(ID)=20) & (s1={aa,bb}) & (s2={cc,dd}) & (card(s1)=card(s2)) & not(not(card({aa,cc})>card({bb,dd})&s1/\s2={}))
+6.0704646666666664E7,1.7911416433333334E8,8.8144193E7,1.22901476E8:not((aa:ID) & (bb:ID) & (cc:ID) & (dd:ID) & (card(ID)=20) & (s1={aa,bb}) & (s2={cc,dd}) & (card(s1)=card(s2))) => not(card({aa,cc})>card({bb,dd})&s1/\s2={})
+5.326385E7,1.10446517E8,2.2622304133333334E8,1.6759256366666666E8:(aa:ID) & (bb:ID) & (cc:ID) & (dd:ID) & (card(ID)=20) & (s1={aa,bb}) & (s2={cc,dd}) & (card(s1)=card(s2)) & (not(card({aa,cc})>card({bb,dd})&s1/\s2={}))
+5.1027461666666664E7,8.219047966666667E7,2.67008069E8,4.6756434333333336E7:(aa:ID) & (bb:ID) & (cc:ID) & (dd:ID) & (card(ID)=20) & (s1={aa,bb}) & (s2={cc,dd}) & (card(s1)=card(s2)) & not((not(card({aa,cc})>card({bb,dd})&s1/\s2={})))
+4.9874638333333336E7,9.6765168E7,9.032221633333333E7,1.3932162733333334E8:not((aa:ID) & (bb:ID) & (cc:ID) & (dd:ID) & (card(ID)=20) & (s1={aa,bb}) & (s2={cc,dd}) & (card(s1)=card(s2))) => (not(card({aa,cc})>card({bb,dd})&s1/\s2={}))

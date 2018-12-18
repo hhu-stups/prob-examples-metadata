@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Abrial_BRP/DLK_Checking/ch6_brp_DLF.zip_unpacked/ch6_brp_F01/b_0.bcm
+5.0267961333333336E7,6.9687516E7,8.448641866666667E7,4.9570503E7:(r_st:STATUS) & (s_st:STATUS)
+7.603534433333333E7,3.526511296666667E8,5.7727429666666664E7,6.0196458E7:(r_st:STATUS) & (s_st:STATUS) & (r_st/=working) & (s_st/=working)
+4.6496695333333336E7,4.7918849333333336E7,6.4149591666666664E7,5.0636373666666664E7:not((r_st:STATUS) & (s_st:STATUS)) => (r_st/=working) & (s_st/=working)
+5.7652093666666664E7,8.591846766666667E7,-1.0,5.9964329333333336E7:(r_st:STATUS) & (s_st:STATUS) & not((r_st/=working) & (s_st/=working))
+4.7908280666666664E7,4.8008176666666664E7,6.3957458333333336E7,4.9305013E7:not((r_st:STATUS) & (s_st:STATUS)) => not((r_st/=working) & (s_st/=working))
+4.7961080333333336E7,4.8012856333333336E7,6.4088014666666664E7,5.0545836333333336E7:not((r_st/=working) & (s_st/=working)) => (r_st:STATUS) & (s_st:STATUS)
+4.6729615666666664E7,4.7991484666666664E7,6.3944117666666664E7,4.9304570333333336E7:not(not((r_st/=working) & (s_st/=working))) => (r_st:STATUS) & (s_st:STATUS)
+8.556451233333333E7,3.898395646666667E8,9.615815466666667E7,6.0641161E7:not(not((r_st:STATUS) & (s_st:STATUS))) => (r_st/=working) & (s_st/=working)
+1.0806860733333333E8,4.02824363E8,-1.0,6.1401476333333336E7:not(not((r_st:STATUS) & (s_st:STATUS))) => not((r_st/=working) & (s_st/=working))
+4.7913564666666664E7,7.738095266666667E7,-1.0,5.9754526666666664E7:not(not((r_st/=working) & (s_st/=working))) => not((r_st:STATUS) & (s_st:STATUS))
+4.9305362E7,7.0798761E7,6.3897860333333336E7,5.9927592666666664E7:not((r_st/=working) & (s_st/=working)) => not((r_st:STATUS) & (s_st:STATUS))

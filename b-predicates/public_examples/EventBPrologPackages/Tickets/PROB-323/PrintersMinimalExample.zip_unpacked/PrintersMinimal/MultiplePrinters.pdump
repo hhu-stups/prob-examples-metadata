@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tickets/PROB-323/PrintersMinimalExample.zip_unpacked/PrintersMinimal/MultiplePrinters.bcm
+1.0476043543333334E9,5.464213594333333E9,6.021971788333333E9,5.598175718333333E9:(job<:JOB) & (position:queue --> (JOB <-> POSITION)) & (!q oftype QUEUE.q:queue=>position(q):job >+> POSITION)
+6.4709043333333336E7,5.1114460666666664E7,5.3348846333333336E7,1.1741025447666666E10:(job<:JOB) & (position:queue --> (JOB <-> POSITION)) & (!q oftype QUEUE.q:queue=>position(q):job >+> POSITION) & queue<:QUEUE
+5.6135234333333336E7,8.355867E7,9.681908566666667E7,1.2606016433333333E8:not((job<:JOB) & (position:queue --> (JOB <-> POSITION)) & (!q oftype QUEUE.q:queue=>position(q):job >+> POSITION)) => queue<:QUEUE
+1.6597755466666666E8,1.2469108866666667E8,8.367656233333333E7,6.3978014666666664E7:(job<:JOB) & (position:queue --> (JOB <-> POSITION)) & (!q oftype QUEUE.q:queue=>position(q):job >+> POSITION) & (queue<:QUEUE)
+8.423799366666667E7,5.8959965333333336E7,1.3099941E8,5.1070833E7:not((job<:JOB) & (position:queue --> (JOB <-> POSITION)) & (!q oftype QUEUE.q:queue=>position(q):job >+> POSITION)) => (queue<:QUEUE)

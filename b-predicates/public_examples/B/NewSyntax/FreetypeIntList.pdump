@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/NewSyntax/FreetypeIntList.mch
+5.2593304E7,6.5472548E7,9.29611E7,4.8940651E7:not((x:IntList)) => (i:INTEGER)
+5.4750095333333336E7,6.6792944666666664E7,9.2399902E7,5.0008989666666664E7:not((i:INTEGER)) => (x:IntList)

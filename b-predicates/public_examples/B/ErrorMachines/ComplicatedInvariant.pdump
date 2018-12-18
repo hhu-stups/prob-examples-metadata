@@ -1,0 +1,14 @@
+#source:examples/prob_examples/public_examples/B/ErrorMachines/ComplicatedInvariant.mch
+1.49973564E8,7.108685633333333E7,-1.0,6.8058352E7:(xx<:NATURAL) & (!yy.(yy<:xx => yy=xx or yy<<:xx))
+-1.0,-1.0,-1.0,-1.0:!yy.(yy<:xx => yy=xx or yy<<:xx) & !yy.(yy<:NATURAL => yy=NATURAL or yy<<:NATURAL)
+-1.0,-1.0,6.816893433333333E7,1.3770207733333334E8:(not(!yy.(yy<:xx => yy=xx or yy<<:xx)) => !yy.(yy<:NATURAL => yy=NATURAL or yy<<:NATURAL))
+-1.0,-1.0,6.1057485E7,-1.0:!yy.(yy<:xx => yy=xx or yy<<:xx) & not(!yy.(yy<:NATURAL => yy=NATURAL or yy<<:NATURAL))
+-1.0,-1.0,7.926510766666667E7,-1.0:(not(!yy.(yy<:xx => yy=xx or yy<<:xx)) => not(!yy.(yy<:NATURAL => yy=NATURAL or yy<<:NATURAL)))
+4.9600115666666664E7,4.8104766666666664E7,5.9900727E7,5.6011592333333336E7:xx<:NATURAL & NATURAL<:NATURAL
+4.8958879666666664E7,4.8053899333333336E7,6.1332986E7,5.3427976333333336E7:(not(xx<:NATURAL) => NATURAL<:NATURAL)
+4.8901051E7,4.7926904666666664E7,6.1322253E7,5.6170434333333336E7:xx<:NATURAL & not(NATURAL<:NATURAL)
+4.7591271E7,4.7940570333333336E7,6.131336E7,5.5985215E7:(not(xx<:NATURAL) => not(NATURAL<:NATURAL))
+-1.0,-1.0,-1.0,-1.0:(xx<:NATURAL) & (!yy.(yy<:xx => yy=xx or yy<<:xx)) & (!yy.(yy<:NATURAL => yy=NATURAL or yy<<:NATURAL)) & (NATURAL<:NATURAL)
+-1.0,-1.0,-1.0,-1.0:(not((xx<:NATURAL) & (!yy.(yy<:xx => yy=xx or yy<<:xx))) => (!yy.(yy<:NATURAL => yy=NATURAL or yy<<:NATURAL)) & (NATURAL<:NATURAL))
+-1.0,-1.0,6.3472457E7,-1.0:(xx<:NATURAL) & (!yy.(yy<:xx => yy=xx or yy<<:xx)) & not((!yy.(yy<:NATURAL => yy=NATURAL or yy<<:NATURAL)) & (NATURAL<:NATURAL))
+-1.0,-1.0,6.9317637E7,-1.0:(not((xx<:NATURAL) & (!yy.(yy<:xx => yy=xx or yy<<:xx))) => not((!yy.(yy<:NATURAL => yy=NATURAL or yy<<:NATURAL)) & (NATURAL<:NATURAL)))

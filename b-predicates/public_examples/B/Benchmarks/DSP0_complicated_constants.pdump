@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Benchmarks/DSP0_complicated_constants.mch
+1.6709564333333334E8,9.507924633333333E7,-1.0,8.6580307E7:(cellChannels:CELL-->POW(CHANNEL)) & (disjoint(cellChannels)) & (union(ran(cellChannels))=CHANNEL) & (union(ran(cellChannels))=CHANNEL)
+7.9577019E7,5.5391564E7,-1.0,4.032914383333333E8:not((cellChannels:CELL-->POW(CHANNEL)) & (disjoint(cellChannels)) & (union(ran(cellChannels))=CHANNEL)) => (union(ran(cellChannels))=CHANNEL)
+4.9498146666666664E7,5.0584179666666664E7,-1.0,4.7799607666666664E7:(cellChannels:CELL-->POW(CHANNEL)) & (disjoint(cellChannels)) & (union(ran(cellChannels))=CHANNEL) & not((union(ran(cellChannels))=CHANNEL))
+5.005129E7,5.3798741E7,-1.0,7.067646866666667E7:not((cellChannels:CELL-->POW(CHANNEL)) & (disjoint(cellChannels)) & (union(ran(cellChannels))=CHANNEL)) => not((union(ran(cellChannels))=CHANNEL))

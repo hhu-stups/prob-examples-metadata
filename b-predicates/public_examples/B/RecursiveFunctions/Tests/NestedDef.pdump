@@ -1,0 +1,17 @@
+#source:examples/prob_examples/public_examples/B/RecursiveFunctions/Tests/NestedDef.mch
+2.0850966233333334E8,4.10217901E8,-1.0,7.495664566666667E7:(ff=%x.(x:INTEGER|x+1)) & (ss={ff,bb|bb:BOOL&ff:BOOL-->BOOL&ff={(TRUE,bb)}\/ff}) & (yy:0..10)
+-1.0,-1.0,-1.0,-1.0:not((ff=%x.(x:INTEGER|x+1)) & (ss={ff,bb|bb:BOOL&ff:BOOL-->BOOL&ff={(TRUE,bb)}\/ff})) => (yy:0..10)
+5.4654808666666664E7,5.6139611E7,-1.0,9.106376833333333E7:(ff=%x.(x:INTEGER|x+1)) & (ss={ff,bb|bb:BOOL&ff:BOOL-->BOOL&ff={(TRUE,bb)}\/ff}) & not((yy:0..10))
+-1.0,-1.0,6.0565709333333336E7,-1.0:not((ff=%x.(x:INTEGER|x+1)) & (ss={ff,bb|bb:BOOL&ff:BOOL-->BOOL&ff={(TRUE,bb)}\/ff})) => not((yy:0..10))
+2.0814124933333334E8,8.514795533333333E7,-1.0,8.663895E7:(ff=%x.(x:INTEGER|x+1)) & (ss={ff,bb|bb:BOOL&ff:BOOL-->BOOL&ff={(TRUE,bb)}\/ff}) & ff(0)=1
+5.3526057E7,5.4719830666666664E7,-1.0,5.3090457E7:(ff=%x.(x:INTEGER|x+1)) & (ss={ff,bb|bb:BOOL&ff:BOOL-->BOOL&ff={(TRUE,bb)}\/ff}) & not(ff(0)=1)
+-1.0,-1.0,-1.0,-1.0:not((ff=%x.(x:INTEGER|x+1)) & (ss={ff,bb|bb:BOOL&ff:BOOL-->BOOL&ff={(TRUE,bb)}\/ff})) => ff(0)=1
+4.9459409E7,5.4497084E7,-1.0,8.527383266666667E7:(ff=%x.(x:INTEGER|x+1)) & (ss={ff,bb|bb:BOOL&ff:BOOL-->BOOL&ff={(TRUE,bb)}\/ff}) & ff(ff(1))=3
+4.8679211333333336E7,5.189957E7,-1.0,5.1847305666666664E7:(ff=%x.(x:INTEGER|x+1)) & (ss={ff,bb|bb:BOOL&ff:BOOL-->BOOL&ff={(TRUE,bb)}\/ff}) & not(ff(ff(1))=3)
+-1.0,-1.0,6.2091741333333336E7,-1.0:not((ff=%x.(x:INTEGER|x+1)) & (ss={ff,bb|bb:BOOL&ff:BOOL-->BOOL&ff={(TRUE,bb)}\/ff})) => ff(ff(1))=3
+5.1740890333333336E7,5.4412762E7,-1.0,8.882507566666667E7:(ff=%x.(x:INTEGER|x+1)) & (ss={ff,bb|bb:BOOL&ff:BOOL-->BOOL&ff={(TRUE,bb)}\/ff}) & card(ss)=4
+4.9316699333333336E7,5.3203227333333336E7,-1.0,6.792185866666667E7:(ff=%x.(x:INTEGER|x+1)) & (ss={ff,bb|bb:BOOL&ff:BOOL-->BOOL&ff={(TRUE,bb)}\/ff}) & not(card(ss)=4)
+-1.0,-1.0,-1.0,-1.0:not((ff=%x.(x:INTEGER|x+1)) & (ss={ff,bb|bb:BOOL&ff:BOOL-->BOOL&ff={(TRUE,bb)}\/ff})) => card(ss)=4
+5.0840775666666664E7,5.6011708333333336E7,-1.0,1.24635589E8:(ff=%x.(x:INTEGER|x+1)) & (ss={ff,bb|bb:BOOL&ff:BOOL-->BOOL&ff={(TRUE,bb)}\/ff}) & (ff(0)=1) & (ff(ff(1))=3) & (card(ss)=4)
+5.0830858666666664E7,5.6136933666666664E7,-1.0,6.7042184666666664E7:(ff=%x.(x:INTEGER|x+1)) & (ss={ff,bb|bb:BOOL&ff:BOOL-->BOOL&ff={(TRUE,bb)}\/ff}) & not((ff(0)=1) & (ff(ff(1))=3) & (card(ss)=4))
+-1.0,-1.0,-1.0,-1.0:not((ff=%x.(x:INTEGER|x+1)) & (ss={ff,bb|bb:BOOL&ff:BOOL-->BOOL&ff={(TRUE,bb)}\/ff})) => (ff(0)=1) & (ff(ff(1))=3) & (card(ss)=4)

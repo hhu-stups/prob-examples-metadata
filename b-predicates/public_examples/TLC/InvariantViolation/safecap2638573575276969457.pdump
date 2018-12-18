@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/TLC/InvariantViolation/safecap2638573575276969457.mch
+9.9734098E7,6.5003031E8,-1.0,9.526393E7:(occ:AMBIT+->TRAIN) & (locked:AMBIT+->TRAIN) & (tl:TRAIN+->AMBIT) & (hd:TRAIN+->AMBIT) & (line:TRAIN+->LINE) & (tlr:TRAIN+->ROUTE) & (hdr:TRAIN+->ROUTE) & (collision=FALSE) & (signal:ROUTE-->ASPECT)

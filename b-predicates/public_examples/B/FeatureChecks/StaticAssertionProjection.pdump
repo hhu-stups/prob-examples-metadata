@@ -1,0 +1,28 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/StaticAssertionProjection.mch
+6.3775986666666664E7,6.4487832666666664E7,9.3012992E7,5.0445521E7:(xx:ID)
+1.34543343E8,6.936017496666666E8,7.846474966666667E7,1.5503510166666666E8:(a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (xx:ID) & (yy:ID)
+4.7947391333333336E7,4.9475588666666664E7,7.1577235E7,5.0858423E7:not((a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (xx:ID)) => (yy:ID)
+6.4053583E7,6.958992466666667E7,8.1801301E7,5.6118728333333336E7:(a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (xx:ID) & not((yy:ID))
+6.5000630666666664E7,1.8330343033333334E8,8.113785533333333E7,1.6578111433333334E8:not((a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (xx:ID)) => not((yy:ID))
+4.6583321666666664E7,5.1364399666666664E7,7.6699861E7,5.7323723E7:not((a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (yy:ID)) => (xx:ID)
+5.3521633666666664E7,5.3210723333333336E7,7.700152866666667E7,5.3605746E7:not((a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & not((yy:ID))) => (xx:ID)
+5.1033677666666664E7,7.063419166666667E7,8.957435633333333E7,6.763958366666667E7:(a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & not((xx:ID)) & (yy:ID)
+4.7642907E7,5.8626589333333336E7,7.325554466666667E7,5.2397352E7:not((a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & not((xx:ID))) => (yy:ID)
+5.1826236666666664E7,8.9874604E7,6.5753845666666664E7,6.1907290333333336E7:(a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & not((xx:ID)) & not((yy:ID))
+5.3618806333333336E7,6.5413858666666664E7,7.214758266666667E7,6.5586157E7:not((a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & not((xx:ID))) => not((yy:ID))
+5.2975079E7,7.7934445E7,7.1084482E7,5.4740713333333336E7:not((a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & not((yy:ID))) => not((xx:ID))
+5.7439217333333336E7,1.2079070933333333E8,7.154818166666667E7,1.3135625233333333E8:not((a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (yy:ID)) => not((xx:ID))
+5.6669543E7,7.478118066666667E7,8.325988933333333E7,1.6137412933333334E8:(a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (xx:ID) & c>d
+5.6189966666666664E7,7.9729808E7,6.861314766666667E7,5.8402794666666664E7:(a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (xx:ID) & not(c>d)
+9.480518866666667E7,6.2739193E7,6.910790366666667E7,9.079590366666667E7:not((a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (xx:ID)) => c>d
+6.2249256666666664E7,1.6697560933333334E8,6.5111422E7,2.1337992733333334E8:(a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (xx:ID) & (c>d)
+6.6949668333333336E7,6.6274233333333336E7,8.8111973E7,7.1180746E7:(a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (xx:ID) & not((c>d))
+5.5118764333333336E7,6.5679301666666664E7,8.4779054E7,6.903396466666667E7:not((a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (xx:ID)) => (c>d)
+5.7687992E7,1.5556070333333334E8,7.826011466666667E7,1.9790426333333334E8:(a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & xx:ID & xx:ID
+6.1109190666666664E7,2.0860394766666666E8,6.4233494E7,2.38071243E8:(a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (not(xx:ID) => xx:ID)
+6.6764589E7,7.635493766666667E7,9.1433136E7,7.192355433333333E7:(a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & xx:ID & not(xx:ID)
+6.370859E7,7.9598972E7,6.986852166666667E7,2.49900075E8:(a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (not(xx:ID) => not(xx:ID))
+5.6940481E7,1.1285662333333333E8,6.6816015333333336E7,1.3796426233333334E8:(a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (xx:ID) & (xx:ID)
+5.4973681E7,9.042267133333333E7,7.456295E7,1.29362214E8:(a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (not((xx:ID)) => (xx:ID))
+5.1358881666666664E7,7.099971733333333E7,8.233100066666667E7,6.089841E7:(a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (xx:ID) & not((xx:ID))
+5.2435253E7,5.6414576E7,6.807483433333333E7,1.4044178866666666E8:(a:NATURAL) & (b:NATURAL) & (c:NATURAL) & (d:NATURAL) & (a=b+b) & (c=d+d) & (e=c+c) & (e<25) & (a<8) & (d<20) & (c>3) & (not((xx:ID)) => not((xx:ID)))

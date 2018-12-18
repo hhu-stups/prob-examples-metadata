@@ -1,0 +1,15 @@
+#source:examples/prob_examples/public_examples/B/Tickets/PARSERLIB-32/TestDefInsideForall.mch
+5.1880829333333336E7,5.9228225E7,8.3607047E7,4.9165563333333336E7:(xx:ID)
+1.1955256333333333E8,5.7996644333333336E7,-1.0,7.3920038E7:(iv:ID) & (!x,y.(x:ID&y:ID&x=y => EQ(x,y)&#z.(z:ID&(z/=x or z/=y)))) & (xx:ID) & (yy:ID)
+4.8324325E7,4.7869029666666664E7,6.4165422E7,5.1158996333333336E7:not((iv:ID) & (!x,y.(x:ID&y:ID&x=y => EQ(x,y)&#z.(z:ID&(z/=x or z/=y)))) & (xx:ID)) => (yy:ID)
+1.33856966E8,1.0517701533333333E8,-1.0,6.989974066666667E7:not((iv:ID) & (!x,y.(x:ID&y:ID&x=y => EQ(x,y)&#z.(z:ID&(z/=x or z/=y)))) & (xx:ID)) => not((yy:ID))
+4.6849998333333336E7,4.8491362E7,6.4216848666666664E7,4.9097840333333336E7:not((iv:ID) & (!x,y.(x:ID&y:ID&x=y => EQ(x,y)&#z.(z:ID&(z/=x or z/=y)))) & (yy:ID)) => (xx:ID)
+4.8055273E7,4.8417632666666664E7,6.2823003E7,7.3349504E7:not((iv:ID) & (!x,y.(x:ID&y:ID&x=y => EQ(x,y)&#z.(z:ID&(z/=x or z/=y)))) & not((yy:ID))) => (xx:ID)
+5.5545447666666664E7,7.4723422E7,1.01611036E8,5.2655951333333336E7:not((iv:ID) & (!x,y.(x:ID&y:ID&x=y => EQ(x,y)&#z.(z:ID&(z/=x or z/=y)))) & not((xx:ID))) => (yy:ID)
+1.31167378E8,9.723953033333333E7,-1.0,7.026410266666667E7:not((iv:ID) & (!x,y.(x:ID&y:ID&x=y => EQ(x,y)&#z.(z:ID&(z/=x or z/=y)))) & (yy:ID)) => not((xx:ID))
+4.7483529E7,4.9343611333333336E7,-1.0,7.081794433333333E7:(iv:ID) & (!x,y.(x:ID&y:ID&x=y => EQ(x,y)&#z.(z:ID&(z/=x or z/=y)))) & xx:ID & xx:ID
+4.7869728E7,4.9797929666666664E7,-1.0,7.149817466666667E7:(iv:ID) & (!x,y.(x:ID&y:ID&x=y => EQ(x,y)&#z.(z:ID&(z/=x or z/=y)))) & (not(xx:ID) => xx:ID)
+1.3379015133333333E8,9.868708333333333E7,-1.0,7.033175533333333E7:(iv:ID) & (!x,y.(x:ID&y:ID&x=y => EQ(x,y)&#z.(z:ID&(z/=x or z/=y)))) & (not(xx:ID) => not(xx:ID))
+4.7263296333333336E7,4.9875337E7,-1.0,7.058532633333333E7:(iv:ID) & (!x,y.(x:ID&y:ID&x=y => EQ(x,y)&#z.(z:ID&(z/=x or z/=y)))) & (xx:ID) & (xx:ID)
+4.8372795E7,5.1203555E7,-1.0,7.120551666666667E7:(iv:ID) & (!x,y.(x:ID&y:ID&x=y => EQ(x,y)&#z.(z:ID&(z/=x or z/=y)))) & (not((xx:ID)) => (xx:ID))
+1.3292223366666667E8,9.901207866666667E7,-1.0,6.961488166666667E7:(iv:ID) & (!x,y.(x:ID&y:ID&x=y => EQ(x,y)&#z.(z:ID&(z/=x or z/=y)))) & (not((xx:ID)) => not((xx:ID)))

@@ -1,0 +1,37 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/VariableCaptureComprSet.mch
+1.35713487E8,8.816679866666667E7,1.24226202E8,7.746785833333333E7:({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER)
+9.136504033333333E7,6.379160603333334E8,1.1621176596666667E9,6.959136833333333E7:({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER) & !xx.(xx:1..15 => {yy|yy:{yy|yy>xx&yy<10}}={zz|zz:{yy|yy>xx&yy<10}})
+-1.0,1.2534112533333333E8,-1.0,-1.0:({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER) & not(!xx.(xx:1..15 => {yy|yy:{yy|yy>xx&yy<10}}={zz|zz:{yy|yy>xx&yy<10}}))
+6.5206476333333336E7,7.1856833E7,1.358090555E9,6.713388633333333E7:not(({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER)) => !xx.(xx:1..15 => {yy|yy:{yy|yy>xx&yy<10}}={zz|zz:{yy|yy>xx&yy<10}})
+6.868582933333333E7,6.4675310333333336E7,8.544997233333333E7,5.799697E7:({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER) & xx:1..15 => {yy|yy:{yy|yy>xx&yy<10}}={zz|zz:{yy|yy>xx&yy<10}}
+6.5433181666666664E7,6.5081855666666664E7,-1.0,1.1524566066666667E8:({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER) & not(xx:1..15 => {yy|yy:{yy|yy>xx&yy<10}}={zz|zz:{yy|yy>xx&yy<10}})
+5.5090897333333336E7,6.4443925666666664E7,6.6836083E7,7.621742033333333E7:not(({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER)) => xx:1..15 => {yy|yy:{yy|yy>xx&yy<10}}={zz|zz:{yy|yy>xx&yy<10}}
+5.1911373666666664E7,1.5216706933333334E8,1.00376545E8,8.483204E7:({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER) & xx:1..15
+5.4611972666666664E7,5.8517380666666664E7,7.8198538E7,8.145656433333333E7:({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER) & not(xx:1..15)
+5.9386299666666664E7,5.6992699E7,7.8417444E7,7.4490059E7:not(({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER)) => xx:1..15
+6.0125639333333336E7,5.7249575666666664E7,9.797507566666667E7,6.1831256666666664E7:({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER) & {yy|yy:{yy|yy>xx&yy<10}}={zz|zz:{yy|yy>xx&yy<10}}
+-1.0,-1.0,-1.0,-1.0:({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER) & not({yy|yy:{yy|yy>xx&yy<10}}={zz|zz:{yy|yy>xx&yy<10}})
+5.5632307333333336E7,6.830719633333333E7,8.998888766666667E7,6.2533580333333336E7:not(({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER)) => {yy|yy:{yy|yy>xx&yy<10}}={zz|zz:{yy|yy>xx&yy<10}}
+6.1725982E7,5.8628079666666664E7,7.436588133333333E7,6.7002957E7:({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER) & yy:{yy|yy>xx&yy<10}
+5.5258958666666664E7,5.2156120666666664E7,8.867279866666667E7,6.1812818333333336E7:({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER) & not(yy:{yy|yy>xx&yy<10})
+6.1920932333333336E7,6.1840987666666664E7,8.350829166666667E7,7.5793949E7:not(({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER)) => yy:{yy|yy>xx&yy<10}
+4.9520985666666664E7,5.5088965666666664E7,6.969657266666667E7,6.3637142666666664E7:({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER) & zz:{yy|yy>xx&yy<10}
+5.4319012E7,5.5312038333333336E7,8.991066566666667E7,8.094332433333333E7:({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER) & not(zz:{yy|yy>xx&yy<10})
+5.5969571E7,5.8255476E7,7.3563312E7,7.6666826E7:not(({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER)) => zz:{yy|yy>xx&yy<10}
+6.9244513E7,5.078923326666667E8,1.0016008333333333E8,8.0398748E7:({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER) & (!xx.(xx:1..15 => {yy|yy:{yy|yy>xx&yy<10}}={zz|zz:{yy|yy>xx&yy<10}})) & (xx:1..15 => {yy|yy:{yy|yy>xx&yy<10}}={zz|zz:{yy|yy>xx&yy<10}}) & (xx:1..15) & ({yy|yy:{yy|yy>xx&yy<10}}={zz|zz:{yy|yy>xx&yy<10}}) & (yy:{yy|yy>xx&yy<10}) & (zz:{yy|yy>xx&yy<10})
+6.994576633333333E7,7.075210733333333E7,-1.0,9.266439066666667E7:({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER) & not((!xx.(xx:1..15 => {yy|yy:{yy|yy>xx&yy<10}}={zz|zz:{yy|yy>xx&yy<10}})) & (xx:1..15 => {yy|yy:{yy|yy>xx&yy<10}}={zz|zz:{yy|yy>xx&yy<10}}) & (xx:1..15) & ({yy|yy:{yy|yy>xx&yy<10}}={zz|zz:{yy|yy>xx&yy<10}}) & (yy:{yy|yy>xx&yy<10}) & (zz:{yy|yy>xx&yy<10}))
+6.9925605E7,7.9987965E7,1.32276574E8,7.750219733333333E7:not(({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER)) => (!xx.(xx:1..15 => {yy|yy:{yy|yy>xx&yy<10}}={zz|zz:{yy|yy>xx&yy<10}})) & (xx:1..15 => {yy|yy:{yy|yy>xx&yy<10}}={zz|zz:{yy|yy>xx&yy<10}}) & (xx:1..15) & ({yy|yy:{yy|yy>xx&yy<10}}={zz|zz:{yy|yy>xx&yy<10}}) & (yy:{yy|yy>xx&yy<10}) & (zz:{yy|yy>xx&yy<10})
+5.2326090666666664E7,5.2141802666666664E7,6.5759782E7,6.0535909666666664E7:yy:INTEGER & yy:INTEGER
+4.8301557E7,4.7759099333333336E7,7.204885E7,5.2991724333333336E7:(not(yy:INTEGER) => yy:INTEGER)
+6.6435985333333336E7,6.7571954E7,1.2253974466666667E8,5.5175335666666664E7:(not(yy:INTEGER) => not(yy:INTEGER))
+5.3051858E7,5.2018370333333336E7,6.1078879666666664E7,5.4325204333333336E7:xx:INTEGER & xx:INTEGER
+4.799507E7,4.8245451E7,7.8241723E7,6.0328388666666664E7:(not(xx:INTEGER) => xx:INTEGER)
+7.042958E7,6.946630533333333E7,1.3223036266666667E8,5.2977826E7:(not(xx:INTEGER) => not(xx:INTEGER))
+1.36522738E8,6.5603361E7,1.0474504733333333E8,8.702442766666667E7:{yy|yy>xx&yy<10}={} & {FRESH____1|FRESH____1>yy&FRESH____1<10}={}
+-1.0,-1.0,7.712149233333333E7,-1.0:(not({yy|yy>xx&yy<10}={}) => {FRESH____1|FRESH____1>yy&FRESH____1<10}={})
+6.2715703E7,6.5455390333333336E7,-1.0,8.895383966666667E7:{yy|yy>xx&yy<10}={} & not({FRESH____1|FRESH____1>yy&FRESH____1<10}={})
+5.2748839666666664E7,5.6393787E7,-1.0,7.703360866666667E7:(not({yy|yy>xx&yy<10}={}) => not({FRESH____1|FRESH____1>yy&FRESH____1<10}={}))
+5.0562714666666664E7,5.7738999666666664E7,7.886112233333333E7,5.0570490333333336E7:({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER) & (yy:INTEGER) & (xx:INTEGER) & ({FRESH____1|FRESH____1>yy&FRESH____1<10}={})
+-1.0,-1.0,1.1588871233333333E8,-1.0:(not(({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER)) => (yy:INTEGER) & (xx:INTEGER) & ({FRESH____1|FRESH____1>yy&FRESH____1<10}={}))
+5.4566738666666664E7,5.3899474666666664E7,-1.0,9.564666E7:({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER) & not((yy:INTEGER) & (xx:INTEGER) & ({FRESH____1|FRESH____1>yy&FRESH____1<10}={}))
+5.6651408E7,1.06478275E8,-1.0,7.045428033333333E7:(not(({yy|yy>xx&yy<10}={}) & (xx:INTEGER) & (yy:INTEGER)) => not((yy:INTEGER) & (xx:INTEGER) & ({FRESH____1|FRESH____1>yy&FRESH____1<10}={})))

@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Kodkod/SimpleComputation2.mch
+2.857332393333333E8,1.3533396966666666E8,-1.0,-1.0:(a=1..limit) & (b=limit+2..limit+limit) & (x=a\/b) & (limit=1000) & card(x)=2*limit-1
+1.0948736366666667E8,1.07379041E8,-1.0,1.4574197366666666E8:(a=1..limit) & (b=limit+2..limit+limit) & (x=a\/b) & (limit=1000) & not(card(x)=2*limit-1)
+6.6620692333333336E7,5.4228683666666664E7,4.6884849333333336E7,9.094967066666667E7:not((a=1..limit) & (b=limit+2..limit+limit) & (x=a\/b) & (limit=1000)) => card(x)=2*limit-1
+1.0857069666666667E8,1.0692477033333333E8,-1.0,-1.0:(a=1..limit) & (b=limit+2..limit+limit) & (x=a\/b) & (limit=1000) & (card(x)=2*limit-1)
+1.08002608E8,1.12848801E8,-1.0,1.5013862266666666E8:(a=1..limit) & (b=limit+2..limit+limit) & (x=a\/b) & (limit=1000) & not((card(x)=2*limit-1))
+4.9482130333333336E7,5.2557614666666664E7,1.0449517766666667E8,6.2963942333333336E7:not((a=1..limit) & (b=limit+2..limit+limit) & (x=a\/b) & (limit=1000)) => (card(x)=2*limit-1)

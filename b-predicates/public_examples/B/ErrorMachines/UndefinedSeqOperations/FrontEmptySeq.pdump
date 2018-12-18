@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/ErrorMachines/UndefinedSeqOperations/FrontEmptySeq.mch
+6.0597719666666664E7,7.316838233333333E7,4.490613646666667E8,4.9436198333333336E7:(xx:ID)
+5.4107159666666664E7,7.228447133333333E7,1.0083658933333333E8,4.9633918666666664E7:not((iv:iseq(ID)) & (front(iv)=[aa]) & (xx:ID)) => (yy:ID)
+5.6603543333333336E7,6.0413409E7,1.0400533433333333E8,5.2999058E7:not((iv:iseq(ID)) & (front(iv)=[aa]) & (yy:ID)) => (xx:ID)
+4.7506297333333336E7,4.8074665333333336E7,7.720232673333334E8,5.1789104333333336E7:not((iv:iseq(ID)) & (front(iv)=[aa]) & not((yy:ID))) => (xx:ID)
+9.0228001E7,6.1531684E7,1.0484720133333333E8,5.2102854666666664E7:not((iv:iseq(ID)) & (front(iv)=[aa]) & not((xx:ID))) => (yy:ID)

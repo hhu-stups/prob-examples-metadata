@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Ivo/BenchmarksPOR/other/TokenRing.mch
+1.355147234E9,7.315103833333333E7,8.419485466666667E7,4.9216826666666664E7:(token:Servers) & (requests<:Servers) & (in_critical<:Servers)

@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Hanoi6.mch
+1.272150297E9,1.336749038E9,-1.0,1.2336090366666667E9:(on:Stakes-->seq(INTEGER))
+7.539874519E9,9.587671733333333E7,-1.0,9.608050483333334E8:not((orig:Stakes) & (dest:Stakes) & (orig/=dest) & (nrdiscs=6) & (on:Stakes-->seq(INTEGER))) => (from:Stakes) & (on(from)/=[]) & (to:Stakes) & (to/=from) & (disc:NATURAL1) & (disc=first(on(from))) & (on(to)/=[] => first(on(to))>disc)
+4.86540502E8,1.05290391E8,-1.0,8.754856333333333E7:not((orig:Stakes) & (dest:Stakes) & (orig/=dest) & (nrdiscs=6) & (from:Stakes) & (on(from)/=[]) & (to:Stakes) & (to/=from) & (disc:NATURAL1) & (disc=first(on(from))) & (on(to)/=[] => first(on(to))>disc)) => (on:Stakes-->seq(INTEGER))
+4.221903033333333E8,9.8812263E7,-1.0,1.4546489933333333E9:not((orig:Stakes) & (dest:Stakes) & (orig/=dest) & (nrdiscs=6) & not((on:Stakes-->seq(INTEGER)))) => (from:Stakes) & (on(from)/=[]) & (to:Stakes) & (to/=from) & (disc:NATURAL1) & (disc=first(on(from))) & (on(to)/=[] => first(on(to))>disc)

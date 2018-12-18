@@ -1,0 +1,12 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Oliveira2/Customer.mch
+5.1620158333333336E7,6.1862801666666664E7,9.299785966666667E7,8.469801466666667E7:(purchases<:GOODS)
+1.4553733866666666E8,4.9518029E7,9.4764192E7,5.6276104333333336E7:(limit:GOODS-->NAT1) & (purchases<:GOODS) & (gg:GOODS) & (price(gg)<=limit(gg))
+8.610291866666667E7,5.4572186E7,-1.0,6.6656660666666664E7:not((limit:GOODS-->NAT1) & (purchases<:GOODS)) => (gg:GOODS) & (price(gg)<=limit(gg))
+5.0906333666666664E7,5.0565276E7,6.5335798666666664E7,7.090678233333333E7:(limit:GOODS-->NAT1) & (purchases<:GOODS) & not((gg:GOODS) & (price(gg)<=limit(gg)))
+4.8511686E7,4.9586869E7,6.5795308333333336E7,7.049648766666667E7:not((limit:GOODS-->NAT1) & (purchases<:GOODS)) => not((gg:GOODS) & (price(gg)<=limit(gg)))
+3.5036066E7,4.8165692E7,5.9011182333333336E7,4.7989691666666664E7:not((limit:GOODS-->NAT1) & (gg:GOODS) & (price(gg)<=limit(gg))) => (purchases<:GOODS)
+4.4439124E7,4.9476566333333336E7,5.9545584333333336E7,5.14375E7:not((limit:GOODS-->NAT1) & not((gg:GOODS) & (price(gg)<=limit(gg)))) => (purchases<:GOODS)
+1.5794806533333334E8,1.07320095E8,1.04464448E8,5.9306843E7:not((limit:GOODS-->NAT1) & not((purchases<:GOODS))) => (gg:GOODS) & (price(gg)<=limit(gg))
+1.65059654E8,9.297276333333333E7,1.08082576E8,6.3106186E7:not((limit:GOODS-->NAT1) & not((purchases<:GOODS))) => not((gg:GOODS) & (price(gg)<=limit(gg)))
+5.4212061666666664E7,5.2027193E7,7.127496266666667E7,6.740629033333333E7:not((limit:GOODS-->NAT1) & not((gg:GOODS) & (price(gg)<=limit(gg)))) => not((purchases<:GOODS))
+4.7669213666666664E7,5.1985102333333336E7,7.6861939E7,6.3372327666666664E7:not((limit:GOODS-->NAT1) & (gg:GOODS) & (price(gg)<=limit(gg))) => not((purchases<:GOODS))

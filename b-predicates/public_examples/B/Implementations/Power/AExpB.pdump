@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Implementations/Power/AExpB.mch
+1.0539559533333333E8,9.657263933333333E7,-1.0,6.2532882E7:(a:NAT) & (b:NAT) & (a**b:NAT)

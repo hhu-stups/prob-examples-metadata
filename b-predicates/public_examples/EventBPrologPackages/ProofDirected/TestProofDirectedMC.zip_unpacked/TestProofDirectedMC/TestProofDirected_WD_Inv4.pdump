@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/ProofDirected/TestProofDirectedMC.zip_unpacked/TestProofDirectedMC/TestProofDirected_WD_Inv4.bcm
+1.15076528E8,1.5455484966666666E8,5.053718703E9,7.94957678E8:(x:NAT) & (100 / x=(50+50) / x) & not((x>-20))

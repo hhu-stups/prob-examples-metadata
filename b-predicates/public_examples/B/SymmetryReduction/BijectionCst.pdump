@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SymmetryReduction/BijectionCst.mch
+1.07968921E8,4.399983403333333E8,1.13348725E8,6.2370268666666664E7:(foo:ID1) & (bar:ID2) & (MAP:ID1>->>ID2)

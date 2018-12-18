@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Tickets/TransitiveClosure/ProjetEvent-B.zip_unpacked/Treillis/M.bcm
+1.68143752E8,6.703020545E9,9.757944766666667E7,5.6514915E7:(v:S)
+6.0028723E7,1.2111107166666667E8,6.6333807333333336E7,6.7178608E7:(v:S) & (t:S) & (infEq(t |-> v)=TRUE)
+5.8729046E7,8.437299666666667E7,4.177691406666667E8,2.91749647E8:not((v:S)) => (t:S) & (infEq(t |-> v)=TRUE)
+5.3751947E7,7.696132333333333E7,7.233303433333333E7,6.9402238E7:(v:S) & not((t:S) & (infEq(t |-> v)=TRUE))

@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/GraphColouring_K5.mch
+2.706151623333333E8,1.1475370343333333E9,-1.0,7.86790299E8:(maxncol:1..5) & (edge=EDG\/EDG~) & (colour:NODES-->1..maxncol) & (!x,y.((x,y):EDG => colour(x)/=colour(y))) & (colour(n1)=1) & (yy:NODES)
+5.0500835333333336E7,5.0523813E7,6.9372742E7,5.4757149333333336E7:not((maxncol:1..5) & (edge=EDG\/EDG~) & (colour:NODES-->1..maxncol) & (!x,y.((x,y):EDG => colour(x)/=colour(y))) & (colour(n1)=1)) => (yy:NODES)
+5.6219021E7,9.858185633333333E7,5.5478773E7,7.164833366666667E7:(maxncol:1..5) & (edge=EDG\/EDG~) & (colour:NODES-->1..maxncol) & (!x,y.((x,y):EDG => colour(x)/=colour(y))) & (colour(n1)=1) & not((yy:NODES))
+9.754040666666667E7,1.23718503E8,-1.0,9.175415856666666E8:not((maxncol:1..5) & (edge=EDG\/EDG~) & (colour:NODES-->1..maxncol) & (!x,y.((x,y):EDG => colour(x)/=colour(y))) & (colour(n1)=1)) => not((yy:NODES))

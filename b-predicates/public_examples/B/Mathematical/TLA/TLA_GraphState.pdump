@@ -1,0 +1,20 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/TLA/TLA_GraphState.mch
+1.5837712333333334E8,1.03956539E8,-1.0,1.09874889E8:(edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))
+6.979733E7,6.837850433333333E7,-1.0,1.12170991E8:(edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))) & (x:NODES) & (y:NODES) & ((x,y)/:edges)
+6.2529949E7,1.8402158566666666E8,-1.0,8.145924166666667E7:not((edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))) => (x:NODES) & (y:NODES) & ((x,y)/:edges)
+1.6692688333333334E8,1.7824037966666666E8,-1.0,2.1484889966666666E8:(edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))) & not((x:NODES) & (y:NODES) & ((x,y)/:edges))
+7.1009635E7,7.4381968E7,-1.0,7.288168433333333E7:not((edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))) => not((x:NODES) & (y:NODES) & ((x,y)/:edges))
+4.9803912333333336E7,5.2178888666666664E7,-1.0,7.377905133333333E7:not((x:NODES) & (y:NODES) & ((x,y)/:edges)) => (edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))
+5.0313824E7,5.5437426666666664E7,-1.0,9.619300533333333E7:not(not((x:NODES) & (y:NODES) & ((x,y)/:edges))) => (edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))
+-1.0,-1.0,-1.0,-1.0:not((edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))) & (x:NODES) & (y:NODES) & ((x,y)/:edges)
+6.813974E7,7.181744266666667E7,-1.0,6.894310133333333E7:not(not((edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))))) => (x:NODES) & (y:NODES) & ((x,y)/:edges)
+-1.0,-1.0,-1.0,-1.0:not((edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))) & not((x:NODES) & (y:NODES) & ((x,y)/:edges))
+6.3795449666666664E7,6.842750966666667E7,-1.0,8.945758166666667E7:not(not((edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))))) => not((x:NODES) & (y:NODES) & ((x,y)/:edges))
+5.8170781666666664E7,5.2300878E7,-1.0,7.556643E7:not(not((x:NODES) & (y:NODES) & ((x,y)/:edges))) => not((edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))))
+4.6584974333333336E7,5.0347883E7,-1.0,7.363855433333333E7:not((x:NODES) & (y:NODES) & ((x,y)/:edges)) => not((edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))))
+7.016595266666667E7,6.789466733333333E7,-1.0,1.80827092E8:(edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))) & edges~=edges
+5.1738725666666664E7,8.9370792E7,-1.0,1.32450386E8:(edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))) & not(edges~=edges)
+6.7073776333333336E7,7.206659E7,-1.0,1.3289271366666667E8:not((edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))) => edges~=edges
+6.6161626E7,6.7957594E7,-1.0,1.0227608833333333E8:(edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))) & (edges~=edges)
+5.0789815E7,8.954942333333333E7,-1.0,2.5812893766666666E8:(edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y))) & not((edges~=edges))
+6.719104E7,7.049241333333333E7,-1.0,1.0272104666666667E8:not((edges:NODES<->NODES) & (#x,y.(x:NODES&y:NODES&x/=y&degree(x)=degree(y)))) => (edges~=edges)

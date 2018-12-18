@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/ProblemMachines/ToDo/LightSwitch.mch
+1.0693797033333333E8,5.9685318E8,1.36389504E8,6.6733835666666664E7:(light:BOOL) & (light=TRUE <=> curStatus=on)

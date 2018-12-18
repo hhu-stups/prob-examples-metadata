@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/AnimB_Tests/TestFunctionInverseProperty.zip_unpacked/Tests/TestComplExists.bcm
+1.5129654433333334E8,7.337401833333333E7,1.1145346533333333E8,7.089726033333333E7:(t1:TRACKIDS&t2:TRACKIDS&t1/=t2) & (p:TRACKIDS) & (p:Nxt~[{t1}]&p:Nxt~[{t2}])

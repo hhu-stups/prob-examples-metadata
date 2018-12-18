@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Valerio8/Z80_9_Michael/POWER.mch
+1.8196406166666666E8,9.555158266666667E7,-1.0,5.2245819666666664E7:!nn,pp.(nn:NATURAL1&pp:NAT => pp=0 => nn**pp=1&(pp=1 => nn**pp=nn)&(pp>1 => nn**pp=nn*nn**pp-1))
+4.2168979666666664E7,5.1929182666666664E7,-1.0,6.2013426E7:nn:NATURAL1&pp:NAT => pp=0 => nn**pp=1&(pp=1 => nn**pp=nn)&(pp>1 => nn**pp=nn*nn**pp-1)
+2.2328710236666665E9,8.755878333333333E7,-1.0,2.5447193133333334E8:(!nn,pp.(nn:NATURAL1&pp:NAT => pp=0 => nn**pp=1&(pp=1 => nn**pp=nn)&(pp>1 => nn**pp=nn*nn**pp-1))) & (nn:NATURAL1&pp:NAT => pp=0 => nn**pp=1&(pp=1 => nn**pp=nn)&(pp>1 => nn**pp=nn*nn**pp-1))

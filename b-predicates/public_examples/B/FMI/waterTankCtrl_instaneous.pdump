@@ -1,0 +1,8 @@
+#source:examples/prob_examples/public_examples/B/FMI/waterTankCtrl_instaneous.mch
+5.9517624333333336E7,6.4977257E7,9.3689521E7,5.1861669333333336E7:(pump:BOOL)
+4.8522721E7,4.7959683E7,5.9979298666666664E7,5.1970994333333336E7:(High=700) & (Low=400) & pump:BOOL & level<=Low => pump:BOOL&(not(level<=Low) => (level>=High => pump:BOOL))
+7.284760166666667E7,6.3237906333333336E7,5.6471799333333336E7,1.53262553E8:(High=700) & (Low=400) & (not(pump:BOOL) => level<=Low => pump:BOOL&(not(level<=Low) => (level>=High => pump:BOOL)))
+9.154199466666667E7,9.9400443E7,8.8886187E7,5.2546766E7:(High=700) & (Low=400) & (not(pump:BOOL) => not(level<=Low => pump:BOOL&(not(level<=Low) => (level>=High => pump:BOOL))))
+4.5798166E7,4.9680456333333336E7,5.9835984333333336E7,5.7335736E7:(High=700) & (Low=400) & (pump:BOOL) & (level<=Low => pump:BOOL&(not(level<=Low) => (level>=High => pump:BOOL)))
+4.6915253666666664E7,4.8782344E7,4.0107684E7,1.054897926E9:(High=700) & (Low=400) & (not((pump:BOOL)) => (level<=Low => pump:BOOL&(not(level<=Low) => (level>=High => pump:BOOL))))
+9.088686E7,9.9466094E7,1.0958677287E10,3.671586546666667E8:(High=700) & (Low=400) & (not((pump:BOOL)) => not((level<=Low => pump:BOOL&(not(level<=Low) => (level>=High => pump:BOOL)))))

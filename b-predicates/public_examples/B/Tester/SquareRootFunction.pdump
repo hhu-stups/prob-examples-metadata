@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Tester/SquareRootFunction.mch
+1.72065712E8,5.104739463333333E8,-1.0,9.1259813E7:(sqrt=%xx.(xx:NATURAL|max({yy|yy:INTEGER&yy*yy<=xx}))) & (xx:NATURAL) & (pp:95..105)
+9.067077133333333E7,5.9890996E7,7.096207366666667E7,7.476344133333333E7:not((sqrt=%xx.(xx:NATURAL|max({yy|yy:INTEGER&yy*yy<=xx}))) & (xx:NATURAL)) => (pp:95..105)
+5.3303658666666664E7,5.5377247E7,-1.0,7.009315466666667E7:(sqrt=%xx.(xx:NATURAL|max({yy|yy:INTEGER&yy*yy<=xx}))) & (xx:NATURAL) & not((pp:95..105))
+-1.0,-1.0,8.054434433333333E7,-1.0:not((sqrt=%xx.(xx:NATURAL|max({yy|yy:INTEGER&yy*yy<=xx}))) & (xx:NATURAL)) => not((pp:95..105))

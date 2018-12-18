@@ -1,0 +1,9 @@
+#source:examples/prob_examples/public_examples/B/SchneiderBook/Chapter16/Rooms.mch
+1.6134128033333334E8,1.1055605133333333E8,1.4391315666666666E8,6.887610033333333E7:(small<:ROOM) & (price:ROOM-->NAT1) & (defaultprice:NAT1) & (price[small]<:{defaultprice}) & (price[ROOM-small]<:{defaultprice*3/2}) & (rr:ROOM)
+4.6627694E7,4.8276343666666664E7,6.4301007333333336E7,5.2238649333333336E7:not((small<:ROOM) & (price:ROOM-->NAT1) & (defaultprice:NAT1) & (price[small]<:{defaultprice}) & (price[ROOM-small]<:{defaultprice*3/2})) => (rr:ROOM)
+1.5691245866666666E8,1.03227885E8,1.4041117533333334E8,5.1265108666666664E7:not((small<:ROOM) & (price:ROOM-->NAT1) & (defaultprice:NAT1) & (price[small]<:{defaultprice}) & (price[ROOM-small]<:{defaultprice*3/2})) => not((rr:ROOM))
+1.58059206E8,1.0513352766666667E8,1.3882521866666666E8,4.9684554E7:(small<:ROOM) & (price:ROOM-->NAT1) & (defaultprice:NAT1) & (price[small]<:{defaultprice}) & (price[ROOM-small]<:{defaultprice*3/2}) & (rr:ROOM)
+4.4942004333333336E7,4.6819687333333336E7,6.1922446E7,4.8451855E7:not((small<:ROOM) & (price:ROOM-->NAT1) & (defaultprice:NAT1) & (price[small]<:{defaultprice}) & (price[ROOM-small]<:{defaultprice*3/2})) => (rr:ROOM)
+1.5515299366666666E8,1.0200873566666667E8,1.23355468E8,7.0245432E7:not((small<:ROOM) & (price:ROOM-->NAT1) & (defaultprice:NAT1) & (price[small]<:{defaultprice}) & (price[ROOM-small]<:{defaultprice*3/2})) => not((rr:ROOM))
+1.5353472433333334E8,1.0100586066666667E8,1.2240257666666667E8,7.048398633333333E7:(small<:ROOM) & (price:ROOM-->NAT1) & (defaultprice:NAT1) & (price[small]<:{defaultprice}) & (price[ROOM-small]<:{defaultprice*3/2}) & (rr:ROOM) & (rr:ROOM)
+4.8097783E7,5.1747222666666664E7,8.522075333333333E7,7.504068766666667E7:(small<:ROOM) & (price:ROOM-->NAT1) & (defaultprice:NAT1) & (price[small]<:{defaultprice}) & (price[ROOM-small]<:{defaultprice*3/2}) & (not((rr:ROOM)) => (rr:ROOM))

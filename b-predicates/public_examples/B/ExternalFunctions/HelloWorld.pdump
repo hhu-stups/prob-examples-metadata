@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/HelloWorld.mch
+9.3187828E7,8.707804266666667E7,-1.0,6.880348866666667E7:vprintf("resultat: ~w~n",1+2)=3
+5.6341172666666664E7,5.1608122333333336E7,-1.0,7.006344866666667E7:vprintf("ensemble: ~w~n",{vprintf("enum: ~w~n",a),b})/<:{b,c}
+1.36991536E8,9.909367666666667E7,-1.0,6.5245354333333336E7:!x.(x:{"year","month","day","hour","min","sec"} => TIMESTAMP_INFO(x,TIME("now"))=TIME(x))

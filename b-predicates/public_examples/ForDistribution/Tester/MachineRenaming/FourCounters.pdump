@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/ForDistribution/Tester/MachineRenaming/FourCounters.mch
+9.461747866666667E7,6.3027079E7,8.872487666666667E7,5.4197115666666664E7:(t1c1cnt=t1c2cnt) & (t2c1cnt=t2c2cnt) & (t1c1cnt>=t2c2cnt)

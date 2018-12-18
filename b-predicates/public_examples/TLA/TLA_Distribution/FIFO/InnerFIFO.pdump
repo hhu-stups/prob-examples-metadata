@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/TLA/TLA_Distribution/FIFO/InnerFIFO.mch
+5.5347983333333336E7,8.959405166666667E7,1.2039301E8,5.3223761E7:(Message=ENUM1) & out:struct(val:ENUM1,rdy:INTEGER,ack:INTEGER) & msg:Message&in'rdy=in'ack => !in_n.(in_n=rec(ack:in'ack,rdy:1-in'rdy,val:msg) => out:struct(ack:INTEGER,rdy:INTEGER,val:ENUM1))
+7.9723686E7,7.058364966666667E7,7.988713733333333E7,6.978091733333333E7:(Message=ENUM1) & (not(out:struct(val:ENUM1,rdy:INTEGER,ack:INTEGER)) => msg:Message&in'rdy=in'ack => !in_n.(in_n=rec(ack:in'ack,rdy:1-in'rdy,val:msg) => out:struct(ack:INTEGER,rdy:INTEGER,val:ENUM1)))
+8.5703287E7,1.1313747866666667E8,1.08624963E8,6.6132548333333336E7:(Message=ENUM1) & (not(out:struct(val:ENUM1,rdy:INTEGER,ack:INTEGER)) => not(msg:Message&in'rdy=in'ack => !in_n.(in_n=rec(ack:in'ack,rdy:1-in'rdy,val:msg) => out:struct(ack:INTEGER,rdy:INTEGER,val:ENUM1))))
+4.7461109666666664E7,5.2859841E7,6.2566196666666664E7,5.9714972666666664E7:(Message=ENUM1) & q:POW(INTEGER*ENUM1) & msg:Message&in'rdy=in'ack => !in_n.(in_n=rec(ack:in'ack,rdy:1-in'rdy,val:msg) => q:POW(INTEGER*ENUM1))
+5.1294861E7,5.0835258333333336E7,6.9546879E7,7.251236333333333E7:(Message=ENUM1) & (not(q:POW(INTEGER*ENUM1)) => msg:Message&in'rdy=in'ack => !in_n.(in_n=rec(ack:in'ack,rdy:1-in'rdy,val:msg) => q:POW(INTEGER*ENUM1)))
+8.713789666666667E7,1.1106503133333333E8,1.02581038E8,7.923472633333333E7:(Message=ENUM1) & (not(q:POW(INTEGER*ENUM1)) => not(msg:Message&in'rdy=in'ack => !in_n.(in_n=rec(ack:in'ack,rdy:1-in'rdy,val:msg) => q:POW(INTEGER*ENUM1))))

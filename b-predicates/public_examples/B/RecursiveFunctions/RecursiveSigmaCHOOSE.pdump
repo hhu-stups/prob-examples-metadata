@@ -1,0 +1,38 @@
+#source:examples/prob_examples/public_examples/B/RecursiveFunctions/RecursiveSigmaCHOOSE.mch
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & (y:{{},{8},{9},{8,9}}) & (sigma(y)<0)
+-1.0,-1.0,-1.0,-1.0:not((sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)})))) => (y:{{},{8},{9},{8,9}}) & (sigma(y)<0)
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & not((y:{{},{8},{9},{8,9}}) & (sigma(y)<0))
+-1.0,-1.0,-1.0,-1.0:not((sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)})))) => not((y:{{},{8},{9},{8,9}}) & (sigma(y)<0))
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & sigma({3,5,7})=15
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & not(sigma({3,5,7})=15)
+-1.0,-1.0,-1.0,-1.0:not((sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)})))) => sigma({3,5,7})=15
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & sigma(1..1000)=500500
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & not(sigma(1..1000)=500500)
+-1.0,-1.0,-1.0,-1.0:not((sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)})))) => sigma(1..1000)=500500
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & SIGMA(z).(z:1..1000|z)=500500
+4.618606413333333E8,5.2181473E7,-1.0,1.2854667733333333E8:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & not(SIGMA(z).(z:1..1000|z)=500500)
+8.7647156E7,8.505048033333333E7,-1.0,1.5710617466666666E8:not((sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)})))) => SIGMA(z).(z:1..1000|z)=500500
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & z:1..1000
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & not(z:1..1000)
+-1.0,-1.0,-1.0,-1.0:not((sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)})))) => z:1..1000
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & sigma(1..100)=SIGMA(z).(z:1..100|z)
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & not(sigma(1..100)=SIGMA(z).(z:1..100|z))
+-1.0,-1.0,-1.0,-1.0:not((sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)})))) => sigma(1..100)=SIGMA(z).(z:1..100|z)
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & z:1..100
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & not(z:1..100)
+-1.0,-1.0,-1.0,-1.0:not((sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)})))) => z:1..100
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & !y.(y:{{},{8},{9},{8,9}} => sigma(y)>=0)
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & not(!y.(y:{{},{8},{9},{8,9}} => sigma(y)>=0))
+1.07586587E8,9.7779194E7,-1.0,1.5825392333333334E8:not((sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)})))) => !y.(y:{{},{8},{9},{8,9}} => sigma(y)>=0)
+7.135029766666667E7,1.46583421E8,-1.0,3.291762173333333E8:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & y:{{},{8},{9},{8,9}} => sigma(y)>=0
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & not(y:{{},{8},{9},{8,9}} => sigma(y)>=0)
+-1.0,-1.0,-1.0,-1.0:not((sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)})))) => y:{{},{8},{9},{8,9}} => sigma(y)>=0
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & y:{{},{8},{9},{8,9}}
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & not(y:{{},{8},{9},{8,9}})
+1.0348441166666667E8,1.3352952666666667E8,-1.0,7.4492876E7:not((sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)})))) => y:{{},{8},{9},{8,9}}
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & sigma(y)>=0
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & not(sigma(y)>=0)
+-1.0,-1.0,-1.0,-1.0:not((sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)})))) => sigma(y)>=0
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & (sigma({3,5,7})=15) & (sigma(1..1000)=500500) & (SIGMA(z).(z:1..1000|z)=500500) & (z:1..1000) & (sigma(1..100)=SIGMA(z).(z:1..100|z)) & (z:1..100) & (!y.(y:{{},{8},{9},{8,9}} => sigma(y)>=0)) & (y:{{},{8},{9},{8,9}} => sigma(y)>=0) & (y:{{},{8},{9},{8,9}}) & (sigma(y)>=0)
+-1.0,-1.0,-1.0,-1.0:(sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)}))) & not((sigma({3,5,7})=15) & (sigma(1..1000)=500500) & (SIGMA(z).(z:1..1000|z)=500500) & (z:1..1000) & (sigma(1..100)=SIGMA(z).(z:1..100|z)) & (z:1..100) & (!y.(y:{{},{8},{9},{8,9}} => sigma(y)>=0)) & (y:{{},{8},{9},{8,9}} => sigma(y)>=0) & (y:{{},{8},{9},{8,9}}) & (sigma(y)>=0))
+-1.0,-1.0,-1.0,-1.0:not((sigma:POW(INTEGER)<->INTEGER) & (sigma=%x.(x={}|0)\/%x.(x/={}|vprintf("choose:~w~n",CHOOSE(x))+sigma(x-{CHOOSE(x)})))) => (sigma({3,5,7})=15) & (sigma(1..1000)=500500) & (SIGMA(z).(z:1..1000|z)=500500) & (z:1..1000) & (sigma(1..100)=SIGMA(z).(z:1..100|z)) & (z:1..100) & (!y.(y:{{},{8},{9},{8,9}} => sigma(y)>=0)) & (y:{{},{8},{9},{8,9}} => sigma(y)>=0) & (y:{{},{8},{9},{8,9}}) & (sigma(y)>=0)

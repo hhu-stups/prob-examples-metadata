@@ -1,0 +1,31 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/SymmetryBreakingTest.mch
+1.58946027E8,1.03695356E8,-1.0,6.778077933333333E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & !x1,y.(x1/=y => x1=TRUE or y=TRUE)
+5.2444611333333336E7,5.4899462666666664E7,-1.0,7.7507086E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & not(!x1,y.(x1/=y => x1=TRUE or y=TRUE))
+5.1856734333333336E7,5.4421189333333336E7,-1.0,7.506317666666667E7:not((!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa))) => !x1,y.(x1/=y => x1=TRUE or y=TRUE)
+4.9187353666666664E7,5.5129519666666664E7,-1.0,6.5903469E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & x1/=y => x1=TRUE or y=TRUE
+4.7945855E7,2.426853536E9,-1.0,4.8719090666666664E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & not(x1/=y => x1=TRUE or y=TRUE)
+4.9959402666666664E7,5.491534E7,-1.0,7.3089183E7:not((!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa))) => x1/=y => x1=TRUE or y=TRUE
+1.1871816933333333E8,1.0559499266666667E8,-1.0,5.9910202333333336E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & x1=TRUE or y=TRUE
+8.766082133333333E7,4.025808726666667E8,-1.0,5.9688526E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & not(x1=TRUE or y=TRUE)
+5.1897078666666664E7,5.4267469E7,-1.0,6.735123233333333E7:not((!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa))) => x1=TRUE or y=TRUE
+5.2658512E7,5.6482904333333336E7,-1.0,6.9125131E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & x1=TRUE
+5.3053557666666664E7,5.7740093666666664E7,-1.0,7.4258186E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & not(x1=TRUE)
+5.0195512333333336E7,5.4860421666666664E7,-1.0,7.590217966666667E7:not((!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa))) => x1=TRUE
+5.8330346E7,5.4898531666666664E7,-1.0,6.859003033333333E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & y=TRUE
+4.8538691E7,7.533437066666667E7,-1.0,7.441362966666667E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & not(y=TRUE)
+5.2006217666666664E7,5.1917635333333336E7,-1.0,6.929042166666667E7:not((!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa))) => y=TRUE
+5.3742518666666664E7,5.8578747666666664E7,-1.0,6.0061012666666664E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & !x2,y.(x2/=y&x2:s&y:s => x2=aa or y=aa)
+-1.0,-1.0,-1.0,-1.0:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & not(!x2,y.(x2/=y&x2:s&y:s => x2=aa or y=aa))
+5.3521797E7,5.5642993E7,-1.0,6.4261174333333336E7:not((!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa))) => !x2,y.(x2/=y&x2:s&y:s => x2=aa or y=aa)
+5.7242987E7,5.5666971666666664E7,-1.0,6.8384185E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & x2/=y&x2:s&y:s => x2=aa or y=aa
+6.2267927E7,5.9935484333333336E7,-1.0,9.3778359E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & not(x2/=y&x2:s&y:s => x2=aa or y=aa)
+5.1499682E7,5.7385928666666664E7,-1.0,6.789832266666667E7:not((!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa))) => x2/=y&x2:s&y:s => x2=aa or y=aa
+5.2235972333333336E7,5.4777589666666664E7,-1.0,6.808512433333333E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & x2=aa or y=aa
+5.1893075333333336E7,1.7134948286666667E9,-1.0,5.1995857666666664E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & not(x2=aa or y=aa)
+5.1715514666666664E7,5.5248506E7,-1.0,6.7939133E7:not((!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa))) => x2=aa or y=aa
+5.1166702E7,5.7621619666666664E7,-1.0,7.290370766666667E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & x2=aa
+5.0819055333333336E7,5.2543390333333336E7,-1.0,7.450663466666667E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & not(x2=aa)
+4.9768852333333336E7,5.3729923666666664E7,-1.0,7.5755071E7:not((!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa))) => x2=aa
+4.8619264666666664E7,5.4293636333333336E7,-1.0,7.159492833333333E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & y=aa
+5.0664543333333336E7,7.376201066666667E7,-1.0,6.1412558333333336E7:(!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa)) & not(y=aa)
+8.2704139E7,5.5316601333333336E7,-1.0,6.776790533333333E7:not((!x,y.(x/=y&LESS(x,y) => x=TRUE or y=TRUE)) & (!x,y.(x/=y&x:s&y:s&LESS(x,y) => x=aa or y=aa))) => y=aa

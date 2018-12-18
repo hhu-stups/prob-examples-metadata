@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Special/Dependency/SleepSetAlgorithm/LTS.mch
+1.1756723166666667E8,1.560391118E9,-1.0,6.0627215666666664E7:(Trans:Nodes-->(Labels-->POW(Nodes))) & (Initial:POW1(Nodes)) & (n:Nodes) & (m:Nodes)
+4.5416878666666664E7,4.8051827666666664E7,6.6457124E7,4.8962092E7:not((Trans:Nodes-->(Labels-->POW(Nodes))) & (Initial:POW1(Nodes))) => (n:Nodes) & (m:Nodes)
+4.7290022666666664E7,6.984417033333333E7,7.073499566666667E7,5.0552517666666664E7:(Trans:Nodes-->(Labels-->POW(Nodes))) & (Initial:POW1(Nodes)) & not((n:Nodes) & (m:Nodes))
+4.8124183333333336E7,7.1964505E7,-1.0,6.886501866666667E7:not((Trans:Nodes-->(Labels-->POW(Nodes))) & (Initial:POW1(Nodes))) => not((n:Nodes) & (m:Nodes))

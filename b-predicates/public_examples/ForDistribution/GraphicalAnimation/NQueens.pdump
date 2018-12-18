@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/ForDistribution/GraphicalAnimation/NQueens.mch
+1.92884747E8,1.2622623543333333E9,-1.0,2.02196243E8:(n=8) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+q2-q1/=queens(q2)&queens(q1)-q2+q1/=queens(q2))) & (yy:1..n)
+8.6915592E7,5.6731678666666664E7,5.3208768E7,1.10562267E8:not((n=8) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+q2-q1/=queens(q2)&queens(q1)-q2+q1/=queens(q2)))) => (yy:1..n)
+7.122856433333333E7,6.929198233333333E7,8.015204533333334E8,2.3002028866666666E8:(n=8) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+q2-q1/=queens(q2)&queens(q1)-q2+q1/=queens(q2))) & not((yy:1..n))
+5.5426182333333336E7,6.7023956E7,7.191640833333333E7,7.9827796E7:not((n=8) & (queens:1..n>->1..n) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+q2-q1/=queens(q2)&queens(q1)-q2+q1/=queens(q2)))) => not((yy:1..n))

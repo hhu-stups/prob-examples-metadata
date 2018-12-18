@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/XML/utf8_data.mch
+1.2575477166666667E8,9.3877045E7,-1.0,4.5582332666666664E7:(data=READ_XML("utf8_data.xml","UTF-8")) & (data:seq(XML_ELement_Type)) & not(data(2)'attributes("a")="Foo")
+1.2553344466666667E8,9.364770933333333E7,-1.0,4.7855387333333336E7:(data=READ_XML("utf8_data.xml","UTF-8")) & (data:seq(XML_ELement_Type)) & not(data(2)'attributes("b")="Föö")
+1.25845961E8,9.3185011E7,-1.0,4.5982849666666664E7:(data=READ_XML("utf8_data.xml","UTF-8")) & (data:seq(XML_ELement_Type)) & not((data(2)'attributes("a")="Foo") & (data(2)'attributes("b")="Föö"))

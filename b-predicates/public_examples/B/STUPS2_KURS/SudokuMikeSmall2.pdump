@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/STUPS2_KURS/SudokuMikeSmall2.mch
+-1.0,-1.0,-1.0,-1.0:not((Squares:SDSet) & (UNION(col,mincol).(col:INDEX&mincol:INDEX|{Squares(1,col)(1,mincol)})=RANGE) & (UNION(col,mincol).(col:INDEX&mincol:INDEX|{Squares(1,col)(2,mincol)})=RANGE)) => (CHECK_ROWS)
+2.0481615233333334E8,1.3990550066666666E8,1.46503197E8,5.00787914E8:not((Squares:SDSet) & (UNION(col,mincol).(col:INDEX&mincol:INDEX|{Squares(1,col)(1,mincol)})=RANGE) & (UNION(col,mincol).(col:INDEX&mincol:INDEX|{Squares(1,col)(2,mincol)})=RANGE)) => not((CHECK_ROWS))
+2.769630833333333E8,1.6697004533333334E8,1.1032043033333333E8,3.062628523333333E8:not((Squares:SDSet) & (UNION(col,mincol).(col:INDEX&mincol:INDEX|{Squares(1,col)(1,mincol)})=RANGE) & (UNION(col,mincol).(col:INDEX&mincol:INDEX|{Squares(1,col)(2,mincol)})=RANGE)) => (row:INDEX) & (minrow:INDEX)
+2.0743638766666666E8,1.2922572033333333E8,1.0555017733333333E8,1.1994297633333333E8:not((Squares:SDSet) & (UNION(col,mincol).(col:INDEX&mincol:INDEX|{Squares(1,col)(1,mincol)})=RANGE) & (UNION(col,mincol).(col:INDEX&mincol:INDEX|{Squares(1,col)(2,mincol)})=RANGE)) => not((row:INDEX) & (minrow:INDEX))

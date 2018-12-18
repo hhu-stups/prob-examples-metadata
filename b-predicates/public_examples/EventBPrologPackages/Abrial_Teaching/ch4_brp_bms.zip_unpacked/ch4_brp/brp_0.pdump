@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Abrial_Teaching/ch4_brp_bms.zip_unpacked/ch4_brp/brp_0.bcm
+1.25619373E8,7.626083833333333E7,9.558450166666667E7,5.5074694333333336E7:(i:0 .. n) & (g:1 .. i --> D)

@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/SysML2B/BModules.zip_unpacked/BModules/Input_Interface_1.mch
+8.5166859E7,1.00819129E8,1.0457919766666667E8,6.3175585333333336E7:(CreditAmount:NAT) & (GrindStatus:Status) & (MakeCoffee_CoffeeSelected:BOOL) & (MakeCoffee_SugarLevel:E_SugarLevel) & (WaterTemperature:INT)

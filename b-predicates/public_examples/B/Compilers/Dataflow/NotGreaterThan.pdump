@@ -1,0 +1,52 @@
+#source:examples/prob_examples/public_examples/B/Compilers/Dataflow/NotGreaterThan.mch
+1.71753033E8,4.486670779E9,-1.0,6.4649981E7:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & !x,y.(x:V&y:V => (x,y):lt <=> ((x,y):leq&x/=y))
+-1.0,2.2085678633333335E9,-1.0,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not(!x,y.(x:V&y:V => (x,y):lt <=> ((x,y):leq&x/=y)))
+5.6120544333333336E7,8.848457633333333E7,-1.0,7.032153566666667E7:not((lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~))) => !x,y.(x:V&y:V => (x,y):lt <=> ((x,y):leq&x/=y))
+4.9105406E7,7.3594042E7,-1.0,7.261633366666667E7:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & x:V&y:V => (x,y):lt <=> ((x,y):leq&x/=y)
+-1.0,7.3223371E7,-1.0,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not(x:V&y:V => (x,y):lt <=> ((x,y):leq&x/=y))
+4.8787861666666664E7,6.2868609E7,7.126050466666667E7,5.9253601666666664E7:not((lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~))) => x:V&y:V => (x,y):lt <=> ((x,y):leq&x/=y)
+4.7542126E7,1.1024089723333333E9,-1.0,7.292440366666667E7:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & (x,y):lt <=> ((x,y):leq&x/=y)
+-1.0,7.371435566666667E7,-1.0,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not((x,y):lt <=> ((x,y):leq&x/=y))
+4.9682109666666664E7,6.986824233333333E7,-1.0,6.6836711666666664E7:not((lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~))) => (x,y):lt <=> ((x,y):leq&x/=y)
+-1.0,4.7159186E7,-1.0,1.6911619136666667E9:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & (x,y):lt
+5.0177796666666664E7,9.60509713E8,-1.0,6.2906929E7:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not((x,y):lt)
+4.9625701E7,6.5279949333333336E7,-1.0,6.5293894333333336E7:not((lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~))) => (x,y):lt
+5.3175989333333336E7,7.990541266666667E7,-1.0,7.608404633333333E7:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & !x,y.(x:V&y:V => (x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq))
+-1.0,6.8834172E7,6.4185955666666664E7,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not(!x,y.(x:V&y:V => (x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq)))
+7.718500166666667E7,6.4199551333333336E7,-1.0,9.68755617E8:not((lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~))) => !x,y.(x:V&y:V => (x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq))
+4.8382246666666664E7,6.3015275666666664E7,-1.0,6.5145668333333336E7:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & x:V&y:V => (x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq)
+-1.0,6.5797845666666664E7,7.608406966666667E7,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not(x:V&y:V => (x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq))
+4.8834818333333336E7,7.4607579E7,6.2148988333333336E7,5.8986132333333336E7:not((lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~))) => x:V&y:V => (x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq)
+4.754769E7,7.583010366666667E7,-1.0,7.594722733333333E7:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & (x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq)
+-1.0,6.5617585333333336E7,7.594378233333333E7,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not((x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq))
+5.1805587E7,7.472111733333333E7,-1.0,6.7939622E7:not((lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~))) => (x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq)
+4.9152154E7,7.327894133333333E7,-1.0,7.3091162E7:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & (x,y):incomp
+4.9670585666666664E7,7.190178766666667E7,-1.0,4.3132603333333336E7:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not((x,y):incomp)
+6.3611907E7,1.1833369266666667E8,-1.0,1.1537293466666667E8:not((lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~))) => (x,y):incomp
+5.3373779666666664E7,7.474593433333333E7,-1.0,6.4342539333333336E7:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & !x,y.(x:V&y:V => not((y,x):lt) <=> ((x,y):leq or (x,y):incomp))
+-1.0,7.327519333333333E7,-1.0,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not(!x,y.(x:V&y:V => not((y,x):lt) <=> ((x,y):leq or (x,y):incomp)))
+5.2963532E7,6.6105519666666664E7,-1.0,6.937160066666667E7:not((lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~))) => !x,y.(x:V&y:V => not((y,x):lt) <=> ((x,y):leq or (x,y):incomp))
+4.8833421333333336E7,7.3364544E7,-1.0,6.5005636E7:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & x:V&y:V => not((y,x):lt) <=> ((x,y):leq or (x,y):incomp)
+-1.0,5.2464166666666664E7,-1.0,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not(x:V&y:V => not((y,x):lt) <=> ((x,y):leq or (x,y):incomp))
+4.8071336666666664E7,6.8038261E7,7.1930516E7,6.0003883E7:not((lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~))) => x:V&y:V => not((y,x):lt) <=> ((x,y):leq or (x,y):incomp)
+4.8329306666666664E7,7.330822833333333E7,-1.0,7.276567833333333E7:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not((y,x):lt) <=> ((x,y):leq or (x,y):incomp)
+-1.0,7.745412333333333E7,-1.0,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not(not((y,x):lt) <=> ((x,y):leq or (x,y):incomp))
+4.9767804333333336E7,7.607191766666667E7,-1.0,6.3898837666666664E7:not((lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~))) => not((y,x):lt) <=> ((x,y):leq or (x,y):incomp)
+5.0372932666666664E7,6.2433521333333336E7,-1.0,7.588085533333333E7:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not((y,x):lt)
+-1.0,6.991322E7,-1.0,1.850603279E9:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not(not((y,x):lt))
+4.8370187333333336E7,6.940146966666667E7,7.607927466666667E7,6.3865011666666664E7:not((lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~))) => not((y,x):lt)
+-1.0,7.276297733333333E7,-1.0,1.8141841223333333E9:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & (y,x):lt
+4.8414862666666664E7,6.7945721E7,-1.0,7.5798186E7:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not((y,x):lt)
+5.1721521E7,6.0392456333333336E7,-1.0,6.3153818E7:not((lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~))) => (y,x):lt
+6.860273686666666E8,7.492321466666667E7,-1.0,1.1429584233333333E8:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & (x,y):leq or (x,y):incomp
+-1.0,6.7772678E7,-1.0,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not((x,y):leq or (x,y):incomp)
+5.1186002E7,7.089921566666667E7,-1.0,6.6716794E7:not((lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~))) => (x,y):leq or (x,y):incomp
+7.10143052E8,6.4953441E7,-1.0,9.231127333333333E7:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & (x,y):leq
+4.847744E7,6.827011133333333E7,-1.0,7.3858042E7:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not((x,y):leq)
+5.1306919666666664E7,6.7926841E7,-1.0,6.3988188666666664E7:not((lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~))) => (x,y):leq
+4.8608299333333336E7,7.068191666666667E7,-1.0,7.013841166666667E7:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & (x,y):incomp
+4.8655372333333336E7,6.806917766666667E7,-1.0,6.0768481666666664E7:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not((x,y):incomp)
+1.07260893E8,6.996017666666667E7,-1.0,1.1487952966666667E8:not((lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~))) => (x,y):incomp
+5.7913533333333336E7,1.4412098066666666E8,4.3931750333333336E7,6.3599196E7:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & (!x,y.(x:V&y:V => (x,y):lt <=> ((x,y):leq&x/=y))) & (x:V&y:V => (x,y):lt <=> ((x,y):leq&x/=y)) & ((x,y):lt <=> ((x,y):leq&x/=y)) & ((x,y):lt) & (!x,y.(x:V&y:V => (x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq))) & (x:V&y:V => (x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq)) & ((x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq)) & ((x,y):incomp) & (!x,y.(x:V&y:V => not((y,x):lt) <=> ((x,y):leq or (x,y):incomp))) & (x:V&y:V => not((y,x):lt) <=> ((x,y):leq or (x,y):incomp)) & (not((y,x):lt) <=> ((x,y):leq or (x,y):incomp)) & (not((y,x):lt)) & ((y,x):lt) & ((x,y):leq or (x,y):incomp) & ((x,y):leq) & ((x,y):incomp)
+-1.0,6.963366866666667E7,-1.0,-1.0:(lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~)) & not((!x,y.(x:V&y:V => (x,y):lt <=> ((x,y):leq&x/=y))) & (x:V&y:V => (x,y):lt <=> ((x,y):leq&x/=y)) & ((x,y):lt <=> ((x,y):leq&x/=y)) & ((x,y):lt) & (!x,y.(x:V&y:V => (x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq))) & (x:V&y:V => (x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq)) & ((x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq)) & ((x,y):incomp) & (!x,y.(x:V&y:V => not((y,x):lt) <=> ((x,y):leq or (x,y):incomp))) & (x:V&y:V => not((y,x):lt) <=> ((x,y):leq or (x,y):incomp)) & (not((y,x):lt) <=> ((x,y):leq or (x,y):incomp)) & (not((y,x):lt)) & ((y,x):lt) & ((x,y):leq or (x,y):incomp) & ((x,y):leq) & ((x,y):incomp))
+1.1539651833333333E8,6.3876069666666664E7,-1.0,1.6445532163333333E9:not((lt:V<->V) & (lt=leq-id(V)) & (incomp:V<->V) & (incomp=V*V-(leq\/leq~))) => (!x,y.(x:V&y:V => (x,y):lt <=> ((x,y):leq&x/=y))) & (x:V&y:V => (x,y):lt <=> ((x,y):leq&x/=y)) & ((x,y):lt <=> ((x,y):leq&x/=y)) & ((x,y):lt) & (!x,y.(x:V&y:V => (x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq))) & (x:V&y:V => (x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq)) & ((x,y):incomp <=> ((x,y)/:leq&(y,x)/:leq)) & ((x,y):incomp) & (!x,y.(x:V&y:V => not((y,x):lt) <=> ((x,y):leq or (x,y):incomp))) & (x:V&y:V => not((y,x):lt) <=> ((x,y):leq or (x,y):incomp)) & (not((y,x):lt) <=> ((x,y):leq or (x,y):incomp)) & (not((y,x):lt)) & ((y,x):lt) & ((x,y):leq or (x,y):incomp) & ((x,y):leq) & ((x,y):incomp)

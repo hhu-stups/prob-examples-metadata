@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/NQueens40_perm.mch
+4.96500102E8,4.046953643333333E8,-1.0,-1.0:(n=40) & (queens:perm(1..n)) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+q2-q1/=queens(q2)&queens(q1)-q2+q1/=queens(q2))) & (yy:1..n)
+1.0741040033333333E8,7.333947066666667E7,-1.0,1.80381062E8:not((n=40) & (queens:perm(1..n)) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+q2-q1/=queens(q2)&queens(q1)-q2+q1/=queens(q2)))) => (yy:1..n)
+3.53748011E8,3.57128119E8,-1.0,-1.0:(n=40) & (queens:perm(1..n)) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+q2-q1/=queens(q2)&queens(q1)-q2+q1/=queens(q2))) & not((yy:1..n))
+6.2816880333333336E7,8.138351033333333E7,1.0450050966666667E8,2.0666405933333334E8:not((n=40) & (queens:perm(1..n)) & (!q1,q2.(q1:1..n&q2:2..n&q2>q1 => queens(q1)+q2-q1/=queens(q2)&queens(q1)-q2+q1/=queens(q2)))) => not((yy:1..n))

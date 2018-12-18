@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tickets/Kanso_Theory/Issue2.zip_unpacked/ProBGuardMissing/M.bcm
+1.1210752866666667E8,1.3461122866666666E8,-1.0,6.943641366666667E7:(min({i oftype INT.i:NAT | i})=0)

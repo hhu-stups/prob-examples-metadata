@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Records/TestRecordInference.mch
+9.503429133333333E7,1.09358064E8,1.34386852E8,5.2248101333333336E7:(make:BOOL*BOOL>->>BBREC) & (demake2:BBREC2>->>BOOL*BOOL) & yy:BBREC2 & not(yy:BBREC2)

@@ -1,0 +1,3 @@
+#source:examples/prob_examples/public_examples/B/RecursiveFunctions/RecursiveSeqLenFunction.mch
+7.472768266666667E7,7.420252233333333E7,-1.0,6.6603441333333336E7:(xx:seq(ID))
+5.6306764666666664E7,6.0677827666666664E7,9.924176366666667E7,5.3426975333333336E7:not((mylen:INTEGER<->ID<->INTEGER) & (mylen=%x.(x=[]|0)\/%x.(x/=[]|1+mylen(tail(x)))) & (xx:seq(ID))) => (yy:ID)

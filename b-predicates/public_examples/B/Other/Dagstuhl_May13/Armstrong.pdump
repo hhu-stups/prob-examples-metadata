@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Other/Dagstuhl_May13/Armstrong.mch
+1.13825485E8,5.74349248E8,9.237617933333333E7,1.32091006E8:(A&B => C) & (C => A) & (B&C => D) & (A&C&D => B) & (B&E => C) & (C&E => F&A) & (C&F => B&D) & (D => E&F)

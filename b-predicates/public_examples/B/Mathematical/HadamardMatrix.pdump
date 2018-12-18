@@ -1,0 +1,5 @@
+#source:examples/prob_examples/public_examples/B/Mathematical/HadamardMatrix.mch
+-1.0,-1.0,-1.0,-1.0:(Order:NATURAL1) & (Order:3..16) & (Order=16) & (H:IDX-->(IDX-->{-1,1})) & (!i,j.(i:IDX&j:IDX&i<j => orthogonal(H(i),H(j)))) & (i:IDX) & (j:IDX) & (i<j)
+9.1941743E7,5.9574102666666664E7,-1.0,7.3519521E7:not((Order:NATURAL1) & (Order:3..16) & (Order=16) & (H:IDX-->(IDX-->{-1,1})) & (!i,j.(i:IDX&j:IDX&i<j => orthogonal(H(i),H(j))))) => (i:IDX) & (j:IDX) & (i<j)
+-1.0,-1.0,-1.0,-1.0:(Order:NATURAL1) & (Order:3..16) & (Order=16) & (H:IDX-->(IDX-->{-1,1})) & (!i,j.(i:IDX&j:IDX&i<j => orthogonal(H(i),H(j)))) & not((i:IDX) & (j:IDX) & (i<j))
+5.8882045333333336E7,6.9444073E7,-1.0,1.0347877833333333E8:not((Order:NATURAL1) & (Order:3..16) & (Order=16) & (H:IDX-->(IDX-->{-1,1})) & (!i,j.(i:IDX&j:IDX&i<j => orthogonal(H(i),H(j))))) => not((i:IDX) & (j:IDX) & (i<j))

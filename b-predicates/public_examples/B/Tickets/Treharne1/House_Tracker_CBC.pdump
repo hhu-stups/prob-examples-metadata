@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/Treharne1/House_Tracker_CBC.mch
+5.8181467666666664E7,6.1096549333333336E7,9.7635786E7,5.186288E7:not((houseset<:HOUSES) & (card(houseset)<17) & (new:HOUSES) & (houseset2=houseset\/{new})) => houseset2<:HOUSES

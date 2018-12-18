@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/Tickets/EnumWarning1/LL_Parsing_Simplified2.mch
+1.04319155E8,7.9541167E7,-1.0,6.5307933E7:(Nullable<:NonTerminals) & (First:Symbols-->POW(Terminals)) & (Follow:NonTerminals-->POW(Terminals))

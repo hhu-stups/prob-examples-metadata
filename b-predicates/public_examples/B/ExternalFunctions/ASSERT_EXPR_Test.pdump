@@ -1,0 +1,21 @@
+#source:examples/prob_examples/public_examples/B/ExternalFunctions/ASSERT_EXPR_Test.mch
+1.3451899133333334E8,6.868603866666667E7,-1.0,7.334752566666667E7:(xx:NATURAL) & (ASSERT_EXPR(bool(xx<10),"xx has reached 10",xx)<20)
+4.9957470666666664E7,5.0839658666666664E7,-1.0,7.208772833333333E7:(xx:NATURAL) & (ASSERT_EXPR(bool(xx<10),"xx has reached 10",xx)<20) & (xx<20)
+5.5367306E7,5.0656046E7,-1.0,6.9381565E7:not((xx:NATURAL) & (ASSERT_EXPR(bool(xx<10),"xx has reached 10",xx)<20)) => (xx<20)
+1.5087209533333334E8,9.3302158E7,-1.0,6.845998566666667E7:not((xx:NATURAL) & (ASSERT_EXPR(bool(xx<10),"xx has reached 10",xx)<20)) => not((xx<20))
+4.7001461E7,4.8932037E7,-1.0,6.458575E7:not((xx<20)) => (xx:NATURAL) & (ASSERT_EXPR(bool(xx<10),"xx has reached 10",xx)<20)
+4.7106665E7,4.8904031E7,-1.0,6.4968364E7:not(not((xx<20))) => (xx:NATURAL) & (ASSERT_EXPR(bool(xx<10),"xx has reached 10",xx)<20)
+5.5689018333333336E7,4.9844839333333336E7,-1.0,7.3021646E7:not((xx:NATURAL) & (ASSERT_EXPR(bool(xx<10),"xx has reached 10",xx)<20)) & (xx<20)
+4.8115452666666664E7,4.9549527333333336E7,-1.0,6.5558779E7:not(not((xx:NATURAL) & (ASSERT_EXPR(bool(xx<10),"xx has reached 10",xx)<20))) => (xx<20)
+1.5777818766666666E8,9.260807566666667E7,-1.0,6.893888766666667E7:not(not((xx:NATURAL) & (ASSERT_EXPR(bool(xx<10),"xx has reached 10",xx)<20))) => not((xx<20))
+4.8440238333333336E7,4.9785660666666664E7,-1.0,6.6974369E7:not(not((xx<20))) => not((xx:NATURAL) & (ASSERT_EXPR(bool(xx<10),"xx has reached 10",xx)<20))
+4.8085095E7,4.9188680666666664E7,-1.0,6.5538362E7:not((xx<20)) => not((xx:NATURAL) & (ASSERT_EXPR(bool(xx<10),"xx has reached 10",xx)<20))
+4.9372386666666664E7,4.9661622333333336E7,-1.0,6.4195942666666664E7:xx:NATURAL & xx<20 => ASSERT_EXPR(bool(xx<11),"xx has reached 11",xx)+5:NATURAL
+5.2090166666666664E7,5.0261024E7,-1.0,6.5651109E7:(not(xx:NATURAL) => xx<20 => ASSERT_EXPR(bool(xx<11),"xx has reached 11",xx)+5:NATURAL)
+3.149944553333333E8,9.901999466666667E7,-1.0,7.302043533333333E7:(not(xx:NATURAL) => not(xx<20 => ASSERT_EXPR(bool(xx<11),"xx has reached 11",xx)+5:NATURAL))
+5.3662899E7,5.4559963666666664E7,-1.0,7.0789915E7:ASSERT_EXPR(bool(xx<10),"xx has reached 10",xx)<20 & xx<20 => ASSERT_EXPR(bool(ASSERT_EXPR(bool(xx<11),"xx has reached 11",xx)+5<10),"xx has reached 10",ASSERT_EXPR(bool(xx<11),"xx has reached 11",xx)+5)<20
+5.2246098666666664E7,5.1974416333333336E7,-1.0,7.1890357E7:(not(ASSERT_EXPR(bool(xx<10),"xx has reached 10",xx)<20) => xx<20 => ASSERT_EXPR(bool(ASSERT_EXPR(bool(xx<11),"xx has reached 11",xx)+5<10),"xx has reached 10",ASSERT_EXPR(bool(xx<11),"xx has reached 11",xx)+5)<20)
+1.5843427666666666E8,1.0146129633333333E8,-1.0,6.9996238E7:(not(ASSERT_EXPR(bool(xx<10),"xx has reached 10",xx)<20) => not(xx<20 => ASSERT_EXPR(bool(ASSERT_EXPR(bool(xx<11),"xx has reached 11",xx)+5<10),"xx has reached 10",ASSERT_EXPR(bool(xx<11),"xx has reached 11",xx)+5)<20))
+6.5094218333333336E7,5.8168895666666664E7,-1.0,5.7016491666666664E7:(xx:NATURAL) & (ASSERT_EXPR(bool(xx<10),"xx has reached 10",xx)<20) & (xx<20 => ASSERT_EXPR(bool(xx<11),"xx has reached 11",xx)+5:NATURAL) & (xx<20 => ASSERT_EXPR(bool(ASSERT_EXPR(bool(xx<11),"xx has reached 11",xx)+5<10),"xx has reached 10",ASSERT_EXPR(bool(xx<11),"xx has reached 11",xx)+5)<20)
+5.3303682333333336E7,5.6736521666666664E7,-1.0,7.3929536E7:(not((xx:NATURAL) & (ASSERT_EXPR(bool(xx<10),"xx has reached 10",xx)<20)) => (xx<20 => ASSERT_EXPR(bool(xx<11),"xx has reached 11",xx)+5:NATURAL) & (xx<20 => ASSERT_EXPR(bool(ASSERT_EXPR(bool(xx<11),"xx has reached 11",xx)+5<10),"xx has reached 10",ASSERT_EXPR(bool(xx<11),"xx has reached 11",xx)+5)<20))
+1.64411876E8,1.0084084933333333E8,-1.0,7.046138066666667E7:(not((xx:NATURAL) & (ASSERT_EXPR(bool(xx<10),"xx has reached 10",xx)<20)) => not((xx<20 => ASSERT_EXPR(bool(xx<11),"xx has reached 11",xx)+5:NATURAL) & (xx<20 => ASSERT_EXPR(bool(ASSERT_EXPR(bool(xx<11),"xx has reached 11",xx)+5<10),"xx has reached 10",ASSERT_EXPR(bool(xx<11),"xx has reached 11",xx)+5)<20)))

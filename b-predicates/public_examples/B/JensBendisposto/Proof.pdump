@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/JensBendisposto/Proof.mch
+1.5517916066666666E8,4.650705466666667E8,1.00233859E8,8.680310066666667E7:(AllHypotheses) & (not(Goal))
+5.9684963666666664E7,8.606851033333333E7,6.747585233333333E7,6.94762E7:(Hypotheses) & (not(Goal))
+5.3128124666666664E7,9.644559766666667E7,7.161941966666667E7,9.6788984E7:(AllHypotheses) & (not(Goal)) & (Hypotheses) & (not(Goal))
+5.7308288333333336E7,9.219184466666667E7,5.7425855E7,7.209580666666667E7:(not((AllHypotheses) & (not(Goal))) => (Hypotheses) & (not(Goal)))
+-1.0,-1.0,7.5472051E7,-1.0:(AllHypotheses) & (not(Goal)) & not((Hypotheses) & (not(Goal)))
+5.8079359666666664E7,1.4788707833333334E8,7.538754266666667E7,6.3824643333333336E7:((AllHypotheses) & (not(Goal)) => not((Hypotheses) & (not(Goal))))

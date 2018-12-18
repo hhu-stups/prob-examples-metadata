@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Tickets/LambdaUnionEnumWarning/Seq1UnionFunction.mch
+2.3079811133333334E8,9.374932866666667E7,-1.0,1.4139176966666666E8:(s=%x.(x:seq1(NATURAL)&x(1)>0|TRUE)\/%y.(y:seq1(NATURAL)&y(1)=0|FALSE)) & ({(1,[1]),(2,[0,2]),(3,[44,55,66])};s)=[TRUE,FALSE,TRUE]
+6.5607667666666664E7,6.0060477333333336E7,-1.0,6.5215020333333336E7:(s=%x.(x:seq1(NATURAL)&x(1)>0|TRUE)\/%y.(y:seq1(NATURAL)&y(1)=0|FALSE)) & not(({(1,[1]),(2,[0,2]),(3,[44,55,66])};s)=[TRUE,FALSE,TRUE])
+-1.0,-1.0,-1.0,-1.0:not((s=%x.(x:seq1(NATURAL)&x(1)>0|TRUE)\/%y.(y:seq1(NATURAL)&y(1)=0|FALSE))) => ({(1,[1]),(2,[0,2]),(3,[44,55,66])};s)=[TRUE,FALSE,TRUE]
+3.5754057666666664E7,5.6835276666666664E7,-1.0,1.3143300766666667E8:(s=%x.(x:seq1(NATURAL)&x(1)>0|TRUE)\/%y.(y:seq1(NATURAL)&y(1)=0|FALSE)) & s[{[1],[22,33]}]={TRUE}
+4.8678373666666664E7,5.6183704333333336E7,-1.0,5.3872563333333336E7:(s=%x.(x:seq1(NATURAL)&x(1)>0|TRUE)\/%y.(y:seq1(NATURAL)&y(1)=0|FALSE)) & not(s[{[1],[22,33]}]={TRUE})
+-1.0,-1.0,-1.0,-1.0:not((s=%x.(x:seq1(NATURAL)&x(1)>0|TRUE)\/%y.(y:seq1(NATURAL)&y(1)=0|FALSE))) => s[{[1],[22,33]}]={TRUE}

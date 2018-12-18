@@ -1,0 +1,4 @@
+#source:examples/prob_examples/public_examples/EventBPrologPackages/Tests/Ticket167.zip_unpacked/AbstractVarWitnessTest/concrete.bcm
+1.5138985233333334E8,7.011773866666667E7,9.557062633333333E7,6.1465078666666664E7:(is_even:BOOL) & (counter:NAT) & (is_even=bool(counter mod 2=0))
+1.57643999E8,9.495816466666667E7,9.304616633333333E7,6.6255423E7:is_even=bool(counter mod 2=0) & not(true => is_even = bool((counter + 1) mod 2 = 0))
+5.1858968666666664E7,5.2065908666666664E7,6.1345370666666664E7,5.5990314E7:(not(is_even=bool(counter mod 2=0)) => not(true => is_even = bool((counter + 1) mod 2 = 0)))

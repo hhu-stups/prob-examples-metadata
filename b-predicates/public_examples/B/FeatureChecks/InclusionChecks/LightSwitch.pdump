@@ -1,0 +1,2 @@
+#source:examples/prob_examples/public_examples/B/FeatureChecks/InclusionChecks/LightSwitch.mch
+1.2389271E8,4.608415173333333E8,1.043507E8,6.1184433E7:(light:BOOL) & (light=TRUE <=> curStatus=on)

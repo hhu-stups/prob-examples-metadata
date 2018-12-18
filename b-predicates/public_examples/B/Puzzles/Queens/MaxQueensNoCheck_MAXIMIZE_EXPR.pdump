@@ -1,0 +1,7 @@
+#source:examples/prob_examples/public_examples/B/Puzzles/Queens/MaxQueensNoCheck_MAXIMIZE_EXPR.mch
+2.31287163E8,1.6687564333333334E8,-1.0,2.50170873E8:(n=8) & (SOLUTION(nqueens,hasqueen)) & (nqueens=MAXIMIZE_EXPR(nqueens)) & (nqueens:0..64) & nqueens=42
+6.9474174E7,1.1368738533333333E8,-1.0,3.685972213333333E8:(n=8) & (SOLUTION(nqueens,hasqueen)) & (nqueens=MAXIMIZE_EXPR(nqueens)) & (nqueens:0..64) & not(nqueens=42)
+7.471040833333333E7,6.4823536666666664E7,-1.0,4.04953381E8:not((n=8) & (SOLUTION(nqueens,hasqueen)) & (nqueens=MAXIMIZE_EXPR(nqueens)) & (nqueens:0..64)) => nqueens=42
+8.4680671E7,2.1995739366666666E8,-1.0,5.535343796666666E8:(n=8) & (SOLUTION(nqueens,hasqueen)) & (nqueens=MAXIMIZE_EXPR(nqueens)) & (nqueens:0..64) & (nqueens=42)
+9.788623733333333E7,1.52299814E8,-1.0,9.628673686666666E8:(n=8) & (SOLUTION(nqueens,hasqueen)) & (nqueens=MAXIMIZE_EXPR(nqueens)) & (nqueens:0..64) & not((nqueens=42))
+5.3903037E7,6.6896123E7,-1.0,5.666353006666666E8:not((n=8) & (SOLUTION(nqueens,hasqueen)) & (nqueens=MAXIMIZE_EXPR(nqueens)) & (nqueens:0..64)) => (nqueens=42)

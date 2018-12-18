@@ -1,0 +1,6 @@
+#source:examples/prob_examples/public_examples/B/ErrorMachines/UndefinedSeqOperations/LastEmptySeq.mch
+5.2264421E7,9.6408582E7,8.705618233333333E7,8.7910597E7:(xx:ID)
+5.4072541666666664E7,6.0000274E7,9.9082386E7,4.897918E7:not((iv:seq(ID)) & (last(iv)=aa) & (xx:ID)) => (yy:ID)
+5.5690275666666664E7,6.1085933333333336E7,1.0173272266666667E8,5.0213485333333336E7:not((iv:seq(ID)) & (last(iv)=aa) & (yy:ID)) => (xx:ID)
+4.7644932333333336E7,4.7882509E7,6.5260696333333336E7,5.203739E7:not((iv:seq(ID)) & (last(iv)=aa) & not((yy:ID))) => (xx:ID)
+5.5369471E7,6.1568467333333336E7,1.0469045466666667E8,5.2465284333333336E7:not((iv:seq(ID)) & (last(iv)=aa) & not((xx:ID))) => (yy:ID)
